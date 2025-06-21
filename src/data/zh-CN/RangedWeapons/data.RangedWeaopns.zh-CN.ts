@@ -6,8 +6,9 @@ import {LaunchersList} from "./data.Launchers.zh-CN.ts";
 import {OtherRangedWeaponsList} from "./data.OtherRangedWeapons.zh-CN.ts";
 import {OtherBulletsList} from "./data.OtherBullets.zh-CN.ts";
 import {ConsumablesList} from "./data.Consumables.zh-CN.ts";
+import {GunsList} from "./data.Guns.zh-CN.ts";
 
 
 export const RangedWeaponsList = [
-    ...BowsList,...RepeatersList,...ArrowsList,...BulletsList,...LaunchersList,...OtherRangedWeaponsList,...OtherBulletsList,...ConsumablesList
+    ...BowsList,...RepeatersList,...ArrowsList,...GunsList,...BulletsList,...LaunchersList,...OtherRangedWeaponsList,...OtherBulletsList,...ConsumablesList
 ]
