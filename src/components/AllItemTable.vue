@@ -11,12 +11,15 @@ import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/data.RangedWeaopns.
 import {MagicWeaponsList} from "../data/zh-CN/MagicWeapons/data.MagicWeaopns.zh-CN.ts";
 import {SummoningWeaponsList} from "../data/zh-CN/SummoningWeapons/data.SummoningWeapons.zh-CN.ts";
 import {AccessoriesList} from "../data/zh-CN/Accessories/data.Accessories.zh-CN.ts";
+import {ArmorList} from "../data/zh-CN/Armor/data.Armor.zh-CN.ts";
+import {VanityItemsList} from "../data/zh-CN/VanityItems/data.VanityItems.zh-CN.ts";
 
-const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList,...SummoningWeaponsList,...AccessoriesList];
+const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList,
+  ...SummoningWeaponsList,...AccessoriesList,...ArmorList,...VanityItemsList];
 const itemListRef = ref(ItemList);
 
 
-const selectedMainCategory = ref('');
+const selectedMainCategory = ref('近战武器');
 
 //动态过滤后的列表
 const filteredItemList = computed(() => {
