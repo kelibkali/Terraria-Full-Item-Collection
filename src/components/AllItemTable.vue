@@ -5,10 +5,11 @@ import {ElTable, ElTableColumn} from 'element-plus';
 import type {Item} from "../data/Interface.ts";
 
 import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
-import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeaopns/dataMeleeWeaopns.zh-CN.ts";
+import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeapons/dataMeleeWeaopns.zh-CN.ts";
+import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/dataRangedWeaopns.zh-CN.ts";
 
-const ItemList = [...MeleeWeaopnsList];
-
+const ItemList = [...MeleeWeaopnsList,...RangedWeaponsList];
+console.log(RangedWeaponsList);
 const itemListRef = ref(ItemList);
 
 
@@ -94,7 +95,7 @@ const formatDate = (date: Date):string => {
             </a>
           </template>
         </el-table-column>
-        <el-table-column prop="id" label="物品ID" width="100" align="center"></el-table-column>
+        <el-table-column prop="id" sortable label="物品ID" width="100" align="center"></el-table-column>
         <el-table-column prop="name" label="名称" width="200" align="center"></el-table-column>
         <el-table-column label="分类" width="200" align="center">
           <template #default="scope">

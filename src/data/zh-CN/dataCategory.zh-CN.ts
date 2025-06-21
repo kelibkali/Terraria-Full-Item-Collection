@@ -11,7 +11,7 @@ import {
     Yoyos
 } from "./dataSubcategory.zh-CN.ts";
 
-export const MeleeWeaopns:Category={
+export const MeleeWeapons:Category={
     value:"近战武器",
     label:"近战武器",
     children:[
@@ -41,5 +41,5 @@ export const RangedWeapons:Category={
 }
 
 export const Categories:Category[]=[
-    MeleeWeaopns,RangedWeapons
+    MeleeWeapons,RangedWeapons
 ]

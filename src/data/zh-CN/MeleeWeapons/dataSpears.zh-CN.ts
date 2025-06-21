@@ -1,25 +1,25 @@
 import type {Item} from "../../Interface.ts";
 
-import AdamantiteGlaiveImg from "../../../assets/icon/MeleeWeaopns/Spears/Adamantite_Glaive.webp"
-import ChlorophytePartisanImg from "../../../assets/icon/MeleeWeaopns/Spears/Chlorophyte_Partisan.webp"
-import CobaltNaginataImg from "../../../assets/icon/MeleeWeaopns/Spears/Cobalt_Naginata.webp"
-import DarkLanceImg from "../../../assets/icon/MeleeWeaopns/Spears/Dark_Lance.webp"
-import GhastlyGlaiveImg from "../../../assets/icon/MeleeWeaopns/Spears/Ghastly_Glaive.webp"
-import GungnirImg from "../../../assets/icon/MeleeWeaopns/Spears/Gungnir.webp"
-import MushroomSpearImg from "../../../assets/icon/MeleeWeaopns/Spears/Mushroom_Spear.webp"
-import MythrilHalberdImg from "../../../assets/icon/MeleeWeaopns/Spears/Mythril_Halberd.webp"
-import NorthPoleImg from "../../../assets/icon/MeleeWeaopns/Spears/North_Pole.webp"
-import ObsidianSwordfishImg from "../../../assets/icon/MeleeWeaopns/Spears/Obsidian_Swordfish.webp"
-import OrichalcumHalberdImg from "../../../assets/icon/MeleeWeaopns/Spears/Orichalcum_Halberd.webp"
-import PalladiumPikeImg from "../../../assets/icon/MeleeWeaopns/Spears/Palladium_Pike.webp"
-import SpearImg from "../../../assets/icon/MeleeWeaopns/Spears/Spear.webp"
-import StormSpearImg from "../../../assets/icon/MeleeWeaopns/Spears/Storm_Spear.webp"
-import SwordfishImg from "../../../assets/icon/MeleeWeaopns/Spears/Swordfish.webp"
-import TheRottedForkImg from "../../../assets/icon/MeleeWeaopns/Spears/The_Rotted_Fork.webp"
-import TitaniumTridentImg from "../../../assets/icon/MeleeWeaopns/Spears/Titanium_Trident.webp"
-import TridentImg from "../../../assets/icon/MeleeWeaopns/Spears/Trident.webp"
+import AdamantiteGlaiveImg from "../../../assets/icon/MeleeWeapons/Spears/Adamantite_Glaive.webp"
+import ChlorophytePartisanImg from "../../../assets/icon/MeleeWeapons/Spears/Chlorophyte_Partisan.webp"
+import CobaltNaginataImg from "../../../assets/icon/MeleeWeapons/Spears/Cobalt_Naginata.webp"
+import DarkLanceImg from "../../../assets/icon/MeleeWeapons/Spears/Dark_Lance.webp"
+import GhastlyGlaiveImg from "../../../assets/icon/MeleeWeapons/Spears/Ghastly_Glaive.webp"
+import GungnirImg from "../../../assets/icon/MeleeWeapons/Spears/Gungnir.webp"
+import MushroomSpearImg from "../../../assets/icon/MeleeWeapons/Spears/Mushroom_Spear.webp"
+import MythrilHalberdImg from "../../../assets/icon/MeleeWeapons/Spears/Mythril_Halberd.webp"
+import NorthPoleImg from "../../../assets/icon/MeleeWeapons/Spears/North_Pole.webp"
+import ObsidianSwordfishImg from "../../../assets/icon/MeleeWeapons/Spears/Obsidian_Swordfish.webp"
+import OrichalcumHalberdImg from "../../../assets/icon/MeleeWeapons/Spears/Orichalcum_Halberd.webp"
+import PalladiumPikeImg from "../../../assets/icon/MeleeWeapons/Spears/Palladium_Pike.webp"
+import SpearImg from "../../../assets/icon/MeleeWeapons/Spears/Spear.webp"
+import StormSpearImg from "../../../assets/icon/MeleeWeapons/Spears/Storm_Spear.webp"
+import SwordfishImg from "../../../assets/icon/MeleeWeapons/Spears/Swordfish.webp"
+import TheRottedForkImg from "../../../assets/icon/MeleeWeapons/Spears/The_Rotted_Fork.webp"
+import TitaniumTridentImg from "../../../assets/icon/MeleeWeapons/Spears/Titanium_Trident.webp"
+import TridentImg from "../../../assets/icon/MeleeWeapons/Spears/Trident.webp"
 
-import {MeleeWeaopns} from "../dataCategory.zh-CN.ts";
+import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
 import {Spears} from "../dataSubcategory.zh-CN.ts";
 
 export const Spear:Item={
@@ -27,7 +27,7 @@ export const Spear:Item={
     isCollection:false,
     id:280,
     name: "长矛",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -37,7 +37,7 @@ export const StormSpear:Item={
     isCollection:false,
     id:4061,
     name: "风暴长矛",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -47,7 +47,7 @@ export const Trident:Item={
     isCollection:false,
     id:277,
     name: "三叉戟",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -57,7 +57,7 @@ export const TheRottedFork:Item={
     isCollection:false,
     id:802,
     name: "腐叉",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -67,7 +67,7 @@ export const Swordfish:Item={
     isCollection:false,
     id:2332,
     name: "剑鱼",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -77,7 +77,7 @@ export const DarkLance:Item={
     isCollection:false,
     id:274,
     name: "暗黑长枪",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -87,7 +87,7 @@ export const CobaltNaginata:Item={
     isCollection:false,
     id:537,
     name: "钴薙刀",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -97,7 +97,7 @@ export const PalladiumPike:Item={
     isCollection:false,
     id:1186,
     name: "钯金刺矛",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -107,7 +107,7 @@ export const MythrilHalberd:Item={
     isCollection:false,
     id:390,
     name: "秘银长戟",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -117,7 +117,7 @@ export const OrichalcumHalberd:Item={
     isCollection:false,
     id:1193,
     name: "山铜长戟",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -127,7 +127,7 @@ export const AdamantiteGlaive:Item={
     isCollection:false,
     id:406,
     name: "精金关刀",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -137,7 +137,7 @@ export const TitaniumTrident:Item={
     isCollection:false,
     id:1200,
     name: "钛金三叉戟",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -147,7 +147,7 @@ export const ObsidianSwordfish:Item={
     isCollection:false,
     id:2331,
     name: "黑曜石剑鱼",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -157,7 +157,7 @@ export const Gungnir:Item={
     isCollection:false,
     id:550,
     name: "永恒之枪",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -167,7 +167,7 @@ export const MushroomSpear:Item={
     isCollection:false,
     id:756,
     name: "蘑菇长矛",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -177,7 +177,7 @@ export const GhastlyGlaive:Item={
     isCollection:false,
     id:3836,
     name: "恐怖关刀",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -187,7 +187,7 @@ export const ChlorophytePartisan:Item={
     isCollection:false,
     id:1228,
     name: "叶绿镋",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
@@ -197,7 +197,7 @@ export const NorthPole:Item={
     isCollection:false,
     id:1947,
     name: "北极",
-    Category:MeleeWeaopns,
+    Category:MeleeWeapons,
     Subcategory:Spears,
     comments:'',
 }
