@@ -15,8 +15,8 @@ import TerragrimImg from "../../../assets/icon/MeleeWeapons/Other/Terragrim.webp
 import VampireKnivesImg from "../../../assets/icon/MeleeWeapons/Other/Vampire_Knives.webp"
 import ZenithImg from "../../../assets/icon/MeleeWeapons/Other/Zenith.webp"
 
-import {MeleeWeapons} from "../data.Category.zh-CN.ts";
-import {OtherMeleeWeapon} from "../data.Subcategory.zh-CN.ts";
+import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
+import {OtherMeleeWeapon} from "../dataSubcategory.zh-CN.ts";
 
 export const Terragrim:Item={
     icon:TerragrimImg,

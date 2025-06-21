@@ -17,8 +17,8 @@ import ThornChakramImg from "../../../assets/icon/MeleeWeapons/Boomerangs/Thorn_
 import TrimarangImg from "../../../assets/icon/MeleeWeapons/Boomerangs/Trimarang.webp"
 import WoodenBoomerangImg from "../../../assets/icon/MeleeWeapons/Boomerangs/Wooden_Boomerang.webp"
 
-import {MeleeWeapons} from "../data.Category.zh-CN.ts";
-import {Boomerangs} from "../data.Subcategory.zh-CN.ts";
+import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
+import {Boomerangs} from "../dataSubcategory.zh-CN.ts";
 
 export const WoodenBoomerang: Item = {
     icon: WoodenBoomerangImg,

@@ -5,6 +5,6 @@ import {BoomerangsList} from "./data.Boomerangs.zh-CN.ts";
 import {YoyosList} from "./data.Yoyos.zh-CN.ts";
 import {OtherMeleeWeaponList} from "./data.Other.zh-CN.ts";
 
-export const MeleeWeaopnsList = [
+export const MeleeWeaponsList = [
     ...SwordsList,...FlailsList,...SpearsList,...BoomerangsList,...YoyosList,...OtherMeleeWeaponList
 ]

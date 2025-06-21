@@ -16,8 +16,8 @@ import MaceImg from "../../../assets/icon/MeleeWeapons/Flails/Mace.webp"
 import SunfuryImg from "../../../assets/icon/MeleeWeapons/Flails/Sunfury.webp"
 import TheMeatballImg from "../../../assets/icon/MeleeWeapons/Flails/The_Meatball.webp"
 
-import {MeleeWeapons} from "../data.Category.zh-CN.ts";
-import {Flails} from "../data.Subcategory.zh-CN.ts";
+import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
+import {Flails} from "../dataSubcategory.zh-CN.ts";
 
 export const ChainKnife:Item={
     icon:ChainKnifeImg,

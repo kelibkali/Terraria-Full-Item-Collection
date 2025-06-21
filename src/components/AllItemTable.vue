@@ -4,12 +4,13 @@ import {computed, ref} from "vue";
 import {ElTable, ElTableColumn} from 'element-plus';
 import type {Item} from "../data/Interface.ts";
 
-import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
-import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeapons/data.MeleeWeaopns.zh-CN.ts";
-import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/data.RangedWeaopns.zh-CN.ts";
+import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
 
-const ItemList = [...MeleeWeaopnsList,...RangedWeaponsList];
-console.log(RangedWeaponsList);
+import {MeleeWeaponsList} from "../data/zh-CN/MeleeWeapons/data.MeleeWeaopns.zh-CN.ts";
+import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/data.RangedWeaopns.zh-CN.ts";
+import {MagicWeaponsList} from "../data/zh-CN/MagicWeapons/data.MagicWeaopns.zh-CN.ts";
+
+const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList];
 const itemListRef = ref(ItemList);
 
 
@@ -18,7 +19,7 @@ const selectedMainCategory = ref('');
 //动态过滤后的列表
 const filteredItemList = computed(() => {
   if (!selectedMainCategory.value) return itemListRef.value;
-  return itemListRef.value.filter(item => {
+  return itemListRef.value.filter((item:Item) => {
     // 匹配一级分类 或 二级分类
     return item.Category.value === selectedMainCategory.value ||
         item.Subcategory.value === selectedMainCategory.value;
@@ -26,7 +27,7 @@ const filteredItemList = computed(() => {
 });
 
 const collectedCount = computed(() => {
-  return filteredItemList.value.reduce((count, item) => count + (item.isCollection ? 1 : 0), 0);
+  return filteredItemList.value.reduce((count:number, item:Item) => count + (item?.isCollection ? 1 : 0), 0);
 })
 
 const completionPercentage = computed(() => {
@@ -78,7 +79,7 @@ const formatDate = (date: Date):string => {
           :data="filteredItemList"
           border
           height="700"
-          style="width: 1160px"
+          style="width: 1260px"
           row-key="id"
 
       >
@@ -102,14 +103,14 @@ const formatDate = (date: Date):string => {
             {{ scope.row.Category.label }}
           </template>
         </el-table-column>
-        <el-table-column label="子类" width="100" align="center">
+        <el-table-column label="子类" width="150" align="center">
           <template #default="scope">
             {{ scope.row.Subcategory.label }}
           </template>
         </el-table-column>
         <el-table-column prop="collectionDate" label="收集时间" width="180" align="center">
         </el-table-column>
-        <el-table-column prop="comments" label="备注" align="center" width="200">
+        <el-table-column prop="comments" label="备注" align="center" width="250">
         </el-table-column>
       </el-table>
     </el-main>

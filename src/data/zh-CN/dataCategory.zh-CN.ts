@@ -3,13 +3,13 @@ import {
     Arrows,
     Boomerangs,
     Bows, Bullets, Consumables,
-    Flails, Guns, Launchers, OtherBullets,
+    Flails, Guns, Launchers, MagicGuns, OtherBullets, OtherMagicWeapons,
     OtherMeleeWeapon, OtherRangedWeapons,
     Repeaters,
-    Spears,
-    Swords,
+    Spears, SpellBooks,
+    Swords, Wands,
     Yoyos
-} from "./data.Subcategory.zh-CN.ts";
+} from "./dataSubcategory.zh-CN.ts";
 
 export const MeleeWeapons:Category={
     value:"近战武器",
@@ -40,6 +40,17 @@ export const RangedWeapons:Category={
     ]
 }
 
+export const MagicWeapons:Category={
+    value:"魔法武器",
+    label:"魔法武器",
+    children:[
+        Wands,
+        SpellBooks,
+        MagicGuns,
+        OtherMagicWeapons
+    ]
+}
+
 export const Categories:Category[]=[
-    MeleeWeapons,RangedWeapons
+    MeleeWeapons,RangedWeapons,MagicWeapons
 ]

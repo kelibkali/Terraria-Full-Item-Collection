@@ -18,8 +18,8 @@ import StarCannonImg from "../../../assets/icon/RangedWeapons/OtherRangedWeapons
 import SuperStarShooterImg from "../../../assets/icon/RangedWeapons/OtherRangedWeapons/Super_Star_Shooter.webp"
 import ToxikarpImg from "../../../assets/icon/RangedWeapons/OtherRangedWeapons/Toxikarp.webp"
 
-import {RangedWeapons} from "../data.Category.zh-CN.ts";
-import {OtherRangedWeapons} from "../data.Subcategory.zh-CN.ts";
+import {RangedWeapons} from "../dataCategory.zh-CN.ts";
+import {OtherRangedWeapons} from "../dataSubcategory.zh-CN.ts";
 
 export const Blowpipe: Item = {
     icon: BlowpipeImg,

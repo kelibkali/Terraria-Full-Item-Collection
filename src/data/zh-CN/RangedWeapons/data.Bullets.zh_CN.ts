@@ -18,8 +18,8 @@ import SilverBulletImg from "../../../assets/icon/RangedWeapons/Bullets/Silver_B
 import TungstenBulletImg from "../../../assets/icon/RangedWeapons/Bullets/Tungsten_Bullet.webp"
 import VenomBulletImg from "../../../assets/icon/RangedWeapons/Bullets/Venom_Bullet.webp"
 
-import {RangedWeapons} from "../data.Category.zh-CN.ts";
-import {Bullets} from "../data.Subcategory.zh-CN.ts";
+import {RangedWeapons} from "../dataCategory.zh-CN.ts";
+import {Bullets} from "../dataSubcategory.zh-CN.ts";
 
 export const MusketBall:Item={
     icon:MusketBallImg,

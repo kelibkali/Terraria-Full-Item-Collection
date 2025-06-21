@@ -74,3 +74,23 @@ export const Consumables:Subcategory={
     value:"投掷",
     label:"投掷"
 }
+
+export const Wands:Subcategory={
+    value:"魔杖",
+    label:"魔杖"
+}
+
+export const SpellBooks:Subcategory={
+    value:"魔法书",
+    label:"魔法书"
+}
+
+export const MagicGuns:Subcategory={
+    value:"魔法枪",
+    label:"魔法枪"
+}
+
+export const OtherMagicWeapons:Subcategory={
+    value:"其他魔法武器",
+    label:"其他魔法武器"
+}

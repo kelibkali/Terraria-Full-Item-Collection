@@ -20,8 +20,8 @@ import StickyGrenadeImg from "../../../assets/icon/RangedWeapons/Consumables/Sti
 import ThrowingKnifeImg from "../../../assets/icon/RangedWeapons/Consumables/Throwing_Knife.webp"
 import WhitePaperAirplaneImg from "../../../assets/icon/RangedWeapons/Consumables/White_Paper_Airplane.webp"
 
-import {RangedWeapons} from "../data.Category.zh-CN.ts";
-import {Consumables} from "../data.Subcategory.zh-CN.ts";
+import {RangedWeapons} from "../dataCategory.zh-CN.ts";
+import {Consumables} from "../dataSubcategory.zh-CN.ts";
 
 export const PaperAirplane:Item={
         icon:PaperAirplaneImg,
