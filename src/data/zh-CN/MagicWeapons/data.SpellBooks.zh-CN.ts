@@ -10,8 +10,8 @@ import MagnetSphereImg from "../../../assets/icon/MagicWeapons/SpellBooks/Magnet
 import RazorbladeTyphoonImg from "../../../assets/icon/MagicWeapons/SpellBooks/Razorblade_Typhoon.webp"
 import WaterBoltImg from "../../../assets/icon/MagicWeapons/SpellBooks/Water_Bolt.webp"
 
-import {MagicWeapons} from "../dataCategory.zh-CN.ts";
-import {SpellBooks} from "../dataSubcategory.zh-CN.ts";
+import {MagicWeapons} from "../data.Category.zh-CN.ts";
+import {SpellBooks} from "../data.Subcategory.zh-CN.ts";
 
 export const WaterBolt:Item={
         icon:WaterBoltImg,

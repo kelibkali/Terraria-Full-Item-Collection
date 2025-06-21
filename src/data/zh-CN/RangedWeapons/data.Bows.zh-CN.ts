@@ -33,8 +33,8 @@ import TsunamiImg from "../../../assets/icon/RangedWeapons/BowsAndRepeaters/Tsun
 import TungstenBowImg from "../../../assets/icon/RangedWeapons/BowsAndRepeaters/Tungsten_Bow.webp"
 import WoodenBowImg from "../../../assets/icon/RangedWeapons/BowsAndRepeaters/Wooden_Bow.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {Bows} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {Bows} from "../data.Subcategory.zh-CN.ts";
 
 export const WoodenBow:Item={
     icon:WoodenBowImg,

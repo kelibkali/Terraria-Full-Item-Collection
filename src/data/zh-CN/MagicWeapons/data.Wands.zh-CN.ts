@@ -40,8 +40,8 @@ import WandofSparkingImg from "../../../assets/icon/MagicWeapons/Wands/Wand_of_S
 import WeatherPainImg from "../../../assets/icon/MagicWeapons/Wands/Weather_Pain.webp"
 import IceRodImg from "../../../assets/icon/MagicWeapons/Wands/Ice_Rod.webp"
 
-import {MagicWeapons} from "../dataCategory.zh-CN.ts";
-import {Wands} from "../dataSubcategory.zh-CN.ts";
+import {MagicWeapons} from "../data.Category.zh-CN.ts";
+import {Wands} from "../data.Subcategory.zh-CN.ts";
 
 export const WandofSparking:Item={
         icon:WandofSparkingImg,

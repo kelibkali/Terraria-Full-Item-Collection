@@ -26,8 +26,8 @@ import VenusMagnumImg from "../../../assets/icon/RangedWeapons/Guns/Venus_Magnum
 import VortexBeaterImg from "../../../assets/icon/RangedWeapons/Guns/Vortex_Beater.webp"
 import XenopopperImg from "../../../assets/icon/RangedWeapons/Guns/Xenopopper.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {Guns} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {Guns} from "../data.Subcategory.zh-CN.ts";
 
 export const Minishark: Item = {
     icon: MinisharkImg,

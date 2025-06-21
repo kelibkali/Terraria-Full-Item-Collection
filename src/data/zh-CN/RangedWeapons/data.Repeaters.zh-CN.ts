@@ -10,8 +10,8 @@ import PalladiumRepeaterImg from "../../../assets/icon/RangedWeapons/BowsAndRepe
 import StakeLauncherImg from "../../../assets/icon/RangedWeapons/BowsAndRepeaters/Stake_Launcher.webp"
 import TitaniumRepeaterImg from "../../../assets/icon/RangedWeapons/BowsAndRepeaters/Titanium_Repeater.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {Repeaters} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {Repeaters} from "../data.Subcategory.zh-CN.ts";
 
 export const CobaltRepeater:Item={
     icon:CobaltRepeaterImg,

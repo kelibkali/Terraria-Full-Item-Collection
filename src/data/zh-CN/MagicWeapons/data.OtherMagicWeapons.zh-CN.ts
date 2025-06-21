@@ -16,8 +16,8 @@ import SpiritFlameImg from "../../../assets/icon/MagicWeapons/OtherMagicWeapons/
 import StellarTuneImg from "../../../assets/icon/MagicWeapons/OtherMagicWeapons/Stellar_Tune.webp"
 import ToxicFlaskImg from "../../../assets/icon/MagicWeapons/OtherMagicWeapons/Toxic_Flask.webp"
 
-import {MagicWeapons} from "../dataCategory.zh-CN.ts";
-import {OtherMagicWeapons} from "../dataSubcategory.zh-CN.ts";
+import {MagicWeapons} from "../data.Category.zh-CN.ts";
+import {OtherMagicWeapons} from "../data.Subcategory.zh-CN.ts";
 
 export const CrimsonRod:Item={
         icon:CrimsonRodImg,

@@ -19,8 +19,8 @@ import TheRottedForkImg from "../../../assets/icon/MeleeWeapons/Spears/The_Rotte
 import TitaniumTridentImg from "../../../assets/icon/MeleeWeapons/Spears/Titanium_Trident.webp"
 import TridentImg from "../../../assets/icon/MeleeWeapons/Spears/Trident.webp"
 
-import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
-import {Spears} from "../dataSubcategory.zh-CN.ts";
+import {MeleeWeapons} from "../data.Category.zh-CN.ts";
+import {Spears} from "../data.Subcategory.zh-CN.ts";
 
 export const Spear:Item={
     icon:SpearImg,

@@ -101,8 +101,8 @@ import WhitePhasesaberImg from "../../../assets/icon/MeleeWeapons/Swords/White_P
 import GreenPhasesaberImg from "../../../assets/icon/MeleeWeapons/Swords/Green_Phasesaber.webp"
 import OrangePhasesaberImg from "../../../assets/icon/MeleeWeapons/Swords/Orange_Phasesaber.webp"
 
-import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
-import {Swords} from "../dataSubcategory.zh-CN.ts";
+import {MeleeWeapons} from "../data.Category.zh-CN.ts";
+import {Swords} from "../data.Subcategory.zh-CN.ts";
 
 
 export const CopperShortsword:Item={

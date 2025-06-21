@@ -4,13 +4,15 @@ import {computed, ref} from "vue";
 import {ElTable, ElTableColumn} from 'element-plus';
 import type {Item} from "../data/Interface.ts";
 
-import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
+import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
 
 import {MeleeWeaponsList} from "../data/zh-CN/MeleeWeapons/data.MeleeWeaopns.zh-CN.ts";
 import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/data.RangedWeaopns.zh-CN.ts";
 import {MagicWeaponsList} from "../data/zh-CN/MagicWeapons/data.MagicWeaopns.zh-CN.ts";
+import {SummoningWeaponsList} from "../data/zh-CN/SummoningWeapons/data.SummoningWeapons.zh-CN.ts";
+import {AccessoriesList} from "../data/zh-CN/Accessories/data.Accessories.zh-CN.ts";
 
-const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList];
+const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList,...SummoningWeaponsList,...AccessoriesList];
 const itemListRef = ref(ItemList);
 
 
@@ -81,7 +83,7 @@ const formatDate = (date: Date):string => {
           height="700"
           style="width: 1260px"
           row-key="id"
-
+          lazy
       >
         <el-table-column label="已收集"  width="80" align="center">
           <template #default="scope">

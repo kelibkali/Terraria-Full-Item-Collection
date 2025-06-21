@@ -26,8 +26,8 @@ import StyngerImg from "../../../assets/icon/RangedWeapons/Launchers/Stynger.web
 import StyngerBoltImg from "../../../assets/icon/RangedWeapons/Launchers/Stynger_Bolt.webp"
 import WetRocketImg from "../../../assets/icon/RangedWeapons/Launchers/Wet_Rocket.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {Launchers} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {Launchers} from "../data.Subcategory.zh-CN.ts";
 
 export const GrenadeLauncher: Item = {
     icon: GrenadeLauncherImg,

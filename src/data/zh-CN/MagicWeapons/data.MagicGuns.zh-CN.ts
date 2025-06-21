@@ -13,8 +13,8 @@ import RainbowGunImg from "../../../assets/icon/MagicWeapons/MagicGuns/Rainbow_G
 import SpaceGunImg from "../../../assets/icon/MagicWeapons/MagicGuns/Space_Gun.webp"
 import WaspGunImg from "../../../assets/icon/MagicWeapons/MagicGuns/Wasp_Gun.webp"
 
-import {MagicWeapons} from "../dataCategory.zh-CN.ts";
-import {MagicGuns} from "../dataSubcategory.zh-CN.ts";
+import { MagicWeapons } from "../data.Category.zh-CN.ts";
+import { MagicGuns } from "../data.Subcategory.zh-CN.ts";
 
 export const SpaceGun: Item = {
     icon: SpaceGunImg,

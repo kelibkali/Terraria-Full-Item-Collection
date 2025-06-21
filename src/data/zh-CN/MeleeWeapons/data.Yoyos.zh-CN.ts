@@ -22,8 +22,8 @@ import ValorImg from "../../../assets/icon/MeleeWeapons/Yoyos/Valor.webp"
 import WoodenYoyoImg from "../../../assets/icon/MeleeWeapons/Yoyos/Wooden_Yoyo.webp"
 import YeletsImg from "../../../assets/icon/MeleeWeapons/Yoyos/Yelets.webp"
 
-import {MeleeWeapons} from "../dataCategory.zh-CN.ts";
-import {Yoyos} from "../dataSubcategory.zh-CN.ts";
+import {MeleeWeapons} from "../data.Category.zh-CN.ts";
+import {Yoyos} from "../data.Subcategory.zh-CN.ts";
 
 export const WoodenYoyo:Item={
     icon:WoodenYoyoImg,

@@ -16,8 +16,8 @@ import ShimmerFlareImg from "../../../assets/icon/RangedWeapons/OtherBullets/Shi
 import SpelunkerFlareImg from "../../../assets/icon/RangedWeapons/OtherBullets/Spelunker_Flare.webp"
 import YellowRocketImg from "../../../assets/icon/RangedWeapons/OtherBullets/Yellow_Rocket.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {OtherBullets} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {OtherBullets} from "../data.Subcategory.zh-CN.ts";
 
 export const Flare:Item={
         icon:FlareImg,
