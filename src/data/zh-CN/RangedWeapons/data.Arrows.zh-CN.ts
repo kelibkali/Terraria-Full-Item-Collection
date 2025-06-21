@@ -17,8 +17,8 @@ import VenomArrowImg from "../../../assets/icon/RangedWeapons/Arrows/Venom_Arrow
 import LuminiteArrowImg from "../../../assets/icon/RangedWeapons/Arrows/Luminite_Arrow.webp"
 import StakeImg from "../../../assets/icon/RangedWeapons/Arrows/Stake.webp"
 
-import {RangedWeapons} from "../dataCategory.zh-CN.ts";
-import {Arrows} from "../dataSubcategory.zh-CN.ts";
+import {RangedWeapons} from "../data.Category.zh-CN.ts";
+import {Arrows} from "../data.Subcategory.zh-CN.ts";
 
 export const WoodenArrow: Item = {
     icon: WoodenArrowImg,

@@ -1,0 +1,188 @@
+import type {Item} from "../../Interface.ts";
+
+import AnchorImg from "../../../assets/icon/MeleeWeapons/Flails/Anchor.webp"
+import BallOHurtImg from "../../../assets/icon/MeleeWeapons/Flails/Ball_O_Hurt.webp"
+import BlueMoonImg from "../../../assets/icon/MeleeWeapons/Flails/Blue_Moon.webp"
+import ChainGuillotinesImg from "../../../assets/icon/MeleeWeapons/Flails/Chain_Guillotines.webp"
+import ChainKnifeImg from "../../../assets/icon/MeleeWeapons/Flails/Chain_Knife.webp"
+import DaoofPowImg from "../../../assets/icon/MeleeWeapons/Flails/Dao_of_Pow.webp"
+import DripplerCripplerImg from "../../../assets/icon/MeleeWeapons/Flails/Drippler_Crippler.webp"
+import FlaironImg from "../../../assets/icon/MeleeWeapons/Flails/Flairon.webp"
+import FlamingMaceImg from "../../../assets/icon/MeleeWeapons/Flails/Flaming_Mace.webp"
+import FlowerPowImg from "../../../assets/icon/MeleeWeapons/Flails/Flower_Pow.webp"
+import GolemFistImg from "../../../assets/icon/MeleeWeapons/Flails/Golem_Fist.webp"
+import KOCannonImg from "../../../assets/icon/MeleeWeapons/Flails/KO_Cannon.webp"
+import MaceImg from "../../../assets/icon/MeleeWeapons/Flails/Mace.webp"
+import SunfuryImg from "../../../assets/icon/MeleeWeapons/Flails/Sunfury.webp"
+import TheMeatballImg from "../../../assets/icon/MeleeWeapons/Flails/The_Meatball.webp"
+
+import {MeleeWeapons} from "../data.Category.zh-CN.ts";
+import {Flails} from "../data.Subcategory.zh-CN.ts";
+
+export const ChainKnife:Item={
+    icon:ChainKnifeImg,
+    isCollection:false,
+    id:1325,
+    name: "链刀",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const Mace:Item={
+    icon:MaceImg,
+    isCollection:false,
+    id:5011,
+    name: "链锤",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const FlamingMace:Item={
+    icon:FlamingMaceImg,
+    isCollection:false,
+    id:5012,
+    name: "烈焰链锤",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const BallOHurt:Item={
+icon:BallOHurtImg,
+isCollection:false,
+    id:162,
+    name: "链球",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const TheMeatball:Item={
+    icon:TheMeatballImg,
+    isCollection:false,
+    id:801,
+    name: "血肉之球",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const BlueMoon:Item={
+    icon:BlueMoonImg,
+    isCollection:false,
+    id:163,
+    name: "蓝月",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const Sunfury:Item={
+    icon:SunfuryImg,
+    isCollection:false,
+    id:220,
+    name: "阳炎之怒",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const ChainGuillotines:Item={
+    icon:ChainGuillotinesImg,
+    isCollection:false,
+    id:3012,
+    name: "铁链血滴子",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const DaoofPow:Item={
+    icon:DaoofPowImg,
+    isCollection:false,
+    id:389,
+    name: "太极连枷",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const Anchor:Item={
+    icon:AnchorImg,
+    isCollection:false,
+    id:2424,
+    name: "锚",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const KOCannon:Item={
+    icon:KOCannonImg,
+    isCollection:false,
+    id:1314,
+    name: "致胜炮",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const DripplerCrippler:Item={
+    icon:DripplerCripplerImg,
+    isCollection:false,
+    id:4272,
+    name: "滴滴怪致残者",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const FlowerPow:Item={
+    icon:FlowerPowImg,
+    isCollection:false,
+    id:1259,
+    name: "花之力",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const GolemFist:Item={
+    icon:GolemFistImg,
+    isCollection:false,
+    id:1297,
+    name: "石巨人之拳",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const Flairon:Item={
+    icon:FlaironImg,
+    isCollection:false,
+    id:2611,
+    name: "猪鲨链球",
+    Category:MeleeWeapons,
+    Subcategory:Flails,
+    comments:'',
+}
+
+export const FlailsList =[
+    ChainKnife,
+    Mace,
+    FlamingMace,
+    BallOHurt,
+    TheMeatball,
+    BlueMoon,
+    Sunfury,
+    ChainGuillotines,
+    DaoofPow,
+    Anchor,
+    KOCannon,
+    DripplerCrippler,
+    FlowerPow,
+    GolemFist,
+    Flairon
+]

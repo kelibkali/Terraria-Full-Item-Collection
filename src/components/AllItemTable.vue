@@ -4,9 +4,9 @@ import {computed, ref} from "vue";
 import {ElTable, ElTableColumn} from 'element-plus';
 import type {Item} from "../data/Interface.ts";
 
-import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
-import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeapons/dataMeleeWeaopns.zh-CN.ts";
-import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/dataRangedWeaopns.zh-CN.ts";
+import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
+import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeapons/data.MeleeWeaopns.zh-CN.ts";
+import {RangedWeaponsList} from "../data/zh-CN/RangedWeapons/data.RangedWeaopns.zh-CN.ts";
 
 const ItemList = [...MeleeWeaopnsList,...RangedWeaponsList];
 console.log(RangedWeaponsList);
