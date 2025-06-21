@@ -1,14 +1,13 @@
 <script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 
-import {SwordsList} from "../data/zh-CN/MeleeWeaopns/dataSwords.zh-CN.ts";
-import {FlailsList} from "../data/zh-CN/MeleeWeaopns/dataFlails.zh-CN.ts";
-import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
-
 import {computed, ref} from "vue";
 import {ElTable, ElTableColumn} from 'element-plus';
 import type {Item} from "../data/Interface.ts";
 
-const ItemList = [...SwordsList,...FlailsList];
+import {Categories} from "../data/zh-CN/dataCategory.zh-CN.ts";
+import {MeleeWeaopnsList} from "../data/zh-CN/MeleeWeaopns/dataMeleeWeaopns.zh-CN.ts";
+
+const ItemList = [...MeleeWeaopnsList];
 
 const itemListRef = ref(ItemList);
 
