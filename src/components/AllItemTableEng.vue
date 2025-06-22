@@ -3,13 +3,13 @@ import { computed, ref, onMounted, watch } from "vue";
 import { ElTable, ElTableColumn, ElSelect, ElOption, ElTreeSelect, ElText, ElSwitch, ElProgress } from 'element-plus';
 import type { Item } from "../data/Interface.ts";
 
-import { Categories } from "../data/zh-CN/data.Category.zh-CN.ts";
-import { categoryList } from "../data/zh-CN/data.categoryList.zh-CN.ts";
+import { Categories } from "../data/Eng/data.Category.Eng.ts";
+import { categoryList } from "../data/Eng/data.categoryList.Eng.ts";
 
 const ItemList = [...categoryList];
 const itemListRef = ref<Item[]>(ItemList);
 
-const selectedMainCategory = ref('近战武器');
+const selectedMainCategory = ref('MeleeWeapon');
 const currentPage = ref(1);
 const pageSize = ref("20");
 const searchQuery = ref('');
@@ -100,14 +100,14 @@ const hasSubcategory = computed(() => {
     <el-header style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 20px; width: 100%">
       <div style="display: flex; align-items: center;">
         <el-progress :percentage="Number(completionPercentage)" :stroke-width="20" style="width: 200px;"></el-progress>
-        <el-text tag="div" style="margin-left: 15px;"  size="large">
-          已收集: {{ collectedCount }}/{{ filteredItemList.length }}
+        <el-text tag="div" style="margin-left: 15px;" size="large">
+          collected: {{ collectedCount }}/{{ filteredItemList.length }}
         </el-text>
       </div>
       <div>
         <el-input
             v-model="searchQuery"
-            placeholder="搜索物品名称"
+            placeholder="Search for item name"
             style="width: 200px; margin-right: 2rem;"
             clearable
         />
@@ -116,7 +116,7 @@ const hasSubcategory = computed(() => {
             :data="Categories"
             check-strictly
             :render-after-expand="false"
-            placeholder="筛选分类"
+            placeholder="Select Category"
             clearable
             style="width: 200px;"
         >
@@ -133,33 +133,33 @@ const hasSubcategory = computed(() => {
           style="width: 1260px;"
           row-key="id"
       >
-        <el-table-column label="已收集" width="80" align="center">
+        <el-table-column label="Collected" width="80" align="center">
           <template #default="scope">
             <el-switch v-model="scope.row.isCollection"/>
           </template>
         </el-table-column>
-        <el-table-column label="物品图标" width="100" align="center">
+        <el-table-column label="Item Icon" width="100" align="center">
           <template #default="scope">
-            <a :href="`https://terraria.wiki.gg/zh/wiki/${scope.row.name}`" target="_blank">
+            <a :href="`https://terraria.wiki.gg/wiki/${scope.row.name}`" target="_blank">
               <img :src="'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='"
                    @load="loadImage($event, scope.row.icon)"
                    alt="Icon" class="responsive-img" loading="lazy"/>
             </a>
           </template>
         </el-table-column>
-        <el-table-column prop="id" sortable label="物品ID" width="100" align="center"></el-table-column>
-        <el-table-column prop="name" label="名称" width="200" align="center"></el-table-column>
-        <el-table-column label="分类" width="200" align="center">
+        <el-table-column prop="id" sortable label="Item Id" width="100" align="center"></el-table-column>
+        <el-table-column prop="name" label="Item Name" width="200" align="center"></el-table-column>
+        <el-table-column label="Category" width="200" align="center">
           <template #default="scope">
             {{ scope.row.Category.label }}
           </template>
         </el-table-column>
-        <el-table-column v-if="hasSubcategory" label="子类" width="150" align="center">
+        <el-table-column v-if="hasSubcategory" label="SubCategory" width="150" align="center">
           <template #default="scope">
             {{ scope.row.Subcategory?.label }}
           </template>
         </el-table-column>
-        <el-table-column prop="comments" label="备注" align="center"></el-table-column>
+        <el-table-column prop="comments" label="comment" align="center"></el-table-column>
       </el-table>
 
       <!-- 分页 -->
@@ -172,11 +172,11 @@ const hasSubcategory = computed(() => {
             layout="prev, pager, next"
             style="justify-content: center;"
         />
-        <el-select v-model="pageSize" placeholder="请选择" style="width: 120px;">
-          <el-option label="10 条/页" value="10"></el-option>
-          <el-option label="20 条/页" value="20"></el-option>
-          <el-option label="50 条/页" value="50"></el-option>
-          <el-option label="100 条/页" value="100"></el-option>
+        <el-select v-model="pageSize" placeholder="please select" style="width: 180px;">
+          <el-option label="10 items per page" value="10"></el-option>
+          <el-option label="20 items per page" value="20"></el-option>
+          <el-option label="50 items per page" value="50"></el-option>
+          <el-option label="100 items per page" value="100"></el-option>
         </el-select>
       </div>
     </el-main>

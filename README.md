@@ -1,5 +1,15 @@
-# Vue 3 + TypeScript + Vite
+# Terraria Full Item Collection Website
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Eglish|[中文](README_zh.md)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+This website is designed to help Terraria players achieve the goal of **collecting all items** .
+
+* 📜 Browse collectible items: View the complete list of items by category.
+
+* ✅ Track your collection progress: Mark items as obtained to clearly understand which items have been collected and which ones are yet to be collected.
+
+* 🧩 Master acquisition methods: Click on an item's icon to navigate to the corresponding page detailing how to obtain it.
+
+* 🔍 Quickly find items: Search for the desired item by name.
+
+* ⚠️ Data will be saved in the local browser. Do not clear the browser cache!
