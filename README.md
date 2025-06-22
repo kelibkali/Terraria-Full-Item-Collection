@@ -13,3 +13,11 @@ This website is designed to help Terraria players achieve the goal of **collecti
 * 🔍 Quickly find items: Search for the desired item by name.
 
 * ⚠️ Data will be saved in the local browser. Do not clear the browser cache!
+
+---
+
+## Future Version Plans
+
+* Refine item subcategories
+
+## Suggestions are welcome

@@ -133,7 +133,7 @@ const hasSubcategory = computed(() => {
           style="width: 1260px;"
           row-key="id"
       >
-        <el-table-column label="Collected" width="80" align="center">
+        <el-table-column label="Collected" width="100" align="center">
           <template #default="scope">
             <el-switch v-model="scope.row.isCollection"/>
           </template>
