@@ -1,5 +1,9 @@
 import type { Category } from "../Interface"
 
+export const AllItems:Category = {
+    value:"AllItems",
+    label: "AllItems",
+}
 
 export const MeleeWeapon: Category = {
     value: "MeleeWeapon",
@@ -152,6 +156,7 @@ export const Miscellaneous: Category = {
 }
 
 export const Categories: Category[] = [
+    AllItems,
     MeleeWeapon,
     RangedWeapon,
     MagicWeapon,
