@@ -6,7 +6,6 @@ export interface Item {
     Category: Category;
     Subcategory: Subcategory;
     comments: string;
-    collectionDate?: string;
 }
 
 export interface Subcategory {

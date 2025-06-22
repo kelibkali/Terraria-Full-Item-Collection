@@ -13,9 +13,13 @@ import {SummoningWeaponsList} from "../data/zh-CN/SummoningWeapons/data.Summonin
 import {AccessoriesList} from "../data/zh-CN/Accessories/data.Accessories.zh-CN.ts";
 import {ArmorList} from "../data/zh-CN/Armor/data.Armor.zh-CN.ts";
 import {VanityItemsList} from "../data/zh-CN/VanityItems/data.VanityItems.zh-CN.ts";
+import {DevelopersList} from "../data/zh-CN/Developers/data.Developers.zh-CN.ts";
+import {DyesList} from "../data/zh-CN/Dyes/data.Dyes.zh-CN.ts";
 
 const ItemList = [...MeleeWeaponsList,...RangedWeaponsList,...MagicWeaponsList,
-  ...SummoningWeaponsList,...AccessoriesList,...ArmorList,...VanityItemsList];
+  ...SummoningWeaponsList,...AccessoriesList,...ArmorList,...VanityItemsList,...DevelopersList,
+  ...DyesList
+];
 const itemListRef = ref(ItemList);
 
 
@@ -31,41 +35,43 @@ const filteredItemList = computed(() => {
   });
 });
 
-const collectedCount = computed(() => {
-  return filteredItemList.value.reduce((count:number, item:Item) => count + (item?.isCollection ? 1 : 0), 0);
-})
+// const collectedCount = computed(() => {
+//   return filteredItemList.value.reduce((count:number, item:Item) => count + (item?.isCollection ? 1 : 0), 0);
+// })
 
-const completionPercentage = computed(() => {
-  const totalItems = filteredItemList.value.length;
-  if (totalItems === 0) return 0;
-  return ((collectedCount.value / totalItems) * 100).toFixed(2);
-});
+// const completionPercentage = computed(() => {
+//   const totalItems = filteredItemList.value.length;
+//   if (totalItems === 0) return 0;
+//   return ((collectedCount.value / totalItems) * 100).toFixed(2);
+// });
 
-const handelCollect = (item:Item)=>{
-  if(item.isCollection)
-    item.collectionDate = formatDate(new Date());
-  else item.collectionDate = ""
-}
+// const handelCollect = (item:Item)=>{
+//   if(item.isCollection)
+//     item.collectionDate = formatDate(new Date());
+//   else item.collectionDate = ""
+// }
 
-const formatDate = (date: Date):string => {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
+// const formatDate = (date: Date):string => {
+//   const year = date.getFullYear();
+//   const month = String(date.getMonth() + 1).padStart(2, '0');
+//   const day = String(date.getDate()).padStart(2, '0');
+//   return `${year}-${month}-${day}`;
+// }
 
 </script>
 
 <template>
   <el-container style="align-items: center">
     <el-header style="display: flex;">
-      <el-text tag="div" style="margin-right: 15px;">
-        已收集: {{collectedCount}}/{{filteredItemList.length}}
-      </el-text>
 
-      <el-text tag="div" style="margin-right: 15px;">
-        完成度：{{ completionPercentage }}%
-      </el-text>
+<!--      <el-text tag="div" style="margin-right: 15px;">-->
+<!--        已收集: {{collectedCount}}/{{filteredItemList.length}}-->
+<!--      </el-text>-->
+
+<!--      <el-text tag="div" style="margin-right: 15px;">-->
+<!--        完成度：{{ completionPercentage }}%-->
+<!--      </el-text>-->
+
         <!-- 选择 -->
         <el-tree-select
             v-model="selectedMainCategory"
@@ -88,11 +94,11 @@ const formatDate = (date: Date):string => {
           row-key="id"
           lazy
       >
-        <el-table-column label="已收集"  width="80" align="center">
-          <template #default="scope">
-            <el-switch v-model="scope.row.isCollection" @click="handelCollect(scope.row)"/>
-          </template>
-        </el-table-column>
+<!--        <el-table-column label="已收集"  width="80" align="center">-->
+<!--          <template #default="scope">-->
+<!--            <el-switch v-model="scope.row.isCollection" @click="handelCollect(scope.row)"/>-->
+<!--          </template>-->
+<!--        </el-table-column>-->
 
         <el-table-column label="物品图标" width="100" align="center">
           <template #default="scope">
@@ -112,8 +118,6 @@ const formatDate = (date: Date):string => {
           <template #default="scope">
             {{ scope.row.Subcategory.label }}
           </template>
-        </el-table-column>
-        <el-table-column prop="collectionDate" label="收集时间" width="180" align="center">
         </el-table-column>
         <el-table-column prop="comments" label="备注" align="center" width="250">
         </el-table-column>

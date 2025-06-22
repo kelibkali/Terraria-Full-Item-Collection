@@ -189,7 +189,7 @@ export const GoldCrown:Item={
     name: "金冠",
     Category:VanityItems,
     Subcategory:OtherVanityItems,
-    comments:"nan",
+    comments:"",
 }
 export const PlatinumCrown:Item={
     icon:PlatinumCrownImg,
@@ -198,7 +198,7 @@ export const PlatinumCrown:Item={
     name: "铂金冠",
     Category:VanityItems,
     Subcategory:OtherVanityItems,
-    comments:"nan",
+    comments:"",
 }
 export const MimeMask:Item={
     icon:MimeMaskImg,
