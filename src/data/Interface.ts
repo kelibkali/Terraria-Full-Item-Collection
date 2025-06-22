@@ -4,18 +4,19 @@ export interface Item {
     id: number;
     name: string;
     Category: Category;
-    Subcategory: Subcategory;
+    SubCategory?: SubCategory;
+    Collectable?:boolean;
     comments: string;
-}
-
-export interface Subcategory {
-    value: string;
-    label: string;
 }
 
 export interface Category {
     value: string;
     label: string;
-    children: Subcategory[];
+    children?: SubCategory[];
+}
+
+export interface SubCategory {
+    value: string;
+    label: string;
 }
 

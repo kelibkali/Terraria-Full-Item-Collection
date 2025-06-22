@@ -1,312 +1,184 @@
-import type {Category} from "../Interface.ts";
-import {
-    AaronDevelopers,
-    AdamantiteArmor,
-    AncientArmor,
-    AncientCobaltArmor,
-    AncientHallowedArmor,
-    AncientVanityItems,
-    AnglerArmor,
-    ApprenticesArmor,
-    ArchaeologistVanityItems,
-    ArkhalisDevelopers,
-    Arrows,
-    AshWoodArmor,
-    BadgerDevelopers,
-    BeeArmor,
-    BeetleArmor,
-    BeeVanityItems,
-    BlackGraduationVanityItems,
-    BlueGraduationVanityItems,
-    Boomerangs,
-    BorealWoodArmor,
-    Bows,
-    BuccaneerVanityItems,
-    Building,
-    Bullets,
-    BunnyVanityItems,
-    ButcherVanityItems,
-    CactusArmor,
-    CapricornVanityItems,
-    CatVanityItems,
-    CelestialShell,
-    CenxDevelopers,
-    ChefVanityItems,
-    ChippyDevelopers,
-    ChlorophyteArmor,
-    Cloak,
-    ClothierVanityItems,
-    ClownVanityItems,
-    CobaltArmor, CommonDyes,
-    Consumables,
-    CopperArmor,
-    CountryClubVanityItems,
-    CowboyVanityItems,
-    CreeperVanityItems,
-    CrimsonArmor,
-    CrownoDevelopers,
-    CrystalArmor,
-    CyborgVanityItems,
-    DarkArtistsArmor,
-    Decoration,
-    Diving, DizzyDevelopers,
-    DogVanityItems,
-    Doll,
-    DrManFlyVanityItems,
-    DryadVanityItems,
-    DTownDevelopers,
-    DyeTraderVanityItems,
-    EbonwoodArmor,
-    ElfVanityItems,
-    Emblem,
-    Expert,
-    FallenTuxedoVanityItems,
-    FamiliarVanityItems,
-    Fireproof,
-    FirestarterVanityItems,
-    FishCostumeVanityItems,
-    Fishing,
-    Flails,
-    FloretProtectorVanityItems,
-    FoodBarbarianDevelopers,
-    ForbiddenArmor,
-    FossilArmor,
-    FoxVanityItems,
-    FrankensteinVanityItems,
-    FrogAndNinja,
-    FrostArmor,
-    FuneralVanityItems,
-    GentlemanBeardVanityItems,
-    GentlemanVanityItems,
-    GhostarDevelopers,
-    GhostVanityItems,
-    GladiatorArmor,
-    Glove,
-    GoldArmor,
-    GravediggerVanityItems,
-    GroxDevelopers,
-    Guns, HairDyes,
-    HallowedArmor,
-    HeroVanityItems,
-    HPAndMP,
-    HuntresssArmor,
-    Information,
-    IronArmor, JimDevelopers,
-    JungleArmor,
-    KarateTortoiseVanityItems,
-    LamiaVanityItems,
-    Launchers, LazureDevelopers,
-    LeadArmor, LeinforsDevelopers,
-    LeprechaunVanityItems,
-    LizardVanityItems, LokiDevelopers,
-    LunarCultistVanityItems,
-    MagicGuns,
-    MaidVanityItems,
-    MaroonGraduationVanityItems,
-    MartianCostumeVanityItems,
-    MartianUniformVanityItems,
-    MasterGamerVanityItems, MaterialDyes,
-    MermaidVanityItems,
-    MeteorArmor,
-    MiningArmor,
-    MinionSummoningWeapons,
-    MoltenArmor,
-    MonksArmor,
-    MrsClausVanityItems,
-    MummyVanityItems,
-    MushroomVanityItems,
-    MythrilArmor,
-    NebulaArmor,
-    Necklace,
-    NecroArmor,
-    NinjaArmor,
-    NurseVanityItems,
-    ObsidianArmor,
-    OrichalcumArmor,
-    OtherAccessories,
-    OtherArmor,
-    OtherBullets,
-    OtherMagicWeapons,
-    OtherMeleeWeapon,
-    OtherRangedWeapons,
-    OtherVanityItems, Ox33Developers,
-    PalladiumArmor,
-    PalmWoodArmor,
-    ParkaVanityItems,
-    PearlwoodArmor, PedguinDevelopers,
-    PharaohVanityItems,
-    PinkMaidVanityItems,
-    PinkSnowArmor,
-    Pirate,
-    PirateVanityItems,
-    PixieVanityItems,
-    PlaguebringerVanityItems,
-    PlatinumArmor,
-    PlumberVanityItems,
-    PrettyPinkVanityItems, PrincessAVanityItems, PrincessBVanityItems,
-    PrinceVanityItems,
-    PumpkinArmor,
-    PumpkinVanityItems,
-    Quiver,
-    RainVanityItems,
-    RaynebroVanityItems,
-    ReaperVanityItems, RedDevelopers,
-    RedRidingArmor,
-    Repeaters,
-    RichMahoganyArmor,
-    Robe,
-    RobotVanityItems,
-    RoyalVanityItems,
-    RuneVanityItems, SafemanDevelopers,
-    SailorVanityItems,
-    SantaVanityItems,
-    ScarecrowVanityItems,
-    Scope,
-    SentrySummoningWeapons,
-    ShadewoodArmor,
-    ShadowArmor,
-    Shield,
-    ShinobiInfiltratorsArmor,
-    Shoes,
-    ShroomiteArmor, SillySunflowerVanityItems,
-    SilverArmor, SkiphsDevelopers,
-    SnowArmor, SolarCultistVanityItems,
-    SolarFlareArmor, SpaceCreatureVanityItems,
-    Spears,
-    SpectreArmor,
-    SpellBooks,
-    SpiderArmor,
-    SpookyArmor,
-    SquiresArmor,
-    StardustArmor, StarPrincessVanityItems, SteampunkVanityItems, StrangePlantDyes,
-    Summoning, SuperheroVanityItems,
-    Swords, TaxCollectorVanityItems, TelevisionVanityItems, TheDoctorVanityItems,
-    TikiArmor, TimelessTravelerVanityItems,
-    TinArmor,
-    TitaniumArmor,
-    TravelMerchantArmor, TreasureHunterVanityItems, TreeVanityItems,
-    TungstenArmor,
-    TurtleArmor, TuxedoVanityItems,
-    TwiceJump, UnicornVanityItems,
-    ValhallaKnightsArmor, VampireVanityItems, VictorianGothVanityItems,
-    VortexArmor, WanderingVanityItems,
-    Wands, WeddingVanityItems,
-    Whips, WhiteTuxedoVanityItems, WillDevelopers,
-    Wings, WitchVanityItems, WolfVanityItems,
-    WoodArmor, Yoraiz0rDevelopers,
-    Yoyos,
-    YoyosAccessories
-} from "./data.Subcategory.zh-CN.ts";
+import type { Category } from "../Interface"
 
-export const MeleeWeapons: Category = {
+export const MeleeWeapon: Category = {
     value: "近战武器",
     label: "近战武器",
-    children: [
-        Swords,
-        Flails,
-        Spears,
-        Boomerangs,
-        Yoyos,
-        OtherMeleeWeapon
-    ]
 }
 
-export const RangedWeapons: Category = {
+export const RangedWeapon: Category = {
     value: "远程武器",
     label: "远程武器",
-    children: [
-        Bows,
-        Repeaters,
-        Arrows,
-        Guns,
-        Bullets,
-        Launchers,
-        OtherRangedWeapons,
-        OtherBullets,
-        Consumables
-    ]
 }
 
-export const MagicWeapons: Category = {
+export const MagicWeapon: Category = {
     value: "魔法武器",
     label: "魔法武器",
-    children: [
-        Wands,
-        SpellBooks,
-        MagicGuns,
-        OtherMagicWeapons
-    ]
 }
 
-export const SummoningWeapons: Category = {
+export const SummoningWeapon: Category = {
     value: "召唤武器",
     label: "召唤武器",
-    children: [
-        MinionSummoningWeapons,
-        SentrySummoningWeapons,
-        Whips
-    ]
 }
 
 export const Accessories: Category = {
     value: "饰品",
     label: "饰品",
-    children: [
-        Information, TwiceJump, Wings, FrogAndNinja, Shoes,
-        Fireproof, HPAndMP, Shield, Glove, Emblem,
-        CelestialShell, Cloak, Summoning, Quiver, Scope,
-        Necklace, Doll, Expert, YoyosAccessories, Fishing,
-        Pirate, Building, Diving, Decoration, OtherAccessories
-    ]
 }
 
 export const Armor: Category = {
     value: "盔甲",
     label: "盔甲",
-    children: [
-        AdamantiteArmor, AncientArmor, AncientCobaltArmor, AncientHallowedArmor,
-        AnglerArmor, ApprenticesArmor, AshWoodArmor, BeeArmor, BeetleArmor,
-        BorealWoodArmor, CactusArmor, ChlorophyteArmor, CobaltArmor,
-        CopperArmor, CrimsonArmor, CrystalArmor, DarkArtistsArmor, EbonwoodArmor,
-        ForbiddenArmor, FossilArmor, FrostArmor, GladiatorArmor, GoldArmor,
-        HallowedArmor, HuntresssArmor, IronArmor, JungleArmor, LeadArmor,
-        MeteorArmor, MiningArmor, MoltenArmor, MonksArmor, MythrilArmor,
-        NebulaArmor, NecroArmor, NinjaArmor, ObsidianArmor, OrichalcumArmor,
-        OtherArmor, PalladiumArmor, PalmWoodArmor, PearlwoodArmor, PinkSnowArmor,
-        PlatinumArmor, PumpkinArmor, RedRidingArmor, RichMahoganyArmor, Robe,
-        ShadewoodArmor, ShadowArmor, ShinobiInfiltratorsArmor, ShroomiteArmor,
-        SilverArmor, SnowArmor, SolarFlareArmor, SpectreArmor, SpiderArmor,
-        SpookyArmor, SquiresArmor, StardustArmor, TikiArmor, TinArmor, TitaniumArmor,
-        TravelMerchantArmor, TungstenArmor, TurtleArmor, ValhallaKnightsArmor, VortexArmor, WoodArmor
-    ]
 }
 
 export const VanityItems: Category = {
     value: "时装",
     label: "时装",
-    children: [
-        AncientVanityItems, ArchaeologistVanityItems, BeeVanityItems, BlackGraduationVanityItems, BlueGraduationVanityItems, BuccaneerVanityItems, BunnyVanityItems, ButcherVanityItems, CapricornVanityItems, CatVanityItems, ChefVanityItems, ClothierVanityItems, ClownVanityItems, CountryClubVanityItems, CowboyVanityItems, CreeperVanityItems, CyborgVanityItems, DogVanityItems, DrManFlyVanityItems, DryadVanityItems, DyeTraderVanityItems, ElfVanityItems, FallenTuxedoVanityItems, FamiliarVanityItems, FirestarterVanityItems, FishCostumeVanityItems, FloretProtectorVanityItems, FoxVanityItems, FrankensteinVanityItems, FuneralVanityItems, GentlemanVanityItems, GentlemanBeardVanityItems, GhostVanityItems, GravediggerVanityItems, HeroVanityItems, KarateTortoiseVanityItems, LamiaVanityItems, LeprechaunVanityItems, LizardVanityItems, LunarCultistVanityItems, MaidVanityItems, MaroonGraduationVanityItems, MartianCostumeVanityItems, MartianUniformVanityItems, MasterGamerVanityItems, MermaidVanityItems, MrsClausVanityItems, MummyVanityItems, MushroomVanityItems, NurseVanityItems, OtherVanityItems, ParkaVanityItems, PharaohVanityItems, PinkMaidVanityItems, PirateVanityItems, PixieVanityItems, PlaguebringerVanityItems, PlumberVanityItems, PrettyPinkVanityItems, PrinceVanityItems, PrincessAVanityItems, PrincessBVanityItems, PumpkinVanityItems, RainVanityItems, RaynebroVanityItems, ReaperVanityItems, RobotVanityItems, RoyalVanityItems, RuneVanityItems, SailorVanityItems, SantaVanityItems, ScarecrowVanityItems, SillySunflowerVanityItems, SolarCultistVanityItems, SpaceCreatureVanityItems, StarPrincessVanityItems, SteampunkVanityItems, SuperheroVanityItems, TaxCollectorVanityItems, TelevisionVanityItems, TheDoctorVanityItems, TimelessTravelerVanityItems, TreasureHunterVanityItems, TreeVanityItems, TuxedoVanityItems, UnicornVanityItems, VampireVanityItems, VictorianGothVanityItems, WanderingVanityItems, WeddingVanityItems, WhiteTuxedoVanityItems, WitchVanityItems, WolfVanityItems
-    ]
 }
 
-export const Developers:Category={
-    value:"开发者与主播",
-    label:"开发者与主播",
-    children:[
-        AaronDevelopers,ArkhalisDevelopers,BadgerDevelopers,CenxDevelopers,ChippyDevelopers,CrownoDevelopers,DTownDevelopers,DizzyDevelopers,FoodBarbarianDevelopers,GhostarDevelopers,GroxDevelopers,JimDevelopers,LazureDevelopers,LeinforsDevelopers,LokiDevelopers,Ox33Developers,PedguinDevelopers,RedDevelopers,SafemanDevelopers,SkiphsDevelopers,WillDevelopers,Yoraiz0rDevelopers
-    ]
+export const Developers: Category = {
+    value: "开发者与主播",
+    label: "开发者与主播",
 }
 
 export const Dyes: Category = {
     value: "染料",
     label: "染料",
-    children: [
-        CommonDyes,HairDyes,MaterialDyes,StrangePlantDyes
-    ]
 }
 
+export const Mounts: Category = {
+    value: "坐骑",
+    label: "坐骑",
+}
+
+export const Pets: Category = {
+    value: "宠物",
+    label: "宠物",
+}
+
+export const Hook: Category = {
+    value: "钩爪",
+    label: "钩爪",
+}
+
+export const Tools: Category = {
+    value: "工具",
+    label: "工具",
+}
+
+export const Circuit: Category = {
+    value: "电路相关",
+    label: "电路相关",
+}
+
+export const FishingItem: Category = {
+    value: "钓鱼",
+    label: "钓鱼",
+}
+
+export const Foods: Category = {
+    value: "食物",
+    label: "食物",
+}
+
+export const Medicine: Category = {
+    value: "药水",
+    label: "药水",
+}
+
+export const Block: Category = {
+    value: "方块",
+    label: "方块",
+}
+
+export const Walls: Category = {
+    value: "墙",
+    label: "墙",
+}
+
+export const Furniture: Category = {
+    value: "家具",
+    label: "家具",
+}
+
+export const DecorationItem: Category = {
+    value: "装饰物",
+    label: "装饰物",
+}
+
+export const Sculpture: Category = {
+    value: "雕像",
+    label: "雕像",
+}
+
+export const Flags: Category = {
+    value: "旗帜",
+    label: "旗帜",
+}
+
+export const Painting: Category = {
+    value: "画",
+    label: "画",
+}
+
+export const MusicBox: Category = {
+    value: "八音盒",
+    label: "八音盒",
+}
+
+export const OilPaint: Category = {
+    value: "油漆",
+    label: "油漆",
+}
+
+export const Animal: Category = {
+    value: "动物",
+    label: "动物",
+}
+
+export const MaterialItems: Category = {
+    value: "材料",
+    label: "材料",
+}
+
+export const BossItem: Category = {
+    value: "Boss",
+    label: "Boss",
+}
+
+export const Miscellaneous: Category = {
+    value: "杂项",
+    label: "杂项",
+}
 
 export const Categories: Category[] = [
-    MeleeWeapons, RangedWeapons, MagicWeapons, SummoningWeapons,
-    Accessories, Armor, VanityItems,Developers,Dyes,
-]
+    MeleeWeapon,
+    RangedWeapon,
+    MagicWeapon,
+    SummoningWeapon,
+    Accessories,
+    Armor,
+    VanityItems,
+    Developers,
+    Dyes,
+    Mounts,
+    Pets,
+    Hook,
+    Tools,
+    Circuit,
+    FishingItem,
+    Foods,
+    Medicine,
+    Block,
+    Walls,
+    Furniture,
+    DecorationItem,
+    Sculpture,
+    Flags,
+    Painting,
+    MusicBox,
+    OilPaint,
+    Animal,
+    MaterialItems,
+    BossItem,
+    Miscellaneous
+];
