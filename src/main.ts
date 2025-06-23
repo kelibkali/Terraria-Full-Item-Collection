@@ -9,5 +9,16 @@ const app = createApp(App)
 
 app.use(ElementPlus)
 
+app.directive('lazy', {
+    mounted(el, binding) {
+        const observer = new IntersectionObserver(([{ isIntersecting }]) => {
+            if (isIntersecting) {
+                el.src = binding.value
+                observer.unobserve(el)
+            }
+        })
+        observer.observe(el)
+    }
+})
 
 app.mount('#app')

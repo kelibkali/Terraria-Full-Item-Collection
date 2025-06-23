@@ -1,46 +1,26 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
-import {
-  ElContainer,
-  ElHeader,
-  ElMain,
-  ElTable,
-  ElTableColumn,
-  ElSwitch,
-  ElTreeSelect,
-  ElInput,
-  ElPagination,
-  ElSelect,
-  ElOption,
-  ElProgress,
-  ElText,
-  ElUpload, ElMessage
-} from 'element-plus'
 
 import type { Item } from '../data/Interface'
 import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
-import { categoryList } from '../data/zh-CN/data.categoryList.zh-CN.ts';
+// import { categoryList } from '../data/zh-CN/data.categoryList.zh-CN.ts';
 
 import * as XLSX from 'xlsx'
+import {ElMessage} from "element-plus";
+import VersionDialog from "./VersionDialog.vue";
+
+// ====== 定义事件 ======
+const emit = defineEmits(['loading-change'])
 
 // ====== 数据初始化 ======
-const itemList = ref<Item[]>([...categoryList])
+const itemList = ref<Item[]>([])
 const selectedMainCategory = ref<string>('近战武器')
 const searchQuery = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref('20')
 const filterStatus = ref('全部')
-const isVisible = ref(false)
-const lastVisit = localStorage.getItem('lastVisit')
-const daysThreshold = 3
 
-// ====== 计算属性 ======
-
-const handleClose = () => {
-  isVisible.value = false
-  localStorage.setItem('lastVisit', Date.now().toString())
-}
-
+// ====== 筛选 ======
 const filteredItemList = computed(() => {
   let result = itemList.value
 
@@ -67,6 +47,7 @@ const filteredItemList = computed(() => {
   return result
 })
 
+// ====== 分页相关 ======
 const pageCount = computed(() => Math.ceil(filteredItemList.value.length / Number(pageSize.value)))
 
 const paginatedItemList = computed(() => {
@@ -75,6 +56,11 @@ const paginatedItemList = computed(() => {
   return filteredItemList.value.slice(start, end)
 })
 
+watch([pageSize, selectedMainCategory], () => {
+  currentPage.value = 1
+})
+
+// ====== 计算百分比 ======
 const collectedCount = computed(() =>
     filteredItemList.value.reduce((count, item) => count + (item.isCollection ? 1 : 0), 0)
 )
@@ -84,53 +70,113 @@ const completionPercentage = computed(() => {
   return totalItems === 0 ? 0 : ((collectedCount.value / totalItems) * 100).toFixed(2)
 })
 
+// ====== 处理Item的子类 ======
 const hasSubcategory = computed(() =>
     filteredItemList.value.some(item => item.SubCategory !== null)
 )
 
-// ====== 图片懒加载 ======
-const loadImage = (event: Event, src: string) => {
-  const img = event.target as HTMLImageElement
-  img.src = src
+
+// ====== 异步加载数据 ======
+const loadData = async () => {
+  emit('loading-change', true) // 通知父组件开始加载
+  try {
+    // 模拟异步加载（实际项目中替换为API请求）
+    await new Promise(resolve => setTimeout(resolve, 1000))
+
+    // 动态导入硬编码数据
+    const categoryListModule = await import('../data/zh-CN/data.categoryList.zh-CN.ts')
+
+    // 初始化数据
+    itemList.value = categoryListModule.categoryList.map(item => ({
+      ...item,
+      isCollection: false
+    }))
+  } catch (error) {
+    ElMessage.error('数据加载失败')
+    console.error('数据加载错误:', error)
+  } finally {
+    emit('loading-change', false) // 通知父组件加载结束
+  }
 }
 
-// ====== 收集状态本地存储 ======
-onMounted(() => {
+
+// ====== 收集状态本地存储逻辑优化 ======
+onMounted(async () => {
+  await loadData()
+
+  // 读取本地存储
   const savedCollections = localStorage.getItem('collections')
   if (savedCollections) {
-    const collections = JSON.parse(savedCollections)
-    itemList.value.forEach(item => {
-      item.isCollection = collections[item.id] ?? false
-    })
-  }
+    try {
+      const storageData = JSON.parse(savedCollections)
 
-  if(lastVisit){
-    const diffTime = Math.abs(Date.now() - Number(lastVisit))
-    const diffDays = Math.ceil(diffTime / (1000 * 60 *60 *24))
-    if(diffDays >= daysThreshold){
-      isVisible.value = true
+      // 处理旧版格式（全量存储）的兼容
+      if (!storageData.strategy && Object.keys(storageData).length > 0) {
+        itemList.value.forEach(item => {
+          item.isCollection = !!storageData[item.id]
+        })
+        saveCollections() // 转换后立即保存为新格式
+        return
+      }
+
+      // 新版格式处理
+      if (storageData.strategy === 'collected') {
+        // 存储的是已收集物品
+        const collectedSet = new Set(storageData.list)
+        itemList.value.forEach(item => {
+          item.isCollection = collectedSet.has(item.id)
+        })
+      } else {
+        // 存储的是未收集物品
+        const uncollectedSet = new Set(storageData.list)
+        itemList.value.forEach(item => {
+          item.isCollection = !uncollectedSet.has(item.id)
+        })
+      }
+    } catch (e) {
+      console.error('解析本地存储数据失败', e)
     }
-  }else {
-    isVisible.value = true
   }
-  console.log(isVisible)
 })
 
-watch(
-    itemList,
-    () => {
-      const collections = itemList.value.reduce((acc, item) => {
-        acc[item.id] = item.isCollection
-        return acc
-      }, {} as Record<string, boolean>)
-      localStorage.setItem('collections', JSON.stringify(collections))
-    },
-    { deep: true }
-)
+// 保存收集状态（动态策略）
+const saveCollections = () => {
+  const collectedItems = itemList.value.filter(item => item.isCollection)
 
-watch([pageSize, selectedMainCategory], () => {
-  currentPage.value = 1
-})
+  let storageData
+  if (collectedItems.length < 2500) {
+    // 收集数<2500时只存已收集物品
+    storageData = {
+      strategy: 'collected',
+      list: collectedItems.map(item => item.id)
+    }
+  } else {
+    const uncollectedItems = itemList.value.filter(item => !item.isCollection)
+    // 收集数>=2500时只存未收集物品
+    storageData = {
+      strategy: 'uncollected',
+      list: uncollectedItems.map(item => item.id)
+    }
+  }
+
+  localStorage.setItem('collections', JSON.stringify(storageData))
+}
+
+// 监听收集状态变化（使用防抖）
+const debounceSave = debounce(saveCollections, 500)
+watch(() => itemList.value.map(item => item.isCollection), debounceSave, { deep: true })
+
+// 防抖函数实现
+function debounce<T extends (...args: any[]) => void>(fn: T, delay: number): T {
+  let timer: ReturnType<typeof setTimeout> | null = null
+  return function (this: any, ...args: any[]) {
+    if (timer) clearTimeout(timer)
+    timer = setTimeout(() => {
+      fn.apply(this, args)
+      timer = null
+    }, delay)
+  } as T
+}
 
 // ====== 文件上传处理 ======
 const isProcessing = ref(false) // 添加一个标志
@@ -191,44 +237,8 @@ const handleUpload = (uploadFile: any) => {
 </script>
 
 <template>
-  <el-dialog v-model="isVisible" width="500px" title="请仔细阅读以下文字" center>
-    <span>
-       温馨提示：为了获得最佳体验，请前往网盘检查是否发布了最新版本。
-      <br/>
-      <br/>
-      此版本为<span style="color:Red">1.0.2</span>版本
-      <br/>
-      <br/>
-      支持了以下功能：
-      <br/>
-      上传表格同步数据
-      <br/>
-      根据是否收集分类
-      <br/>
-      <br/>
-      <a class="a-class" href="https://wwut.lanzoul.com/b00csc983e" target="_blank">点击这里访问网盘</a>
-      <br/>
-      密码:ezbe
-      <br/>
-      <br/>
-      <br/>
-      特别鸣谢：<a class="a-class" href="https://space.bilibili.com/2075535" target="_blank">@404岛主</a> 提供原始数据
-      <br/>
-      <br/>
-      欢迎通过各种渠道提出建议~
-      <br/>
-      bilibili : <a class="a-class" href="https://space.bilibili.com/3493289458141747" target="_blank">@可丽饼kali</a>
-      <br/>
-      小黑盒 : <a class="a-class" href="https://www.xiaoheihe.cn/app/user/profile/21709567" target="_blank">@可丽饼kali</a>
-    </span>
-    <template #footer>
-      <span class="dialog-footer">
-        <el-button type="primary" @click="handleClose">
-          确定
-        </el-button>
-      </span>
-    </template>
-  </el-dialog>
+
+  <VersionDialog/>
 
   <el-container style="height: calc(100vh - 60px); overflow-y: auto; align-items: center;">
     <el-header style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 20px; width: 100%">
@@ -310,8 +320,8 @@ const handleUpload = (uploadFile: any) => {
           <template #default="scope">
             <a :href="`https://terraria.wiki.gg/zh/wiki/${scope.row.name}`" target="_blank">
               <img
-                  :src="'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='"
-                  @load="loadImage($event, scope.row.icon)"
+                  v-lazy="scope.row.icon"
+                  :src="scope.row.icon"
                   alt="Icon"
                   class="responsive-img"
                   loading="lazy"
@@ -347,6 +357,8 @@ const handleUpload = (uploadFile: any) => {
           <el-option label="20 条/页" value="20" />
           <el-option label="50 条/页" value="50" />
           <el-option label="100 条/页" value="100" />
+          <el-option label="300 条/页" value="300" />
+          <el-option label="500 条/页" value="500" />
         </el-select>
       </div>
     </el-main>
