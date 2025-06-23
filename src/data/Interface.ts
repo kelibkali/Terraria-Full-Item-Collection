@@ -6,6 +6,7 @@ export interface Item {
     Category: Category;
     SubCategory?: SubCategory;
     Collectable?:boolean;
+    date?: string;
     comments: string;
 }
 
