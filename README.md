@@ -1,23 +1,38 @@
-# Terraria Full Item Collection Website
+# 泰拉瑞亚全物品收集网站
 
-Eglish|[中文](README_zh.md)
+[Eglish](README_en.md)|中文
 
-This website is designed to help Terraria players achieve the goal of **collecting all items** .
+本网站旨在帮助《泰拉瑞亚》玩家完成 **全物品收集** 的目标。
 
-* 📜 Browse collectible items: View the complete list of items by category.
+* 📜 浏览可收集物品：按类别查看完整的物品列表。
 
-* ✅ Track your collection progress: Mark items as obtained to clearly understand which items have been collected and which ones are yet to be collected.
+* ✅ 追踪收集进度：标记已获得物品，清晰了解已完成和待收集的物品。
 
-* 🧩 Master acquisition methods: Click on an item's icon to navigate to the corresponding page detailing how to obtain it.
+* 🧩 掌握获取途径：点击物品icon即可跳转到相应的界面。
 
-* 🔍 Quickly find items: Search for the desired item by name.
+* 🔍 快速查找物品：通过名称搜索所需物品。
 
-* ⚠️ Data will be saved in the local browser. Do not clear the browser cache!
+* ⚠️ 数据将保存在本地浏览器，请勿清除浏览器缓存！
 
 ---
 
-## Future Version Plans
+## 未来版本计划
 
-* Refine item subcategories
+* 细分物品子类 
 
-## Suggestions are welcome
+## V1.0.2
+
+* 添加了上传文件功能 支持从文件读取数据了
+* 添加了根据物品是否收集进行筛选功能
+* 添加了一个提示框 间隔3天打开
+
+## V1.0.3
+
+* 优化了加载逻辑 实现了异步加载和加载界面
+* 暂时移除了语言选项
+* 优化数据存取逻辑
+* 导出数据-表格格式 - 未实现
+* 导入数据-配置文件格式 - 未实现
+* 导出数据-配置文件格式 - 未实现
+
+## 有任何建议欢迎提出
