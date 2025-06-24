@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { VanityItems } from "../data.Category.zh-CN.ts"
 
+import { AncientV, ArchaeologistV, BeardV, BeeV, BlackV, BlueV, BrideV, BuccaneerV, BunnyV, ButcherV, CapricornV, CatV, ChefV, ClothierV, ClownV, ClubV, CowboyV, CreeperV, CyborgV, DiggerV, DogV, DrManFlyV, DryadV, DyeTraderV, ElfV, FallenV, FamiliarV, FireV, FishV, FloretV, FoxV, FuneralV, GentlemanV, GhostV, HeroV, KarateV, LamiaV, LeprechaunV, LizardV, LunarCultistV, MaidV, MartianCostumeV, MartianUniformV, MasterV, MermaidV, MrsClausV, MummyV, MushroomV, NurseV, OtherV, ParkaV, PharaohV, PinkV, PirateV, PixieV, PlaguebringerV, PlumberV, PrettyPinkV, PrinceV, PrincessVA, PrincessVB, PumpkinV, RainV, Raynebro, ReaperV, RedV, RobotV, RoyalV, RuneV, SailorV, SantaV, ScarecrowV, SolarCultistV, SpaceCreatureV, StartV, SteampunkV, SunflowerV, SuperheroV, TVV, TaxCollectorV, TheDoctorV, TimelessV, TreasureHunterV, TreeV, TuxedoV, UnicornV, VampireV, VictorianV, WanderingV, WeddingV, WhiteTuxedoV, WitchV, WolfV } from "../data.SubCategory.zh-CN.ts"
+
 import VanityItems_239Img from "../../../assets/icon/Item_239.png"
 import VanityItems_240Img from "../../../assets/icon/Item_240.png"
 import VanityItems_241Img from "../../../assets/icon/Item_241.png"
@@ -303,14 +305,18 @@ import VanityItems_5101Img from "../../../assets/icon/Item_5101.png"
 import VanityItems_2222Img from "../../../assets/icon/Item_2222.png"
 import VanityItems_867Img from "../../../assets/icon/Item_867.png"
 import VanityItems_5290Img from "../../../assets/icon/Item_5290.png"
+
+
 export const VanityItems_239: Item = {
     icon: VanityItems_239Img,
     isCollection: false,
     id: 239,
     name: "高顶礼帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TuxedoV,
+    comments: "僵尸新郎",
 }
+
 
 
 export const VanityItems_240: Item = {
@@ -319,8 +325,10 @@ export const VanityItems_240: Item = {
     id: 240,
     name: "西装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TuxedoV,
+    comments: "黑线",
 }
+
 
 
 export const VanityItems_241: Item = {
@@ -329,8 +337,10 @@ export const VanityItems_241: Item = {
     id: 241,
     name: "西装裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TuxedoV,
+    comments: "黑线",
 }
+
 
 
 export const VanityItems_244: Item = {
@@ -339,8 +349,10 @@ export const VanityItems_244: Item = {
     id: 244,
     name: "管道工帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlumberV,
+    comments: "火焰小鬼",
 }
+
 
 
 export const VanityItems_245: Item = {
@@ -349,8 +361,10 @@ export const VanityItems_245: Item = {
     id: 245,
     name: "管道工衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlumberV,
+    comments: "满月 服装商",
 }
+
 
 
 export const VanityItems_246: Item = {
@@ -359,8 +373,10 @@ export const VanityItems_246: Item = {
     id: 246,
     name: "管道工背带裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlumberV,
+    comments: "满月 服装商",
 }
+
 
 
 export const VanityItems_247: Item = {
@@ -369,8 +385,10 @@ export const VanityItems_247: Item = {
     id: 247,
     name: "英雄帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: HeroV,
+    comments: "绿线",
 }
+
 
 
 export const VanityItems_248: Item = {
@@ -379,8 +397,10 @@ export const VanityItems_248: Item = {
     id: 248,
     name: "英雄衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: HeroV,
+    comments: "绿线",
 }
+
 
 
 export const VanityItems_249: Item = {
@@ -389,8 +409,10 @@ export const VanityItems_249: Item = {
     id: 249,
     name: "英雄裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: HeroV,
+    comments: "绿线",
 }
+
 
 
 export const VanityItems_251: Item = {
@@ -399,8 +421,10 @@ export const VanityItems_251: Item = {
     id: 251,
     name: "考古帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ArchaeologistV,
+    comments: "骷髅博士",
 }
+
 
 
 export const VanityItems_252: Item = {
@@ -409,8 +433,10 @@ export const VanityItems_252: Item = {
     id: 252,
     name: "考古夹克",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ArchaeologistV,
+    comments: "皮革",
 }
+
 
 
 export const VanityItems_253: Item = {
@@ -419,8 +445,10 @@ export const VanityItems_253: Item = {
     id: 253,
     name: "考古裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ArchaeologistV,
+    comments: "皮革",
 }
+
 
 
 export const VanityItems_269: Item = {
@@ -429,8 +457,10 @@ export const VanityItems_269: Item = {
     id: 269,
     name: "便装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FamiliarV,
+    comments: "服装商",
 }
+
 
 
 export const VanityItems_270: Item = {
@@ -439,8 +469,10 @@ export const VanityItems_270: Item = {
     id: 270,
     name: "便装裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FamiliarV,
+    comments: "服装商",
 }
+
 
 
 export const VanityItems_271: Item = {
@@ -449,8 +481,10 @@ export const VanityItems_271: Item = {
     id: 271,
     name: "便装假发",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FamiliarV,
+    comments: "服装商",
 }
+
 
 
 export const VanityItems_325: Item = {
@@ -459,8 +493,10 @@ export const VanityItems_325: Item = {
     id: 325,
     name: "博士衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TheDoctorV,
+    comments: "亏凸月 服装商",
 }
+
 
 
 export const VanityItems_326: Item = {
@@ -469,8 +505,10 @@ export const VanityItems_326: Item = {
     id: 326,
     name: "博士裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TheDoctorV,
+    comments: "亏凸月 服装商",
 }
+
 
 
 export const VanityItems_503: Item = {
@@ -479,8 +517,10 @@ export const VanityItems_503: Item = {
     id: 503,
     name: "小丑帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClownV,
+    comments: "打败小丑后 服装商",
 }
+
 
 
 export const VanityItems_504: Item = {
@@ -489,8 +529,10 @@ export const VanityItems_504: Item = {
     id: 504,
     name: "小丑衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClownV,
+    comments: "打败小丑后 服装商",
 }
+
 
 
 export const VanityItems_505: Item = {
@@ -499,8 +541,10 @@ export const VanityItems_505: Item = {
     id: 505,
     name: "小丑裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClownV,
+    comments: "打败小丑后 服装商",
 }
+
 
 
 export const VanityItems_588: Item = {
@@ -509,8 +553,10 @@ export const VanityItems_588: Item = {
     id: 588,
     name: "圣诞帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SantaV,
+    comments: "击败雪人军团 圣诞老人",
 }
+
 
 
 export const VanityItems_589: Item = {
@@ -519,8 +565,10 @@ export const VanityItems_589: Item = {
     id: 589,
     name: "圣诞衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SantaV,
+    comments: "击败雪人军团 圣诞老人",
 }
+
 
 
 export const VanityItems_590: Item = {
@@ -529,8 +577,10 @@ export const VanityItems_590: Item = {
     id: 590,
     name: "圣诞裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SantaV,
+    comments: "击败雪人军团 圣诞老人",
 }
+
 
 
 export const VanityItems_754: Item = {
@@ -539,8 +589,10 @@ export const VanityItems_754: Item = {
     id: 754,
     name: "符文帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RuneV,
+    comments: "符文巫师",
 }
+
 
 
 export const VanityItems_755: Item = {
@@ -549,8 +601,10 @@ export const VanityItems_755: Item = {
     id: 755,
     name: "符文长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RuneV,
+    comments: "符文巫师",
 }
+
 
 
 export const VanityItems_839: Item = {
@@ -559,8 +613,10 @@ export const VanityItems_839: Item = {
     id: 839,
     name: "蒸汽朋克帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SteampunkV,
+    comments: "满月至残月 蒸汽朋克",
 }
+
 
 
 export const VanityItems_840: Item = {
@@ -569,8 +625,10 @@ export const VanityItems_840: Item = {
     id: 840,
     name: "蒸汽朋克衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SteampunkV,
+    comments: "满月至残月 蒸汽朋克",
 }
+
 
 
 export const VanityItems_841: Item = {
@@ -579,8 +637,10 @@ export const VanityItems_841: Item = {
     id: 841,
     name: "蒸汽朋克裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SteampunkV,
+    comments: "满月至残月 蒸汽朋克",
 }
+
 
 
 export const VanityItems_842: Item = {
@@ -589,8 +649,10 @@ export const VanityItems_842: Item = {
     id: 842,
     name: "蜜蜂帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeeV,
+    comments: "蜂后掉落",
 }
+
 
 
 export const VanityItems_843: Item = {
@@ -599,8 +661,10 @@ export const VanityItems_843: Item = {
     id: 843,
     name: "蜜蜂衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeeV,
+    comments: "蜂后掉落",
 }
+
 
 
 export const VanityItems_844: Item = {
@@ -609,8 +673,10 @@ export const VanityItems_844: Item = {
     id: 844,
     name: "蜜蜂裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeeV,
+    comments: "蜂后掉落",
 }
+
 
 
 export const VanityItems_848: Item = {
@@ -619,8 +685,10 @@ export const VanityItems_848: Item = {
     id: 848,
     name: "法老面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PharaohV,
+    comments: "沙暴瓶 嬗变",
 }
+
 
 
 export const VanityItems_866: Item = {
@@ -629,8 +697,10 @@ export const VanityItems_866: Item = {
     id: 866,
     name: "法老长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PharaohV,
+    comments: "飞毯 嬗变",
 }
+
 
 
 export const VanityItems_864: Item = {
@@ -639,8 +709,10 @@ export const VanityItems_864: Item = {
     id: 864,
     name: "头冠",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrincessVA,
+    comments: "肉后 新月 服装商",
 }
+
 
 
 export const VanityItems_865: Item = {
@@ -649,8 +721,10 @@ export const VanityItems_865: Item = {
     id: 865,
     name: "公主裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrincessVA,
+    comments: "肉后 新月 服装商",
 }
+
 
 
 export const VanityItems_870: Item = {
@@ -659,8 +733,10 @@ export const VanityItems_870: Item = {
     id: 870,
     name: "木乃伊面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MummyV,
+    comments: "木乃伊",
 }
+
 
 
 export const VanityItems_871: Item = {
@@ -669,8 +745,10 @@ export const VanityItems_871: Item = {
     id: 871,
     name: "木乃伊衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MummyV,
+    comments: "木乃伊",
 }
+
 
 
 export const VanityItems_872: Item = {
@@ -679,8 +757,10 @@ export const VanityItems_872: Item = {
     id: 872,
     name: "木乃伊裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MummyV,
+    comments: "木乃伊",
 }
+
 
 
 export const VanityItems_873: Item = {
@@ -689,8 +769,10 @@ export const VanityItems_873: Item = {
     id: 873,
     name: "牛仔帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CowboyV,
+    comments: "肉后 上弦月 服装商",
 }
+
 
 
 export const VanityItems_874: Item = {
@@ -699,8 +781,10 @@ export const VanityItems_874: Item = {
     id: 874,
     name: "牛仔夹克",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CowboyV,
+    comments: "肉后 上弦月 服装商",
 }
+
 
 
 export const VanityItems_875: Item = {
@@ -709,8 +793,10 @@ export const VanityItems_875: Item = {
     id: 875,
     name: "牛仔裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CowboyV,
+    comments: "肉后 上弦月 服装商",
 }
+
 
 
 export const VanityItems_876: Item = {
@@ -719,8 +805,10 @@ export const VanityItems_876: Item = {
     id: 876,
     name: "海盗帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PirateV,
+    comments: "海盗npc",
 }
+
 
 
 export const VanityItems_877: Item = {
@@ -729,8 +817,10 @@ export const VanityItems_877: Item = {
     id: 877,
     name: "海盗衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PirateV,
+    comments: "海盗npc",
 }
+
 
 
 export const VanityItems_878: Item = {
@@ -739,8 +829,10 @@ export const VanityItems_878: Item = {
     id: 878,
     name: "海盗裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PirateV,
+    comments: "海盗npc",
 }
+
 
 
 export const VanityItems_1135: Item = {
@@ -749,8 +841,10 @@ export const VanityItems_1135: Item = {
     id: 1135,
     name: "雨帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RainV,
+    comments: "雨衣僵尸",
 }
+
 
 
 export const VanityItems_1136: Item = {
@@ -759,8 +853,10 @@ export const VanityItems_1136: Item = {
     id: 1136,
     name: "雨衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RainV,
+    comments: "雨衣僵尸",
 }
+
 
 
 export const VanityItems_1277: Item = {
@@ -769,8 +865,10 @@ export const VanityItems_1277: Item = {
     id: 1277,
     name: "水手帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SailorV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_1279: Item = {
@@ -779,8 +877,10 @@ export const VanityItems_1279: Item = {
     id: 1279,
     name: "水手衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SailorV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_1280: Item = {
@@ -789,8 +889,10 @@ export const VanityItems_1280: Item = {
     id: 1280,
     name: "水手裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SailorV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_1288: Item = {
@@ -799,8 +901,10 @@ export const VanityItems_1288: Item = {
     id: 1288,
     name: "白西装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WhiteTuxedoV,
+    comments: "满月 夜晚 服装商",
 }
+
 
 
 export const VanityItems_1289: Item = {
@@ -809,8 +913,10 @@ export const VanityItems_1289: Item = {
     id: 1289,
     name: "白西装裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WhiteTuxedoV,
+    comments: "满月 夜晚 服装商",
 }
+
 
 
 export const VanityItems_1736: Item = {
@@ -819,8 +925,10 @@ export const VanityItems_1736: Item = {
     id: 1736,
     name: "护士帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: NurseV,
+    comments: "万圣节 军火商",
 }
+
 
 
 export const VanityItems_1737: Item = {
@@ -829,8 +937,10 @@ export const VanityItems_1737: Item = {
     id: 1737,
     name: "护士衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: NurseV,
+    comments: "万圣节 军火商",
 }
+
 
 
 export const VanityItems_1738: Item = {
@@ -839,8 +949,10 @@ export const VanityItems_1738: Item = {
     id: 1738,
     name: "护士裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: NurseV,
+    comments: "万圣节 军火商",
 }
+
 
 
 export const VanityItems_3248: Item = {
@@ -849,8 +961,10 @@ export const VanityItems_3248: Item = {
     id: 3248,
     name: "染料商头巾",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DyeTraderV,
+    comments: "万圣节 染料商",
 }
+
 
 
 export const VanityItems_1741: Item = {
@@ -859,8 +973,10 @@ export const VanityItems_1741: Item = {
     id: 1741,
     name: "染料商长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DyeTraderV,
+    comments: "万圣节 染料商",
 }
+
 
 
 export const VanityItems_1743: Item = {
@@ -869,8 +985,10 @@ export const VanityItems_1743: Item = {
     id: 1743,
     name: "机器侠头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CyborgV,
+    comments: "万圣节 机器侠",
 }
+
 
 
 export const VanityItems_1744: Item = {
@@ -879,8 +997,10 @@ export const VanityItems_1744: Item = {
     id: 1744,
     name: "机器侠衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CyborgV,
+    comments: "万圣节 机器侠",
 }
+
 
 
 export const VanityItems_1745: Item = {
@@ -889,8 +1009,10 @@ export const VanityItems_1745: Item = {
     id: 1745,
     name: "机器侠裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CyborgV,
+    comments: "万圣节 机器侠",
 }
+
 
 
 export const VanityItems_1746: Item = {
@@ -899,8 +1021,10 @@ export const VanityItems_1746: Item = {
     id: 1746,
     name: "苦力怕面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CreeperV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1747: Item = {
@@ -909,8 +1033,10 @@ export const VanityItems_1747: Item = {
     id: 1747,
     name: "苦力怕衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CreeperV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1748: Item = {
@@ -919,8 +1045,10 @@ export const VanityItems_1748: Item = {
     id: 1748,
     name: "苦力怕裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CreeperV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1749: Item = {
@@ -929,8 +1057,10 @@ export const VanityItems_1749: Item = {
     id: 1749,
     name: "猫咪面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CatV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1750: Item = {
@@ -939,8 +1069,10 @@ export const VanityItems_1750: Item = {
     id: 1750,
     name: "猫咪衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CatV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1751: Item = {
@@ -949,8 +1081,10 @@ export const VanityItems_1751: Item = {
     id: 1751,
     name: "猫咪裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CatV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1752: Item = {
@@ -959,8 +1093,10 @@ export const VanityItems_1752: Item = {
     id: 1752,
     name: "鬼魂面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: GhostV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1753: Item = {
@@ -969,8 +1105,10 @@ export const VanityItems_1753: Item = {
     id: 1753,
     name: "鬼魂衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: GhostV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1754: Item = {
@@ -979,8 +1117,10 @@ export const VanityItems_1754: Item = {
     id: 1754,
     name: "南瓜面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PumpkinV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1755: Item = {
@@ -989,8 +1129,10 @@ export const VanityItems_1755: Item = {
     id: 1755,
     name: "南瓜衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PumpkinV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1756: Item = {
@@ -999,8 +1141,10 @@ export const VanityItems_1756: Item = {
     id: 1756,
     name: "南瓜裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PumpkinV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1757: Item = {
@@ -1009,8 +1153,10 @@ export const VanityItems_1757: Item = {
     id: 1757,
     name: "机器人面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RobotV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1758: Item = {
@@ -1019,8 +1165,10 @@ export const VanityItems_1758: Item = {
     id: 1758,
     name: "机器人衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RobotV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1759: Item = {
@@ -1029,8 +1177,10 @@ export const VanityItems_1759: Item = {
     id: 1759,
     name: "机器人裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RobotV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1760: Item = {
@@ -1039,8 +1189,10 @@ export const VanityItems_1760: Item = {
     id: 1760,
     name: "独角兽面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: UnicornV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1761: Item = {
@@ -1049,8 +1201,10 @@ export const VanityItems_1761: Item = {
     id: 1761,
     name: "独角兽衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: UnicornV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1762: Item = {
@@ -1059,8 +1213,10 @@ export const VanityItems_1762: Item = {
     id: 1762,
     name: "独角兽裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: UnicornV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1763: Item = {
@@ -1069,8 +1225,10 @@ export const VanityItems_1763: Item = {
     id: 1763,
     name: "吸血鬼面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: VampireV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1764: Item = {
@@ -1079,8 +1237,10 @@ export const VanityItems_1764: Item = {
     id: 1764,
     name: "吸血鬼衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: VampireV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1765: Item = {
@@ -1089,8 +1249,10 @@ export const VanityItems_1765: Item = {
     id: 1765,
     name: "吸血鬼裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: VampireV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1767: Item = {
@@ -1099,8 +1261,10 @@ export const VanityItems_1767: Item = {
     id: 1767,
     name: "矮妖帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LeprechaunV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1768: Item = {
@@ -1109,8 +1273,10 @@ export const VanityItems_1768: Item = {
     id: 1768,
     name: "矮妖衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LeprechaunV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1769: Item = {
@@ -1119,8 +1285,10 @@ export const VanityItems_1769: Item = {
     id: 1769,
     name: "矮妖裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LeprechaunV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1770: Item = {
@@ -1129,8 +1297,10 @@ export const VanityItems_1770: Item = {
     id: 1770,
     name: "妖精衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PixieV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1771: Item = {
@@ -1139,8 +1309,10 @@ export const VanityItems_1771: Item = {
     id: 1771,
     name: "妖精裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PixieV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1772: Item = {
@@ -1149,8 +1321,10 @@ export const VanityItems_1772: Item = {
     id: 1772,
     name: "公主帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrincessVB,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1773: Item = {
@@ -1159,8 +1333,10 @@ export const VanityItems_1773: Item = {
     id: 1773,
     name: "公主裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrincessVB,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1766: Item = {
@@ -1169,8 +1345,10 @@ export const VanityItems_1766: Item = {
     id: 1766,
     name: "女巫帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WitchV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1775: Item = {
@@ -1179,8 +1357,10 @@ export const VanityItems_1775: Item = {
     id: 1775,
     name: "女巫服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WitchV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1776: Item = {
@@ -1189,8 +1369,10 @@ export const VanityItems_1776: Item = {
     id: 1776,
     name: "女巫靴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WitchV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1777: Item = {
@@ -1199,8 +1381,10 @@ export const VanityItems_1777: Item = {
     id: 1777,
     name: "科学怪人新娘面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BrideV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1778: Item = {
@@ -1209,8 +1393,10 @@ export const VanityItems_1778: Item = {
     id: 1778,
     name: "科学怪人新娘服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BrideV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1779: Item = {
@@ -1219,8 +1405,10 @@ export const VanityItems_1779: Item = {
     id: 1779,
     name: "空手道陆龟面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: KarateV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1780: Item = {
@@ -1229,8 +1417,10 @@ export const VanityItems_1780: Item = {
     id: 1780,
     name: "空手道陆龟衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: KarateV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1781: Item = {
@@ -1239,8 +1429,10 @@ export const VanityItems_1781: Item = {
     id: 1781,
     name: "空手道陆龟裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: KarateV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1819: Item = {
@@ -1249,8 +1441,10 @@ export const VanityItems_1819: Item = {
     id: 1819,
     name: "死神兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ReaperV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1820: Item = {
@@ -1259,8 +1453,10 @@ export const VanityItems_1820: Item = {
     id: 1820,
     name: "死神长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ReaperV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1821: Item = {
@@ -1269,8 +1465,10 @@ export const VanityItems_1821: Item = {
     id: 1821,
     name: "狐狸面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FoxV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1822: Item = {
@@ -1279,8 +1477,10 @@ export const VanityItems_1822: Item = {
     id: 1822,
     name: "狐狸衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FoxV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1823: Item = {
@@ -1289,8 +1489,10 @@ export const VanityItems_1823: Item = {
     id: 1823,
     name: "狐狸裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FoxV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1838: Item = {
@@ -1299,8 +1501,10 @@ export const VanityItems_1838: Item = {
     id: 1838,
     name: "太空生物面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SpaceCreatureV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1839: Item = {
@@ -1309,8 +1513,10 @@ export const VanityItems_1839: Item = {
     id: 1839,
     name: "太空生物衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SpaceCreatureV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1840: Item = {
@@ -1319,8 +1525,10 @@ export const VanityItems_1840: Item = {
     id: 1840,
     name: "太空生物裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SpaceCreatureV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1841: Item = {
@@ -1329,8 +1537,10 @@ export const VanityItems_1841: Item = {
     id: 1841,
     name: "狼面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WolfV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1842: Item = {
@@ -1339,8 +1549,10 @@ export const VanityItems_1842: Item = {
     id: 1842,
     name: "狼衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WolfV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1843: Item = {
@@ -1349,8 +1561,10 @@ export const VanityItems_1843: Item = {
     id: 1843,
     name: "狼裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WolfV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1851: Item = {
@@ -1359,8 +1573,10 @@ export const VanityItems_1851: Item = {
     id: 1851,
     name: "寻宝人衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TreasureHunterV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1852: Item = {
@@ -1369,8 +1585,10 @@ export const VanityItems_1852: Item = {
     id: 1852,
     name: "寻宝人裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TreasureHunterV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1853: Item = {
@@ -1379,8 +1597,10 @@ export const VanityItems_1853: Item = {
     id: 1853,
     name: "树妖遮体服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DryadV,
+    comments: "万圣节 树妖",
 }
+
 
 
 export const VanityItems_1854: Item = {
@@ -1389,8 +1609,10 @@ export const VanityItems_1854: Item = {
     id: 1854,
     name: "树妖腰布",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DryadV,
+    comments: "万圣节 树妖",
 }
+
 
 
 export const VanityItems_1788: Item = {
@@ -1399,8 +1621,10 @@ export const VanityItems_1788: Item = {
     id: 1788,
     name: "稻草人帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ScarecrowV,
+    comments: "南瓜月 稻草人",
 }
+
 
 
 export const VanityItems_1789: Item = {
@@ -1409,8 +1633,10 @@ export const VanityItems_1789: Item = {
     id: 1789,
     name: "稻草人衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ScarecrowV,
+    comments: "南瓜月 稻草人",
 }
+
 
 
 export const VanityItems_1790: Item = {
@@ -1419,8 +1645,10 @@ export const VanityItems_1790: Item = {
     id: 1790,
     name: "稻草人裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ScarecrowV,
+    comments: "南瓜月 稻草人",
 }
+
 
 
 export const VanityItems_1932: Item = {
@@ -1429,8 +1657,10 @@ export const VanityItems_1932: Item = {
     id: 1932,
     name: "圣诞夫人帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MrsClausV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1933: Item = {
@@ -1439,8 +1669,10 @@ export const VanityItems_1933: Item = {
     id: 1933,
     name: "圣诞夫人衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MrsClausV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1934: Item = {
@@ -1449,8 +1681,10 @@ export const VanityItems_1934: Item = {
     id: 1934,
     name: "圣诞夫人高跟鞋",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MrsClausV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1935: Item = {
@@ -1459,8 +1693,10 @@ export const VanityItems_1935: Item = {
     id: 1935,
     name: "派克兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ParkaV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1936: Item = {
@@ -1469,8 +1705,10 @@ export const VanityItems_1936: Item = {
     id: 1936,
     name: "派克大衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ParkaV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1937: Item = {
@@ -1479,8 +1717,10 @@ export const VanityItems_1937: Item = {
     id: 1937,
     name: "派克裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ParkaV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1940: Item = {
@@ -1489,8 +1729,10 @@ export const VanityItems_1940: Item = {
     id: 1940,
     name: "树面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TreeV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1941: Item = {
@@ -1499,8 +1741,10 @@ export const VanityItems_1941: Item = {
     id: 1941,
     name: "树衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TreeV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1942: Item = {
@@ -1509,8 +1753,10 @@ export const VanityItems_1942: Item = {
     id: 1942,
     name: "树干",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TreeV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1943: Item = {
@@ -1519,8 +1765,10 @@ export const VanityItems_1943: Item = {
     id: 1943,
     name: "精灵帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ElfV,
+    comments: "僵尸精灵",
 }
+
 
 
 export const VanityItems_1944: Item = {
@@ -1529,8 +1777,10 @@ export const VanityItems_1944: Item = {
     id: 1944,
     name: "精灵衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ElfV,
+    comments: "僵尸精灵",
 }
+
 
 
 export const VanityItems_1945: Item = {
@@ -1539,8 +1789,10 @@ export const VanityItems_1945: Item = {
     id: 1945,
     name: "精灵裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ElfV,
+    comments: "僵尸精灵",
 }
+
 
 
 export const VanityItems_2417: Item = {
@@ -1549,8 +1801,10 @@ export const VanityItems_2417: Item = {
     id: 2417,
     name: "贝壳发夹",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MermaidV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2418: Item = {
@@ -1559,8 +1813,10 @@ export const VanityItems_2418: Item = {
     id: 2418,
     name: "美人鱼饰品",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MermaidV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2419: Item = {
@@ -1569,8 +1825,10 @@ export const VanityItems_2419: Item = {
     id: 2419,
     name: "美人鱼鱼尾裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MermaidV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2498: Item = {
@@ -1579,8 +1837,10 @@ export const VanityItems_2498: Item = {
     id: 2498,
     name: "鱼装面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FishV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2499: Item = {
@@ -1589,8 +1849,10 @@ export const VanityItems_2499: Item = {
     id: 2499,
     name: "鱼装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FishV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2500: Item = {
@@ -1599,8 +1861,10 @@ export const VanityItems_2500: Item = {
     id: 2500,
     name: "鱼装鳍裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FishV,
+    comments: "渔夫任务",
 }
+
 
 
 export const VanityItems_2803: Item = {
@@ -1609,8 +1873,10 @@ export const VanityItems_2803: Item = {
     id: 2803,
     name: "火星装面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianCostumeV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2804: Item = {
@@ -1619,8 +1885,10 @@ export const VanityItems_2804: Item = {
     id: 2804,
     name: "火星装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianCostumeV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2805: Item = {
@@ -1629,8 +1897,10 @@ export const VanityItems_2805: Item = {
     id: 2805,
     name: "火星装裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianCostumeV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2806: Item = {
@@ -1639,8 +1909,10 @@ export const VanityItems_2806: Item = {
     id: 2806,
     name: "火星制服头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianUniformV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2807: Item = {
@@ -1649,8 +1921,10 @@ export const VanityItems_2807: Item = {
     id: 2807,
     name: "火星制服上衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianUniformV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2808: Item = {
@@ -1659,8 +1933,10 @@ export const VanityItems_2808: Item = {
     id: 2808,
     name: "火星制服裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MartianUniformV,
+    comments: "火星入侵",
 }
+
 
 
 export const VanityItems_2856: Item = {
@@ -1669,8 +1945,10 @@ export const VanityItems_2856: Item = {
     id: 2856,
     name: "日耀邪教徒兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SolarCultistV,
+    comments: "教徒后 白天 服装商",
 }
+
 
 
 export const VanityItems_2858: Item = {
@@ -1679,8 +1957,10 @@ export const VanityItems_2858: Item = {
     id: 2858,
     name: "日耀邪教徒长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SolarCultistV,
+    comments: "教徒后 白天 服装商",
 }
+
 
 
 export const VanityItems_2857: Item = {
@@ -1689,8 +1969,10 @@ export const VanityItems_2857: Item = {
     id: 2857,
     name: "月亮邪教徒兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LunarCultistV,
+    comments: "教徒后 夜晚 服装商",
 }
+
 
 
 export const VanityItems_2859: Item = {
@@ -1699,8 +1981,10 @@ export const VanityItems_2859: Item = {
     id: 2859,
     name: "月亮邪教徒长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LunarCultistV,
+    comments: "教徒后 夜晚 服装商",
 }
+
 
 
 export const VanityItems_3242: Item = {
@@ -1709,8 +1993,10 @@ export const VanityItems_3242: Item = {
     id: 3242,
     name: "税收官帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TaxCollectorV,
+    comments: "肉后 服装商",
 }
+
 
 
 export const VanityItems_3243: Item = {
@@ -1719,8 +2005,10 @@ export const VanityItems_3243: Item = {
     id: 3243,
     name: "税收官衣服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TaxCollectorV,
+    comments: "肉后 服装商",
 }
+
 
 
 export const VanityItems_3244: Item = {
@@ -1729,8 +2017,10 @@ export const VanityItems_3244: Item = {
     id: 3244,
     name: "税收官裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TaxCollectorV,
+    comments: "肉后 服装商",
 }
+
 
 
 export const VanityItems_260: Item = {
@@ -1739,8 +2029,10 @@ export const VanityItems_260: Item = {
     id: 260,
     name: "红帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClothierV,
+    comments: "服装商掉落",
 }
+
 
 
 export const VanityItems_3246: Item = {
@@ -1749,8 +2041,10 @@ export const VanityItems_3246: Item = {
     id: 3246,
     name: "服装商夹克",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClothierV,
+    comments: "万圣节 服装商",
 }
+
 
 
 export const VanityItems_3247: Item = {
@@ -1759,8 +2053,10 @@ export const VanityItems_3247: Item = {
     id: 3247,
     name: "服装商裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClothierV,
+    comments: "万圣节 服装商",
 }
+
 
 
 export const VanityItems_3263: Item = {
@@ -1769,8 +2065,10 @@ export const VanityItems_3263: Item = {
     id: 3263,
     name: "西域海盗头巾",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BuccaneerV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_3264: Item = {
@@ -1779,8 +2077,10 @@ export const VanityItems_3264: Item = {
     id: 3264,
     name: "西域海盗上装",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BuccaneerV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_3265: Item = {
@@ -1789,8 +2089,10 @@ export const VanityItems_3265: Item = {
     id: 3265,
     name: "西域海盗马裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BuccaneerV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_3362: Item = {
@@ -1799,8 +2101,10 @@ export const VanityItems_3362: Item = {
     id: 3362,
     name: "堕落西装衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FallenV,
+    comments: "血月 服装商",
 }
+
 
 
 export const VanityItems_3363: Item = {
@@ -1809,8 +2113,10 @@ export const VanityItems_3363: Item = {
     id: 3363,
     name: "堕落西装裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FallenV,
+    comments: "血月 服装商",
 }
+
 
 
 export const VanityItems_3478: Item = {
@@ -1819,8 +2125,10 @@ export const VanityItems_3478: Item = {
     id: 3478,
     name: "面纱",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WeddingV,
+    comments: "僵尸新娘",
 }
+
 
 
 export const VanityItems_3479: Item = {
@@ -1829,8 +2137,10 @@ export const VanityItems_3479: Item = {
     id: 3479,
     name: "婚裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WeddingV,
+    comments: "僵尸新娘",
 }
+
 
 
 export const VanityItems_3733: Item = {
@@ -1839,8 +2149,10 @@ export const VanityItems_3733: Item = {
     id: 3733,
     name: "呆萌向日葵花瓣头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SunflowerV,
+    comments: "派对 服装商",
 }
+
 
 
 export const VanityItems_3734: Item = {
@@ -1849,8 +2161,10 @@ export const VanityItems_3734: Item = {
     id: 3734,
     name: "呆萌向日葵上衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SunflowerV,
+    comments: "派对 服装商",
 }
+
 
 
 export const VanityItems_3735: Item = {
@@ -1859,8 +2173,10 @@ export const VanityItems_3735: Item = {
     id: 3735,
     name: "呆萌向日葵裤装",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SunflowerV,
+    comments: "派对 服装商",
 }
+
 
 
 export const VanityItems_3773: Item = {
@@ -1869,8 +2185,10 @@ export const VanityItems_3773: Item = {
     id: 3773,
     name: "远古头饰",
     Category: VanityItems,
-    comments: "",
+    SubCategory: AncientV,
+    comments: "丝绸+远古布匹",
 }
+
 
 
 export const VanityItems_3774: Item = {
@@ -1879,8 +2197,10 @@ export const VanityItems_3774: Item = {
     id: 3774,
     name: "远古上衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: AncientV,
+    comments: "丝绸+远古布匹",
 }
+
 
 
 export const VanityItems_3775: Item = {
@@ -1889,8 +2209,10 @@ export const VanityItems_3775: Item = {
     id: 3775,
     name: "远古裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: AncientV,
+    comments: "丝绸+远古布匹",
 }
+
 
 
 export const VanityItems_3784: Item = {
@@ -1899,8 +2221,10 @@ export const VanityItems_3784: Item = {
     id: 3784,
     name: "拉弥亚蛇尾裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LamiaV,
+    comments: "拉弥亚",
 }
+
 
 
 export const VanityItems_3785: Item = {
@@ -1909,8 +2233,10 @@ export const VanityItems_3785: Item = {
     id: 3785,
     name: "拉弥亚披肩",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LamiaV,
+    comments: "拉弥亚",
 }
+
 
 
 export const VanityItems_3786: Item = {
@@ -1919,8 +2245,10 @@ export const VanityItems_3786: Item = {
     id: 3786,
     name: "拉弥亚面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LamiaV,
+    comments: "拉弥亚",
 }
+
 
 
 export const VanityItems_4128: Item = {
@@ -1929,8 +2257,10 @@ export const VanityItems_4128: Item = {
     id: 4128,
     name: "女仆帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MaidV,
+    comments: "黑线+丝绸",
 }
+
 
 
 export const VanityItems_4129: Item = {
@@ -1939,8 +2269,10 @@ export const VanityItems_4129: Item = {
     id: 4129,
     name: "女仆裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MaidV,
+    comments: "黑线+丝绸",
 }
+
 
 
 export const VanityItems_4130: Item = {
@@ -1949,8 +2281,10 @@ export const VanityItems_4130: Item = {
     id: 4130,
     name: "女仆鞋",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MaidV,
+    comments: "黑线+丝绸",
 }
+
 
 
 export const VanityItems_4132: Item = {
@@ -1959,8 +2293,10 @@ export const VanityItems_4132: Item = {
     id: 4132,
     name: "粉女仆帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PinkV,
+    comments: "粉线+丝绸",
 }
+
 
 
 export const VanityItems_4133: Item = {
@@ -1969,8 +2305,10 @@ export const VanityItems_4133: Item = {
     id: 4133,
     name: "粉女仆裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PinkV,
+    comments: "粉线+丝绸",
 }
+
 
 
 export const VanityItems_4134: Item = {
@@ -1979,8 +2317,10 @@ export const VanityItems_4134: Item = {
     id: 4134,
     name: "粉女仆鞋",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PinkV,
+    comments: "粉线+丝绸",
 }
+
 
 
 export const VanityItems_4135: Item = {
@@ -1989,8 +2329,10 @@ export const VanityItems_4135: Item = {
     id: 4135,
     name: "乡村俱乐部帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClubV,
+    comments: "高尔夫球手",
 }
+
 
 
 export const VanityItems_4136: Item = {
@@ -1999,8 +2341,10 @@ export const VanityItems_4136: Item = {
     id: 4136,
     name: "乡村俱乐部背心",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClubV,
+    comments: "高尔夫球手",
 }
+
 
 
 export const VanityItems_4137: Item = {
@@ -2009,8 +2353,10 @@ export const VanityItems_4137: Item = {
     id: 4137,
     name: "乡村俱乐部长裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClubV,
+    comments: "高尔夫球手",
 }
+
 
 
 export const VanityItems_4138: Item = {
@@ -2019,8 +2365,10 @@ export const VanityItems_4138: Item = {
     id: 4138,
     name: "乡村俱乐部帽舌",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ClubV,
+    comments: "高尔夫球手",
 }
+
 
 
 export const VanityItems_4652: Item = {
@@ -2029,8 +2377,10 @@ export const VanityItems_4652: Item = {
     id: 4652,
     name: "超级英雄面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SuperheroV,
+    comments: "绿线+丝绸",
 }
+
 
 
 export const VanityItems_4653: Item = {
@@ -2039,8 +2389,10 @@ export const VanityItems_4653: Item = {
     id: 4653,
     name: "超级英雄服装",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SuperheroV,
+    comments: "绿线+丝绸",
 }
+
 
 
 export const VanityItems_4654: Item = {
@@ -2049,8 +2401,10 @@ export const VanityItems_4654: Item = {
     id: 4654,
     name: "超级英雄紧身裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: SuperheroV,
+    comments: "绿线+丝绸",
 }
+
 
 
 export const VanityItems_4994: Item = {
@@ -2059,8 +2413,10 @@ export const VanityItems_4994: Item = {
     id: 4994,
     name: "蓝毕业帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BlueV,
+    comments: "肉后 残月 服装商",
 }
+
 
 
 export const VanityItems_4997: Item = {
@@ -2069,8 +2425,10 @@ export const VanityItems_4997: Item = {
     id: 4997,
     name: "蓝毕业礼服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BlueV,
+    comments: "肉后 残月 服装商",
 }
+
 
 
 export const VanityItems_4995: Item = {
@@ -2079,8 +2437,10 @@ export const VanityItems_4995: Item = {
     id: 4995,
     name: "褐红毕业帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RedV,
+    comments: "肉后 峨眉月 服装商",
 }
+
 
 
 export const VanityItems_4998: Item = {
@@ -2089,8 +2449,10 @@ export const VanityItems_4998: Item = {
     id: 4998,
     name: "褐红毕业礼服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RedV,
+    comments: "肉后 峨眉月 服装商",
 }
+
 
 
 export const VanityItems_4996: Item = {
@@ -2099,8 +2461,10 @@ export const VanityItems_4996: Item = {
     id: 4996,
     name: "黑毕业帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BlackV,
+    comments: "肉后 盈凸月 服装商",
 }
+
 
 
 export const VanityItems_4999: Item = {
@@ -2109,8 +2473,10 @@ export const VanityItems_4999: Item = {
     id: 4999,
     name: "黑毕业礼服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BlackV,
+    comments: "肉后 盈凸月 服装商",
 }
+
 
 
 export const VanityItems_4685: Item = {
@@ -2119,8 +2485,10 @@ export const VanityItems_4685: Item = {
     id: 4685,
     name: "掘墓者帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DiggerV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4686: Item = {
@@ -2129,8 +2497,10 @@ export const VanityItems_4686: Item = {
     id: 4686,
     name: "掘墓者外套",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DiggerV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4704: Item = {
@@ -2139,8 +2509,10 @@ export const VanityItems_4704: Item = {
     id: 4704,
     name: "葬礼帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FuneralV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4705: Item = {
@@ -2149,8 +2521,10 @@ export const VanityItems_4705: Item = {
     id: 4705,
     name: "葬礼外套",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FuneralV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4706: Item = {
@@ -2159,8 +2533,10 @@ export const VanityItems_4706: Item = {
     id: 4706,
     name: "葬礼裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FuneralV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4708: Item = {
@@ -2169,8 +2545,10 @@ export const VanityItems_4708: Item = {
     id: 4708,
     name: "维多利亚哥特帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: VictorianV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4709: Item = {
@@ -2179,8 +2557,10 @@ export const VanityItems_4709: Item = {
     id: 4709,
     name: "维多利亚哥特裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: VictorianV,
+    comments: "墓地 服装商",
 }
+
 
 
 export const VanityItems_4738: Item = {
@@ -2189,8 +2569,10 @@ export const VanityItems_4738: Item = {
     id: 4738,
     name: "苍蝇人博士面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DrManFlyV,
+    comments: "苍蝇人博士",
 }
+
 
 
 export const VanityItems_4739: Item = {
@@ -2199,8 +2581,10 @@ export const VanityItems_4739: Item = {
     id: 4739,
     name: "苍蝇人博士实验服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DrManFlyV,
+    comments: "苍蝇人博士",
 }
+
 
 
 export const VanityItems_4740: Item = {
@@ -2209,8 +2593,10 @@ export const VanityItems_4740: Item = {
     id: 4740,
     name: "屠夫面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ButcherV,
+    comments: "屠夫",
 }
+
 
 
 export const VanityItems_4741: Item = {
@@ -2219,8 +2605,10 @@ export const VanityItems_4741: Item = {
     id: 4741,
     name: "屠夫的染血围裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ButcherV,
+    comments: "屠夫",
 }
+
 
 
 export const VanityItems_4742: Item = {
@@ -2229,8 +2617,10 @@ export const VanityItems_4742: Item = {
     id: 4742,
     name: "屠夫的染血裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ButcherV,
+    comments: "屠夫",
 }
+
 
 
 export const VanityItems_4768: Item = {
@@ -2239,8 +2629,10 @@ export const VanityItems_4768: Item = {
     id: 4768,
     name: "狗耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DogV,
+    comments: "满月 动物学家",
 }
+
 
 
 export const VanityItems_4769: Item = {
@@ -2249,8 +2641,10 @@ export const VanityItems_4769: Item = {
     id: 4769,
     name: "狗尾巴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: DogV,
+    comments: "满月 动物学家",
 }
+
 
 
 export const VanityItems_4770: Item = {
@@ -2259,8 +2653,10 @@ export const VanityItems_4770: Item = {
     id: 4770,
     name: "狐狸耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FoxV,
+    comments: "下弦月 动物学家",
 }
+
 
 
 export const VanityItems_4771: Item = {
@@ -2269,8 +2665,10 @@ export const VanityItems_4771: Item = {
     id: 4771,
     name: "狐狸尾巴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FoxV,
+    comments: "下弦月 动物学家",
 }
+
 
 
 export const VanityItems_4772: Item = {
@@ -2279,8 +2677,10 @@ export const VanityItems_4772: Item = {
     id: 4772,
     name: "蜥蜴耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LizardV,
+    comments: "新月 动物学家",
 }
+
 
 
 export const VanityItems_4773: Item = {
@@ -2289,8 +2689,10 @@ export const VanityItems_4773: Item = {
     id: 4773,
     name: "蜥蜴尾巴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: LizardV,
+    comments: "新月 动物学家",
 }
+
 
 
 export const VanityItems_4560: Item = {
@@ -2299,8 +2701,10 @@ export const VanityItems_4560: Item = {
     id: 4560,
     name: "兔耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BunnyV,
+    comments: "上弦月 动物学家",
 }
+
 
 
 export const VanityItems_4775: Item = {
@@ -2309,8 +2713,10 @@ export const VanityItems_4775: Item = {
     id: 4775,
     name: "兔尾巴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BunnyV,
+    comments: "上弦月 动物学家",
 }
+
 
 
 export const VanityItems_4779: Item = {
@@ -2319,8 +2725,10 @@ export const VanityItems_4779: Item = {
     id: 4779,
     name: "蘑菇帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MushroomV,
+    comments: "蘑菇箱",
 }
+
 
 
 export const VanityItems_4780: Item = {
@@ -2329,8 +2737,10 @@ export const VanityItems_4780: Item = {
     id: 4780,
     name: "蘑菇背心",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MushroomV,
+    comments: "蘑菇箱",
 }
+
 
 
 export const VanityItems_4781: Item = {
@@ -2339,8 +2749,10 @@ export const VanityItems_4781: Item = {
     id: 4781,
     name: "蘑菇裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MushroomV,
+    comments: "蘑菇箱",
 }
+
 
 
 export const VanityItems_5045: Item = {
@@ -2349,8 +2761,10 @@ export const VanityItems_5045: Item = {
     id: 5045,
     name: "瘟疫使者骷髅头",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlaguebringerV,
+    comments: "椎骨+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5046: Item = {
@@ -2359,8 +2773,10 @@ export const VanityItems_5046: Item = {
     id: 5046,
     name: "瘟疫使者斗篷",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlaguebringerV,
+    comments: "椎骨+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5047: Item = {
@@ -2369,8 +2785,10 @@ export const VanityItems_5047: Item = {
     id: 5047,
     name: "瘟疫使者便鞋",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PlaguebringerV,
+    comments: "椎骨+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5048: Item = {
@@ -2379,8 +2797,10 @@ export const VanityItems_5048: Item = {
     id: 5048,
     name: "浪人阵笠",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WanderingV,
+    comments: "萤火虫+丝绸+粘土块",
 }
+
 
 
 export const VanityItems_5049: Item = {
@@ -2389,8 +2809,10 @@ export const VanityItems_5049: Item = {
     id: 5049,
     name: "浪人浴衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WanderingV,
+    comments: "萤火虫+丝绸+粘土块",
 }
+
 
 
 export const VanityItems_5050: Item = {
@@ -2399,8 +2821,10 @@ export const VanityItems_5050: Item = {
     id: 5050,
     name: "浪人木屐",
     Category: VanityItems,
-    comments: "",
+    SubCategory: WanderingV,
+    comments: "萤火虫+丝绸+粘土块",
 }
+
 
 
 export const VanityItems_5051: Item = {
@@ -2409,8 +2833,10 @@ export const VanityItems_5051: Item = {
     id: 5051,
     name: "永恒旅人兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TimelessV,
+    comments: "腐肉+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5052: Item = {
@@ -2419,8 +2845,10 @@ export const VanityItems_5052: Item = {
     id: 5052,
     name: "永恒旅人斗篷",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TimelessV,
+    comments: "腐肉+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5053: Item = {
@@ -2429,8 +2857,10 @@ export const VanityItems_5053: Item = {
     id: 5053,
     name: "永恒旅人鞋履",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TimelessV,
+    comments: "腐肉+丝绸+黑染料",
 }
+
 
 
 export const VanityItems_5054: Item = {
@@ -2439,8 +2869,10 @@ export const VanityItems_5054: Item = {
     id: 5054,
     name: "护花者头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FloretV,
+    comments: "丝绸+土块+玻璃+太阳花",
 }
+
 
 
 export const VanityItems_5055: Item = {
@@ -2449,8 +2881,10 @@ export const VanityItems_5055: Item = {
     id: 5055,
     name: "护花者衬衫",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FloretV,
+    comments: "丝绸+土块+玻璃+太阳花",
 }
+
 
 
 export const VanityItems_5056: Item = {
@@ -2459,8 +2893,10 @@ export const VanityItems_5056: Item = {
     id: 5056,
     name: "护花者裤子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FloretV,
+    comments: "丝绸+土块+玻璃+太阳花",
 }
+
 
 
 export const VanityItems_5057: Item = {
@@ -2469,8 +2905,10 @@ export const VanityItems_5057: Item = {
     id: 5057,
     name: "摩羯座头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CapricornV,
+    comments: "丝绸+银染料+落星+珊瑚",
 }
+
 
 
 export const VanityItems_5058: Item = {
@@ -2479,8 +2917,10 @@ export const VanityItems_5058: Item = {
     id: 5058,
     name: "摩羯座护胸",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CapricornV,
+    comments: "丝绸+银染料+落星+珊瑚",
 }
+
 
 
 export const VanityItems_5059: Item = {
@@ -2489,8 +2929,10 @@ export const VanityItems_5059: Item = {
     id: 5059,
     name: "摩羯座兽蹄",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CapricornV,
+    comments: "丝绸+银染料+落星+珊瑚",
 }
+
 
 
 export const VanityItems_5060: Item = {
@@ -2499,8 +2941,10 @@ export const VanityItems_5060: Item = {
     id: 5060,
     name: "摩羯座尾巴",
     Category: VanityItems,
-    comments: "",
+    SubCategory: CapricornV,
+    comments: "丝绸+银染料+落星+珊瑚",
 }
+
 
 
 export const VanityItems_5061: Item = {
@@ -2509,8 +2953,10 @@ export const VanityItems_5061: Item = {
     id: 5061,
     name: "视频脸",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TVV,
+    comments: "丝绸+紫染料+玻璃+电线",
 }
+
 
 
 export const VanityItems_5062: Item = {
@@ -2519,8 +2965,10 @@ export const VanityItems_5062: Item = {
     id: 5062,
     name: "激光外套",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TVV,
+    comments: "丝绸+紫染料+玻璃+电线",
 }
+
 
 
 export const VanityItems_5063: Item = {
@@ -2529,8 +2977,10 @@ export const VanityItems_5063: Item = {
     id: 5063,
     name: "细条纹裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: TVV,
+    comments: "丝绸+紫染料+玻璃+电线",
 }
+
 
 
 export const VanityItems_5071: Item = {
@@ -2539,8 +2989,10 @@ export const VanityItems_5071: Item = {
     id: 5071,
     name: "皇家头冠",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RoyalV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5072: Item = {
@@ -2549,8 +3001,10 @@ export const VanityItems_5072: Item = {
     id: 5072,
     name: "皇家女衫",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RoyalV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5073: Item = {
@@ -2559,8 +3013,10 @@ export const VanityItems_5073: Item = {
     id: 5073,
     name: "皇家礼服裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: RoyalV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5078: Item = {
@@ -2569,8 +3025,10 @@ export const VanityItems_5078: Item = {
     id: 5078,
     name: "王子制服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrinceV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5079: Item = {
@@ -2579,8 +3037,10 @@ export const VanityItems_5079: Item = {
     id: 5079,
     name: "王子裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrinceV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5080: Item = {
@@ -2589,8 +3049,10 @@ export const VanityItems_5080: Item = {
     id: 5080,
     name: "王子披风",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrinceV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5102: Item = {
@@ -2599,8 +3061,10 @@ export const VanityItems_5102: Item = {
     id: 5102,
     name: "绅士马甲",
     Category: VanityItems,
-    comments: "",
+    SubCategory: GentlemanV,
+    comments: "丝绸",
 }
+
 
 
 export const VanityItems_5103: Item = {
@@ -2609,8 +3073,10 @@ export const VanityItems_5103: Item = {
     id: 5103,
     name: "绅士裤子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: GentlemanV,
+    comments: "丝绸",
 }
+
 
 
 export const VanityItems_5104: Item = {
@@ -2619,8 +3085,10 @@ export const VanityItems_5104: Item = {
     id: 5104,
     name: "绅士胡子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeardV,
+    comments: "发型师",
 }
+
 
 
 export const VanityItems_5105: Item = {
@@ -2629,8 +3097,10 @@ export const VanityItems_5105: Item = {
     id: 5105,
     name: "绅士长胡子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeardV,
+    comments: "绅士胡子生长获得",
 }
+
 
 
 export const VanityItems_5106: Item = {
@@ -2639,8 +3109,10 @@ export const VanityItems_5106: Item = {
     id: 5106,
     name: "绅士大胡子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: BeardV,
+    comments: "绅士长胡子生长获得",
 }
+
 
 
 export const VanityItems_5115: Item = {
@@ -2649,8 +3121,10 @@ export const VanityItems_5115: Item = {
     id: 5115,
     name: "纵火者毛衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FireV,
+    comments: "丝绸",
 }
+
 
 
 export const VanityItems_5116: Item = {
@@ -2659,8 +3133,10 @@ export const VanityItems_5116: Item = {
     id: 5116,
     name: "纵火者裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: FireV,
+    comments: "丝绸",
 }
+
 
 
 export const VanityItems_4321: Item = {
@@ -2669,8 +3145,10 @@ export const VanityItems_4321: Item = {
     id: 4321,
     name: "大师级玩家夹克",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MasterV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4322: Item = {
@@ -2679,8 +3157,10 @@ export const VanityItems_4322: Item = {
     id: 4322,
     name: "大师级玩家裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: MasterV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4323: Item = {
@@ -2689,8 +3169,10 @@ export const VanityItems_4323: Item = {
     id: 4323,
     name: "星星公主王冠",
     Category: VanityItems,
-    comments: "",
+    SubCategory: StartV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4324: Item = {
@@ -2699,8 +3181,10 @@ export const VanityItems_4324: Item = {
     id: 4324,
     name: "星星公主裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: StartV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4555: Item = {
@@ -2709,8 +3193,10 @@ export const VanityItems_4555: Item = {
     id: 4555,
     name: "厨师帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ChefV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4556: Item = {
@@ -2719,8 +3205,10 @@ export const VanityItems_4556: Item = {
     id: 4556,
     name: "厨师服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ChefV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4557: Item = {
@@ -2729,8 +3217,10 @@ export const VanityItems_4557: Item = {
     id: 4557,
     name: "厨师裤",
     Category: VanityItems,
-    comments: "",
+    SubCategory: ChefV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4664: Item = {
@@ -2739,8 +3229,10 @@ export const VanityItems_4664: Item = {
     id: 4664,
     name: "漂亮粉连衣裙",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrettyPinkV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4665: Item = {
@@ -2749,8 +3241,10 @@ export const VanityItems_4665: Item = {
     id: 4665,
     name: "漂亮粉长袜",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrettyPinkV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4666: Item = {
@@ -2759,8 +3253,10 @@ export const VanityItems_4666: Item = {
     id: 4666,
     name: "漂亮粉丝带",
     Category: VanityItems,
-    comments: "",
+    SubCategory: PrettyPinkV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_5390: Item = {
@@ -2769,8 +3265,10 @@ export const VanityItems_5390: Item = {
     id: 5390,
     name: "Raynebro的兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: Raynebro,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_5386: Item = {
@@ -2779,8 +3277,10 @@ export const VanityItems_5386: Item = {
     id: 5386,
     name: "Raynebro的连帽衫",
     Category: VanityItems,
-    comments: "",
+    SubCategory: Raynebro,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_5387: Item = {
@@ -2789,8 +3289,10 @@ export const VanityItems_5387: Item = {
     id: 5387,
     name: "Raynebro的裤子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: Raynebro,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_1988: Item = {
@@ -2799,8 +3301,10 @@ export const VanityItems_1988: Item = {
     id: 1988,
     name: "菲斯帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_2278: Item = {
@@ -2809,8 +3313,10 @@ export const VanityItems_2278: Item = {
     id: 2278,
     name: "和服",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4549: Item = {
@@ -2819,8 +3325,10 @@ export const VanityItems_4549: Item = {
     id: 4549,
     name: "恶魔角",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4558: Item = {
@@ -2829,8 +3337,10 @@ export const VanityItems_4558: Item = {
     id: 4558,
     name: "星星发夹",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4559: Item = {
@@ -2839,8 +3349,10 @@ export const VanityItems_4559: Item = {
     id: 4559,
     name: "心形发夹",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4561: Item = {
@@ -2849,8 +3361,10 @@ export const VanityItems_4561: Item = {
     id: 4561,
     name: "魔鬼角",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4562: Item = {
@@ -2859,8 +3373,10 @@ export const VanityItems_4562: Item = {
     id: 4562,
     name: "软呢帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_4774: Item = {
@@ -2869,8 +3385,10 @@ export const VanityItems_4774: Item = {
     id: 4774,
     name: "熊猫耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_5136: Item = {
@@ -2879,8 +3397,10 @@ export const VanityItems_5136: Item = {
     id: 5136,
     name: "瓦尔克精灵耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_5305: Item = {
@@ -2889,8 +3409,10 @@ export const VanityItems_5305: Item = {
     id: 5305,
     name: "哥布魔耳朵",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商",
 }
+
 
 
 export const VanityItems_37: Item = {
@@ -2899,8 +3421,10 @@ export const VanityItems_37: Item = {
     id: 37,
     name: "护目镜",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "晶状体",
 }
+
 
 
 export const VanityItems_237: Item = {
@@ -2909,8 +3433,10 @@ export const VanityItems_237: Item = {
     id: 237,
     name: "墨镜",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "黑色晶状体",
 }
+
 
 
 export const VanityItems_242: Item = {
@@ -2919,8 +3445,10 @@ export const VanityItems_242: Item = {
     id: 242,
     name: "夏日草帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "白天服装商",
 }
+
 
 
 export const VanityItems_262: Item = {
@@ -2929,8 +3457,10 @@ export const VanityItems_262: Item = {
     id: 262,
     name: "长袍",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "丝绸",
 }
+
 
 
 export const VanityItems_264: Item = {
@@ -2939,8 +3469,10 @@ export const VanityItems_264: Item = {
     id: 264,
     name: "金冠",
     Category: VanityItems,
+    SubCategory: OtherV,
     comments: "",
 }
+
 
 
 export const VanityItems_715: Item = {
@@ -2949,8 +3481,10 @@ export const VanityItems_715: Item = {
     id: 715,
     name: "铂金冠",
     Category: VanityItems,
+    SubCategory: OtherV,
     comments: "",
 }
+
 
 
 export const VanityItems_322: Item = {
@@ -2959,8 +3493,10 @@ export const VanityItems_322: Item = {
     id: 322,
     name: "丑角面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "血月 服装商",
 }
+
 
 
 export const VanityItems_868: Item = {
@@ -2969,8 +3505,10 @@ export const VanityItems_868: Item = {
     id: 868,
     name: "蘑菇帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "松露人",
 }
+
 
 
 export const VanityItems_869: Item = {
@@ -2979,8 +3517,10 @@ export const VanityItems_869: Item = {
     id: 869,
     name: "苏格兰便帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "肉后 下弦月 服装商",
 }
+
 
 
 export const VanityItems_1275: Item = {
@@ -2989,8 +3529,10 @@ export const VanityItems_1275: Item = {
     id: 1275,
     name: "巴拉帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "雪人军团后 服装商",
 }
+
 
 
 export const VanityItems_1276: Item = {
@@ -2999,8 +3541,10 @@ export const VanityItems_1276: Item = {
     id: 1276,
     name: "黑帮帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "雪人军团后 服装商",
 }
+
 
 
 export const VanityItems_1429: Item = {
@@ -3009,8 +3553,10 @@ export const VanityItems_1429: Item = {
     id: 1429,
     name: "小便帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "雪原 服装商",
 }
+
 
 
 export const VanityItems_1739: Item = {
@@ -3019,8 +3565,10 @@ export const VanityItems_1739: Item = {
     id: 1739,
     name: "巫师之帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "万圣节 巫师",
 }
+
 
 
 export const VanityItems_1740: Item = {
@@ -3029,8 +3577,10 @@ export const VanityItems_1740: Item = {
     id: 1740,
     name: "盖伊·福克斯面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "万圣节 服装商",
 }
+
 
 
 export const VanityItems_1742: Item = {
@@ -3039,8 +3589,10 @@ export const VanityItems_1742: Item = {
     id: 1742,
     name: "蒸汽朋克护目镜",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "万圣节 蒸汽朋克",
 }
+
 
 
 export const VanityItems_1824: Item = {
@@ -3049,8 +3601,10 @@ export const VanityItems_1824: Item = {
     id: 1824,
     name: "猫耳",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "礼袋",
 }
+
 
 
 export const VanityItems_1907: Item = {
@@ -3059,8 +3613,10 @@ export const VanityItems_1907: Item = {
     id: 1907,
     name: "驯鹿角",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1938: Item = {
@@ -3069,8 +3625,10 @@ export const VanityItems_1938: Item = {
     id: 1938,
     name: "雪帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_1939: Item = {
@@ -3079,8 +3637,10 @@ export const VanityItems_1939: Item = {
     id: 1939,
     name: "丑毛衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "礼物",
 }
+
 
 
 export const VanityItems_2501: Item = {
@@ -3089,8 +3649,10 @@ export const VanityItems_2501: Item = {
     id: 2501,
     name: "姜须",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "铁匣/秘银匣",
 }
+
 
 
 export const VanityItems_2862: Item = {
@@ -3099,8 +3661,10 @@ export const VanityItems_2862: Item = {
     id: 2862,
     name: "高科技墨镜",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "火星暴乱后 机器侠",
 }
+
 
 
 export const VanityItems_3627: Item = {
@@ -3109,8 +3673,10 @@ export const VanityItems_3627: Item = {
     id: 3627,
     name: "工程头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "机械师",
 }
+
 
 
 export const VanityItems_3732: Item = {
@@ -3119,8 +3685,10 @@ export const VanityItems_3732: Item = {
     id: 3732,
     name: "派对帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "派对女孩",
 }
+
 
 
 export const VanityItems_4955: Item = {
@@ -3129,8 +3697,10 @@ export const VanityItems_4955: Item = {
     id: 4955,
     name: "兔子头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "动物学家",
 }
+
 
 
 export const VanityItems_5007: Item = {
@@ -3139,8 +3709,10 @@ export const VanityItems_5007: Item = {
     id: 5007,
     name: "死人毛衣",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "死人宝箱",
 }
+
 
 
 export const VanityItems_5077: Item = {
@@ -3149,8 +3721,10 @@ export const VanityItems_5077: Item = {
     id: 5077,
     name: "水晶鞋",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "公主",
 }
+
 
 
 export const VanityItems_5099: Item = {
@@ -3159,8 +3733,10 @@ export const VanityItems_5099: Item = {
     id: 5099,
     name: "花环",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "七种草药制作",
 }
+
 
 
 export const VanityItems_243: Item = {
@@ -3169,8 +3745,10 @@ export const VanityItems_243: Item = {
     id: 243,
     name: "兔兔兜帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "邪恶兔兔",
 }
+
 
 
 export const VanityItems_263: Item = {
@@ -3179,8 +3757,10 @@ export const VanityItems_263: Item = {
     id: 263,
     name: "机器人帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "食人鱼",
 }
+
 
 
 export const VanityItems_1243: Item = {
@@ -3189,8 +3769,10 @@ export const VanityItems_1243: Item = {
     id: 1243,
     name: "伞帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "雨伞史莱姆",
 }
+
 
 
 export const VanityItems_1274: Item = {
@@ -3199,8 +3781,10 @@ export const VanityItems_1274: Item = {
     id: 1274,
     name: "骷髅头",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "骷髅",
 }
+
 
 
 export const VanityItems_1278: Item = {
@@ -3209,8 +3793,10 @@ export const VanityItems_1278: Item = {
     id: 1278,
     name: "眼罩",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "海盗入侵",
 }
+
 
 
 export const VanityItems_1514: Item = {
@@ -3219,8 +3805,10 @@ export const VanityItems_1514: Item = {
     id: 1514,
     name: "特战头盔",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "骷髅特警",
 }
+
 
 
 export const VanityItems_1857: Item = {
@@ -3229,8 +3817,10 @@ export const VanityItems_1857: Item = {
     id: 1857,
     name: "杰克南瓜灯面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "无头骑士",
 }
+
 
 
 export const VanityItems_1906: Item = {
@@ -3239,8 +3829,10 @@ export const VanityItems_1906: Item = {
     id: 1906,
     name: "巨型蝴蝶结",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "圣诞节 史莱姆",
 }
+
 
 
 export const VanityItems_2801: Item = {
@@ -3249,8 +3841,10 @@ export const VanityItems_2801: Item = {
     id: 2801,
     name: "月亮面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "暗黑拉弥亚",
 }
+
 
 
 export const VanityItems_2802: Item = {
@@ -3259,8 +3853,10 @@ export const VanityItems_2802: Item = {
     id: 2802,
     name: "太阳面具",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "光明拉弥亚",
 }
+
 
 
 export const VanityItems_3770: Item = {
@@ -3269,8 +3865,10 @@ export const VanityItems_3770: Item = {
     id: 3770,
     name: "神灵诅咒",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "沙漠幽魂",
 }
+
 
 
 export const VanityItems_4761: Item = {
@@ -3279,8 +3877,10 @@ export const VanityItems_4761: Item = {
     id: 4761,
     name: "岩石巨人头",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "岩石巨人",
 }
+
 
 
 export const VanityItems_5101: Item = {
@@ -3289,8 +3889,10 @@ export const VanityItems_5101: Item = {
     id: 5101,
     name: "眼球伞",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "鹿角怪",
 }
+
 
 
 export const VanityItems_2222: Item = {
@@ -3299,8 +3901,10 @@ export const VanityItems_2222: Item = {
     id: 2222,
     name: "商贩帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "旅商掉落",
 }
+
 
 
 export const VanityItems_867: Item = {
@@ -3309,8 +3913,10 @@ export const VanityItems_867: Item = {
     id: 867,
     name: "绿帽",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "Andrew向导掉落",
 }
+
 
 
 export const VanityItems_5290: Item = {
@@ -3319,7 +3925,8 @@ export const VanityItems_5290: Item = {
     id: 5290,
     name: "Jim的帽子",
     Category: VanityItems,
-    comments: "",
+    SubCategory: OtherV,
+    comments: "Jim油漆工掉落",
 }
 
 

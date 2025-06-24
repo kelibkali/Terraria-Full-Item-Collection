@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Flags } from "../data.Category.zh-CN.ts"
 
+import { BloodFla, CorFla, CriFla, DayFla, DecFla, DongFla, DunFla, FMFla, ForFla, ForestFla, GoblinFla, HellFla, HollFla, JungleFla, MartianFla, MoonFla, MushFla, OldOneFla, OtherFla, PMFla, PirateFla, SandFla, SlimeFla } from "../data.SubCategory.zh-CN.ts"
+
 import Flags_1683Img from "../../../assets/icon/Item_1683.png"
 import Flags_2928Img from "../../../assets/icon/Item_2928.png"
 import Flags_2964Img from "../../../assets/icon/Item_2964.png"
@@ -307,14 +309,18 @@ import Flags_1467Img from "../../../assets/icon/Item_1467.png"
 import Flags_1468Img from "../../../assets/icon/Item_1468.png"
 import Flags_1469Img from "../../../assets/icon/Item_1469.png"
 import Flags_3815Img from "../../../assets/icon/Item_3815.png"
+
+
 export const Flags_1683: Item = {
     icon: Flags_1683Img,
     isCollection: false,
     id: 1683,
     name: "蓝史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2928: Item = {
@@ -323,8 +329,10 @@ export const Flags_2928: Item = {
     id: 2928,
     name: "绿史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2964: Item = {
@@ -333,8 +341,10 @@ export const Flags_2964: Item = {
     id: 2964,
     name: "紫史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_1690: Item = {
@@ -343,8 +353,10 @@ export const Flags_1690: Item = {
     id: 1690,
     name: "雨伞史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2968: Item = {
@@ -353,8 +365,10 @@ export const Flags_2968: Item = {
     id: 2968,
     name: "红史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2992: Item = {
@@ -363,8 +377,10 @@ export const Flags_2992: Item = {
     id: 2992,
     name: "黄史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2960: Item = {
@@ -373,8 +389,10 @@ export const Flags_2960: Item = {
     id: 2960,
     name: "粉史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2899: Item = {
@@ -383,8 +401,10 @@ export const Flags_2899: Item = {
     id: 2899,
     name: "黑史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2955: Item = {
@@ -393,8 +413,10 @@ export const Flags_2955: Item = {
     id: 2955,
     name: "史莱姆之母旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2916: Item = {
@@ -403,8 +425,10 @@ export const Flags_2916: Item = {
     id: 2916,
     name: "地牢史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2935: Item = {
@@ -413,8 +437,10 @@ export const Flags_2935: Item = {
     id: 2935,
     name: "冰雪史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2981: Item = {
@@ -423,8 +449,10 @@ export const Flags_2981: Item = {
     id: 2981,
     name: "尖刺丛林史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2940: Item = {
@@ -433,8 +461,10 @@ export const Flags_2940: Item = {
     id: 2940,
     name: "丛林史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2980: Item = {
@@ -443,8 +473,10 @@ export const Flags_2980: Item = {
     id: 2980,
     name: "尖刺冰雪史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_3593: Item = {
@@ -453,8 +485,10 @@ export const Flags_3593: Item = {
     id: 3593,
     name: "沙史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2944: Item = {
@@ -463,8 +497,10 @@ export const Flags_2944: Item = {
     id: 2944,
     name: "熔岩史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_5352: Item = {
@@ -473,8 +509,10 @@ export const Flags_5352: Item = {
     id: 5352,
     name: "微光史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_1689: Item = {
@@ -483,8 +521,10 @@ export const Flags_1689: Item = {
     id: 1689,
     name: "毒泥旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2908: Item = {
@@ -493,8 +533,10 @@ export const Flags_2908: Item = {
     id: 2908,
     name: "腐化史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2976: Item = {
@@ -503,8 +545,10 @@ export const Flags_2976: Item = {
     id: 2976,
     name: "恶翅史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2910: Item = {
@@ -513,8 +557,10 @@ export const Flags_2910: Item = {
     id: 2910,
     name: "猩红史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_1651: Item = {
@@ -523,8 +569,10 @@ export const Flags_1651: Item = {
     id: 1651,
     name: "腹足怪旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2938: Item = {
@@ -533,8 +581,10 @@ export const Flags_2938: Item = {
     id: 2938,
     name: "夜明史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_2966: Item = {
@@ -543,8 +593,10 @@ export const Flags_2966: Item = {
     id: 2966,
     name: "彩虹史莱姆旗",
     Category: Flags,
+    SubCategory: SlimeFla,
     comments: "",
 }
+
 
 
 export const Flags_1622: Item = {
@@ -553,8 +605,10 @@ export const Flags_1622: Item = {
     id: 1622,
     name: "鸟旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1628: Item = {
@@ -563,8 +617,10 @@ export const Flags_1628: Item = {
     id: 1628,
     name: "兔兔旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1657: Item = {
@@ -573,8 +629,10 @@ export const Flags_1657: Item = {
     id: 1657,
     name: "金鱼旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1701: Item = {
@@ -583,8 +641,10 @@ export const Flags_1701: Item = {
     id: 1701,
     name: "僵尸旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1639: Item = {
@@ -593,8 +653,10 @@ export const Flags_1639: Item = {
     id: 1639,
     name: "恶魔眼旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1678: Item = {
@@ -603,8 +665,10 @@ export const Flags_1678: Item = {
     id: 1678,
     name: "雨衣僵尸旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1646: Item = {
@@ -613,8 +677,10 @@ export const Flags_1646: Item = {
     id: 1646,
     name: "飞鱼旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_4687: Item = {
@@ -623,8 +689,10 @@ export const Flags_4687: Item = {
     id: 4687,
     name: "愤怒蒲公英旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_4688: Item = {
@@ -633,8 +701,10 @@ export const Flags_4688: Item = {
     id: 4688,
     name: "侏儒旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1658: Item = {
@@ -643,8 +713,10 @@ export const Flags_1658: Item = {
     id: 1658,
     name: "鸟妖旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1669: Item = {
@@ -653,8 +725,10 @@ export const Flags_1669: Item = {
     id: 1669,
     name: "流星头旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1634: Item = {
@@ -663,8 +737,10 @@ export const Flags_1634: Item = {
     id: 1634,
     name: "螃蟹旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_3447: Item = {
@@ -673,8 +749,10 @@ export const Flags_3447: Item = {
     id: 3447,
     name: "粉水母旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1680: Item = {
@@ -683,8 +761,10 @@ export const Flags_1680: Item = {
     id: 1680,
     name: "鲨鱼旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_2983: Item = {
@@ -693,8 +773,10 @@ export const Flags_2983: Item = {
     id: 2983,
     name: "乌贼旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_3594: Item = {
@@ -703,8 +785,10 @@ export const Flags_3594: Item = {
     id: 3594,
     name: "海蜗牛旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_2962: Item = {
@@ -713,8 +797,10 @@ export const Flags_2962: Item = {
     id: 2962,
     name: "装甲幻影魔旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_4977: Item = {
@@ -723,8 +809,10 @@ export const Flags_4977: Item = {
     id: 4977,
     name: "游荡眼球怪旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1699: Item = {
@@ -733,8 +821,10 @@ export const Flags_1699: Item = {
     id: 1699,
     name: "幻灵旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1695: Item = {
@@ -743,8 +833,10 @@ export const Flags_1695: Item = {
     id: 1695,
     name: "狼人旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1700: Item = {
@@ -753,8 +845,10 @@ export const Flags_1700: Item = {
     id: 1700,
     name: "飞龙旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1616: Item = {
@@ -763,8 +857,10 @@ export const Flags_1616: Item = {
     id: 1616,
     name: "愤怒雨云怪旗",
     Category: Flags,
+    SubCategory: ForestFla,
     comments: "",
 }
+
 
 
 export const Flags_1621: Item = {
@@ -773,8 +869,10 @@ export const Flags_1621: Item = {
     id: 1621,
     name: "洞穴蝙蝠旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1681: Item = {
@@ -783,8 +881,10 @@ export const Flags_1681: Item = {
     id: 1681,
     name: "骷髅旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3391: Item = {
@@ -793,8 +893,10 @@ export const Flags_3391: Item = {
     id: 3391,
     name: "蝾螈旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3392: Item = {
@@ -803,8 +905,10 @@ export const Flags_3392: Item = {
     id: 3392,
     name: "巨型卷壳怪旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3393: Item = {
@@ -813,8 +917,10 @@ export const Flags_3393: Item = {
     id: 3393,
     name: "龙虾旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1698: Item = {
@@ -823,8 +929,10 @@ export const Flags_1698: Item = {
     id: 1698,
     name: "蠕虫旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2906: Item = {
@@ -833,8 +941,10 @@ export const Flags_2906: Item = {
     id: 2906,
     name: "胭脂虫旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1685: Item = {
@@ -843,8 +953,10 @@ export const Flags_1685: Item = {
     id: 1685,
     name: "爬墙蜘蛛旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3406: Item = {
@@ -853,8 +965,10 @@ export const Flags_3406: Item = {
     id: 3406,
     name: "装甲步兵旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3407: Item = {
@@ -863,8 +977,10 @@ export const Flags_3407: Item = {
     id: 3407,
     name: "花岗精旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3408: Item = {
@@ -873,8 +989,10 @@ export const Flags_3408: Item = {
     id: 3408,
     name: "花岗岩巨人旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1665: Item = {
@@ -883,8 +1001,10 @@ export const Flags_1665: Item = {
     id: 1665,
     name: "蓝水母旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1694: Item = {
@@ -893,8 +1013,10 @@ export const Flags_1694: Item = {
     id: 1694,
     name: "宁芙旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2986: Item = {
@@ -903,8 +1025,10 @@ export const Flags_2986: Item = {
     id: 2986,
     name: "蒂姆旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2987: Item = {
@@ -913,8 +1037,10 @@ export const Flags_2987: Item = {
     id: 2987,
     name: "不死矿工旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1620: Item = {
@@ -923,8 +1049,10 @@ export const Flags_1620: Item = {
     id: 1620,
     name: "装甲骷髅旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2973: Item = {
@@ -933,8 +1061,10 @@ export const Flags_2973: Item = {
     id: 2973,
     name: "骷髅弓箭手旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2923: Item = {
@@ -943,8 +1073,10 @@ export const Flags_2923: Item = {
     id: 2923,
     name: "巨型蝙蝠旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1630: Item = {
@@ -953,8 +1085,10 @@ export const Flags_1630: Item = {
     id: 1630,
     name: "宝箱怪旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1623: Item = {
@@ -963,8 +1097,10 @@ export const Flags_1623: Item = {
     id: 1623,
     name: "黑隐士旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3405: Item = {
@@ -973,8 +1109,10 @@ export const Flags_3405: Item = {
     id: 3405,
     name: "蛇发女妖旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1615: Item = {
@@ -983,8 +1121,10 @@ export const Flags_1615: Item = {
     id: 1615,
     name: "琵琶鱼旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_3448: Item = {
@@ -993,8 +1133,10 @@ export const Flags_3448: Item = {
     id: 3448,
     name: "绿水母旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_2969: Item = {
@@ -1003,8 +1145,10 @@ export const Flags_2969: Item = {
     id: 2969,
     name: "符文巫师旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_4965: Item = {
@@ -1013,8 +1157,10 @@ export const Flags_4965: Item = {
     id: 4965,
     name: "岩石巨人旗",
     Category: Flags,
+    SubCategory: DongFla,
     comments: "",
 }
+
 
 
 export const Flags_1617: Item = {
@@ -1023,8 +1169,10 @@ export const Flags_1617: Item = {
     id: 1617,
     name: "歪尾真菌旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_1649: Item = {
@@ -1033,8 +1181,10 @@ export const Flags_1649: Item = {
     id: 1649,
     name: "真菌球怪旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_1672: Item = {
@@ -1043,8 +1193,10 @@ export const Flags_1672: Item = {
     id: 1672,
     name: "蘑菇瓢虫旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_1686: Item = {
@@ -1053,8 +1205,10 @@ export const Flags_1686: Item = {
     id: 1686,
     name: "孢子僵尸旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_4967: Item = {
@@ -1063,8 +1217,10 @@ export const Flags_4967: Item = {
     id: 4967,
     name: "孢子骷髅旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_4968: Item = {
@@ -1073,8 +1229,10 @@ export const Flags_4968: Item = {
     id: 4968,
     name: "孢子蝙蝠旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_1650: Item = {
@@ -1083,8 +1241,10 @@ export const Flags_1650: Item = {
     id: 1650,
     name: "蘑菇鱼旗",
     Category: Flags,
+    SubCategory: MushFla,
     comments: "",
 }
+
 
 
 export const Flags_2959: Item = {
@@ -1093,8 +1253,10 @@ export const Flags_2959: Item = {
     id: 2959,
     name: "企鹅旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1643: Item = {
@@ -1103,8 +1265,10 @@ export const Flags_1643: Item = {
     id: 1643,
     name: "冰冻僵尸旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2933: Item = {
@@ -1113,8 +1277,10 @@ export const Flags_2933: Item = {
     id: 2933,
     name: "冰雪蝙蝠旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2988: Item = {
@@ -1123,8 +1289,10 @@ export const Flags_2988: Item = {
     id: 2988,
     name: "亡灵维京海盗旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1684: Item = {
@@ -1133,8 +1301,10 @@ export const Flags_1684: Item = {
     id: 1684,
     name: "小雪怪旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2912: Item = {
@@ -1143,8 +1313,10 @@ export const Flags_2912: Item = {
     id: 2912,
     name: "青壳虫旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1696: Item = {
@@ -1153,8 +1325,10 @@ export const Flags_1696: Item = {
     id: 1696,
     name: "狼旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1662: Item = {
@@ -1163,8 +1337,10 @@ export const Flags_1662: Item = {
     id: 1662,
     name: "冰雪精旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2934: Item = {
@@ -1173,8 +1349,10 @@ export const Flags_2934: Item = {
     id: 2934,
     name: "冰雪巨人旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2898: Item = {
@@ -1183,8 +1361,10 @@ export const Flags_2898: Item = {
     id: 2898,
     name: "装甲维京海盗旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_3452: Item = {
@@ -1193,8 +1373,10 @@ export const Flags_3452: Item = {
     id: 3452,
     name: "冰雪陆龟旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1663: Item = {
@@ -1203,8 +1385,10 @@ export const Flags_1663: Item = {
     id: 1663,
     name: "冰雪人鱼旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_1674: Item = {
@@ -1213,8 +1397,10 @@ export const Flags_1674: Item = {
     id: 1674,
     name: "猪龙旗",
     Category: Flags,
+    SubCategory: ForFla,
     comments: "",
 }
+
 
 
 export const Flags_2977: Item = {
@@ -1223,8 +1409,10 @@ export const Flags_2977: Item = {
     id: 2977,
     name: "抓人草旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_2915: Item = {
@@ -1233,8 +1421,10 @@ export const Flags_2915: Item = {
     id: 2915,
     name: "骷髅博士旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1661: Item = {
@@ -1243,8 +1433,10 @@ export const Flags_1661: Item = {
     id: 1661,
     name: "黄蜂旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_2939: Item = {
@@ -1253,8 +1445,10 @@ export const Flags_2939: Item = {
     id: 2939,
     name: "丛林蝙蝠旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1668: Item = {
@@ -1263,8 +1457,10 @@ export const Flags_1668: Item = {
     id: 1668,
     name: "食人怪旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_2942: Item = {
@@ -1273,8 +1469,10 @@ export const Flags_2942: Item = {
     id: 2942,
     name: "紫胶虫旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1675: Item = {
@@ -1283,8 +1481,10 @@ export const Flags_1675: Item = {
     id: 1675,
     name: "食人鱼旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1640: Item = {
@@ -1293,8 +1493,10 @@ export const Flags_1640: Item = {
     id: 1640,
     name: "跳跳兽旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_2925: Item = {
@@ -1303,8 +1505,10 @@ export const Flags_2925: Item = {
     id: 2925,
     name: "巨型飞狐旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1688: Item = {
@@ -1313,8 +1517,10 @@ export const Flags_1688: Item = {
     id: 1688,
     name: "巨型陆龟旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_2897: Item = {
@@ -1323,8 +1529,10 @@ export const Flags_2897: Item = {
     id: 2897,
     name: "愤怒捕手旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_4976: Item = {
@@ -1333,8 +1541,10 @@ export const Flags_4976: Item = {
     id: 4976,
     name: "苔藓黄蜂旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1666: Item = {
@@ -1343,8 +1553,10 @@ export const Flags_1666: Item = {
     id: 1666,
     name: "丛林蜘蛛旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1670: Item = {
@@ -1353,8 +1565,10 @@ export const Flags_1670: Item = {
     id: 1670,
     name: "飞蛾旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1619: Item = {
@@ -1363,8 +1577,10 @@ export const Flags_1619: Item = {
     id: 1619,
     name: "巨骨舌鱼旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1647: Item = {
@@ -1373,8 +1589,10 @@ export const Flags_1647: Item = {
     id: 1647,
     name: "飞蛇旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1667: Item = {
@@ -1383,8 +1601,10 @@ export const Flags_1667: Item = {
     id: 1667,
     name: "丛林蜥蜴旗",
     Category: Flags,
+    SubCategory: JungleFla,
     comments: "",
 }
+
 
 
 export const Flags_1693: Item = {
@@ -1393,8 +1613,10 @@ export const Flags_1693: Item = {
     id: 1693,
     name: "秃鹰旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_1618: Item = {
@@ -1403,8 +1625,10 @@ export const Flags_1618: Item = {
     id: 1618,
     name: "蚁狮旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3793: Item = {
@@ -1413,8 +1637,10 @@ export const Flags_3793: Item = {
     id: 3793,
     name: "愤怒翻滚怪旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3413: Item = {
@@ -1423,8 +1649,10 @@ export const Flags_3413: Item = {
     id: 3413,
     name: "蚁狮蜂旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3414: Item = {
@@ -1433,8 +1661,10 @@ export const Flags_3414: Item = {
     id: 3414,
     name: "蚁狮马旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_4969: Item = {
@@ -1443,8 +1673,10 @@ export const Flags_4969: Item = {
     id: 4969,
     name: "蚁狮幼虫旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3411: Item = {
@@ -1453,8 +1685,10 @@ export const Flags_3411: Item = {
     id: 3411,
     name: "墓穴爬虫旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_1671: Item = {
@@ -1463,8 +1697,10 @@ export const Flags_1671: Item = {
     id: 1671,
     name: "木乃伊旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3415: Item = {
@@ -1473,8 +1709,10 @@ export const Flags_3415: Item = {
     id: 3415,
     name: "食尸鬼旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3416: Item = {
@@ -1483,8 +1721,10 @@ export const Flags_3416: Item = {
     id: 3416,
     name: "拉弥亚旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3417: Item = {
@@ -1493,8 +1733,10 @@ export const Flags_3417: Item = {
     id: 3417,
     name: "沙漠幽魂旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3418: Item = {
@@ -1503,8 +1745,10 @@ export const Flags_3418: Item = {
     id: 3418,
     name: "蛇蜥怪旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3419: Item = {
@@ -1513,8 +1757,10 @@ export const Flags_3419: Item = {
     id: 3419,
     name: "沙贼旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3412: Item = {
@@ -1523,8 +1769,10 @@ export const Flags_3412: Item = {
     id: 3412,
     name: "沙虫旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3780: Item = {
@@ -1533,8 +1781,10 @@ export const Flags_3780: Item = {
     id: 3780,
     name: "沙尘精旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3789: Item = {
@@ -1543,8 +1793,10 @@ export const Flags_3789: Item = {
     id: 3789,
     name: "沙鲨旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3790: Item = {
@@ -1553,8 +1805,10 @@ export const Flags_3790: Item = {
     id: 3790,
     name: "噬骨沙鲨旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3791: Item = {
@@ -1563,8 +1817,10 @@ export const Flags_3791: Item = {
     id: 3791,
     name: "戮血沙鲨旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_3792: Item = {
@@ -1573,8 +1829,10 @@ export const Flags_3792: Item = {
     id: 3792,
     name: "水晶沙鲨旗",
     Category: Flags,
+    SubCategory: SandFla,
     comments: "",
 }
+
 
 
 export const Flags_1659: Item = {
@@ -1583,8 +1841,10 @@ export const Flags_1659: Item = {
     id: 1659,
     name: "地狱蝙蝠旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_1638: Item = {
@@ -1593,8 +1853,10 @@ export const Flags_1638: Item = {
     id: 1638,
     name: "恶魔旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_1664: Item = {
@@ -1603,8 +1865,10 @@ export const Flags_1664: Item = {
     id: 1664,
     name: "火焰小鬼旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_1627: Item = {
@@ -1613,8 +1877,10 @@ export const Flags_1627: Item = {
     id: 1627,
     name: "骨蛇旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_2943: Item = {
@@ -1623,8 +1889,10 @@ export const Flags_2943: Item = {
     id: 2943,
     name: "熔岩蝙蝠旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_3446: Item = {
@@ -1633,8 +1901,10 @@ export const Flags_3446: Item = {
     id: 3446,
     name: "红魔鬼旗",
     Category: Flags,
+    SubCategory: HellFla,
     comments: "",
 }
+
 
 
 export const Flags_3451: Item = {
@@ -1643,8 +1913,10 @@ export const Flags_3451: Item = {
     id: 3451,
     name: "愤怒骷髅怪旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2911: Item = {
@@ -1653,8 +1925,10 @@ export const Flags_2911: Item = {
     id: 2911,
     name: "诅咒骷髅头旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_1682: Item = {
@@ -1663,8 +1937,10 @@ export const Flags_1682: Item = {
     id: 1682,
     name: "暗黑法师旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2900: Item = {
@@ -1673,8 +1949,10 @@ export const Flags_2900: Item = {
     id: 2900,
     name: "蓝装甲骷髅旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2956: Item = {
@@ -1683,8 +1961,10 @@ export const Flags_2956: Item = {
     id: 2956,
     name: "死灵法师旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2974: Item = {
@@ -1693,8 +1973,10 @@ export const Flags_2974: Item = {
     id: 2974,
     name: "骷髅突击手旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2958: Item = {
@@ -1703,8 +1985,10 @@ export const Flags_2958: Item = {
     id: 2958,
     name: "圣骑士旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2970: Item = {
@@ -1713,8 +1997,10 @@ export const Flags_2970: Item = {
     id: 2970,
     name: "生锈装甲骷髅旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2965: Item = {
@@ -1723,8 +2009,10 @@ export const Flags_2965: Item = {
     id: 2965,
     name: "褴褛邪教徒法师旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2975: Item = {
@@ -1733,8 +2021,10 @@ export const Flags_2975: Item = {
     id: 2975,
     name: "骷髅狙击手旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2924: Item = {
@@ -1743,8 +2033,10 @@ export const Flags_2924: Item = {
     id: 2924,
     name: "巨型诅咒骷髅头旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2930: Item = {
@@ -1753,8 +2045,10 @@ export const Flags_2930: Item = {
     id: 2930,
     name: "地狱装甲骷髅旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2914: Item = {
@@ -1763,8 +2057,10 @@ export const Flags_2914: Item = {
     id: 2914,
     name: "魔教徒旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2984: Item = {
@@ -1773,8 +2069,10 @@ export const Flags_2984: Item = {
     id: 2984,
     name: "骷髅特警旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2904: Item = {
@@ -1783,8 +2081,10 @@ export const Flags_2904: Item = {
     id: 2904,
     name: "骷髅李旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_2917: Item = {
@@ -1793,8 +2093,10 @@ export const Flags_2917: Item = {
     id: 2917,
     name: "地牢幽魂旗",
     Category: Flags,
+    SubCategory: DunFla,
     comments: "",
 }
+
 
 
 export const Flags_1641: Item = {
@@ -1803,8 +2105,10 @@ export const Flags_1641: Item = {
     id: 1641,
     name: "噬魂怪旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_2913: Item = {
@@ -1813,8 +2117,10 @@ export const Flags_2913: Item = {
     id: 2913,
     name: "吞噬怪旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_3449: Item = {
@@ -1823,8 +2129,10 @@ export const Flags_3449: Item = {
     id: 3449,
     name: "暗黑木乃伊旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_2909: Item = {
@@ -1833,8 +2141,10 @@ export const Flags_2909: Item = {
     id: 2909,
     name: "腐化者旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_2905: Item = {
@@ -1843,8 +2153,10 @@ export const Flags_2905: Item = {
     id: 2905,
     name: "爬藤怪旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_1697: Item = {
@@ -1853,8 +2165,10 @@ export const Flags_1697: Item = {
     id: 1697,
     name: "吞世怪旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_1637: Item = {
@@ -1863,8 +2177,10 @@ export const Flags_1637: Item = {
     id: 1637,
     name: "诅咒锤旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_4973: Item = {
@@ -1873,8 +2189,10 @@ export const Flags_4973: Item = {
     id: 4973,
     name: "腐化宝箱怪旗",
     Category: Flags,
+    SubCategory: CorFla,
     comments: "",
 }
+
 
 
 export const Flags_1644: Item = {
@@ -1883,8 +2201,10 @@ export const Flags_1644: Item = {
     id: 1644,
     name: "脸怪旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1635: Item = {
@@ -1893,8 +2213,10 @@ export const Flags_1635: Item = {
     id: 1635,
     name: "猩红喀迈拉旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1626: Item = {
@@ -1903,8 +2225,10 @@ export const Flags_1626: Item = {
     id: 1626,
     name: "血爬虫旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_4966: Item = {
@@ -1913,8 +2237,10 @@ export const Flags_4966: Item = {
     id: 4966,
     name: "血木乃伊旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1660: Item = {
@@ -1923,8 +2249,10 @@ export const Flags_1660: Item = {
     id: 1660,
     name: "蹦蹦兽旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_2936: Item = {
@@ -1933,8 +2261,10 @@ export const Flags_2936: Item = {
     id: 2936,
     name: "灵液黏黏怪旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1645: Item = {
@@ -1943,8 +2273,10 @@ export const Flags_1645: Item = {
     id: 1645,
     name: "恶心浮游怪旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1636: Item = {
@@ -1953,8 +2285,10 @@ export const Flags_1636: Item = {
     id: 1636,
     name: "猩红斧旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1624: Item = {
@@ -1963,8 +2297,10 @@ export const Flags_1624: Item = {
     id: 1624,
     name: "嗜血怪旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_1625: Item = {
@@ -1973,8 +2309,10 @@ export const Flags_1625: Item = {
     id: 1625,
     name: "血水母旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_4974: Item = {
@@ -1983,8 +2321,10 @@ export const Flags_4974: Item = {
     id: 4974,
     name: "猩红宝箱怪旗",
     Category: Flags,
+    SubCategory: CriFla,
     comments: "",
 }
+
 
 
 export const Flags_3450: Item = {
@@ -1993,8 +2333,10 @@ export const Flags_3450: Item = {
     id: 3450,
     name: "光明木乃伊旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_1677: Item = {
@@ -2003,8 +2345,10 @@ export const Flags_1677: Item = {
     id: 1677,
     name: "妖精旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_1691: Item = {
@@ -2013,8 +2357,10 @@ export const Flags_1691: Item = {
     id: 1691,
     name: "独角兽旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_2937: Item = {
@@ -2023,8 +2369,10 @@ export const Flags_2937: Item = {
     id: 2937,
     name: "夜明蝙蝠旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_1629: Item = {
@@ -2033,8 +2381,10 @@ export const Flags_1629: Item = {
     id: 1629,
     name: "混沌精旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_1642: Item = {
@@ -2043,8 +2393,10 @@ export const Flags_1642: Item = {
     id: 1642,
     name: "附魔剑旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_4975: Item = {
@@ -2053,8 +2405,10 @@ export const Flags_4975: Item = {
     id: 4975,
     name: "神圣宝箱怪旗",
     Category: Flags,
+    SubCategory: HollFla,
     comments: "",
 }
+
 
 
 export const Flags_3409: Item = {
@@ -2063,8 +2417,10 @@ export const Flags_3409: Item = {
     id: 3409,
     name: "血腥僵尸旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_3410: Item = {
@@ -2073,8 +2429,10 @@ export const Flags_3410: Item = {
     id: 3410,
     name: "滴滴怪旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_2985: Item = {
@@ -2083,8 +2441,10 @@ export const Flags_2985: Item = {
     id: 2985,
     name: "僵尸新郎旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4541: Item = {
@@ -2093,8 +2453,10 @@ export const Flags_4541: Item = {
     id: 4541,
     name: "僵尸新娘旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_1632: Item = {
@@ -2103,8 +2465,10 @@ export const Flags_1632: Item = {
     id: 1632,
     name: "腐化兔兔旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_1633: Item = {
@@ -2113,8 +2477,10 @@ export const Flags_1633: Item = {
     id: 1633,
     name: "腐化金鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_2907: Item = {
@@ -2123,8 +2489,10 @@ export const Flags_2907: Item = {
     id: 2907,
     name: "腐化企鹅旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4970: Item = {
@@ -2133,8 +2501,10 @@ export const Flags_4970: Item = {
     id: 4970,
     name: "毒兔兔旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4971: Item = {
@@ -2143,8 +2513,10 @@ export const Flags_4971: Item = {
     id: 4971,
     name: "毒金鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4972: Item = {
@@ -2153,8 +2525,10 @@ export const Flags_4972: Item = {
     id: 4972,
     name: "毒企鹅旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4542: Item = {
@@ -2163,8 +2537,10 @@ export const Flags_4542: Item = {
     id: 4542,
     name: "僵尸人鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4543: Item = {
@@ -2173,8 +2549,10 @@ export const Flags_4543: Item = {
     id: 4543,
     name: "游荡眼球怪鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_1631: Item = {
@@ -2183,8 +2561,10 @@ export const Flags_1631: Item = {
     id: 1631,
     name: "小丑旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4544: Item = {
@@ -2193,8 +2573,10 @@ export const Flags_4544: Item = {
     id: 4544,
     name: "血乌贼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4545: Item = {
@@ -2203,8 +2585,10 @@ export const Flags_4545: Item = {
     id: 4545,
     name: "血鳗鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4546: Item = {
@@ -2213,8 +2597,10 @@ export const Flags_4546: Item = {
     id: 4546,
     name: "血浆哥布林鲨鱼旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_4602: Item = {
@@ -2223,8 +2609,10 @@ export const Flags_4602: Item = {
     id: 4602,
     name: "恐惧鹦鹉螺旗",
     Category: Flags,
+    SubCategory: BloodFla,
     comments: "",
 }
+
 
 
 export const Flags_1652: Item = {
@@ -2233,8 +2621,10 @@ export const Flags_1652: Item = {
     id: 1652,
     name: "哥布林盗贼旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_1653: Item = {
@@ -2243,8 +2633,10 @@ export const Flags_1653: Item = {
     id: 1653,
     name: "哥布林巫士旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_1654: Item = {
@@ -2253,8 +2645,10 @@ export const Flags_1654: Item = {
     id: 1654,
     name: "哥布林苦力旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_1655: Item = {
@@ -2263,8 +2657,10 @@ export const Flags_1655: Item = {
     id: 1655,
     name: "哥布林侦察兵旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_1656: Item = {
@@ -2273,8 +2669,10 @@ export const Flags_1656: Item = {
     id: 1656,
     name: "哥布林战士旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_2927: Item = {
@@ -2283,8 +2681,10 @@ export const Flags_2927: Item = {
     id: 2927,
     name: "哥布林弓箭手旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_3390: Item = {
@@ -2293,8 +2693,10 @@ export const Flags_3390: Item = {
     id: 3390,
     name: "哥布林术士旗",
     Category: Flags,
+    SubCategory: GoblinFla,
     comments: "",
 }
+
 
 
 export const Flags_3838: Item = {
@@ -2303,8 +2705,10 @@ export const Flags_3838: Item = {
     id: 3838,
     name: "埃特尼亚哥布林旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3845: Item = {
@@ -2313,8 +2717,10 @@ export const Flags_3845: Item = {
     id: 3845,
     name: "埃特尼亚标枪投掷怪旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3837: Item = {
@@ -2323,8 +2729,10 @@ export const Flags_3837: Item = {
     id: 3837,
     name: "埃特尼亚哥布林投弹手旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3844: Item = {
@@ -2333,8 +2741,10 @@ export const Flags_3844: Item = {
     id: 3844,
     name: "埃特尼亚飞龙旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3839: Item = {
@@ -2343,8 +2753,10 @@ export const Flags_3839: Item = {
     id: 3839,
     name: "撒旦骷髅旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3842: Item = {
@@ -2353,8 +2765,10 @@ export const Flags_3842: Item = {
     id: 3842,
     name: "小妖魔旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3841: Item = {
@@ -2363,8 +2777,10 @@ export const Flags_3841: Item = {
     id: 3841,
     name: "小妖魔滑翔怪旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3840: Item = {
@@ -2373,8 +2789,10 @@ export const Flags_3840: Item = {
     id: 3840,
     name: "德拉克龙旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3843: Item = {
@@ -2383,8 +2801,10 @@ export const Flags_3843: Item = {
     id: 3843,
     name: "枯萎兽旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_3846: Item = {
@@ -2393,8 +2813,10 @@ export const Flags_3846: Item = {
     id: 3846,
     name: "埃特尼亚荧光虫旗",
     Category: Flags,
+    SubCategory: OldOneFla,
     comments: "",
 }
+
 
 
 export const Flags_1673: Item = {
@@ -2403,8 +2825,10 @@ export const Flags_1673: Item = {
     id: 1673,
     name: "鹦鹉旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_1676: Item = {
@@ -2413,8 +2837,10 @@ export const Flags_1676: Item = {
     id: 1676,
     name: "海盗水手旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_3441: Item = {
@@ -2423,8 +2849,10 @@ export const Flags_3441: Item = {
     id: 3441,
     name: "海盗船长旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_3442: Item = {
@@ -2433,8 +2861,10 @@ export const Flags_3442: Item = {
     id: 3442,
     name: "海盗神射手旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_3443: Item = {
@@ -2443,8 +2873,10 @@ export const Flags_3443: Item = {
     id: 3443,
     name: "私船海盗旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_3444: Item = {
@@ -2453,8 +2885,10 @@ export const Flags_3444: Item = {
     id: 3444,
     name: "海盗弩手旗",
     Category: Flags,
+    SubCategory: PirateFla,
     comments: "",
 }
+
 
 
 export const Flags_1648: Item = {
@@ -2463,8 +2897,10 @@ export const Flags_1648: Item = {
     id: 1648,
     name: "科学怪人旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_1687: Item = {
@@ -2473,8 +2909,10 @@ export const Flags_1687: Item = {
     id: 1687,
     name: "沼泽怪旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_1692: Item = {
@@ -2483,8 +2921,10 @@ export const Flags_1692: Item = {
     id: 1692,
     name: "吸血鬼旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_2920: Item = {
@@ -2493,8 +2933,10 @@ export const Flags_2920: Item = {
     id: 2920,
     name: "眼怪旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3394: Item = {
@@ -2503,8 +2945,10 @@ export const Flags_3394: Item = {
     id: 3394,
     name: "弗里茨旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3395: Item = {
@@ -2513,8 +2957,10 @@ export const Flags_3395: Item = {
     id: 3395,
     name: "水月怪旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_1679: Item = {
@@ -2523,8 +2969,10 @@ export const Flags_1679: Item = {
     id: 1679,
     name: "死神旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3397: Item = {
@@ -2533,8 +2981,10 @@ export const Flags_3397: Item = {
     id: 3397,
     name: "蛾怪旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3396: Item = {
@@ -2543,8 +2993,10 @@ export const Flags_3396: Item = {
     id: 3396,
     name: "苍蝇人博士旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3399: Item = {
@@ -2553,8 +3005,10 @@ export const Flags_3399: Item = {
     id: 3399,
     name: "攀爬魔旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3400: Item = {
@@ -2563,8 +3017,10 @@ export const Flags_3400: Item = {
     id: 3400,
     name: "屠夫旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3401: Item = {
@@ -2573,8 +3029,10 @@ export const Flags_3401: Item = {
     id: 3401,
     name: "变态人旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3402: Item = {
@@ -2583,8 +3041,10 @@ export const Flags_3402: Item = {
     id: 3402,
     name: "致命球旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_3403: Item = {
@@ -2593,8 +3053,10 @@ export const Flags_3403: Item = {
     id: 3403,
     name: "钉头旗",
     Category: Flags,
+    SubCategory: DayFla,
     comments: "",
 }
+
 
 
 export const Flags_2929: Item = {
@@ -2603,8 +3065,10 @@ export const Flags_2929: Item = {
     id: 2929,
     name: "无头骑士旗",
     Category: Flags,
+    SubCategory: PMFla,
     comments: "",
 }
+
 
 
 export const Flags_2931: Item = {
@@ -2613,8 +3077,10 @@ export const Flags_2931: Item = {
     id: 2931,
     name: "地狱犬旗",
     Category: Flags,
+    SubCategory: PMFla,
     comments: "",
 }
+
 
 
 export const Flags_2961: Item = {
@@ -2623,8 +3089,10 @@ export const Flags_2961: Item = {
     id: 2961,
     name: "胡闹鬼旗",
     Category: Flags,
+    SubCategory: PMFla,
     comments: "",
 }
+
 
 
 export const Flags_2971: Item = {
@@ -2633,8 +3101,10 @@ export const Flags_2971: Item = {
     id: 2971,
     name: "稻草人旗",
     Category: Flags,
+    SubCategory: PMFla,
     comments: "",
 }
+
 
 
 export const Flags_2982: Item = {
@@ -2643,8 +3113,10 @@ export const Flags_2982: Item = {
     id: 2982,
     name: "树精旗",
     Category: Flags,
+    SubCategory: PMFla,
     comments: "",
 }
+
 
 
 export const Flags_2918: Item = {
@@ -2653,8 +3125,10 @@ export const Flags_2918: Item = {
     id: 2918,
     name: "精灵弓箭手旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2919: Item = {
@@ -2663,8 +3137,10 @@ export const Flags_2919: Item = {
     id: 2919,
     name: "精灵直升机旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2921: Item = {
@@ -2673,8 +3149,10 @@ export const Flags_2921: Item = {
     id: 2921,
     name: "雪花怪旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2926: Item = {
@@ -2683,8 +3161,10 @@ export const Flags_2926: Item = {
     id: 2926,
     name: "姜饼人旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2941: Item = {
@@ -2693,8 +3173,10 @@ export const Flags_2941: Item = {
     id: 2941,
     name: "坎卜斯旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2957: Item = {
@@ -2703,8 +3185,10 @@ export const Flags_2957: Item = {
     id: 2957,
     name: "胡桃夹士旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2963: Item = {
@@ -2713,8 +3197,10 @@ export const Flags_2963: Item = {
     id: 2963,
     name: "礼物宝箱怪旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2993: Item = {
@@ -2723,8 +3209,10 @@ export const Flags_2993: Item = {
     id: 2993,
     name: "雪兽旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2994: Item = {
@@ -2733,8 +3221,10 @@ export const Flags_2994: Item = {
     id: 2994,
     name: "僵尸精灵旗",
     Category: Flags,
+    SubCategory: FMFla,
     comments: "",
 }
+
 
 
 export const Flags_2945: Item = {
@@ -2743,8 +3233,10 @@ export const Flags_2945: Item = {
     id: 2945,
     name: "火星扰脑怪旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2946: Item = {
@@ -2753,8 +3245,10 @@ export const Flags_2946: Item = {
     id: 2946,
     name: "火星飞船旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2947: Item = {
@@ -2763,8 +3257,10 @@ export const Flags_2947: Item = {
     id: 2947,
     name: "火星工程师旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2948: Item = {
@@ -2773,8 +3269,10 @@ export const Flags_2948: Item = {
     id: 2948,
     name: "火星电击怪旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2949: Item = {
@@ -2783,8 +3281,10 @@ export const Flags_2949: Item = {
     id: 2949,
     name: "火星灰咕噜旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2950: Item = {
@@ -2793,8 +3293,10 @@ export const Flags_2950: Item = {
     id: 2950,
     name: "火星军官旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2951: Item = {
@@ -2803,8 +3305,10 @@ export const Flags_2951: Item = {
     id: 2951,
     name: "火星激光枪手旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2952: Item = {
@@ -2813,8 +3317,10 @@ export const Flags_2952: Item = {
     id: 2952,
     name: "火星鳞甲怪枪手旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2953: Item = {
@@ -2823,8 +3329,10 @@ export const Flags_2953: Item = {
     id: 2953,
     name: "火星特斯拉炮塔旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2972: Item = {
@@ -2833,8 +3341,10 @@ export const Flags_2972: Item = {
     id: 2972,
     name: "鳞甲怪旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_3445: Item = {
@@ -2843,8 +3353,10 @@ export const Flags_3445: Item = {
     id: 3445,
     name: "火星走妖旗",
     Category: Flags,
+    SubCategory: MartianFla,
     comments: "",
 }
+
 
 
 export const Flags_2901: Item = {
@@ -2853,8 +3365,10 @@ export const Flags_2901: Item = {
     id: 2901,
     name: "蓝邪教徒弓箭手旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_2902: Item = {
@@ -2863,8 +3377,10 @@ export const Flags_2902: Item = {
     id: 2902,
     name: "拜月教忠教徒旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3420: Item = {
@@ -2873,8 +3389,10 @@ export const Flags_3420: Item = {
     id: 3420,
     name: "观星怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3421: Item = {
@@ -2883,8 +3401,10 @@ export const Flags_3421: Item = {
     id: 3421,
     name: "银河织妖旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3422: Item = {
@@ -2893,8 +3413,10 @@ export const Flags_3422: Item = {
     id: 3422,
     name: "流体入侵怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3423: Item = {
@@ -2903,8 +3425,10 @@ export const Flags_3423: Item = {
     id: 3423,
     name: "闪耀炮手旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3424: Item = {
@@ -2913,8 +3437,10 @@ export const Flags_3424: Item = {
     id: 3424,
     name: "迷你星细胞旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3425: Item = {
@@ -2923,8 +3449,10 @@ export const Flags_3425: Item = {
     id: 3425,
     name: "星细胞旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3426: Item = {
@@ -2933,8 +3461,10 @@ export const Flags_3426: Item = {
     id: 3426,
     name: "流星火怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3427: Item = {
@@ -2943,8 +3473,10 @@ export const Flags_3427: Item = {
     id: 3427,
     name: "火滚怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3428: Item = {
@@ -2953,8 +3485,10 @@ export const Flags_3428: Item = {
     id: 3428,
     name: "千足蜈蚣旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3429: Item = {
@@ -2963,8 +3497,10 @@ export const Flags_3429: Item = {
     id: 3429,
     name: "火龙怪骑士旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3430: Item = {
@@ -2973,8 +3509,10 @@ export const Flags_3430: Item = {
     id: 3430,
     name: "火龙怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3431: Item = {
@@ -2983,8 +3521,10 @@ export const Flags_3431: Item = {
     id: 3431,
     name: "火月怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3432: Item = {
@@ -2993,8 +3533,10 @@ export const Flags_3432: Item = {
     id: 3432,
     name: "预言怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3433: Item = {
@@ -3003,8 +3545,10 @@ export const Flags_3433: Item = {
     id: 3433,
     name: "吮脑怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3434: Item = {
@@ -3013,8 +3557,10 @@ export const Flags_3434: Item = {
     id: 3434,
     name: "星云浮怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3435: Item = {
@@ -3023,8 +3569,10 @@ export const Flags_3435: Item = {
     id: 3435,
     name: "进化兽旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3436: Item = {
@@ -3033,8 +3581,10 @@ export const Flags_3436: Item = {
     id: 3436,
     name: "异星幼虫旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3437: Item = {
@@ -3043,8 +3593,10 @@ export const Flags_3437: Item = {
     id: 3437,
     name: "异星蜂王旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3438: Item = {
@@ -3053,8 +3605,10 @@ export const Flags_3438: Item = {
     id: 3438,
     name: "异星黄蜂旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3439: Item = {
@@ -3063,8 +3617,10 @@ export const Flags_3439: Item = {
     id: 3439,
     name: "星旋怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_3440: Item = {
@@ -3073,8 +3629,10 @@ export const Flags_3440: Item = {
     id: 3440,
     name: "漩泥怪旗",
     Category: Flags,
+    SubCategory: MoonFla,
     comments: "",
 }
+
 
 
 export const Flags_2954: Item = {
@@ -3083,8 +3641,10 @@ export const Flags_2954: Item = {
     id: 2954,
     name: "戳刺先生旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_2978: Item = {
@@ -3093,8 +3653,10 @@ export const Flags_2978: Item = {
     id: 2978,
     name: "巴拉雪人旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_2979: Item = {
@@ -3103,8 +3665,10 @@ export const Flags_2979: Item = {
     id: 2979,
     name: "雪人暴徒旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_2967: Item = {
@@ -3113,8 +3677,10 @@ export const Flags_2967: Item = {
     id: 2967,
     name: "乌鸦旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_2932: Item = {
@@ -3123,8 +3689,10 @@ export const Flags_2932: Item = {
     id: 2932,
     name: "弹跳杰克南瓜灯旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_2922: Item = {
@@ -3133,8 +3701,10 @@ export const Flags_2922: Item = {
     id: 2922,
     name: "鬼魂旗",
     Category: Flags,
+    SubCategory: OtherFla,
     comments: "",
 }
+
 
 
 export const Flags_337: Item = {
@@ -3143,8 +3713,10 @@ export const Flags_337: Item = {
     id: 337,
     name: "红旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_338: Item = {
@@ -3153,8 +3725,10 @@ export const Flags_338: Item = {
     id: 338,
     name: "绿旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_339: Item = {
@@ -3163,8 +3737,10 @@ export const Flags_339: Item = {
     id: 339,
     name: "蓝旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_340: Item = {
@@ -3173,8 +3749,10 @@ export const Flags_340: Item = {
     id: 340,
     name: "黄旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_789: Item = {
@@ -3183,8 +3761,10 @@ export const Flags_789: Item = {
     id: 789,
     name: "十字章旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_790: Item = {
@@ -3193,8 +3773,10 @@ export const Flags_790: Item = {
     id: 790,
     name: "蛇旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_791: Item = {
@@ -3203,8 +3785,10 @@ export const Flags_791: Item = {
     id: 791,
     name: "欧米茄旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_845: Item = {
@@ -3213,8 +3797,10 @@ export const Flags_845: Item = {
     id: 845,
     name: "世界旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_846: Item = {
@@ -3223,8 +3809,10 @@ export const Flags_846: Item = {
     id: 846,
     name: "太阳旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_847: Item = {
@@ -3233,8 +3821,10 @@ export const Flags_847: Item = {
     id: 847,
     name: "重力旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1451: Item = {
@@ -3243,8 +3833,10 @@ export const Flags_1451: Item = {
     id: 1451,
     name: "骷髅行军旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1452: Item = {
@@ -3253,8 +3845,10 @@ export const Flags_1452: Item = {
     id: 1452,
     name: "死灵标旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1453: Item = {
@@ -3263,8 +3857,10 @@ export const Flags_1453: Item = {
     id: 1453,
     name: "锈蚀连队旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1454: Item = {
@@ -3273,8 +3869,10 @@ export const Flags_1454: Item = {
     id: 1454,
     name: "褴褛兄弟会旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1455: Item = {
@@ -3283,8 +3881,10 @@ export const Flags_1455: Item = {
     id: 1455,
     name: "熔火军团旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1456: Item = {
@@ -3293,8 +3893,10 @@ export const Flags_1456: Item = {
     id: 1456,
     name: "恶魔纹章旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1464: Item = {
@@ -3303,8 +3905,10 @@ export const Flags_1464: Item = {
     id: 1464,
     name: "地狱之界旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1465: Item = {
@@ -3313,8 +3917,10 @@ export const Flags_1465: Item = {
     id: 1465,
     name: "地狱之锤旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1466: Item = {
@@ -3323,8 +3929,10 @@ export const Flags_1466: Item = {
     id: 1466,
     name: "地狱之塔旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1467: Item = {
@@ -3333,8 +3941,10 @@ export const Flags_1467: Item = {
     id: 1467,
     name: "绝望人旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1468: Item = {
@@ -3343,8 +3953,10 @@ export const Flags_1468: Item = {
     id: 1468,
     name: "黑曜石看守人旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_1469: Item = {
@@ -3353,8 +3965,10 @@ export const Flags_1469: Item = {
     id: 1469,
     name: "熔岩喷液旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
+
 
 
 export const Flags_3815: Item = {
@@ -3363,6 +3977,7 @@ export const Flags_3815: Item = {
     id: 3815,
     name: "战争桌旗",
     Category: Flags,
+    SubCategory: DecFla,
     comments: "",
 }
 

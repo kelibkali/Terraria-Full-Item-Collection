@@ -1,3 +1,4 @@
+import {HookList} from "./data/data.Hook.zh-CN.ts";
 import {MeleeWeaponList} from "./data/data.MeleeWeapon.zh-CN.ts";
 import {RangedWeaponList} from "./data/data.RangedWeapon.zh-CN.ts";
 import {MagicWeaponList} from "./data/data.MagicWeapon.zh-CN.ts";
@@ -9,7 +10,6 @@ import {DevelopersList} from "./data/data.Developers.zh-CN.ts";
 import {DyesList} from "./data/data.Dyes.zh-CN.ts";
 import {MountsList} from "./data/data.Mounts.zh-CN.ts";
 import {PetsList} from "./data/data.Pets.zh-CN.ts";
-import {HookList} from "./data/data.Hook.zh-CN.ts";
 import {ToolsList} from "./data/data.Tools.zh-CN.ts";
 import {CircuitList} from "./data/data.Circuit.zh-CN.ts";
 import {FishingItemList} from "./data/data.FishingItem.zh-CN.ts";

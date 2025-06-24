@@ -14,7 +14,7 @@ const emit = defineEmits(['loading-change'])
 
 // ====== 数据初始化 ======
 const itemList = ref<Item[]>([])
-const selectedMainCategory = ref<string>('全部物品')
+const selectedMainCategory = ref<string>('all')
 const searchQuery = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref('20')
@@ -34,14 +34,18 @@ const filteredItemList = computed(() => {
     })
   }
 
-
-  if (selectedMainCategory.value && selectedMainCategory.value !== "全部物品") {
-    result = result.filter(item => item.Category.value === selectedMainCategory.value)
+  if (selectedMainCategory.value && selectedMainCategory.value !== "all") {
+    result = result.filter(item => item.Category.value === selectedMainCategory.value || (item.SubCategory && item.SubCategory.value === selectedMainCategory.value))
   }
 
   if (searchQuery.value.trim()) {
     const query = searchQuery.value.toLowerCase()
     result = result.filter(item => item.name.toLowerCase().includes(query))
+  }
+
+  // 🔽 新增逻辑：如果未选择主分类，则按 id 升序排序
+  if (!selectedMainCategory.value || selectedMainCategory.value === "all") {
+    result = [...result].sort((a, b) => a.id - b.id)
   }
 
   return result
@@ -72,7 +76,7 @@ const completionPercentage = computed(() => {
 
 // ====== 处理Item的子类 ======
 const hasSubcategory = computed(() =>
-    filteredItemList.value.some(item => item.SubCategory !== null)
+    itemList.value.some(item => item.SubCategory !== null)
 )
 
 const handleCollect = (item: Item) => {
@@ -349,7 +353,6 @@ const handleUpload = (uploadFile: any) => {
   <el-container style="height: calc(100vh - 60px); overflow-y: auto; align-items: center;">
     <el-header
         style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 20px; width: 100%">
-
       <div style="display: flex; align-items: center; width:500px">
         <el-progress :percentage="Number(completionPercentage)" :stroke-width="12" style="width: 300px;margin-top:1px"
                      striped striped-flow :duration="20"></el-progress>
@@ -410,7 +413,6 @@ const handleUpload = (uploadFile: any) => {
             check-strictly
             :render-after-expand="false"
             placeholder="筛选分类"
-            clearable
             style="width: 200px;"
         />
       </div>
@@ -421,11 +423,10 @@ const handleUpload = (uploadFile: any) => {
       <el-table
           :data="paginatedItemList"
           border
-          height="calc(100% - 100px)"
+          height="100%"
           style="width: 1300px;"
           row-key="id"
       >
-
         <el-table-column label="已收集" width="80" align="center">
           <template #default="scope">
             <el-switch v-model="scope.row.isCollection" @click="handleCollect(scope.row)"/>
@@ -455,37 +456,34 @@ const handleUpload = (uploadFile: any) => {
         </el-table-column>
 
         <el-table-column v-if="hasSubcategory" label="子类" width="150" align="center">
-          <template #default="scope">{{ scope.row.Subcategory?.label }}</template>
+          <template #default="scope">{{ scope.row.SubCategory?.label }}</template>
         </el-table-column>
 
         <el-table-column label="收集日期" width="150" align="center">
           <template #default="scope">{{ scope.row.date }}</template>
         </el-table-column>
-
         <el-table-column prop="comments" label="备注" align="center"/>
       </el-table>
-
-      <!-- 分页 -->
-      <div style="display: flex; justify-content: space-between; margin-top: 20px;">
-        <el-pagination
-            background
-            v-model:current-page="currentPage"
-            :page-size="Number(pageSize)"
-            :total="filteredItemList.length"
-            :page-count="pageCount"
-            layout="prev, pager, next"
-            style="justify-content: center;"
-        />
-        <el-select v-model="pageSize" placeholder="请选择" style="width: 120px;">
-          <el-option label="10 条/页" value="10"/>
-          <el-option label="20 条/页" value="20"/>
-          <el-option label="50 条/页" value="50"/>
-          <el-option label="100 条/页" value="100"/>
-          <el-option label="300 条/页" value="300"/>
-          <el-option label="500 条/页" value="500"/>
-        </el-select>
-      </div>
     </el-main>
+    <el-footer style="width:77%;display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem">
+      <el-pagination
+          background
+          v-model:current-page="currentPage"
+          :page-size="Number(pageSize)"
+          :total="filteredItemList.length"
+          :page-count="pageCount"
+          layout="prev, pager, next"
+          style="justify-content: center;"
+      />
+      <el-select v-model="pageSize" placeholder="请选择" style="width: 120px;">
+        <el-option label="10 条/页" value="10"/>
+        <el-option label="20 条/页" value="20"/>
+        <el-option label="50 条/页" value="50"/>
+        <el-option label="100 条/页" value="100"/>
+        <el-option label="300 条/页" value="300"/>
+        <el-option label="500 条/页" value="500"/>
+      </el-select>
+    </el-footer>
   </el-container>
 </template>
 

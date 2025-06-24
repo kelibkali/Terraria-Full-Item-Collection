@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { MeleeWeapon } from "../data.Category.zh-CN.ts"
 
+import { Boomerang, Flail, OtherMeleeWeapon, Spear, Sword, Yoyo } from "../data.SubCategory.zh-CN.ts"
+
 import MeleeWeapon_3507Img from "../../../assets/icon/Item_3507.png"
 import MeleeWeapon_3501Img from "../../../assets/icon/Item_3501.png"
 import MeleeWeapon_6Img from "../../../assets/icon/Item_6.png"
@@ -185,14 +187,18 @@ import MeleeWeapon_3858Img from "../../../assets/icon/Item_3858.png"
 import MeleeWeapon_3473Img from "../../../assets/icon/Item_3473.png"
 import MeleeWeapon_3543Img from "../../../assets/icon/Item_3543.png"
 import MeleeWeapon_4956Img from "../../../assets/icon/Item_4956.png"
+
+
 export const MeleeWeapon_3507: Item = {
     icon: MeleeWeapon_3507Img,
     isCollection: false,
     id: 3507,
     name: "铜短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3501: Item = {
@@ -201,8 +207,10 @@ export const MeleeWeapon_3501: Item = {
     id: 3501,
     name: "锡短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_6: Item = {
@@ -211,8 +219,10 @@ export const MeleeWeapon_6: Item = {
     id: 6,
     name: "铁短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3495: Item = {
@@ -221,8 +231,10 @@ export const MeleeWeapon_3495: Item = {
     id: 3495,
     name: "铅短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3513: Item = {
@@ -231,8 +243,10 @@ export const MeleeWeapon_3513: Item = {
     id: 3513,
     name: "银短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3489: Item = {
@@ -241,8 +255,10 @@ export const MeleeWeapon_3489: Item = {
     id: 3489,
     name: "钨短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3519: Item = {
@@ -251,8 +267,10 @@ export const MeleeWeapon_3519: Item = {
     id: 3519,
     name: "金短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3483: Item = {
@@ -261,8 +279,10 @@ export const MeleeWeapon_3483: Item = {
     id: 3483,
     name: "铂金短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_946: Item = {
@@ -271,8 +291,10 @@ export const MeleeWeapon_946: Item = {
     id: 946,
     name: "伞",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4707: Item = {
@@ -281,8 +303,10 @@ export const MeleeWeapon_4707: Item = {
     id: 4707,
     name: "悲剧雨伞",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_186: Item = {
@@ -291,8 +315,10 @@ export const MeleeWeapon_186: Item = {
     id: 186,
     name: "芦苇呼吸管",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_24: Item = {
@@ -301,8 +327,10 @@ export const MeleeWeapon_24: Item = {
     id: 24,
     name: "木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_656: Item = {
@@ -311,8 +339,10 @@ export const MeleeWeapon_656: Item = {
     id: 656,
     name: "红木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2745: Item = {
@@ -321,8 +351,10 @@ export const MeleeWeapon_2745: Item = {
     id: 2745,
     name: "针叶木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2517: Item = {
@@ -331,8 +363,10 @@ export const MeleeWeapon_2517: Item = {
     id: 2517,
     name: "棕榈木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_653: Item = {
@@ -341,8 +375,10 @@ export const MeleeWeapon_653: Item = {
     id: 653,
     name: "乌木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_921: Item = {
@@ -351,8 +387,10 @@ export const MeleeWeapon_921: Item = {
     id: 921,
     name: "暗影木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5284: Item = {
@@ -361,8 +399,10 @@ export const MeleeWeapon_5284: Item = {
     id: 5284,
     name: "灰烬木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_659: Item = {
@@ -371,8 +411,10 @@ export const MeleeWeapon_659: Item = {
     id: 659,
     name: "珍珠木剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_881: Item = {
@@ -381,8 +423,10 @@ export const MeleeWeapon_881: Item = {
     id: 881,
     name: "仙人掌剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3508: Item = {
@@ -391,8 +435,10 @@ export const MeleeWeapon_3508: Item = {
     id: 3508,
     name: "铜阔剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3502: Item = {
@@ -401,8 +447,10 @@ export const MeleeWeapon_3502: Item = {
     id: 3502,
     name: "锡宽剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4: Item = {
@@ -411,8 +459,10 @@ export const MeleeWeapon_4: Item = {
     id: 4,
     name: "铁阔剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3496: Item = {
@@ -421,8 +471,10 @@ export const MeleeWeapon_3496: Item = {
     id: 3496,
     name: "铅宽剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3514: Item = {
@@ -431,8 +483,10 @@ export const MeleeWeapon_3514: Item = {
     id: 3514,
     name: "银阔剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3490: Item = {
@@ -441,8 +495,10 @@ export const MeleeWeapon_3490: Item = {
     id: 3490,
     name: "钨宽剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3520: Item = {
@@ -451,8 +507,10 @@ export const MeleeWeapon_3520: Item = {
     id: 3520,
     name: "金阔剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3484: Item = {
@@ -461,8 +519,10 @@ export const MeleeWeapon_3484: Item = {
     id: 3484,
     name: "铂金宽剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1304: Item = {
@@ -471,8 +531,10 @@ export const MeleeWeapon_1304: Item = {
     id: 1304,
     name: "僵尸臂",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_486: Item = {
@@ -481,8 +543,10 @@ export const MeleeWeapon_486: Item = {
     id: 486,
     name: "标尺",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1827: Item = {
@@ -491,8 +555,10 @@ export const MeleeWeapon_1827: Item = {
     id: 1827,
     name: "利刃手套",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3772: Item = {
@@ -501,8 +567,10 @@ export const MeleeWeapon_3772: Item = {
     id: 3772,
     name: "颌骨剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3352: Item = {
@@ -511,8 +579,10 @@ export const MeleeWeapon_3352: Item = {
     id: 3352,
     name: "时尚剪刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5129: Item = {
@@ -521,8 +591,10 @@ export const MeleeWeapon_5129: Item = {
     id: 5129,
     name: "臭虫剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4463: Item = {
@@ -531,8 +603,10 @@ export const MeleeWeapon_4463: Item = {
     id: 4463,
     name: "罗马短剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1166: Item = {
@@ -541,8 +615,10 @@ export const MeleeWeapon_1166: Item = {
     id: 1166,
     name: "骨剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2273: Item = {
@@ -551,8 +627,10 @@ export const MeleeWeapon_2273: Item = {
     id: 2273,
     name: "武士刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1909: Item = {
@@ -561,8 +639,10 @@ export const MeleeWeapon_1909: Item = {
     id: 1909,
     name: "糖棒剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_724: Item = {
@@ -571,8 +651,10 @@ export const MeleeWeapon_724: Item = {
     id: 724,
     name: "冰雪刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5097: Item = {
@@ -581,8 +663,10 @@ export const MeleeWeapon_5097: Item = {
     id: 5097,
     name: "蝙蝠棍",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_46: Item = {
@@ -591,8 +675,10 @@ export const MeleeWeapon_46: Item = {
     id: 46,
     name: "魔光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5094: Item = {
@@ -601,8 +687,10 @@ export const MeleeWeapon_5094: Item = {
     id: 5094,
     name: "触手钉锤",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3349: Item = {
@@ -611,8 +699,10 @@ export const MeleeWeapon_3349: Item = {
     id: 3349,
     name: "异域弯刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_795: Item = {
@@ -621,8 +711,10 @@ export const MeleeWeapon_795: Item = {
     id: 795,
     name: "血腥屠刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_65: Item = {
@@ -631,8 +723,10 @@ export const MeleeWeapon_65: Item = {
     id: 65,
     name: "星怒",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_989: Item = {
@@ -641,8 +735,10 @@ export const MeleeWeapon_989: Item = {
     id: 989,
     name: "附魔剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2330: Item = {
@@ -651,8 +747,10 @@ export const MeleeWeapon_2330: Item = {
     id: 2330,
     name: "紫挥棒鱼",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2608: Item = {
@@ -661,8 +759,10 @@ export const MeleeWeapon_2608: Item = {
     id: 2608,
     name: "猎鹰刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_190: Item = {
@@ -671,8 +771,10 @@ export const MeleeWeapon_190: Item = {
     id: 190,
     name: "草剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_201: Item = {
@@ -681,8 +783,10 @@ export const MeleeWeapon_201: Item = {
     id: 201,
     name: "紫陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_203: Item = {
@@ -691,8 +795,10 @@ export const MeleeWeapon_203: Item = {
     id: 203,
     name: "黄陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_198: Item = {
@@ -701,8 +807,10 @@ export const MeleeWeapon_198: Item = {
     id: 198,
     name: "蓝陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_200: Item = {
@@ -711,8 +819,10 @@ export const MeleeWeapon_200: Item = {
     id: 200,
     name: "绿陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_199: Item = {
@@ -721,8 +831,10 @@ export const MeleeWeapon_199: Item = {
     id: 199,
     name: "红陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4258: Item = {
@@ -731,8 +843,10 @@ export const MeleeWeapon_4258: Item = {
     id: 4258,
     name: "橙陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_202: Item = {
@@ -741,8 +855,10 @@ export const MeleeWeapon_202: Item = {
     id: 202,
     name: "白陨石光剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_121: Item = {
@@ -751,8 +867,10 @@ export const MeleeWeapon_121: Item = {
     id: 121,
     name: "火山",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1123: Item = {
@@ -761,8 +879,10 @@ export const MeleeWeapon_1123: Item = {
     id: 1123,
     name: "养蜂人",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_155: Item = {
@@ -771,8 +891,10 @@ export const MeleeWeapon_155: Item = {
     id: 155,
     name: "村正",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_273: Item = {
@@ -781,8 +903,10 @@ export const MeleeWeapon_273: Item = {
     id: 273,
     name: "永夜刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_426: Item = {
@@ -791,8 +915,10 @@ export const MeleeWeapon_426: Item = {
     id: 426,
     name: "毁灭刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3351: Item = {
@@ -801,8 +927,10 @@ export const MeleeWeapon_3351: Item = {
     id: 3351,
     name: "精致手杖",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5096: Item = {
@@ -811,8 +939,10 @@ export const MeleeWeapon_5096: Item = {
     id: 5096,
     name: "火腿棍",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3258: Item = {
@@ -821,8 +951,10 @@ export const MeleeWeapon_3258: Item = {
     id: 3258,
     name: "拍拍手",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3767: Item = {
@@ -831,8 +963,10 @@ export const MeleeWeapon_3767: Item = {
     id: 3767,
     name: "紫晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3769: Item = {
@@ -841,8 +975,10 @@ export const MeleeWeapon_3769: Item = {
     id: 3769,
     name: "黄晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3764: Item = {
@@ -851,8 +987,10 @@ export const MeleeWeapon_3764: Item = {
     id: 3764,
     name: "蓝晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3766: Item = {
@@ -861,8 +999,10 @@ export const MeleeWeapon_3766: Item = {
     id: 3766,
     name: "绿晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3765: Item = {
@@ -871,8 +1011,10 @@ export const MeleeWeapon_3765: Item = {
     id: 3765,
     name: "红晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4259: Item = {
@@ -881,8 +1023,10 @@ export const MeleeWeapon_4259: Item = {
     id: 4259,
     name: "橙晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3768: Item = {
@@ -891,8 +1035,10 @@ export const MeleeWeapon_3768: Item = {
     id: 3768,
     name: "白晶光刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1306: Item = {
@@ -901,8 +1047,10 @@ export const MeleeWeapon_1306: Item = {
     id: 1306,
     name: "冰雪镰刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_672: Item = {
@@ -911,8 +1059,10 @@ export const MeleeWeapon_672: Item = {
     id: 672,
     name: "短弯刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_676: Item = {
@@ -921,8 +1071,10 @@ export const MeleeWeapon_676: Item = {
     id: 676,
     name: "寒霜剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_723: Item = {
@@ -931,8 +1083,10 @@ export const MeleeWeapon_723: Item = {
     id: 723,
     name: "光束剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3211: Item = {
@@ -941,8 +1095,10 @@ export const MeleeWeapon_3211: Item = {
     id: 3211,
     name: "舌锋剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_483: Item = {
@@ -951,8 +1107,10 @@ export const MeleeWeapon_483: Item = {
     id: 483,
     name: "钴剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1185: Item = {
@@ -961,8 +1119,10 @@ export const MeleeWeapon_1185: Item = {
     id: 1185,
     name: "钯金剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_484: Item = {
@@ -971,8 +1131,10 @@ export const MeleeWeapon_484: Item = {
     id: 484,
     name: "秘银剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1192: Item = {
@@ -981,8 +1143,10 @@ export const MeleeWeapon_1192: Item = {
     id: 1192,
     name: "山铜剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_482: Item = {
@@ -991,8 +1155,10 @@ export const MeleeWeapon_482: Item = {
     id: 482,
     name: "精金剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1199: Item = {
@@ -1001,8 +1167,10 @@ export const MeleeWeapon_1199: Item = {
     id: 1199,
     name: "钛金剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3013: Item = {
@@ -1011,8 +1179,10 @@ export const MeleeWeapon_3013: Item = {
     id: 3013,
     name: "臭虎爪",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_368: Item = {
@@ -1021,8 +1191,10 @@ export const MeleeWeapon_368: Item = {
     id: 368,
     name: "断钢剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3823: Item = {
@@ -1031,8 +1203,10 @@ export const MeleeWeapon_3823: Item = {
     id: 3823,
     name: "地狱之剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1226: Item = {
@@ -1041,8 +1215,10 @@ export const MeleeWeapon_1226: Item = {
     id: 1226,
     name: "叶绿双刃刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1227: Item = {
@@ -1051,8 +1227,10 @@ export const MeleeWeapon_1227: Item = {
     id: 1227,
     name: "叶绿军刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_674: Item = {
@@ -1061,8 +1239,10 @@ export const MeleeWeapon_674: Item = {
     id: 674,
     name: "真断钢剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_675: Item = {
@@ -1071,8 +1251,10 @@ export const MeleeWeapon_675: Item = {
     id: 675,
     name: "真永夜刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1327: Item = {
@@ -1081,8 +1263,10 @@ export const MeleeWeapon_1327: Item = {
     id: 1327,
     name: "死神镰刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3018: Item = {
@@ -1091,8 +1275,10 @@ export const MeleeWeapon_3018: Item = {
     id: 3018,
     name: "种子弯刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_671: Item = {
@@ -1101,8 +1287,10 @@ export const MeleeWeapon_671: Item = {
     id: 671,
     name: "钥匙剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3106: Item = {
@@ -1111,8 +1299,10 @@ export const MeleeWeapon_3106: Item = {
     id: 3106,
     name: "变态人的刀",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_757: Item = {
@@ -1121,8 +1311,10 @@ export const MeleeWeapon_757: Item = {
     id: 757,
     name: "泰拉刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1826: Item = {
@@ -1131,8 +1323,10 @@ export const MeleeWeapon_1826: Item = {
     id: 1826,
     name: "无头骑士剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1928: Item = {
@@ -1141,8 +1335,10 @@ export const MeleeWeapon_1928: Item = {
     id: 1928,
     name: "圣诞树剑",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2880: Item = {
@@ -1151,8 +1347,10 @@ export const MeleeWeapon_2880: Item = {
     id: 2880,
     name: "波涌之刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3827: Item = {
@@ -1161,8 +1359,10 @@ export const MeleeWeapon_3827: Item = {
     id: 3827,
     name: "飞龙",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3063: Item = {
@@ -1171,8 +1371,10 @@ export const MeleeWeapon_3063: Item = {
     id: 3063,
     name: "彩虹猫之刃",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3065: Item = {
@@ -1181,8 +1383,10 @@ export const MeleeWeapon_3065: Item = {
     id: 3065,
     name: "狂星之怒",
     Category: MeleeWeapon,
+    SubCategory: Sword,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1325: Item = {
@@ -1191,8 +1395,10 @@ export const MeleeWeapon_1325: Item = {
     id: 1325,
     name: "链刀",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5011: Item = {
@@ -1201,8 +1407,10 @@ export const MeleeWeapon_5011: Item = {
     id: 5011,
     name: "链锤",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5012: Item = {
@@ -1211,8 +1419,10 @@ export const MeleeWeapon_5012: Item = {
     id: 5012,
     name: "烈焰链锤",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_162: Item = {
@@ -1221,8 +1431,10 @@ export const MeleeWeapon_162: Item = {
     id: 162,
     name: "链球",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_801: Item = {
@@ -1231,8 +1443,10 @@ export const MeleeWeapon_801: Item = {
     id: 801,
     name: "血肉之球",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_163: Item = {
@@ -1241,8 +1455,10 @@ export const MeleeWeapon_163: Item = {
     id: 163,
     name: "蓝月",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_220: Item = {
@@ -1251,8 +1467,10 @@ export const MeleeWeapon_220: Item = {
     id: 220,
     name: "阳炎之怒",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3012: Item = {
@@ -1261,8 +1479,10 @@ export const MeleeWeapon_3012: Item = {
     id: 3012,
     name: "铁链血滴子",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_389: Item = {
@@ -1271,8 +1491,10 @@ export const MeleeWeapon_389: Item = {
     id: 389,
     name: "太极连枷",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2424: Item = {
@@ -1281,8 +1503,10 @@ export const MeleeWeapon_2424: Item = {
     id: 2424,
     name: "锚",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1314: Item = {
@@ -1291,8 +1515,10 @@ export const MeleeWeapon_1314: Item = {
     id: 1314,
     name: "致胜炮",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4272: Item = {
@@ -1301,8 +1527,10 @@ export const MeleeWeapon_4272: Item = {
     id: 4272,
     name: "滴滴怪致残者",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1259: Item = {
@@ -1311,8 +1539,10 @@ export const MeleeWeapon_1259: Item = {
     id: 1259,
     name: "花之力",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1297: Item = {
@@ -1321,8 +1551,10 @@ export const MeleeWeapon_1297: Item = {
     id: 1297,
     name: "石巨人之拳",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2611: Item = {
@@ -1331,8 +1563,10 @@ export const MeleeWeapon_2611: Item = {
     id: 2611,
     name: "猪鲨链球",
     Category: MeleeWeapon,
+    SubCategory: Flail,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_280: Item = {
@@ -1341,8 +1575,10 @@ export const MeleeWeapon_280: Item = {
     id: 280,
     name: "长矛",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4061: Item = {
@@ -1351,8 +1587,10 @@ export const MeleeWeapon_4061: Item = {
     id: 4061,
     name: "风暴长矛",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_277: Item = {
@@ -1361,8 +1599,10 @@ export const MeleeWeapon_277: Item = {
     id: 277,
     name: "三叉戟",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_802: Item = {
@@ -1371,8 +1611,10 @@ export const MeleeWeapon_802: Item = {
     id: 802,
     name: "腐叉",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2332: Item = {
@@ -1381,8 +1623,10 @@ export const MeleeWeapon_2332: Item = {
     id: 2332,
     name: "剑鱼",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_274: Item = {
@@ -1391,8 +1635,10 @@ export const MeleeWeapon_274: Item = {
     id: 274,
     name: "暗黑长枪",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_537: Item = {
@@ -1401,8 +1647,10 @@ export const MeleeWeapon_537: Item = {
     id: 537,
     name: "钴薙刀",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1186: Item = {
@@ -1411,8 +1659,10 @@ export const MeleeWeapon_1186: Item = {
     id: 1186,
     name: "钯金刺矛",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_390: Item = {
@@ -1421,8 +1671,10 @@ export const MeleeWeapon_390: Item = {
     id: 390,
     name: "秘银长戟",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1193: Item = {
@@ -1431,8 +1683,10 @@ export const MeleeWeapon_1193: Item = {
     id: 1193,
     name: "山铜长戟",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_406: Item = {
@@ -1441,8 +1695,10 @@ export const MeleeWeapon_406: Item = {
     id: 406,
     name: "精金关刀",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1200: Item = {
@@ -1451,8 +1707,10 @@ export const MeleeWeapon_1200: Item = {
     id: 1200,
     name: "钛金三叉戟",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_2331: Item = {
@@ -1461,8 +1719,10 @@ export const MeleeWeapon_2331: Item = {
     id: 2331,
     name: "黑曜石剑鱼",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_550: Item = {
@@ -1471,8 +1731,10 @@ export const MeleeWeapon_550: Item = {
     id: 550,
     name: "永恒之枪",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_756: Item = {
@@ -1481,8 +1743,10 @@ export const MeleeWeapon_756: Item = {
     id: 756,
     name: "蘑菇长矛",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3836: Item = {
@@ -1491,8 +1755,10 @@ export const MeleeWeapon_3836: Item = {
     id: 3836,
     name: "恐怖关刀",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1228: Item = {
@@ -1501,8 +1767,10 @@ export const MeleeWeapon_1228: Item = {
     id: 1228,
     name: "叶绿镋",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1947: Item = {
@@ -1511,8 +1779,10 @@ export const MeleeWeapon_1947: Item = {
     id: 1947,
     name: "北极",
     Category: MeleeWeapon,
+    SubCategory: Spear,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_284: Item = {
@@ -1521,8 +1791,10 @@ export const MeleeWeapon_284: Item = {
     id: 284,
     name: "木制回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_55: Item = {
@@ -1531,8 +1803,10 @@ export const MeleeWeapon_55: Item = {
     id: 55,
     name: "附魔回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4764: Item = {
@@ -1541,8 +1815,10 @@ export const MeleeWeapon_4764: Item = {
     id: 4764,
     name: "蘑菇回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1825: Item = {
@@ -1551,8 +1827,10 @@ export const MeleeWeapon_1825: Item = {
     id: 1825,
     name: "血腥砍刀",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1918: Item = {
@@ -1561,8 +1839,10 @@ export const MeleeWeapon_1918: Item = {
     id: 1918,
     name: "水果蛋糕旋刃",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_670: Item = {
@@ -1571,8 +1851,10 @@ export const MeleeWeapon_670: Item = {
     id: 670,
     name: "冰雪回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_191: Item = {
@@ -1581,8 +1863,10 @@ export const MeleeWeapon_191: Item = {
     id: 191,
     name: "荆棘旋刃",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5298: Item = {
@@ -1591,8 +1875,10 @@ export const MeleeWeapon_5298: Item = {
     id: 5298,
     name: "三尖回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4818: Item = {
@@ -1601,8 +1887,10 @@ export const MeleeWeapon_4818: Item = {
     id: 4818,
     name: "战斗扳手",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_119: Item = {
@@ -1611,8 +1899,10 @@ export const MeleeWeapon_119: Item = {
     id: 119,
     name: "烈焰回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3030: Item = {
@@ -1621,8 +1911,10 @@ export const MeleeWeapon_3030: Item = {
     id: 3030,
     name: "飞刀",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1324: Item = {
@@ -1631,8 +1923,10 @@ export const MeleeWeapon_1324: Item = {
     id: 1324,
     name: "香蕉回旋镖",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4760: Item = {
@@ -1641,8 +1935,10 @@ export const MeleeWeapon_4760: Item = {
     id: 4760,
     name: "中士联盾",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_561: Item = {
@@ -1651,8 +1947,10 @@ export const MeleeWeapon_561: Item = {
     id: 561,
     name: "光辉飞盘",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1513: Item = {
@@ -1661,8 +1959,10 @@ export const MeleeWeapon_1513: Item = {
     id: 1513,
     name: "圣骑士锤",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1122: Item = {
@@ -1671,8 +1971,10 @@ export const MeleeWeapon_1122: Item = {
     id: 1122,
     name: "疯狂飞斧",
     Category: MeleeWeapon,
+    SubCategory: Boomerang,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3278: Item = {
@@ -1681,8 +1983,10 @@ export const MeleeWeapon_3278: Item = {
     id: 3278,
     name: "木悠悠球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3285: Item = {
@@ -1691,8 +1995,10 @@ export const MeleeWeapon_3285: Item = {
     id: 3285,
     name: "对打球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3279: Item = {
@@ -1701,8 +2007,10 @@ export const MeleeWeapon_3279: Item = {
     id: 3279,
     name: "抑郁球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3280: Item = {
@@ -1711,8 +2019,10 @@ export const MeleeWeapon_3280: Item = {
     id: 3280,
     name: "血脉球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3281: Item = {
@@ -1721,8 +2031,10 @@ export const MeleeWeapon_3281: Item = {
     id: 3281,
     name: "亚马逊球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3262: Item = {
@@ -1731,8 +2043,10 @@ export const MeleeWeapon_3262: Item = {
     id: 3262,
     name: "代码1球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_5294: Item = {
@@ -1741,8 +2055,10 @@ export const MeleeWeapon_5294: Item = {
     id: 5294,
     name: "蜂巢球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3317: Item = {
@@ -1751,8 +2067,10 @@ export const MeleeWeapon_3317: Item = {
     id: 3317,
     name: "英勇球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3282: Item = {
@@ -1761,8 +2079,10 @@ export const MeleeWeapon_3282: Item = {
     id: 3282,
     name: "喷流球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3315: Item = {
@@ -1771,8 +2091,10 @@ export const MeleeWeapon_3315: Item = {
     id: 3315,
     name: "好胜球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3316: Item = {
@@ -1781,8 +2103,10 @@ export const MeleeWeapon_3316: Item = {
     id: 3316,
     name: "渐变球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3283: Item = {
@@ -1791,8 +2115,10 @@ export const MeleeWeapon_3283: Item = {
     id: 3283,
     name: "吉克球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3290: Item = {
@@ -1801,8 +2127,10 @@ export const MeleeWeapon_3290: Item = {
     id: 3290,
     name: "狱火球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3289: Item = {
@@ -1811,8 +2139,10 @@ export const MeleeWeapon_3289: Item = {
     id: 3289,
     name: "冰雪悠悠球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3284: Item = {
@@ -1821,8 +2151,10 @@ export const MeleeWeapon_3284: Item = {
     id: 3284,
     name: "代码2球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3286: Item = {
@@ -1831,8 +2163,10 @@ export const MeleeWeapon_3286: Item = {
     id: 3286,
     name: "叶列茨球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3287: Item = {
@@ -1841,8 +2175,10 @@ export const MeleeWeapon_3287: Item = {
     id: 3287,
     name: "Red的抛球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3288: Item = {
@@ -1851,8 +2187,10 @@ export const MeleeWeapon_3288: Item = {
     id: 3288,
     name: "女武神悠悠球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3291: Item = {
@@ -1861,8 +2199,10 @@ export const MeleeWeapon_3291: Item = {
     id: 3291,
     name: "克拉肯球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3292: Item = {
@@ -1871,8 +2211,10 @@ export const MeleeWeapon_3292: Item = {
     id: 3292,
     name: "克苏鲁之眼",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3389: Item = {
@@ -1881,8 +2223,10 @@ export const MeleeWeapon_3389: Item = {
     id: 3389,
     name: "泰拉悠悠球",
     Category: MeleeWeapon,
+    SubCategory: Yoyo,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4144: Item = {
@@ -1891,8 +2235,10 @@ export const MeleeWeapon_4144: Item = {
     id: 4144,
     name: "泰拉魔刃",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3054: Item = {
@@ -1901,8 +2247,10 @@ export const MeleeWeapon_3054: Item = {
     id: 3054,
     name: "暗影焰刀",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4788: Item = {
@@ -1911,8 +2259,10 @@ export const MeleeWeapon_4788: Item = {
     id: 4788,
     name: "骑枪",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3368: Item = {
@@ -1921,8 +2271,10 @@ export const MeleeWeapon_3368: Item = {
     id: 3368,
     name: "Arkhalis剑",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4790: Item = {
@@ -1931,8 +2283,10 @@ export const MeleeWeapon_4790: Item = {
     id: 4790,
     name: "神圣骑枪",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3835: Item = {
@@ -1941,8 +2295,10 @@ export const MeleeWeapon_3835: Item = {
     id: 3835,
     name: "瞌睡章鱼",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4789: Item = {
@@ -1951,8 +2307,10 @@ export const MeleeWeapon_4789: Item = {
     id: 4789,
     name: "暗影骑枪",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1569: Item = {
@@ -1961,8 +2319,10 @@ export const MeleeWeapon_1569: Item = {
     id: 1569,
     name: "吸血鬼刀",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_1571: Item = {
@@ -1971,8 +2331,10 @@ export const MeleeWeapon_1571: Item = {
     id: 1571,
     name: "腐化者之戟",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4923: Item = {
@@ -1981,8 +2343,10 @@ export const MeleeWeapon_4923: Item = {
     id: 4923,
     name: "星光",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3858: Item = {
@@ -1991,8 +2355,10 @@ export const MeleeWeapon_3858: Item = {
     id: 3858,
     name: "天龙之怒",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3473: Item = {
@@ -2001,8 +2367,10 @@ export const MeleeWeapon_3473: Item = {
     id: 3473,
     name: "日耀喷发剑",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_3543: Item = {
@@ -2011,8 +2379,10 @@ export const MeleeWeapon_3543: Item = {
     id: 3543,
     name: "破晓之光",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
+
 
 
 export const MeleeWeapon_4956: Item = {
@@ -2021,6 +2391,7 @@ export const MeleeWeapon_4956: Item = {
     id: 4956,
     name: "天顶剑",
     Category: MeleeWeapon,
+    SubCategory: OtherMeleeWeapon,
     comments: "",
 }
 

@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Miscellaneous } from "../data.Category.zh-CN.ts"
 
+import { Bomb, Coin, ConsumableM, FinalBuff, ForGFB, OtherM, Summoned } from "../data.SubCategory.zh-CN.ts"
+
 import Miscellaneous_71Img from "../../../assets/icon/Item_71.png"
 import Miscellaneous_72Img from "../../../assets/icon/Item_72.png"
 import Miscellaneous_73Img from "../../../assets/icon/Item_73.png"
@@ -107,14 +109,18 @@ import Miscellaneous_5346Img from "../../../assets/icon/Item_5346.png"
 import Miscellaneous_5356Img from "../../../assets/icon/Item_5356.png"
 import Miscellaneous_5334Img from "../../../assets/icon/Item_5334.png"
 import Miscellaneous_5382Img from "../../../assets/icon/Item_5382.png"
+
+
 export const Miscellaneous_71: Item = {
     icon: Miscellaneous_71Img,
     isCollection: false,
     id: 71,
     name: "铜币",
     Category: Miscellaneous,
+    SubCategory: Coin,
     comments: "",
 }
+
 
 
 export const Miscellaneous_72: Item = {
@@ -123,8 +129,10 @@ export const Miscellaneous_72: Item = {
     id: 72,
     name: "银币",
     Category: Miscellaneous,
+    SubCategory: Coin,
     comments: "",
 }
+
 
 
 export const Miscellaneous_73: Item = {
@@ -133,8 +141,10 @@ export const Miscellaneous_73: Item = {
     id: 73,
     name: "金币",
     Category: Miscellaneous,
+    SubCategory: Coin,
     comments: "",
 }
+
 
 
 export const Miscellaneous_74: Item = {
@@ -143,8 +153,10 @@ export const Miscellaneous_74: Item = {
     id: 74,
     name: "铂金币",
     Category: Miscellaneous,
+    SubCategory: Coin,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3817: Item = {
@@ -153,8 +165,10 @@ export const Miscellaneous_3817: Item = {
     id: 3817,
     name: "护卫奖章",
     Category: Miscellaneous,
+    SubCategory: Coin,
     comments: "",
 }
+
 
 
 export const Miscellaneous_166: Item = {
@@ -163,8 +177,10 @@ export const Miscellaneous_166: Item = {
     id: 166,
     name: "炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_167: Item = {
@@ -173,8 +189,10 @@ export const Miscellaneous_167: Item = {
     id: 167,
     name: "雷管",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_2896: Item = {
@@ -183,8 +201,10 @@ export const Miscellaneous_2896: Item = {
     id: 2896,
     name: "粘性雷管",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_235: Item = {
@@ -193,8 +213,10 @@ export const Miscellaneous_235: Item = {
     id: 235,
     name: "粘性炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1168: Item = {
@@ -203,8 +225,10 @@ export const Miscellaneous_1168: Item = {
     id: 1168,
     name: "烟雾弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3115: Item = {
@@ -213,8 +237,10 @@ export const Miscellaneous_3115: Item = {
     id: 3115,
     name: "弹力炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3547: Item = {
@@ -223,8 +249,10 @@ export const Miscellaneous_3547: Item = {
     id: 3547,
     name: "弹力雷管",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4423: Item = {
@@ -233,8 +261,10 @@ export const Miscellaneous_4423: Item = {
     id: 4423,
     name: "甲虫炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4908: Item = {
@@ -243,8 +273,10 @@ export const Miscellaneous_4908: Item = {
     id: 4908,
     name: "土炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4909: Item = {
@@ -253,8 +285,10 @@ export const Miscellaneous_4909: Item = {
     id: 4909,
     name: "粘性土炸弹",
     Category: Miscellaneous,
+    SubCategory: Bomb,
     comments: "",
 }
+
 
 
 export const Miscellaneous_282: Item = {
@@ -263,8 +297,10 @@ export const Miscellaneous_282: Item = {
     id: 282,
     name: "荧光棒",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_286: Item = {
@@ -273,8 +309,10 @@ export const Miscellaneous_286: Item = {
     id: 286,
     name: "粘性荧光棒",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3002: Item = {
@@ -283,8 +321,10 @@ export const Miscellaneous_3002: Item = {
     id: 3002,
     name: "洞穴探险荧光棒",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3112: Item = {
@@ -293,8 +333,10 @@ export const Miscellaneous_3112: Item = {
     id: 3112,
     name: "弹力荧光棒",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4776: Item = {
@@ -303,8 +345,10 @@ export const Miscellaneous_4776: Item = {
     id: 4776,
     name: "仙灵荧光棒",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1000: Item = {
@@ -313,8 +357,10 @@ export const Miscellaneous_1000: Item = {
     id: 1000,
     name: "彩纸枪",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4986: Item = {
@@ -323,8 +369,10 @@ export const Miscellaneous_4986: Item = {
     id: 4986,
     name: "闪耀史莱姆气球",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4829: Item = {
@@ -333,8 +381,10 @@ export const Miscellaneous_4829: Item = {
     id: 4829,
     name: "猫咪许可证",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4830: Item = {
@@ -343,8 +393,10 @@ export const Miscellaneous_4830: Item = {
     id: 4830,
     name: "狗狗许可证",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4910: Item = {
@@ -353,8 +405,10 @@ export const Miscellaneous_4910: Item = {
     id: 4910,
     name: "兔兔许可证",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4765: Item = {
@@ -363,8 +417,10 @@ export const Miscellaneous_4765: Item = {
     id: 4765,
     name: "树球",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4766: Item = {
@@ -373,8 +429,10 @@ export const Miscellaneous_4766: Item = {
     id: 4766,
     name: "世界球",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5285: Item = {
@@ -383,8 +441,10 @@ export const Miscellaneous_5285: Item = {
     id: 5285,
     name: "月亮球",
     Category: Miscellaneous,
+    SubCategory: ConsumableM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_560: Item = {
@@ -393,8 +453,10 @@ export const Miscellaneous_560: Item = {
     id: 560,
     name: "史莱姆王冠",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_43: Item = {
@@ -403,8 +465,10 @@ export const Miscellaneous_43: Item = {
     id: 43,
     name: "可疑眼球",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_70: Item = {
@@ -413,8 +477,10 @@ export const Miscellaneous_70: Item = {
     id: 70,
     name: "蠕虫诱饵",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1331: Item = {
@@ -423,8 +489,10 @@ export const Miscellaneous_1331: Item = {
     id: 1331,
     name: "血腥脊椎",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1133: Item = {
@@ -433,8 +501,10 @@ export const Miscellaneous_1133: Item = {
     id: 1133,
     name: "憎恶之蜂",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5120: Item = {
@@ -443,8 +513,10 @@ export const Miscellaneous_5120: Item = {
     id: 5120,
     name: "鹿华",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4988: Item = {
@@ -453,8 +525,10 @@ export const Miscellaneous_4988: Item = {
     id: 4988,
     name: "明胶水晶",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_556: Item = {
@@ -463,8 +537,10 @@ export const Miscellaneous_556: Item = {
     id: 556,
     name: "机械蠕虫",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_557: Item = {
@@ -473,8 +549,10 @@ export const Miscellaneous_557: Item = {
     id: 557,
     name: "机械骷髅头",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_544: Item = {
@@ -483,8 +561,10 @@ export const Miscellaneous_544: Item = {
     id: 544,
     name: "机械魔眼",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1293: Item = {
@@ -493,8 +573,10 @@ export const Miscellaneous_1293: Item = {
     id: 1293,
     name: "丛林蜥蜴电池",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3601: Item = {
@@ -503,8 +585,10 @@ export const Miscellaneous_3601: Item = {
     id: 3601,
     name: "天界符",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_361: Item = {
@@ -513,8 +597,10 @@ export const Miscellaneous_361: Item = {
     id: 361,
     name: "哥布林战旗",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_602: Item = {
@@ -523,8 +609,10 @@ export const Miscellaneous_602: Item = {
     id: 602,
     name: "水晶雪球",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1315: Item = {
@@ -533,8 +621,10 @@ export const Miscellaneous_1315: Item = {
     id: 1315,
     name: "海盗地图",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1844: Item = {
@@ -543,8 +633,10 @@ export const Miscellaneous_1844: Item = {
     id: 1844,
     name: "南瓜月勋章",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1958: Item = {
@@ -553,8 +645,10 @@ export const Miscellaneous_1958: Item = {
     id: 1958,
     name: "调皮礼物",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_2767: Item = {
@@ -563,8 +657,10 @@ export const Miscellaneous_2767: Item = {
     id: 2767,
     name: "日耀碑牌",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4271: Item = {
@@ -573,8 +669,10 @@ export const Miscellaneous_4271: Item = {
     id: 4271,
     name: "血泪",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3828: Item = {
@@ -583,8 +681,10 @@ export const Miscellaneous_3828: Item = {
     id: 3828,
     name: "永恒水晶",
     Category: Miscellaneous,
+    SubCategory: Summoned,
     comments: "",
 }
+
 
 
 export const Miscellaneous_29: Item = {
@@ -593,8 +693,10 @@ export const Miscellaneous_29: Item = {
     id: 29,
     name: "生命水晶",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_109: Item = {
@@ -603,8 +705,10 @@ export const Miscellaneous_109: Item = {
     id: 109,
     name: "魔力水晶",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1291: Item = {
@@ -613,8 +717,10 @@ export const Miscellaneous_1291: Item = {
     id: 1291,
     name: "生命果",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3335: Item = {
@@ -623,8 +729,10 @@ export const Miscellaneous_3335: Item = {
     id: 3335,
     name: "恶魔之心",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5289: Item = {
@@ -633,8 +741,10 @@ export const Miscellaneous_5289: Item = {
     id: 5289,
     name: "矿车升级包",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4382: Item = {
@@ -643,8 +753,10 @@ export const Miscellaneous_4382: Item = {
     id: 4382,
     name: "先进战斗技术",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5336: Item = {
@@ -653,8 +765,10 @@ export const Miscellaneous_5336: Item = {
     id: 5336,
     name: "先进战斗技术：卷二",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5043: Item = {
@@ -663,8 +777,10 @@ export const Miscellaneous_5043: Item = {
     id: 5043,
     name: "火把神的恩宠",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5326: Item = {
@@ -673,8 +789,10 @@ export const Miscellaneous_5326: Item = {
     id: 5326,
     name: "工匠面包",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5337: Item = {
@@ -683,8 +801,10 @@ export const Miscellaneous_5337: Item = {
     id: 5337,
     name: "活力水晶",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5338: Item = {
@@ -693,8 +813,10 @@ export const Miscellaneous_5338: Item = {
     id: 5338,
     name: "神盾果",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5339: Item = {
@@ -703,8 +825,10 @@ export const Miscellaneous_5339: Item = {
     id: 5339,
     name: "奥术水晶",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5340: Item = {
@@ -713,8 +837,10 @@ export const Miscellaneous_5340: Item = {
     id: 5340,
     name: "星系珍珠",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5341: Item = {
@@ -723,8 +849,10 @@ export const Miscellaneous_5341: Item = {
     id: 5341,
     name: "黏性蠕虫",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5342: Item = {
@@ -733,8 +861,10 @@ export const Miscellaneous_5342: Item = {
     id: 5342,
     name: "仙馔密酒",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5343: Item = {
@@ -743,8 +873,10 @@ export const Miscellaneous_5343: Item = {
     id: 5343,
     name: "商贩背包",
     Category: Miscellaneous,
+    SubCategory: FinalBuff,
     comments: "",
 }
+
 
 
 export const Miscellaneous_507: Item = {
@@ -753,8 +885,10 @@ export const Miscellaneous_507: Item = {
     id: 507,
     name: "铃铛",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_508: Item = {
@@ -763,8 +897,10 @@ export const Miscellaneous_508: Item = {
     id: 508,
     name: "竖琴",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4673: Item = {
@@ -773,8 +909,10 @@ export const Miscellaneous_4673: Item = {
     id: 4673,
     name: "鼓槌",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4372: Item = {
@@ -783,8 +921,10 @@ export const Miscellaneous_4372: Item = {
     id: 4372,
     name: "常春藤",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4057: Item = {
@@ -793,8 +933,10 @@ export const Miscellaneous_4057: Item = {
     id: 4057,
     name: "雨歌",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_856: Item = {
@@ -803,8 +945,10 @@ export const Miscellaneous_856: Item = {
     id: 856,
     name: "棒棒独角兽",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_859: Item = {
@@ -813,8 +957,10 @@ export const Miscellaneous_859: Item = {
     id: 859,
     name: "沙滩球",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_928: Item = {
@@ -823,8 +969,10 @@ export const Miscellaneous_928: Item = {
     id: 928,
     name: "大炮",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_929: Item = {
@@ -833,8 +981,10 @@ export const Miscellaneous_929: Item = {
     id: 929,
     name: "炮弹",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_951: Item = {
@@ -843,8 +993,10 @@ export const Miscellaneous_951: Item = {
     id: 951,
     name: "雪球发射器",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1337: Item = {
@@ -853,8 +1005,10 @@ export const Miscellaneous_1337: Item = {
     id: 1337,
     name: "兔兔炮",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1338: Item = {
@@ -863,8 +1017,10 @@ export const Miscellaneous_1338: Item = {
     id: 1338,
     name: "爆炸兔",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_968: Item = {
@@ -873,8 +1029,10 @@ export const Miscellaneous_968: Item = {
     id: 968,
     name: "棒棒棉花糖",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1522: Item = {
@@ -883,8 +1041,10 @@ export const Miscellaneous_1522: Item = {
     id: 1522,
     name: "大紫晶",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1523: Item = {
@@ -893,8 +1053,10 @@ export const Miscellaneous_1523: Item = {
     id: 1523,
     name: "大黄玉",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1524: Item = {
@@ -903,8 +1065,10 @@ export const Miscellaneous_1524: Item = {
     id: 1524,
     name: "大蓝玉",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1525: Item = {
@@ -913,8 +1077,10 @@ export const Miscellaneous_1525: Item = {
     id: 1525,
     name: "大翡翠",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1526: Item = {
@@ -923,8 +1089,10 @@ export const Miscellaneous_1526: Item = {
     id: 1526,
     name: "大红玉",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3643: Item = {
@@ -933,8 +1101,10 @@ export const Miscellaneous_3643: Item = {
     id: 3643,
     name: "大琥珀",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1527: Item = {
@@ -943,8 +1113,10 @@ export const Miscellaneous_1527: Item = {
     id: 1527,
     name: "大钻石",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1922: Item = {
@@ -953,8 +1125,10 @@ export const Miscellaneous_1922: Item = {
     id: 1922,
     name: "煤",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_2272: Item = {
@@ -963,8 +1137,10 @@ export const Miscellaneous_2272: Item = {
     id: 2272,
     name: "水枪",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_2610: Item = {
@@ -973,8 +1149,10 @@ export const Miscellaneous_2610: Item = {
     id: 2610,
     name: "史莱姆枪",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4682: Item = {
@@ -983,8 +1161,10 @@ export const Miscellaneous_4682: Item = {
     id: 4682,
     name: "放飞鸽子",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4702: Item = {
@@ -993,8 +1173,10 @@ export const Miscellaneous_4702: Item = {
     id: 4702,
     name: "放飞灯笼",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4743: Item = {
@@ -1003,8 +1185,10 @@ export const Miscellaneous_4743: Item = {
     id: 4743,
     name: "橄榄球",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3213: Item = {
@@ -1013,8 +1197,10 @@ export const Miscellaneous_3213: Item = {
     id: 3213,
     name: "钱币槽",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4131: Item = {
@@ -1023,8 +1209,10 @@ export const Miscellaneous_4131: Item = {
     id: 4131,
     name: "虚空袋",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5325: Item = {
@@ -1033,8 +1221,10 @@ export const Miscellaneous_5325: Item = {
     id: 5325,
     name: "闭合的虚空袋",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5438: Item = {
@@ -1043,8 +1233,10 @@ export const Miscellaneous_5438: Item = {
     id: 5438,
     name: "肥料",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1450: Item = {
@@ -1053,8 +1245,10 @@ export const Miscellaneous_1450: Item = {
     id: 1450,
     name: "泡泡魔棒",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5451: Item = {
@@ -1063,8 +1257,10 @@ export const Miscellaneous_5451: Item = {
     id: 5451,
     name: "四轴竞速无人机",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_3093: Item = {
@@ -1073,8 +1269,10 @@ export const Miscellaneous_3093: Item = {
     id: 3093,
     name: "草药袋",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4345: Item = {
@@ -1083,8 +1281,10 @@ export const Miscellaneous_4345: Item = {
     id: 4345,
     name: "蠕虫罐头",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1774: Item = {
@@ -1093,8 +1293,10 @@ export const Miscellaneous_1774: Item = {
     id: 1774,
     name: "礼袋",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_1869: Item = {
@@ -1103,8 +1305,10 @@ export const Miscellaneous_1869: Item = {
     id: 1869,
     name: "礼物",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_4400: Item = {
@@ -1113,8 +1317,10 @@ export const Miscellaneous_4400: Item = {
     id: 4400,
     name: "晶洞",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_215: Item = {
@@ -1123,8 +1329,10 @@ export const Miscellaneous_215: Item = {
     id: 215,
     name: "整蛊坐垫",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5346: Item = {
@@ -1133,8 +1341,10 @@ export const Miscellaneous_5346: Item = {
     id: 5346,
     name: "毒气机关",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5356: Item = {
@@ -1143,8 +1353,10 @@ export const Miscellaneous_5356: Item = {
     id: 5356,
     name: "用过的毒气机关",
     Category: Miscellaneous,
+    SubCategory: OtherM,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5334: Item = {
@@ -1153,8 +1365,10 @@ export const Miscellaneous_5334: Item = {
     id: 5334,
     name: "奥库瑞姆剃刀",
     Category: Miscellaneous,
+    SubCategory: ForGFB,
     comments: "",
 }
+
 
 
 export const Miscellaneous_5382: Item = {
@@ -1163,6 +1377,7 @@ export const Miscellaneous_5382: Item = {
     id: 5382,
     name: "华夫饼烘烤模",
     Category: Miscellaneous,
+    SubCategory: ForGFB,
     comments: "",
 }
 

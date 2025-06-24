@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Developers } from "../data.Category.zh-CN.ts"
 
+import { Aaron, Arkhalis, Cenx, Crowno, DTown, FoodBarbarian, Ghostar, Grox, Jim, Lazure, Leinfors, Loki, OtherD, Pedguin, Red, Safeman, Skiphs, Will, Yoraiz0r } from "../data.SubCategory.zh-CN.ts"
+
 import Developers_665Img from "../../../assets/icon/Item_665.png"
 import Developers_666Img from "../../../assets/icon/Item_666.png"
 import Developers_667Img from "../../../assets/icon/Item_667.png"
@@ -80,14 +82,18 @@ import Developers_3763Img from "../../../assets/icon/Item_3763.png"
 import Developers_4993Img from "../../../assets/icon/Item_4993.png"
 import Developers_5004Img from "../../../assets/icon/Item_5004.png"
 import Developers_5385Img from "../../../assets/icon/Item_5385.png"
+
+
 export const Developers_665: Item = {
     icon: Developers_665Img,
     isCollection: false,
     id: 665,
     name: "Red的翅膀",
     Category: Developers,
+    SubCategory: Red,
     comments: "",
 }
+
 
 
 export const Developers_666: Item = {
@@ -96,8 +102,10 @@ export const Developers_666: Item = {
     id: 666,
     name: "Red的头盔",
     Category: Developers,
+    SubCategory: Red,
     comments: "",
 }
+
 
 
 export const Developers_667: Item = {
@@ -106,8 +114,10 @@ export const Developers_667: Item = {
     id: 667,
     name: "Red的胸甲",
     Category: Developers,
+    SubCategory: Red,
     comments: "",
 }
+
 
 
 export const Developers_668: Item = {
@@ -116,8 +126,10 @@ export const Developers_668: Item = {
     id: 668,
     name: "Red的护腿",
     Category: Developers,
+    SubCategory: Red,
     comments: "",
 }
+
 
 
 export const Developers_1554: Item = {
@@ -126,8 +138,10 @@ export const Developers_1554: Item = {
     id: 1554,
     name: "Cenx 的头冠",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1555: Item = {
@@ -136,8 +150,10 @@ export const Developers_1555: Item = {
     id: 1555,
     name: "Cenx 的胸甲",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1556: Item = {
@@ -146,8 +162,10 @@ export const Developers_1556: Item = {
     id: 1556,
     name: "Cenx 的护腿",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1586: Item = {
@@ -156,8 +174,10 @@ export const Developers_1586: Item = {
     id: 1586,
     name: "Cenx 的翅膀",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1587: Item = {
@@ -166,8 +186,10 @@ export const Developers_1587: Item = {
     id: 1587,
     name: "Cenx 的上衣",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1588: Item = {
@@ -176,8 +198,10 @@ export const Developers_1588: Item = {
     id: 1588,
     name: "Cenx 的裤装",
     Category: Developers,
+    SubCategory: Cenx,
     comments: "",
 }
+
 
 
 export const Developers_1557: Item = {
@@ -186,8 +210,10 @@ export const Developers_1557: Item = {
     id: 1557,
     name: "Crowno的面具",
     Category: Developers,
+    SubCategory: Crowno,
     comments: "",
 }
+
 
 
 export const Developers_1558: Item = {
@@ -196,8 +222,10 @@ export const Developers_1558: Item = {
     id: 1558,
     name: "Crowno的胸甲",
     Category: Developers,
+    SubCategory: Crowno,
     comments: "",
 }
+
 
 
 export const Developers_1559: Item = {
@@ -206,8 +234,10 @@ export const Developers_1559: Item = {
     id: 1559,
     name: "Crowno的护腿",
     Category: Developers,
+    SubCategory: Crowno,
     comments: "",
 }
+
 
 
 export const Developers_1585: Item = {
@@ -216,8 +246,10 @@ export const Developers_1585: Item = {
     id: 1585,
     name: "Crowno的翅膀",
     Category: Developers,
+    SubCategory: Crowno,
     comments: "",
 }
+
 
 
 export const Developers_1584: Item = {
@@ -226,8 +258,10 @@ export const Developers_1584: Item = {
     id: 1584,
     name: "Will的翅膀",
     Category: Developers,
+    SubCategory: Will,
     comments: "",
 }
+
 
 
 export const Developers_1560: Item = {
@@ -236,8 +270,10 @@ export const Developers_1560: Item = {
     id: 1560,
     name: "Will的头盔",
     Category: Developers,
+    SubCategory: Will,
     comments: "",
 }
+
 
 
 export const Developers_1561: Item = {
@@ -246,8 +282,10 @@ export const Developers_1561: Item = {
     id: 1561,
     name: "Will的胸甲",
     Category: Developers,
+    SubCategory: Will,
     comments: "",
 }
+
 
 
 export const Developers_1562: Item = {
@@ -256,8 +294,10 @@ export const Developers_1562: Item = {
     id: 1562,
     name: "Will的护腿",
     Category: Developers,
+    SubCategory: Will,
     comments: "",
 }
+
 
 
 export const Developers_1563: Item = {
@@ -266,8 +306,10 @@ export const Developers_1563: Item = {
     id: 1563,
     name: "Jim的头盔",
     Category: Developers,
+    SubCategory: Jim,
     comments: "",
 }
+
 
 
 export const Developers_1564: Item = {
@@ -276,8 +318,10 @@ export const Developers_1564: Item = {
     id: 1564,
     name: "Jim的胸甲",
     Category: Developers,
+    SubCategory: Jim,
     comments: "",
 }
+
 
 
 export const Developers_1565: Item = {
@@ -286,8 +330,10 @@ export const Developers_1565: Item = {
     id: 1565,
     name: "Jim的护腿",
     Category: Developers,
+    SubCategory: Jim,
     comments: "",
 }
+
 
 
 export const Developers_3582: Item = {
@@ -296,8 +342,10 @@ export const Developers_3582: Item = {
     id: 3582,
     name: "Jim的翅膀",
     Category: Developers,
+    SubCategory: Jim,
     comments: "",
 }
+
 
 
 export const Developers_1566: Item = {
@@ -306,8 +354,10 @@ export const Developers_1566: Item = {
     id: 1566,
     name: "Aaron的头盔",
     Category: Developers,
+    SubCategory: Aaron,
     comments: "",
 }
+
 
 
 export const Developers_1567: Item = {
@@ -316,8 +366,10 @@ export const Developers_1567: Item = {
     id: 1567,
     name: "Aaron的胸甲",
     Category: Developers,
+    SubCategory: Aaron,
     comments: "",
 }
+
 
 
 export const Developers_1568: Item = {
@@ -326,8 +378,10 @@ export const Developers_1568: Item = {
     id: 1568,
     name: "Aaron的护腿",
     Category: Developers,
+    SubCategory: Aaron,
     comments: "",
 }
+
 
 
 export const Developers_1580: Item = {
@@ -336,8 +390,10 @@ export const Developers_1580: Item = {
     id: 1580,
     name: "D-Town的头盔",
     Category: Developers,
+    SubCategory: DTown,
     comments: "",
 }
+
 
 
 export const Developers_1581: Item = {
@@ -346,8 +402,10 @@ export const Developers_1581: Item = {
     id: 1581,
     name: "D-Town的胸甲",
     Category: Developers,
+    SubCategory: DTown,
     comments: "",
 }
+
 
 
 export const Developers_1582: Item = {
@@ -356,8 +414,10 @@ export const Developers_1582: Item = {
     id: 1582,
     name: "D-Town的护腿",
     Category: Developers,
+    SubCategory: DTown,
     comments: "",
 }
+
 
 
 export const Developers_1583: Item = {
@@ -366,8 +426,10 @@ export const Developers_1583: Item = {
     id: 1583,
     name: "D-Town的翅膀",
     Category: Developers,
+    SubCategory: DTown,
     comments: "",
 }
+
 
 
 export const Developers_3226: Item = {
@@ -376,8 +438,10 @@ export const Developers_3226: Item = {
     id: 3226,
     name: "Lazure的女武神头环",
     Category: Developers,
+    SubCategory: Lazure,
     comments: "",
 }
+
 
 
 export const Developers_3227: Item = {
@@ -386,8 +450,10 @@ export const Developers_3227: Item = {
     id: 3227,
     name: "Lazure的女武神斗蓬",
     Category: Developers,
+    SubCategory: Lazure,
     comments: "",
 }
+
 
 
 export const Developers_3228: Item = {
@@ -396,8 +462,10 @@ export const Developers_3228: Item = {
     id: 3228,
     name: "Lazure的屏障台",
     Category: Developers,
+    SubCategory: Lazure,
     comments: "",
 }
+
 
 
 export const Developers_3578: Item = {
@@ -406,8 +474,10 @@ export const Developers_3578: Item = {
     id: 3578,
     name: "Yoraiz0r的制服",
     Category: Developers,
+    SubCategory: Yoraiz0r,
     comments: "",
 }
+
 
 
 export const Developers_3579: Item = {
@@ -416,8 +486,10 @@ export const Developers_3579: Item = {
     id: 3579,
     name: "Yoraiz0r的裙",
     Category: Developers,
+    SubCategory: Yoraiz0r,
     comments: "",
 }
+
 
 
 export const Developers_3580: Item = {
@@ -426,8 +498,10 @@ export const Developers_3580: Item = {
     id: 3580,
     name: "Yoraiz0r的魔法",
     Category: Developers,
+    SubCategory: Yoraiz0r,
     comments: "",
 }
+
 
 
 export const Developers_3581: Item = {
@@ -436,8 +510,10 @@ export const Developers_3581: Item = {
     id: 3581,
     name: "Yoraiz0r的怒容",
     Category: Developers,
+    SubCategory: Yoraiz0r,
     comments: "",
 }
+
 
 
 export const Developers_3583: Item = {
@@ -446,8 +522,10 @@ export const Developers_3583: Item = {
     id: 3583,
     name: "Yoraiz0r的染色护目镜",
     Category: Developers,
+    SubCategory: Yoraiz0r,
     comments: "",
 }
+
 
 
 export const Developers_3585: Item = {
@@ -456,8 +534,10 @@ export const Developers_3585: Item = {
     id: 3585,
     name: "Skiphs的面具",
     Category: Developers,
+    SubCategory: Skiphs,
     comments: "",
 }
+
 
 
 export const Developers_3586: Item = {
@@ -466,8 +546,10 @@ export const Developers_3586: Item = {
     id: 3586,
     name: "Skiphs的皮肤",
     Category: Developers,
+    SubCategory: Skiphs,
     comments: "",
 }
+
 
 
 export const Developers_3587: Item = {
@@ -476,8 +558,10 @@ export const Developers_3587: Item = {
     id: 3587,
     name: "Skiphs的熊裤",
     Category: Developers,
+    SubCategory: Skiphs,
     comments: "",
 }
+
 
 
 export const Developers_3588: Item = {
@@ -486,8 +570,10 @@ export const Developers_3588: Item = {
     id: 3588,
     name: "Skiphs的爪子",
     Category: Developers,
+    SubCategory: Skiphs,
     comments: "",
 }
+
 
 
 export const Developers_3024: Item = {
@@ -496,8 +582,10 @@ export const Developers_3024: Item = {
     id: 3024,
     name: "Skiphs的血",
     Category: Developers,
+    SubCategory: Skiphs,
     comments: "",
 }
+
 
 
 export const Developers_3589: Item = {
@@ -506,8 +594,10 @@ export const Developers_3589: Item = {
     id: 3589,
     name: "Loki的头盔",
     Category: Developers,
+    SubCategory: Loki,
     comments: "",
 }
+
 
 
 export const Developers_3590: Item = {
@@ -516,8 +606,10 @@ export const Developers_3590: Item = {
     id: 3590,
     name: "Loki的胸甲",
     Category: Developers,
+    SubCategory: Loki,
     comments: "",
 }
+
 
 
 export const Developers_3591: Item = {
@@ -526,8 +618,10 @@ export const Developers_3591: Item = {
     id: 3591,
     name: "Loki的护胫",
     Category: Developers,
+    SubCategory: Loki,
     comments: "",
 }
+
 
 
 export const Developers_3592: Item = {
@@ -536,8 +630,10 @@ export const Developers_3592: Item = {
     id: 3592,
     name: "Loki的翅膀",
     Category: Developers,
+    SubCategory: Loki,
     comments: "",
 }
+
 
 
 export const Developers_3599: Item = {
@@ -546,8 +642,10 @@ export const Developers_3599: Item = {
     id: 3599,
     name: "Loki的染料",
     Category: Developers,
+    SubCategory: Loki,
     comments: "",
 }
+
 
 
 export const Developers_3921: Item = {
@@ -556,8 +654,10 @@ export const Developers_3921: Item = {
     id: 3921,
     name: "Arkhalis的兜帽",
     Category: Developers,
+    SubCategory: Arkhalis,
     comments: "",
 }
+
 
 
 export const Developers_3922: Item = {
@@ -566,8 +666,10 @@ export const Developers_3922: Item = {
     id: 3922,
     name: "Arkhalis的紧身衣",
     Category: Developers,
+    SubCategory: Arkhalis,
     comments: "",
 }
+
 
 
 export const Developers_3923: Item = {
@@ -576,8 +678,10 @@ export const Developers_3923: Item = {
     id: 3923,
     name: "Arkhalis的紧身服",
     Category: Developers,
+    SubCategory: Arkhalis,
     comments: "",
 }
+
 
 
 export const Developers_3924: Item = {
@@ -586,8 +690,10 @@ export const Developers_3924: Item = {
     id: 3924,
     name: "Arkhalis的飞翼",
     Category: Developers,
+    SubCategory: Arkhalis,
     comments: "",
 }
+
 
 
 export const Developers_3925: Item = {
@@ -596,8 +702,10 @@ export const Developers_3925: Item = {
     id: 3925,
     name: "Leinfors的护发器",
     Category: Developers,
+    SubCategory: Leinfors,
     comments: "",
 }
+
 
 
 export const Developers_3926: Item = {
@@ -606,8 +714,10 @@ export const Developers_3926: Item = {
     id: 3926,
     name: "Leinfors的奇异风",
     Category: Developers,
+    SubCategory: Leinfors,
     comments: "",
 }
+
 
 
 export const Developers_3927: Item = {
@@ -616,8 +726,10 @@ export const Developers_3927: Item = {
     id: 3927,
     name: "Leinfors的潮裤",
     Category: Developers,
+    SubCategory: Leinfors,
     comments: "",
 }
+
 
 
 export const Developers_3928: Item = {
@@ -626,8 +738,10 @@ export const Developers_3928: Item = {
     id: 3928,
     name: "Leinfors的卷缠斗篷",
     Category: Developers,
+    SubCategory: Leinfors,
     comments: "",
 }
+
 
 
 export const Developers_3929: Item = {
@@ -636,8 +750,10 @@ export const Developers_3929: Item = {
     id: 3929,
     name: "Leinfors的奢华洗发液",
     Category: Developers,
+    SubCategory: Leinfors,
     comments: "",
 }
+
 
 
 export const Developers_4730: Item = {
@@ -646,8 +762,10 @@ export const Developers_4730: Item = {
     id: 4730,
     name: "Ghostar的无极翼",
     Category: Developers,
+    SubCategory: Ghostar,
     comments: "",
 }
+
 
 
 export const Developers_4732: Item = {
@@ -656,8 +774,10 @@ export const Developers_4732: Item = {
     id: 4732,
     name: "Ghostar的魂罐",
     Category: Developers,
+    SubCategory: Ghostar,
     comments: "",
 }
+
 
 
 export const Developers_4733: Item = {
@@ -666,8 +786,10 @@ export const Developers_4733: Item = {
     id: 4733,
     name: "Ghostar的上衣",
     Category: Developers,
+    SubCategory: Ghostar,
     comments: "",
 }
+
 
 
 export const Developers_4734: Item = {
@@ -676,8 +798,10 @@ export const Developers_4734: Item = {
     id: 4734,
     name: "Ghostar的紧身裤",
     Category: Developers,
+    SubCategory: Ghostar,
     comments: "",
 }
+
 
 
 export const Developers_4746: Item = {
@@ -686,8 +810,10 @@ export const Developers_4746: Item = {
     id: 4746,
     name: "Safeman的毛毯斗篷",
     Category: Developers,
+    SubCategory: Safeman,
     comments: "",
 }
+
 
 
 export const Developers_4747: Item = {
@@ -696,8 +822,10 @@ export const Developers_4747: Item = {
     id: 4747,
     name: "Safeman的晴天",
     Category: Developers,
+    SubCategory: Safeman,
     comments: "",
 }
+
 
 
 export const Developers_4748: Item = {
@@ -706,8 +834,10 @@ export const Developers_4748: Item = {
     id: 4748,
     name: "Safeman的太阳裙",
     Category: Developers,
+    SubCategory: Safeman,
     comments: "",
 }
+
 
 
 export const Developers_4749: Item = {
@@ -716,8 +846,10 @@ export const Developers_4749: Item = {
     id: 4749,
     name: "Safeman的粉色护腿",
     Category: Developers,
+    SubCategory: Safeman,
     comments: "",
 }
+
 
 
 export const Developers_4750: Item = {
@@ -726,8 +858,10 @@ export const Developers_4750: Item = {
     id: 4750,
     name: "FoodBarbarian的褴褛龙之翼",
     Category: Developers,
+    SubCategory: FoodBarbarian,
     comments: "",
 }
+
 
 
 export const Developers_4751: Item = {
@@ -736,8 +870,10 @@ export const Developers_4751: Item = {
     id: 4751,
     name: "FoodBarbarian的角盔",
     Category: Developers,
+    SubCategory: FoodBarbarian,
     comments: "",
 }
+
 
 
 export const Developers_4752: Item = {
@@ -746,8 +882,10 @@ export const Developers_4752: Item = {
     id: 4752,
     name: "FoodBarbarian的野狼护肩",
     Category: Developers,
+    SubCategory: FoodBarbarian,
     comments: "",
 }
+
 
 
 export const Developers_4753: Item = {
@@ -756,8 +894,10 @@ export const Developers_4753: Item = {
     id: 4753,
     name: "FoodBarbarian的野猪护胫",
     Category: Developers,
+    SubCategory: FoodBarbarian,
     comments: "",
 }
+
 
 
 export const Developers_4754: Item = {
@@ -766,8 +906,10 @@ export const Developers_4754: Item = {
     id: 4754,
     name: "Grox The Great的翅膀",
     Category: Developers,
+    SubCategory: Grox,
     comments: "",
 }
+
 
 
 export const Developers_4755: Item = {
@@ -776,8 +918,10 @@ export const Developers_4755: Item = {
     id: 4755,
     name: "Grox The Great的有角风帽",
     Category: Developers,
+    SubCategory: Grox,
     comments: "",
 }
+
 
 
 export const Developers_4756: Item = {
@@ -786,8 +930,10 @@ export const Developers_4756: Item = {
     id: 4756,
     name: "Grox The Great的护胸",
     Category: Developers,
+    SubCategory: Grox,
     comments: "",
 }
+
 
 
 export const Developers_4757: Item = {
@@ -796,8 +942,10 @@ export const Developers_4757: Item = {
     id: 4757,
     name: "Grox The Great的护胫",
     Category: Developers,
+    SubCategory: Grox,
     comments: "",
 }
+
 
 
 export const Developers_3757: Item = {
@@ -806,8 +954,10 @@ export const Developers_3757: Item = {
     id: 3757,
     name: "Pedguin的兜帽",
     Category: Developers,
+    SubCategory: Pedguin,
     comments: "",
 }
+
 
 
 export const Developers_3758: Item = {
@@ -816,8 +966,10 @@ export const Developers_3758: Item = {
     id: 3758,
     name: "Pedguin的夹克",
     Category: Developers,
+    SubCategory: Pedguin,
     comments: "",
 }
+
 
 
 export const Developers_3759: Item = {
@@ -826,8 +978,10 @@ export const Developers_3759: Item = {
     id: 3759,
     name: "Pedguin的裤子",
     Category: Developers,
+    SubCategory: Pedguin,
     comments: "",
 }
+
 
 
 export const Developers_3763: Item = {
@@ -836,8 +990,10 @@ export const Developers_3763: Item = {
     id: 3763,
     name: "0x33的飞行员风镜",
     Category: Developers,
-    comments: "",
+    SubCategory: OtherD,
+    comments: "大师模式 克眼",
 }
+
 
 
 export const Developers_4993: Item = {
@@ -846,8 +1002,10 @@ export const Developers_4993: Item = {
     id: 4993,
     name: "Chippy的沙发",
     Category: Developers,
-    comments: "",
+    SubCategory: OtherD,
+    comments: "骷髅王",
 }
+
 
 
 export const Developers_5004: Item = {
@@ -856,8 +1014,10 @@ export const Developers_5004: Item = {
     id: 5004,
     name: "Badger的帽子",
     Category: Developers,
-    comments: "",
+    SubCategory: OtherD,
+    comments: "同天击败克眼+肉山",
 }
+
 
 
 export const Developers_5385: Item = {
@@ -866,7 +1026,8 @@ export const Developers_5385: Item = {
     id: 5385,
     name: "Dizzy的稀有壁虎帽",
     Category: Developers,
-    comments: "",
+    SubCategory: OtherD,
+    comments: "鹿角怪",
 }
 
 

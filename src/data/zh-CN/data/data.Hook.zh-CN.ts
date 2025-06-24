@@ -1,5 +1,5 @@
-import type { Item } from "../../Interface.ts"
-import { Hook } from "../data.Category.zh-CN.ts"
+import type {Item} from "../../Interface.ts"
+import {Hook} from "../data.Category.zh-CN.ts"
 
 import Hook_84Img from "../../../assets/icon/Item_84.png"
 import Hook_4759Img from "../../../assets/icon/Item_4759.png"
@@ -28,6 +28,8 @@ import Hook_1915Img from "../../../assets/icon/Item_1915.png"
 import Hook_1800Img from "../../../assets/icon/Item_1800.png"
 import Hook_2800Img from "../../../assets/icon/Item_2800.png"
 import Hook_3572Img from "../../../assets/icon/Item_3572.png"
+
+
 export const Hook_84: Item = {
     icon: Hook_84Img,
     isCollection: false,

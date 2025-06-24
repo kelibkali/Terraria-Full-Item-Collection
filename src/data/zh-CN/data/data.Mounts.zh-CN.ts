@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Mounts } from "../data.Category.zh-CN.ts"
 
+import { CommonMount, MinecartM } from "../data.SubCategory.zh-CN.ts"
+
 import Mounts_2430Img from "../../../assets/icon/Item_2430.png"
 import Mounts_2428Img from "../../../assets/icon/Item_2428.png"
 import Mounts_2502Img from "../../../assets/icon/Item_2502.png"
@@ -54,14 +56,18 @@ import Mounts_5125Img from "../../../assets/icon/Item_5125.png"
 import Mounts_5288Img from "../../../assets/icon/Item_5288.png"
 import Mounts_4468Img from "../../../assets/icon/Item_4468.png"
 import Mounts_4469Img from "../../../assets/icon/Item_4469.png"
+
+
 export const Mounts_2430: Item = {
     icon: Mounts_2430Img,
     isCollection: false,
     id: 2430,
     name: "粘鞍",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2428: Item = {
@@ -70,8 +76,10 @@ export const Mounts_2428: Item = {
     id: 2428,
     name: "绒毛胡萝卜",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2502: Item = {
@@ -80,8 +88,10 @@ export const Mounts_2502: Item = {
     id: 2502,
     name: "涂蜜护目镜",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2491: Item = {
@@ -90,8 +100,10 @@ export const Mounts_2491: Item = {
     id: 2491,
     name: "硬鞍",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4716: Item = {
@@ -100,8 +112,10 @@ export const Mounts_4716: Item = {
     id: 4716,
     name: "贝壳哨",
     Category: Mounts,
-    comments: "",
+    SubCategory: CommonMount,
+    comments: "动物学家",
 }
+
 
 
 export const Mounts_4785: Item = {
@@ -110,8 +124,10 @@ export const Mounts_4785: Item = {
     id: 4785,
     name: "蒙尘牛皮鞍",
     Category: Mounts,
-    comments: "",
+    SubCategory: CommonMount,
+    comments: "动物学家",
 }
+
 
 
 export const Mounts_4786: Item = {
@@ -120,8 +136,10 @@ export const Mounts_4786: Item = {
     id: 4786,
     name: "皇家鎏金鞍",
     Category: Mounts,
-    comments: "",
+    SubCategory: CommonMount,
+    comments: "动物学家",
 }
+
 
 
 export const Mounts_4787: Item = {
@@ -130,8 +148,10 @@ export const Mounts_4787: Item = {
     id: 4787,
     name: "黑铆钉鞍",
     Category: Mounts,
-    comments: "",
+    SubCategory: CommonMount,
+    comments: "动物学家",
 }
+
 
 
 export const Mounts_4791: Item = {
@@ -140,8 +160,10 @@ export const Mounts_4791: Item = {
     id: 4791,
     name: "蹦蹦跷",
     Category: Mounts,
-    comments: "",
+    SubCategory: CommonMount,
+    comments: "派对女孩",
 }
+
 
 
 export const Mounts_4796: Item = {
@@ -150,8 +172,10 @@ export const Mounts_4796: Item = {
     id: 4796,
     name: "暗黑魔法师巨著",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4264: Item = {
@@ -160,8 +184,10 @@ export const Mounts_4264: Item = {
     id: 4264,
     name: "高尔夫球车钥匙",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4828: Item = {
@@ -170,8 +196,10 @@ export const Mounts_4828: Item = {
     id: 4828,
     name: "过热的血",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4795: Item = {
@@ -180,8 +208,10 @@ export const Mounts_4795: Item = {
     id: 4795,
     name: "山羊骷髅头",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_3260: Item = {
@@ -190,8 +220,10 @@ export const Mounts_3260: Item = {
     id: 3260,
     name: "恩赐苹果",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2429: Item = {
@@ -200,8 +232,10 @@ export const Mounts_2429: Item = {
     id: 2429,
     name: "带鳞松露",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4792: Item = {
@@ -210,8 +244,10 @@ export const Mounts_4792: Item = {
     id: 4792,
     name: "黑斑",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_3771: Item = {
@@ -220,8 +256,10 @@ export const Mounts_3771: Item = {
     id: 3771,
     name: "远古号角",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_5130: Item = {
@@ -230,8 +268,10 @@ export const Mounts_5130: Item = {
     id: 5130,
     name: "Lilith的项链",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4981: Item = {
@@ -240,8 +280,10 @@ export const Mounts_4981: Item = {
     id: 4981,
     name: "明胶女式鞍",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4444: Item = {
@@ -250,8 +292,10 @@ export const Mounts_4444: Item = {
     id: 4444,
     name: "女巫扫帚",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4793: Item = {
@@ -260,8 +304,10 @@ export const Mounts_4793: Item = {
     id: 4793,
     name: "魔法树枝",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4794: Item = {
@@ -270,8 +316,10 @@ export const Mounts_4794: Item = {
     id: 4794,
     name: "玩具坦克",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_1914: Item = {
@@ -280,8 +328,10 @@ export const Mounts_1914: Item = {
     id: 1914,
     name: "驯鹿铃铛",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_3367: Item = {
@@ -290,8 +340,10 @@ export const Mounts_3367: Item = {
     id: 3367,
     name: "虾松露",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2771: Item = {
@@ -300,8 +352,10 @@ export const Mounts_2771: Item = {
     id: 2771,
     name: "扰脑器",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2769: Item = {
@@ -310,8 +364,10 @@ export const Mounts_2769: Item = {
     id: 2769,
     name: "宇宙车钥匙",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_2768: Item = {
@@ -320,8 +376,10 @@ export const Mounts_2768: Item = {
     id: 2768,
     name: "钻头控制装置",
     Category: Mounts,
+    SubCategory: CommonMount,
     comments: "",
 }
+
 
 
 export const Mounts_4427: Item = {
@@ -330,8 +388,10 @@ export const Mounts_4427: Item = {
     id: 4427,
     name: "瓢虫矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4429: Item = {
@@ -340,8 +400,10 @@ export const Mounts_4429: Item = {
     id: 4429,
     name: "向日葵矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4450: Item = {
@@ -350,8 +412,10 @@ export const Mounts_4450: Item = {
     id: 4450,
     name: "蘑菇矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4066: Item = {
@@ -360,8 +424,10 @@ export const Mounts_4066: Item = {
     id: 4066,
     name: "沙漠矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4426: Item = {
@@ -370,8 +436,10 @@ export const Mounts_4426: Item = {
     id: 4426,
     name: "蜜蜂矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4067: Item = {
@@ -380,8 +448,10 @@ export const Mounts_4067: Item = {
     id: 4067,
     name: "鲤鱼矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_2343: Item = {
@@ -390,8 +460,10 @@ export const Mounts_2343: Item = {
     id: 2343,
     name: "矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4451: Item = {
@@ -400,8 +472,10 @@ export const Mounts_4451: Item = {
     id: 4451,
     name: "紫晶矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4452: Item = {
@@ -410,8 +484,10 @@ export const Mounts_4452: Item = {
     id: 4452,
     name: "黄玉矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4453: Item = {
@@ -420,8 +496,10 @@ export const Mounts_4453: Item = {
     id: 4453,
     name: "蓝玉矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4454: Item = {
@@ -430,8 +508,10 @@ export const Mounts_4454: Item = {
     id: 4454,
     name: "翡翠矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4455: Item = {
@@ -440,8 +520,10 @@ export const Mounts_4455: Item = {
     id: 4455,
     name: "红玉矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4456: Item = {
@@ -450,8 +532,10 @@ export const Mounts_4456: Item = {
     id: 4456,
     name: "钻石矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4467: Item = {
@@ -460,8 +544,10 @@ export const Mounts_4467: Item = {
     id: 4467,
     name: "琥珀矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4745: Item = {
@@ -470,8 +556,10 @@ export const Mounts_4745: Item = {
     id: 4745,
     name: "棺材矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4443: Item = {
@@ -480,8 +568,10 @@ export const Mounts_4443: Item = {
     id: 4443,
     name: "恶魔地狱矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4763: Item = {
@@ -490,8 +580,10 @@ export const Mounts_4763: Item = {
     id: 4763,
     name: "挖掘鼹鼠矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4470: Item = {
@@ -500,8 +592,10 @@ export const Mounts_4470: Item = {
     id: 4470,
     name: "派对矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4428: Item = {
@@ -510,8 +604,10 @@ export const Mounts_4428: Item = {
     id: 4428,
     name: "猪龙矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4471: Item = {
@@ -520,8 +616,10 @@ export const Mounts_4471: Item = {
     id: 4471,
     name: "荷兰人矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_3353: Item = {
@@ -530,8 +628,10 @@ export const Mounts_3353: Item = {
     id: 3353,
     name: "机械矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4472: Item = {
@@ -540,8 +640,10 @@ export const Mounts_4472: Item = {
     id: 4472,
     name: "蒸汽朋克矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_5125: Item = {
@@ -550,8 +652,10 @@ export const Mounts_5125: Item = {
     id: 5125,
     name: "放屁车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_5288: Item = {
@@ -560,8 +664,10 @@ export const Mounts_5288: Item = {
     id: 5288,
     name: "泰拉放屁车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4468: Item = {
@@ -570,8 +676,10 @@ export const Mounts_4468: Item = {
     id: 4468,
     name: "甲虫矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
+
 
 
 export const Mounts_4469: Item = {
@@ -580,6 +688,7 @@ export const Mounts_4469: Item = {
     id: 4469,
     name: "彩虹猫矿车",
     Category: Mounts,
+    SubCategory: MinecartM,
     comments: "",
 }
 

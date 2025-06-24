@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Foods } from "../data.Category.zh-CN.ts"
 
+import { MakeF, MonsterF, OtherF, TreeF } from "../data.SubCategory.zh-CN.ts"
+
 import Foods_4009Img from "../../../assets/icon/Item_4009.png"
 import Foods_4282Img from "../../../assets/icon/Item_4282.png"
 import Foods_4291Img from "../../../assets/icon/Item_4291.png"
@@ -81,14 +83,18 @@ import Foods_1919Img from "../../../assets/icon/Item_1919.png"
 import Foods_1920Img from "../../../assets/icon/Item_1920.png"
 import Foods_4411Img from "../../../assets/icon/Item_4411.png"
 import Foods_5275Img from "../../../assets/icon/Item_5275.png"
+
+
 export const Foods_4009: Item = {
     icon: Foods_4009Img,
     isCollection: false,
     id: 4009,
     name: "苹果",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "森林",
 }
+
 
 
 export const Foods_4282: Item = {
@@ -97,8 +103,10 @@ export const Foods_4282: Item = {
     id: 4282,
     name: "杏",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "森林",
 }
+
 
 
 export const Foods_4291: Item = {
@@ -107,8 +115,10 @@ export const Foods_4291: Item = {
     id: 4291,
     name: "柠檬",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "森林",
 }
+
 
 
 export const Foods_4290: Item = {
@@ -117,8 +127,10 @@ export const Foods_4290: Item = {
     id: 4290,
     name: "葡萄柚",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "森林",
 }
+
 
 
 export const Foods_4293: Item = {
@@ -127,8 +139,10 @@ export const Foods_4293: Item = {
     id: 4293,
     name: "桃子",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "森林",
 }
+
 
 
 export const Foods_4283: Item = {
@@ -137,8 +151,10 @@ export const Foods_4283: Item = {
     id: 4283,
     name: "香蕉",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "海边棕榈",
 }
+
 
 
 export const Foods_4287: Item = {
@@ -147,8 +163,10 @@ export const Foods_4287: Item = {
     id: 4287,
     name: "椰子",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "海边棕榈",
 }
+
 
 
 export const Foods_4286: Item = {
@@ -157,8 +175,10 @@ export const Foods_4286: Item = {
     id: 4286,
     name: "樱桃",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "针叶",
 }
+
 
 
 export const Foods_4295: Item = {
@@ -167,8 +187,10 @@ export const Foods_4295: Item = {
     id: 4295,
     name: "李子",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "针叶",
 }
+
 
 
 export const Foods_4292: Item = {
@@ -177,8 +199,10 @@ export const Foods_4292: Item = {
     id: 4292,
     name: "芒果",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "丛林",
 }
+
 
 
 export const Foods_4294: Item = {
@@ -187,8 +211,10 @@ export const Foods_4294: Item = {
     id: 4294,
     name: "菠萝",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "丛林",
 }
+
 
 
 export const Foods_5277: Item = {
@@ -197,8 +223,10 @@ export const Foods_5277: Item = {
     id: 5277,
     name: "辣椒",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "灰烬",
 }
+
 
 
 export const Foods_5278: Item = {
@@ -207,8 +235,10 @@ export const Foods_5278: Item = {
     id: 5278,
     name: "石榴",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "灰烬",
 }
+
 
 
 export const Foods_4284: Item = {
@@ -217,8 +247,10 @@ export const Foods_4284: Item = {
     id: 4284,
     name: "黑醋栗",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "乌木",
 }
+
 
 
 export const Foods_4289: Item = {
@@ -227,8 +259,10 @@ export const Foods_4289: Item = {
     id: 4289,
     name: "接骨木果",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "乌木",
 }
+
 
 
 export const Foods_4285: Item = {
@@ -237,8 +271,10 @@ export const Foods_4285: Item = {
     id: 4285,
     name: "血橙",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "暗影",
 }
+
 
 
 export const Foods_4296: Item = {
@@ -247,8 +283,10 @@ export const Foods_4296: Item = {
     id: 4296,
     name: "红毛丹",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "暗影",
 }
+
 
 
 export const Foods_4288: Item = {
@@ -257,8 +295,10 @@ export const Foods_4288: Item = {
     id: 4288,
     name: "火龙果",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "珍珠",
 }
+
 
 
 export const Foods_4297: Item = {
@@ -267,8 +307,10 @@ export const Foods_4297: Item = {
     id: 4297,
     name: "杨桃",
     Category: Foods,
-    comments: "",
+    SubCategory: TreeF,
+    comments: "珍珠",
 }
+
 
 
 export const Foods_5041: Item = {
@@ -277,8 +319,10 @@ export const Foods_5041: Item = {
     id: 5041,
     name: "盒装牛奶",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "骷髅",
 }
+
 
 
 export const Foods_4030: Item = {
@@ -287,8 +331,10 @@ export const Foods_4030: Item = {
     id: 4030,
     name: "薯片",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "蝾螈/巨型卷壳怪/龙虾",
 }
+
 
 
 export const Foods_4021: Item = {
@@ -297,8 +343,10 @@ export const Foods_4021: Item = {
     id: 4021,
     name: "炸薯条",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "飞鱼",
 }
+
 
 
 export const Foods_4012: Item = {
@@ -307,8 +355,10 @@ export const Foods_4012: Item = {
     id: 4012,
     name: "香蕉船",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "沙漠蚁狮",
 }
+
 
 
 export const Foods_5042: Item = {
@@ -317,8 +367,10 @@ export const Foods_5042: Item = {
     id: 5042,
     name: "咖啡",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "食人怪/抓人草/愤怒捕手/骷髅李",
 }
+
 
 
 export const Foods_4016: Item = {
@@ -327,8 +379,10 @@ export const Foods_4016: Item = {
     id: 4016,
     name: "鸡块",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "鸟妖",
 }
+
 
 
 export const Foods_4020: Item = {
@@ -337,8 +391,10 @@ export const Foods_4020: Item = {
     id: 4020,
     name: "煎蛋",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "爬墙蜘蛛/黑隐士/沙贼",
 }
+
 
 
 export const Foods_4026: Item = {
@@ -347,8 +403,10 @@ export const Foods_4026: Item = {
     id: 4026,
     name: "冰淇淋",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "冰雪史莱姆/尖刺冰雪史莱姆/冰雪蝙蝠",
 }
+
 
 
 export const Foods_4018: Item = {
@@ -357,8 +415,10 @@ export const Foods_4018: Item = {
     id: 4018,
     name: "奶油苏打水",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "诅咒骷髅头/巨型诅咒骷髅头",
 }
+
 
 
 export const Foods_4028: Item = {
@@ -367,8 +427,10 @@ export const Foods_4028: Item = {
     id: 4028,
     name: "玉米片",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "愤怒翻滚怪/沙鲨",
 }
+
 
 
 export const Foods_4023: Item = {
@@ -377,8 +439,10 @@ export const Foods_4023: Item = {
     id: 4023,
     name: "葡萄",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "跳跳兽/巨型飞狐",
 }
+
 
 
 export const Foods_4035: Item = {
@@ -387,8 +451,10 @@ export const Foods_4035: Item = {
     id: 4035,
     name: "鲜虾三明治",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "鲨鱼/螃蟹",
 }
+
 
 
 export const Foods_4017: Item = {
@@ -397,8 +463,10 @@ export const Foods_4017: Item = {
     id: 4017,
     name: "巧克力曲奇饼干",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "腹足怪",
 }
+
 
 
 export const Foods_4015: Item = {
@@ -407,8 +475,10 @@ export const Foods_4015: Item = {
     id: 4015,
     name: "汉堡",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "噬魂怪/猩红奇美拉",
 }
+
 
 
 export const Foods_4029: Item = {
@@ -417,8 +487,10 @@ export const Foods_4029: Item = {
     id: 4029,
     name: "披萨",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "装甲步兵/蛇发女妖",
 }
+
 
 
 export const Foods_4036: Item = {
@@ -427,8 +499,10 @@ export const Foods_4036: Item = {
     id: 4036,
     name: "意大利面",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "花岗岩精/花岗岩巨人",
 }
+
 
 
 export const Foods_4025: Item = {
@@ -437,8 +511,10 @@ export const Foods_4025: Item = {
     id: 4025,
     name: "热狗",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "骨蛇/红恶魔",
 }
+
 
 
 export const Foods_4011: Item = {
@@ -447,8 +523,10 @@ export const Foods_4011: Item = {
     id: 4011,
     name: "苹果派",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "地下神圣怪",
 }
+
 
 
 export const Foods_4027: Item = {
@@ -457,8 +535,10 @@ export const Foods_4027: Item = {
     id: 4027,
     name: "奶昔",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "冰雪人鱼/冰雪陆龟",
 }
+
 
 
 export const Foods_4037: Item = {
@@ -467,8 +547,10 @@ export const Foods_4037: Item = {
     id: 4037,
     name: "牛排",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "不死矿工/攀爬魔",
 }
+
 
 
 export const Foods_3532: Item = {
@@ -477,8 +559,10 @@ export const Foods_3532: Item = {
     id: 3532,
     name: "培根",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "猪笼彩罐/猪龙",
 }
+
 
 
 export const Foods_4013: Item = {
@@ -487,8 +571,10 @@ export const Foods_4013: Item = {
     id: 4013,
     name: "烧烤肋排",
     Category: Foods,
-    comments: "",
+    SubCategory: MonsterF,
+    comments: "花后地牢怪",
 }
+
 
 
 export const Foods_357: Item = {
@@ -497,8 +583,10 @@ export const Foods_357: Item = {
     id: 357,
     name: "鱼菇汤",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "蘑菇+金鱼",
 }
+
 
 
 export const Foods_969: Item = {
@@ -507,8 +595,10 @@ export const Foods_969: Item = {
     id: 969,
     name: "熟棉花糖",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "棒棒棉花糖",
 }
+
 
 
 export const Foods_1787: Item = {
@@ -517,8 +607,10 @@ export const Foods_1787: Item = {
     id: 1787,
     name: "南瓜派",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "南瓜",
 }
+
 
 
 export const Foods_4014: Item = {
@@ -527,8 +619,10 @@ export const Foods_4014: Item = {
     id: 4014,
     name: "炖兔兔",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "兔兔",
 }
+
 
 
 export const Foods_4022: Item = {
@@ -537,8 +631,10 @@ export const Foods_4022: Item = {
     id: 4022,
     name: "金美味",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "任意金动物",
 }
+
 
 
 export const Foods_2425: Item = {
@@ -547,8 +643,10 @@ export const Foods_2425: Item = {
     id: 2425,
     name: "熟鱼",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "鲈鱼/鳟鱼/大西洋鳕鱼",
 }
+
 
 
 export const Foods_2426: Item = {
@@ -557,8 +655,10 @@ export const Foods_2426: Item = {
     id: 2426,
     name: "熟虾",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "虾",
 }
+
 
 
 export const Foods_2427: Item = {
@@ -567,8 +667,10 @@ export const Foods_2427: Item = {
     id: 2427,
     name: "生鱼片",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "偏口鱼/红鲷鱼",
 }
+
 
 
 export const Foods_3195: Item = {
@@ -577,8 +679,10 @@ export const Foods_3195: Item = {
     id: 3195,
     name: "蛆虫汤",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "蛆虫+鼻涕虫+蚜虫",
 }
+
 
 
 export const Foods_4019: Item = {
@@ -587,8 +691,10 @@ export const Foods_4019: Item = {
     id: 4019,
     name: "食用蜗牛",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "蜗牛",
 }
+
 
 
 export const Foods_4024: Item = {
@@ -597,8 +703,10 @@ export const Foods_4024: Item = {
     id: 4024,
     name: "烤松鼠",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "松鼠",
 }
+
 
 
 export const Foods_4031: Item = {
@@ -607,8 +715,10 @@ export const Foods_4031: Item = {
     id: 4031,
     name: "烤鸟",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "鸟/企鹅/海鸥",
 }
+
 
 
 export const Foods_4032: Item = {
@@ -617,8 +727,10 @@ export const Foods_4032: Item = {
     id: 4032,
     name: "烤鸭",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "鸭/鸊鷉",
 }
+
 
 
 export const Foods_4033: Item = {
@@ -627,8 +739,10 @@ export const Foods_4033: Item = {
     id: 4033,
     name: "炒蛙腿",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "青蛙",
 }
+
 
 
 export const Foods_4034: Item = {
@@ -637,8 +751,10 @@ export const Foods_4034: Item = {
     id: 4034,
     name: "海鲜大餐",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "药水鱼",
 }
+
 
 
 export const Foods_4403: Item = {
@@ -647,8 +763,10 @@ export const Foods_4403: Item = {
     id: 4403,
     name: "龙虾尾",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "岩石龙虾",
 }
+
 
 
 export const Foods_4614: Item = {
@@ -657,8 +775,10 @@ export const Foods_4614: Item = {
     id: 4614,
     name: "苹果汁",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "苹果+玻璃瓶",
 }
+
 
 
 export const Foods_4615: Item = {
@@ -667,8 +787,10 @@ export const Foods_4615: Item = {
     id: 4615,
     name: "葡萄汁",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "葡萄+玻璃瓶",
 }
+
 
 
 export const Foods_4616: Item = {
@@ -677,8 +799,10 @@ export const Foods_4616: Item = {
     id: 4616,
     name: "柠檬水",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "柠檬+玻璃瓶",
 }
+
 
 
 export const Foods_4617: Item = {
@@ -687,8 +811,10 @@ export const Foods_4617: Item = {
     id: 4617,
     name: "冰冻香蕉代基里",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "香蕉+玻璃瓶+雪块",
 }
+
 
 
 export const Foods_4618: Item = {
@@ -697,8 +823,10 @@ export const Foods_4618: Item = {
     id: 4618,
     name: "桃子果酒",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "桃子+玻璃瓶",
 }
+
 
 
 export const Foods_4619: Item = {
@@ -707,8 +835,10 @@ export const Foods_4619: Item = {
     id: 4619,
     name: "椰林飘香",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "菠萝+椰子+玻璃瓶",
 }
+
 
 
 export const Foods_4620: Item = {
@@ -717,8 +847,10 @@ export const Foods_4620: Item = {
     id: 4620,
     name: "热带奶昔",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "芒果+菠萝+玻璃瓶",
 }
+
 
 
 export const Foods_4621: Item = {
@@ -727,8 +859,10 @@ export const Foods_4621: Item = {
     id: 4621,
     name: "血腥麝香葡萄",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "血橙+红毛丹+玻璃瓶",
 }
+
 
 
 export const Foods_4622: Item = {
@@ -737,8 +871,10 @@ export const Foods_4622: Item = {
     id: 4622,
     name: "暗黑奶昔",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "黑醋栗+接骨木果+玻璃瓶",
 }
+
 
 
 export const Foods_4623: Item = {
@@ -747,8 +883,10 @@ export const Foods_4623: Item = {
     id: 4623,
     name: "七彩潘趣酒",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "杨桃+火龙果+玻璃瓶",
 }
+
 
 
 export const Foods_4624: Item = {
@@ -757,8 +895,10 @@ export const Foods_4624: Item = {
     id: 4624,
     name: "果汁",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "任意水果+玻璃瓶",
 }
+
 
 
 export const Foods_4625: Item = {
@@ -767,8 +907,10 @@ export const Foods_4625: Item = {
     id: 4625,
     name: "水果沙拉",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "任意水果+碗",
 }
+
 
 
 export const Foods_5009: Item = {
@@ -777,8 +919,10 @@ export const Foods_5009: Item = {
     id: 5009,
     name: "一杯茶",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "水瓶",
 }
+
 
 
 export const Foods_5092: Item = {
@@ -787,8 +931,10 @@ export const Foods_5092: Item = {
     id: 5092,
     name: "怪物千层面",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "腐肉/脊椎骨",
 }
+
 
 
 export const Foods_5093: Item = {
@@ -797,8 +943,10 @@ export const Foods_5093: Item = {
     id: 5093,
     name: "蛙腿三明治",
     Category: Foods,
-    comments: "",
+    SubCategory: MakeF,
+    comments: "青蛙",
 }
+
 
 
 export const Foods_967: Item = {
@@ -807,8 +955,10 @@ export const Foods_967: Item = {
     id: 967,
     name: "棉花糖",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "雪原 商人",
 }
+
 
 
 export const Foods_2267: Item = {
@@ -817,8 +967,10 @@ export const Foods_2267: Item = {
     id: 2267,
     name: "泰式炒面",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "旅商",
 }
+
 
 
 export const Foods_2268: Item = {
@@ -827,8 +979,10 @@ export const Foods_2268: Item = {
     id: 2268,
     name: "越南河粉",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "旅商",
 }
+
 
 
 export const Foods_1911: Item = {
@@ -837,8 +991,10 @@ export const Foods_1911: Item = {
     id: 1911,
     name: "圣诞布丁",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "礼物",
 }
+
 
 
 export const Foods_1919: Item = {
@@ -847,8 +1003,10 @@ export const Foods_1919: Item = {
     id: 1919,
     name: "蜜糖饼干",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "礼物",
 }
+
 
 
 export const Foods_1920: Item = {
@@ -857,8 +1015,10 @@ export const Foods_1920: Item = {
     id: 1920,
     name: "姜饼",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "礼物",
 }
+
 
 
 export const Foods_4411: Item = {
@@ -867,8 +1027,10 @@ export const Foods_4411: Item = {
     id: 4411,
     name: "去壳牡蛎",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "牡蛎",
 }
+
 
 
 export const Foods_5275: Item = {
@@ -877,7 +1039,8 @@ export const Foods_5275: Item = {
     id: 5275,
     name: "Joja可乐",
     Category: Foods,
-    comments: "",
+    SubCategory: OtherF,
+    comments: "钓鱼垃圾",
 }
 
 

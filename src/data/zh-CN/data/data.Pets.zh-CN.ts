@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Pets } from "../data.Category.zh-CN.ts"
 
+import { CommonPet, LightPet } from "../data.SubCategory.zh-CN.ts"
+
 import Pets_4366Img from "../../../assets/icon/Item_4366.png"
 import Pets_5332Img from "../../../assets/icon/Item_5332.png"
 import Pets_4425Img from "../../../assets/icon/Item_4425.png"
@@ -79,14 +81,18 @@ import Pets_4811Img from "../../../assets/icon/Item_4811.png"
 import Pets_4812Img from "../../../assets/icon/Item_4812.png"
 import Pets_4807Img from "../../../assets/icon/Item_4807.png"
 import Pets_3577Img from "../../../assets/icon/Item_3577.png"
+
+
 export const Pets_4366: Item = {
     icon: Pets_4366Img,
     isCollection: false,
     id: 4366,
     name: "桉树汁",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "摇树",
 }
+
 
 
 export const Pets_5332: Item = {
@@ -95,8 +101,10 @@ export const Pets_5332: Item = {
     id: 5332,
     name: "毛绒Spiffo",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "僵尸",
 }
+
 
 
 export const Pets_4425: Item = {
@@ -105,8 +113,10 @@ export const Pets_4425: Item = {
     id: 4425,
     name: "鲨鱼鱼饵",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "水中箱子",
 }
+
 
 
 export const Pets_669: Item = {
@@ -115,8 +125,10 @@ export const Pets_669: Item = {
     id: 669,
     name: "鱼",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "冰冻箱",
 }
+
 
 
 export const Pets_753: Item = {
@@ -125,8 +137,10 @@ export const Pets_753: Item = {
     id: 753,
     name: "海草",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "常春藤箱",
 }
+
 
 
 export const Pets_1242: Item = {
@@ -135,8 +149,10 @@ export const Pets_1242: Item = {
     id: 1242,
     name: "蚊子琥珀",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "化石",
 }
+
 
 
 export const Pets_5333: Item = {
@@ -145,8 +161,10 @@ export const Pets_5333: Item = {
     id: 5333,
     name: "发光郁金香",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "海边地下",
 }
+
 
 
 export const Pets_1799: Item = {
@@ -155,8 +173,10 @@ export const Pets_1799: Item = {
     id: 1799,
     name: "魔法南瓜子",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "南瓜",
 }
+
 
 
 export const Pets_5276: Item = {
@@ -165,8 +185,10 @@ export const Pets_5276: Item = {
     id: 5276,
     name: "星之果实",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "joja可乐 树妖",
 }
+
 
 
 export const Pets_2420: Item = {
@@ -175,8 +197,10 @@ export const Pets_2420: Item = {
     id: 2420,
     name: "和风鱼",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "钓鱼",
 }
+
 
 
 export const Pets_2587: Item = {
@@ -185,8 +209,10 @@ export const Pets_2587: Item = {
     id: 2587,
     name: "塔塔酱",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "铁匣/秘银匣",
 }
+
 
 
 export const Pets_1171: Item = {
@@ -195,8 +221,10 @@ export const Pets_1171: Item = {
     id: 1171,
     name: "提基图腾",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "巫医",
 }
+
 
 
 export const Pets_4735: Item = {
@@ -205,8 +233,10 @@ export const Pets_4735: Item = {
     id: 4735,
     name: "保险丝球",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "动物学家",
 }
+
 
 
 export const Pets_4777: Item = {
@@ -215,8 +245,10 @@ export const Pets_4777: Item = {
     id: 4777,
     name: "闪电胡萝卜",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "动物学家",
 }
+
 
 
 export const Pets_5400: Item = {
@@ -225,8 +257,10 @@ export const Pets_5400: Item = {
     id: 5400,
     name: "最土的块",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "挖图",
 }
+
 
 
 export const Pets_4797: Item = {
@@ -235,8 +269,10 @@ export const Pets_4797: Item = {
     id: 4797,
     name: "皇家美味",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "史莱姆王",
 }
+
 
 
 export const Pets_4798: Item = {
@@ -245,8 +281,10 @@ export const Pets_4798: Item = {
     id: 4798,
     name: "可疑咧嘴眼球",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "克眼",
 }
+
 
 
 export const Pets_5091: Item = {
@@ -255,8 +293,10 @@ export const Pets_5091: Item = {
     id: 5091,
     name: "怪物肉",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "邪恶怪",
 }
+
 
 
 export const Pets_994: Item = {
@@ -265,8 +305,10 @@ export const Pets_994: Item = {
     id: 994,
     name: "吞噬怪骨头",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "世吞",
 }
+
 
 
 export const Pets_4799: Item = {
@@ -275,8 +317,10 @@ export const Pets_4799: Item = {
     id: 4799,
     name: "蠕动残骸",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "世吞",
 }
+
 
 
 export const Pets_3060: Item = {
@@ -285,8 +329,10 @@ export const Pets_3060: Item = {
     id: 3060,
     name: "骨头拨浪鼓",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "克脑",
 }
+
 
 
 export const Pets_4800: Item = {
@@ -295,8 +341,10 @@ export const Pets_4800: Item = {
     id: 4800,
     name: "罐中脑",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "克脑",
 }
+
 
 
 export const Pets_3855: Item = {
@@ -305,8 +353,10 @@ export const Pets_3855: Item = {
     id: 3855,
     name: "Gato蛋",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "黑暗魔法师",
 }
+
 
 
 export const Pets_3857: Item = {
@@ -315,8 +365,10 @@ export const Pets_3857: Item = {
     id: 3857,
     name: "龙蛋",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "黑暗魔法师",
 }
+
 
 
 export const Pets_1170: Item = {
@@ -325,8 +377,10 @@ export const Pets_1170: Item = {
     id: 1170,
     name: "花蜜",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "蜂后",
 }
+
 
 
 export const Pets_4802: Item = {
@@ -335,8 +389,10 @@ export const Pets_4802: Item = {
     id: 4802,
     name: "闪耀蜂蜜",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "蜂后",
 }
+
 
 
 export const Pets_1169: Item = {
@@ -345,8 +401,10 @@ export const Pets_1169: Item = {
     id: 1169,
     name: "骨头钥匙",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "地牢守卫",
 }
+
 
 
 export const Pets_4801: Item = {
@@ -355,8 +413,10 @@ export const Pets_4801: Item = {
     id: 4801,
     name: "疯狂骷髅头",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "骷髅王",
 }
+
 
 
 export const Pets_4551: Item = {
@@ -365,8 +425,10 @@ export const Pets_4551: Item = {
     id: 4551,
     name: "地狱蛋糕块",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "暗影箱",
 }
+
 
 
 export const Pets_4737: Item = {
@@ -375,8 +437,10 @@ export const Pets_4737: Item = {
     id: 4737,
     name: "华丽暗影钥匙",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "暗影箱",
 }
+
 
 
 export const Pets_5098: Item = {
@@ -385,8 +449,10 @@ export const Pets_5098: Item = {
     id: 5098,
     name: "眼骨",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "鹿角怪",
 }
+
 
 
 export const Pets_5090: Item = {
@@ -395,8 +461,10 @@ export const Pets_5090: Item = {
     id: 5090,
     name: "独眼巨鹿眼球",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "鹿角怪",
 }
+
 
 
 export const Pets_5089: Item = {
@@ -405,8 +473,10 @@ export const Pets_5089: Item = {
     id: 5089,
     name: "咕噜咪的花",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "肉后 跳跳兽",
 }
+
 
 
 export const Pets_1312: Item = {
@@ -415,8 +485,10 @@ export const Pets_1312: Item = {
     id: 1312,
     name: "玩具雪橇",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "冰箱宝箱怪",
 }
+
 
 
 export const Pets_1180: Item = {
@@ -425,8 +497,10 @@ export const Pets_1180: Item = {
     id: 1180,
     name: "鹦鹉饼干",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "海盗",
 }
+
 
 
 export const Pets_1181: Item = {
@@ -435,8 +509,10 @@ export const Pets_1181: Item = {
     id: 1181,
     name: "奇异发光蘑菇",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "松露人",
 }
+
 
 
 export const Pets_4736: Item = {
@@ -445,8 +521,10 @@ export const Pets_4736: Item = {
     id: 4736,
     name: "满月尖叫玩具",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "肉后 血月 动物学家",
 }
+
 
 
 export const Pets_4960: Item = {
@@ -455,8 +533,10 @@ export const Pets_4960: Item = {
     id: 4960,
     name: "王室美食",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "史莱姆皇后",
 }
+
 
 
 export const Pets_5131: Item = {
@@ -465,8 +545,10 @@ export const Pets_5131: Item = {
     id: 5131,
     name: "华美甜点",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "皇家美味+王室美食",
 }
+
 
 
 export const Pets_4803: Item = {
@@ -475,8 +557,10 @@ export const Pets_4803: Item = {
     id: 4803,
     name: "失效探测器",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "机械毁灭者",
 }
+
 
 
 export const Pets_4804: Item = {
@@ -485,8 +569,10 @@ export const Pets_4804: Item = {
     id: 4804,
     name: "微型双子魔眼",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "双子",
 }
+
 
 
 export const Pets_4805: Item = {
@@ -495,8 +581,10 @@ export const Pets_4805: Item = {
     id: 4805,
     name: "机器人骷髅头",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "机械骷髅王",
 }
+
 
 
 export const Pets_1182: Item = {
@@ -505,8 +593,10 @@ export const Pets_1182: Item = {
     id: 1182,
     name: "幼苗",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "世花",
 }
+
 
 
 export const Pets_4806: Item = {
@@ -515,8 +605,10 @@ export const Pets_4806: Item = {
     id: 4806,
     name: "世纪之花幼苗",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "世花",
 }
+
 
 
 export const Pets_4701: Item = {
@@ -525,8 +617,10 @@ export const Pets_4701: Item = {
     id: 4701,
     name: "泥芽",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "花后 动物学家",
 }
+
 
 
 export const Pets_5088: Item = {
@@ -535,8 +629,10 @@ export const Pets_5088: Item = {
     id: 5088,
     name: "伯尼的钮扣",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "公主",
 }
+
 
 
 export const Pets_1311: Item = {
@@ -545,8 +641,10 @@ export const Pets_1311: Item = {
     id: 1311,
     name: "弹簧眼",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "日食 眼怪",
 }
+
 
 
 export const Pets_1172: Item = {
@@ -555,8 +653,10 @@ export const Pets_1172: Item = {
     id: 1172,
     name: "蜥蜴蛋",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "蜥蜴怪",
 }
+
 
 
 export const Pets_1798: Item = {
@@ -565,8 +665,10 @@ export const Pets_1798: Item = {
     id: 1798,
     name: "蜘蛛卵",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "南瓜王",
 }
+
 
 
 export const Pets_1837: Item = {
@@ -575,8 +677,10 @@ export const Pets_1837: Item = {
     id: 1837,
     name: "诅咒树苗",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "哀木",
 }
+
 
 
 export const Pets_1810: Item = {
@@ -585,8 +689,10 @@ export const Pets_1810: Item = {
     id: 1810,
     name: "霉运纱线",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "礼袋",
 }
+
 
 
 export const Pets_4813: Item = {
@@ -595,8 +701,10 @@ export const Pets_4813: Item = {
     id: 4813,
     name: "灌木星星",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "常绿尖叫怪",
 }
+
 
 
 export const Pets_1959: Item = {
@@ -605,8 +713,10 @@ export const Pets_1959: Item = {
     id: 1959,
     name: "格林奇宝宝的恶作剧口哨",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "冰雪女王",
 }
+
 
 
 export const Pets_4814: Item = {
@@ -615,8 +725,10 @@ export const Pets_4814: Item = {
     id: 4814,
     name: "冰冻王冠",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "冰雪女王",
 }
+
 
 
 export const Pets_1927: Item = {
@@ -625,8 +737,10 @@ export const Pets_1927: Item = {
     id: 1927,
     name: "狗哨",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "礼物",
 }
+
 
 
 export const Pets_4808: Item = {
@@ -635,8 +749,10 @@ export const Pets_4808: Item = {
     id: 4808,
     name: "海猪肉",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "猪鲨",
 }
+
 
 
 export const Pets_4815: Item = {
@@ -645,8 +761,10 @@ export const Pets_4815: Item = {
     id: 4815,
     name: "宇宙滑板",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "火星飞碟",
 }
+
 
 
 export const Pets_4816: Item = {
@@ -655,8 +773,10 @@ export const Pets_4816: Item = {
     id: 4816,
     name: "食人魔棍棒",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "食人魔",
 }
+
 
 
 export const Pets_4817: Item = {
@@ -665,8 +785,10 @@ export const Pets_4817: Item = {
     id: 4817,
     name: "双足翼龙蛋",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "双足翼龙",
 }
+
 
 
 export const Pets_4809: Item = {
@@ -675,8 +797,10 @@ export const Pets_4809: Item = {
     id: 4809,
     name: "碑牌碎片",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "教徒",
 }
+
 
 
 export const Pets_4810: Item = {
@@ -685,8 +809,10 @@ export const Pets_4810: Item = {
     id: 4810,
     name: "月亮乌贼",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "月总",
 }
+
 
 
 export const Pets_3628: Item = {
@@ -695,8 +821,10 @@ export const Pets_3628: Item = {
     id: 3628,
     name: "同伴方块",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_4365: Item = {
@@ -705,8 +833,10 @@ export const Pets_4365: Item = {
     id: 4365,
     name: "天界魔棒",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_4550: Item = {
@@ -715,8 +845,10 @@ export const Pets_4550: Item = {
     id: 4550,
     name: "竹叶",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_4603: Item = {
@@ -725,8 +857,10 @@ export const Pets_4603: Item = {
     id: 4603,
     name: "小鸟拨浪鼓",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_4604: Item = {
@@ -735,8 +869,10 @@ export const Pets_4604: Item = {
     id: 4604,
     name: "奇异咀嚼玩具",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_4605: Item = {
@@ -745,8 +881,10 @@ export const Pets_4605: Item = {
     id: 4605,
     name: "眩晕花蜜",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_5297: Item = {
@@ -755,8 +893,10 @@ export const Pets_5297: Item = {
     id: 5297,
     name: "蓝鸡蛋",
     Category: Pets,
-    comments: "",
+    SubCategory: CommonPet,
+    comments: "旅商",
 }
+
 
 
 export const Pets_115: Item = {
@@ -765,8 +905,10 @@ export const Pets_115: Item = {
     id: 115,
     name: "暗影珠",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_3062: Item = {
@@ -775,8 +917,10 @@ export const Pets_3062: Item = {
     id: 3062,
     name: "猩红之心",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_3043: Item = {
@@ -785,8 +929,10 @@ export const Pets_3043: Item = {
     id: 3043,
     name: "魔法灯笼",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_425: Item = {
@@ -795,8 +941,10 @@ export const Pets_425: Item = {
     id: 425,
     name: "仙灵铃铛",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_3856: Item = {
@@ -805,8 +953,10 @@ export const Pets_3856: Item = {
     id: 3856,
     name: "飞眼怪蛋",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_1183: Item = {
@@ -815,8 +965,10 @@ export const Pets_1183: Item = {
     id: 1183,
     name: "妖灵瓶",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_4811: Item = {
@@ -825,8 +977,10 @@ export const Pets_4811: Item = {
     id: 4811,
     name: "光之珠宝",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_4812: Item = {
@@ -835,8 +989,10 @@ export const Pets_4812: Item = {
     id: 4812,
     name: "南瓜香薰蜡烛",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_4807: Item = {
@@ -845,8 +1001,10 @@ export const Pets_4807: Item = {
     id: 4807,
     name: "石巨人守卫",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
+
 
 
 export const Pets_3577: Item = {
@@ -855,6 +1013,7 @@ export const Pets_3577: Item = {
     id: 3577,
     name: "可疑触手",
     Category: Pets,
+    SubCategory: LightPet,
     comments: "",
 }
 

@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { FishingItem } from "../data.Category.zh-CN.ts"
 
+import { Bait, CommonFish, CrateF, DecorationF, FishingPole, MaterialFish, MissionF, PaintF, Rubbish } from "../data.SubCategory.zh-CN.ts"
+
 import FishingItem_2290Img from "../../../assets/icon/Item_2290.png"
 import FishingItem_2297Img from "../../../assets/icon/Item_2297.png"
 import FishingItem_2298Img from "../../../assets/icon/Item_2298.png"
@@ -134,14 +136,18 @@ import FishingItem_4405Img from "../../../assets/icon/Item_4405.png"
 import FishingItem_4408Img from "../../../assets/icon/Item_4408.png"
 import FishingItem_4878Img from "../../../assets/icon/Item_4878.png"
 import FishingItem_5003Img from "../../../assets/icon/Item_5003.png"
+
+
 export const FishingItem_2290: Item = {
     icon: FishingItem_2290Img,
     isCollection: false,
     id: 2290,
     name: "鲈鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2297: Item = {
@@ -150,8 +156,10 @@ export const FishingItem_2297: Item = {
     id: 2297,
     name: "鳟鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2298: Item = {
@@ -160,8 +168,10 @@ export const FishingItem_2298: Item = {
     id: 2298,
     name: "三文鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2299: Item = {
@@ -170,8 +180,10 @@ export const FishingItem_2299: Item = {
     id: 2299,
     name: "大西洋鳕鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2300: Item = {
@@ -180,8 +192,10 @@ export const FishingItem_2300: Item = {
     id: 2300,
     name: "金枪鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2301: Item = {
@@ -190,8 +204,10 @@ export const FishingItem_2301: Item = {
     id: 2301,
     name: "红鲷鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2316: Item = {
@@ -200,8 +216,10 @@ export const FishingItem_2316: Item = {
     id: 2316,
     name: "虾",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_4401: Item = {
@@ -210,8 +228,10 @@ export const FishingItem_4401: Item = {
     id: 4401,
     name: "偏口鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_4402: Item = {
@@ -220,8 +240,10 @@ export const FishingItem_4402: Item = {
     id: 4402,
     name: "岩石龙虾",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2302: Item = {
@@ -230,8 +252,10 @@ export const FishingItem_2302: Item = {
     id: 2302,
     name: "霓虹脂鲤",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2314: Item = {
@@ -240,8 +264,10 @@ export const FishingItem_2314: Item = {
     id: 2314,
     name: "蜂蜜鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_4410: Item = {
@@ -250,8 +276,10 @@ export const FishingItem_4410: Item = {
     id: 4410,
     name: "牡蛎",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_3196: Item = {
@@ -260,8 +288,10 @@ export const FishingItem_3196: Item = {
     id: 3196,
     name: "炸弹鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2308: Item = {
@@ -270,8 +300,10 @@ export const FishingItem_2308: Item = {
     id: 2308,
     name: "金鲤鱼",
     Category: FishingItem,
+    SubCategory: CommonFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2304: Item = {
@@ -280,8 +312,10 @@ export const FishingItem_2304: Item = {
     id: 2304,
     name: "雀鲷",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2303: Item = {
@@ -290,8 +324,10 @@ export const FishingItem_2303: Item = {
     id: 2303,
     name: "装甲洞穴鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2321: Item = {
@@ -300,8 +336,10 @@ export const FishingItem_2321: Item = {
     id: 2321,
     name: "臭味鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2318: Item = {
@@ -310,8 +348,10 @@ export const FishingItem_2318: Item = {
     id: 2318,
     name: "黑檀锦鲤",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2319: Item = {
@@ -320,8 +360,10 @@ export const FishingItem_2319: Item = {
     id: 2319,
     name: "血腥食人鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2305: Item = {
@@ -330,8 +372,10 @@ export const FishingItem_2305: Item = {
     id: 2305,
     name: "猩红虎鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2306: Item = {
@@ -340,8 +384,10 @@ export const FishingItem_2306: Item = {
     id: 2306,
     name: "寒霜鲦鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2309: Item = {
@@ -350,8 +396,10 @@ export const FishingItem_2309: Item = {
     id: 2309,
     name: "镜面鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2313: Item = {
@@ -360,8 +408,10 @@ export const FishingItem_2313: Item = {
     id: 2313,
     name: "双鳍鳕鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2311: Item = {
@@ -370,8 +420,10 @@ export const FishingItem_2311: Item = {
     id: 2311,
     name: "斑驳油鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2315: Item = {
@@ -380,8 +432,10 @@ export const FishingItem_2315: Item = {
     id: 2315,
     name: "黑曜石鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2312: Item = {
@@ -390,8 +444,10 @@ export const FishingItem_2312: Item = {
     id: 2312,
     name: "闪鳍锦鲤",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2317: Item = {
@@ -400,8 +456,10 @@ export const FishingItem_2317: Item = {
     id: 2317,
     name: "混沌鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2307: Item = {
@@ -410,8 +468,10 @@ export const FishingItem_2307: Item = {
     id: 2307,
     name: "公主鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2310: Item = {
@@ -420,8 +480,10 @@ export const FishingItem_2310: Item = {
     id: 2310,
     name: "七彩矿鱼",
     Category: FishingItem,
+    SubCategory: MaterialFish,
     comments: "",
 }
+
 
 
 export const FishingItem_2289: Item = {
@@ -430,8 +492,10 @@ export const FishingItem_2289: Item = {
     id: 2289,
     name: "木钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2291: Item = {
@@ -440,8 +504,10 @@ export const FishingItem_2291: Item = {
     id: 2291,
     name: "强化钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2293: Item = {
@@ -450,8 +516,10 @@ export const FishingItem_2293: Item = {
     id: 2293,
     name: "灵魂钓手",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2421: Item = {
@@ -460,8 +528,10 @@ export const FishingItem_2421: Item = {
     id: 2421,
     name: "捕肉手",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_4325: Item = {
@@ -470,8 +540,10 @@ export const FishingItem_4325: Item = {
     id: 4325,
     name: "鱼饵投掷者",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2292: Item = {
@@ -480,8 +552,10 @@ export const FishingItem_2292: Item = {
     id: 2292,
     name: "玻璃钢钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_4442: Item = {
@@ -490,8 +564,10 @@ export const FishingItem_4442: Item = {
     id: 4442,
     name: "甲虫钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2295: Item = {
@@ -500,8 +576,10 @@ export const FishingItem_2295: Item = {
     id: 2295,
     name: "机械师钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2296: Item = {
@@ -510,8 +588,10 @@ export const FishingItem_2296: Item = {
     id: 2296,
     name: "冤大头钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2422: Item = {
@@ -520,8 +600,10 @@ export const FishingItem_2422: Item = {
     id: 2422,
     name: "熔线钓钩",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2294: Item = {
@@ -530,8 +612,10 @@ export const FishingItem_2294: Item = {
     id: 2294,
     name: "金钓竿",
     Category: FishingItem,
+    SubCategory: FishingPole,
     comments: "",
 }
+
 
 
 export const FishingItem_2674: Item = {
@@ -540,8 +624,10 @@ export const FishingItem_2674: Item = {
     id: 2674,
     name: "学徒诱饵",
     Category: FishingItem,
+    SubCategory: Bait,
     comments: "",
 }
+
 
 
 export const FishingItem_2675: Item = {
@@ -550,8 +636,10 @@ export const FishingItem_2675: Item = {
     id: 2675,
     name: "熟手诱饵",
     Category: FishingItem,
+    SubCategory: Bait,
     comments: "",
 }
+
 
 
 export const FishingItem_2676: Item = {
@@ -560,8 +648,10 @@ export const FishingItem_2676: Item = {
     id: 2676,
     name: "大师诱饵",
     Category: FishingItem,
+    SubCategory: Bait,
     comments: "",
 }
+
 
 
 export const FishingItem_4608: Item = {
@@ -570,8 +660,10 @@ export const FishingItem_4608: Item = {
     id: 4608,
     name: "鱼饵桶",
     Category: FishingItem,
+    SubCategory: Bait,
     comments: "",
 }
+
 
 
 export const FishingItem_2337: Item = {
@@ -580,8 +672,10 @@ export const FishingItem_2337: Item = {
     id: 2337,
     name: "旧鞋",
     Category: FishingItem,
+    SubCategory: Rubbish,
     comments: "",
 }
+
 
 
 export const FishingItem_2338: Item = {
@@ -590,8 +684,10 @@ export const FishingItem_2338: Item = {
     id: 2338,
     name: "海草",
     Category: FishingItem,
+    SubCategory: Rubbish,
     comments: "",
 }
+
 
 
 export const FishingItem_2339: Item = {
@@ -600,8 +696,10 @@ export const FishingItem_2339: Item = {
     id: 2339,
     name: "锡罐",
     Category: FishingItem,
+    SubCategory: Rubbish,
     comments: "",
 }
+
 
 
 export const FishingItem_2442: Item = {
@@ -610,8 +708,10 @@ export const FishingItem_2442: Item = {
     id: 2442,
     name: "救生圈",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2443: Item = {
@@ -620,8 +720,10 @@ export const FishingItem_2443: Item = {
     id: 2443,
     name: "舵轮",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2444: Item = {
@@ -630,8 +732,10 @@ export const FishingItem_2444: Item = {
     id: 2444,
     name: "罗盘针",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2445: Item = {
@@ -640,8 +744,10 @@ export const FishingItem_2445: Item = {
     id: 2445,
     name: "墙锚",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2446: Item = {
@@ -650,8 +756,10 @@ export const FishingItem_2446: Item = {
     id: 2446,
     name: "金鱼纪念章",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2447: Item = {
@@ -660,8 +768,10 @@ export const FishingItem_2447: Item = {
     id: 2447,
     name: "兔兔鱼纪念章",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2448: Item = {
@@ -670,8 +780,10 @@ export const FishingItem_2448: Item = {
     id: 2448,
     name: "剑鱼纪念章",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2449: Item = {
@@ -680,8 +792,10 @@ export const FishingItem_2449: Item = {
     id: 2449,
     name: "鲨牙纪念章",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2490: Item = {
@@ -690,8 +804,10 @@ export const FishingItem_2490: Item = {
     id: 2490,
     name: "船舶瓶",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2495: Item = {
@@ -700,8 +816,10 @@ export const FishingItem_2495: Item = {
     id: 2495,
     name: "宝藏地图",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2496: Item = {
@@ -710,8 +828,10 @@ export const FishingItem_2496: Item = {
     id: 2496,
     name: "海草花盆",
     Category: FishingItem,
+    SubCategory: DecorationF,
     comments: "",
 }
+
 
 
 export const FishingItem_2497: Item = {
@@ -720,8 +840,10 @@ export const FishingItem_2497: Item = {
     id: 2497,
     name: "海贼像素画",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5235: Item = {
@@ -730,8 +852,10 @@ export const FishingItem_5235: Item = {
     id: 5235,
     name: "并未如此迷失在乐园",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5252: Item = {
@@ -740,8 +864,10 @@ export const FishingItem_5252: Item = {
     id: 5252,
     name: "甲壳摄影",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5256: Item = {
@@ -750,8 +876,10 @@ export const FishingItem_5256: Item = {
     id: 5256,
     name: "獠牙",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5259: Item = {
@@ -760,8 +888,10 @@ export const FishingItem_5259: Item = {
     id: 5259,
     name: "下面潜伏着什么",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5263: Item = {
@@ -770,8 +900,10 @@ export const FishingItem_5263: Item = {
     id: 5263,
     name: "沙发笑话",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5264: Item = {
@@ -780,8 +912,10 @@ export const FishingItem_5264: Item = {
     id: 5264,
     name: "沉默的鱼",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_5265: Item = {
@@ -790,8 +924,10 @@ export const FishingItem_5265: Item = {
     id: 5265,
     name: "公爵",
     Category: FishingItem,
+    SubCategory: PaintF,
     comments: "",
 }
+
 
 
 export const FishingItem_2476: Item = {
@@ -800,8 +936,10 @@ export const FishingItem_2476: Item = {
     id: 2476,
     name: "天使鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2453: Item = {
@@ -810,8 +948,10 @@ export const FishingItem_2453: Item = {
     id: 2453,
     name: "云鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2458: Item = {
@@ -820,8 +960,10 @@ export const FishingItem_2458: Item = {
     id: 2458,
     name: "坠落星鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2459: Item = {
@@ -830,8 +972,10 @@ export const FishingItem_2459: Item = {
     id: 2459,
     name: "克苏鲁鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2461: Item = {
@@ -840,8 +984,10 @@ export const FishingItem_2461: Item = {
     id: 2461,
     name: "鸟妖鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2455: Item = {
@@ -850,8 +996,10 @@ export const FishingItem_2455: Item = {
     id: 2455,
     name: "土鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2456: Item = {
@@ -860,8 +1008,10 @@ export const FishingItem_2456: Item = {
     id: 2456,
     name: "雷管鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2474: Item = {
@@ -870,8 +1020,10 @@ export const FishingItem_2474: Item = {
     id: 2474,
     name: "僵尸鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2479: Item = {
@@ -880,8 +1032,10 @@ export const FishingItem_2479: Item = {
     id: 2479,
     name: "兔兔鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2487: Item = {
@@ -890,8 +1044,10 @@ export const FishingItem_2487: Item = {
     id: 2487,
     name: "史莱姆鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2450: Item = {
@@ -900,8 +1056,10 @@ export const FishingItem_2450: Item = {
     id: 2450,
     name: "蝙蝠鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2478: Item = {
@@ -910,8 +1068,10 @@ export const FishingItem_2478: Item = {
     id: 2478,
     name: "骷髅鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2464: Item = {
@@ -920,8 +1080,10 @@ export const FishingItem_2464: Item = {
     id: 2464,
     name: "珠宝鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2469: Item = {
@@ -930,8 +1092,10 @@ export const FishingItem_2469: Item = {
     id: 2469,
     name: "蜘蛛鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2482: Item = {
@@ -940,8 +1104,10 @@ export const FishingItem_2482: Item = {
     id: 2482,
     name: "恶魔地狱鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2472: Item = {
@@ -950,8 +1116,10 @@ export const FishingItem_2472: Item = {
     id: 2472,
     name: "向导巫毒鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2460: Item = {
@@ -960,8 +1128,10 @@ export const FishingItem_2460: Item = {
     id: 2460,
     name: "骷髅王鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2451: Item = {
@@ -970,8 +1140,10 @@ export const FishingItem_2451: Item = {
     id: 2451,
     name: "大黄蜂金枪鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2452: Item = {
@@ -980,8 +1152,10 @@ export const FishingItem_2452: Item = {
     id: 2452,
     name: "猫鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2486: Item = {
@@ -990,8 +1164,10 @@ export const FishingItem_2486: Item = {
     id: 2486,
     name: "泥鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2488: Item = {
@@ -1000,8 +1176,10 @@ export const FishingItem_2488: Item = {
     id: 2488,
     name: "热带梭鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2467: Item = {
@@ -1010,8 +1188,10 @@ export const FishingItem_2467: Item = {
     id: 2467,
     name: "企鹅鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2470: Item = {
@@ -1020,8 +1200,10 @@ export const FishingItem_2470: Item = {
     id: 2470,
     name: "苔原鳟鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2466: Item = {
@@ -1030,8 +1212,10 @@ export const FishingItem_2466: Item = {
     id: 2466,
     name: "突变雪怪鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_4393: Item = {
@@ -1040,8 +1224,10 @@ export const FishingItem_4393: Item = {
     id: 4393,
     name: "甲虫鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_4394: Item = {
@@ -1050,8 +1236,10 @@ export const FishingItem_4394: Item = {
     id: 4394,
     name: "蝎子鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2475: Item = {
@@ -1060,8 +1248,10 @@ export const FishingItem_2475: Item = {
     id: 2475,
     name: "毒菌鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2457: Item = {
@@ -1070,8 +1260,10 @@ export const FishingItem_2457: Item = {
     id: 2457,
     name: "浮游噬鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2485: Item = {
@@ -1080,8 +1272,10 @@ export const FishingItem_2485: Item = {
     id: 2485,
     name: "染病鞘鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2480: Item = {
@@ -1090,8 +1284,10 @@ export const FishingItem_2480: Item = {
     id: 2480,
     name: "金枪鱼须船长",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2481: Item = {
@@ -1100,8 +1296,10 @@ export const FishingItem_2481: Item = {
     id: 2481,
     name: "小丑鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2473: Item = {
@@ -1110,8 +1308,10 @@ export const FishingItem_2473: Item = {
     id: 2473,
     name: "飞龙尾",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2471: Item = {
@@ -1120,8 +1320,10 @@ export const FishingItem_2471: Item = {
     id: 2471,
     name: "独角兽鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2468: Item = {
@@ -1130,8 +1332,10 @@ export const FishingItem_2468: Item = {
     id: 2468,
     name: "妖精鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2483: Item = {
@@ -1140,8 +1344,10 @@ export const FishingItem_2483: Item = {
     id: 2483,
     name: "跳跳鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2484: Item = {
@@ -1150,8 +1356,10 @@ export const FishingItem_2484: Item = {
     id: 2484,
     name: "猪龙鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2454: Item = {
@@ -1160,8 +1368,10 @@ export const FishingItem_2454: Item = {
     id: 2454,
     name: "诅咒鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2462: Item = {
@@ -1170,8 +1380,10 @@ export const FishingItem_2462: Item = {
     id: 2462,
     name: "饿鬼鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2465: Item = {
@@ -1180,8 +1392,10 @@ export const FishingItem_2465: Item = {
     id: 2465,
     name: "幻象鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2477: Item = {
@@ -1190,8 +1404,10 @@ export const FishingItem_2477: Item = {
     id: 2477,
     name: "血腥战神",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2463: Item = {
@@ -1200,8 +1416,10 @@ export const FishingItem_2463: Item = {
     id: 2463,
     name: "灵液鱼",
     Category: FishingItem,
+    SubCategory: MissionF,
     comments: "",
 }
+
 
 
 export const FishingItem_2334: Item = {
@@ -1210,8 +1428,10 @@ export const FishingItem_2334: Item = {
     id: 2334,
     name: "木匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_2335: Item = {
@@ -1220,8 +1440,10 @@ export const FishingItem_2335: Item = {
     id: 2335,
     name: "铁匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_2336: Item = {
@@ -1230,8 +1452,10 @@ export const FishingItem_2336: Item = {
     id: 2336,
     name: "金匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3203: Item = {
@@ -1240,8 +1464,10 @@ export const FishingItem_3203: Item = {
     id: 3203,
     name: "腐化匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3204: Item = {
@@ -1250,8 +1476,10 @@ export const FishingItem_3204: Item = {
     id: 3204,
     name: "猩红匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3205: Item = {
@@ -1260,8 +1488,10 @@ export const FishingItem_3205: Item = {
     id: 3205,
     name: "地牢匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3206: Item = {
@@ -1270,8 +1500,10 @@ export const FishingItem_3206: Item = {
     id: 3206,
     name: "天空匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3207: Item = {
@@ -1280,8 +1512,10 @@ export const FishingItem_3207: Item = {
     id: 3207,
     name: "神圣匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3208: Item = {
@@ -1290,8 +1524,10 @@ export const FishingItem_3208: Item = {
     id: 3208,
     name: "丛林匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4406: Item = {
@@ -1300,8 +1536,10 @@ export const FishingItem_4406: Item = {
     id: 4406,
     name: "针叶木匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4407: Item = {
@@ -1310,8 +1548,10 @@ export const FishingItem_4407: Item = {
     id: 4407,
     name: "绿洲匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4877: Item = {
@@ -1320,8 +1560,10 @@ export const FishingItem_4877: Item = {
     id: 4877,
     name: "黑曜石匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_5002: Item = {
@@ -1330,8 +1572,10 @@ export const FishingItem_5002: Item = {
     id: 5002,
     name: "海洋匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3979: Item = {
@@ -1340,8 +1584,10 @@ export const FishingItem_3979: Item = {
     id: 3979,
     name: "珍珠木匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3980: Item = {
@@ -1350,8 +1596,10 @@ export const FishingItem_3980: Item = {
     id: 3980,
     name: "秘银匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3981: Item = {
@@ -1360,8 +1608,10 @@ export const FishingItem_3981: Item = {
     id: 3981,
     name: "钛金匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3982: Item = {
@@ -1370,8 +1620,10 @@ export const FishingItem_3982: Item = {
     id: 3982,
     name: "污损匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3983: Item = {
@@ -1380,8 +1632,10 @@ export const FishingItem_3983: Item = {
     id: 3983,
     name: "血匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3984: Item = {
@@ -1390,8 +1644,10 @@ export const FishingItem_3984: Item = {
     id: 3984,
     name: "围栏匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3985: Item = {
@@ -1400,8 +1656,10 @@ export const FishingItem_3985: Item = {
     id: 3985,
     name: "天蓝匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3986: Item = {
@@ -1410,8 +1668,10 @@ export const FishingItem_3986: Item = {
     id: 3986,
     name: "天赐匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_3987: Item = {
@@ -1420,8 +1680,10 @@ export const FishingItem_3987: Item = {
     id: 3987,
     name: "荆棘匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4405: Item = {
@@ -1430,8 +1692,10 @@ export const FishingItem_4405: Item = {
     id: 4405,
     name: "冰冻匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4408: Item = {
@@ -1440,8 +1704,10 @@ export const FishingItem_4408: Item = {
     id: 4408,
     name: "幻象匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_4878: Item = {
@@ -1450,8 +1716,10 @@ export const FishingItem_4878: Item = {
     id: 4878,
     name: "狱石匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
+
 
 
 export const FishingItem_5003: Item = {
@@ -1460,6 +1728,7 @@ export const FishingItem_5003: Item = {
     id: 5003,
     name: "海边匣",
     Category: FishingItem,
+    SubCategory: CrateF,
     comments: "",
 }
 

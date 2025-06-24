@@ -28,7 +28,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <el-container style="height: 98vh; overflow: hidden;">
+  <el-container style="height: 100vh;width: 100%;position: fixed">
     <el-header style="background-color: #ffffff; box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); display: flex; align-items: center; justify-content: space-between; font-weight: bold; color: #333; border-bottom: 1px solid #dcdfe6;">
       <span>全收集网站</span>
     </el-header>
@@ -52,7 +52,7 @@ onMounted(() => {
 
         </el-menu>
       </el-aside>
-      <el-main v-loading="isLoading" element-loading-text="正在加载中" element-loading-background="#fff" style="overflow-y: auto;">
+      <el-main  v-loading="isLoading" element-loading-text="正在加载中" element-loading-background="#fff" style="overflow-y: auto;">
         <router-view @loadingChange="handleLoadingChange"></router-view>
       </el-main>
     </el-container>
@@ -62,10 +62,6 @@ onMounted(() => {
 <style scoped>
 .el-header {
   padding: 0 20px;
-}
-
-.el-aside {
-  height: 100%;
 }
 
 .el-main {

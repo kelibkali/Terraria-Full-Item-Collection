@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { BossItem } from "../data.Category.zh-CN.ts"
 
+import { BeeBoss, BrainBoss, CultistBoss, DeerBoss, DestroyBoss, DukeBoss, EaterBoss, EyeBoss, GolemBoss, KingBoss, LightBoss, MoonBoss, OtherBoss, PlanteraBoss, PrimeBoss, QueenBoss, SkeletronBoss, TwinsBoss, WallBoss } from "../data.SubCategory.zh-CN.ts"
+
 import BossItem_3318Img from "../../../assets/icon/Item_3318.png"
 import BossItem_2493Img from "../../../assets/icon/Item_2493.png"
 import BossItem_2489Img from "../../../assets/icon/Item_2489.png"
@@ -97,14 +99,18 @@ import BossItem_4946Img from "../../../assets/icon/Item_4946.png"
 import BossItem_3865Img from "../../../assets/icon/Item_3865.png"
 import BossItem_3868Img from "../../../assets/icon/Item_3868.png"
 import BossItem_4947Img from "../../../assets/icon/Item_4947.png"
+
+
 export const BossItem_3318: Item = {
     icon: BossItem_3318Img,
     isCollection: false,
     id: 3318,
     name: "宝藏袋（史莱姆王）",
     Category: BossItem,
+    SubCategory: KingBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2493: Item = {
@@ -113,8 +119,10 @@ export const BossItem_2493: Item = {
     id: 2493,
     name: "史莱姆王面具",
     Category: BossItem,
+    SubCategory: KingBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2489: Item = {
@@ -123,8 +131,10 @@ export const BossItem_2489: Item = {
     id: 2489,
     name: "史莱姆王纪念章",
     Category: BossItem,
+    SubCategory: KingBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4929: Item = {
@@ -133,8 +143,10 @@ export const BossItem_4929: Item = {
     id: 4929,
     name: "史莱姆王圣物",
     Category: BossItem,
+    SubCategory: KingBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3319: Item = {
@@ -143,8 +155,10 @@ export const BossItem_3319: Item = {
     id: 3319,
     name: "宝藏袋（克苏鲁之眼）",
     Category: BossItem,
+    SubCategory: EyeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2112: Item = {
@@ -153,8 +167,10 @@ export const BossItem_2112: Item = {
     id: 2112,
     name: "克苏鲁之眼面具",
     Category: BossItem,
+    SubCategory: EyeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1360: Item = {
@@ -163,8 +179,10 @@ export const BossItem_1360: Item = {
     id: 1360,
     name: "克苏鲁之眼纪念章",
     Category: BossItem,
+    SubCategory: EyeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4924: Item = {
@@ -173,8 +191,10 @@ export const BossItem_4924: Item = {
     id: 4924,
     name: "克苏鲁之眼圣物",
     Category: BossItem,
+    SubCategory: EyeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3320: Item = {
@@ -183,8 +203,10 @@ export const BossItem_3320: Item = {
     id: 3320,
     name: "宝藏袋（世界吞噬怪）",
     Category: BossItem,
+    SubCategory: EaterBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2111: Item = {
@@ -193,8 +215,10 @@ export const BossItem_2111: Item = {
     id: 2111,
     name: "世界吞噬怪面具",
     Category: BossItem,
+    SubCategory: EaterBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1361: Item = {
@@ -203,8 +227,10 @@ export const BossItem_1361: Item = {
     id: 1361,
     name: "世界吞噬怪纪念章",
     Category: BossItem,
+    SubCategory: EaterBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4925: Item = {
@@ -213,8 +239,10 @@ export const BossItem_4925: Item = {
     id: 4925,
     name: "世界吞噬怪圣物",
     Category: BossItem,
+    SubCategory: EaterBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3321: Item = {
@@ -223,8 +251,10 @@ export const BossItem_3321: Item = {
     id: 3321,
     name: "宝藏袋（克苏鲁之脑）",
     Category: BossItem,
+    SubCategory: BrainBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2104: Item = {
@@ -233,8 +263,10 @@ export const BossItem_2104: Item = {
     id: 2104,
     name: "克苏鲁之脑面具",
     Category: BossItem,
+    SubCategory: BrainBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1362: Item = {
@@ -243,8 +275,10 @@ export const BossItem_1362: Item = {
     id: 1362,
     name: "克苏鲁之脑纪念章",
     Category: BossItem,
+    SubCategory: BrainBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4926: Item = {
@@ -253,8 +287,10 @@ export const BossItem_4926: Item = {
     id: 4926,
     name: "克苏鲁之脑圣物",
     Category: BossItem,
+    SubCategory: BrainBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3322: Item = {
@@ -263,8 +299,10 @@ export const BossItem_3322: Item = {
     id: 3322,
     name: "宝藏袋（蜂王）",
     Category: BossItem,
+    SubCategory: BeeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2108: Item = {
@@ -273,8 +311,10 @@ export const BossItem_2108: Item = {
     id: 2108,
     name: "蜂王面具",
     Category: BossItem,
+    SubCategory: BeeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1364: Item = {
@@ -283,8 +323,10 @@ export const BossItem_1364: Item = {
     id: 1364,
     name: "蜂王纪念章",
     Category: BossItem,
+    SubCategory: BeeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4928: Item = {
@@ -293,8 +335,10 @@ export const BossItem_4928: Item = {
     id: 4928,
     name: "蜂王圣物",
     Category: BossItem,
+    SubCategory: BeeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3323: Item = {
@@ -303,8 +347,10 @@ export const BossItem_3323: Item = {
     id: 3323,
     name: "宝藏袋（骷髅王）",
     Category: BossItem,
+    SubCategory: SkeletronBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1281: Item = {
@@ -313,8 +359,10 @@ export const BossItem_1281: Item = {
     id: 1281,
     name: "骷髅王面具",
     Category: BossItem,
+    SubCategory: SkeletronBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1363: Item = {
@@ -323,8 +371,10 @@ export const BossItem_1363: Item = {
     id: 1363,
     name: "骷髅王纪念章",
     Category: BossItem,
+    SubCategory: SkeletronBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4927: Item = {
@@ -333,8 +383,10 @@ export const BossItem_4927: Item = {
     id: 4927,
     name: "骷髅王圣物",
     Category: BossItem,
+    SubCategory: SkeletronBoss,
     comments: "",
 }
+
 
 
 export const BossItem_5111: Item = {
@@ -343,8 +395,10 @@ export const BossItem_5111: Item = {
     id: 5111,
     name: "宝藏袋（独眼巨鹿）",
     Category: BossItem,
+    SubCategory: DeerBoss,
     comments: "",
 }
+
 
 
 export const BossItem_5109: Item = {
@@ -353,8 +407,10 @@ export const BossItem_5109: Item = {
     id: 5109,
     name: "独眼巨鹿面具",
     Category: BossItem,
+    SubCategory: DeerBoss,
     comments: "",
 }
+
 
 
 export const BossItem_5108: Item = {
@@ -363,8 +419,10 @@ export const BossItem_5108: Item = {
     id: 5108,
     name: "独眼巨鹿纪念章",
     Category: BossItem,
+    SubCategory: DeerBoss,
     comments: "",
 }
+
 
 
 export const BossItem_5110: Item = {
@@ -373,8 +431,10 @@ export const BossItem_5110: Item = {
     id: 5110,
     name: "独眼巨鹿圣物",
     Category: BossItem,
+    SubCategory: DeerBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3324: Item = {
@@ -383,8 +443,10 @@ export const BossItem_3324: Item = {
     id: 3324,
     name: "宝藏袋（血肉墙）",
     Category: BossItem,
+    SubCategory: WallBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2105: Item = {
@@ -393,8 +455,10 @@ export const BossItem_2105: Item = {
     id: 2105,
     name: "血肉墙面具",
     Category: BossItem,
+    SubCategory: WallBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1365: Item = {
@@ -403,8 +467,10 @@ export const BossItem_1365: Item = {
     id: 1365,
     name: "血肉墙纪念章",
     Category: BossItem,
+    SubCategory: WallBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4930: Item = {
@@ -413,8 +479,10 @@ export const BossItem_4930: Item = {
     id: 4930,
     name: "血肉墙圣物",
     Category: BossItem,
+    SubCategory: WallBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4957: Item = {
@@ -423,8 +491,10 @@ export const BossItem_4957: Item = {
     id: 4957,
     name: "宝藏袋（史莱姆皇后）",
     Category: BossItem,
+    SubCategory: QueenBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4959: Item = {
@@ -433,8 +503,10 @@ export const BossItem_4959: Item = {
     id: 4959,
     name: "史莱姆皇后面具",
     Category: BossItem,
+    SubCategory: QueenBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4958: Item = {
@@ -443,8 +515,10 @@ export const BossItem_4958: Item = {
     id: 4958,
     name: "史莱姆皇后纪念章",
     Category: BossItem,
+    SubCategory: QueenBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4950: Item = {
@@ -453,8 +527,10 @@ export const BossItem_4950: Item = {
     id: 4950,
     name: "史莱姆皇后圣物",
     Category: BossItem,
+    SubCategory: QueenBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3325: Item = {
@@ -463,8 +539,10 @@ export const BossItem_3325: Item = {
     id: 3325,
     name: "宝藏袋（毁灭者）",
     Category: BossItem,
+    SubCategory: DestroyBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2113: Item = {
@@ -473,8 +551,10 @@ export const BossItem_2113: Item = {
     id: 2113,
     name: "毁灭者面具",
     Category: BossItem,
+    SubCategory: DestroyBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1366: Item = {
@@ -483,8 +563,10 @@ export const BossItem_1366: Item = {
     id: 1366,
     name: "毁灭者纪念章",
     Category: BossItem,
+    SubCategory: DestroyBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4932: Item = {
@@ -493,8 +575,10 @@ export const BossItem_4932: Item = {
     id: 4932,
     name: "毁灭者圣物",
     Category: BossItem,
+    SubCategory: DestroyBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3327: Item = {
@@ -503,8 +587,10 @@ export const BossItem_3327: Item = {
     id: 3327,
     name: "宝藏袋（机械骷髅王）",
     Category: BossItem,
+    SubCategory: PrimeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2107: Item = {
@@ -513,8 +599,10 @@ export const BossItem_2107: Item = {
     id: 2107,
     name: "机械骷髅王面具",
     Category: BossItem,
+    SubCategory: PrimeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1367: Item = {
@@ -523,8 +611,10 @@ export const BossItem_1367: Item = {
     id: 1367,
     name: "机械骷髅王纪念章",
     Category: BossItem,
+    SubCategory: PrimeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4933: Item = {
@@ -533,8 +623,10 @@ export const BossItem_4933: Item = {
     id: 4933,
     name: "机械骷髅王圣物",
     Category: BossItem,
+    SubCategory: PrimeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3326: Item = {
@@ -543,8 +635,10 @@ export const BossItem_3326: Item = {
     id: 3326,
     name: "宝藏袋（双子魔眼）",
     Category: BossItem,
+    SubCategory: TwinsBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2106: Item = {
@@ -553,8 +647,10 @@ export const BossItem_2106: Item = {
     id: 2106,
     name: "双子魔眼面具",
     Category: BossItem,
+    SubCategory: TwinsBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1368: Item = {
@@ -563,8 +659,10 @@ export const BossItem_1368: Item = {
     id: 1368,
     name: "激光眼纪念章",
     Category: BossItem,
+    SubCategory: TwinsBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1369: Item = {
@@ -573,8 +671,10 @@ export const BossItem_1369: Item = {
     id: 1369,
     name: "魔焰眼纪念章",
     Category: BossItem,
+    SubCategory: TwinsBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4931: Item = {
@@ -583,8 +683,10 @@ export const BossItem_4931: Item = {
     id: 4931,
     name: "双子魔眼圣物",
     Category: BossItem,
+    SubCategory: TwinsBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3328: Item = {
@@ -593,8 +695,10 @@ export const BossItem_3328: Item = {
     id: 3328,
     name: "宝藏袋（世纪之花）",
     Category: BossItem,
+    SubCategory: PlanteraBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2109: Item = {
@@ -603,8 +707,10 @@ export const BossItem_2109: Item = {
     id: 2109,
     name: "世纪之花面具",
     Category: BossItem,
+    SubCategory: PlanteraBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1370: Item = {
@@ -613,8 +719,10 @@ export const BossItem_1370: Item = {
     id: 1370,
     name: "世纪之花纪念章",
     Category: BossItem,
+    SubCategory: PlanteraBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4934: Item = {
@@ -623,8 +731,10 @@ export const BossItem_4934: Item = {
     id: 4934,
     name: "世纪之花圣物",
     Category: BossItem,
+    SubCategory: PlanteraBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3329: Item = {
@@ -633,8 +743,10 @@ export const BossItem_3329: Item = {
     id: 3329,
     name: "宝藏袋（石巨人）",
     Category: BossItem,
+    SubCategory: GolemBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2110: Item = {
@@ -643,8 +755,10 @@ export const BossItem_2110: Item = {
     id: 2110,
     name: "石巨人面具",
     Category: BossItem,
+    SubCategory: GolemBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1371: Item = {
@@ -653,8 +767,10 @@ export const BossItem_1371: Item = {
     id: 1371,
     name: "石巨人纪念章",
     Category: BossItem,
+    SubCategory: GolemBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4935: Item = {
@@ -663,8 +779,10 @@ export const BossItem_4935: Item = {
     id: 4935,
     name: "石巨人圣物",
     Category: BossItem,
+    SubCategory: GolemBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3330: Item = {
@@ -673,8 +791,10 @@ export const BossItem_3330: Item = {
     id: 3330,
     name: "宝藏袋（猪龙鱼公爵）",
     Category: BossItem,
+    SubCategory: DukeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2588: Item = {
@@ -683,8 +803,10 @@ export const BossItem_2588: Item = {
     id: 2588,
     name: "猪龙鱼公爵面具",
     Category: BossItem,
+    SubCategory: DukeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_2589: Item = {
@@ -693,8 +815,10 @@ export const BossItem_2589: Item = {
     id: 2589,
     name: "猪龙鱼公爵纪念章",
     Category: BossItem,
+    SubCategory: DukeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4936: Item = {
@@ -703,8 +827,10 @@ export const BossItem_4936: Item = {
     id: 4936,
     name: "猪龙鱼公爵圣物",
     Category: BossItem,
+    SubCategory: DukeBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4782: Item = {
@@ -713,8 +839,10 @@ export const BossItem_4782: Item = {
     id: 4782,
     name: "宝藏袋（光之女皇）",
     Category: BossItem,
+    SubCategory: LightBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4784: Item = {
@@ -723,8 +851,10 @@ export const BossItem_4784: Item = {
     id: 4784,
     name: "光之女皇面具",
     Category: BossItem,
+    SubCategory: LightBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4783: Item = {
@@ -733,8 +863,10 @@ export const BossItem_4783: Item = {
     id: 4783,
     name: "光之女皇纪念章",
     Category: BossItem,
+    SubCategory: LightBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4949: Item = {
@@ -743,8 +875,10 @@ export const BossItem_4949: Item = {
     id: 4949,
     name: "光之女皇圣物",
     Category: BossItem,
+    SubCategory: LightBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3372: Item = {
@@ -753,8 +887,10 @@ export const BossItem_3372: Item = {
     id: 3372,
     name: "拜月教邪教徒面具",
     Category: BossItem,
+    SubCategory: CultistBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3357: Item = {
@@ -763,8 +899,10 @@ export const BossItem_3357: Item = {
     id: 3357,
     name: "拜月教邪教徒纪念章",
     Category: BossItem,
+    SubCategory: CultistBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4937: Item = {
@@ -773,8 +911,10 @@ export const BossItem_4937: Item = {
     id: 4937,
     name: "拜月教邪教徒圣物",
     Category: BossItem,
+    SubCategory: CultistBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3332: Item = {
@@ -783,8 +923,10 @@ export const BossItem_3332: Item = {
     id: 3332,
     name: "宝藏袋（月亮领主）",
     Category: BossItem,
+    SubCategory: MoonBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3373: Item = {
@@ -793,8 +935,10 @@ export const BossItem_3373: Item = {
     id: 3373,
     name: "月亮领主面具",
     Category: BossItem,
+    SubCategory: MoonBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3595: Item = {
@@ -803,8 +947,10 @@ export const BossItem_3595: Item = {
     id: 3595,
     name: "月亮领主纪念章",
     Category: BossItem,
+    SubCategory: MoonBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4938: Item = {
@@ -813,8 +959,10 @@ export const BossItem_4938: Item = {
     id: 4938,
     name: "月亮领主圣物",
     Category: BossItem,
+    SubCategory: MoonBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3359: Item = {
@@ -823,8 +971,10 @@ export const BossItem_3359: Item = {
     id: 3359,
     name: "荷兰飞盗船纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4940: Item = {
@@ -833,8 +983,10 @@ export const BossItem_4940: Item = {
     id: 4940,
     name: "荷兰飞盗船圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1855: Item = {
@@ -843,8 +995,10 @@ export const BossItem_1855: Item = {
     id: 1855,
     name: "哀木纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4941: Item = {
@@ -853,8 +1007,10 @@ export const BossItem_4941: Item = {
     id: 4941,
     name: "哀木圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1856: Item = {
@@ -863,8 +1019,10 @@ export const BossItem_1856: Item = {
     id: 1856,
     name: "南瓜王纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4942: Item = {
@@ -873,8 +1031,10 @@ export const BossItem_4942: Item = {
     id: 4942,
     name: "南瓜王圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1960: Item = {
@@ -883,8 +1043,10 @@ export const BossItem_1960: Item = {
     id: 1960,
     name: "冰雪女王纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4943: Item = {
@@ -893,8 +1055,10 @@ export const BossItem_4943: Item = {
     id: 4943,
     name: "冰雪女王圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1961: Item = {
@@ -903,8 +1067,10 @@ export const BossItem_1961: Item = {
     id: 1961,
     name: "圣诞坦克纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4945: Item = {
@@ -913,8 +1079,10 @@ export const BossItem_4945: Item = {
     id: 4945,
     name: "圣诞坦克圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_1962: Item = {
@@ -923,8 +1091,10 @@ export const BossItem_1962: Item = {
     id: 1962,
     name: "常绿尖叫怪纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4944: Item = {
@@ -933,8 +1103,10 @@ export const BossItem_4944: Item = {
     id: 4944,
     name: "常绿尖叫怪圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3358: Item = {
@@ -943,8 +1115,10 @@ export const BossItem_3358: Item = {
     id: 3358,
     name: "火星飞碟纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4939: Item = {
@@ -953,8 +1127,10 @@ export const BossItem_4939: Item = {
     id: 4939,
     name: "火星飞碟圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3860: Item = {
@@ -963,8 +1139,10 @@ export const BossItem_3860: Item = {
     id: 3860,
     name: "宝藏袋（双足翼龙）",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3863: Item = {
@@ -973,8 +1151,10 @@ export const BossItem_3863: Item = {
     id: 3863,
     name: "双足翼龙面具",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3866: Item = {
@@ -983,8 +1163,10 @@ export const BossItem_3866: Item = {
     id: 3866,
     name: "双足翼龙纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4948: Item = {
@@ -993,8 +1175,10 @@ export const BossItem_4948: Item = {
     id: 4948,
     name: "双足翼龙圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3864: Item = {
@@ -1003,8 +1187,10 @@ export const BossItem_3864: Item = {
     id: 3864,
     name: "暗黑魔法师面具",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3867: Item = {
@@ -1013,8 +1199,10 @@ export const BossItem_3867: Item = {
     id: 3867,
     name: "暗黑魔法师纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4946: Item = {
@@ -1023,8 +1211,10 @@ export const BossItem_4946: Item = {
     id: 4946,
     name: "暗黑魔法师圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3865: Item = {
@@ -1033,8 +1223,10 @@ export const BossItem_3865: Item = {
     id: 3865,
     name: "食人魔面具",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_3868: Item = {
@@ -1043,8 +1235,10 @@ export const BossItem_3868: Item = {
     id: 3868,
     name: "食人魔纪念章",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
+
 
 
 export const BossItem_4947: Item = {
@@ -1053,6 +1247,7 @@ export const BossItem_4947: Item = {
     id: 4947,
     name: "食人魔圣物",
     Category: BossItem,
+    SubCategory: OtherBoss,
     comments: "",
 }
 

@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Furniture } from "../data.Category.zh-CN.ts"
 
+import { AWF, AetF, BF, BWF, BallF, BlueF, BoneF, CF, CryF, DF, EF, EchF, FleF, FroF, GlaF, GoF, GoldF, GranF, GreenF, HonF, LWF, LesF, LihzF, MarF, MartianF, MeteF, MushF, NebF, ObF, PF, PWF, PinkF, PumF, RMF, ReefF, SF, SanF, SenF, SkyF, SliF, SolF, SpiderF, StartF, SteamF, VorF, WoodF } from "../data.SubCategory.zh-CN.ts"
+
 import Furniture_9Img from "../../../assets/icon/Item_9.png"
 import Furniture_93Img from "../../../assets/icon/Item_93.png"
 import Furniture_1447Img from "../../../assets/icon/Item_1447.png"
@@ -1031,14 +1033,18 @@ import Furniture_4392Img from "../../../assets/icon/Item_4392.png"
 import Furniture_5291Img from "../../../assets/icon/Item_5291.png"
 import Furniture_5292Img from "../../../assets/icon/Item_5292.png"
 import Furniture_5345Img from "../../../assets/icon/Item_5345.png"
+
+
 export const Furniture_9: Item = {
     icon: Furniture_9Img,
     isCollection: false,
     id: 9,
     name: "木材",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_93: Item = {
@@ -1047,8 +1053,10 @@ export const Furniture_93: Item = {
     id: 93,
     name: "木墙",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_1447: Item = {
@@ -1057,8 +1065,10 @@ export const Furniture_1447: Item = {
     id: 1447,
     name: "木栅栏",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_336: Item = {
@@ -1067,8 +1077,10 @@ export const Furniture_336: Item = {
     id: 336,
     name: "浴缸",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_224: Item = {
@@ -1077,8 +1089,10 @@ export const Furniture_224: Item = {
     id: 224,
     name: "床",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_354: Item = {
@@ -1087,8 +1101,10 @@ export const Furniture_354: Item = {
     id: 354,
     name: "书架",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_334: Item = {
@@ -1097,8 +1113,10 @@ export const Furniture_334: Item = {
     id: 334,
     name: "梳妆台",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_349: Item = {
@@ -1107,8 +1125,10 @@ export const Furniture_349: Item = {
     id: 349,
     name: "烛台",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_714: Item = {
@@ -1117,8 +1137,10 @@ export const Furniture_714: Item = {
     id: 714,
     name: "铂金烛台",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_105: Item = {
@@ -1127,8 +1149,10 @@ export const Furniture_105: Item = {
     id: 105,
     name: "蜡烛",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_713: Item = {
@@ -1137,8 +1161,10 @@ export const Furniture_713: Item = {
     id: 713,
     name: "铂金蜡烛",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_34: Item = {
@@ -1147,8 +1173,10 @@ export const Furniture_34: Item = {
     id: 34,
     name: "木椅",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_106: Item = {
@@ -1157,8 +1185,10 @@ export const Furniture_106: Item = {
     id: 106,
     name: "铜吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_710: Item = {
@@ -1167,8 +1197,10 @@ export const Furniture_710: Item = {
     id: 710,
     name: "锡吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_107: Item = {
@@ -1177,8 +1209,10 @@ export const Furniture_107: Item = {
     id: 107,
     name: "银吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_711: Item = {
@@ -1187,8 +1221,10 @@ export const Furniture_711: Item = {
     id: 711,
     name: "钨吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_108: Item = {
@@ -1197,8 +1233,10 @@ export const Furniture_108: Item = {
     id: 108,
     name: "金吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_712: Item = {
@@ -1207,8 +1245,10 @@ export const Furniture_712: Item = {
     id: 712,
     name: "铂金吊灯",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_48: Item = {
@@ -1217,8 +1257,10 @@ export const Furniture_48: Item = {
     id: 48,
     name: "宝箱",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_359: Item = {
@@ -1227,8 +1269,10 @@ export const Furniture_359: Item = {
     id: 359,
     name: "落地大摆钟",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_25: Item = {
@@ -1237,8 +1281,10 @@ export const Furniture_25: Item = {
     id: 25,
     name: "木门",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_342: Item = {
@@ -1247,8 +1293,10 @@ export const Furniture_342: Item = {
     id: 342,
     name: "提基火把",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_344: Item = {
@@ -1257,8 +1305,10 @@ export const Furniture_344: Item = {
     id: 344,
     name: "中式灯笼",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_333: Item = {
@@ -1267,8 +1317,10 @@ export const Furniture_333: Item = {
     id: 333,
     name: "钢琴",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_94: Item = {
@@ -1277,8 +1329,10 @@ export const Furniture_94: Item = {
     id: 94,
     name: "木平台",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_2827: Item = {
@@ -1287,8 +1341,10 @@ export const Furniture_2827: Item = {
     id: 2827,
     name: "木水槽",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_2841: Item = {
@@ -1297,8 +1353,10 @@ export const Furniture_2841: Item = {
     id: 2841,
     name: "金属水槽",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_2397: Item = {
@@ -1307,8 +1365,10 @@ export const Furniture_2397: Item = {
     id: 2397,
     name: "沙发",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_32: Item = {
@@ -1317,8 +1377,10 @@ export const Furniture_32: Item = {
     id: 32,
     name: "木桌",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_36: Item = {
@@ -1327,8 +1389,10 @@ export const Furniture_36: Item = {
     id: 36,
     name: "工作台",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_358: Item = {
@@ -1337,8 +1401,10 @@ export const Furniture_358: Item = {
     id: 358,
     name: "马桶",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_335: Item = {
@@ -1347,8 +1413,10 @@ export const Furniture_335: Item = {
     id: 335,
     name: "长椅",
     Category: Furniture,
+    SubCategory: WoodF,
     comments: "",
 }
+
 
 
 export const Furniture_1723: Item = {
@@ -1357,8 +1425,10 @@ export const Furniture_1723: Item = {
     id: 1723,
     name: "生命木墙",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_3584: Item = {
@@ -1367,8 +1437,10 @@ export const Furniture_3584: Item = {
     id: 3584,
     name: "生命树叶墙",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2126: Item = {
@@ -1377,8 +1449,10 @@ export const Furniture_2126: Item = {
     id: 2126,
     name: "生命木浴缸",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2139: Item = {
@@ -1387,8 +1461,10 @@ export const Furniture_2139: Item = {
     id: 2139,
     name: "生命木床",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2135: Item = {
@@ -1397,8 +1473,10 @@ export const Furniture_2135: Item = {
     id: 2135,
     name: "生命木书架",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_3914: Item = {
@@ -1407,8 +1485,10 @@ export const Furniture_3914: Item = {
     id: 3914,
     name: "生命木梳妆台",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2149: Item = {
@@ -1417,8 +1497,10 @@ export const Furniture_2149: Item = {
     id: 2149,
     name: "生命木烛台",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2153: Item = {
@@ -1427,8 +1509,10 @@ export const Furniture_2153: Item = {
     id: 2153,
     name: "生命木蜡烛",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_806: Item = {
@@ -1437,8 +1521,10 @@ export const Furniture_806: Item = {
     id: 806,
     name: "生命木椅",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2141: Item = {
@@ -1447,8 +1533,10 @@ export const Furniture_2141: Item = {
     id: 2141,
     name: "生命木吊灯",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_831: Item = {
@@ -1457,8 +1545,10 @@ export const Furniture_831: Item = {
     id: 831,
     name: "生命木箱",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2596: Item = {
@@ -1467,8 +1557,10 @@ export const Furniture_2596: Item = {
     id: 2596,
     name: "生命木时钟",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_819: Item = {
@@ -1477,8 +1569,10 @@ export const Furniture_819: Item = {
     id: 819,
     name: "生命木门",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2131: Item = {
@@ -1487,8 +1581,10 @@ export const Furniture_2131: Item = {
     id: 2131,
     name: "生命木灯",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2145: Item = {
@@ -1497,8 +1593,10 @@ export const Furniture_2145: Item = {
     id: 2145,
     name: "生命木灯笼",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2245: Item = {
@@ -1507,8 +1605,10 @@ export const Furniture_2245: Item = {
     id: 2245,
     name: "生命木钢琴",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2629: Item = {
@@ -1517,8 +1617,10 @@ export const Furniture_2629: Item = {
     id: 2629,
     name: "生命木平台",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2833: Item = {
@@ -1527,8 +1629,10 @@ export const Furniture_2833: Item = {
     id: 2833,
     name: "生命木水槽",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2636: Item = {
@@ -1537,8 +1641,10 @@ export const Furniture_2636: Item = {
     id: 2636,
     name: "生命木沙发",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_829: Item = {
@@ -1547,8 +1653,10 @@ export const Furniture_829: Item = {
     id: 829,
     name: "生命木桌",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2633: Item = {
@@ -1557,8 +1665,10 @@ export const Furniture_2633: Item = {
     id: 2633,
     name: "生命木工作台",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_4099: Item = {
@@ -1567,8 +1677,10 @@ export const Furniture_4099: Item = {
     id: 4099,
     name: "生命木马桶",
     Category: Furniture,
+    SubCategory: LWF,
     comments: "",
 }
+
 
 
 export const Furniture_2503: Item = {
@@ -1577,8 +1689,10 @@ export const Furniture_2503: Item = {
     id: 2503,
     name: "针叶木",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2505: Item = {
@@ -1587,8 +1701,10 @@ export const Furniture_2505: Item = {
     id: 2505,
     name: "针叶木墙",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2507: Item = {
@@ -1597,8 +1713,10 @@ export const Furniture_2507: Item = {
     id: 2507,
     name: "针叶木栅栏",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2552: Item = {
@@ -1607,8 +1725,10 @@ export const Furniture_2552: Item = {
     id: 2552,
     name: "针叶木浴缸",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2553: Item = {
@@ -1617,8 +1737,10 @@ export const Furniture_2553: Item = {
     id: 2553,
     name: "针叶木床",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2554: Item = {
@@ -1627,8 +1749,10 @@ export const Furniture_2554: Item = {
     id: 2554,
     name: "针叶木书架",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2562: Item = {
@@ -1637,8 +1761,10 @@ export const Furniture_2562: Item = {
     id: 2562,
     name: "针叶木梳妆台",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2555: Item = {
@@ -1647,8 +1773,10 @@ export const Furniture_2555: Item = {
     id: 2555,
     name: "针叶木烛台",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2556: Item = {
@@ -1657,8 +1785,10 @@ export const Furniture_2556: Item = {
     id: 2556,
     name: "针叶木蜡烛",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2557: Item = {
@@ -1667,8 +1797,10 @@ export const Furniture_2557: Item = {
     id: 2557,
     name: "针叶木椅",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2558: Item = {
@@ -1677,8 +1809,10 @@ export const Furniture_2558: Item = {
     id: 2558,
     name: "针叶木吊灯",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2559: Item = {
@@ -1687,8 +1821,10 @@ export const Furniture_2559: Item = {
     id: 2559,
     name: "针叶木箱",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2560: Item = {
@@ -1697,8 +1833,10 @@ export const Furniture_2560: Item = {
     id: 2560,
     name: "针叶木时钟",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2561: Item = {
@@ -1707,8 +1845,10 @@ export const Furniture_2561: Item = {
     id: 2561,
     name: "针叶木门",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2563: Item = {
@@ -1717,8 +1857,10 @@ export const Furniture_2563: Item = {
     id: 2563,
     name: "针叶木灯",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2564: Item = {
@@ -1727,8 +1869,10 @@ export const Furniture_2564: Item = {
     id: 2564,
     name: "针叶木灯笼",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2565: Item = {
@@ -1737,8 +1881,10 @@ export const Furniture_2565: Item = {
     id: 2565,
     name: "针叶木钢琴",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2566: Item = {
@@ -1747,8 +1893,10 @@ export const Furniture_2566: Item = {
     id: 2566,
     name: "针叶木平台",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_2852: Item = {
@@ -1757,8 +1905,10 @@ export const Furniture_2852: Item = {
     id: 2852,
     name: "针叶木水槽",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_858: Item = {
@@ -1767,8 +1917,10 @@ export const Furniture_858: Item = {
     id: 858,
     name: "针叶木沙发",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_677: Item = {
@@ -1777,8 +1929,10 @@ export const Furniture_677: Item = {
     id: 677,
     name: "针叶木桌",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_673: Item = {
@@ -1787,8 +1941,10 @@ export const Furniture_673: Item = {
     id: 673,
     name: "针叶木工作台",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_4119: Item = {
@@ -1797,8 +1953,10 @@ export const Furniture_4119: Item = {
     id: 4119,
     name: "针叶木马桶",
     Category: Furniture,
+    SubCategory: BWF,
     comments: "",
 }
+
 
 
 export const Furniture_620: Item = {
@@ -1807,8 +1965,10 @@ export const Furniture_620: Item = {
     id: 620,
     name: "红木",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_623: Item = {
@@ -1817,8 +1977,10 @@ export const Furniture_623: Item = {
     id: 623,
     name: "红木墙",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2211: Item = {
@@ -1827,8 +1989,10 @@ export const Furniture_2211: Item = {
     id: 2211,
     name: "红木栅栏",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2077: Item = {
@@ -1837,8 +2001,10 @@ export const Furniture_2077: Item = {
     id: 2077,
     name: "红木浴缸",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_645: Item = {
@@ -1847,8 +2013,10 @@ export const Furniture_645: Item = {
     id: 645,
     name: "红木床",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2026: Item = {
@@ -1857,8 +2025,10 @@ export const Furniture_2026: Item = {
     id: 2026,
     name: "红木书架",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_648: Item = {
@@ -1867,8 +2037,10 @@ export const Furniture_648: Item = {
     id: 648,
     name: "红木梳妆台",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2098: Item = {
@@ -1877,8 +2049,10 @@ export const Furniture_2098: Item = {
     id: 2098,
     name: "红木大烛台",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2050: Item = {
@@ -1887,8 +2061,10 @@ export const Furniture_2050: Item = {
     id: 2050,
     name: "红木蜡烛",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_629: Item = {
@@ -1897,8 +2073,10 @@ export const Furniture_629: Item = {
     id: 629,
     name: "红木椅",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2060: Item = {
@@ -1907,8 +2085,10 @@ export const Furniture_2060: Item = {
     id: 2060,
     name: "红木吊灯",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_626: Item = {
@@ -1917,8 +2097,10 @@ export const Furniture_626: Item = {
     id: 626,
     name: "红木箱",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2597: Item = {
@@ -1927,8 +2109,10 @@ export const Furniture_2597: Item = {
     id: 2597,
     name: "红木时钟",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_651: Item = {
@@ -1937,8 +2121,10 @@ export const Furniture_651: Item = {
     id: 651,
     name: "红木门",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2087: Item = {
@@ -1947,8 +2133,10 @@ export const Furniture_2087: Item = {
     id: 2087,
     name: "红木灯",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2038: Item = {
@@ -1957,8 +2145,10 @@ export const Furniture_2038: Item = {
     id: 2038,
     name: "红木灯笼",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_642: Item = {
@@ -1967,8 +2157,10 @@ export const Furniture_642: Item = {
     id: 642,
     name: "红木钢琴",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_632: Item = {
@@ -1977,8 +2169,10 @@ export const Furniture_632: Item = {
     id: 632,
     name: "红木平台",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2829: Item = {
@@ -1987,8 +2181,10 @@ export const Furniture_2829: Item = {
     id: 2829,
     name: "红木水槽",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2399: Item = {
@@ -1997,8 +2193,10 @@ export const Furniture_2399: Item = {
     id: 2399,
     name: "红木沙发",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_639: Item = {
@@ -2007,8 +2205,10 @@ export const Furniture_639: Item = {
     id: 639,
     name: "红木桌",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_636: Item = {
@@ -2017,8 +2217,10 @@ export const Furniture_636: Item = {
     id: 636,
     name: "红木工作台",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_4097: Item = {
@@ -2027,8 +2229,10 @@ export const Furniture_4097: Item = {
     id: 4097,
     name: "红木马桶",
     Category: Furniture,
+    SubCategory: RMF,
     comments: "",
 }
+
 
 
 export const Furniture_2504: Item = {
@@ -2037,8 +2241,10 @@ export const Furniture_2504: Item = {
     id: 2504,
     name: "棕榈木",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2506: Item = {
@@ -2047,8 +2253,10 @@ export const Furniture_2506: Item = {
     id: 2506,
     name: "棕榈木墙",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2508: Item = {
@@ -2057,8 +2265,10 @@ export const Furniture_2508: Item = {
     id: 2508,
     name: "棕榈木栅栏",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2519: Item = {
@@ -2067,8 +2277,10 @@ export const Furniture_2519: Item = {
     id: 2519,
     name: "棕榈木浴缸",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2520: Item = {
@@ -2077,8 +2289,10 @@ export const Furniture_2520: Item = {
     id: 2520,
     name: "棕榈木床",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2536: Item = {
@@ -2087,8 +2301,10 @@ export const Furniture_2536: Item = {
     id: 2536,
     name: "棕榈木书架",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2529: Item = {
@@ -2097,8 +2313,10 @@ export const Furniture_2529: Item = {
     id: 2529,
     name: "棕榈木梳妆台",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2522: Item = {
@@ -2107,8 +2325,10 @@ export const Furniture_2522: Item = {
     id: 2522,
     name: "棕榈木烛台",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2523: Item = {
@@ -2117,8 +2337,10 @@ export const Furniture_2523: Item = {
     id: 2523,
     name: "棕榈木蜡烛",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2524: Item = {
@@ -2127,8 +2349,10 @@ export const Furniture_2524: Item = {
     id: 2524,
     name: "棕榈木椅",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2525: Item = {
@@ -2137,8 +2361,10 @@ export const Furniture_2525: Item = {
     id: 2525,
     name: "棕榈木吊灯",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2526: Item = {
@@ -2147,8 +2373,10 @@ export const Furniture_2526: Item = {
     id: 2526,
     name: "棕榈木箱",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2601: Item = {
@@ -2157,8 +2385,10 @@ export const Furniture_2601: Item = {
     id: 2601,
     name: "棕榈木时钟",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2528: Item = {
@@ -2167,8 +2397,10 @@ export const Furniture_2528: Item = {
     id: 2528,
     name: "棕榈木门",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2533: Item = {
@@ -2177,8 +2409,10 @@ export const Furniture_2533: Item = {
     id: 2533,
     name: "棕榈木灯",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2530: Item = {
@@ -2187,8 +2421,10 @@ export const Furniture_2530: Item = {
     id: 2530,
     name: "棕榈木灯笼",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2531: Item = {
@@ -2197,8 +2433,10 @@ export const Furniture_2531: Item = {
     id: 2531,
     name: "棕榈木钢琴",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2518: Item = {
@@ -2207,8 +2445,10 @@ export const Furniture_2518: Item = {
     id: 2518,
     name: "棕榈木平台",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2850: Item = {
@@ -2217,8 +2457,10 @@ export const Furniture_2850: Item = {
     id: 2850,
     name: "棕榈木水槽",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2527: Item = {
@@ -2227,8 +2469,10 @@ export const Furniture_2527: Item = {
     id: 2527,
     name: "棕榈木沙发",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2532: Item = {
@@ -2237,8 +2481,10 @@ export const Furniture_2532: Item = {
     id: 2532,
     name: "棕榈木桌",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2534: Item = {
@@ -2247,8 +2493,10 @@ export const Furniture_2534: Item = {
     id: 2534,
     name: "棕榈木工作台",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_4118: Item = {
@@ -2257,8 +2505,10 @@ export const Furniture_4118: Item = {
     id: 4118,
     name: "棕榈木马桶",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_2521: Item = {
@@ -2267,8 +2517,10 @@ export const Furniture_2521: Item = {
     id: 2521,
     name: "棕榈木长椅",
     Category: Furniture,
+    SubCategory: PWF,
     comments: "",
 }
+
 
 
 export const Furniture_619: Item = {
@@ -2277,8 +2529,10 @@ export const Furniture_619: Item = {
     id: 619,
     name: "乌木",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_622: Item = {
@@ -2287,8 +2541,10 @@ export const Furniture_622: Item = {
     id: 622,
     name: "乌木墙",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2210: Item = {
@@ -2297,8 +2553,10 @@ export const Furniture_2210: Item = {
     id: 2210,
     name: "乌木栅栏",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2073: Item = {
@@ -2307,8 +2565,10 @@ export const Furniture_2073: Item = {
     id: 2073,
     name: "乌木浴缸",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_644: Item = {
@@ -2317,8 +2577,10 @@ export const Furniture_644: Item = {
     id: 644,
     name: "乌木床",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2021: Item = {
@@ -2327,8 +2589,10 @@ export const Furniture_2021: Item = {
     id: 2021,
     name: "乌木书架",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_647: Item = {
@@ -2337,8 +2601,10 @@ export const Furniture_647: Item = {
     id: 647,
     name: "乌木梳妆台",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2093: Item = {
@@ -2347,8 +2613,10 @@ export const Furniture_2093: Item = {
     id: 2093,
     name: "乌木烛台",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2046: Item = {
@@ -2357,8 +2625,10 @@ export const Furniture_2046: Item = {
     id: 2046,
     name: "乌木蜡烛",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_628: Item = {
@@ -2367,8 +2637,10 @@ export const Furniture_628: Item = {
     id: 628,
     name: "乌木椅",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2056: Item = {
@@ -2377,8 +2649,10 @@ export const Furniture_2056: Item = {
     id: 2056,
     name: "乌木吊灯",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_625: Item = {
@@ -2387,8 +2661,10 @@ export const Furniture_625: Item = {
     id: 625,
     name: "乌木箱",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2593: Item = {
@@ -2397,8 +2673,10 @@ export const Furniture_2593: Item = {
     id: 2593,
     name: "乌木时钟",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_650: Item = {
@@ -2407,8 +2685,10 @@ export const Furniture_650: Item = {
     id: 650,
     name: "乌木门",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2083: Item = {
@@ -2417,8 +2697,10 @@ export const Furniture_2083: Item = {
     id: 2083,
     name: "乌木灯",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2033: Item = {
@@ -2427,8 +2709,10 @@ export const Furniture_2033: Item = {
     id: 2033,
     name: "乌木灯笼",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_641: Item = {
@@ -2437,8 +2721,10 @@ export const Furniture_641: Item = {
     id: 641,
     name: "乌木钢琴",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_631: Item = {
@@ -2447,8 +2733,10 @@ export const Furniture_631: Item = {
     id: 631,
     name: "乌木平台",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2828: Item = {
@@ -2457,8 +2745,10 @@ export const Furniture_2828: Item = {
     id: 2828,
     name: "乌木水槽",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_2398: Item = {
@@ -2467,8 +2757,10 @@ export const Furniture_2398: Item = {
     id: 2398,
     name: "乌木沙发",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_638: Item = {
@@ -2477,8 +2769,10 @@ export const Furniture_638: Item = {
     id: 638,
     name: "乌木桌",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_635: Item = {
@@ -2487,8 +2781,10 @@ export const Furniture_635: Item = {
     id: 635,
     name: "乌木工作台",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_4096: Item = {
@@ -2497,8 +2793,10 @@ export const Furniture_4096: Item = {
     id: 4096,
     name: "乌木马桶",
     Category: Furniture,
+    SubCategory: EF,
     comments: "",
 }
+
 
 
 export const Furniture_911: Item = {
@@ -2507,8 +2805,10 @@ export const Furniture_911: Item = {
     id: 911,
     name: "暗影木",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_927: Item = {
@@ -2517,8 +2817,10 @@ export const Furniture_927: Item = {
     id: 927,
     name: "暗影木墙",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2213: Item = {
@@ -2527,8 +2829,10 @@ export const Furniture_2213: Item = {
     id: 2213,
     name: "暗影木栅栏",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2127: Item = {
@@ -2537,8 +2841,10 @@ export const Furniture_2127: Item = {
     id: 2127,
     name: "暗影木浴缸",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_920: Item = {
@@ -2547,8 +2853,10 @@ export const Furniture_920: Item = {
     id: 920,
     name: "暗影木床",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2136: Item = {
@@ -2557,8 +2865,10 @@ export const Furniture_2136: Item = {
     id: 2136,
     name: "暗影木书架",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_918: Item = {
@@ -2567,8 +2877,10 @@ export const Furniture_918: Item = {
     id: 918,
     name: "暗影木梳妆台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2150: Item = {
@@ -2577,8 +2889,10 @@ export const Furniture_2150: Item = {
     id: 2150,
     name: "暗影木烛台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2154: Item = {
@@ -2587,8 +2901,10 @@ export const Furniture_2154: Item = {
     id: 2154,
     name: "暗影木蜡烛",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_915: Item = {
@@ -2597,8 +2913,10 @@ export const Furniture_915: Item = {
     id: 915,
     name: "暗影木椅",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2142: Item = {
@@ -2607,8 +2925,10 @@ export const Furniture_2142: Item = {
     id: 2142,
     name: "暗影木吊灯",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_914: Item = {
@@ -2617,8 +2937,10 @@ export const Furniture_914: Item = {
     id: 914,
     name: "暗影木箱",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2604: Item = {
@@ -2627,8 +2949,10 @@ export const Furniture_2604: Item = {
     id: 2604,
     name: "暗影木时钟",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_912: Item = {
@@ -2637,8 +2961,10 @@ export const Furniture_912: Item = {
     id: 912,
     name: "暗影木门",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2132: Item = {
@@ -2647,8 +2973,10 @@ export const Furniture_2132: Item = {
     id: 2132,
     name: "暗影木灯",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2146: Item = {
@@ -2657,8 +2985,10 @@ export const Furniture_2146: Item = {
     id: 2146,
     name: "暗影木灯笼",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_919: Item = {
@@ -2667,8 +2997,10 @@ export const Furniture_919: Item = {
     id: 919,
     name: "暗影木钢琴",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_913: Item = {
@@ -2677,8 +3009,10 @@ export const Furniture_913: Item = {
     id: 913,
     name: "暗影木平台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2835: Item = {
@@ -2687,8 +3021,10 @@ export const Furniture_2835: Item = {
     id: 2835,
     name: "暗影木水槽",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2401: Item = {
@@ -2697,8 +3033,10 @@ export const Furniture_2401: Item = {
     id: 2401,
     name: "暗影木沙发",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_917: Item = {
@@ -2707,8 +3045,10 @@ export const Furniture_917: Item = {
     id: 917,
     name: "暗影木桌",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_916: Item = {
@@ -2717,8 +3057,10 @@ export const Furniture_916: Item = {
     id: 916,
     name: "暗影木工作台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_4105: Item = {
@@ -2727,8 +3069,10 @@ export const Furniture_4105: Item = {
     id: 4105,
     name: "暗影木马桶",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_5215: Item = {
@@ -2737,8 +3081,10 @@ export const Furniture_5215: Item = {
     id: 5215,
     name: "灰烬木",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5216: Item = {
@@ -2747,8 +3093,10 @@ export const Furniture_5216: Item = {
     id: 5216,
     name: "灰烬木墙",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5217: Item = {
@@ -2757,8 +3105,10 @@ export const Furniture_5217: Item = {
     id: 5217,
     name: "灰烬木栅栏",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5190: Item = {
@@ -2767,8 +3117,10 @@ export const Furniture_5190: Item = {
     id: 5190,
     name: "灰烬木浴缸",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5191: Item = {
@@ -2777,8 +3129,10 @@ export const Furniture_5191: Item = {
     id: 5191,
     name: "灰烬木床",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5192: Item = {
@@ -2787,8 +3141,10 @@ export const Furniture_5192: Item = {
     id: 5192,
     name: "灰烬木书架",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5193: Item = {
@@ -2797,8 +3153,10 @@ export const Furniture_5193: Item = {
     id: 5193,
     name: "灰烬木梳妆台",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5194: Item = {
@@ -2807,8 +3165,10 @@ export const Furniture_5194: Item = {
     id: 5194,
     name: "灰烬木烛台",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5195: Item = {
@@ -2817,8 +3177,10 @@ export const Furniture_5195: Item = {
     id: 5195,
     name: "灰烬木蜡烛",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5196: Item = {
@@ -2827,8 +3189,10 @@ export const Furniture_5196: Item = {
     id: 5196,
     name: "灰烬木椅",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5197: Item = {
@@ -2837,8 +3201,10 @@ export const Furniture_5197: Item = {
     id: 5197,
     name: "灰烬木吊灯",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5198: Item = {
@@ -2847,8 +3213,10 @@ export const Furniture_5198: Item = {
     id: 5198,
     name: "灰烬木箱",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5199: Item = {
@@ -2857,8 +3225,10 @@ export const Furniture_5199: Item = {
     id: 5199,
     name: "灰烬木时钟",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5200: Item = {
@@ -2867,8 +3237,10 @@ export const Furniture_5200: Item = {
     id: 5200,
     name: "灰烬木门",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5201: Item = {
@@ -2877,8 +3249,10 @@ export const Furniture_5201: Item = {
     id: 5201,
     name: "灰烬木灯",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5202: Item = {
@@ -2887,8 +3261,10 @@ export const Furniture_5202: Item = {
     id: 5202,
     name: "灰烬木灯笼",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5203: Item = {
@@ -2897,8 +3273,10 @@ export const Furniture_5203: Item = {
     id: 5203,
     name: "灰烬木钢琴",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5204: Item = {
@@ -2907,8 +3285,10 @@ export const Furniture_5204: Item = {
     id: 5204,
     name: "灰烬木平台",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5205: Item = {
@@ -2917,8 +3297,10 @@ export const Furniture_5205: Item = {
     id: 5205,
     name: "灰烬木水槽",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5206: Item = {
@@ -2927,8 +3309,10 @@ export const Furniture_5206: Item = {
     id: 5206,
     name: "灰烬木沙发",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5207: Item = {
@@ -2937,8 +3321,10 @@ export const Furniture_5207: Item = {
     id: 5207,
     name: "灰烬木桌",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5208: Item = {
@@ -2947,8 +3333,10 @@ export const Furniture_5208: Item = {
     id: 5208,
     name: "灰烬木工作台",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_5210: Item = {
@@ -2957,8 +3345,10 @@ export const Furniture_5210: Item = {
     id: 5210,
     name: "灰烬木马桶",
     Category: Furniture,
+    SubCategory: AWF,
     comments: "",
 }
+
 
 
 export const Furniture_621: Item = {
@@ -2967,8 +3357,10 @@ export const Furniture_621: Item = {
     id: 621,
     name: "珍珠木",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_624: Item = {
@@ -2977,8 +3369,10 @@ export const Furniture_624: Item = {
     id: 624,
     name: "珍珠木墙",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2212: Item = {
@@ -2987,8 +3381,10 @@ export const Furniture_2212: Item = {
     id: 2212,
     name: "珍珠木栅栏",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2078: Item = {
@@ -2997,8 +3393,10 @@ export const Furniture_2078: Item = {
     id: 2078,
     name: "珍珠木浴缸",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_646: Item = {
@@ -3007,8 +3405,10 @@ export const Furniture_646: Item = {
     id: 646,
     name: "珍珠木床",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2027: Item = {
@@ -3017,8 +3417,10 @@ export const Furniture_2027: Item = {
     id: 2027,
     name: "珍珠木书架",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_649: Item = {
@@ -3027,8 +3429,10 @@ export const Furniture_649: Item = {
     id: 649,
     name: "珍珠木梳妆台",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2099: Item = {
@@ -3037,8 +3441,10 @@ export const Furniture_2099: Item = {
     id: 2099,
     name: "珍珠木烛台",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2051: Item = {
@@ -3047,8 +3453,10 @@ export const Furniture_2051: Item = {
     id: 2051,
     name: "珍珠木蜡烛",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_630: Item = {
@@ -3057,8 +3465,10 @@ export const Furniture_630: Item = {
     id: 630,
     name: "珍珠木椅",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2061: Item = {
@@ -3067,8 +3477,10 @@ export const Furniture_2061: Item = {
     id: 2061,
     name: "珍珠木吊灯",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_627: Item = {
@@ -3077,8 +3489,10 @@ export const Furniture_627: Item = {
     id: 627,
     name: "珍珠木箱",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2602: Item = {
@@ -3087,8 +3501,10 @@ export const Furniture_2602: Item = {
     id: 2602,
     name: "珍珠木时钟",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_652: Item = {
@@ -3097,8 +3513,10 @@ export const Furniture_652: Item = {
     id: 652,
     name: "珍珠木门",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2088: Item = {
@@ -3107,8 +3525,10 @@ export const Furniture_2088: Item = {
     id: 2088,
     name: "珍珠木灯",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2039: Item = {
@@ -3117,8 +3537,10 @@ export const Furniture_2039: Item = {
     id: 2039,
     name: "珍珠木灯笼",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_643: Item = {
@@ -3127,8 +3549,10 @@ export const Furniture_643: Item = {
     id: 643,
     name: "珍珠木钢琴",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_633: Item = {
@@ -3137,8 +3561,10 @@ export const Furniture_633: Item = {
     id: 633,
     name: "珍珠木平台",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2830: Item = {
@@ -3147,8 +3573,10 @@ export const Furniture_2830: Item = {
     id: 2830,
     name: "珍珠木水槽",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_2400: Item = {
@@ -3157,8 +3585,10 @@ export const Furniture_2400: Item = {
     id: 2400,
     name: "珍珠木沙发",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_640: Item = {
@@ -3167,8 +3597,10 @@ export const Furniture_640: Item = {
     id: 640,
     name: "珍珠木桌",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_637: Item = {
@@ -3177,8 +3609,10 @@ export const Furniture_637: Item = {
     id: 637,
     name: "珍珠木工作台",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_4098: Item = {
@@ -3187,8 +3621,10 @@ export const Furniture_4098: Item = {
     id: 4098,
     name: "珍珠木马桶",
     Category: Furniture,
+    SubCategory: PF,
     comments: "",
 }
+
 
 
 export const Furniture_1729: Item = {
@@ -3197,8 +3633,10 @@ export const Furniture_1729: Item = {
     id: 1729,
     name: "阴森木",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1730: Item = {
@@ -3207,8 +3645,10 @@ export const Furniture_1730: Item = {
     id: 1730,
     name: "阴森木墙",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2081: Item = {
@@ -3217,8 +3657,10 @@ export const Furniture_2081: Item = {
     id: 2081,
     name: "阴森浴缸",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2071: Item = {
@@ -3227,8 +3669,10 @@ export const Furniture_2071: Item = {
     id: 2071,
     name: "阴森床",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2028: Item = {
@@ -3237,8 +3681,10 @@ export const Furniture_2028: Item = {
     id: 2028,
     name: "阴森书架",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2393: Item = {
@@ -3247,8 +3693,10 @@ export const Furniture_2393: Item = {
     id: 2393,
     name: "阴森梳妆台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2103: Item = {
@@ -3257,8 +3705,10 @@ export const Furniture_2103: Item = {
     id: 2103,
     name: "阴森大烛台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2650: Item = {
@@ -3267,8 +3717,10 @@ export const Furniture_2650: Item = {
     id: 2650,
     name: "阴森蜡烛",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1814: Item = {
@@ -3277,8 +3729,10 @@ export const Furniture_1814: Item = {
     id: 1814,
     name: "阴森椅",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2064: Item = {
@@ -3287,8 +3741,10 @@ export const Furniture_2064: Item = {
     id: 2064,
     name: "阴森吊灯",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2620: Item = {
@@ -3297,8 +3753,10 @@ export const Furniture_2620: Item = {
     id: 2620,
     name: "阴森箱",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2605: Item = {
@@ -3307,8 +3765,10 @@ export const Furniture_2605: Item = {
     id: 2605,
     name: "阴森时钟",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1815: Item = {
@@ -3317,8 +3777,10 @@ export const Furniture_1815: Item = {
     id: 1815,
     name: "阴森门",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2091: Item = {
@@ -3327,8 +3789,10 @@ export const Furniture_2091: Item = {
     id: 2091,
     name: "阴森灯",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2043: Item = {
@@ -3337,8 +3801,10 @@ export const Furniture_2043: Item = {
     id: 2043,
     name: "阴森灯笼",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2383: Item = {
@@ -3347,8 +3813,10 @@ export const Furniture_2383: Item = {
     id: 2383,
     name: "阴森钢琴",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1818: Item = {
@@ -3357,8 +3825,10 @@ export const Furniture_1818: Item = {
     id: 1818,
     name: "阴森木平台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2847: Item = {
@@ -3367,8 +3837,10 @@ export const Furniture_2847: Item = {
     id: 2847,
     name: "阴森水槽",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2409: Item = {
@@ -3377,8 +3849,10 @@ export const Furniture_2409: Item = {
     id: 2409,
     name: "阴森沙发",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1816: Item = {
@@ -3387,8 +3861,10 @@ export const Furniture_1816: Item = {
     id: 1816,
     name: "阴森桌",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_1817: Item = {
@@ -3397,8 +3873,10 @@ export const Furniture_1817: Item = {
     id: 1817,
     name: "阴森工作台",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_4116: Item = {
@@ -3407,8 +3885,10 @@ export const Furniture_4116: Item = {
     id: 4116,
     name: "阴森马桶",
     Category: Furniture,
+    SubCategory: SF,
     comments: "",
 }
+
 
 
 export const Furniture_2260: Item = {
@@ -3417,8 +3897,10 @@ export const Furniture_2260: Item = {
     id: 2260,
     name: "王朝木",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2261: Item = {
@@ -3427,8 +3909,10 @@ export const Furniture_2261: Item = {
     id: 2261,
     name: "红王朝瓦",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2262: Item = {
@@ -3437,8 +3921,10 @@ export const Furniture_2262: Item = {
     id: 2262,
     name: "蓝王朝瓦",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2263: Item = {
@@ -3447,8 +3933,10 @@ export const Furniture_2263: Item = {
     id: 2263,
     name: "白王朝墙",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2264: Item = {
@@ -3457,8 +3945,10 @@ export const Furniture_2264: Item = {
     id: 2264,
     name: "蓝王朝墙",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2232: Item = {
@@ -3467,8 +3957,10 @@ export const Furniture_2232: Item = {
     id: 2232,
     name: "王朝浴缸",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2231: Item = {
@@ -3477,8 +3969,10 @@ export const Furniture_2231: Item = {
     id: 2231,
     name: "王朝床",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2233: Item = {
@@ -3487,8 +3981,10 @@ export const Furniture_2233: Item = {
     id: 2233,
     name: "王朝书架",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_3912: Item = {
@@ -3497,8 +3993,10 @@ export const Furniture_3912: Item = {
     id: 3912,
     name: "王朝梳妆台",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2227: Item = {
@@ -3507,8 +4005,10 @@ export const Furniture_2227: Item = {
     id: 2227,
     name: "大王朝蜡烛",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2236: Item = {
@@ -3517,8 +4017,10 @@ export const Furniture_2236: Item = {
     id: 2236,
     name: "王朝蜡烛",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2228: Item = {
@@ -3527,8 +4029,10 @@ export const Furniture_2228: Item = {
     id: 2228,
     name: "王朝椅",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2224: Item = {
@@ -3537,8 +4041,10 @@ export const Furniture_2224: Item = {
     id: 2224,
     name: "大王朝灯笼",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2230: Item = {
@@ -3547,8 +4053,10 @@ export const Furniture_2230: Item = {
     id: 2230,
     name: "王朝箱",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2237: Item = {
@@ -3557,8 +4065,10 @@ export const Furniture_2237: Item = {
     id: 2237,
     name: "王朝时钟",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2265: Item = {
@@ -3567,8 +4077,10 @@ export const Furniture_2265: Item = {
     id: 2265,
     name: "王朝门",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2225: Item = {
@@ -3577,8 +4089,10 @@ export const Furniture_2225: Item = {
     id: 2225,
     name: "王朝灯",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2226: Item = {
@@ -3587,8 +4101,10 @@ export const Furniture_2226: Item = {
     id: 2226,
     name: "王朝灯笼",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_3916: Item = {
@@ -3597,8 +4113,10 @@ export const Furniture_3916: Item = {
     id: 3916,
     name: "王朝钢琴",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_3905: Item = {
@@ -3607,8 +4125,10 @@ export const Furniture_3905: Item = {
     id: 3905,
     name: "王朝木平台",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2849: Item = {
@@ -3617,8 +4137,10 @@ export const Furniture_2849: Item = {
     id: 2849,
     name: "王朝水槽",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_3919: Item = {
@@ -3627,8 +4149,10 @@ export const Furniture_3919: Item = {
     id: 3919,
     name: "王朝沙发",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2259: Item = {
@@ -3637,8 +4161,10 @@ export const Furniture_2259: Item = {
     id: 2259,
     name: "王朝桌",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_2229: Item = {
@@ -3647,8 +4173,10 @@ export const Furniture_2229: Item = {
     id: 2229,
     name: "王朝工作台",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_4117: Item = {
@@ -3657,8 +4185,10 @@ export const Furniture_4117: Item = {
     id: 4117,
     name: "王朝马桶",
     Category: Furniture,
+    SubCategory: DF,
     comments: "",
 }
+
 
 
 export const Furniture_4564: Item = {
@@ -3667,8 +4197,10 @@ export const Furniture_4564: Item = {
     id: 4564,
     name: "竹子",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4547: Item = {
@@ -3677,8 +4209,10 @@ export const Furniture_4547: Item = {
     id: 4547,
     name: "大竹子",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4565: Item = {
@@ -3687,8 +4221,10 @@ export const Furniture_4565: Item = {
     id: 4565,
     name: "竹墙",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4548: Item = {
@@ -3697,8 +4233,10 @@ export const Furniture_4548: Item = {
     id: 4548,
     name: "大竹墙",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4667: Item = {
@@ -3707,8 +4245,10 @@ export const Furniture_4667: Item = {
     id: 4667,
     name: "竹栅栏",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4566: Item = {
@@ -3717,8 +4257,10 @@ export const Furniture_4566: Item = {
     id: 4566,
     name: "竹浴缸",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4567: Item = {
@@ -3727,8 +4269,10 @@ export const Furniture_4567: Item = {
     id: 4567,
     name: "竹床",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4568: Item = {
@@ -3737,8 +4281,10 @@ export const Furniture_4568: Item = {
     id: 4568,
     name: "竹书架",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4569: Item = {
@@ -3747,8 +4293,10 @@ export const Furniture_4569: Item = {
     id: 4569,
     name: "竹梳妆台",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4570: Item = {
@@ -3757,8 +4305,10 @@ export const Furniture_4570: Item = {
     id: 4570,
     name: "竹烛台",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4571: Item = {
@@ -3767,8 +4317,10 @@ export const Furniture_4571: Item = {
     id: 4571,
     name: "竹蜡烛",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4572: Item = {
@@ -3777,8 +4329,10 @@ export const Furniture_4572: Item = {
     id: 4572,
     name: "竹椅",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4573: Item = {
@@ -3787,8 +4341,10 @@ export const Furniture_4573: Item = {
     id: 4573,
     name: "竹吊灯",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4574: Item = {
@@ -3797,8 +4353,10 @@ export const Furniture_4574: Item = {
     id: 4574,
     name: "竹箱",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4575: Item = {
@@ -3807,8 +4365,10 @@ export const Furniture_4575: Item = {
     id: 4575,
     name: "竹时钟",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4576: Item = {
@@ -3817,8 +4377,10 @@ export const Furniture_4576: Item = {
     id: 4576,
     name: "竹门",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4577: Item = {
@@ -3827,8 +4389,10 @@ export const Furniture_4577: Item = {
     id: 4577,
     name: "竹灯",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4578: Item = {
@@ -3837,8 +4401,10 @@ export const Furniture_4578: Item = {
     id: 4578,
     name: "竹灯笼",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4579: Item = {
@@ -3847,8 +4413,10 @@ export const Furniture_4579: Item = {
     id: 4579,
     name: "竹钢琴",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4580: Item = {
@@ -3857,8 +4425,10 @@ export const Furniture_4580: Item = {
     id: 4580,
     name: "竹平台",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4581: Item = {
@@ -3867,8 +4437,10 @@ export const Furniture_4581: Item = {
     id: 4581,
     name: "竹水槽",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4582: Item = {
@@ -3877,8 +4449,10 @@ export const Furniture_4582: Item = {
     id: 4582,
     name: "竹沙发",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4583: Item = {
@@ -3887,8 +4461,10 @@ export const Furniture_4583: Item = {
     id: 4583,
     name: "竹桌",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4584: Item = {
@@ -3897,8 +4473,10 @@ export const Furniture_4584: Item = {
     id: 4584,
     name: "竹工作台",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_4586: Item = {
@@ -3907,8 +4485,10 @@ export const Furniture_4586: Item = {
     id: 4586,
     name: "竹马桶",
     Category: Furniture,
+    SubCategory: BF,
     comments: "",
 }
+
 
 
 export const Furniture_276: Item = {
@@ -3917,8 +4497,10 @@ export const Furniture_276: Item = {
     id: 276,
     name: "仙人掌",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_750: Item = {
@@ -3927,8 +4509,10 @@ export const Furniture_750: Item = {
     id: 750,
     name: "仙人掌墙",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2072: Item = {
@@ -3937,8 +4521,10 @@ export const Furniture_2072: Item = {
     id: 2072,
     name: "仙人掌浴缸",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2066: Item = {
@@ -3947,8 +4533,10 @@ export const Furniture_2066: Item = {
     id: 2066,
     name: "仙人掌床",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2020: Item = {
@@ -3957,8 +4545,10 @@ export const Furniture_2020: Item = {
     id: 2020,
     name: "仙人掌书架",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2392: Item = {
@@ -3967,8 +4557,10 @@ export const Furniture_2392: Item = {
     id: 2392,
     name: "仙人掌梳妆台",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2092: Item = {
@@ -3977,8 +4569,10 @@ export const Furniture_2092: Item = {
     id: 2092,
     name: "仙人掌烛台",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2045: Item = {
@@ -3987,8 +4581,10 @@ export const Furniture_2045: Item = {
     id: 2045,
     name: "仙人掌蜡烛",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_807: Item = {
@@ -3997,8 +4593,10 @@ export const Furniture_807: Item = {
     id: 807,
     name: "仙人掌椅",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2055: Item = {
@@ -4007,8 +4605,10 @@ export const Furniture_2055: Item = {
     id: 2055,
     name: "仙人掌吊灯",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2616: Item = {
@@ -4017,8 +4617,10 @@ export const Furniture_2616: Item = {
     id: 2616,
     name: "仙人掌箱",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2592: Item = {
@@ -4027,8 +4629,10 @@ export const Furniture_2592: Item = {
     id: 2592,
     name: "仙人掌时钟",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_816: Item = {
@@ -4037,8 +4641,10 @@ export const Furniture_816: Item = {
     id: 816,
     name: "仙人掌门",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2082: Item = {
@@ -4047,8 +4653,10 @@ export const Furniture_2082: Item = {
     id: 2082,
     name: "仙人掌灯",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2032: Item = {
@@ -4057,8 +4665,10 @@ export const Furniture_2032: Item = {
     id: 2032,
     name: "仙人掌灯笼",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2382: Item = {
@@ -4067,8 +4677,10 @@ export const Furniture_2382: Item = {
     id: 2382,
     name: "仙人掌钢琴",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2744: Item = {
@@ -4077,8 +4689,10 @@ export const Furniture_2744: Item = {
     id: 2744,
     name: "仙人掌平台",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2854: Item = {
@@ -4087,8 +4701,10 @@ export const Furniture_2854: Item = {
     id: 2854,
     name: "仙人掌水槽",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2408: Item = {
@@ -4097,8 +4713,10 @@ export const Furniture_2408: Item = {
     id: 2408,
     name: "仙人掌沙发",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_2743: Item = {
@@ -4107,8 +4725,10 @@ export const Furniture_2743: Item = {
     id: 2743,
     name: "仙人掌桌",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_812: Item = {
@@ -4117,8 +4737,10 @@ export const Furniture_812: Item = {
     id: 812,
     name: "仙人掌工作台",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_4100: Item = {
@@ -4127,8 +4749,10 @@ export const Furniture_4100: Item = {
     id: 4100,
     name: "仙人掌马桶",
     Category: Furniture,
+    SubCategory: CF,
     comments: "",
 }
+
 
 
 export const Furniture_1725: Item = {
@@ -4137,8 +4761,10 @@ export const Furniture_1725: Item = {
     id: 1725,
     name: "南瓜",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1726: Item = {
@@ -4147,8 +4773,10 @@ export const Furniture_1726: Item = {
     id: 1726,
     name: "南瓜墙",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2661: Item = {
@@ -4157,8 +4785,10 @@ export const Furniture_2661: Item = {
     id: 2661,
     name: "南瓜浴缸",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2669: Item = {
@@ -4167,8 +4797,10 @@ export const Furniture_2669: Item = {
     id: 2669,
     name: "南瓜床",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2670: Item = {
@@ -4177,8 +4809,10 @@ export const Furniture_2670: Item = {
     id: 2670,
     name: "南瓜书架",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2637: Item = {
@@ -4187,8 +4821,10 @@ export const Furniture_2637: Item = {
     id: 2637,
     name: "南瓜梳妆台",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2668: Item = {
@@ -4197,8 +4833,10 @@ export const Furniture_2668: Item = {
     id: 2668,
     name: "南瓜烛台",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2054: Item = {
@@ -4207,8 +4845,10 @@ export const Furniture_2054: Item = {
     id: 2054,
     name: "南瓜蜡烛",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1792: Item = {
@@ -4217,8 +4857,10 @@ export const Furniture_1792: Item = {
     id: 1792,
     name: "南瓜椅",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2656: Item = {
@@ -4227,8 +4869,10 @@ export const Furniture_2656: Item = {
     id: 2656,
     name: "南瓜吊灯",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2619: Item = {
@@ -4237,8 +4881,10 @@ export const Furniture_2619: Item = {
     id: 2619,
     name: "南瓜箱",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2603: Item = {
@@ -4247,8 +4893,10 @@ export const Furniture_2603: Item = {
     id: 2603,
     name: "南瓜时钟",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1793: Item = {
@@ -4257,8 +4905,10 @@ export const Furniture_1793: Item = {
     id: 1793,
     name: "南瓜门",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2643: Item = {
@@ -4267,8 +4917,10 @@ export const Furniture_2643: Item = {
     id: 2643,
     name: "南瓜灯",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2641: Item = {
@@ -4277,8 +4929,10 @@ export const Furniture_2641: Item = {
     id: 2641,
     name: "南瓜灯笼",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2671: Item = {
@@ -4287,8 +4941,10 @@ export const Furniture_2671: Item = {
     id: 2671,
     name: "南瓜钢琴",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1796: Item = {
@@ -4297,8 +4953,10 @@ export const Furniture_1796: Item = {
     id: 1796,
     name: "南瓜平台",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2846: Item = {
@@ -4307,8 +4965,10 @@ export const Furniture_2846: Item = {
     id: 2846,
     name: "南瓜水槽",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_2415: Item = {
@@ -4317,8 +4977,10 @@ export const Furniture_2415: Item = {
     id: 2415,
     name: "南瓜沙发",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1794: Item = {
@@ -4327,8 +4989,10 @@ export const Furniture_1794: Item = {
     id: 1794,
     name: "南瓜桌",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1795: Item = {
@@ -4337,8 +5001,10 @@ export const Furniture_1795: Item = {
     id: 1795,
     name: "南瓜工作台",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_4115: Item = {
@@ -4347,8 +5013,10 @@ export const Furniture_4115: Item = {
     id: 4115,
     name: "南瓜马桶",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1813: Item = {
@@ -4357,8 +5025,10 @@ export const Furniture_1813: Item = {
     id: 1813,
     name: "杰克南瓜灯",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1808: Item = {
@@ -4367,8 +5037,10 @@ export const Furniture_1808: Item = {
     id: 1808,
     name: "杰克南瓜挂灯",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_1812: Item = {
@@ -4377,8 +5049,10 @@ export const Furniture_1812: Item = {
     id: 1812,
     name: "南瓜头吊灯",
     Category: Furniture,
+    SubCategory: PumF,
     comments: "",
 }
+
 
 
 export const Furniture_183: Item = {
@@ -4387,8 +5061,10 @@ export const Furniture_183: Item = {
     id: 183,
     name: "发光蘑菇",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_764: Item = {
@@ -4397,8 +5073,10 @@ export const Furniture_764: Item = {
     id: 764,
     name: "蘑菇墙",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2537: Item = {
@@ -4407,8 +5085,10 @@ export const Furniture_2537: Item = {
     id: 2537,
     name: "蘑菇浴缸",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2538: Item = {
@@ -4417,8 +5097,10 @@ export const Furniture_2538: Item = {
     id: 2538,
     name: "蘑菇床",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2540: Item = {
@@ -4427,8 +5109,10 @@ export const Furniture_2540: Item = {
     id: 2540,
     name: "蘑菇书架",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2545: Item = {
@@ -4437,8 +5121,10 @@ export const Furniture_2545: Item = {
     id: 2545,
     name: "蘑菇梳妆台",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2541: Item = {
@@ -4447,8 +5133,10 @@ export const Furniture_2541: Item = {
     id: 2541,
     name: "蘑菇烛台",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2542: Item = {
@@ -4457,8 +5145,10 @@ export const Furniture_2542: Item = {
     id: 2542,
     name: "蘑菇蜡烛",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_810: Item = {
@@ -4467,8 +5157,10 @@ export const Furniture_810: Item = {
     id: 810,
     name: "蘑菇椅",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2543: Item = {
@@ -4477,8 +5169,10 @@ export const Furniture_2543: Item = {
     id: 2543,
     name: "蘑菇吊灯",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2544: Item = {
@@ -4487,8 +5181,10 @@ export const Furniture_2544: Item = {
     id: 2544,
     name: "蘑菇箱",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2599: Item = {
@@ -4497,8 +5193,10 @@ export const Furniture_2599: Item = {
     id: 2599,
     name: "蘑菇时钟",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_818: Item = {
@@ -4507,8 +5205,10 @@ export const Furniture_818: Item = {
     id: 818,
     name: "蘑菇门",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2547: Item = {
@@ -4517,8 +5217,10 @@ export const Furniture_2547: Item = {
     id: 2547,
     name: "蘑菇灯",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2546: Item = {
@@ -4527,8 +5229,10 @@ export const Furniture_2546: Item = {
     id: 2546,
     name: "蘑菇灯笼",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2548: Item = {
@@ -4537,8 +5241,10 @@ export const Furniture_2548: Item = {
     id: 2548,
     name: "蘑菇钢琴",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2549: Item = {
@@ -4547,8 +5253,10 @@ export const Furniture_2549: Item = {
     id: 2549,
     name: "蘑菇平台",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2851: Item = {
@@ -4557,8 +5265,10 @@ export const Furniture_2851: Item = {
     id: 2851,
     name: "蘑菇水槽",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2413: Item = {
@@ -4567,8 +5277,10 @@ export const Furniture_2413: Item = {
     id: 2413,
     name: "蘑菇沙发",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2550: Item = {
@@ -4577,8 +5289,10 @@ export const Furniture_2550: Item = {
     id: 2550,
     name: "蘑菇桌",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_814: Item = {
@@ -4587,8 +5301,10 @@ export const Furniture_814: Item = {
     id: 814,
     name: "蘑菇工作台",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_4103: Item = {
@@ -4597,8 +5313,10 @@ export const Furniture_4103: Item = {
     id: 4103,
     name: "蘑菇马桶",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_2539: Item = {
@@ -4607,8 +5325,10 @@ export const Furniture_2539: Item = {
     id: 2539,
     name: "蘑菇长椅",
     Category: Furniture,
+    SubCategory: MushF,
     comments: "",
 }
+
 
 
 export const Furniture_3086: Item = {
@@ -4617,8 +5337,10 @@ export const Furniture_3086: Item = {
     id: 3086,
     name: "花岗岩块",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3087: Item = {
@@ -4627,8 +5349,10 @@ export const Furniture_3087: Item = {
     id: 3087,
     name: "光面花岗岩块",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3088: Item = {
@@ -4637,8 +5361,10 @@ export const Furniture_3088: Item = {
     id: 3088,
     name: "花岗岩墙",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3089: Item = {
@@ -4647,8 +5373,10 @@ export const Furniture_3089: Item = {
     id: 3089,
     name: "光面花岗岩墙",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3161: Item = {
@@ -4657,8 +5385,10 @@ export const Furniture_3161: Item = {
     id: 3161,
     name: "花岗岩浴缸",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3164: Item = {
@@ -4667,8 +5397,10 @@ export const Furniture_3164: Item = {
     id: 3164,
     name: "花岗岩床",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3167: Item = {
@@ -4677,8 +5409,10 @@ export const Furniture_3167: Item = {
     id: 3167,
     name: "花岗岩书架",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3134: Item = {
@@ -4687,8 +5421,10 @@ export const Furniture_3134: Item = {
     id: 3134,
     name: "花岗岩梳妆台",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3170: Item = {
@@ -4697,8 +5433,10 @@ export const Furniture_3170: Item = {
     id: 3170,
     name: "花岗岩烛台",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3173: Item = {
@@ -4707,8 +5445,10 @@ export const Furniture_3173: Item = {
     id: 3173,
     name: "花岗岩蜡烛",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3176: Item = {
@@ -4717,8 +5457,10 @@ export const Furniture_3176: Item = {
     id: 3176,
     name: "花岗岩椅",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3179: Item = {
@@ -4727,8 +5469,10 @@ export const Furniture_3179: Item = {
     id: 3179,
     name: "花岗岩吊灯",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3125: Item = {
@@ -4737,8 +5481,10 @@ export const Furniture_3125: Item = {
     id: 3125,
     name: "花岗岩箱",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3128: Item = {
@@ -4747,8 +5493,10 @@ export const Furniture_3128: Item = {
     id: 3128,
     name: "花岗岩时钟",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3131: Item = {
@@ -4757,8 +5505,10 @@ export const Furniture_3131: Item = {
     id: 3131,
     name: "花岗岩门",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3137: Item = {
@@ -4767,8 +5517,10 @@ export const Furniture_3137: Item = {
     id: 3137,
     name: "花岗岩灯",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3140: Item = {
@@ -4777,8 +5529,10 @@ export const Furniture_3140: Item = {
     id: 3140,
     name: "花岗岩灯笼",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3143: Item = {
@@ -4787,8 +5541,10 @@ export const Furniture_3143: Item = {
     id: 3143,
     name: "花岗岩钢琴",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3146: Item = {
@@ -4797,8 +5553,10 @@ export const Furniture_3146: Item = {
     id: 3146,
     name: "花岗岩平台",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3149: Item = {
@@ -4807,8 +5565,10 @@ export const Furniture_3149: Item = {
     id: 3149,
     name: "花岗岩水槽",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3152: Item = {
@@ -4817,8 +5577,10 @@ export const Furniture_3152: Item = {
     id: 3152,
     name: "花岗岩沙发",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3155: Item = {
@@ -4827,8 +5589,10 @@ export const Furniture_3155: Item = {
     id: 3155,
     name: "花岗岩桌",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3158: Item = {
@@ -4837,8 +5601,10 @@ export const Furniture_3158: Item = {
     id: 3158,
     name: "花岗岩工作台",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_4122: Item = {
@@ -4847,8 +5613,10 @@ export const Furniture_4122: Item = {
     id: 4122,
     name: "花岗岩马桶",
     Category: Furniture,
+    SubCategory: GranF,
     comments: "",
 }
+
 
 
 export const Furniture_3081: Item = {
@@ -4857,8 +5625,10 @@ export const Furniture_3081: Item = {
     id: 3081,
     name: "大理石块",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3066: Item = {
@@ -4867,8 +5637,10 @@ export const Furniture_3066: Item = {
     id: 3066,
     name: "光面大理石块",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3082: Item = {
@@ -4877,8 +5649,10 @@ export const Furniture_3082: Item = {
     id: 3082,
     name: "大理石墙",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3083: Item = {
@@ -4887,8 +5661,10 @@ export const Furniture_3083: Item = {
     id: 3083,
     name: "光面大理石墙",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3160: Item = {
@@ -4897,8 +5673,10 @@ export const Furniture_3160: Item = {
     id: 3160,
     name: "大理石浴缸",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3163: Item = {
@@ -4907,8 +5685,10 @@ export const Furniture_3163: Item = {
     id: 3163,
     name: "大理石床",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3166: Item = {
@@ -4917,8 +5697,10 @@ export const Furniture_3166: Item = {
     id: 3166,
     name: "大理石书架",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3133: Item = {
@@ -4927,8 +5709,10 @@ export const Furniture_3133: Item = {
     id: 3133,
     name: "大理石梳妆台",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3169: Item = {
@@ -4937,8 +5721,10 @@ export const Furniture_3169: Item = {
     id: 3169,
     name: "大理石烛台",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3172: Item = {
@@ -4947,8 +5733,10 @@ export const Furniture_3172: Item = {
     id: 3172,
     name: "大理石蜡烛",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3175: Item = {
@@ -4957,8 +5745,10 @@ export const Furniture_3175: Item = {
     id: 3175,
     name: "大理石椅",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3178: Item = {
@@ -4967,8 +5757,10 @@ export const Furniture_3178: Item = {
     id: 3178,
     name: "大理石吊灯",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3181: Item = {
@@ -4977,8 +5769,10 @@ export const Furniture_3181: Item = {
     id: 3181,
     name: "大理石箱",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3127: Item = {
@@ -4987,8 +5781,10 @@ export const Furniture_3127: Item = {
     id: 3127,
     name: "大理石时钟",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3130: Item = {
@@ -4997,8 +5793,10 @@ export const Furniture_3130: Item = {
     id: 3130,
     name: "大理石门",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3136: Item = {
@@ -5007,8 +5805,10 @@ export const Furniture_3136: Item = {
     id: 3136,
     name: "大理石灯",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3139: Item = {
@@ -5017,8 +5817,10 @@ export const Furniture_3139: Item = {
     id: 3139,
     name: "大理石灯笼",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3142: Item = {
@@ -5027,8 +5829,10 @@ export const Furniture_3142: Item = {
     id: 3142,
     name: "大理石钢琴",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3145: Item = {
@@ -5037,8 +5841,10 @@ export const Furniture_3145: Item = {
     id: 3145,
     name: "大理石平台",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3148: Item = {
@@ -5047,8 +5853,10 @@ export const Furniture_3148: Item = {
     id: 3148,
     name: "大理石水槽",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3151: Item = {
@@ -5057,8 +5865,10 @@ export const Furniture_3151: Item = {
     id: 3151,
     name: "大理石沙发",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3154: Item = {
@@ -5067,8 +5877,10 @@ export const Furniture_3154: Item = {
     id: 3154,
     name: "大理石桌",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_3157: Item = {
@@ -5077,8 +5889,10 @@ export const Furniture_3157: Item = {
     id: 3157,
     name: "大理石工作台",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_4123: Item = {
@@ -5087,8 +5901,10 @@ export const Furniture_4123: Item = {
     id: 4123,
     name: "大理石马桶",
     Category: Furniture,
+    SubCategory: MarF,
     comments: "",
 }
+
 
 
 export const Furniture_4051: Item = {
@@ -5097,8 +5913,10 @@ export const Furniture_4051: Item = {
     id: 4051,
     name: "光面沙岩",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4053: Item = {
@@ -5107,8 +5925,10 @@ export const Furniture_4053: Item = {
     id: 4053,
     name: "光面沙岩墙",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4298: Item = {
@@ -5117,8 +5937,10 @@ export const Furniture_4298: Item = {
     id: 4298,
     name: "沙岩浴缸",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4299: Item = {
@@ -5127,8 +5949,10 @@ export const Furniture_4299: Item = {
     id: 4299,
     name: "沙岩床",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4300: Item = {
@@ -5137,8 +5961,10 @@ export const Furniture_4300: Item = {
     id: 4300,
     name: "沙岩书架",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4301: Item = {
@@ -5147,8 +5973,10 @@ export const Furniture_4301: Item = {
     id: 4301,
     name: "沙岩梳妆台",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4302: Item = {
@@ -5157,8 +5985,10 @@ export const Furniture_4302: Item = {
     id: 4302,
     name: "沙岩烛台",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4303: Item = {
@@ -5167,8 +5997,10 @@ export const Furniture_4303: Item = {
     id: 4303,
     name: "沙岩蜡烛",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4304: Item = {
@@ -5177,8 +6009,10 @@ export const Furniture_4304: Item = {
     id: 4304,
     name: "沙岩椅",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4305: Item = {
@@ -5187,8 +6021,10 @@ export const Furniture_4305: Item = {
     id: 4305,
     name: "沙岩吊灯",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4267: Item = {
@@ -5197,8 +6033,10 @@ export const Furniture_4267: Item = {
     id: 4267,
     name: "沙岩箱",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4306: Item = {
@@ -5207,8 +6045,10 @@ export const Furniture_4306: Item = {
     id: 4306,
     name: "沙岩时钟",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4307: Item = {
@@ -5217,8 +6057,10 @@ export const Furniture_4307: Item = {
     id: 4307,
     name: "沙岩门",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4308: Item = {
@@ -5227,8 +6069,10 @@ export const Furniture_4308: Item = {
     id: 4308,
     name: "沙岩灯",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4309: Item = {
@@ -5237,8 +6081,10 @@ export const Furniture_4309: Item = {
     id: 4309,
     name: "沙岩灯笼",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4310: Item = {
@@ -5247,8 +6093,10 @@ export const Furniture_4310: Item = {
     id: 4310,
     name: "沙岩钢琴",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4311: Item = {
@@ -5257,8 +6105,10 @@ export const Furniture_4311: Item = {
     id: 4311,
     name: "沙岩平台",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4312: Item = {
@@ -5267,8 +6117,10 @@ export const Furniture_4312: Item = {
     id: 4312,
     name: "沙岩水槽",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4313: Item = {
@@ -5277,8 +6129,10 @@ export const Furniture_4313: Item = {
     id: 4313,
     name: "沙岩沙发",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4314: Item = {
@@ -5287,8 +6141,10 @@ export const Furniture_4314: Item = {
     id: 4314,
     name: "沙岩桌",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4315: Item = {
@@ -5297,8 +6153,10 @@ export const Furniture_4315: Item = {
     id: 4315,
     name: "沙岩工作台",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_4316: Item = {
@@ -5307,8 +6165,10 @@ export const Furniture_4316: Item = {
     id: 4316,
     name: "沙岩马桶",
     Category: Furniture,
+    SubCategory: SanF,
     comments: "",
 }
+
 
 
 export const Furniture_824: Item = {
@@ -5317,8 +6177,10 @@ export const Furniture_824: Item = {
     id: 824,
     name: "日盘块",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_825: Item = {
@@ -5327,8 +6189,10 @@ export const Furniture_825: Item = {
     id: 825,
     name: "飞盘墙",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2080: Item = {
@@ -5337,8 +6201,10 @@ export const Furniture_2080: Item = {
     id: 2080,
     name: "天域浴缸",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2070: Item = {
@@ -5347,8 +6213,10 @@ export const Furniture_2070: Item = {
     id: 2070,
     name: "天域床",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2029: Item = {
@@ -5357,8 +6225,10 @@ export const Furniture_2029: Item = {
     id: 2029,
     name: "天域书架",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2394: Item = {
@@ -5367,8 +6237,10 @@ export const Furniture_2394: Item = {
     id: 2394,
     name: "天域梳妆台",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2102: Item = {
@@ -5377,8 +6249,10 @@ export const Furniture_2102: Item = {
     id: 2102,
     name: "天域烛台",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2053: Item = {
@@ -5387,8 +6261,10 @@ export const Furniture_2053: Item = {
     id: 2053,
     name: "天域蜡烛",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_826: Item = {
@@ -5397,8 +6273,10 @@ export const Furniture_826: Item = {
     id: 826,
     name: "天域椅",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2063: Item = {
@@ -5407,8 +6285,10 @@ export const Furniture_2063: Item = {
     id: 2063,
     name: "天域吊灯",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_838: Item = {
@@ -5417,8 +6297,10 @@ export const Furniture_838: Item = {
     id: 838,
     name: "天域箱",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2606: Item = {
@@ -5427,8 +6309,10 @@ export const Furniture_2606: Item = {
     id: 2606,
     name: "天域时钟",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_3899: Item = {
@@ -5437,8 +6321,10 @@ export const Furniture_3899: Item = {
     id: 3899,
     name: "日盘时钟",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_837: Item = {
@@ -5447,8 +6333,10 @@ export const Furniture_837: Item = {
     id: 837,
     name: "天域门",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2090: Item = {
@@ -5457,8 +6345,10 @@ export const Furniture_2090: Item = {
     id: 2090,
     name: "天域灯",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2042: Item = {
@@ -5467,8 +6357,10 @@ export const Furniture_2042: Item = {
     id: 2042,
     name: "天域灯笼",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2384: Item = {
@@ -5477,8 +6369,10 @@ export const Furniture_2384: Item = {
     id: 2384,
     name: "天域钢琴",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2628: Item = {
@@ -5487,8 +6381,10 @@ export const Furniture_2628: Item = {
     id: 2628,
     name: "天域平台",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2834: Item = {
@@ -5497,8 +6393,10 @@ export const Furniture_2834: Item = {
     id: 2834,
     name: "天域水槽",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2410: Item = {
@@ -5507,8 +6405,10 @@ export const Furniture_2410: Item = {
     id: 2410,
     name: "天域沙发",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_830: Item = {
@@ -5517,8 +6417,10 @@ export const Furniture_830: Item = {
     id: 830,
     name: "天域桌",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_2631: Item = {
@@ -5527,8 +6429,10 @@ export const Furniture_2631: Item = {
     id: 2631,
     name: "天域工作台",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_4104: Item = {
@@ -5537,8 +6441,10 @@ export const Furniture_4104: Item = {
     id: 4104,
     name: "天域马桶",
     Category: Furniture,
+    SubCategory: SkyF,
     comments: "",
 }
+
 
 
 export const Furniture_3100: Item = {
@@ -5547,8 +6453,10 @@ export const Furniture_3100: Item = {
     id: 3100,
     name: "陨石砖",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3101: Item = {
@@ -5557,8 +6465,10 @@ export const Furniture_3101: Item = {
     id: 3101,
     name: "陨石砖墙",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3159: Item = {
@@ -5567,8 +6477,10 @@ export const Furniture_3159: Item = {
     id: 3159,
     name: "陨石浴缸",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3162: Item = {
@@ -5577,8 +6489,10 @@ export const Furniture_3162: Item = {
     id: 3162,
     name: "陨石床",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3165: Item = {
@@ -5587,8 +6501,10 @@ export const Furniture_3165: Item = {
     id: 3165,
     name: "陨石书架",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3132: Item = {
@@ -5597,8 +6513,10 @@ export const Furniture_3132: Item = {
     id: 3132,
     name: "陨石梳妆台",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3168: Item = {
@@ -5607,8 +6525,10 @@ export const Furniture_3168: Item = {
     id: 3168,
     name: "陨石烛台",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3171: Item = {
@@ -5617,8 +6537,10 @@ export const Furniture_3171: Item = {
     id: 3171,
     name: "陨石蜡烛",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3174: Item = {
@@ -5627,8 +6549,10 @@ export const Furniture_3174: Item = {
     id: 3174,
     name: "陨石椅",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3177: Item = {
@@ -5637,8 +6561,10 @@ export const Furniture_3177: Item = {
     id: 3177,
     name: "陨石吊灯",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3180: Item = {
@@ -5647,8 +6573,10 @@ export const Furniture_3180: Item = {
     id: 3180,
     name: "陨石箱",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3126: Item = {
@@ -5657,8 +6585,10 @@ export const Furniture_3126: Item = {
     id: 3126,
     name: "陨石钟",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3129: Item = {
@@ -5667,8 +6597,10 @@ export const Furniture_3129: Item = {
     id: 3129,
     name: "陨石门",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3135: Item = {
@@ -5677,8 +6609,10 @@ export const Furniture_3135: Item = {
     id: 3135,
     name: "陨石灯",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3138: Item = {
@@ -5687,8 +6621,10 @@ export const Furniture_3138: Item = {
     id: 3138,
     name: "陨石灯笼",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3141: Item = {
@@ -5697,8 +6633,10 @@ export const Furniture_3141: Item = {
     id: 3141,
     name: "陨石钢琴",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3144: Item = {
@@ -5707,8 +6645,10 @@ export const Furniture_3144: Item = {
     id: 3144,
     name: "陨石平台",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3147: Item = {
@@ -5717,8 +6657,10 @@ export const Furniture_3147: Item = {
     id: 3147,
     name: "陨石水槽",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3150: Item = {
@@ -5727,8 +6669,10 @@ export const Furniture_3150: Item = {
     id: 3150,
     name: "陨石沙发",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3153: Item = {
@@ -5737,8 +6681,10 @@ export const Furniture_3153: Item = {
     id: 3153,
     name: "陨石桌",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_3156: Item = {
@@ -5747,8 +6693,10 @@ export const Furniture_3156: Item = {
     id: 3156,
     name: "陨石工作台",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_4141: Item = {
@@ -5757,8 +6705,10 @@ export const Furniture_4141: Item = {
     id: 4141,
     name: "陨石马桶",
     Category: Furniture,
+    SubCategory: MeteF,
     comments: "",
 }
+
 
 
 export const Furniture_170: Item = {
@@ -5767,8 +6717,10 @@ export const Furniture_170: Item = {
     id: 170,
     name: "玻璃",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_392: Item = {
@@ -5777,8 +6729,10 @@ export const Furniture_392: Item = {
     id: 392,
     name: "玻璃墙",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2075: Item = {
@@ -5787,8 +6741,10 @@ export const Furniture_2075: Item = {
     id: 2075,
     name: "玻璃浴缸",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_1719: Item = {
@@ -5797,8 +6753,10 @@ export const Furniture_1719: Item = {
     id: 1719,
     name: "玻璃床",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2025: Item = {
@@ -5807,8 +6765,10 @@ export const Furniture_2025: Item = {
     id: 2025,
     name: "玻璃书架",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2639: Item = {
@@ -5817,8 +6777,10 @@ export const Furniture_2639: Item = {
     id: 2639,
     name: "玻璃梳妆台",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2097: Item = {
@@ -5827,8 +6789,10 @@ export const Furniture_2097: Item = {
     id: 2097,
     name: "玻璃烛台",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2048: Item = {
@@ -5837,8 +6801,10 @@ export const Furniture_2048: Item = {
     id: 2048,
     name: "玻璃蜡烛",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_1703: Item = {
@@ -5847,8 +6813,10 @@ export const Furniture_1703: Item = {
     id: 1703,
     name: "玻璃椅",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2065: Item = {
@@ -5857,8 +6825,10 @@ export const Furniture_2065: Item = {
     id: 2065,
     name: "玻璃吊灯",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2748: Item = {
@@ -5867,8 +6837,10 @@ export const Furniture_2748: Item = {
     id: 2748,
     name: "玻璃箱",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2239: Item = {
@@ -5877,8 +6849,10 @@ export const Furniture_2239: Item = {
     id: 2239,
     name: "玻璃时钟",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_1709: Item = {
@@ -5887,8 +6861,10 @@ export const Furniture_1709: Item = {
     id: 1709,
     name: "玻璃门",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2085: Item = {
@@ -5897,8 +6873,10 @@ export const Furniture_2085: Item = {
     id: 2085,
     name: "玻璃灯",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2037: Item = {
@@ -5907,8 +6885,10 @@ export const Furniture_2037: Item = {
     id: 2037,
     name: "玻璃灯笼",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2254: Item = {
@@ -5917,8 +6897,10 @@ export const Furniture_2254: Item = {
     id: 2254,
     name: "玻璃钢琴",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_1702: Item = {
@@ -5927,8 +6909,10 @@ export const Furniture_1702: Item = {
     id: 1702,
     name: "玻璃平台",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2842: Item = {
@@ -5937,8 +6921,10 @@ export const Furniture_2842: Item = {
     id: 2842,
     name: "玻璃水槽",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2414: Item = {
@@ -5947,8 +6933,10 @@ export const Furniture_2414: Item = {
     id: 2414,
     name: "玻璃沙发",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_1713: Item = {
@@ -5957,8 +6945,10 @@ export const Furniture_1713: Item = {
     id: 1713,
     name: "玻璃桌",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_2632: Item = {
@@ -5967,8 +6957,10 @@ export const Furniture_2632: Item = {
     id: 2632,
     name: "玻璃工作台",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_4112: Item = {
@@ -5977,8 +6969,10 @@ export const Furniture_4112: Item = {
     id: 4112,
     name: "玻璃马桶",
     Category: Furniture,
+    SubCategory: GlaF,
     comments: "",
 }
+
 
 
 export const Furniture_883: Item = {
@@ -5987,8 +6981,10 @@ export const Furniture_883: Item = {
     id: 883,
     name: "冰雪砖",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_884: Item = {
@@ -5997,8 +6993,10 @@ export const Furniture_884: Item = {
     id: 884,
     name: "冰雪砖墙",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2076: Item = {
@@ -6007,8 +7005,10 @@ export const Furniture_2076: Item = {
     id: 2076,
     name: "冰冻浴缸",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2068: Item = {
@@ -6017,8 +7017,10 @@ export const Furniture_2068: Item = {
     id: 2068,
     name: "冰冻床",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2031: Item = {
@@ -6027,8 +7029,10 @@ export const Furniture_2031: Item = {
     id: 2031,
     name: "冰冻书架",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_3913: Item = {
@@ -6037,8 +7041,10 @@ export const Furniture_3913: Item = {
     id: 3913,
     name: "冰冻梳妆台",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2100: Item = {
@@ -6047,8 +7053,10 @@ export const Furniture_2100: Item = {
     id: 2100,
     name: "冰冻烛台",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2049: Item = {
@@ -6057,8 +7065,10 @@ export const Furniture_2049: Item = {
     id: 2049,
     name: "冰冻蜡烛",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2288: Item = {
@@ -6067,8 +7077,10 @@ export const Furniture_2288: Item = {
     id: 2288,
     name: "冰冻椅",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2059: Item = {
@@ -6077,8 +7089,10 @@ export const Furniture_2059: Item = {
     id: 2059,
     name: "冰冻吊灯",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_681: Item = {
@@ -6087,8 +7101,10 @@ export const Furniture_681: Item = {
     id: 681,
     name: "冰冻箱",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2594: Item = {
@@ -6097,8 +7113,10 @@ export const Furniture_2594: Item = {
     id: 2594,
     name: "冰冻时钟",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2044: Item = {
@@ -6107,8 +7125,10 @@ export const Furniture_2044: Item = {
     id: 2044,
     name: "冰冻门",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2086: Item = {
@@ -6117,8 +7137,10 @@ export const Furniture_2086: Item = {
     id: 2086,
     name: "冰冻灯",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2040: Item = {
@@ -6127,8 +7149,10 @@ export const Furniture_2040: Item = {
     id: 2040,
     name: "冰冻灯笼",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2247: Item = {
@@ -6137,8 +7161,10 @@ export const Furniture_2247: Item = {
     id: 2247,
     name: "冰冻钢琴",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_3908: Item = {
@@ -6147,8 +7173,10 @@ export const Furniture_3908: Item = {
     id: 3908,
     name: "冰冻平台",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2848: Item = {
@@ -6157,8 +7185,10 @@ export const Furniture_2848: Item = {
     id: 2848,
     name: "冰冻水槽",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2635: Item = {
@@ -6167,8 +7197,10 @@ export const Furniture_2635: Item = {
     id: 2635,
     name: "冰冻沙发",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2248: Item = {
@@ -6177,8 +7209,10 @@ export const Furniture_2248: Item = {
     id: 2248,
     name: "冰冻桌",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_2252: Item = {
@@ -6187,8 +7221,10 @@ export const Furniture_2252: Item = {
     id: 2252,
     name: "冰冻工作台",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_4111: Item = {
@@ -6197,8 +7233,10 @@ export const Furniture_4111: Item = {
     id: 4111,
     name: "冰冻马桶",
     Category: Furniture,
+    SubCategory: FroF,
     comments: "",
 }
+
 
 
 export const Furniture_1125: Item = {
@@ -6207,8 +7245,10 @@ export const Furniture_1125: Item = {
     id: 1125,
     name: "蜂蜜块",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1124: Item = {
@@ -6217,8 +7257,10 @@ export const Furniture_1124: Item = {
     id: 1124,
     name: "蜂巢",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1126: Item = {
@@ -6227,8 +7269,10 @@ export const Furniture_1126: Item = {
     id: 1126,
     name: "蜂巢墙",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2124: Item = {
@@ -6237,8 +7281,10 @@ export const Furniture_2124: Item = {
     id: 2124,
     name: "蜂蜜浴缸",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1721: Item = {
@@ -6247,8 +7293,10 @@ export const Furniture_1721: Item = {
     id: 1721,
     name: "蜂蜜床",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2023: Item = {
@@ -6257,8 +7305,10 @@ export const Furniture_2023: Item = {
     id: 2023,
     name: "蜂蜜书架",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2395: Item = {
@@ -6267,8 +7317,10 @@ export const Furniture_2395: Item = {
     id: 2395,
     name: "蜂蜜梳妆台",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2095: Item = {
@@ -6277,8 +7329,10 @@ export const Furniture_2095: Item = {
     id: 2095,
     name: "蜂蜜烛台",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2648: Item = {
@@ -6287,8 +7341,10 @@ export const Furniture_2648: Item = {
     id: 2648,
     name: "蜂蜜蜡烛",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1707: Item = {
@@ -6297,8 +7353,10 @@ export const Furniture_1707: Item = {
     id: 1707,
     name: "蜂蜜椅",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2058: Item = {
@@ -6307,8 +7365,10 @@ export const Furniture_2058: Item = {
     id: 2058,
     name: "蜂蜜吊灯",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2249: Item = {
@@ -6317,8 +7377,10 @@ export const Furniture_2249: Item = {
     id: 2249,
     name: "蜂蜜箱",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2240: Item = {
@@ -6327,8 +7389,10 @@ export const Furniture_2240: Item = {
     id: 2240,
     name: "蜂蜜时钟",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1711: Item = {
@@ -6337,8 +7401,10 @@ export const Furniture_1711: Item = {
     id: 1711,
     name: "蜂蜜门",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2129: Item = {
@@ -6347,8 +7413,10 @@ export const Furniture_2129: Item = {
     id: 2129,
     name: "蜂蜜灯",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2035: Item = {
@@ -6357,8 +7425,10 @@ export const Furniture_2035: Item = {
     id: 2035,
     name: "蜂蜜灯笼",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2255: Item = {
@@ -6367,8 +7437,10 @@ export const Furniture_2255: Item = {
     id: 2255,
     name: "蜂蜜钢琴",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2630: Item = {
@@ -6377,8 +7449,10 @@ export const Furniture_2630: Item = {
     id: 2630,
     name: "蜂蜜平台",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2844: Item = {
@@ -6387,8 +7461,10 @@ export const Furniture_2844: Item = {
     id: 2844,
     name: "蜂蜜水槽",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2411: Item = {
@@ -6397,8 +7473,10 @@ export const Furniture_2411: Item = {
     id: 2411,
     name: "蜂蜜沙发",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_1717: Item = {
@@ -6407,8 +7485,10 @@ export const Furniture_1717: Item = {
     id: 1717,
     name: "蜂蜜桌",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_2251: Item = {
@@ -6417,8 +7497,10 @@ export const Furniture_2251: Item = {
     id: 2251,
     name: "蜂蜜工作台",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_4113: Item = {
@@ -6427,8 +7509,10 @@ export const Furniture_4113: Item = {
     id: 4113,
     name: "蜂蜜马桶",
     Category: Furniture,
+    SubCategory: HonF,
     comments: "",
 }
+
 
 
 export const Furniture_762: Item = {
@@ -6437,8 +7521,10 @@ export const Furniture_762: Item = {
     id: 762,
     name: "史莱姆块",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_769: Item = {
@@ -6447,8 +7533,10 @@ export const Furniture_769: Item = {
     id: 769,
     name: "史莱姆块墙",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2567: Item = {
@@ -6457,8 +7545,10 @@ export const Furniture_2567: Item = {
     id: 2567,
     name: "史莱姆浴缸",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2568: Item = {
@@ -6467,8 +7557,10 @@ export const Furniture_2568: Item = {
     id: 2568,
     name: "史莱姆床",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2569: Item = {
@@ -6477,8 +7569,10 @@ export const Furniture_2569: Item = {
     id: 2569,
     name: "史莱姆书架",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2577: Item = {
@@ -6487,8 +7581,10 @@ export const Furniture_2577: Item = {
     id: 2577,
     name: "史莱姆梳妆台",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2570: Item = {
@@ -6497,8 +7593,10 @@ export const Furniture_2570: Item = {
     id: 2570,
     name: "史莱姆烛台",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2571: Item = {
@@ -6507,8 +7605,10 @@ export const Furniture_2571: Item = {
     id: 2571,
     name: "史莱姆蜡烛",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2572: Item = {
@@ -6517,8 +7617,10 @@ export const Furniture_2572: Item = {
     id: 2572,
     name: "史莱姆椅",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2573: Item = {
@@ -6527,8 +7629,10 @@ export const Furniture_2573: Item = {
     id: 2573,
     name: "史莱姆吊灯",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2574: Item = {
@@ -6537,8 +7641,10 @@ export const Furniture_2574: Item = {
     id: 2574,
     name: "史莱姆箱",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2575: Item = {
@@ -6547,8 +7653,10 @@ export const Furniture_2575: Item = {
     id: 2575,
     name: "史莱姆时钟",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2576: Item = {
@@ -6557,8 +7665,10 @@ export const Furniture_2576: Item = {
     id: 2576,
     name: "史莱姆门",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2578: Item = {
@@ -6567,8 +7677,10 @@ export const Furniture_2578: Item = {
     id: 2578,
     name: "史莱姆灯",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2579: Item = {
@@ -6577,8 +7689,10 @@ export const Furniture_2579: Item = {
     id: 2579,
     name: "史莱姆灯笼",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2580: Item = {
@@ -6587,8 +7701,10 @@ export const Furniture_2580: Item = {
     id: 2580,
     name: "史莱姆钢琴",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2581: Item = {
@@ -6597,8 +7713,10 @@ export const Furniture_2581: Item = {
     id: 2581,
     name: "史莱姆平台",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2853: Item = {
@@ -6607,8 +7725,10 @@ export const Furniture_2853: Item = {
     id: 2853,
     name: "史莱姆水槽",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2582: Item = {
@@ -6617,8 +7737,10 @@ export const Furniture_2582: Item = {
     id: 2582,
     name: "史莱姆沙发",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_2583: Item = {
@@ -6627,8 +7749,10 @@ export const Furniture_2583: Item = {
     id: 2583,
     name: "史莱姆桌",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_815: Item = {
@@ -6637,8 +7761,10 @@ export const Furniture_815: Item = {
     id: 815,
     name: "史莱姆工作台",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_4120: Item = {
@@ -6647,8 +7773,10 @@ export const Furniture_4120: Item = {
     id: 4120,
     name: "史莱姆马桶",
     Category: Furniture,
+    SubCategory: SliF,
     comments: "",
 }
+
 
 
 export const Furniture_3736: Item = {
@@ -6657,8 +7785,10 @@ export const Furniture_3736: Item = {
     id: 3736,
     name: "呆萌粉气球",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_3737: Item = {
@@ -6667,8 +7797,10 @@ export const Furniture_3737: Item = {
     id: 3737,
     name: "呆萌紫气球",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_3738: Item = {
@@ -6677,8 +7809,10 @@ export const Furniture_3738: Item = {
     id: 3738,
     name: "呆萌绿气球",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_3760: Item = {
@@ -6687,8 +7821,10 @@ export const Furniture_3760: Item = {
     id: 3760,
     name: "呆萌粉气球墙",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_3761: Item = {
@@ -6697,8 +7833,10 @@ export const Furniture_3761: Item = {
     id: 3761,
     name: "呆萌紫气球墙",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_3762: Item = {
@@ -6707,8 +7845,10 @@ export const Furniture_3762: Item = {
     id: 3762,
     name: "呆萌绿气球墙",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5169: Item = {
@@ -6717,8 +7857,10 @@ export const Furniture_5169: Item = {
     id: 5169,
     name: "气球浴缸",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5170: Item = {
@@ -6727,8 +7869,10 @@ export const Furniture_5170: Item = {
     id: 5170,
     name: "气球床",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5171: Item = {
@@ -6737,8 +7881,10 @@ export const Furniture_5171: Item = {
     id: 5171,
     name: "气球书架",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5172: Item = {
@@ -6747,8 +7893,10 @@ export const Furniture_5172: Item = {
     id: 5172,
     name: "气球梳妆台",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5173: Item = {
@@ -6757,8 +7905,10 @@ export const Furniture_5173: Item = {
     id: 5173,
     name: "气球烛台",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5174: Item = {
@@ -6767,8 +7917,10 @@ export const Furniture_5174: Item = {
     id: 5174,
     name: "气球蜡烛",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5175: Item = {
@@ -6777,8 +7929,10 @@ export const Furniture_5175: Item = {
     id: 5175,
     name: "气球椅",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5176: Item = {
@@ -6787,8 +7941,10 @@ export const Furniture_5176: Item = {
     id: 5176,
     name: "气球吊灯",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5177: Item = {
@@ -6797,8 +7953,10 @@ export const Furniture_5177: Item = {
     id: 5177,
     name: "气球箱",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5178: Item = {
@@ -6807,8 +7965,10 @@ export const Furniture_5178: Item = {
     id: 5178,
     name: "气球时钟",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5179: Item = {
@@ -6817,8 +7977,10 @@ export const Furniture_5179: Item = {
     id: 5179,
     name: "气球门",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5180: Item = {
@@ -6827,8 +7989,10 @@ export const Furniture_5180: Item = {
     id: 5180,
     name: "气球灯",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5181: Item = {
@@ -6837,8 +8001,10 @@ export const Furniture_5181: Item = {
     id: 5181,
     name: "气球灯笼",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5182: Item = {
@@ -6847,8 +8013,10 @@ export const Furniture_5182: Item = {
     id: 5182,
     name: "气球钢琴",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5183: Item = {
@@ -6857,8 +8025,10 @@ export const Furniture_5183: Item = {
     id: 5183,
     name: "气球平台",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5184: Item = {
@@ -6867,8 +8037,10 @@ export const Furniture_5184: Item = {
     id: 5184,
     name: "气球水槽",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5185: Item = {
@@ -6877,8 +8049,10 @@ export const Furniture_5185: Item = {
     id: 5185,
     name: "气球沙发",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5186: Item = {
@@ -6887,8 +8061,10 @@ export const Furniture_5186: Item = {
     id: 5186,
     name: "气球桌",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5187: Item = {
@@ -6897,8 +8073,10 @@ export const Furniture_5187: Item = {
     id: 5187,
     name: "气球工作台",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5189: Item = {
@@ -6907,8 +8085,10 @@ export const Furniture_5189: Item = {
     id: 5189,
     name: "气球马桶",
     Category: Furniture,
+    SubCategory: BallF,
     comments: "",
 }
+
 
 
 export const Furniture_5306: Item = {
@@ -6917,8 +8097,10 @@ export const Furniture_5306: Item = {
     id: 5306,
     name: "珊瑚礁块",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5307: Item = {
@@ -6927,8 +8109,10 @@ export const Furniture_5307: Item = {
     id: 5307,
     name: "珊瑚礁墙",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5148: Item = {
@@ -6937,8 +8121,10 @@ export const Furniture_5148: Item = {
     id: 5148,
     name: "珊瑚礁浴缸",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5149: Item = {
@@ -6947,8 +8133,10 @@ export const Furniture_5149: Item = {
     id: 5149,
     name: "珊瑚礁床",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5150: Item = {
@@ -6957,8 +8145,10 @@ export const Furniture_5150: Item = {
     id: 5150,
     name: "珊瑚礁书架",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5151: Item = {
@@ -6967,8 +8157,10 @@ export const Furniture_5151: Item = {
     id: 5151,
     name: "珊瑚礁梳妆台",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5152: Item = {
@@ -6977,8 +8169,10 @@ export const Furniture_5152: Item = {
     id: 5152,
     name: "珊瑚礁烛台",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5153: Item = {
@@ -6987,8 +8181,10 @@ export const Furniture_5153: Item = {
     id: 5153,
     name: "珊瑚礁蜡烛",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5154: Item = {
@@ -6997,8 +8193,10 @@ export const Furniture_5154: Item = {
     id: 5154,
     name: "珊瑚礁椅",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5155: Item = {
@@ -7007,8 +8205,10 @@ export const Furniture_5155: Item = {
     id: 5155,
     name: "珊瑚礁吊灯",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5156: Item = {
@@ -7017,8 +8217,10 @@ export const Furniture_5156: Item = {
     id: 5156,
     name: "珊瑚礁箱",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5157: Item = {
@@ -7027,8 +8229,10 @@ export const Furniture_5157: Item = {
     id: 5157,
     name: "珊瑚礁时钟",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5158: Item = {
@@ -7037,8 +8241,10 @@ export const Furniture_5158: Item = {
     id: 5158,
     name: "珊瑚礁门",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5159: Item = {
@@ -7047,8 +8253,10 @@ export const Furniture_5159: Item = {
     id: 5159,
     name: "珊瑚礁灯",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5160: Item = {
@@ -7057,8 +8265,10 @@ export const Furniture_5160: Item = {
     id: 5160,
     name: "珊瑚礁灯笼",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5161: Item = {
@@ -7067,8 +8277,10 @@ export const Furniture_5161: Item = {
     id: 5161,
     name: "珊瑚礁钢琴",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5162: Item = {
@@ -7077,8 +8289,10 @@ export const Furniture_5162: Item = {
     id: 5162,
     name: "珊瑚礁平台",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5163: Item = {
@@ -7087,8 +8301,10 @@ export const Furniture_5163: Item = {
     id: 5163,
     name: "珊瑚礁水槽",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5164: Item = {
@@ -7097,8 +8313,10 @@ export const Furniture_5164: Item = {
     id: 5164,
     name: "珊瑚礁沙发",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5165: Item = {
@@ -7107,8 +8325,10 @@ export const Furniture_5165: Item = {
     id: 5165,
     name: "珊瑚礁桌",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5166: Item = {
@@ -7117,8 +8337,10 @@ export const Furniture_5166: Item = {
     id: 5166,
     name: "珊瑚礁工作台",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_5168: Item = {
@@ -7127,8 +8349,10 @@ export const Furniture_5168: Item = {
     id: 5168,
     name: "珊瑚礁马桶",
     Category: Furniture,
+    SubCategory: ReefF,
     comments: "",
 }
+
 
 
 export const Furniture_4139: Item = {
@@ -7137,8 +8361,10 @@ export const Furniture_4139: Item = {
     id: 4139,
     name: "蜘蛛窝块",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_4140: Item = {
@@ -7147,8 +8373,10 @@ export const Furniture_4140: Item = {
     id: 4140,
     name: "蜘蛛窝墙",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3931: Item = {
@@ -7157,8 +8385,10 @@ export const Furniture_3931: Item = {
     id: 3931,
     name: "蜘蛛浴缸",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3932: Item = {
@@ -7167,8 +8397,10 @@ export const Furniture_3932: Item = {
     id: 3932,
     name: "蜘蛛床",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3933: Item = {
@@ -7177,8 +8409,10 @@ export const Furniture_3933: Item = {
     id: 3933,
     name: "蜘蛛书架",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3934: Item = {
@@ -7187,8 +8421,10 @@ export const Furniture_3934: Item = {
     id: 3934,
     name: "蜘蛛梳妆台",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3935: Item = {
@@ -7197,8 +8433,10 @@ export const Furniture_3935: Item = {
     id: 3935,
     name: "蜘蛛烛台",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3936: Item = {
@@ -7207,8 +8445,10 @@ export const Furniture_3936: Item = {
     id: 3936,
     name: "蜘蛛蜡烛",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3937: Item = {
@@ -7217,8 +8457,10 @@ export const Furniture_3937: Item = {
     id: 3937,
     name: "蜘蛛椅",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3938: Item = {
@@ -7227,8 +8469,10 @@ export const Furniture_3938: Item = {
     id: 3938,
     name: "蜘蛛吊灯",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3939: Item = {
@@ -7237,8 +8481,10 @@ export const Furniture_3939: Item = {
     id: 3939,
     name: "蜘蛛箱",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3940: Item = {
@@ -7247,8 +8493,10 @@ export const Furniture_3940: Item = {
     id: 3940,
     name: "蜘蛛时钟",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3941: Item = {
@@ -7257,8 +8505,10 @@ export const Furniture_3941: Item = {
     id: 3941,
     name: "蜘蛛门",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3942: Item = {
@@ -7267,8 +8517,10 @@ export const Furniture_3942: Item = {
     id: 3942,
     name: "蜘蛛灯",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3943: Item = {
@@ -7277,8 +8529,10 @@ export const Furniture_3943: Item = {
     id: 3943,
     name: "蜘蛛灯笼",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3944: Item = {
@@ -7287,8 +8541,10 @@ export const Furniture_3944: Item = {
     id: 3944,
     name: "蜘蛛钢琴",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3945: Item = {
@@ -7297,8 +8553,10 @@ export const Furniture_3945: Item = {
     id: 3945,
     name: "蜘蛛平台",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3946: Item = {
@@ -7307,8 +8565,10 @@ export const Furniture_3946: Item = {
     id: 3946,
     name: "蜘蛛水槽",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3947: Item = {
@@ -7317,8 +8577,10 @@ export const Furniture_3947: Item = {
     id: 3947,
     name: "蜘蛛沙发",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3948: Item = {
@@ -7327,8 +8589,10 @@ export const Furniture_3948: Item = {
     id: 3948,
     name: "蜘蛛桌",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3949: Item = {
@@ -7337,8 +8601,10 @@ export const Furniture_3949: Item = {
     id: 3949,
     name: "蜘蛛工作台",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_4125: Item = {
@@ -7347,8 +8613,10 @@ export const Furniture_4125: Item = {
     id: 4125,
     name: "蜘蛛马桶",
     Category: Furniture,
+    SubCategory: SpiderF,
     comments: "",
 }
+
 
 
 export const Furniture_3955: Item = {
@@ -7357,8 +8625,10 @@ export const Furniture_3955: Item = {
     id: 3955,
     name: "病变块",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3956: Item = {
@@ -7367,8 +8637,10 @@ export const Furniture_3956: Item = {
     id: 3956,
     name: "病变块墙",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3958: Item = {
@@ -7377,8 +8649,10 @@ export const Furniture_3958: Item = {
     id: 3958,
     name: "病变浴缸",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3959: Item = {
@@ -7387,8 +8661,10 @@ export const Furniture_3959: Item = {
     id: 3959,
     name: "病变床",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3960: Item = {
@@ -7397,8 +8673,10 @@ export const Furniture_3960: Item = {
     id: 3960,
     name: "病变书架",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3968: Item = {
@@ -7407,8 +8685,10 @@ export const Furniture_3968: Item = {
     id: 3968,
     name: "病变梳妆台",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3961: Item = {
@@ -7417,8 +8697,10 @@ export const Furniture_3961: Item = {
     id: 3961,
     name: "病变烛台",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3962: Item = {
@@ -7427,8 +8709,10 @@ export const Furniture_3962: Item = {
     id: 3962,
     name: "病变蜡烛",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3963: Item = {
@@ -7437,8 +8721,10 @@ export const Furniture_3963: Item = {
     id: 3963,
     name: "病变椅",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3964: Item = {
@@ -7447,8 +8733,10 @@ export const Furniture_3964: Item = {
     id: 3964,
     name: "病变吊灯",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3965: Item = {
@@ -7457,8 +8745,10 @@ export const Furniture_3965: Item = {
     id: 3965,
     name: "病变宝箱",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3966: Item = {
@@ -7467,8 +8757,10 @@ export const Furniture_3966: Item = {
     id: 3966,
     name: "病变时钟",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3967: Item = {
@@ -7477,8 +8769,10 @@ export const Furniture_3967: Item = {
     id: 3967,
     name: "病变门",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3969: Item = {
@@ -7487,8 +8781,10 @@ export const Furniture_3969: Item = {
     id: 3969,
     name: "病变灯",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3970: Item = {
@@ -7497,8 +8793,10 @@ export const Furniture_3970: Item = {
     id: 3970,
     name: "病变灯笼",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3971: Item = {
@@ -7507,8 +8805,10 @@ export const Furniture_3971: Item = {
     id: 3971,
     name: "病变钢琴",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3957: Item = {
@@ -7517,8 +8817,10 @@ export const Furniture_3957: Item = {
     id: 3957,
     name: "病变平台",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3972: Item = {
@@ -7527,8 +8829,10 @@ export const Furniture_3972: Item = {
     id: 3972,
     name: "病变水槽",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3973: Item = {
@@ -7537,8 +8841,10 @@ export const Furniture_3973: Item = {
     id: 3973,
     name: "病变沙发",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3974: Item = {
@@ -7547,8 +8853,10 @@ export const Furniture_3974: Item = {
     id: 3974,
     name: "病变桌",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_3975: Item = {
@@ -7557,8 +8865,10 @@ export const Furniture_3975: Item = {
     id: 3975,
     name: "病变工作台",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_4126: Item = {
@@ -7567,8 +8877,10 @@ export const Furniture_4126: Item = {
     id: 4126,
     name: "病变马桶",
     Category: Furniture,
+    SubCategory: LesF,
     comments: "",
 }
+
 
 
 export const Furniture_763: Item = {
@@ -7577,8 +8889,10 @@ export const Furniture_763: Item = {
     id: 763,
     name: "血肉块",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_770: Item = {
@@ -7587,8 +8901,10 @@ export const Furniture_770: Item = {
     id: 770,
     name: "血肉块墙",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2074: Item = {
@@ -7597,8 +8913,10 @@ export const Furniture_2074: Item = {
     id: 2074,
     name: "血肉浴缸",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2067: Item = {
@@ -7607,8 +8925,10 @@ export const Furniture_2067: Item = {
     id: 2067,
     name: "血肉床",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2022: Item = {
@@ -7617,8 +8937,10 @@ export const Furniture_2022: Item = {
     id: 2022,
     name: "血肉书架",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2640: Item = {
@@ -7627,8 +8949,10 @@ export const Furniture_2640: Item = {
     id: 2640,
     name: "血肉梳妆台",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2094: Item = {
@@ -7637,8 +8961,10 @@ export const Furniture_2094: Item = {
     id: 2094,
     name: "血肉烛台",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2047: Item = {
@@ -7647,8 +8973,10 @@ export const Furniture_2047: Item = {
     id: 2047,
     name: "血肉蜡烛",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_809: Item = {
@@ -7657,8 +8985,10 @@ export const Furniture_809: Item = {
     id: 809,
     name: "血肉椅",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2057: Item = {
@@ -7667,8 +8997,10 @@ export const Furniture_2057: Item = {
     id: 2057,
     name: "血肉吊灯",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2617: Item = {
@@ -7677,8 +9009,10 @@ export const Furniture_2617: Item = {
     id: 2617,
     name: "血肉箱",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2598: Item = {
@@ -7687,8 +9021,10 @@ export const Furniture_2598: Item = {
     id: 2598,
     name: "血肉时钟",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_817: Item = {
@@ -7697,8 +9033,10 @@ export const Furniture_817: Item = {
     id: 817,
     name: "血肉门",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2084: Item = {
@@ -7707,8 +9045,10 @@ export const Furniture_2084: Item = {
     id: 2084,
     name: "血肉灯",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2034: Item = {
@@ -7717,8 +9057,10 @@ export const Furniture_2034: Item = {
     id: 2034,
     name: "血肉灯笼",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2246: Item = {
@@ -7727,8 +9069,10 @@ export const Furniture_2246: Item = {
     id: 2246,
     name: "血肉钢琴",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_3907: Item = {
@@ -7737,8 +9081,10 @@ export const Furniture_3907: Item = {
     id: 3907,
     name: "血肉平台",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2832: Item = {
@@ -7747,8 +9093,10 @@ export const Furniture_2832: Item = {
     id: 2832,
     name: "血肉水槽",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_2634: Item = {
@@ -7757,8 +9105,10 @@ export const Furniture_2634: Item = {
     id: 2634,
     name: "血肉沙发",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_828: Item = {
@@ -7767,8 +9117,10 @@ export const Furniture_828: Item = {
     id: 828,
     name: "血肉桌",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_813: Item = {
@@ -7777,8 +9129,10 @@ export const Furniture_813: Item = {
     id: 813,
     name: "血肉工作台",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_4102: Item = {
@@ -7787,8 +9141,10 @@ export const Furniture_4102: Item = {
     id: 4102,
     name: "血肉马桶",
     Category: Furniture,
+    SubCategory: FleF,
     comments: "",
 }
+
 
 
 export const Furniture_768: Item = {
@@ -7797,8 +9153,10 @@ export const Furniture_768: Item = {
     id: 768,
     name: "骨块墙",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2128: Item = {
@@ -7807,8 +9165,10 @@ export const Furniture_2128: Item = {
     id: 2128,
     name: "骨头浴缸",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2140: Item = {
@@ -7817,8 +9177,10 @@ export const Furniture_2140: Item = {
     id: 2140,
     name: "骨头床",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2138: Item = {
@@ -7827,8 +9189,10 @@ export const Furniture_2138: Item = {
     id: 2138,
     name: "骨头书架",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2391: Item = {
@@ -7837,8 +9201,10 @@ export const Furniture_2391: Item = {
     id: 2391,
     name: "骨头梳妆台",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2152: Item = {
@@ -7847,8 +9213,10 @@ export const Furniture_2152: Item = {
     id: 2152,
     name: "骨头烛台",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_347: Item = {
@@ -7857,8 +9225,10 @@ export const Furniture_347: Item = {
     id: 347,
     name: "骷髅头灯笼",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_808: Item = {
@@ -7867,8 +9237,10 @@ export const Furniture_808: Item = {
     id: 808,
     name: "骨头椅",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2144: Item = {
@@ -7877,8 +9249,10 @@ export const Furniture_2144: Item = {
     id: 2144,
     name: "骨头吊灯",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2615: Item = {
@@ -7887,8 +9261,10 @@ export const Furniture_2615: Item = {
     id: 2615,
     name: "骨箱",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2591: Item = {
@@ -7897,8 +9273,10 @@ export const Furniture_2591: Item = {
     id: 2591,
     name: "骨头时钟",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_820: Item = {
@@ -7907,8 +9285,10 @@ export const Furniture_820: Item = {
     id: 820,
     name: "骨头门",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2134: Item = {
@@ -7917,8 +9297,10 @@ export const Furniture_2134: Item = {
     id: 2134,
     name: "骨头灯",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2148: Item = {
@@ -7927,8 +9309,10 @@ export const Furniture_2148: Item = {
     id: 2148,
     name: "骨头灯笼",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2381: Item = {
@@ -7937,8 +9321,10 @@ export const Furniture_2381: Item = {
     id: 2381,
     name: "骨头钢琴",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_634: Item = {
@@ -7947,8 +9333,10 @@ export const Furniture_634: Item = {
     id: 634,
     name: "骨头平台",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2831: Item = {
@@ -7957,8 +9345,10 @@ export const Furniture_2831: Item = {
     id: 2831,
     name: "骨头水槽",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_2407: Item = {
@@ -7967,8 +9357,10 @@ export const Furniture_2407: Item = {
     id: 2407,
     name: "骨头沙发",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_827: Item = {
@@ -7977,8 +9369,10 @@ export const Furniture_827: Item = {
     id: 827,
     name: "骨头桌",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_811: Item = {
@@ -7987,8 +9381,10 @@ export const Furniture_811: Item = {
     id: 811,
     name: "骨头工作台",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_4101: Item = {
@@ -7997,8 +9393,10 @@ export const Furniture_4101: Item = {
     id: 4101,
     name: "骨头马桶",
     Category: Furniture,
+    SubCategory: BoneF,
     comments: "",
 }
+
 
 
 export const Furniture_1344: Item = {
@@ -8007,8 +9405,10 @@ export const Furniture_1344: Item = {
     id: 1344,
     name: "齿轮",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_3751: Item = {
@@ -8017,8 +9417,10 @@ export const Furniture_3751: Item = {
     id: 3751,
     name: "齿轮墙",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2125: Item = {
@@ -8027,8 +9429,10 @@ export const Furniture_2125: Item = {
     id: 2125,
     name: "蒸汽朋克浴缸",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_1722: Item = {
@@ -8037,8 +9441,10 @@ export const Furniture_1722: Item = {
     id: 1722,
     name: "蒸汽朋克床",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2024: Item = {
@@ -8047,8 +9453,10 @@ export const Furniture_2024: Item = {
     id: 2024,
     name: "蒸汽朋克书架",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2638: Item = {
@@ -8057,8 +9465,10 @@ export const Furniture_2638: Item = {
     id: 2638,
     name: "蒸汽朋克梳妆台",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2096: Item = {
@@ -8067,8 +9477,10 @@ export const Furniture_2096: Item = {
     id: 2096,
     name: "蒸汽朋克烛台",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2649: Item = {
@@ -8077,8 +9489,10 @@ export const Furniture_2649: Item = {
     id: 2649,
     name: "蒸汽朋克蜡烛",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_1708: Item = {
@@ -8087,8 +9501,10 @@ export const Furniture_1708: Item = {
     id: 1708,
     name: "蒸汽朋克椅",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2655: Item = {
@@ -8097,8 +9513,10 @@ export const Furniture_2655: Item = {
     id: 2655,
     name: "蒸汽朋克吊灯",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2250: Item = {
@@ -8107,8 +9525,10 @@ export const Furniture_2250: Item = {
     id: 2250,
     name: "蒸汽朋克箱",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2241: Item = {
@@ -8117,8 +9537,10 @@ export const Furniture_2241: Item = {
     id: 2241,
     name: "蒸汽朋克时钟",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_1712: Item = {
@@ -8127,8 +9549,10 @@ export const Furniture_1712: Item = {
     id: 1712,
     name: "蒸汽朋克门",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2130: Item = {
@@ -8137,8 +9561,10 @@ export const Furniture_2130: Item = {
     id: 2130,
     name: "蒸汽朋克灯",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2036: Item = {
@@ -8147,8 +9573,10 @@ export const Furniture_2036: Item = {
     id: 2036,
     name: "蒸汽朋克灯笼",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2256: Item = {
@@ -8157,8 +9585,10 @@ export const Furniture_2256: Item = {
     id: 2256,
     name: "蒸汽朋克钢琴",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2627: Item = {
@@ -8167,8 +9597,10 @@ export const Furniture_2627: Item = {
     id: 2627,
     name: "蒸汽朋克平台",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2845: Item = {
@@ -8177,8 +9609,10 @@ export const Furniture_2845: Item = {
     id: 2845,
     name: "蒸汽朋克水槽",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2412: Item = {
@@ -8187,8 +9621,10 @@ export const Furniture_2412: Item = {
     id: 2412,
     name: "蒸汽朋克沙发",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_1718: Item = {
@@ -8197,8 +9633,10 @@ export const Furniture_1718: Item = {
     id: 1718,
     name: "蒸汽朋克桌",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_2253: Item = {
@@ -8207,8 +9645,10 @@ export const Furniture_2253: Item = {
     id: 2253,
     name: "蒸汽朋克工作台",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_4114: Item = {
@@ -8217,8 +9657,10 @@ export const Furniture_4114: Item = {
     id: 4114,
     name: "蒸汽朋克马桶",
     Category: Furniture,
+    SubCategory: SteamF,
     comments: "",
 }
+
 
 
 export const Furniture_1101: Item = {
@@ -8227,8 +9669,10 @@ export const Furniture_1101: Item = {
     id: 1101,
     name: "丛林蜥蜴砖",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1102: Item = {
@@ -8237,8 +9681,10 @@ export const Furniture_1102: Item = {
     id: 1102,
     name: "丛林蜥蜴砖墙",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2079: Item = {
@@ -8247,8 +9693,10 @@ export const Furniture_2079: Item = {
     id: 2079,
     name: "丛林蜥蜴浴缸",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2069: Item = {
@@ -8257,8 +9705,10 @@ export const Furniture_2069: Item = {
     id: 2069,
     name: "丛林蜥蜴床",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2030: Item = {
@@ -8267,8 +9717,10 @@ export const Furniture_2030: Item = {
     id: 2030,
     name: "丛林蜥蜴书架",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2396: Item = {
@@ -8277,8 +9729,10 @@ export const Furniture_2396: Item = {
     id: 2396,
     name: "丛林蜥蜴梳妆台",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2101: Item = {
@@ -8287,8 +9741,10 @@ export const Furniture_2101: Item = {
     id: 2101,
     name: "丛林蜥蜴烛台",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2052: Item = {
@@ -8297,8 +9753,10 @@ export const Furniture_2052: Item = {
     id: 2052,
     name: "丛林蜥蜴蜡烛",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1143: Item = {
@@ -8307,8 +9765,10 @@ export const Furniture_1143: Item = {
     id: 1143,
     name: "丛林蜥蜴椅",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2062: Item = {
@@ -8317,8 +9777,10 @@ export const Furniture_2062: Item = {
     id: 2062,
     name: "丛林蜥蜴吊灯",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1142: Item = {
@@ -8327,8 +9789,10 @@ export const Furniture_1142: Item = {
     id: 1142,
     name: "丛林蜥蜴箱",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2595: Item = {
@@ -8337,8 +9801,10 @@ export const Furniture_2595: Item = {
     id: 2595,
     name: "丛林蜥蜴时钟",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1137: Item = {
@@ -8347,8 +9813,10 @@ export const Furniture_1137: Item = {
     id: 1137,
     name: "丛林蜥蜴门",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2089: Item = {
@@ -8357,8 +9825,10 @@ export const Furniture_2089: Item = {
     id: 2089,
     name: "丛林蜥蜴灯",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2041: Item = {
@@ -8367,8 +9837,10 @@ export const Furniture_2041: Item = {
     id: 2041,
     name: "丛林蜥蜴灯笼",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2385: Item = {
@@ -8377,8 +9849,10 @@ export const Furniture_2385: Item = {
     id: 2385,
     name: "丛林蜥蜴钢琴",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_3906: Item = {
@@ -8387,8 +9861,10 @@ export const Furniture_3906: Item = {
     id: 3906,
     name: "丛林蜥蜴平台",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2836: Item = {
@@ -8397,8 +9873,10 @@ export const Furniture_2836: Item = {
     id: 2836,
     name: "丛林蜥蜴水槽",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_2416: Item = {
@@ -8407,8 +9885,10 @@ export const Furniture_2416: Item = {
     id: 2416,
     name: "丛林蜥蜴沙发",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1144: Item = {
@@ -8417,8 +9897,10 @@ export const Furniture_1144: Item = {
     id: 1144,
     name: "丛林蜥蜴桌",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_1145: Item = {
@@ -8427,8 +9909,10 @@ export const Furniture_1145: Item = {
     id: 1145,
     name: "丛林蜥蜴工作台",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_4106: Item = {
@@ -8437,8 +9921,10 @@ export const Furniture_4106: Item = {
     id: 4106,
     name: "丛林蜥蜴马桶",
     Category: Furniture,
+    SubCategory: LihzF,
     comments: "",
 }
+
 
 
 export const Furniture_192: Item = {
@@ -8447,8 +9933,10 @@ export const Furniture_192: Item = {
     id: 192,
     name: "黑曜石砖",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_330: Item = {
@@ -8457,8 +9945,10 @@ export const Furniture_330: Item = {
     id: 330,
     name: "黑曜石砖墙",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2662: Item = {
@@ -8467,8 +9957,10 @@ export const Furniture_2662: Item = {
     id: 2662,
     name: "黑曜石浴缸",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1473: Item = {
@@ -8477,8 +9969,10 @@ export const Furniture_1473: Item = {
     id: 1473,
     name: "黑曜石床",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1463: Item = {
@@ -8487,8 +9981,10 @@ export const Furniture_1463: Item = {
     id: 1463,
     name: "黑曜石书架",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2390: Item = {
@@ -8497,8 +9993,10 @@ export const Furniture_2390: Item = {
     id: 2390,
     name: "黑曜石梳妆台",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2667: Item = {
@@ -8507,8 +10005,10 @@ export const Furniture_2667: Item = {
     id: 2667,
     name: "黑曜石烛台",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2651: Item = {
@@ -8517,8 +10017,10 @@ export const Furniture_2651: Item = {
     id: 2651,
     name: "黑曜石蜡烛",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1459: Item = {
@@ -8527,8 +10029,10 @@ export const Furniture_1459: Item = {
     id: 1459,
     name: "黑曜石椅",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2657: Item = {
@@ -8537,8 +10041,10 @@ export const Furniture_2657: Item = {
     id: 2657,
     name: "黑曜石吊灯",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2618: Item = {
@@ -8547,8 +10053,10 @@ export const Furniture_2618: Item = {
     id: 2618,
     name: "黑曜石箱",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2600: Item = {
@@ -8557,8 +10065,10 @@ export const Furniture_2600: Item = {
     id: 2600,
     name: "黑曜石时钟",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1458: Item = {
@@ -8567,8 +10077,10 @@ export const Furniture_1458: Item = {
     id: 1458,
     name: "黑曜石门",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2644: Item = {
@@ -8577,8 +10089,10 @@ export const Furniture_2644: Item = {
     id: 2644,
     name: "黑曜石灯",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2642: Item = {
@@ -8587,8 +10101,10 @@ export const Furniture_2642: Item = {
     id: 2642,
     name: "黑曜石灯笼",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2380: Item = {
@@ -8597,8 +10113,10 @@ export const Furniture_2380: Item = {
     id: 2380,
     name: "黑曜石钢琴",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1457: Item = {
@@ -8607,8 +10125,10 @@ export const Furniture_1457: Item = {
     id: 1457,
     name: "黑曜石平台",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2840: Item = {
@@ -8617,8 +10137,10 @@ export const Furniture_2840: Item = {
     id: 2840,
     name: "黑曜石水槽",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2406: Item = {
@@ -8627,8 +10149,10 @@ export const Furniture_2406: Item = {
     id: 2406,
     name: "黑曜石沙发",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1460: Item = {
@@ -8637,8 +10161,10 @@ export const Furniture_1460: Item = {
     id: 1460,
     name: "黑曜石桌",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1461: Item = {
@@ -8647,8 +10173,10 @@ export const Furniture_1461: Item = {
     id: 1461,
     name: "黑曜石工作台",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_4110: Item = {
@@ -8657,8 +10185,10 @@ export const Furniture_4110: Item = {
     id: 4110,
     name: "黑曜石马桶",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_1462: Item = {
@@ -8667,8 +10197,10 @@ export const Furniture_1462: Item = {
     id: 1462,
     name: "黑曜石花瓶",
     Category: Furniture,
+    SubCategory: ObF,
     comments: "",
 }
+
 
 
 export const Furniture_2860: Item = {
@@ -8677,8 +10209,10 @@ export const Furniture_2860: Item = {
     id: 2860,
     name: "火星管道护板",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2861: Item = {
@@ -8687,8 +10221,10 @@ export const Furniture_2861: Item = {
     id: 2861,
     name: "火星管道墙",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2810: Item = {
@@ -8697,8 +10233,10 @@ export const Furniture_2810: Item = {
     id: 2810,
     name: "火星浴缸",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2811: Item = {
@@ -8707,8 +10245,10 @@ export const Furniture_2811: Item = {
     id: 2811,
     name: "火星床",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2817: Item = {
@@ -8717,8 +10257,10 @@ export const Furniture_2817: Item = {
     id: 2817,
     name: "火星整体书架",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2816: Item = {
@@ -8727,8 +10269,10 @@ export const Furniture_2816: Item = {
     id: 2816,
     name: "火星梳妆台",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2825: Item = {
@@ -8737,8 +10281,10 @@ export const Furniture_2825: Item = {
     id: 2825,
     name: "火星桌灯",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2818: Item = {
@@ -8747,8 +10293,10 @@ export const Furniture_2818: Item = {
     id: 2818,
     name: "火星摇摆蜡烛",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2812: Item = {
@@ -8757,8 +10305,10 @@ export const Furniture_2812: Item = {
     id: 2812,
     name: "火星摇摆椅",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2813: Item = {
@@ -8767,8 +10317,10 @@ export const Furniture_2813: Item = {
     id: 2813,
     name: "火星吊灯",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2814: Item = {
@@ -8777,8 +10329,10 @@ export const Furniture_2814: Item = {
     id: 2814,
     name: "火星箱",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2809: Item = {
@@ -8787,8 +10341,10 @@ export const Furniture_2809: Item = {
     id: 2809,
     name: "火星占星钟",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2815: Item = {
@@ -8797,8 +10353,10 @@ export const Furniture_2815: Item = {
     id: 2815,
     name: "火星门",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2819: Item = {
@@ -8807,8 +10365,10 @@ export const Furniture_2819: Item = {
     id: 2819,
     name: "火星灯柱",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2820: Item = {
@@ -8817,8 +10377,10 @@ export const Furniture_2820: Item = {
     id: 2820,
     name: "火星灯笼",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2821: Item = {
@@ -8827,8 +10389,10 @@ export const Furniture_2821: Item = {
     id: 2821,
     name: "火星钢琴",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2822: Item = {
@@ -8837,8 +10401,10 @@ export const Furniture_2822: Item = {
     id: 2822,
     name: "火星平台",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2855: Item = {
@@ -8847,8 +10413,10 @@ export const Furniture_2855: Item = {
     id: 2855,
     name: "火星水槽",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2823: Item = {
@@ -8857,8 +10425,10 @@ export const Furniture_2823: Item = {
     id: 2823,
     name: "火星沙发",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2824: Item = {
@@ -8867,8 +10437,10 @@ export const Furniture_2824: Item = {
     id: 2824,
     name: "火星桌",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_2826: Item = {
@@ -8877,8 +10449,10 @@ export const Furniture_2826: Item = {
     id: 2826,
     name: "火星工作台",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_4121: Item = {
@@ -8887,8 +10461,10 @@ export const Furniture_4121: Item = {
     id: 4121,
     name: "火星马桶",
     Category: Furniture,
+    SubCategory: MartianF,
     comments: "",
 }
+
 
 
 export const Furniture_139: Item = {
@@ -8897,8 +10473,10 @@ export const Furniture_139: Item = {
     id: 139,
     name: "粉砖",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_4240: Item = {
@@ -8907,8 +10485,10 @@ export const Furniture_4240: Item = {
     id: 4240,
     name: "破裂粉砖",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_140: Item = {
@@ -8917,8 +10497,10 @@ export const Furniture_140: Item = {
     id: 140,
     name: "粉砖墙",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1380: Item = {
@@ -8927,8 +10509,10 @@ export const Furniture_1380: Item = {
     id: 1380,
     name: "粉板墙",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1381: Item = {
@@ -8937,8 +10521,10 @@ export const Furniture_1381: Item = {
     id: 1381,
     name: "粉瓷砖墙",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2660: Item = {
@@ -8947,8 +10533,10 @@ export const Furniture_2660: Item = {
     id: 2660,
     name: "粉地牢浴缸",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1472: Item = {
@@ -8957,8 +10545,10 @@ export const Furniture_1472: Item = {
     id: 1472,
     name: "粉地牢床",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1416: Item = {
@@ -8967,8 +10557,10 @@ export const Furniture_1416: Item = {
     id: 1416,
     name: "粉地牢书架",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2388: Item = {
@@ -8977,8 +10569,10 @@ export const Furniture_2388: Item = {
     id: 2388,
     name: "粉地牢梳妆台",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2666: Item = {
@@ -8987,8 +10581,10 @@ export const Furniture_2666: Item = {
     id: 2666,
     name: "粉地牢烛台",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1407: Item = {
@@ -8997,8 +10593,10 @@ export const Furniture_1407: Item = {
     id: 1407,
     name: "粉地牢蜡烛",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1402: Item = {
@@ -9007,8 +10605,10 @@ export const Furniture_1402: Item = {
     id: 1402,
     name: "粉地牢椅",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2654: Item = {
@@ -9017,8 +10617,10 @@ export const Furniture_2654: Item = {
     id: 2654,
     name: "粉地牢吊灯",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2613: Item = {
@@ -9027,8 +10629,10 @@ export const Furniture_2613: Item = {
     id: 2613,
     name: "粉地牢箱",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_3902: Item = {
@@ -9037,8 +10641,10 @@ export const Furniture_3902: Item = {
     id: 3902,
     name: "粉地牢时钟",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1413: Item = {
@@ -9047,8 +10653,10 @@ export const Furniture_1413: Item = {
     id: 1413,
     name: "粉地牢门",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2647: Item = {
@@ -9057,8 +10665,10 @@ export const Furniture_2647: Item = {
     id: 2647,
     name: "粉地牢灯",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_136: Item = {
@@ -9067,8 +10677,10 @@ export const Furniture_136: Item = {
     id: 136,
     name: "挂链灯笼",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1392: Item = {
@@ -9077,8 +10689,10 @@ export const Furniture_1392: Item = {
     id: 1392,
     name: "马车灯笼",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1393: Item = {
@@ -9087,8 +10701,10 @@ export const Furniture_1393: Item = {
     id: 1393,
     name: "炼金灯笼",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2378: Item = {
@@ -9097,8 +10713,10 @@ export const Furniture_2378: Item = {
     id: 2378,
     name: "粉地牢钢琴",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1385: Item = {
@@ -9107,8 +10725,10 @@ export const Furniture_1385: Item = {
     id: 1385,
     name: "粉砖平台",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1389: Item = {
@@ -9117,8 +10737,10 @@ export const Furniture_1389: Item = {
     id: 1389,
     name: "木架",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2839: Item = {
@@ -9127,8 +10749,10 @@ export const Furniture_2839: Item = {
     id: 2839,
     name: "粉地牢水槽",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_2404: Item = {
@@ -9137,8 +10761,10 @@ export const Furniture_2404: Item = {
     id: 2404,
     name: "粉地牢沙发",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1403: Item = {
@@ -9147,8 +10773,10 @@ export const Furniture_1403: Item = {
     id: 1403,
     name: "粉地牢桌",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1404: Item = {
@@ -9157,8 +10785,10 @@ export const Furniture_1404: Item = {
     id: 1404,
     name: "粉地牢工作台",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_4109: Item = {
@@ -9167,8 +10797,10 @@ export const Furniture_4109: Item = {
     id: 4109,
     name: "粉地牢马桶",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_1410: Item = {
@@ -9177,8 +10809,10 @@ export const Furniture_1410: Item = {
     id: 1410,
     name: "粉地牢花瓶",
     Category: Furniture,
+    SubCategory: PinkF,
     comments: "",
 }
+
 
 
 export const Furniture_137: Item = {
@@ -9187,8 +10821,10 @@ export const Furniture_137: Item = {
     id: 137,
     name: "绿砖",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_4239: Item = {
@@ -9197,8 +10833,10 @@ export const Furniture_4239: Item = {
     id: 4239,
     name: "破裂绿砖",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_138: Item = {
@@ -9207,8 +10845,10 @@ export const Furniture_138: Item = {
     id: 138,
     name: "绿砖墙",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1382: Item = {
@@ -9217,8 +10857,10 @@ export const Furniture_1382: Item = {
     id: 1382,
     name: "绿板墙",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1383: Item = {
@@ -9227,8 +10869,10 @@ export const Furniture_1383: Item = {
     id: 1383,
     name: "绿瓷砖墙",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2659: Item = {
@@ -9237,8 +10881,10 @@ export const Furniture_2659: Item = {
     id: 2659,
     name: "绿地牢浴缸",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1471: Item = {
@@ -9247,8 +10893,10 @@ export const Furniture_1471: Item = {
     id: 1471,
     name: "绿地牢床",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1415: Item = {
@@ -9257,8 +10905,10 @@ export const Furniture_1415: Item = {
     id: 1415,
     name: "绿地牢书架",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2387: Item = {
@@ -9267,8 +10917,10 @@ export const Furniture_2387: Item = {
     id: 2387,
     name: "绿地牢梳妆台",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2665: Item = {
@@ -9277,8 +10929,10 @@ export const Furniture_2665: Item = {
     id: 2665,
     name: "绿地牢烛台",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1406: Item = {
@@ -9287,8 +10941,10 @@ export const Furniture_1406: Item = {
     id: 1406,
     name: "绿地牢蜡烛",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1399: Item = {
@@ -9297,8 +10953,10 @@ export const Furniture_1399: Item = {
     id: 1399,
     name: "绿地牢椅",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2653: Item = {
@@ -9307,8 +10965,10 @@ export const Furniture_2653: Item = {
     id: 2653,
     name: "绿地牢吊灯",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2612: Item = {
@@ -9317,8 +10977,10 @@ export const Furniture_2612: Item = {
     id: 2612,
     name: "绿地牢箱",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_3901: Item = {
@@ -9327,8 +10989,10 @@ export const Furniture_3901: Item = {
     id: 3901,
     name: "绿地牢时钟",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1412: Item = {
@@ -9337,8 +11001,10 @@ export const Furniture_1412: Item = {
     id: 1412,
     name: "绿地牢门",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2646: Item = {
@@ -9347,8 +11013,10 @@ export const Furniture_2646: Item = {
     id: 2646,
     name: "绿地牢灯",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1390: Item = {
@@ -9357,8 +11025,10 @@ export const Furniture_1390: Item = {
     id: 1390,
     name: "黄铜灯笼",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1391: Item = {
@@ -9367,8 +11037,10 @@ export const Furniture_1391: Item = {
     id: 1391,
     name: "笼式灯笼",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2377: Item = {
@@ -9377,8 +11049,10 @@ export const Furniture_2377: Item = {
     id: 2377,
     name: "绿地牢钢琴",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1386: Item = {
@@ -9387,8 +11061,10 @@ export const Furniture_1386: Item = {
     id: 1386,
     name: "绿砖平台",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1388: Item = {
@@ -9397,8 +11073,10 @@ export const Furniture_1388: Item = {
     id: 1388,
     name: "黄铜架",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2838: Item = {
@@ -9407,8 +11085,10 @@ export const Furniture_2838: Item = {
     id: 2838,
     name: "绿地牢水槽",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_2403: Item = {
@@ -9417,8 +11097,10 @@ export const Furniture_2403: Item = {
     id: 2403,
     name: "绿地牢沙发",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1400: Item = {
@@ -9427,8 +11109,10 @@ export const Furniture_1400: Item = {
     id: 1400,
     name: "绿地牢桌",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1401: Item = {
@@ -9437,8 +11121,10 @@ export const Furniture_1401: Item = {
     id: 1401,
     name: "绿地牢工作台",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_4108: Item = {
@@ -9447,8 +11133,10 @@ export const Furniture_4108: Item = {
     id: 4108,
     name: "绿地牢马桶",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_1409: Item = {
@@ -9457,8 +11145,10 @@ export const Furniture_1409: Item = {
     id: 1409,
     name: "绿地牢花瓶",
     Category: Furniture,
+    SubCategory: GreenF,
     comments: "",
 }
+
 
 
 export const Furniture_134: Item = {
@@ -9467,8 +11157,10 @@ export const Furniture_134: Item = {
     id: 134,
     name: "蓝砖",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_4238: Item = {
@@ -9477,8 +11169,10 @@ export const Furniture_4238: Item = {
     id: 4238,
     name: "破裂蓝砖",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_135: Item = {
@@ -9487,8 +11181,10 @@ export const Furniture_135: Item = {
     id: 135,
     name: "蓝砖墙",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1378: Item = {
@@ -9497,8 +11193,10 @@ export const Furniture_1378: Item = {
     id: 1378,
     name: "蓝板墙",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1379: Item = {
@@ -9507,8 +11205,10 @@ export const Furniture_1379: Item = {
     id: 1379,
     name: "蓝瓷砖墙",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2658: Item = {
@@ -9517,8 +11217,10 @@ export const Furniture_2658: Item = {
     id: 2658,
     name: "蓝地牢浴缸",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1470: Item = {
@@ -9527,8 +11229,10 @@ export const Furniture_1470: Item = {
     id: 1470,
     name: "蓝地牢床",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1414: Item = {
@@ -9537,8 +11241,10 @@ export const Furniture_1414: Item = {
     id: 1414,
     name: "蓝地牢书架",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2386: Item = {
@@ -9547,8 +11253,10 @@ export const Furniture_2386: Item = {
     id: 2386,
     name: "蓝地牢梳妆台",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2664: Item = {
@@ -9557,8 +11265,10 @@ export const Furniture_2664: Item = {
     id: 2664,
     name: "蓝地牢烛台",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1405: Item = {
@@ -9567,8 +11277,10 @@ export const Furniture_1405: Item = {
     id: 1405,
     name: "蓝地牢蜡烛",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1396: Item = {
@@ -9577,8 +11289,10 @@ export const Furniture_1396: Item = {
     id: 1396,
     name: "蓝地牢椅",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2652: Item = {
@@ -9587,8 +11301,10 @@ export const Furniture_2652: Item = {
     id: 2652,
     name: "蓝地牢吊灯",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2614: Item = {
@@ -9597,8 +11313,10 @@ export const Furniture_2614: Item = {
     id: 2614,
     name: "蓝地牢箱",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_3900: Item = {
@@ -9607,8 +11325,10 @@ export const Furniture_3900: Item = {
     id: 3900,
     name: "蓝地牢时钟",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1411: Item = {
@@ -9617,8 +11337,10 @@ export const Furniture_1411: Item = {
     id: 1411,
     name: "蓝地牢门",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2645: Item = {
@@ -9627,8 +11349,10 @@ export const Furniture_2645: Item = {
     id: 2645,
     name: "蓝地牢灯",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1394: Item = {
@@ -9637,8 +11361,10 @@ export const Furniture_1394: Item = {
     id: 1394,
     name: "魔教徒灯",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1395: Item = {
@@ -9647,8 +11373,10 @@ export const Furniture_1395: Item = {
     id: 1395,
     name: "油布烛台",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2376: Item = {
@@ -9657,8 +11385,10 @@ export const Furniture_2376: Item = {
     id: 2376,
     name: "蓝地牢钢琴",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1384: Item = {
@@ -9667,8 +11397,10 @@ export const Furniture_1384: Item = {
     id: 1384,
     name: "蓝砖平台",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1387: Item = {
@@ -9677,8 +11409,10 @@ export const Furniture_1387: Item = {
     id: 1387,
     name: "金属架",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2837: Item = {
@@ -9687,8 +11421,10 @@ export const Furniture_2837: Item = {
     id: 2837,
     name: "蓝地牢水槽",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2402: Item = {
@@ -9697,8 +11433,10 @@ export const Furniture_2402: Item = {
     id: 2402,
     name: "蓝地牢沙发",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1397: Item = {
@@ -9707,8 +11445,10 @@ export const Furniture_1397: Item = {
     id: 1397,
     name: "蓝地牢桌",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1398: Item = {
@@ -9717,8 +11457,10 @@ export const Furniture_1398: Item = {
     id: 1398,
     name: "蓝地牢工作台",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_4107: Item = {
@@ -9727,8 +11469,10 @@ export const Furniture_4107: Item = {
     id: 4107,
     name: "蓝地牢马桶",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_1408: Item = {
@@ -9737,8 +11481,10 @@ export const Furniture_1408: Item = {
     id: 1408,
     name: "蓝地牢花瓶",
     Category: Furniture,
+    SubCategory: BlueF,
     comments: "",
 }
+
 
 
 export const Furniture_2663: Item = {
@@ -9747,8 +11493,10 @@ export const Furniture_2663: Item = {
     id: 2663,
     name: "金浴缸",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_1720: Item = {
@@ -9757,8 +11505,10 @@ export const Furniture_1720: Item = {
     id: 1720,
     name: "金床",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2137: Item = {
@@ -9767,8 +11517,10 @@ export const Furniture_2137: Item = {
     id: 2137,
     name: "金书架",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2389: Item = {
@@ -9777,8 +11529,10 @@ export const Furniture_2389: Item = {
     id: 2389,
     name: "金梳妆台",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2151: Item = {
@@ -9787,8 +11541,10 @@ export const Furniture_2151: Item = {
     id: 2151,
     name: "金烛台",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2155: Item = {
@@ -9797,8 +11553,10 @@ export const Furniture_2155: Item = {
     id: 2155,
     name: "金蜡烛",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_1704: Item = {
@@ -9807,8 +11565,10 @@ export const Furniture_1704: Item = {
     id: 1704,
     name: "金椅",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2143: Item = {
@@ -9817,8 +11577,10 @@ export const Furniture_2143: Item = {
     id: 2143,
     name: "金制吊灯",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_3885: Item = {
@@ -9827,8 +11589,10 @@ export const Furniture_3885: Item = {
     id: 3885,
     name: "金宝箱",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2238: Item = {
@@ -9837,8 +11601,10 @@ export const Furniture_2238: Item = {
     id: 2238,
     name: "金时钟",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_1710: Item = {
@@ -9847,8 +11613,10 @@ export const Furniture_1710: Item = {
     id: 1710,
     name: "金门",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2133: Item = {
@@ -9857,8 +11625,10 @@ export const Furniture_2133: Item = {
     id: 2133,
     name: "金灯",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2147: Item = {
@@ -9867,8 +11637,10 @@ export const Furniture_2147: Item = {
     id: 2147,
     name: "金灯笼",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2379: Item = {
@@ -9877,8 +11649,10 @@ export const Furniture_2379: Item = {
     id: 2379,
     name: "金钢琴",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_3904: Item = {
@@ -9887,8 +11661,10 @@ export const Furniture_3904: Item = {
     id: 3904,
     name: "金平台",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2843: Item = {
@@ -9897,8 +11673,10 @@ export const Furniture_2843: Item = {
     id: 2843,
     name: "金水槽",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_2405: Item = {
@@ -9907,8 +11685,10 @@ export const Furniture_2405: Item = {
     id: 2405,
     name: "金沙发",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_1716: Item = {
@@ -9917,8 +11697,10 @@ export const Furniture_1716: Item = {
     id: 1716,
     name: "金桌",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_3910: Item = {
@@ -9927,8 +11709,10 @@ export const Furniture_3910: Item = {
     id: 3910,
     name: "金工作台",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_1705: Item = {
@@ -9937,8 +11721,10 @@ export const Furniture_1705: Item = {
     id: 1705,
     name: "金马桶",
     Category: Furniture,
+    SubCategory: GoldF,
     comments: "",
 }
+
 
 
 export const Furniture_3234: Item = {
@@ -9947,8 +11733,10 @@ export const Furniture_3234: Item = {
     id: 3234,
     name: "水晶块",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3238: Item = {
@@ -9957,8 +11745,10 @@ export const Furniture_3238: Item = {
     id: 3238,
     name: "水晶块墙",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3895: Item = {
@@ -9967,8 +11757,10 @@ export const Furniture_3895: Item = {
     id: 3895,
     name: "水晶浴缸",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3897: Item = {
@@ -9977,8 +11769,10 @@ export const Furniture_3897: Item = {
     id: 3897,
     name: "水晶床",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3917: Item = {
@@ -9987,8 +11781,10 @@ export const Furniture_3917: Item = {
     id: 3917,
     name: "水晶书架",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3911: Item = {
@@ -9997,8 +11793,10 @@ export const Furniture_3911: Item = {
     id: 3911,
     name: "水晶梳妆台",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3893: Item = {
@@ -10007,8 +11805,10 @@ export const Furniture_3893: Item = {
     id: 3893,
     name: "水晶烛台",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3890: Item = {
@@ -10017,8 +11817,10 @@ export const Furniture_3890: Item = {
     id: 3890,
     name: "水晶蜡烛",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3889: Item = {
@@ -10027,8 +11829,10 @@ export const Furniture_3889: Item = {
     id: 3889,
     name: "水晶椅",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3894: Item = {
@@ -10037,8 +11841,10 @@ export const Furniture_3894: Item = {
     id: 3894,
     name: "水晶吊灯",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3884: Item = {
@@ -10047,8 +11853,10 @@ export const Furniture_3884: Item = {
     id: 3884,
     name: "水晶箱",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3898: Item = {
@@ -10057,8 +11865,10 @@ export const Furniture_3898: Item = {
     id: 3898,
     name: "水晶时钟",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3888: Item = {
@@ -10067,8 +11877,10 @@ export const Furniture_3888: Item = {
     id: 3888,
     name: "水晶门",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3892: Item = {
@@ -10077,8 +11889,10 @@ export const Furniture_3892: Item = {
     id: 3892,
     name: "水晶灯",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3891: Item = {
@@ -10087,8 +11901,10 @@ export const Furniture_3891: Item = {
     id: 3891,
     name: "水晶灯笼",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3915: Item = {
@@ -10097,8 +11913,10 @@ export const Furniture_3915: Item = {
     id: 3915,
     name: "水晶钢琴",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3903: Item = {
@@ -10107,8 +11925,10 @@ export const Furniture_3903: Item = {
     id: 3903,
     name: "水晶平台",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3896: Item = {
@@ -10117,8 +11937,10 @@ export const Furniture_3896: Item = {
     id: 3896,
     name: "水晶水槽",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3918: Item = {
@@ -10127,8 +11949,10 @@ export const Furniture_3918: Item = {
     id: 3918,
     name: "水晶沙发",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3920: Item = {
@@ -10137,8 +11961,10 @@ export const Furniture_3920: Item = {
     id: 3920,
     name: "水晶桌",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_3909: Item = {
@@ -10147,8 +11973,10 @@ export const Furniture_3909: Item = {
     id: 3909,
     name: "水晶工作台",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_4124: Item = {
@@ -10157,8 +11985,10 @@ export const Furniture_4124: Item = {
     id: 4124,
     name: "水晶马桶",
     Category: Furniture,
+    SubCategory: CryF,
     comments: "",
 }
+
 
 
 export const Furniture_4229: Item = {
@@ -10167,8 +11997,10 @@ export const Furniture_4229: Item = {
     id: 4229,
     name: "日耀砖",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_3573: Item = {
@@ -10177,8 +12009,10 @@ export const Furniture_3573: Item = {
     id: 3573,
     name: "日耀碎片块",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4233: Item = {
@@ -10187,8 +12021,10 @@ export const Furniture_4233: Item = {
     id: 4233,
     name: "日耀砖墙",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4145: Item = {
@@ -10197,8 +12033,10 @@ export const Furniture_4145: Item = {
     id: 4145,
     name: "日耀浴缸",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4146: Item = {
@@ -10207,8 +12045,10 @@ export const Furniture_4146: Item = {
     id: 4146,
     name: "日耀床",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4147: Item = {
@@ -10217,8 +12057,10 @@ export const Furniture_4147: Item = {
     id: 4147,
     name: "日耀书架",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4148: Item = {
@@ -10227,8 +12069,10 @@ export const Furniture_4148: Item = {
     id: 4148,
     name: "日耀梳妆台",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4149: Item = {
@@ -10237,8 +12081,10 @@ export const Furniture_4149: Item = {
     id: 4149,
     name: "日耀烛台",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4150: Item = {
@@ -10247,8 +12093,10 @@ export const Furniture_4150: Item = {
     id: 4150,
     name: "日耀蜡烛",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4151: Item = {
@@ -10257,8 +12105,10 @@ export const Furniture_4151: Item = {
     id: 4151,
     name: "日耀椅",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4152: Item = {
@@ -10267,8 +12117,10 @@ export const Furniture_4152: Item = {
     id: 4152,
     name: "日耀吊灯",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4153: Item = {
@@ -10277,8 +12129,10 @@ export const Furniture_4153: Item = {
     id: 4153,
     name: "日耀箱",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4154: Item = {
@@ -10287,8 +12141,10 @@ export const Furniture_4154: Item = {
     id: 4154,
     name: "日耀时钟",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4155: Item = {
@@ -10297,8 +12153,10 @@ export const Furniture_4155: Item = {
     id: 4155,
     name: "日耀门",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4156: Item = {
@@ -10307,8 +12165,10 @@ export const Furniture_4156: Item = {
     id: 4156,
     name: "日耀灯",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4157: Item = {
@@ -10317,8 +12177,10 @@ export const Furniture_4157: Item = {
     id: 4157,
     name: "日耀灯笼",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4158: Item = {
@@ -10327,8 +12189,10 @@ export const Furniture_4158: Item = {
     id: 4158,
     name: "日耀钢琴",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4159: Item = {
@@ -10337,8 +12201,10 @@ export const Furniture_4159: Item = {
     id: 4159,
     name: "日耀平台",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4160: Item = {
@@ -10347,8 +12213,10 @@ export const Furniture_4160: Item = {
     id: 4160,
     name: "日耀水槽",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4161: Item = {
@@ -10357,8 +12225,10 @@ export const Furniture_4161: Item = {
     id: 4161,
     name: "日耀沙发",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4162: Item = {
@@ -10367,8 +12237,10 @@ export const Furniture_4162: Item = {
     id: 4162,
     name: "日耀桌",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4163: Item = {
@@ -10377,8 +12249,10 @@ export const Furniture_4163: Item = {
     id: 4163,
     name: "日耀工作台",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4165: Item = {
@@ -10387,8 +12261,10 @@ export const Furniture_4165: Item = {
     id: 4165,
     name: "日耀马桶",
     Category: Furniture,
+    SubCategory: SolF,
     comments: "",
 }
+
 
 
 export const Furniture_4230: Item = {
@@ -10397,8 +12273,10 @@ export const Furniture_4230: Item = {
     id: 4230,
     name: "星旋砖",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_3574: Item = {
@@ -10407,8 +12285,10 @@ export const Furniture_3574: Item = {
     id: 3574,
     name: "星旋碎片块",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4234: Item = {
@@ -10417,8 +12297,10 @@ export const Furniture_4234: Item = {
     id: 4234,
     name: "星旋砖墙",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4166: Item = {
@@ -10427,8 +12309,10 @@ export const Furniture_4166: Item = {
     id: 4166,
     name: "星旋浴缸",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4167: Item = {
@@ -10437,8 +12321,10 @@ export const Furniture_4167: Item = {
     id: 4167,
     name: "星旋床",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4168: Item = {
@@ -10447,8 +12333,10 @@ export const Furniture_4168: Item = {
     id: 4168,
     name: "星旋书架",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4169: Item = {
@@ -10457,8 +12345,10 @@ export const Furniture_4169: Item = {
     id: 4169,
     name: "星旋梳妆台",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4170: Item = {
@@ -10467,8 +12357,10 @@ export const Furniture_4170: Item = {
     id: 4170,
     name: "星旋烛台",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4171: Item = {
@@ -10477,8 +12369,10 @@ export const Furniture_4171: Item = {
     id: 4171,
     name: "星旋蜡烛",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4172: Item = {
@@ -10487,8 +12381,10 @@ export const Furniture_4172: Item = {
     id: 4172,
     name: "星旋椅",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4173: Item = {
@@ -10497,8 +12393,10 @@ export const Furniture_4173: Item = {
     id: 4173,
     name: "星旋吊灯",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4174: Item = {
@@ -10507,8 +12405,10 @@ export const Furniture_4174: Item = {
     id: 4174,
     name: "星旋箱",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4175: Item = {
@@ -10517,8 +12417,10 @@ export const Furniture_4175: Item = {
     id: 4175,
     name: "星旋时钟",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4176: Item = {
@@ -10527,8 +12429,10 @@ export const Furniture_4176: Item = {
     id: 4176,
     name: "星旋门",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4177: Item = {
@@ -10537,8 +12441,10 @@ export const Furniture_4177: Item = {
     id: 4177,
     name: "星旋灯",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4178: Item = {
@@ -10547,8 +12453,10 @@ export const Furniture_4178: Item = {
     id: 4178,
     name: "星旋灯笼",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4179: Item = {
@@ -10557,8 +12465,10 @@ export const Furniture_4179: Item = {
     id: 4179,
     name: "星旋钢琴",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4180: Item = {
@@ -10567,8 +12477,10 @@ export const Furniture_4180: Item = {
     id: 4180,
     name: "星旋平台",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4181: Item = {
@@ -10577,8 +12489,10 @@ export const Furniture_4181: Item = {
     id: 4181,
     name: "星旋水槽",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4182: Item = {
@@ -10587,8 +12501,10 @@ export const Furniture_4182: Item = {
     id: 4182,
     name: "星旋沙发",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4183: Item = {
@@ -10597,8 +12513,10 @@ export const Furniture_4183: Item = {
     id: 4183,
     name: "星旋桌",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4184: Item = {
@@ -10607,8 +12525,10 @@ export const Furniture_4184: Item = {
     id: 4184,
     name: "星旋工作台",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4186: Item = {
@@ -10617,8 +12537,10 @@ export const Furniture_4186: Item = {
     id: 4186,
     name: "星旋马桶",
     Category: Furniture,
+    SubCategory: VorF,
     comments: "",
 }
+
 
 
 export const Furniture_4231: Item = {
@@ -10627,8 +12549,10 @@ export const Furniture_4231: Item = {
     id: 4231,
     name: "星云砖",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_3575: Item = {
@@ -10637,8 +12561,10 @@ export const Furniture_3575: Item = {
     id: 3575,
     name: "星云碎片块",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4235: Item = {
@@ -10647,8 +12573,10 @@ export const Furniture_4235: Item = {
     id: 4235,
     name: "星云砖墙",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4187: Item = {
@@ -10657,8 +12585,10 @@ export const Furniture_4187: Item = {
     id: 4187,
     name: "星云浴缸",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4188: Item = {
@@ -10667,8 +12597,10 @@ export const Furniture_4188: Item = {
     id: 4188,
     name: "星云床",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4189: Item = {
@@ -10677,8 +12609,10 @@ export const Furniture_4189: Item = {
     id: 4189,
     name: "星云书架",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4190: Item = {
@@ -10687,8 +12621,10 @@ export const Furniture_4190: Item = {
     id: 4190,
     name: "星云梳妆台",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4191: Item = {
@@ -10697,8 +12633,10 @@ export const Furniture_4191: Item = {
     id: 4191,
     name: "星云烛台",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4192: Item = {
@@ -10707,8 +12645,10 @@ export const Furniture_4192: Item = {
     id: 4192,
     name: "星云蜡烛",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4193: Item = {
@@ -10717,8 +12657,10 @@ export const Furniture_4193: Item = {
     id: 4193,
     name: "星云椅",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4194: Item = {
@@ -10727,8 +12669,10 @@ export const Furniture_4194: Item = {
     id: 4194,
     name: "星云吊灯",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4195: Item = {
@@ -10737,8 +12681,10 @@ export const Furniture_4195: Item = {
     id: 4195,
     name: "星云箱",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4196: Item = {
@@ -10747,8 +12693,10 @@ export const Furniture_4196: Item = {
     id: 4196,
     name: "星云时钟",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4197: Item = {
@@ -10757,8 +12705,10 @@ export const Furniture_4197: Item = {
     id: 4197,
     name: "星云门",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4198: Item = {
@@ -10767,8 +12717,10 @@ export const Furniture_4198: Item = {
     id: 4198,
     name: "星云灯",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4199: Item = {
@@ -10777,8 +12729,10 @@ export const Furniture_4199: Item = {
     id: 4199,
     name: "星云灯笼",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4200: Item = {
@@ -10787,8 +12741,10 @@ export const Furniture_4200: Item = {
     id: 4200,
     name: "星云钢琴",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4201: Item = {
@@ -10797,8 +12753,10 @@ export const Furniture_4201: Item = {
     id: 4201,
     name: "星云平台",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4202: Item = {
@@ -10807,8 +12765,10 @@ export const Furniture_4202: Item = {
     id: 4202,
     name: "星云水槽",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4203: Item = {
@@ -10817,8 +12777,10 @@ export const Furniture_4203: Item = {
     id: 4203,
     name: "星云沙发",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4204: Item = {
@@ -10827,8 +12789,10 @@ export const Furniture_4204: Item = {
     id: 4204,
     name: "星云桌",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4205: Item = {
@@ -10837,8 +12801,10 @@ export const Furniture_4205: Item = {
     id: 4205,
     name: "星云工作台",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4207: Item = {
@@ -10847,8 +12813,10 @@ export const Furniture_4207: Item = {
     id: 4207,
     name: "星云马桶",
     Category: Furniture,
+    SubCategory: NebF,
     comments: "",
 }
+
 
 
 export const Furniture_4232: Item = {
@@ -10857,8 +12825,10 @@ export const Furniture_4232: Item = {
     id: 4232,
     name: "星尘砖",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_3576: Item = {
@@ -10867,8 +12837,10 @@ export const Furniture_3576: Item = {
     id: 3576,
     name: "星尘碎片块",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4236: Item = {
@@ -10877,8 +12849,10 @@ export const Furniture_4236: Item = {
     id: 4236,
     name: "星尘砖墙",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4208: Item = {
@@ -10887,8 +12861,10 @@ export const Furniture_4208: Item = {
     id: 4208,
     name: "星尘浴缸",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4209: Item = {
@@ -10897,8 +12873,10 @@ export const Furniture_4209: Item = {
     id: 4209,
     name: "星尘床",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4210: Item = {
@@ -10907,8 +12885,10 @@ export const Furniture_4210: Item = {
     id: 4210,
     name: "星尘书架",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4211: Item = {
@@ -10917,8 +12897,10 @@ export const Furniture_4211: Item = {
     id: 4211,
     name: "星尘梳妆台",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4212: Item = {
@@ -10927,8 +12909,10 @@ export const Furniture_4212: Item = {
     id: 4212,
     name: "星尘烛台",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4213: Item = {
@@ -10937,8 +12921,10 @@ export const Furniture_4213: Item = {
     id: 4213,
     name: "星尘蜡烛",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4214: Item = {
@@ -10947,8 +12933,10 @@ export const Furniture_4214: Item = {
     id: 4214,
     name: "星尘椅",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4215: Item = {
@@ -10957,8 +12945,10 @@ export const Furniture_4215: Item = {
     id: 4215,
     name: "星尘吊灯",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4216: Item = {
@@ -10967,8 +12957,10 @@ export const Furniture_4216: Item = {
     id: 4216,
     name: "星尘箱",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4217: Item = {
@@ -10977,8 +12969,10 @@ export const Furniture_4217: Item = {
     id: 4217,
     name: "星尘时钟",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4218: Item = {
@@ -10987,8 +12981,10 @@ export const Furniture_4218: Item = {
     id: 4218,
     name: "星尘门",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4219: Item = {
@@ -10997,8 +12993,10 @@ export const Furniture_4219: Item = {
     id: 4219,
     name: "星尘灯",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4220: Item = {
@@ -11007,8 +13005,10 @@ export const Furniture_4220: Item = {
     id: 4220,
     name: "星尘灯笼",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4221: Item = {
@@ -11017,8 +13017,10 @@ export const Furniture_4221: Item = {
     id: 4221,
     name: "星尘钢琴",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4222: Item = {
@@ -11027,8 +13029,10 @@ export const Furniture_4222: Item = {
     id: 4222,
     name: "星尘平台",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4223: Item = {
@@ -11037,8 +13041,10 @@ export const Furniture_4223: Item = {
     id: 4223,
     name: "星尘水槽",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4224: Item = {
@@ -11047,8 +13053,10 @@ export const Furniture_4224: Item = {
     id: 4224,
     name: "星尘沙发",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4225: Item = {
@@ -11057,8 +13065,10 @@ export const Furniture_4225: Item = {
     id: 4225,
     name: "星尘桌",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4226: Item = {
@@ -11067,8 +13077,10 @@ export const Furniture_4226: Item = {
     id: 4226,
     name: "星尘工作台",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_4228: Item = {
@@ -11077,8 +13089,10 @@ export const Furniture_4228: Item = {
     id: 4228,
     name: "星尘马桶",
     Category: Furniture,
+    SubCategory: StartF,
     comments: "",
 }
+
 
 
 export const Furniture_1872: Item = {
@@ -11087,8 +13101,10 @@ export const Furniture_1872: Item = {
     id: 1872,
     name: "松树块",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_586: Item = {
@@ -11097,8 +13113,10 @@ export const Furniture_586: Item = {
     id: 586,
     name: "糖棒块",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_591: Item = {
@@ -11107,8 +13125,10 @@ export const Furniture_591: Item = {
     id: 591,
     name: "绿糖棒块",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_587: Item = {
@@ -11117,8 +13137,10 @@ export const Furniture_587: Item = {
     id: 587,
     name: "糖棒墙",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_592: Item = {
@@ -11127,8 +13149,10 @@ export const Furniture_592: Item = {
     id: 592,
     name: "绿糖棒墙",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_1924: Item = {
@@ -11137,8 +13161,10 @@ export const Furniture_1924: Item = {
     id: 1924,
     name: "松树门",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_1925: Item = {
@@ -11147,8 +13173,10 @@ export const Furniture_1925: Item = {
     id: 1925,
     name: "松树椅",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_1926: Item = {
@@ -11157,8 +13185,10 @@ export const Furniture_1926: Item = {
     id: 1926,
     name: "松树桌",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_596: Item = {
@@ -11167,8 +13197,10 @@ export const Furniture_596: Item = {
     id: 596,
     name: "蓝灯",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_597: Item = {
@@ -11177,8 +13209,10 @@ export const Furniture_597: Item = {
     id: 597,
     name: "红灯",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_598: Item = {
@@ -11187,8 +13221,10 @@ export const Furniture_598: Item = {
     id: 598,
     name: "绿灯",
     Category: Furniture,
+    SubCategory: SenF,
     comments: "",
 }
+
 
 
 export const Furniture_1509: Item = {
@@ -11197,8 +13233,10 @@ export const Furniture_1509: Item = {
     id: 1509,
     name: "哥特椅",
     Category: Furniture,
+    SubCategory: GoF,
     comments: "",
 }
+
 
 
 export const Furniture_1510: Item = {
@@ -11207,8 +13245,10 @@ export const Furniture_1510: Item = {
     id: 1510,
     name: "哥特桌",
     Category: Furniture,
+    SubCategory: GoF,
     comments: "",
 }
+
 
 
 export const Furniture_1511: Item = {
@@ -11217,8 +13257,10 @@ export const Furniture_1511: Item = {
     id: 1511,
     name: "哥特工作台",
     Category: Furniture,
+    SubCategory: GoF,
     comments: "",
 }
+
 
 
 export const Furniture_1512: Item = {
@@ -11227,8 +13269,10 @@ export const Furniture_1512: Item = {
     id: 1512,
     name: "哥特书架",
     Category: Furniture,
+    SubCategory: GoF,
     comments: "",
 }
+
 
 
 export const Furniture_1138: Item = {
@@ -11237,8 +13281,10 @@ export const Furniture_1138: Item = {
     id: 1138,
     name: "地牢门",
     Category: Furniture,
+    SubCategory: GoF,
     comments: "",
 }
+
 
 
 export const Furniture_5349: Item = {
@@ -11247,8 +13293,10 @@ export const Furniture_5349: Item = {
     id: 5349,
     name: "以太块",
     Category: Furniture,
+    SubCategory: AetF,
     comments: "",
 }
+
 
 
 export const Furniture_5398: Item = {
@@ -11257,8 +13305,10 @@ export const Furniture_5398: Item = {
     id: 5398,
     name: "以太砖",
     Category: Furniture,
+    SubCategory: AetF,
     comments: "",
 }
+
 
 
 export const Furniture_5397: Item = {
@@ -11267,8 +13317,10 @@ export const Furniture_5397: Item = {
     id: 5397,
     name: "以太墙",
     Category: Furniture,
+    SubCategory: AetF,
     comments: "",
 }
+
 
 
 export const Furniture_5399: Item = {
@@ -11277,8 +13329,10 @@ export const Furniture_5399: Item = {
     id: 5399,
     name: "以太砖墙",
     Category: Furniture,
+    SubCategory: AetF,
     comments: "",
 }
+
 
 
 export const Furniture_5347: Item = {
@@ -11287,8 +13341,10 @@ export const Furniture_5347: Item = {
     id: 5347,
     name: "以太天塔柱",
     Category: Furniture,
+    SubCategory: AetF,
     comments: "",
 }
+
 
 
 export const Furniture_4392: Item = {
@@ -11297,8 +13353,10 @@ export const Furniture_4392: Item = {
     id: 4392,
     name: "回声块",
     Category: Furniture,
+    SubCategory: EchF,
     comments: "",
 }
+
 
 
 export const Furniture_5291: Item = {
@@ -11307,8 +13365,10 @@ export const Furniture_5291: Item = {
     id: 5291,
     name: "回声墙",
     Category: Furniture,
+    SubCategory: EchF,
     comments: "",
 }
+
 
 
 export const Furniture_5292: Item = {
@@ -11317,8 +13377,10 @@ export const Furniture_5292: Item = {
     id: 5292,
     name: "回声平台",
     Category: Furniture,
+    SubCategory: EchF,
     comments: "",
 }
+
 
 
 export const Furniture_5345: Item = {
@@ -11327,6 +13389,7 @@ export const Furniture_5345: Item = {
     id: 5345,
     name: "回声腔",
     Category: Furniture,
+    SubCategory: EchF,
     comments: "",
 }
 

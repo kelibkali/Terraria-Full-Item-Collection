@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { MagicWeapon } from "../data.Category.zh-CN.ts"
 
+import { MagicGun, OtherMagicWeapon, SpellBook, Wand } from "../data.SubCategory.zh-CN.ts"
+
 import MagicWeapon_3069Img from "../../../assets/icon/Item_3069.png"
 import MagicWeapon_5147Img from "../../../assets/icon/Item_5147.png"
 import MagicWeapon_739Img from "../../../assets/icon/Item_739.png"
@@ -76,14 +78,18 @@ import MagicWeapon_4715Img from "../../../assets/icon/Item_4715.png"
 import MagicWeapon_3476Img from "../../../assets/icon/Item_3476.png"
 import MagicWeapon_3542Img from "../../../assets/icon/Item_3542.png"
 import MagicWeapon_3541Img from "../../../assets/icon/Item_3541.png"
+
+
 export const MagicWeapon_3069: Item = {
     icon: MagicWeapon_3069Img,
     isCollection: false,
     id: 3069,
     name: "火花魔棒",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_5147: Item = {
@@ -92,8 +98,10 @@ export const MagicWeapon_5147: Item = {
     id: 5147,
     name: "结霜魔棒",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_739: Item = {
@@ -102,8 +110,10 @@ export const MagicWeapon_739: Item = {
     id: 739,
     name: "紫晶法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_740: Item = {
@@ -112,8 +122,10 @@ export const MagicWeapon_740: Item = {
     id: 740,
     name: "黄玉法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_741: Item = {
@@ -122,8 +134,10 @@ export const MagicWeapon_741: Item = {
     id: 741,
     name: "蓝玉法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_742: Item = {
@@ -132,8 +146,10 @@ export const MagicWeapon_742: Item = {
     id: 742,
     name: "翡翠法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3377: Item = {
@@ -142,8 +158,10 @@ export const MagicWeapon_3377: Item = {
     id: 3377,
     name: "琥珀法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_743: Item = {
@@ -152,8 +170,10 @@ export const MagicWeapon_743: Item = {
     id: 743,
     name: "红玉法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_744: Item = {
@@ -162,8 +182,10 @@ export const MagicWeapon_744: Item = {
     id: 744,
     name: "钻石法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4062: Item = {
@@ -172,8 +194,10 @@ export const MagicWeapon_4062: Item = {
     id: 4062,
     name: "霹雳法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_64: Item = {
@@ -182,8 +206,10 @@ export const MagicWeapon_64: Item = {
     id: 64,
     name: "魔刺",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_157: Item = {
@@ -192,8 +218,10 @@ export const MagicWeapon_157: Item = {
     id: 157,
     name: "海蓝权杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_113: Item = {
@@ -202,8 +230,10 @@ export const MagicWeapon_113: Item = {
     id: 113,
     name: "魔法飞弹",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_5118: Item = {
@@ -212,8 +242,10 @@ export const MagicWeapon_5118: Item = {
     id: 5118,
     name: "天候棒",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_218: Item = {
@@ -222,8 +254,10 @@ export const MagicWeapon_218: Item = {
     id: 218,
     name: "烈焰火鞭",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_112: Item = {
@@ -232,8 +266,10 @@ export const MagicWeapon_112: Item = {
     id: 112,
     name: "火之花",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3787: Item = {
@@ -242,8 +278,10 @@ export const MagicWeapon_3787: Item = {
     id: 3787,
     name: "裂天剑",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3209: Item = {
@@ -252,8 +290,10 @@ export const MagicWeapon_3209: Item = {
     id: 3209,
     name: "水晶蛇",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2750: Item = {
@@ -262,8 +302,10 @@ export const MagicWeapon_2750: Item = {
     id: 2750,
     name: "流星法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3051: Item = {
@@ -272,8 +314,10 @@ export const MagicWeapon_3051: Item = {
     id: 3051,
     name: "魔晶碎块",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3006: Item = {
@@ -282,8 +326,10 @@ export const MagicWeapon_3006: Item = {
     id: 3006,
     name: "夺命杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1308: Item = {
@@ -292,8 +338,10 @@ export const MagicWeapon_1308: Item = {
     id: 1308,
     name: "剧毒法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_496: Item = {
@@ -302,8 +350,10 @@ export const MagicWeapon_496: Item = {
     id: 496,
     name: "冰雪魔杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_726: Item = {
@@ -312,8 +362,10 @@ export const MagicWeapon_726: Item = {
     id: 726,
     name: "寒霜法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1264: Item = {
@@ -322,8 +374,10 @@ export const MagicWeapon_1264: Item = {
     id: 1264,
     name: "寒霜之花",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_683: Item = {
@@ -332,8 +386,10 @@ export const MagicWeapon_683: Item = {
     id: 683,
     name: "邪恶三叉戟",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_495: Item = {
@@ -342,8 +398,10 @@ export const MagicWeapon_495: Item = {
     id: 495,
     name: "彩虹魔杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3852: Item = {
@@ -352,8 +410,10 @@ export const MagicWeapon_3852: Item = {
     id: 3852,
     name: "无限智慧巨著",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2188: Item = {
@@ -362,8 +422,10 @@ export const MagicWeapon_2188: Item = {
     id: 2188,
     name: "毒液法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_788: Item = {
@@ -372,8 +434,10 @@ export const MagicWeapon_788: Item = {
     id: 788,
     name: "爆裂藤蔓",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1444: Item = {
@@ -382,8 +446,10 @@ export const MagicWeapon_1444: Item = {
     id: 1444,
     name: "暗影束法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1445: Item = {
@@ -392,8 +458,10 @@ export const MagicWeapon_1445: Item = {
     id: 1445,
     name: "狱火叉",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1446: Item = {
@@ -402,8 +470,10 @@ export const MagicWeapon_1446: Item = {
     id: 1446,
     name: "幽灵法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1801: Item = {
@@ -412,8 +482,10 @@ export const MagicWeapon_1801: Item = {
     id: 1801,
     name: "蝙蝠权杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1930: Item = {
@@ -422,8 +494,10 @@ export const MagicWeapon_1930: Item = {
     id: 1930,
     name: "剃刀松",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1931: Item = {
@@ -432,8 +506,10 @@ export const MagicWeapon_1931: Item = {
     id: 1931,
     name: "暴雪法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_5065: Item = {
@@ -442,8 +518,10 @@ export const MagicWeapon_5065: Item = {
     id: 5065,
     name: "共鸣权杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1296: Item = {
@@ -452,8 +530,10 @@ export const MagicWeapon_1296: Item = {
     id: 1296,
     name: "大地法杖",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3870: Item = {
@@ -462,8 +542,10 @@ export const MagicWeapon_3870: Item = {
     id: 3870,
     name: "双足翼龙怒气",
     Category: MagicWeapon,
+    SubCategory: Wand,
     comments: "",
 }
+
 
 
 export const MagicWeapon_165: Item = {
@@ -472,8 +554,10 @@ export const MagicWeapon_165: Item = {
     id: 165,
     name: "水矢",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1313: Item = {
@@ -482,8 +566,10 @@ export const MagicWeapon_1313: Item = {
     id: 1313,
     name: "骷髅头法书",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_272: Item = {
@@ -492,8 +578,10 @@ export const MagicWeapon_272: Item = {
     id: 272,
     name: "恶魔之镰",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_518: Item = {
@@ -502,8 +590,10 @@ export const MagicWeapon_518: Item = {
     id: 518,
     name: "水晶风暴",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_519: Item = {
@@ -512,8 +602,10 @@ export const MagicWeapon_519: Item = {
     id: 519,
     name: "咒焰书",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1336: Item = {
@@ -522,8 +614,10 @@ export const MagicWeapon_1336: Item = {
     id: 1336,
     name: "黄金雨",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1266: Item = {
@@ -532,8 +626,10 @@ export const MagicWeapon_1266: Item = {
     id: 1266,
     name: "磁球",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2622: Item = {
@@ -542,8 +638,10 @@ export const MagicWeapon_2622: Item = {
     id: 2622,
     name: "利刃台风",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3570: Item = {
@@ -552,8 +650,10 @@ export const MagicWeapon_3570: Item = {
     id: 3570,
     name: "月耀",
     Category: MagicWeapon,
+    SubCategory: SpellBook,
     comments: "",
 }
+
 
 
 export const MagicWeapon_127: Item = {
@@ -562,8 +662,10 @@ export const MagicWeapon_127: Item = {
     id: 127,
     name: "太空枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1121: Item = {
@@ -572,8 +674,10 @@ export const MagicWeapon_1121: Item = {
     id: 1121,
     name: "蜜蜂枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4347: Item = {
@@ -582,8 +686,10 @@ export const MagicWeapon_4347: Item = {
     id: 4347,
     name: "灰冲击枪",
     Category: MagicWeapon,
-    comments: "",
+    SubCategory: MagicGun,
+    comments: "必须肉前获取",
 }
+
 
 
 export const MagicWeapon_514: Item = {
@@ -592,8 +698,10 @@ export const MagicWeapon_514: Item = {
     id: 514,
     name: "激光步枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4348: Item = {
@@ -602,8 +710,10 @@ export const MagicWeapon_4348: Item = {
     id: 4348,
     name: "橙冲击枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1155: Item = {
@@ -612,8 +722,10 @@ export const MagicWeapon_1155: Item = {
     id: 1155,
     name: "胡蜂枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1178: Item = {
@@ -622,8 +734,10 @@ export const MagicWeapon_1178: Item = {
     id: 1178,
     name: "吹叶机",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1260: Item = {
@@ -632,8 +746,10 @@ export const MagicWeapon_1260: Item = {
     id: 1260,
     name: "彩虹枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1295: Item = {
@@ -642,8 +758,10 @@ export const MagicWeapon_1295: Item = {
     id: 1295,
     name: "高温射线枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2795: Item = {
@@ -652,8 +770,10 @@ export const MagicWeapon_2795: Item = {
     id: 2795,
     name: "激光机枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2882: Item = {
@@ -662,8 +782,10 @@ export const MagicWeapon_2882: Item = {
     id: 2882,
     name: "充能爆破炮",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_2623: Item = {
@@ -672,8 +794,10 @@ export const MagicWeapon_2623: Item = {
     id: 2623,
     name: "泡泡枪",
     Category: MagicWeapon,
+    SubCategory: MagicGun,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1256: Item = {
@@ -682,8 +806,10 @@ export const MagicWeapon_1256: Item = {
     id: 1256,
     name: "猩红魔杖",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_1244: Item = {
@@ -692,8 +818,10 @@ export const MagicWeapon_1244: Item = {
     id: 1244,
     name: "雨云魔杖",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_517: Item = {
@@ -702,8 +830,10 @@ export const MagicWeapon_517: Item = {
     id: 517,
     name: "魔法飞刀",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3014: Item = {
@@ -712,8 +842,10 @@ export const MagicWeapon_3014: Item = {
     id: 3014,
     name: "爬藤怪法杖",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3779: Item = {
@@ -722,8 +854,10 @@ export const MagicWeapon_3779: Item = {
     id: 3779,
     name: "神灯烈焰",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3053: Item = {
@@ -732,8 +866,10 @@ export const MagicWeapon_3053: Item = {
     id: 3053,
     name: "暗影焰妖娃",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3269: Item = {
@@ -742,8 +878,10 @@ export const MagicWeapon_3269: Item = {
     id: 3269,
     name: "蛇发女妖头",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4270: Item = {
@@ -752,8 +890,10 @@ export const MagicWeapon_4270: Item = {
     id: 4270,
     name: "血荆棘",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_494: Item = {
@@ -762,8 +902,10 @@ export const MagicWeapon_494: Item = {
     id: 494,
     name: "魔法竖琴",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3105: Item = {
@@ -772,8 +914,10 @@ export const MagicWeapon_3105: Item = {
     id: 3105,
     name: "毒气瓶",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4952: Item = {
@@ -782,8 +926,10 @@ export const MagicWeapon_4952: Item = {
     id: 4952,
     name: "夜光",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_4715: Item = {
@@ -792,8 +938,10 @@ export const MagicWeapon_4715: Item = {
     id: 4715,
     name: "星星吉他",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3476: Item = {
@@ -802,8 +950,10 @@ export const MagicWeapon_3476: Item = {
     id: 3476,
     name: "星云奥秘",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3542: Item = {
@@ -812,8 +962,10 @@ export const MagicWeapon_3542: Item = {
     id: 3542,
     name: "星云烈焰",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
+
 
 
 export const MagicWeapon_3541: Item = {
@@ -822,6 +974,7 @@ export const MagicWeapon_3541: Item = {
     id: 3541,
     name: "终极棱镜",
     Category: MagicWeapon,
+    SubCategory: OtherMagicWeapon,
     comments: "",
 }
 

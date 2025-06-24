@@ -39,14 +39,18 @@ import OilPaint_1967Img from "../../../assets/icon/Item_1967.png"
 import OilPaint_1968Img from "../../../assets/icon/Item_1968.png"
 import OilPaint_4668Img from "../../../assets/icon/Item_4668.png"
 import OilPaint_5344Img from "../../../assets/icon/Item_5344.png"
+
+
 export const OilPaint_1071: Item = {
     icon: OilPaint_1071Img,
     isCollection: false,
     id: 1071,
     name: "漆刷",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1072: Item = {
@@ -55,8 +59,10 @@ export const OilPaint_1072: Item = {
     id: 1072,
     name: "涂漆滚刷",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1100: Item = {
@@ -65,8 +71,10 @@ export const OilPaint_1100: Item = {
     id: 1100,
     name: "漆铲",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1543: Item = {
@@ -75,8 +83,10 @@ export const OilPaint_1543: Item = {
     id: 1543,
     name: "幽灵漆刷",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1544: Item = {
@@ -85,8 +95,10 @@ export const OilPaint_1544: Item = {
     id: 1544,
     name: "幽灵涂漆滚刷",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1545: Item = {
@@ -95,8 +107,10 @@ export const OilPaint_1545: Item = {
     id: 1545,
     name: "幽灵漆铲",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1073: Item = {
@@ -105,8 +119,10 @@ export const OilPaint_1073: Item = {
     id: 1073,
     name: "红漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1074: Item = {
@@ -115,8 +131,10 @@ export const OilPaint_1074: Item = {
     id: 1074,
     name: "橙漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1075: Item = {
@@ -125,8 +143,10 @@ export const OilPaint_1075: Item = {
     id: 1075,
     name: "黄漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1076: Item = {
@@ -135,8 +155,10 @@ export const OilPaint_1076: Item = {
     id: 1076,
     name: "橙绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1077: Item = {
@@ -145,8 +167,10 @@ export const OilPaint_1077: Item = {
     id: 1077,
     name: "绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1078: Item = {
@@ -155,8 +179,10 @@ export const OilPaint_1078: Item = {
     id: 1078,
     name: "青绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1079: Item = {
@@ -165,8 +191,10 @@ export const OilPaint_1079: Item = {
     id: 1079,
     name: "青漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1080: Item = {
@@ -175,8 +203,10 @@ export const OilPaint_1080: Item = {
     id: 1080,
     name: "天蓝漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1081: Item = {
@@ -185,8 +215,10 @@ export const OilPaint_1081: Item = {
     id: 1081,
     name: "蓝漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1082: Item = {
@@ -195,8 +227,10 @@ export const OilPaint_1082: Item = {
     id: 1082,
     name: "紫漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1083: Item = {
@@ -205,8 +239,10 @@ export const OilPaint_1083: Item = {
     id: 1083,
     name: "蓝紫漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1084: Item = {
@@ -215,8 +251,10 @@ export const OilPaint_1084: Item = {
     id: 1084,
     name: "粉漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1085: Item = {
@@ -225,8 +263,10 @@ export const OilPaint_1085: Item = {
     id: 1085,
     name: "深红漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1086: Item = {
@@ -235,8 +275,10 @@ export const OilPaint_1086: Item = {
     id: 1086,
     name: "深橙漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1087: Item = {
@@ -245,8 +287,10 @@ export const OilPaint_1087: Item = {
     id: 1087,
     name: "深黄漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1088: Item = {
@@ -255,8 +299,10 @@ export const OilPaint_1088: Item = {
     id: 1088,
     name: "深橙绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1089: Item = {
@@ -265,8 +311,10 @@ export const OilPaint_1089: Item = {
     id: 1089,
     name: "深绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1090: Item = {
@@ -275,8 +323,10 @@ export const OilPaint_1090: Item = {
     id: 1090,
     name: "深青绿漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1091: Item = {
@@ -285,8 +335,10 @@ export const OilPaint_1091: Item = {
     id: 1091,
     name: "深青漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1092: Item = {
@@ -295,8 +347,10 @@ export const OilPaint_1092: Item = {
     id: 1092,
     name: "深天蓝漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1093: Item = {
@@ -305,8 +359,10 @@ export const OilPaint_1093: Item = {
     id: 1093,
     name: "深蓝漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1094: Item = {
@@ -315,8 +371,10 @@ export const OilPaint_1094: Item = {
     id: 1094,
     name: "深紫漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1095: Item = {
@@ -325,8 +383,10 @@ export const OilPaint_1095: Item = {
     id: 1095,
     name: "深蓝紫漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1096: Item = {
@@ -335,8 +395,10 @@ export const OilPaint_1096: Item = {
     id: 1096,
     name: "深粉漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1097: Item = {
@@ -345,8 +407,10 @@ export const OilPaint_1097: Item = {
     id: 1097,
     name: "黑漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1098: Item = {
@@ -355,8 +419,10 @@ export const OilPaint_1098: Item = {
     id: 1098,
     name: "白漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1099: Item = {
@@ -365,8 +431,10 @@ export const OilPaint_1099: Item = {
     id: 1099,
     name: "灰漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1966: Item = {
@@ -375,8 +443,10 @@ export const OilPaint_1966: Item = {
     id: 1966,
     name: "棕漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1967: Item = {
@@ -385,8 +455,10 @@ export const OilPaint_1967: Item = {
     id: 1967,
     name: "暗影漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_1968: Item = {
@@ -395,8 +467,10 @@ export const OilPaint_1968: Item = {
     id: 1968,
     name: "反色漆",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_4668: Item = {
@@ -405,8 +479,10 @@ export const OilPaint_4668: Item = {
     id: 4668,
     name: "夜明涂料",
     Category: OilPaint,
+
     comments: "",
 }
+
 
 
 export const OilPaint_5344: Item = {
@@ -415,6 +491,7 @@ export const OilPaint_5344: Item = {
     id: 5344,
     name: "回声涂料",
     Category: OilPaint,
+
     comments: "",
 }
 

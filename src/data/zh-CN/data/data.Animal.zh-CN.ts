@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Animal } from "../data.Category.zh-CN.ts"
 
+import { Cage, RawAni } from "../data.SubCategory.zh-CN.ts"
+
 import Animal_2889Img from "../../../assets/icon/Item_2889.png"
 import Animal_2890Img from "../../../assets/icon/Item_2890.png"
 import Animal_3564Img from "../../../assets/icon/Item_3564.png"
@@ -190,14 +192,18 @@ import Animal_4848Img from "../../../assets/icon/Item_4848.png"
 import Animal_4850Img from "../../../assets/icon/Item_4850.png"
 import Animal_4963Img from "../../../assets/icon/Item_4963.png"
 import Animal_4964Img from "../../../assets/icon/Item_4964.png"
+
+
 export const Animal_2889: Item = {
     icon: Animal_2889Img,
     isCollection: false,
     id: 2889,
     name: "金鸟",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2890: Item = {
@@ -206,8 +212,10 @@ export const Animal_2890: Item = {
     id: 2890,
     name: "金兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3564: Item = {
@@ -216,8 +224,10 @@ export const Animal_3564: Item = {
     id: 3564,
     name: "金松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2892: Item = {
@@ -226,8 +236,10 @@ export const Animal_2892: Item = {
     id: 2892,
     name: "金蛙",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2893: Item = {
@@ -236,8 +248,10 @@ export const Animal_2893: Item = {
     id: 2893,
     name: "金蚱蜢",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2894: Item = {
@@ -246,8 +260,10 @@ export const Animal_2894: Item = {
     id: 2894,
     name: "金老鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2895: Item = {
@@ -256,8 +272,10 @@ export const Animal_2895: Item = {
     id: 2895,
     name: "金蠕虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2891: Item = {
@@ -266,8 +284,10 @@ export const Animal_2891: Item = {
     id: 2891,
     name: "金蝴蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4274: Item = {
@@ -276,8 +296,10 @@ export const Animal_4274: Item = {
     id: 4274,
     name: "金金鱼",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4340: Item = {
@@ -286,8 +308,10 @@ export const Animal_4340: Item = {
     id: 4340,
     name: "金蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4482: Item = {
@@ -296,8 +320,10 @@ export const Animal_4482: Item = {
     id: 4482,
     name: "金海马",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4362: Item = {
@@ -306,8 +332,10 @@ export const Animal_4362: Item = {
     id: 4362,
     name: "金瓢虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4419: Item = {
@@ -316,8 +344,10 @@ export const Animal_4419: Item = {
     id: 4419,
     name: "金水黾",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2015: Item = {
@@ -326,8 +356,10 @@ export const Animal_2015: Item = {
     id: 2015,
     name: "鸟",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2016: Item = {
@@ -336,8 +368,10 @@ export const Animal_2016: Item = {
     id: 2016,
     name: "冠蓝鸦",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2017: Item = {
@@ -346,8 +380,10 @@ export const Animal_2017: Item = {
     id: 2017,
     name: "红雀",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4395: Item = {
@@ -356,8 +392,10 @@ export const Animal_4395: Item = {
     id: 4395,
     name: "猫头鹰",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2123: Item = {
@@ -366,8 +404,10 @@ export const Animal_2123: Item = {
     id: 2123,
     name: "鸭",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2122: Item = {
@@ -376,8 +416,10 @@ export const Animal_2122: Item = {
     id: 2122,
     name: "野鸭",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2205: Item = {
@@ -386,8 +428,10 @@ export const Animal_2205: Item = {
     id: 2205,
     name: "企鹅",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4359: Item = {
@@ -396,8 +440,10 @@ export const Animal_4359: Item = {
     id: 4359,
     name: "海鸥",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4374: Item = {
@@ -406,8 +452,10 @@ export const Animal_4374: Item = {
     id: 4374,
     name: "䴙䴘",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5212: Item = {
@@ -416,8 +464,10 @@ export const Animal_5212: Item = {
     id: 5212,
     name: "绯红金刚鹦鹉",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5300: Item = {
@@ -426,8 +476,10 @@ export const Animal_5300: Item = {
     id: 5300,
     name: "蓝金刚鹦鹉",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5312: Item = {
@@ -436,8 +488,10 @@ export const Animal_5312: Item = {
     id: 5312,
     name: "黄玄凤鹦鹉",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5313: Item = {
@@ -446,8 +500,10 @@ export const Animal_5313: Item = {
     id: 5313,
     name: "灰玄凤鹦鹉",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5311: Item = {
@@ -456,8 +512,10 @@ export const Animal_5311: Item = {
     id: 5311,
     name: "巨嘴鸟",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2019: Item = {
@@ -466,8 +524,10 @@ export const Animal_2019: Item = {
     id: 2019,
     name: "兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2018: Item = {
@@ -476,8 +536,10 @@ export const Animal_2018: Item = {
     id: 2018,
     name: "松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3563: Item = {
@@ -486,8 +548,10 @@ export const Animal_3563: Item = {
     id: 3563,
     name: "红松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2121: Item = {
@@ -496,8 +560,10 @@ export const Animal_2121: Item = {
     id: 2121,
     name: "青蛙",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2740: Item = {
@@ -506,8 +572,10 @@ export const Animal_2740: Item = {
     id: 2740,
     name: "蚱蜢",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2003: Item = {
@@ -516,8 +584,10 @@ export const Animal_2003: Item = {
     id: 2003,
     name: "老鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4375: Item = {
@@ -526,8 +596,10 @@ export const Animal_4375: Item = {
     id: 4375,
     name: "大鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2002: Item = {
@@ -536,8 +608,10 @@ export const Animal_2002: Item = {
     id: 2002,
     name: "蠕虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3191: Item = {
@@ -546,8 +620,10 @@ export const Animal_3191: Item = {
     id: 3191,
     name: "附魔夜行者",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1992: Item = {
@@ -556,8 +632,10 @@ export const Animal_1992: Item = {
     id: 1992,
     name: "萤火虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2004: Item = {
@@ -566,8 +644,10 @@ export const Animal_2004: Item = {
     id: 2004,
     name: "荧光虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2156: Item = {
@@ -576,8 +656,10 @@ export const Animal_2156: Item = {
     id: 2156,
     name: "黑蝎子",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2157: Item = {
@@ -586,8 +668,10 @@ export const Animal_2157: Item = {
     id: 2157,
     name: "蝎子",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1994: Item = {
@@ -596,8 +680,10 @@ export const Animal_1994: Item = {
     id: 1994,
     name: "帝王蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1998: Item = {
@@ -606,8 +692,10 @@ export const Animal_1998: Item = {
     id: 1998,
     name: "黄粉蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2000: Item = {
@@ -616,8 +704,10 @@ export const Animal_2000: Item = {
     id: 2000,
     name: "带凤蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1997: Item = {
@@ -626,8 +716,10 @@ export const Animal_1997: Item = {
     id: 1997,
     name: "翠凤蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2001: Item = {
@@ -636,8 +728,10 @@ export const Animal_2001: Item = {
     id: 2001,
     name: "珠袖蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1996: Item = {
@@ -646,8 +740,10 @@ export const Animal_1996: Item = {
     id: 1996,
     name: "红蛱蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1995: Item = {
@@ -656,8 +752,10 @@ export const Animal_1995: Item = {
     id: 1995,
     name: "紫蛱蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_1999: Item = {
@@ -666,8 +764,10 @@ export const Animal_1999: Item = {
     id: 1999,
     name: "帛斑蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_261: Item = {
@@ -676,8 +776,10 @@ export const Animal_261: Item = {
     id: 261,
     name: "金鱼",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4373: Item = {
@@ -686,8 +788,10 @@ export const Animal_4373: Item = {
     id: 4373,
     name: "鳉鱼",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2436: Item = {
@@ -696,8 +800,10 @@ export const Animal_2436: Item = {
     id: 2436,
     name: "蓝水母",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2437: Item = {
@@ -706,8 +812,10 @@ export const Animal_2437: Item = {
     id: 2437,
     name: "绿水母",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2438: Item = {
@@ -716,8 +824,10 @@ export const Animal_2438: Item = {
     id: 2438,
     name: "粉水母",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4334: Item = {
@@ -726,8 +836,10 @@ export const Animal_4334: Item = {
     id: 4334,
     name: "黑蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4335: Item = {
@@ -736,8 +848,10 @@ export const Animal_4335: Item = {
     id: 4335,
     name: "蓝蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4336: Item = {
@@ -746,8 +860,10 @@ export const Animal_4336: Item = {
     id: 4336,
     name: "绿蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4337: Item = {
@@ -756,8 +872,10 @@ export const Animal_4337: Item = {
     id: 4337,
     name: "橙蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4338: Item = {
@@ -766,8 +884,10 @@ export const Animal_4338: Item = {
     id: 4338,
     name: "红蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4339: Item = {
@@ -776,8 +896,10 @@ export const Animal_4339: Item = {
     id: 4339,
     name: "黄蜻蜓",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4068: Item = {
@@ -786,8 +908,10 @@ export const Animal_4068: Item = {
     id: 4068,
     name: "粉仙灵",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4069: Item = {
@@ -796,8 +920,10 @@ export const Animal_4069: Item = {
     id: 4069,
     name: "绿仙灵",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4070: Item = {
@@ -806,8 +932,10 @@ export const Animal_4070: Item = {
     id: 4070,
     name: "蓝仙灵",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5350: Item = {
@@ -816,8 +944,10 @@ export const Animal_5350: Item = {
     id: 5350,
     name: "飞灵",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4480: Item = {
@@ -826,8 +956,10 @@ export const Animal_4480: Item = {
     id: 4480,
     name: "海马",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4361: Item = {
@@ -836,8 +968,10 @@ export const Animal_4361: Item = {
     id: 4361,
     name: "瓢虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_5132: Item = {
@@ -846,8 +980,10 @@ export const Animal_5132: Item = {
     id: 5132,
     name: "臭虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3192: Item = {
@@ -856,8 +992,10 @@ export const Animal_3192: Item = {
     id: 3192,
     name: "蛆虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3193: Item = {
@@ -866,8 +1004,10 @@ export const Animal_3193: Item = {
     id: 3193,
     name: "鼻涕虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_3194: Item = {
@@ -876,8 +1016,10 @@ export const Animal_3194: Item = {
     id: 3194,
     name: "蚜虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4363: Item = {
@@ -886,8 +1028,10 @@ export const Animal_4363: Item = {
     id: 4363,
     name: "蝇蛆",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4418: Item = {
@@ -896,8 +1040,10 @@ export const Animal_4418: Item = {
     id: 4418,
     name: "水黾",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2006: Item = {
@@ -906,8 +1052,10 @@ export const Animal_2006: Item = {
     id: 2006,
     name: "蜗牛",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2007: Item = {
@@ -916,8 +1064,10 @@ export const Animal_2007: Item = {
     id: 2007,
     name: "发光蜗牛",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4464: Item = {
@@ -926,8 +1076,10 @@ export const Animal_4464: Item = {
     id: 4464,
     name: "龟",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4465: Item = {
@@ -936,8 +1088,10 @@ export const Animal_4465: Item = {
     id: 4465,
     name: "丛林龟",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4831: Item = {
@@ -946,8 +1100,10 @@ export const Animal_4831: Item = {
     id: 4831,
     name: "紫晶松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4832: Item = {
@@ -956,8 +1112,10 @@ export const Animal_4832: Item = {
     id: 4832,
     name: "黄玉松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4833: Item = {
@@ -966,8 +1124,10 @@ export const Animal_4833: Item = {
     id: 4833,
     name: "蓝玉松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4834: Item = {
@@ -976,8 +1136,10 @@ export const Animal_4834: Item = {
     id: 4834,
     name: "翡翠松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4835: Item = {
@@ -986,8 +1148,10 @@ export const Animal_4835: Item = {
     id: 4835,
     name: "红玉松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4836: Item = {
@@ -996,8 +1160,10 @@ export const Animal_4836: Item = {
     id: 4836,
     name: "钻石松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4837: Item = {
@@ -1006,8 +1172,10 @@ export const Animal_4837: Item = {
     id: 4837,
     name: "琥珀松鼠",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4838: Item = {
@@ -1016,8 +1184,10 @@ export const Animal_4838: Item = {
     id: 4838,
     name: "紫晶兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4839: Item = {
@@ -1026,8 +1196,10 @@ export const Animal_4839: Item = {
     id: 4839,
     name: "黄玉兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4840: Item = {
@@ -1036,8 +1208,10 @@ export const Animal_4840: Item = {
     id: 4840,
     name: "蓝玉兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4841: Item = {
@@ -1046,8 +1220,10 @@ export const Animal_4841: Item = {
     id: 4841,
     name: "翡翠兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4842: Item = {
@@ -1056,8 +1232,10 @@ export const Animal_4842: Item = {
     id: 4842,
     name: "红玉兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4843: Item = {
@@ -1066,8 +1244,10 @@ export const Animal_4843: Item = {
     id: 4843,
     name: "钻石兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4844: Item = {
@@ -1076,8 +1256,10 @@ export const Animal_4844: Item = {
     id: 4844,
     name: "琥珀兔兔",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4845: Item = {
@@ -1086,8 +1268,10 @@ export const Animal_4845: Item = {
     id: 4845,
     name: "地狱蝴蝶",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4847: Item = {
@@ -1096,8 +1280,10 @@ export const Animal_4847: Item = {
     id: 4847,
     name: "熔岩萤火虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4849: Item = {
@@ -1106,8 +1292,10 @@ export const Animal_4849: Item = {
     id: 4849,
     name: "岩浆蜗牛",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2673: Item = {
@@ -1116,8 +1304,10 @@ export const Animal_2673: Item = {
     id: 2673,
     name: "松露虫",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_4961: Item = {
@@ -1126,8 +1316,10 @@ export const Animal_4961: Item = {
     id: 4961,
     name: "七彩草蛉",
     Category: Animal,
+    SubCategory: RawAni,
     comments: "",
 }
+
 
 
 export const Animal_2208: Item = {
@@ -1136,8 +1328,10 @@ export const Animal_2208: Item = {
     id: 2208,
     name: "泰拉饲养笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3070: Item = {
@@ -1146,8 +1340,10 @@ export const Animal_3070: Item = {
     id: 3070,
     name: "金鸟笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3071: Item = {
@@ -1156,8 +1352,10 @@ export const Animal_3071: Item = {
     id: 3071,
     name: "金兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3566: Item = {
@@ -1166,8 +1364,10 @@ export const Animal_3566: Item = {
     id: 3566,
     name: "金松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3073: Item = {
@@ -1176,8 +1376,10 @@ export const Animal_3073: Item = {
     id: 3073,
     name: "金蛙笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3074: Item = {
@@ -1186,8 +1388,10 @@ export const Animal_3074: Item = {
     id: 3074,
     name: "金蚱蜢笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3075: Item = {
@@ -1196,8 +1400,10 @@ export const Animal_3075: Item = {
     id: 3075,
     name: "金老鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3076: Item = {
@@ -1206,8 +1412,10 @@ export const Animal_3076: Item = {
     id: 3076,
     name: "金蠕虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3072: Item = {
@@ -1216,8 +1424,10 @@ export const Animal_3072: Item = {
     id: 3072,
     name: "金蝴蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4275: Item = {
@@ -1226,8 +1436,10 @@ export const Animal_4275: Item = {
     id: 4275,
     name: "金鱼缸",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4333: Item = {
@@ -1236,8 +1448,10 @@ export const Animal_4333: Item = {
     id: 4333,
     name: "金蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4483: Item = {
@@ -1246,8 +1460,10 @@ export const Animal_4483: Item = {
     id: 4483,
     name: "金海马笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4399: Item = {
@@ -1256,8 +1472,10 @@ export const Animal_4399: Item = {
     id: 4399,
     name: "金瓢虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4476: Item = {
@@ -1266,8 +1484,10 @@ export const Animal_4476: Item = {
     id: 4476,
     name: "金水黾笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2166: Item = {
@@ -1276,8 +1496,10 @@ export const Animal_2166: Item = {
     id: 2166,
     name: "鸟笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2167: Item = {
@@ -1286,8 +1508,10 @@ export const Animal_2167: Item = {
     id: 2167,
     name: "冠蓝鸦笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2168: Item = {
@@ -1296,8 +1520,10 @@ export const Animal_2168: Item = {
     id: 2168,
     name: "红雀笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4396: Item = {
@@ -1306,8 +1532,10 @@ export const Animal_4396: Item = {
     id: 4396,
     name: "猫头鹰笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2165: Item = {
@@ -1316,8 +1544,10 @@ export const Animal_2165: Item = {
     id: 2165,
     name: "鸭笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2164: Item = {
@@ -1326,8 +1556,10 @@ export const Animal_2164: Item = {
     id: 2164,
     name: "野鸭笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2206: Item = {
@@ -1336,8 +1568,10 @@ export const Animal_2206: Item = {
     id: 2206,
     name: "企鹅笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4474: Item = {
@@ -1346,8 +1580,10 @@ export const Animal_4474: Item = {
     id: 4474,
     name: "海鸥笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4473: Item = {
@@ -1356,8 +1592,10 @@ export const Animal_4473: Item = {
     id: 4473,
     name: "䴙䴘笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5213: Item = {
@@ -1366,8 +1604,10 @@ export const Animal_5213: Item = {
     id: 5213,
     name: "绯红金刚鹦鹉笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5301: Item = {
@@ -1376,8 +1616,10 @@ export const Animal_5301: Item = {
     id: 5301,
     name: "蓝金刚鹦鹉笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5315: Item = {
@@ -1386,8 +1628,10 @@ export const Animal_5315: Item = {
     id: 5315,
     name: "黄玄凤鹦鹉笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5316: Item = {
@@ -1396,8 +1640,10 @@ export const Animal_5316: Item = {
     id: 5316,
     name: "灰玄凤鹦鹉笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5314: Item = {
@@ -1406,8 +1652,10 @@ export const Animal_5314: Item = {
     id: 5314,
     name: "巨嘴鸟笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2162: Item = {
@@ -1416,8 +1664,10 @@ export const Animal_2162: Item = {
     id: 2162,
     name: "兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2163: Item = {
@@ -1426,8 +1676,10 @@ export const Animal_2163: Item = {
     id: 2163,
     name: "松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3565: Item = {
@@ -1436,8 +1688,10 @@ export const Animal_3565: Item = {
     id: 3565,
     name: "红松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2190: Item = {
@@ -1446,8 +1700,10 @@ export const Animal_2190: Item = {
     id: 2190,
     name: "蛙笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2741: Item = {
@@ -1456,8 +1712,10 @@ export const Animal_2741: Item = {
     id: 2741,
     name: "蚱蜢笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2191: Item = {
@@ -1466,8 +1724,10 @@ export const Animal_2191: Item = {
     id: 2191,
     name: "老鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4376: Item = {
@@ -1476,8 +1736,10 @@ export const Animal_4376: Item = {
     id: 4376,
     name: "大鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2207: Item = {
@@ -1486,8 +1748,10 @@ export const Animal_2207: Item = {
     id: 2207,
     name: "蠕虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3254: Item = {
@@ -1496,8 +1760,10 @@ export const Animal_3254: Item = {
     id: 3254,
     name: "附魔夜行者笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_1993: Item = {
@@ -1506,8 +1772,10 @@ export const Animal_1993: Item = {
     id: 1993,
     name: "萤火虫瓶",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2005: Item = {
@@ -1516,8 +1784,10 @@ export const Animal_2005: Item = {
     id: 2005,
     name: "荧光虫瓶",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2187: Item = {
@@ -1526,8 +1796,10 @@ export const Animal_2187: Item = {
     id: 2187,
     name: "黑蝎子笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2186: Item = {
@@ -1536,8 +1808,10 @@ export const Animal_2186: Item = {
     id: 2186,
     name: "蝎子笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2178: Item = {
@@ -1546,8 +1820,10 @@ export const Animal_2178: Item = {
     id: 2178,
     name: "帝王蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2182: Item = {
@@ -1556,8 +1832,10 @@ export const Animal_2182: Item = {
     id: 2182,
     name: "黄粉蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2184: Item = {
@@ -1566,8 +1844,10 @@ export const Animal_2184: Item = {
     id: 2184,
     name: "带凤蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2181: Item = {
@@ -1576,8 +1856,10 @@ export const Animal_2181: Item = {
     id: 2181,
     name: "翠凤蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2185: Item = {
@@ -1586,8 +1868,10 @@ export const Animal_2185: Item = {
     id: 2185,
     name: "珠袖蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2180: Item = {
@@ -1596,8 +1880,10 @@ export const Animal_2180: Item = {
     id: 2180,
     name: "红蛱蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2179: Item = {
@@ -1606,8 +1892,10 @@ export const Animal_2179: Item = {
     id: 2179,
     name: "紫蛱蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2183: Item = {
@@ -1616,8 +1904,10 @@ export const Animal_2183: Item = {
     id: 2183,
     name: "帛斑蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_250: Item = {
@@ -1626,8 +1916,10 @@ export const Animal_250: Item = {
     id: 250,
     name: "鱼缸",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4398: Item = {
@@ -1636,8 +1928,10 @@ export const Animal_4398: Item = {
     id: 4398,
     name: "鳉鱼缸",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2439: Item = {
@@ -1646,8 +1940,10 @@ export const Animal_2439: Item = {
     id: 2439,
     name: "蓝水母罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2440: Item = {
@@ -1656,8 +1952,10 @@ export const Animal_2440: Item = {
     id: 2440,
     name: "绿水母罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2441: Item = {
@@ -1666,8 +1964,10 @@ export const Animal_2441: Item = {
     id: 2441,
     name: "粉水母罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4327: Item = {
@@ -1676,8 +1976,10 @@ export const Animal_4327: Item = {
     id: 4327,
     name: "黑蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4328: Item = {
@@ -1686,8 +1988,10 @@ export const Animal_4328: Item = {
     id: 4328,
     name: "蓝蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4329: Item = {
@@ -1696,8 +2000,10 @@ export const Animal_4329: Item = {
     id: 4329,
     name: "绿蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4330: Item = {
@@ -1706,8 +2012,10 @@ export const Animal_4330: Item = {
     id: 4330,
     name: "橙蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4331: Item = {
@@ -1716,8 +2024,10 @@ export const Animal_4331: Item = {
     id: 4331,
     name: "红蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4332: Item = {
@@ -1726,8 +2036,10 @@ export const Animal_4332: Item = {
     id: 4332,
     name: "黄蜻蜓罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4655: Item = {
@@ -1736,8 +2048,10 @@ export const Animal_4655: Item = {
     id: 4655,
     name: "粉仙灵罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4656: Item = {
@@ -1746,8 +2060,10 @@ export const Animal_4656: Item = {
     id: 4656,
     name: "绿仙灵罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4657: Item = {
@@ -1756,8 +2072,10 @@ export const Animal_4657: Item = {
     id: 4657,
     name: "蓝仙灵罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5351: Item = {
@@ -1766,8 +2084,10 @@ export const Animal_5351: Item = {
     id: 5351,
     name: "飞灵瓶",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4481: Item = {
@@ -1776,8 +2096,10 @@ export const Animal_4481: Item = {
     id: 4481,
     name: "海马笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4380: Item = {
@@ -1786,8 +2108,10 @@ export const Animal_4380: Item = {
     id: 4380,
     name: "瓢虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_5133: Item = {
@@ -1796,8 +2120,10 @@ export const Animal_5133: Item = {
     id: 5133,
     name: "臭虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3256: Item = {
@@ -1806,8 +2132,10 @@ export const Animal_3256: Item = {
     id: 3256,
     name: "蛆虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3257: Item = {
@@ -1816,8 +2144,10 @@ export const Animal_3257: Item = {
     id: 3257,
     name: "鼻涕虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_3255: Item = {
@@ -1826,8 +2156,10 @@ export const Animal_3255: Item = {
     id: 3255,
     name: "蚜虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4364: Item = {
@@ -1836,8 +2168,10 @@ export const Animal_4364: Item = {
     id: 4364,
     name: "蝇蛆笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4475: Item = {
@@ -1846,8 +2180,10 @@ export const Animal_4475: Item = {
     id: 4475,
     name: "水黾笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2174: Item = {
@@ -1856,8 +2192,10 @@ export const Animal_2174: Item = {
     id: 2174,
     name: "蜗牛笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_2175: Item = {
@@ -1866,8 +2204,10 @@ export const Animal_2175: Item = {
     id: 2175,
     name: "发光蜗牛笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4461: Item = {
@@ -1876,8 +2216,10 @@ export const Animal_4461: Item = {
     id: 4461,
     name: "龟笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4462: Item = {
@@ -1886,8 +2228,10 @@ export const Animal_4462: Item = {
     id: 4462,
     name: "丛林龟笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4882: Item = {
@@ -1896,8 +2240,10 @@ export const Animal_4882: Item = {
     id: 4882,
     name: "紫晶兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4883: Item = {
@@ -1906,8 +2252,10 @@ export const Animal_4883: Item = {
     id: 4883,
     name: "黄玉兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4884: Item = {
@@ -1916,8 +2264,10 @@ export const Animal_4884: Item = {
     id: 4884,
     name: "蓝玉兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4885: Item = {
@@ -1926,8 +2276,10 @@ export const Animal_4885: Item = {
     id: 4885,
     name: "翡翠兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4886: Item = {
@@ -1936,8 +2288,10 @@ export const Animal_4886: Item = {
     id: 4886,
     name: "红玉兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4887: Item = {
@@ -1946,8 +2300,10 @@ export const Animal_4887: Item = {
     id: 4887,
     name: "钻石兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4888: Item = {
@@ -1956,8 +2312,10 @@ export const Animal_4888: Item = {
     id: 4888,
     name: "琥珀兔兔笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4889: Item = {
@@ -1966,8 +2324,10 @@ export const Animal_4889: Item = {
     id: 4889,
     name: "紫晶松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4890: Item = {
@@ -1976,8 +2336,10 @@ export const Animal_4890: Item = {
     id: 4890,
     name: "黄玉松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4891: Item = {
@@ -1986,8 +2348,10 @@ export const Animal_4891: Item = {
     id: 4891,
     name: "蓝玉松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4892: Item = {
@@ -1996,8 +2360,10 @@ export const Animal_4892: Item = {
     id: 4892,
     name: "翡翠松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4893: Item = {
@@ -2006,8 +2372,10 @@ export const Animal_4893: Item = {
     id: 4893,
     name: "红玉松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4894: Item = {
@@ -2016,8 +2384,10 @@ export const Animal_4894: Item = {
     id: 4894,
     name: "钻石松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4895: Item = {
@@ -2026,8 +2396,10 @@ export const Animal_4895: Item = {
     id: 4895,
     name: "琥珀松鼠笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4846: Item = {
@@ -2036,8 +2408,10 @@ export const Animal_4846: Item = {
     id: 4846,
     name: "地狱蝴蝶罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4848: Item = {
@@ -2046,8 +2420,10 @@ export const Animal_4848: Item = {
     id: 4848,
     name: "熔岩萤火虫瓶",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4850: Item = {
@@ -2056,8 +2432,10 @@ export const Animal_4850: Item = {
     id: 4850,
     name: "岩浆蜗牛笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4963: Item = {
@@ -2066,8 +2444,10 @@ export const Animal_4963: Item = {
     id: 4963,
     name: "松露虫笼",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
+
 
 
 export const Animal_4964: Item = {
@@ -2076,6 +2456,7 @@ export const Animal_4964: Item = {
     id: 4964,
     name: "七彩草蛉罐",
     Category: Animal,
+    SubCategory: Cage,
     comments: "",
 }
 

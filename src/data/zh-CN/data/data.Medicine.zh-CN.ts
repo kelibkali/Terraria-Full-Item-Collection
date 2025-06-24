@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Medicine } from "../data.Category.zh-CN.ts"
 
+import { BuffP, FlaskP, HMP, TransformP } from "../data.SubCategory.zh-CN.ts"
+
 import Medicine_28Img from "../../../assets/icon/Item_28.png"
 import Medicine_110Img from "../../../assets/icon/Item_110.png"
 import Medicine_188Img from "../../../assets/icon/Item_188.png"
@@ -72,14 +74,18 @@ import Medicine_1359Img from "../../../assets/icon/Item_1359.png"
 import Medicine_2350Img from "../../../assets/icon/Item_2350.png"
 import Medicine_2997Img from "../../../assets/icon/Item_2997.png"
 import Medicine_4870Img from "../../../assets/icon/Item_4870.png"
+
+
 export const Medicine_28: Item = {
     icon: Medicine_28Img,
     isCollection: false,
     id: 28,
     name: "弱效治疗药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_110: Item = {
@@ -88,8 +94,10 @@ export const Medicine_110: Item = {
     id: 110,
     name: "弱效魔力药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_188: Item = {
@@ -98,8 +106,10 @@ export const Medicine_188: Item = {
     id: 188,
     name: "治疗药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_189: Item = {
@@ -108,8 +118,10 @@ export const Medicine_189: Item = {
     id: 189,
     name: "魔力药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_499: Item = {
@@ -118,8 +130,10 @@ export const Medicine_499: Item = {
     id: 499,
     name: "强效治疗药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_500: Item = {
@@ -128,8 +142,10 @@ export const Medicine_500: Item = {
     id: 500,
     name: "强效魔力药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_2209: Item = {
@@ -138,8 +154,10 @@ export const Medicine_2209: Item = {
     id: 2209,
     name: "超级魔力药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_3544: Item = {
@@ -148,8 +166,10 @@ export const Medicine_3544: Item = {
     id: 3544,
     name: "超级治疗药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_227: Item = {
@@ -158,8 +178,10 @@ export const Medicine_227: Item = {
     id: 227,
     name: "恢复药水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_126: Item = {
@@ -168,8 +190,10 @@ export const Medicine_126: Item = {
     id: 126,
     name: "瓶装水",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_1134: Item = {
@@ -178,8 +202,10 @@ export const Medicine_1134: Item = {
     id: 1134,
     name: "瓶装蜂蜜",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_1912: Item = {
@@ -188,8 +214,10 @@ export const Medicine_1912: Item = {
     id: 1912,
     name: "蛋酒",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_3001: Item = {
@@ -198,8 +226,10 @@ export const Medicine_3001: Item = {
     id: 3001,
     name: "诡药",
     Category: Medicine,
+    SubCategory: HMP,
     comments: "",
 }
+
 
 
 export const Medicine_288: Item = {
@@ -208,8 +238,10 @@ export const Medicine_288: Item = {
     id: 288,
     name: "黑曜石皮药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_289: Item = {
@@ -218,8 +250,10 @@ export const Medicine_289: Item = {
     id: 289,
     name: "再生药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_290: Item = {
@@ -228,8 +262,10 @@ export const Medicine_290: Item = {
     id: 290,
     name: "敏捷药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_291: Item = {
@@ -238,8 +274,10 @@ export const Medicine_291: Item = {
     id: 291,
     name: "鱼鳃药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_292: Item = {
@@ -248,8 +286,10 @@ export const Medicine_292: Item = {
     id: 292,
     name: "铁皮药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_293: Item = {
@@ -258,8 +298,10 @@ export const Medicine_293: Item = {
     id: 293,
     name: "魔力再生药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_294: Item = {
@@ -268,8 +310,10 @@ export const Medicine_294: Item = {
     id: 294,
     name: "魔能药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_295: Item = {
@@ -278,8 +322,10 @@ export const Medicine_295: Item = {
     id: 295,
     name: "羽落药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_296: Item = {
@@ -288,8 +334,10 @@ export const Medicine_296: Item = {
     id: 296,
     name: "洞穴探险药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_297: Item = {
@@ -298,8 +346,10 @@ export const Medicine_297: Item = {
     id: 297,
     name: "隐身药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_298: Item = {
@@ -308,8 +358,10 @@ export const Medicine_298: Item = {
     id: 298,
     name: "光芒药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_299: Item = {
@@ -318,8 +370,10 @@ export const Medicine_299: Item = {
     id: 299,
     name: "夜猫子药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_300: Item = {
@@ -328,8 +382,10 @@ export const Medicine_300: Item = {
     id: 300,
     name: "战斗药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_301: Item = {
@@ -338,8 +394,10 @@ export const Medicine_301: Item = {
     id: 301,
     name: "荆棘药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_302: Item = {
@@ -348,8 +406,10 @@ export const Medicine_302: Item = {
     id: 302,
     name: "水上漂药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_303: Item = {
@@ -358,8 +418,10 @@ export const Medicine_303: Item = {
     id: 303,
     name: "箭术药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_304: Item = {
@@ -368,8 +430,10 @@ export const Medicine_304: Item = {
     id: 304,
     name: "狩猎药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_305: Item = {
@@ -378,8 +442,10 @@ export const Medicine_305: Item = {
     id: 305,
     name: "重力药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2322: Item = {
@@ -388,8 +454,10 @@ export const Medicine_2322: Item = {
     id: 2322,
     name: "挖矿药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2323: Item = {
@@ -398,8 +466,10 @@ export const Medicine_2323: Item = {
     id: 2323,
     name: "拾心药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2324: Item = {
@@ -408,8 +478,10 @@ export const Medicine_2324: Item = {
     id: 2324,
     name: "镇静药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2325: Item = {
@@ -418,8 +490,10 @@ export const Medicine_2325: Item = {
     id: 2325,
     name: "建筑工药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2326: Item = {
@@ -428,8 +502,10 @@ export const Medicine_2326: Item = {
     id: 2326,
     name: "泰坦药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2327: Item = {
@@ -438,8 +514,10 @@ export const Medicine_2327: Item = {
     id: 2327,
     name: "脚蹼药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2328: Item = {
@@ -448,8 +526,10 @@ export const Medicine_2328: Item = {
     id: 2328,
     name: "召唤药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2329: Item = {
@@ -458,8 +538,10 @@ export const Medicine_2329: Item = {
     id: 2329,
     name: "危险感药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2344: Item = {
@@ -468,8 +550,10 @@ export const Medicine_2344: Item = {
     id: 2344,
     name: "弹药储备药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2345: Item = {
@@ -478,8 +562,10 @@ export const Medicine_2345: Item = {
     id: 2345,
     name: "生命力药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2346: Item = {
@@ -488,8 +574,10 @@ export const Medicine_2346: Item = {
     id: 2346,
     name: "耐力药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2347: Item = {
@@ -498,8 +586,10 @@ export const Medicine_2347: Item = {
     id: 2347,
     name: "暴怒药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2348: Item = {
@@ -508,8 +598,10 @@ export const Medicine_2348: Item = {
     id: 2348,
     name: "狱火药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2349: Item = {
@@ -518,8 +610,10 @@ export const Medicine_2349: Item = {
     id: 2349,
     name: "怒气药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2351: Item = {
@@ -528,8 +622,10 @@ export const Medicine_2351: Item = {
     id: 2351,
     name: "传送药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2352: Item = {
@@ -538,8 +634,10 @@ export const Medicine_2352: Item = {
     id: 2352,
     name: "爱情药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2353: Item = {
@@ -548,8 +646,10 @@ export const Medicine_2353: Item = {
     id: 2353,
     name: "臭味药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2354: Item = {
@@ -558,8 +658,10 @@ export const Medicine_2354: Item = {
     id: 2354,
     name: "钓鱼药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2355: Item = {
@@ -568,8 +670,10 @@ export const Medicine_2355: Item = {
     id: 2355,
     name: "声呐药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2356: Item = {
@@ -578,8 +682,10 @@ export const Medicine_2356: Item = {
     id: 2356,
     name: "宝匣药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2359: Item = {
@@ -588,8 +694,10 @@ export const Medicine_2359: Item = {
     id: 2359,
     name: "保暖药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2756: Item = {
@@ -598,8 +706,10 @@ export const Medicine_2756: Item = {
     id: 2756,
     name: "变性药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_678: Item = {
@@ -608,8 +718,10 @@ export const Medicine_678: Item = {
     id: 678,
     name: "红药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_353: Item = {
@@ -618,8 +730,10 @@ export const Medicine_353: Item = {
     id: 353,
     name: "麦芽酒",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_2266: Item = {
@@ -628,8 +742,10 @@ export const Medicine_2266: Item = {
     id: 2266,
     name: "清酒",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_4477: Item = {
@@ -638,8 +754,10 @@ export const Medicine_4477: Item = {
     id: 4477,
     name: "弱效幸运药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_4478: Item = {
@@ -648,8 +766,10 @@ export const Medicine_4478: Item = {
     id: 4478,
     name: "幸运药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_4479: Item = {
@@ -658,8 +778,10 @@ export const Medicine_4479: Item = {
     id: 4479,
     name: "强效幸运药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_5211: Item = {
@@ -668,8 +790,10 @@ export const Medicine_5211: Item = {
     id: 5211,
     name: "生物群系视觉药水",
     Category: Medicine,
+    SubCategory: BuffP,
     comments: "",
 }
+
 
 
 export const Medicine_1340: Item = {
@@ -678,8 +802,10 @@ export const Medicine_1340: Item = {
     id: 1340,
     name: "毒液药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1353: Item = {
@@ -688,8 +814,10 @@ export const Medicine_1353: Item = {
     id: 1353,
     name: "诅咒焰药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1354: Item = {
@@ -698,8 +826,10 @@ export const Medicine_1354: Item = {
     id: 1354,
     name: "烈火药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1355: Item = {
@@ -708,8 +838,10 @@ export const Medicine_1355: Item = {
     id: 1355,
     name: "金药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1356: Item = {
@@ -718,8 +850,10 @@ export const Medicine_1356: Item = {
     id: 1356,
     name: "灵液药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1357: Item = {
@@ -728,8 +862,10 @@ export const Medicine_1357: Item = {
     id: 1357,
     name: "纳米机器人药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1358: Item = {
@@ -738,8 +874,10 @@ export const Medicine_1358: Item = {
     id: 1358,
     name: "派对药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_1359: Item = {
@@ -748,8 +886,10 @@ export const Medicine_1359: Item = {
     id: 1359,
     name: "毒药药剂",
     Category: Medicine,
+    SubCategory: FlaskP,
     comments: "",
 }
+
 
 
 export const Medicine_2350: Item = {
@@ -758,8 +898,10 @@ export const Medicine_2350: Item = {
     id: 2350,
     name: "回忆药水",
     Category: Medicine,
+    SubCategory: TransformP,
     comments: "",
 }
+
 
 
 export const Medicine_2997: Item = {
@@ -768,8 +910,10 @@ export const Medicine_2997: Item = {
     id: 2997,
     name: "虫洞药水",
     Category: Medicine,
+    SubCategory: TransformP,
     comments: "",
 }
+
 
 
 export const Medicine_4870: Item = {
@@ -778,6 +922,7 @@ export const Medicine_4870: Item = {
     id: 4870,
     name: "返回药水",
     Category: Medicine,
+    SubCategory: TransformP,
     comments: "",
 }
 

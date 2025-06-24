@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Circuit } from "../data.Category.zh-CN.ts"
 
+import { ChestC, CircuitTool, LogicGate, OtherC, PressurePlateC, SwitchC, TimerC, TrackC, Trap } from "../data.SubCategory.zh-CN.ts"
+
 import Circuit_509Img from "../../../assets/icon/Item_509.png"
 import Circuit_850Img from "../../../assets/icon/Item_850.png"
 import Circuit_851Img from "../../../assets/icon/Item_851.png"
@@ -139,14 +141,18 @@ import Circuit_3616Img from "../../../assets/icon/Item_3616.png"
 import Circuit_3617Img from "../../../assets/icon/Item_3617.png"
 import Circuit_3629Img from "../../../assets/icon/Item_3629.png"
 import Circuit_3664Img from "../../../assets/icon/Item_3664.png"
+
+
 export const Circuit_509: Item = {
     icon: Circuit_509Img,
     isCollection: false,
     id: 509,
     name: "红扳手",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_850: Item = {
@@ -155,8 +161,10 @@ export const Circuit_850: Item = {
     id: 850,
     name: "蓝扳手",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_851: Item = {
@@ -165,8 +173,10 @@ export const Circuit_851: Item = {
     id: 851,
     name: "绿扳手",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3612: Item = {
@@ -175,8 +185,10 @@ export const Circuit_3612: Item = {
     id: 3612,
     name: "黄扳手",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3625: Item = {
@@ -185,8 +197,10 @@ export const Circuit_3625: Item = {
     id: 3625,
     name: "五彩扳手",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_510: Item = {
@@ -195,8 +209,10 @@ export const Circuit_510: Item = {
     id: 510,
     name: "钢丝钳",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_2799: Item = {
@@ -205,8 +221,10 @@ export const Circuit_2799: Item = {
     id: 2799,
     name: "机械标尺",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3619: Item = {
@@ -215,8 +233,10 @@ export const Circuit_3619: Item = {
     id: 3619,
     name: "机械透镜",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3611: Item = {
@@ -225,8 +245,10 @@ export const Circuit_3611: Item = {
     id: 3611,
     name: "宏伟蓝图",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3620: Item = {
@@ -235,8 +257,10 @@ export const Circuit_3620: Item = {
     id: 3620,
     name: "致动魔杖",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_3624: Item = {
@@ -245,8 +269,10 @@ export const Circuit_3624: Item = {
     id: 3624,
     name: "自动安放器",
     Category: Circuit,
+    SubCategory: CircuitTool,
     comments: "",
 }
+
 
 
 export const Circuit_513: Item = {
@@ -255,8 +281,10 @@ export const Circuit_513: Item = {
     id: 513,
     name: "控制杆",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_538: Item = {
@@ -265,8 +293,10 @@ export const Circuit_538: Item = {
     id: 538,
     name: "开关",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3545: Item = {
@@ -275,8 +305,10 @@ export const Circuit_3545: Item = {
     id: 3545,
     name: "引爆器",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3644: Item = {
@@ -285,8 +317,10 @@ export const Circuit_3644: Item = {
     id: 3644,
     name: "红玉宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3645: Item = {
@@ -295,8 +329,10 @@ export const Circuit_3645: Item = {
     id: 3645,
     name: "蓝玉宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3646: Item = {
@@ -305,8 +341,10 @@ export const Circuit_3646: Item = {
     id: 3646,
     name: "翡翠宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3647: Item = {
@@ -315,8 +353,10 @@ export const Circuit_3647: Item = {
     id: 3647,
     name: "黄玉宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3648: Item = {
@@ -325,8 +365,10 @@ export const Circuit_3648: Item = {
     id: 3648,
     name: "紫晶宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3649: Item = {
@@ -335,8 +377,10 @@ export const Circuit_3649: Item = {
     id: 3649,
     name: "钻石宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_3650: Item = {
@@ -345,8 +389,10 @@ export const Circuit_3650: Item = {
     id: 3650,
     name: "琥珀宝石锁",
     Category: Circuit,
+    SubCategory: SwitchC,
     comments: "",
 }
+
 
 
 export const Circuit_529: Item = {
@@ -355,8 +401,10 @@ export const Circuit_529: Item = {
     id: 529,
     name: "红压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_541: Item = {
@@ -365,8 +413,10 @@ export const Circuit_541: Item = {
     id: 541,
     name: "绿压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_542: Item = {
@@ -375,8 +425,10 @@ export const Circuit_542: Item = {
     id: 542,
     name: "灰压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_543: Item = {
@@ -385,8 +437,10 @@ export const Circuit_543: Item = {
     id: 543,
     name: "棕压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_852: Item = {
@@ -395,8 +449,10 @@ export const Circuit_852: Item = {
     id: 852,
     name: "蓝压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_853: Item = {
@@ -405,8 +461,10 @@ export const Circuit_853: Item = {
     id: 853,
     name: "黄压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_4261: Item = {
@@ -415,8 +473,10 @@ export const Circuit_4261: Item = {
     id: 4261,
     name: "橙压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_3707: Item = {
@@ -425,8 +485,10 @@ export const Circuit_3707: Item = {
     id: 3707,
     name: "青绿压力垫板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_1151: Item = {
@@ -435,8 +497,10 @@ export const Circuit_1151: Item = {
     id: 1151,
     name: "丛林蜥蜴压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_3626: Item = {
@@ -445,8 +509,10 @@ export const Circuit_3626: Item = {
     id: 3626,
     name: "粉色测重压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_3630: Item = {
@@ -455,8 +521,10 @@ export const Circuit_3630: Item = {
     id: 3630,
     name: "橙色测重压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_3631: Item = {
@@ -465,8 +533,10 @@ export const Circuit_3631: Item = {
     id: 3631,
     name: "紫色测重压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_3632: Item = {
@@ -475,8 +545,10 @@ export const Circuit_3632: Item = {
     id: 3632,
     name: "青色测重压力板",
     Category: Circuit,
+    SubCategory: PressurePlateC,
     comments: "",
 }
+
 
 
 export const Circuit_583: Item = {
@@ -485,8 +557,10 @@ export const Circuit_583: Item = {
     id: 583,
     name: "1秒计时器",
     Category: Circuit,
+    SubCategory: TimerC,
     comments: "",
 }
+
 
 
 export const Circuit_584: Item = {
@@ -495,8 +569,10 @@ export const Circuit_584: Item = {
     id: 584,
     name: "3秒计时器",
     Category: Circuit,
+    SubCategory: TimerC,
     comments: "",
 }
+
 
 
 export const Circuit_585: Item = {
@@ -505,8 +581,10 @@ export const Circuit_585: Item = {
     id: 585,
     name: "5秒计时器",
     Category: Circuit,
+    SubCategory: TimerC,
     comments: "",
 }
+
 
 
 export const Circuit_4484: Item = {
@@ -515,8 +593,10 @@ export const Circuit_4484: Item = {
     id: 4484,
     name: "1/2秒计时器",
     Category: Circuit,
+    SubCategory: TimerC,
     comments: "",
 }
+
 
 
 export const Circuit_4485: Item = {
@@ -525,8 +605,10 @@ export const Circuit_4485: Item = {
     id: 4485,
     name: "1/4秒计时器",
     Category: Circuit,
+    SubCategory: TimerC,
     comments: "",
 }
+
 
 
 export const Circuit_539: Item = {
@@ -535,8 +617,10 @@ export const Circuit_539: Item = {
     id: 539,
     name: "飞镖机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_540: Item = {
@@ -545,8 +629,10 @@ export const Circuit_540: Item = {
     id: 540,
     name: "巨石",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_580: Item = {
@@ -555,8 +641,10 @@ export const Circuit_580: Item = {
     id: 580,
     name: "炸药",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_1146: Item = {
@@ -565,8 +653,10 @@ export const Circuit_1146: Item = {
     id: 1146,
     name: "超级飞镖机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_1147: Item = {
@@ -575,8 +665,10 @@ export const Circuit_1147: Item = {
     id: 1147,
     name: "烈焰机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_1148: Item = {
@@ -585,8 +677,10 @@ export const Circuit_1148: Item = {
     id: 1148,
     name: "尖球机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_1149: Item = {
@@ -595,8 +689,10 @@ export const Circuit_1149: Item = {
     id: 1149,
     name: "长矛机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_3722: Item = {
@@ -605,8 +701,10 @@ export const Circuit_3722: Item = {
     id: 3722,
     name: "热喷泉",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_5135: Item = {
@@ -615,8 +713,10 @@ export const Circuit_5135: Item = {
     id: 5135,
     name: "毒液飞镖机关",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_5327: Item = {
@@ -625,8 +725,10 @@ export const Circuit_5327: Item = {
     id: 5327,
     name: "TNT桶",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_511: Item = {
@@ -635,8 +737,10 @@ export const Circuit_511: Item = {
     id: 511,
     name: "通电石块",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_512: Item = {
@@ -645,8 +749,10 @@ export const Circuit_512: Item = {
     id: 512,
     name: "未通电石块",
     Category: Circuit,
+    SubCategory: Trap,
     comments: "",
 }
+
 
 
 export const Circuit_2340: Item = {
@@ -655,8 +761,10 @@ export const Circuit_2340: Item = {
     id: 2340,
     name: "矿车轨道",
     Category: Circuit,
+    SubCategory: TrackC,
     comments: "",
 }
+
 
 
 export const Circuit_2492: Item = {
@@ -665,8 +773,10 @@ export const Circuit_2492: Item = {
     id: 2492,
     name: "压力板轨道",
     Category: Circuit,
+    SubCategory: TrackC,
     comments: "",
 }
+
 
 
 export const Circuit_2739: Item = {
@@ -675,8 +785,10 @@ export const Circuit_2739: Item = {
     id: 2739,
     name: "增速轨道",
     Category: Circuit,
+    SubCategory: TrackC,
     comments: "",
 }
+
 
 
 export const Circuit_3602: Item = {
@@ -685,8 +797,10 @@ export const Circuit_3602: Item = {
     id: 3602,
     name: "逻辑门灯（关）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3618: Item = {
@@ -695,8 +809,10 @@ export const Circuit_3618: Item = {
     id: 3618,
     name: "逻辑门灯（开）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3663: Item = {
@@ -705,8 +821,10 @@ export const Circuit_3663: Item = {
     id: 3663,
     name: "逻辑门灯（故障）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3603: Item = {
@@ -715,8 +833,10 @@ export const Circuit_3603: Item = {
     id: 3603,
     name: "逻辑门（与）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3604: Item = {
@@ -725,8 +845,10 @@ export const Circuit_3604: Item = {
     id: 3604,
     name: "逻辑门（或）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3605: Item = {
@@ -735,8 +857,10 @@ export const Circuit_3605: Item = {
     id: 3605,
     name: "逻辑门（与非）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3606: Item = {
@@ -745,8 +869,10 @@ export const Circuit_3606: Item = {
     id: 3606,
     name: "逻辑门（或非）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3607: Item = {
@@ -755,8 +881,10 @@ export const Circuit_3607: Item = {
     id: 3607,
     name: "逻辑门（异或）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3608: Item = {
@@ -765,8 +893,10 @@ export const Circuit_3608: Item = {
     id: 3608,
     name: "逻辑门（同或）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3609: Item = {
@@ -775,8 +905,10 @@ export const Circuit_3609: Item = {
     id: 3609,
     name: "传送带（顺时针）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3610: Item = {
@@ -785,8 +917,10 @@ export const Circuit_3610: Item = {
     id: 3610,
     name: "传送带（逆时针）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3613: Item = {
@@ -795,8 +929,10 @@ export const Circuit_3613: Item = {
     id: 3613,
     name: "逻辑感应器（昼）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3614: Item = {
@@ -805,8 +941,10 @@ export const Circuit_3614: Item = {
     id: 3614,
     name: "逻辑感应器（夜）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3615: Item = {
@@ -815,8 +953,10 @@ export const Circuit_3615: Item = {
     id: 3615,
     name: "逻辑感应器（玩家出入上方）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3726: Item = {
@@ -825,8 +965,10 @@ export const Circuit_3726: Item = {
     id: 3726,
     name: "液体感应器（水）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3727: Item = {
@@ -835,8 +977,10 @@ export const Circuit_3727: Item = {
     id: 3727,
     name: "液体感应器（熔岩）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3728: Item = {
@@ -845,8 +989,10 @@ export const Circuit_3728: Item = {
     id: 3728,
     name: "液体感应器（蜂蜜）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3729: Item = {
@@ -855,8 +1001,10 @@ export const Circuit_3729: Item = {
     id: 3729,
     name: "液体感应器（任何）",
     Category: Circuit,
+    SubCategory: LogicGate,
     comments: "",
 }
+
 
 
 export const Circuit_3665: Item = {
@@ -865,8 +1013,10 @@ export const Circuit_3665: Item = {
     id: 3665,
     name: "机关宝箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3666: Item = {
@@ -875,8 +1025,10 @@ export const Circuit_3666: Item = {
     id: 3666,
     name: "机关金箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3988: Item = {
@@ -885,8 +1037,10 @@ export const Circuit_3988: Item = {
     id: 3988,
     name: "死人宝箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3667: Item = {
@@ -895,8 +1049,10 @@ export const Circuit_3667: Item = {
     id: 3667,
     name: "机关暗影箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3669: Item = {
@@ -905,8 +1061,10 @@ export const Circuit_3669: Item = {
     id: 3669,
     name: "机关红木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3670: Item = {
@@ -915,8 +1073,10 @@ export const Circuit_3670: Item = {
     id: 3670,
     name: "机关珍珠木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3671: Item = {
@@ -925,8 +1085,10 @@ export const Circuit_3671: Item = {
     id: 3671,
     name: "机关常春藤箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3672: Item = {
@@ -935,8 +1097,10 @@ export const Circuit_3672: Item = {
     id: 3672,
     name: "机关冰冻箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3673: Item = {
@@ -945,8 +1109,10 @@ export const Circuit_3673: Item = {
     id: 3673,
     name: "机关生命木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3674: Item = {
@@ -955,8 +1121,10 @@ export const Circuit_3674: Item = {
     id: 3674,
     name: "机关天域箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3675: Item = {
@@ -965,8 +1133,10 @@ export const Circuit_3675: Item = {
     id: 3675,
     name: "机关暗影木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3676: Item = {
@@ -975,8 +1145,10 @@ export const Circuit_3676: Item = {
     id: 3676,
     name: "机关蛛丝箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3678: Item = {
@@ -985,8 +1157,10 @@ export const Circuit_3678: Item = {
     id: 3678,
     name: "机关水中箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3679: Item = {
@@ -995,8 +1169,10 @@ export const Circuit_3679: Item = {
     id: 3679,
     name: "机关丛林箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3680: Item = {
@@ -1005,8 +1181,10 @@ export const Circuit_3680: Item = {
     id: 3680,
     name: "机关腐化箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3681: Item = {
@@ -1015,8 +1193,10 @@ export const Circuit_3681: Item = {
     id: 3681,
     name: "机关猩红箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3682: Item = {
@@ -1025,8 +1205,10 @@ export const Circuit_3682: Item = {
     id: 3682,
     name: "机关神圣箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3683: Item = {
@@ -1035,8 +1217,10 @@ export const Circuit_3683: Item = {
     id: 3683,
     name: "机关冰雪箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3684: Item = {
@@ -1045,8 +1229,10 @@ export const Circuit_3684: Item = {
     id: 3684,
     name: "机关王朝箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3685: Item = {
@@ -1055,8 +1241,10 @@ export const Circuit_3685: Item = {
     id: 3685,
     name: "机关蜂蜜箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3686: Item = {
@@ -1065,8 +1253,10 @@ export const Circuit_3686: Item = {
     id: 3686,
     name: "机关蒸汽朋克箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3688: Item = {
@@ -1075,8 +1265,10 @@ export const Circuit_3688: Item = {
     id: 3688,
     name: "机关蘑菇箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3677: Item = {
@@ -1085,8 +1277,10 @@ export const Circuit_3677: Item = {
     id: 3677,
     name: "机关丛林蜥蜴箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3687: Item = {
@@ -1095,8 +1289,10 @@ export const Circuit_3687: Item = {
     id: 3687,
     name: "机关棕榈木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3668: Item = {
@@ -1105,8 +1301,10 @@ export const Circuit_3668: Item = {
     id: 3668,
     name: "机关乌木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3689: Item = {
@@ -1115,8 +1313,10 @@ export const Circuit_3689: Item = {
     id: 3689,
     name: "机关针叶木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3690: Item = {
@@ -1125,8 +1325,10 @@ export const Circuit_3690: Item = {
     id: 3690,
     name: "机关史莱姆箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3691: Item = {
@@ -1135,8 +1337,10 @@ export const Circuit_3691: Item = {
     id: 3691,
     name: "机关绿地牢箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3692: Item = {
@@ -1145,8 +1349,10 @@ export const Circuit_3692: Item = {
     id: 3692,
     name: "机关粉地牢箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3693: Item = {
@@ -1155,8 +1361,10 @@ export const Circuit_3693: Item = {
     id: 3693,
     name: "机关蓝地牢箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3694: Item = {
@@ -1165,8 +1373,10 @@ export const Circuit_3694: Item = {
     id: 3694,
     name: "机关骨箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3695: Item = {
@@ -1175,8 +1385,10 @@ export const Circuit_3695: Item = {
     id: 3695,
     name: "机关仙人掌箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3696: Item = {
@@ -1185,8 +1397,10 @@ export const Circuit_3696: Item = {
     id: 3696,
     name: "机关血肉箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3697: Item = {
@@ -1195,8 +1409,10 @@ export const Circuit_3697: Item = {
     id: 3697,
     name: "机关黑曜石箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3698: Item = {
@@ -1205,8 +1421,10 @@ export const Circuit_3698: Item = {
     id: 3698,
     name: "机关南瓜箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3699: Item = {
@@ -1215,8 +1433,10 @@ export const Circuit_3699: Item = {
     id: 3699,
     name: "机关阴森箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3700: Item = {
@@ -1225,8 +1445,10 @@ export const Circuit_3700: Item = {
     id: 3700,
     name: "机关玻璃箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3701: Item = {
@@ -1235,8 +1457,10 @@ export const Circuit_3701: Item = {
     id: 3701,
     name: "机关火星箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3702: Item = {
@@ -1245,8 +1469,10 @@ export const Circuit_3702: Item = {
     id: 3702,
     name: "机关陨石箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3703: Item = {
@@ -1255,8 +1481,10 @@ export const Circuit_3703: Item = {
     id: 3703,
     name: "机关花岗岩箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3704: Item = {
@@ -1265,8 +1493,10 @@ export const Circuit_3704: Item = {
     id: 3704,
     name: "机关大理石箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3886: Item = {
@@ -1275,8 +1505,10 @@ export const Circuit_3886: Item = {
     id: 3886,
     name: "机关水晶箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3887: Item = {
@@ -1285,8 +1517,10 @@ export const Circuit_3887: Item = {
     id: 3887,
     name: "机关金宝箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3950: Item = {
@@ -1295,8 +1529,10 @@ export const Circuit_3950: Item = {
     id: 3950,
     name: "机关蜘蛛箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_3976: Item = {
@@ -1305,8 +1541,10 @@ export const Circuit_3976: Item = {
     id: 3976,
     name: "机关病变箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4164: Item = {
@@ -1315,8 +1553,10 @@ export const Circuit_4164: Item = {
     id: 4164,
     name: "机关日耀箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4185: Item = {
@@ -1325,8 +1565,10 @@ export const Circuit_4185: Item = {
     id: 4185,
     name: "机关星旋箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4206: Item = {
@@ -1335,8 +1577,10 @@ export const Circuit_4206: Item = {
     id: 4206,
     name: "机关星云箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4227: Item = {
@@ -1345,8 +1589,10 @@ export const Circuit_4227: Item = {
     id: 4227,
     name: "机关星尘箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4266: Item = {
@@ -1355,8 +1601,10 @@ export const Circuit_4266: Item = {
     id: 4266,
     name: "机关高尔夫箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4268: Item = {
@@ -1365,8 +1613,10 @@ export const Circuit_4268: Item = {
     id: 4268,
     name: "机关沙岩箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4585: Item = {
@@ -1375,8 +1625,10 @@ export const Circuit_4585: Item = {
     id: 4585,
     name: "机关竹箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_4713: Item = {
@@ -1385,8 +1637,10 @@ export const Circuit_4713: Item = {
     id: 4713,
     name: "机关沙漠箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_5167: Item = {
@@ -1395,8 +1649,10 @@ export const Circuit_5167: Item = {
     id: 5167,
     name: "机关珊瑚礁箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_5188: Item = {
@@ -1405,8 +1661,10 @@ export const Circuit_5188: Item = {
     id: 5188,
     name: "机关气球箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_5209: Item = {
@@ -1415,8 +1673,10 @@ export const Circuit_5209: Item = {
     id: 5209,
     name: "机关灰烬木箱",
     Category: Circuit,
+    SubCategory: ChestC,
     comments: "",
 }
+
 
 
 export const Circuit_530: Item = {
@@ -1425,8 +1685,10 @@ export const Circuit_530: Item = {
     id: 530,
     name: "电线",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_849: Item = {
@@ -1435,8 +1697,10 @@ export const Circuit_849: Item = {
     id: 849,
     name: "致动器",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_581: Item = {
@@ -1445,8 +1709,10 @@ export const Circuit_581: Item = {
     id: 581,
     name: "入水泵",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_582: Item = {
@@ -1455,8 +1721,10 @@ export const Circuit_582: Item = {
     id: 582,
     name: "出水泵",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_1263: Item = {
@@ -1465,8 +1733,10 @@ export const Circuit_1263: Item = {
     id: 1263,
     name: "传送机",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_3725: Item = {
@@ -1475,8 +1745,10 @@ export const Circuit_3725: Item = {
     id: 3725,
     name: "像素盒",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_3616: Item = {
@@ -1485,8 +1757,10 @@ export const Circuit_3616: Item = {
     id: 3616,
     name: "分线盒",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_3617: Item = {
@@ -1495,8 +1769,10 @@ export const Circuit_3617: Item = {
     id: 3617,
     name: "广播盒",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_3629: Item = {
@@ -1505,8 +1781,10 @@ export const Circuit_3629: Item = {
     id: 3629,
     name: "彩线灯泡",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
+
 
 
 export const Circuit_3664: Item = {
@@ -1515,6 +1793,7 @@ export const Circuit_3664: Item = {
     id: 3664,
     name: "传送枪站",
     Category: Circuit,
+    SubCategory: OtherC,
     comments: "",
 }
 

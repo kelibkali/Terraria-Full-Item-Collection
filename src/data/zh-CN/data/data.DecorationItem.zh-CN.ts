@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { DecorationItem } from "../data.Category.zh-CN.ts"
 
+import { BuffD, CamD, ChestD, ChrisTree, Danger, FoodD, FounD, FuncD, MakeStation, Marker, OtherDec, PottedD, Pylon, Rope, SeedD, TorchD } from "../data.SubCategory.zh-CN.ts"
+
 import DecorationItem_8Img from "../../../assets/icon/Item_8.png"
 import DecorationItem_430Img from "../../../assets/icon/Item_430.png"
 import DecorationItem_432Img from "../../../assets/icon/Item_432.png"
@@ -396,14 +398,18 @@ import DecorationItem_5286Img from "../../../assets/icon/Item_5286.png"
 import DecorationItem_5287Img from "../../../assets/icon/Item_5287.png"
 import DecorationItem_5320Img from "../../../assets/icon/Item_5320.png"
 import DecorationItem_5321Img from "../../../assets/icon/Item_5321.png"
+
+
 export const DecorationItem_8: Item = {
     icon: DecorationItem_8Img,
     isCollection: false,
     id: 8,
     name: "火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_430: Item = {
@@ -412,8 +418,10 @@ export const DecorationItem_430: Item = {
     id: 430,
     name: "紫火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_432: Item = {
@@ -422,8 +430,10 @@ export const DecorationItem_432: Item = {
     id: 432,
     name: "黄火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_427: Item = {
@@ -432,8 +442,10 @@ export const DecorationItem_427: Item = {
     id: 427,
     name: "蓝火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_429: Item = {
@@ -442,8 +454,10 @@ export const DecorationItem_429: Item = {
     id: 429,
     name: "绿火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_428: Item = {
@@ -452,8 +466,10 @@ export const DecorationItem_428: Item = {
     id: 428,
     name: "红火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1245: Item = {
@@ -462,8 +478,10 @@ export const DecorationItem_1245: Item = {
     id: 1245,
     name: "橙火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_431: Item = {
@@ -472,8 +490,10 @@ export const DecorationItem_431: Item = {
     id: 431,
     name: "白火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3114: Item = {
@@ -482,8 +502,10 @@ export const DecorationItem_3114: Item = {
     id: 3114,
     name: "粉火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3045: Item = {
@@ -492,8 +514,10 @@ export const DecorationItem_3045: Item = {
     id: 3045,
     name: "彩虹火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3004: Item = {
@@ -502,8 +526,10 @@ export const DecorationItem_3004: Item = {
     id: 3004,
     name: "骨头火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_974: Item = {
@@ -512,8 +538,10 @@ export const DecorationItem_974: Item = {
     id: 974,
     name: "冰雪火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4388: Item = {
@@ -522,8 +550,10 @@ export const DecorationItem_4388: Item = {
     id: 4388,
     name: "丛林火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4383: Item = {
@@ -532,8 +562,10 @@ export const DecorationItem_4383: Item = {
     id: 4383,
     name: "沙漠火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4384: Item = {
@@ -542,8 +574,10 @@ export const DecorationItem_4384: Item = {
     id: 4384,
     name: "珊瑚火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4385: Item = {
@@ -552,8 +586,10 @@ export const DecorationItem_4385: Item = {
     id: 4385,
     name: "腐化火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4386: Item = {
@@ -562,8 +598,10 @@ export const DecorationItem_4386: Item = {
     id: 4386,
     name: "猩红火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5353: Item = {
@@ -572,8 +610,10 @@ export const DecorationItem_5353: Item = {
     id: 5353,
     name: "以太火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_433: Item = {
@@ -582,8 +622,10 @@ export const DecorationItem_433: Item = {
     id: 433,
     name: "恶魔火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_523: Item = {
@@ -592,8 +634,10 @@ export const DecorationItem_523: Item = {
     id: 523,
     name: "诅咒火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4387: Item = {
@@ -602,8 +646,10 @@ export const DecorationItem_4387: Item = {
     id: 4387,
     name: "神圣火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1333: Item = {
@@ -612,8 +658,10 @@ export const DecorationItem_1333: Item = {
     id: 1333,
     name: "灵液火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5293: Item = {
@@ -622,8 +670,10 @@ export const DecorationItem_5293: Item = {
     id: 5293,
     name: "蘑菇火把",
     Category: DecorationItem,
+    SubCategory: TorchD,
     comments: "",
 }
+
 
 
 export const DecorationItem_62: Item = {
@@ -632,8 +682,10 @@ export const DecorationItem_62: Item = {
     id: 62,
     name: "草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_194: Item = {
@@ -642,8 +694,10 @@ export const DecorationItem_194: Item = {
     id: 194,
     name: "蘑菇草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_195: Item = {
@@ -652,8 +706,10 @@ export const DecorationItem_195: Item = {
     id: 195,
     name: "丛林草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_59: Item = {
@@ -662,8 +718,10 @@ export const DecorationItem_59: Item = {
     id: 59,
     name: "腐化种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2171: Item = {
@@ -672,8 +730,10 @@ export const DecorationItem_2171: Item = {
     id: 2171,
     name: "猩红种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_369: Item = {
@@ -682,8 +742,10 @@ export const DecorationItem_369: Item = {
     id: 369,
     name: "神圣种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5214: Item = {
@@ -692,8 +754,10 @@ export const DecorationItem_5214: Item = {
     id: 5214,
     name: "灰烬草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_307: Item = {
@@ -702,8 +766,10 @@ export const DecorationItem_307: Item = {
     id: 307,
     name: "太阳花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_308: Item = {
@@ -712,8 +778,10 @@ export const DecorationItem_308: Item = {
     id: 308,
     name: "月光草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_309: Item = {
@@ -722,8 +790,10 @@ export const DecorationItem_309: Item = {
     id: 309,
     name: "闪耀根种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_310: Item = {
@@ -732,8 +802,10 @@ export const DecorationItem_310: Item = {
     id: 310,
     name: "死亡草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_311: Item = {
@@ -742,8 +814,10 @@ export const DecorationItem_311: Item = {
     id: 311,
     name: "水叶草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_312: Item = {
@@ -752,8 +826,10 @@ export const DecorationItem_312: Item = {
     id: 312,
     name: "火焰花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2357: Item = {
@@ -762,8 +838,10 @@ export const DecorationItem_2357: Item = {
     id: 2357,
     name: "寒颤棘种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1828: Item = {
@@ -772,8 +850,10 @@ export const DecorationItem_1828: Item = {
     id: 1828,
     name: "南瓜子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4041: Item = {
@@ -782,8 +862,10 @@ export const DecorationItem_4041: Item = {
     id: 4041,
     name: "蓝花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4042: Item = {
@@ -792,8 +874,10 @@ export const DecorationItem_4042: Item = {
     id: 4042,
     name: "洋红花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4043: Item = {
@@ -802,8 +886,10 @@ export const DecorationItem_4043: Item = {
     id: 4043,
     name: "粉花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4044: Item = {
@@ -812,8 +898,10 @@ export const DecorationItem_4044: Item = {
     id: 4044,
     name: "红花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4045: Item = {
@@ -822,8 +910,10 @@ export const DecorationItem_4045: Item = {
     id: 4045,
     name: "黄花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4046: Item = {
@@ -832,8 +922,10 @@ export const DecorationItem_4046: Item = {
     id: 4046,
     name: "蓝紫花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4047: Item = {
@@ -842,8 +934,10 @@ export const DecorationItem_4047: Item = {
     id: 4047,
     name: "白花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4048: Item = {
@@ -852,8 +946,10 @@ export const DecorationItem_4048: Item = {
     id: 4048,
     name: "高茎草种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4241: Item = {
@@ -862,8 +958,10 @@ export const DecorationItem_4241: Item = {
     id: 4241,
     name: "野花种子",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_27: Item = {
@@ -872,8 +970,10 @@ export const DecorationItem_27: Item = {
     id: 27,
     name: "橡实",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4851: Item = {
@@ -882,8 +982,10 @@ export const DecorationItem_4851: Item = {
     id: 4851,
     name: "黄玉宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4852: Item = {
@@ -892,8 +994,10 @@ export const DecorationItem_4852: Item = {
     id: 4852,
     name: "紫晶宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4853: Item = {
@@ -902,8 +1006,10 @@ export const DecorationItem_4853: Item = {
     id: 4853,
     name: "蓝玉宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4854: Item = {
@@ -912,8 +1018,10 @@ export const DecorationItem_4854: Item = {
     id: 4854,
     name: "翡翠宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4855: Item = {
@@ -922,8 +1030,10 @@ export const DecorationItem_4855: Item = {
     id: 4855,
     name: "红玉宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4856: Item = {
@@ -932,8 +1042,10 @@ export const DecorationItem_4856: Item = {
     id: 4856,
     name: "钻石宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4857: Item = {
@@ -942,8 +1054,10 @@ export const DecorationItem_4857: Item = {
     id: 4857,
     name: "琥珀宝石果",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4871: Item = {
@@ -952,8 +1066,10 @@ export const DecorationItem_4871: Item = {
     id: 4871,
     name: "樱花树苗",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4907: Item = {
@@ -962,8 +1078,10 @@ export const DecorationItem_4907: Item = {
     id: 4907,
     name: "黄柳树苗",
     Category: DecorationItem,
+    SubCategory: SeedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4875: Item = {
@@ -972,8 +1090,10 @@ export const DecorationItem_4875: Item = {
     id: 4875,
     name: "丛林晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4876: Item = {
@@ -982,8 +1102,10 @@ export const DecorationItem_4876: Item = {
     id: 4876,
     name: "森林晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4916: Item = {
@@ -992,8 +1114,10 @@ export const DecorationItem_4916: Item = {
     id: 4916,
     name: "神圣晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4917: Item = {
@@ -1002,8 +1126,10 @@ export const DecorationItem_4917: Item = {
     id: 4917,
     name: "洞穴晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4918: Item = {
@@ -1012,8 +1138,10 @@ export const DecorationItem_4918: Item = {
     id: 4918,
     name: "海洋晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4919: Item = {
@@ -1022,8 +1150,10 @@ export const DecorationItem_4919: Item = {
     id: 4919,
     name: "沙漠晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4920: Item = {
@@ -1032,8 +1162,10 @@ export const DecorationItem_4920: Item = {
     id: 4920,
     name: "雪原晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4921: Item = {
@@ -1042,8 +1174,10 @@ export const DecorationItem_4921: Item = {
     id: 4921,
     name: "蘑菇晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4922: Item = {
@@ -1052,8 +1186,10 @@ export const DecorationItem_4922: Item = {
     id: 4922,
     name: "洞穴喷泉",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_4951: Item = {
@@ -1062,8 +1198,10 @@ export const DecorationItem_4951: Item = {
     id: 4951,
     name: "万能晶塔",
     Category: DecorationItem,
+    SubCategory: Pylon,
     comments: "",
 }
+
 
 
 export const DecorationItem_321: Item = {
@@ -1072,8 +1210,10 @@ export const DecorationItem_321: Item = {
     id: 321,
     name: "墓石",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_1173: Item = {
@@ -1082,8 +1222,10 @@ export const DecorationItem_1173: Item = {
     id: 1173,
     name: "墓石碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_1174: Item = {
@@ -1092,8 +1234,10 @@ export const DecorationItem_1174: Item = {
     id: 1174,
     name: "十字墓石碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_1175: Item = {
@@ -1102,8 +1246,10 @@ export const DecorationItem_1175: Item = {
     id: 1175,
     name: "碑石",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_1176: Item = {
@@ -1112,8 +1258,10 @@ export const DecorationItem_1176: Item = {
     id: 1176,
     name: "墓碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_1177: Item = {
@@ -1122,8 +1270,10 @@ export const DecorationItem_1177: Item = {
     id: 1177,
     name: "方尖碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_3229: Item = {
@@ -1132,8 +1282,10 @@ export const DecorationItem_3229: Item = {
     id: 3229,
     name: "金十字墓石碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_3230: Item = {
@@ -1142,8 +1294,10 @@ export const DecorationItem_3230: Item = {
     id: 3230,
     name: "金墓石",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_3231: Item = {
@@ -1152,8 +1306,10 @@ export const DecorationItem_3231: Item = {
     id: 3231,
     name: "金墓石碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_3232: Item = {
@@ -1162,8 +1318,10 @@ export const DecorationItem_3232: Item = {
     id: 3232,
     name: "金墓碑",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_3233: Item = {
@@ -1172,8 +1330,10 @@ export const DecorationItem_3233: Item = {
     id: 3233,
     name: "金碑石",
     Category: DecorationItem,
+    SubCategory: Marker,
     comments: "",
 }
+
 
 
 export const DecorationItem_5383: Item = {
@@ -1182,8 +1342,10 @@ export const DecorationItem_5383: Item = {
     id: 5383,
     name: "弹力巨石",
     Category: DecorationItem,
+    SubCategory: Danger,
     comments: "",
 }
+
 
 
 export const DecorationItem_5384: Item = {
@@ -1192,8 +1354,10 @@ export const DecorationItem_5384: Item = {
     id: 5384,
     name: "生命水晶巨石",
     Category: DecorationItem,
+    SubCategory: Danger,
     comments: "",
 }
+
 
 
 export const DecorationItem_5066: Item = {
@@ -1202,8 +1366,10 @@ export const DecorationItem_5066: Item = {
     id: 5066,
     name: "蜂巢",
     Category: DecorationItem,
+    SubCategory: Danger,
     comments: "",
 }
+
 
 
 export const DecorationItem_5067: Item = {
@@ -1212,8 +1378,10 @@ export const DecorationItem_5067: Item = {
     id: 5067,
     name: "蚁狮卵",
     Category: DecorationItem,
+    SubCategory: Danger,
     comments: "",
 }
+
 
 
 export const DecorationItem_4390: Item = {
@@ -1222,8 +1390,10 @@ export const DecorationItem_4390: Item = {
     id: 4390,
     name: "仙人球",
     Category: DecorationItem,
+    SubCategory: Danger,
     comments: "",
 }
+
 
 
 export const DecorationItem_33: Item = {
@@ -1232,8 +1402,10 @@ export const DecorationItem_33: Item = {
     id: 33,
     name: "熔炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_35: Item = {
@@ -1242,8 +1414,10 @@ export const DecorationItem_35: Item = {
     id: 35,
     name: "铁砧",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_716: Item = {
@@ -1252,8 +1426,10 @@ export const DecorationItem_716: Item = {
     id: 716,
     name: "铅砧",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2172: Item = {
@@ -1262,8 +1438,10 @@ export const DecorationItem_2172: Item = {
     id: 2172,
     name: "重型工作台",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_345: Item = {
@@ -1272,8 +1450,10 @@ export const DecorationItem_345: Item = {
     id: 345,
     name: "烹饪锅",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1791: Item = {
@@ -1282,8 +1462,10 @@ export const DecorationItem_1791: Item = {
     id: 1791,
     name: "大锅",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_221: Item = {
@@ -1292,8 +1474,10 @@ export const DecorationItem_221: Item = {
     id: 221,
     name: "地狱熔炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_363: Item = {
@@ -1302,8 +1486,10 @@ export const DecorationItem_363: Item = {
     id: 363,
     name: "锯木机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_332: Item = {
@@ -1312,8 +1498,10 @@ export const DecorationItem_332: Item = {
     id: 332,
     name: "织布机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_352: Item = {
@@ -1322,8 +1510,10 @@ export const DecorationItem_352: Item = {
     id: 352,
     name: "酒桶",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1120: Item = {
@@ -1332,8 +1522,10 @@ export const DecorationItem_1120: Item = {
     id: 1120,
     name: "染缸",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1430: Item = {
@@ -1342,8 +1534,10 @@ export const DecorationItem_1430: Item = {
     id: 1430,
     name: "灌注站",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_398: Item = {
@@ -1352,8 +1546,10 @@ export const DecorationItem_398: Item = {
     id: 398,
     name: "工匠作坊",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_31: Item = {
@@ -1362,8 +1558,10 @@ export const DecorationItem_31: Item = {
     id: 31,
     name: "玻璃瓶",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_3000: Item = {
@@ -1372,8 +1570,10 @@ export const DecorationItem_3000: Item = {
     id: 3000,
     name: "炼药桌",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_5008: Item = {
@@ -1382,8 +1582,10 @@ export const DecorationItem_5008: Item = {
     id: 5008,
     name: "茶壶",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_525: Item = {
@@ -1392,8 +1594,10 @@ export const DecorationItem_525: Item = {
     id: 525,
     name: "秘银砧",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1220: Item = {
@@ -1402,8 +1606,10 @@ export const DecorationItem_1220: Item = {
     id: 1220,
     name: "山铜砧",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_524: Item = {
@@ -1412,8 +1618,10 @@ export const DecorationItem_524: Item = {
     id: 524,
     name: "精金熔炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1221: Item = {
@@ -1422,8 +1630,10 @@ export const DecorationItem_1221: Item = {
     id: 1221,
     name: "钛金熔炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_995: Item = {
@@ -1432,8 +1642,10 @@ export const DecorationItem_995: Item = {
     id: 995,
     name: "搅拌机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_996: Item = {
@@ -1442,8 +1654,10 @@ export const DecorationItem_996: Item = {
     id: 996,
     name: "绞肉机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_998: Item = {
@@ -1452,8 +1666,10 @@ export const DecorationItem_998: Item = {
     id: 998,
     name: "固化机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_1551: Item = {
@@ -1462,8 +1678,10 @@ export const DecorationItem_1551: Item = {
     id: 1551,
     name: "自动锤炼机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_4142: Item = {
@@ -1472,8 +1690,10 @@ export const DecorationItem_4142: Item = {
     id: 4142,
     name: "腐变室",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_997: Item = {
@@ -1482,8 +1702,10 @@ export const DecorationItem_997: Item = {
     id: 997,
     name: "提炼机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_5296: Item = {
@@ -1492,8 +1714,10 @@ export const DecorationItem_5296: Item = {
     id: 5296,
     name: "叶绿提炼机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2192: Item = {
@@ -1502,8 +1726,10 @@ export const DecorationItem_2192: Item = {
     id: 2192,
     name: "骨头焊机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2193: Item = {
@@ -1512,8 +1738,10 @@ export const DecorationItem_2193: Item = {
     id: 2193,
     name: "血肉克隆台",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2194: Item = {
@@ -1522,8 +1750,10 @@ export const DecorationItem_2194: Item = {
     id: 2194,
     name: "玻璃窑",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2195: Item = {
@@ -1532,8 +1762,10 @@ export const DecorationItem_2195: Item = {
     id: 2195,
     name: "丛林蜥蜴熔炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2196: Item = {
@@ -1542,8 +1774,10 @@ export const DecorationItem_2196: Item = {
     id: 2196,
     name: "生命木织机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2197: Item = {
@@ -1552,8 +1786,10 @@ export const DecorationItem_2197: Item = {
     id: 2197,
     name: "天磨",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2198: Item = {
@@ -1562,8 +1798,10 @@ export const DecorationItem_2198: Item = {
     id: 2198,
     name: "冰雪机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2203: Item = {
@@ -1572,8 +1810,10 @@ export const DecorationItem_2203: Item = {
     id: 2203,
     name: "蒸汽朋克锅炉",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_2204: Item = {
@@ -1582,8 +1822,10 @@ export const DecorationItem_2204: Item = {
     id: 2204,
     name: "蜂蜜分配机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_3549: Item = {
@@ -1592,8 +1834,10 @@ export const DecorationItem_3549: Item = {
     id: 3549,
     name: "远古操纵机",
     Category: DecorationItem,
+    SubCategory: MakeStation,
     comments: "",
 }
+
 
 
 export const DecorationItem_85: Item = {
@@ -1602,8 +1846,10 @@ export const DecorationItem_85: Item = {
     id: 85,
     name: "链条",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_965: Item = {
@@ -1612,8 +1858,10 @@ export const DecorationItem_965: Item = {
     id: 965,
     name: "绳",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_985: Item = {
@@ -1622,8 +1870,10 @@ export const DecorationItem_985: Item = {
     id: 985,
     name: "绳圈",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_2996: Item = {
@@ -1632,8 +1882,10 @@ export const DecorationItem_2996: Item = {
     id: 2996,
     name: "藤蔓绳",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3005: Item = {
@@ -1642,8 +1894,10 @@ export const DecorationItem_3005: Item = {
     id: 3005,
     name: "藤蔓绳圈",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3739: Item = {
@@ -1652,8 +1906,10 @@ export const DecorationItem_3739: Item = {
     id: 3739,
     name: "蓝饰带",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3740: Item = {
@@ -1662,8 +1918,10 @@ export const DecorationItem_3740: Item = {
     id: 3740,
     name: "绿饰带",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3741: Item = {
@@ -1672,8 +1930,10 @@ export const DecorationItem_3741: Item = {
     id: 3741,
     name: "粉饰带",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3077: Item = {
@@ -1682,8 +1942,10 @@ export const DecorationItem_3077: Item = {
     id: 3077,
     name: "丝绸绳",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3078: Item = {
@@ -1692,8 +1954,10 @@ export const DecorationItem_3078: Item = {
     id: 3078,
     name: "蛛丝绳",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3079: Item = {
@@ -1702,8 +1966,10 @@ export const DecorationItem_3079: Item = {
     id: 3079,
     name: "丝绸绳圈",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_3080: Item = {
@@ -1712,8 +1978,10 @@ export const DecorationItem_3080: Item = {
     id: 3080,
     name: "蛛丝绳圈",
     Category: DecorationItem,
+    SubCategory: Rope,
     comments: "",
 }
+
 
 
 export const DecorationItem_350: Item = {
@@ -1722,8 +1990,10 @@ export const DecorationItem_350: Item = {
     id: 350,
     name: "粉花瓶",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_351: Item = {
@@ -1732,8 +2002,10 @@ export const DecorationItem_351: Item = {
     id: 351,
     name: "玻璃杯",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_356: Item = {
@@ -1742,8 +2014,10 @@ export const DecorationItem_356: Item = {
     id: 356,
     name: "碗",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2243: Item = {
@@ -1752,8 +2026,10 @@ export const DecorationItem_2243: Item = {
     id: 2243,
     name: "玻璃碗",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2244: Item = {
@@ -1762,8 +2038,10 @@ export const DecorationItem_2244: Item = {
     id: 2244,
     name: "葡萄酒杯",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2257: Item = {
@@ -1772,8 +2050,10 @@ export const DecorationItem_2257: Item = {
     id: 2257,
     name: "蜂蜜杯",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2234: Item = {
@@ -1782,8 +2062,10 @@ export const DecorationItem_2234: Item = {
     id: 2234,
     name: "王朝杯",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2235: Item = {
@@ -1792,8 +2074,10 @@ export const DecorationItem_2235: Item = {
     id: 2235,
     name: "王朝碗",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4326: Item = {
@@ -1802,8 +2086,10 @@ export const DecorationItem_4326: Item = {
     id: 4326,
     name: "盘子",
     Category: DecorationItem,
+    SubCategory: FoodD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1873: Item = {
@@ -1812,8 +2098,10 @@ export const DecorationItem_1873: Item = {
     id: 1873,
     name: "圣诞树",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1874: Item = {
@@ -1822,8 +2110,10 @@ export const DecorationItem_1874: Item = {
     id: 1874,
     name: "星星顶饰1",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1875: Item = {
@@ -1832,8 +2122,10 @@ export const DecorationItem_1875: Item = {
     id: 1875,
     name: "星星顶饰2",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1876: Item = {
@@ -1842,8 +2134,10 @@ export const DecorationItem_1876: Item = {
     id: 1876,
     name: "星星顶饰3",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1877: Item = {
@@ -1852,8 +2146,10 @@ export const DecorationItem_1877: Item = {
     id: 1877,
     name: "蝴蝶结顶饰",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1878: Item = {
@@ -1862,8 +2158,10 @@ export const DecorationItem_1878: Item = {
     id: 1878,
     name: "白花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1879: Item = {
@@ -1872,8 +2170,10 @@ export const DecorationItem_1879: Item = {
     id: 1879,
     name: "白红花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1880: Item = {
@@ -1882,8 +2182,10 @@ export const DecorationItem_1880: Item = {
     id: 1880,
     name: "红花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1881: Item = {
@@ -1892,8 +2194,10 @@ export const DecorationItem_1881: Item = {
     id: 1881,
     name: "红绿花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1882: Item = {
@@ -1902,8 +2206,10 @@ export const DecorationItem_1882: Item = {
     id: 1882,
     name: "绿花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1883: Item = {
@@ -1912,8 +2218,10 @@ export const DecorationItem_1883: Item = {
     id: 1883,
     name: "绿白花环",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1884: Item = {
@@ -1922,8 +2230,10 @@ export const DecorationItem_1884: Item = {
     id: 1884,
     name: "五彩灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1885: Item = {
@@ -1932,8 +2242,10 @@ export const DecorationItem_1885: Item = {
     id: 1885,
     name: "红灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1886: Item = {
@@ -1942,8 +2254,10 @@ export const DecorationItem_1886: Item = {
     id: 1886,
     name: "黄灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1887: Item = {
@@ -1952,8 +2266,10 @@ export const DecorationItem_1887: Item = {
     id: 1887,
     name: "绿灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1888: Item = {
@@ -1962,8 +2278,10 @@ export const DecorationItem_1888: Item = {
     id: 1888,
     name: "红绿灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1889: Item = {
@@ -1972,8 +2290,10 @@ export const DecorationItem_1889: Item = {
     id: 1889,
     name: "黄绿灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1890: Item = {
@@ -1982,8 +2302,10 @@ export const DecorationItem_1890: Item = {
     id: 1890,
     name: "红黄灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1891: Item = {
@@ -1992,8 +2314,10 @@ export const DecorationItem_1891: Item = {
     id: 1891,
     name: "白灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1892: Item = {
@@ -2002,8 +2326,10 @@ export const DecorationItem_1892: Item = {
     id: 1892,
     name: "白红灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1893: Item = {
@@ -2012,8 +2338,10 @@ export const DecorationItem_1893: Item = {
     id: 1893,
     name: "白黄灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1894: Item = {
@@ -2022,8 +2350,10 @@ export const DecorationItem_1894: Item = {
     id: 1894,
     name: "白绿灯泡",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1895: Item = {
@@ -2032,8 +2362,10 @@ export const DecorationItem_1895: Item = {
     id: 1895,
     name: "五彩串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1896: Item = {
@@ -2042,8 +2374,10 @@ export const DecorationItem_1896: Item = {
     id: 1896,
     name: "红串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1897: Item = {
@@ -2052,8 +2386,10 @@ export const DecorationItem_1897: Item = {
     id: 1897,
     name: "绿串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1898: Item = {
@@ -2062,8 +2398,10 @@ export const DecorationItem_1898: Item = {
     id: 1898,
     name: "蓝串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1899: Item = {
@@ -2072,8 +2410,10 @@ export const DecorationItem_1899: Item = {
     id: 1899,
     name: "黄串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1900: Item = {
@@ -2082,8 +2422,10 @@ export const DecorationItem_1900: Item = {
     id: 1900,
     name: "红黄串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1901: Item = {
@@ -2092,8 +2434,10 @@ export const DecorationItem_1901: Item = {
     id: 1901,
     name: "红绿串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1902: Item = {
@@ -2102,8 +2446,10 @@ export const DecorationItem_1902: Item = {
     id: 1902,
     name: "黄绿串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1903: Item = {
@@ -2112,8 +2458,10 @@ export const DecorationItem_1903: Item = {
     id: 1903,
     name: "蓝绿串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1904: Item = {
@@ -2122,8 +2470,10 @@ export const DecorationItem_1904: Item = {
     id: 1904,
     name: "红蓝串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_1905: Item = {
@@ -2132,8 +2482,10 @@ export const DecorationItem_1905: Item = {
     id: 1905,
     name: "蓝黄串灯",
     Category: DecorationItem,
+    SubCategory: ChrisTree,
     comments: "",
 }
+
 
 
 export const DecorationItem_87: Item = {
@@ -2142,8 +2494,10 @@ export const DecorationItem_87: Item = {
     id: 87,
     name: "猪猪存钱罐",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_346: Item = {
@@ -2152,8 +2506,10 @@ export const DecorationItem_346: Item = {
     id: 346,
     name: "保险箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4076: Item = {
@@ -2162,8 +2518,10 @@ export const DecorationItem_4076: Item = {
     id: 4076,
     name: "虚空保险库",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3813: Item = {
@@ -2172,8 +2530,10 @@ export const DecorationItem_3813: Item = {
     id: 3813,
     name: "护卫熔炉",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_306: Item = {
@@ -2182,8 +2542,10 @@ export const DecorationItem_306: Item = {
     id: 306,
     name: "金箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_328: Item = {
@@ -2192,8 +2554,10 @@ export const DecorationItem_328: Item = {
     id: 328,
     name: "暗影箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_343: Item = {
@@ -2202,8 +2566,10 @@ export const DecorationItem_343: Item = {
     id: 343,
     name: "桶",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_348: Item = {
@@ -2212,8 +2578,10 @@ export const DecorationItem_348: Item = {
     id: 348,
     name: "垃圾桶",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_680: Item = {
@@ -2222,8 +2590,10 @@ export const DecorationItem_680: Item = {
     id: 680,
     name: "常春藤箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4712: Item = {
@@ -2232,8 +2602,10 @@ export const DecorationItem_4712: Item = {
     id: 4712,
     name: "沙漠箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_952: Item = {
@@ -2242,8 +2614,10 @@ export const DecorationItem_952: Item = {
     id: 952,
     name: "蛛丝箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1298: Item = {
@@ -2252,8 +2626,10 @@ export const DecorationItem_1298: Item = {
     id: 1298,
     name: "水中箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4265: Item = {
@@ -2262,8 +2638,10 @@ export const DecorationItem_4265: Item = {
     id: 4265,
     name: "高尔夫箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1528: Item = {
@@ -2272,8 +2650,10 @@ export const DecorationItem_1528: Item = {
     id: 1528,
     name: "丛林箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1529: Item = {
@@ -2282,8 +2662,10 @@ export const DecorationItem_1529: Item = {
     id: 1529,
     name: "腐化箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1530: Item = {
@@ -2292,8 +2674,10 @@ export const DecorationItem_1530: Item = {
     id: 1530,
     name: "猩红箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1531: Item = {
@@ -2302,8 +2686,10 @@ export const DecorationItem_1531: Item = {
     id: 1531,
     name: "神圣箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1532: Item = {
@@ -2312,8 +2698,10 @@ export const DecorationItem_1532: Item = {
     id: 1532,
     name: "冰雪箱",
     Category: DecorationItem,
+    SubCategory: ChestD,
     comments: "",
 }
+
 
 
 export const DecorationItem_909: Item = {
@@ -2322,8 +2710,10 @@ export const DecorationItem_909: Item = {
     id: 909,
     name: "纯净喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_910: Item = {
@@ -2332,8 +2722,10 @@ export const DecorationItem_910: Item = {
     id: 910,
     name: "沙漠喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_940: Item = {
@@ -2342,8 +2734,10 @@ export const DecorationItem_940: Item = {
     id: 940,
     name: "丛林喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_941: Item = {
@@ -2352,8 +2746,10 @@ export const DecorationItem_941: Item = {
     id: 941,
     name: "冰雪喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_942: Item = {
@@ -2362,8 +2758,10 @@ export const DecorationItem_942: Item = {
     id: 942,
     name: "腐化喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_943: Item = {
@@ -2372,8 +2770,10 @@ export const DecorationItem_943: Item = {
     id: 943,
     name: "猩红喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_944: Item = {
@@ -2382,8 +2782,10 @@ export const DecorationItem_944: Item = {
     id: 944,
     name: "神圣喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_945: Item = {
@@ -2392,8 +2794,10 @@ export const DecorationItem_945: Item = {
     id: 945,
     name: "血水喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4417: Item = {
@@ -2402,8 +2806,10 @@ export const DecorationItem_4417: Item = {
     id: 4417,
     name: "绿洲喷泉",
     Category: DecorationItem,
+    SubCategory: FounD,
     comments: "",
 }
+
 
 
 export const DecorationItem_966: Item = {
@@ -2412,8 +2818,10 @@ export const DecorationItem_966: Item = {
     id: 966,
     name: "篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3364: Item = {
@@ -2422,8 +2830,10 @@ export const DecorationItem_3364: Item = {
     id: 3364,
     name: "壁炉",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3046: Item = {
@@ -2432,8 +2842,10 @@ export const DecorationItem_3046: Item = {
     id: 3046,
     name: "诅咒篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3047: Item = {
@@ -2442,8 +2854,10 @@ export const DecorationItem_3047: Item = {
     id: 3047,
     name: "恶魔篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3048: Item = {
@@ -2452,8 +2866,10 @@ export const DecorationItem_3048: Item = {
     id: 3048,
     name: "冰冻篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3049: Item = {
@@ -2462,8 +2878,10 @@ export const DecorationItem_3049: Item = {
     id: 3049,
     name: "灵液篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3050: Item = {
@@ -2472,8 +2890,10 @@ export const DecorationItem_3050: Item = {
     id: 3050,
     name: "彩虹篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3723: Item = {
@@ -2482,8 +2902,10 @@ export const DecorationItem_3723: Item = {
     id: 3723,
     name: "超亮篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3724: Item = {
@@ -2492,8 +2914,10 @@ export const DecorationItem_3724: Item = {
     id: 3724,
     name: "骨头篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4689: Item = {
@@ -2502,8 +2926,10 @@ export const DecorationItem_4689: Item = {
     id: 4689,
     name: "沙漠篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4690: Item = {
@@ -2512,8 +2938,10 @@ export const DecorationItem_4690: Item = {
     id: 4690,
     name: "珊瑚篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4691: Item = {
@@ -2522,8 +2950,10 @@ export const DecorationItem_4691: Item = {
     id: 4691,
     name: "腐化篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4692: Item = {
@@ -2532,8 +2962,10 @@ export const DecorationItem_4692: Item = {
     id: 4692,
     name: "猩红篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4693: Item = {
@@ -2542,8 +2974,10 @@ export const DecorationItem_4693: Item = {
     id: 4693,
     name: "神圣篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4694: Item = {
@@ -2552,8 +2986,10 @@ export const DecorationItem_4694: Item = {
     id: 4694,
     name: "丛林篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5299: Item = {
@@ -2562,8 +2998,10 @@ export const DecorationItem_5299: Item = {
     id: 5299,
     name: "蘑菇篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5357: Item = {
@@ -2572,8 +3010,10 @@ export const DecorationItem_5357: Item = {
     id: 5357,
     name: "以太篝火",
     Category: DecorationItem,
+    SubCategory: CamD,
     comments: "",
 }
+
 
 
 export const DecorationItem_171: Item = {
@@ -2582,8 +3022,10 @@ export const DecorationItem_171: Item = {
     id: 171,
     name: "标牌",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4710: Item = {
@@ -2592,8 +3034,10 @@ export const DecorationItem_4710: Item = {
     id: 4710,
     name: "破旧木制标牌",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_222: Item = {
@@ -2602,8 +3046,10 @@ export const DecorationItem_222: Item = {
     id: 222,
     name: "粘土盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3215: Item = {
@@ -2612,8 +3058,10 @@ export const DecorationItem_3215: Item = {
     id: 3215,
     name: "太阳花种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3216: Item = {
@@ -2622,8 +3070,10 @@ export const DecorationItem_3216: Item = {
     id: 3216,
     name: "月光草种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3217: Item = {
@@ -2632,8 +3082,10 @@ export const DecorationItem_3217: Item = {
     id: 3217,
     name: "死亡草种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3218: Item = {
@@ -2642,8 +3094,10 @@ export const DecorationItem_3218: Item = {
     id: 3218,
     name: "死亡草种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3219: Item = {
@@ -2652,8 +3106,10 @@ export const DecorationItem_3219: Item = {
     id: 3219,
     name: "闪耀根种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3220: Item = {
@@ -2662,8 +3118,10 @@ export const DecorationItem_3220: Item = {
     id: 3220,
     name: "水叶草种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3221: Item = {
@@ -2672,8 +3130,10 @@ export const DecorationItem_3221: Item = {
     id: 3221,
     name: "寒颤棘种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3222: Item = {
@@ -2682,8 +3142,10 @@ export const DecorationItem_3222: Item = {
     id: 3222,
     name: "火焰花种植盆",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_498: Item = {
@@ -2692,8 +3154,10 @@ export const DecorationItem_498: Item = {
     id: 498,
     name: "人体模型",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1989: Item = {
@@ -2702,8 +3166,10 @@ export const DecorationItem_1989: Item = {
     id: 1989,
     name: "女性人体模型",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3977: Item = {
@@ -2712,8 +3178,10 @@ export const DecorationItem_3977: Item = {
     id: 3977,
     name: "帽架",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3202: Item = {
@@ -2722,8 +3190,10 @@ export const DecorationItem_3202: Item = {
     id: 3202,
     name: "训练假人",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_937: Item = {
@@ -2732,8 +3202,10 @@ export const DecorationItem_937: Item = {
     id: 937,
     name: "地雷",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1139: Item = {
@@ -2742,8 +3214,10 @@ export const DecorationItem_1139: Item = {
     id: 1139,
     name: "铅门",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1140: Item = {
@@ -2752,8 +3226,10 @@ export const DecorationItem_1140: Item = {
     id: 1140,
     name: "铁门",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4415: Item = {
@@ -2762,8 +3238,10 @@ export const DecorationItem_4415: Item = {
     id: 4415,
     name: "石门",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3239: Item = {
@@ -2772,8 +3250,10 @@ export const DecorationItem_3239: Item = {
     id: 3239,
     name: "机关门",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3240: Item = {
@@ -2782,8 +3262,10 @@ export const DecorationItem_3240: Item = {
     id: 3240,
     name: "高门",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4416: Item = {
@@ -2792,8 +3274,10 @@ export const DecorationItem_4416: Item = {
     id: 4416,
     name: "石平台",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1418: Item = {
@@ -2802,8 +3286,10 @@ export const DecorationItem_1418: Item = {
     id: 1418,
     name: "地牢架",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_341: Item = {
@@ -2812,8 +3298,10 @@ export const DecorationItem_341: Item = {
     id: 341,
     name: "灯柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1292: Item = {
@@ -2822,8 +3310,10 @@ export const DecorationItem_1292: Item = {
     id: 1292,
     name: "丛林蜥蜴祭坛",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3816: Item = {
@@ -2832,8 +3322,10 @@ export const DecorationItem_3816: Item = {
     id: 3816,
     name: "永恒水晶座",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1449: Item = {
@@ -2842,8 +3334,10 @@ export const DecorationItem_1449: Item = {
     id: 1449,
     name: "泡泡机",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2700: Item = {
@@ -2852,8 +3346,10 @@ export const DecorationItem_2700: Item = {
     id: 2700,
     name: "烟花盒",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2738: Item = {
@@ -2862,8 +3358,10 @@ export const DecorationItem_2738: Item = {
     id: 2738,
     name: "烟花喷泉",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3369: Item = {
@@ -2872,8 +3370,10 @@ export const DecorationItem_3369: Item = {
     id: 3369,
     name: "彩纸炮",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3064: Item = {
@@ -2882,8 +3382,10 @@ export const DecorationItem_3064: Item = {
     id: 3064,
     name: "附魔日晷",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5381: Item = {
@@ -2892,8 +3394,10 @@ export const DecorationItem_5381: Item = {
     id: 5381,
     name: "附魔月晷",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3214: Item = {
@@ -2902,8 +3406,10 @@ export const DecorationItem_3214: Item = {
     id: 3214,
     name: "泡泡",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3270: Item = {
@@ -2912,8 +3418,10 @@ export const DecorationItem_3270: Item = {
     id: 3270,
     name: "物品框",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3365: Item = {
@@ -2922,8 +3430,10 @@ export const DecorationItem_3365: Item = {
     id: 3365,
     name: "烟囱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3536: Item = {
@@ -2932,8 +3442,10 @@ export const DecorationItem_3536: Item = {
     id: 3536,
     name: "星旋天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3537: Item = {
@@ -2942,8 +3454,10 @@ export const DecorationItem_3537: Item = {
     id: 3537,
     name: "星云天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3538: Item = {
@@ -2952,8 +3466,10 @@ export const DecorationItem_3538: Item = {
     id: 3538,
     name: "星尘天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3539: Item = {
@@ -2962,8 +3478,10 @@ export const DecorationItem_3539: Item = {
     id: 3539,
     name: "日耀天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4054: Item = {
@@ -2972,8 +3490,10 @@ export const DecorationItem_4054: Item = {
     id: 4054,
     name: "血月天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4318: Item = {
@@ -2982,8 +3502,10 @@ export const DecorationItem_4318: Item = {
     id: 4318,
     name: "虚空天塔柱",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_488: Item = {
@@ -2992,8 +3514,10 @@ export const DecorationItem_488: Item = {
     id: 488,
     name: "迪斯科球",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3742: Item = {
@@ -3002,8 +3526,10 @@ export const DecorationItem_3742: Item = {
     id: 3742,
     name: "呆萌气球机",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3746: Item = {
@@ -3012,8 +3538,10 @@ export const DecorationItem_3746: Item = {
     id: 3746,
     name: "猪龙彩罐",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3747: Item = {
@@ -3022,8 +3550,10 @@ export const DecorationItem_3747: Item = {
     id: 3747,
     name: "派对中心",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4063: Item = {
@@ -3032,8 +3562,10 @@ export const DecorationItem_4063: Item = {
     id: 4063,
     name: "鼓组",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4075: Item = {
@@ -3042,8 +3574,10 @@ export const DecorationItem_4075: Item = {
     id: 4075,
     name: "风向标",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4552: Item = {
@@ -3052,8 +3586,10 @@ export const DecorationItem_4552: Item = {
     id: 4552,
     name: "造雾机",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5137: Item = {
@@ -3062,8 +3598,10 @@ export const DecorationItem_5137: Item = {
     id: 5137,
     name: "臭虫拦截器",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5138: Item = {
@@ -3072,8 +3610,10 @@ export const DecorationItem_5138: Item = {
     id: 5138,
     name: "幽灵臭虫拦截器",
     Category: DecorationItem,
+    SubCategory: FuncD,
     comments: "",
 }
+
 
 
 export const DecorationItem_487: Item = {
@@ -3082,8 +3622,10 @@ export const DecorationItem_487: Item = {
     id: 487,
     name: "水晶球",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2177: Item = {
@@ -3092,8 +3634,10 @@ export const DecorationItem_2177: Item = {
     id: 2177,
     name: "弹药箱",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2999: Item = {
@@ -3102,8 +3646,10 @@ export const DecorationItem_2999: Item = {
     id: 2999,
     name: "施法桌",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3198: Item = {
@@ -3112,8 +3658,10 @@ export const DecorationItem_3198: Item = {
     id: 3198,
     name: "利器站",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3750: Item = {
@@ -3122,8 +3670,10 @@ export const DecorationItem_3750: Item = {
     id: 3750,
     name: "蛋糕块",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3814: Item = {
@@ -3132,8 +3682,10 @@ export const DecorationItem_3814: Item = {
     id: 3814,
     name: "战争桌",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_63: Item = {
@@ -3142,8 +3694,10 @@ export const DecorationItem_63: Item = {
     id: 63,
     name: "向日葵",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_148: Item = {
@@ -3152,8 +3706,10 @@ export const DecorationItem_148: Item = {
     id: 148,
     name: "水蜡烛",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_3117: Item = {
@@ -3162,8 +3718,10 @@ export const DecorationItem_3117: Item = {
     id: 3117,
     name: "和平蜡烛",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5322: Item = {
@@ -3172,8 +3730,10 @@ export const DecorationItem_5322: Item = {
     id: 5322,
     name: "暗影蜡烛",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1431: Item = {
@@ -3182,8 +3742,10 @@ export const DecorationItem_1431: Item = {
     id: 1431,
     name: "星星瓶",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_1859: Item = {
@@ -3192,8 +3754,10 @@ export const DecorationItem_1859: Item = {
     id: 1859,
     name: "红心灯笼",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4276: Item = {
@@ -3202,8 +3766,10 @@ export const DecorationItem_4276: Item = {
     id: 4276,
     name: "巴斯特雕像",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4609: Item = {
@@ -3212,8 +3778,10 @@ export const DecorationItem_4609: Item = {
     id: 4609,
     name: "花园侏儒",
     Category: DecorationItem,
+    SubCategory: BuffD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4430: Item = {
@@ -3222,8 +3790,10 @@ export const DecorationItem_4430: Item = {
     id: 4430,
     name: "盆栽森林雪松",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4431: Item = {
@@ -3232,8 +3802,10 @@ export const DecorationItem_4431: Item = {
     id: 4431,
     name: "盆栽丛林雪松",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4432: Item = {
@@ -3242,8 +3814,10 @@ export const DecorationItem_4432: Item = {
     id: 4432,
     name: "盆栽神圣雪松",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4433: Item = {
@@ -3252,8 +3826,10 @@ export const DecorationItem_4433: Item = {
     id: 4433,
     name: "盆栽森林树",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4434: Item = {
@@ -3262,8 +3838,10 @@ export const DecorationItem_4434: Item = {
     id: 4434,
     name: "盆栽丛林树",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4435: Item = {
@@ -3272,8 +3850,10 @@ export const DecorationItem_4435: Item = {
     id: 4435,
     name: "盆栽神圣树",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4436: Item = {
@@ -3282,8 +3862,10 @@ export const DecorationItem_4436: Item = {
     id: 4436,
     name: "盆栽森林棕榈",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4437: Item = {
@@ -3292,8 +3874,10 @@ export const DecorationItem_4437: Item = {
     id: 4437,
     name: "盆栽丛林棕榈",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4438: Item = {
@@ -3302,8 +3886,10 @@ export const DecorationItem_4438: Item = {
     id: 4438,
     name: "盆栽神圣棕榈",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4439: Item = {
@@ -3312,8 +3898,10 @@ export const DecorationItem_4439: Item = {
     id: 4439,
     name: "盆栽森林竹",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4440: Item = {
@@ -3322,8 +3910,10 @@ export const DecorationItem_4440: Item = {
     id: 4440,
     name: "盆栽丛林竹",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4441: Item = {
@@ -3332,8 +3922,10 @@ export const DecorationItem_4441: Item = {
     id: 4441,
     name: "盆栽神圣竹",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4902: Item = {
@@ -3342,8 +3934,10 @@ export const DecorationItem_4902: Item = {
     id: 4902,
     name: "盆栽岩浆棕榈",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4903: Item = {
@@ -3352,8 +3946,10 @@ export const DecorationItem_4903: Item = {
     id: 4903,
     name: "盆栽硫磺灌木",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4904: Item = {
@@ -3362,8 +3958,10 @@ export const DecorationItem_4904: Item = {
     id: 4904,
     name: "盆栽火荆棘",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4905: Item = {
@@ -3372,8 +3970,10 @@ export const DecorationItem_4905: Item = {
     id: 4905,
     name: "盆栽熔岩球茎",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4906: Item = {
@@ -3382,8 +3982,10 @@ export const DecorationItem_4906: Item = {
     id: 4906,
     name: "盆栽余烬卷须",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5081: Item = {
@@ -3392,8 +3994,10 @@ export const DecorationItem_5081: Item = {
     id: 5081,
     name: "盆栽水晶蕨",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5082: Item = {
@@ -3402,8 +4006,10 @@ export const DecorationItem_5082: Item = {
     id: 5082,
     name: "盆栽水晶螺旋",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5083: Item = {
@@ -3412,8 +4018,10 @@ export const DecorationItem_5083: Item = {
     id: 5083,
     name: "盆栽水晶泪滴",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_5084: Item = {
@@ -3422,8 +4030,10 @@ export const DecorationItem_5084: Item = {
     id: 5084,
     name: "盆栽水晶树",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4858: Item = {
@@ -3432,8 +4042,10 @@ export const DecorationItem_4858: Item = {
     id: 4858,
     name: "吊挂盆",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4859: Item = {
@@ -3442,8 +4054,10 @@ export const DecorationItem_4859: Item = {
     id: 4859,
     name: "吊挂太阳花",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4860: Item = {
@@ -3452,8 +4066,10 @@ export const DecorationItem_4860: Item = {
     id: 4860,
     name: "吊挂月光草",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4861: Item = {
@@ -3462,8 +4078,10 @@ export const DecorationItem_4861: Item = {
     id: 4861,
     name: "吊挂水叶草",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4862: Item = {
@@ -3472,8 +4090,10 @@ export const DecorationItem_4862: Item = {
     id: 4862,
     name: "吊挂寒颤棘",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4863: Item = {
@@ -3482,8 +4102,10 @@ export const DecorationItem_4863: Item = {
     id: 4863,
     name: "吊挂闪耀根",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4864: Item = {
@@ -3492,8 +4114,10 @@ export const DecorationItem_4864: Item = {
     id: 4864,
     name: "吊挂腐化死亡草",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4865: Item = {
@@ -3502,8 +4126,10 @@ export const DecorationItem_4865: Item = {
     id: 4865,
     name: "吊挂猩红死亡草",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4866: Item = {
@@ -3512,8 +4138,10 @@ export const DecorationItem_4866: Item = {
     id: 4866,
     name: "吊挂火焰花",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_4867: Item = {
@@ -3522,8 +4150,10 @@ export const DecorationItem_4867: Item = {
     id: 4867,
     name: "吊挂火盆",
     Category: DecorationItem,
+    SubCategory: PottedD,
     comments: "",
 }
+
 
 
 export const DecorationItem_2281: Item = {
@@ -3532,8 +4162,10 @@ export const DecorationItem_2281: Item = {
     id: 2281,
     name: "虎皮",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_2282: Item = {
@@ -3542,8 +4174,10 @@ export const DecorationItem_2282: Item = {
     id: 2282,
     name: "豹皮",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_2283: Item = {
@@ -3552,8 +4186,10 @@ export const DecorationItem_2283: Item = {
     id: 2283,
     name: "斑马皮",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_2242: Item = {
@@ -3562,8 +4198,10 @@ export const DecorationItem_2242: Item = {
     id: 2242,
     name: "精致餐具",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_2258: Item = {
@@ -3572,8 +4210,10 @@ export const DecorationItem_2258: Item = {
     id: 2258,
     name: "圣餐杯",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_2274: Item = {
@@ -3582,8 +4222,10 @@ export const DecorationItem_2274: Item = {
     id: 2274,
     name: "超亮火把",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_4420: Item = {
@@ -3592,8 +4234,10 @@ export const DecorationItem_4420: Item = {
     id: 4420,
     name: "草坪火烈鸟",
     Category: DecorationItem,
-    comments: "",
+    SubCategory: OtherDec,
+    comments: "旅商",
 }
+
 
 
 export const DecorationItem_149: Item = {
@@ -3602,8 +4246,10 @@ export const DecorationItem_149: Item = {
     id: 149,
     name: "书",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_355: Item = {
@@ -3612,8 +4258,10 @@ export const DecorationItem_355: Item = {
     id: 355,
     name: "王座",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1714: Item = {
@@ -3622,8 +4270,10 @@ export const DecorationItem_1714: Item = {
     id: 1714,
     name: "宴会桌",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4064: Item = {
@@ -3632,8 +4282,10 @@ export const DecorationItem_4064: Item = {
     id: 4064,
     name: "野餐桌",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4065: Item = {
@@ -3642,8 +4294,10 @@ export const DecorationItem_4065: Item = {
     id: 4065,
     name: "精致野餐桌",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1706: Item = {
@@ -3652,8 +4306,10 @@ export const DecorationItem_1706: Item = {
     id: 1706,
     name: "高脚凳",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4127: Item = {
@@ -3662,8 +4318,10 @@ export const DecorationItem_4127: Item = {
     id: 4127,
     name: "钻石马桶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4731: Item = {
@@ -3672,8 +4330,10 @@ export const DecorationItem_4731: Item = {
     id: 4731,
     name: "泰拉马桶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_480: Item = {
@@ -3682,8 +4342,10 @@ export const DecorationItem_480: Item = {
     id: 480,
     name: "木梁",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4554: Item = {
@@ -3692,8 +4354,10 @@ export const DecorationItem_4554: Item = {
     id: 4554,
     name: "大理石柱",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4717: Item = {
@@ -3702,8 +4366,10 @@ export const DecorationItem_4717: Item = {
     id: 4717,
     name: "针叶木梁",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4718: Item = {
@@ -3712,8 +4378,10 @@ export const DecorationItem_4718: Item = {
     id: 4718,
     name: "红木梁",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4719: Item = {
@@ -3722,8 +4390,10 @@ export const DecorationItem_4719: Item = {
     id: 4719,
     name: "花岗岩柱",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4720: Item = {
@@ -3732,8 +4402,10 @@ export const DecorationItem_4720: Item = {
     id: 4720,
     name: "沙岩柱",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4721: Item = {
@@ -3742,8 +4414,10 @@ export const DecorationItem_4721: Item = {
     id: 4721,
     name: "蘑菇梁",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1376: Item = {
@@ -3752,8 +4426,10 @@ export const DecorationItem_1376: Item = {
     id: 1376,
     name: "壁挂骷髅",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1377: Item = {
@@ -3762,8 +4438,10 @@ export const DecorationItem_1377: Item = {
     id: 1377,
     name: "吊挂骷髅",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1417: Item = {
@@ -3772,8 +4450,10 @@ export const DecorationItem_1417: Item = {
     id: 1417,
     name: "地下墓穴",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1715: Item = {
@@ -3782,8 +4462,10 @@ export const DecorationItem_1715: Item = {
     id: 1715,
     name: "吧台",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_1908: Item = {
@@ -3792,8 +4474,10 @@ export const DecorationItem_1908: Item = {
     id: 1908,
     name: "冬青树",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2625: Item = {
@@ -3802,8 +4486,10 @@ export const DecorationItem_2625: Item = {
     id: 2625,
     name: "贝壳",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2626: Item = {
@@ -3812,8 +4498,10 @@ export const DecorationItem_2626: Item = {
     id: 2626,
     name: "海星",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4071: Item = {
@@ -3822,8 +4510,10 @@ export const DecorationItem_4071: Item = {
     id: 4071,
     name: "涡螺壳",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4072: Item = {
@@ -3832,8 +4522,10 @@ export const DecorationItem_4072: Item = {
     id: 4072,
     name: "香螺壳",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4073: Item = {
@@ -3842,8 +4534,10 @@ export const DecorationItem_4073: Item = {
     id: 4073,
     name: "旋螺壳",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2114: Item = {
@@ -3852,8 +4546,10 @@ export const DecorationItem_2114: Item = {
     id: 2114,
     name: "铁匠架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2115: Item = {
@@ -3862,8 +4558,10 @@ export const DecorationItem_2115: Item = {
     id: 2115,
     name: "木工架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2116: Item = {
@@ -3872,8 +4570,10 @@ export const DecorationItem_2116: Item = {
     id: 2116,
     name: "头盔架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2117: Item = {
@@ -3882,8 +4582,10 @@ export const DecorationItem_2117: Item = {
     id: 2117,
     name: "长矛架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2118: Item = {
@@ -3892,8 +4594,10 @@ export const DecorationItem_2118: Item = {
     id: 2118,
     name: "剑架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2699: Item = {
@@ -3902,8 +4606,10 @@ export const DecorationItem_2699: Item = {
     id: 2699,
     name: "武器架",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2701: Item = {
@@ -3912,8 +4618,10 @@ export const DecorationItem_2701: Item = {
     id: 2701,
     name: "活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2751: Item = {
@@ -3922,8 +4630,10 @@ export const DecorationItem_2751: Item = {
     id: 2751,
     name: "诅咒活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2752: Item = {
@@ -3932,8 +4642,10 @@ export const DecorationItem_2752: Item = {
     id: 2752,
     name: "恶魔活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2753: Item = {
@@ -3942,8 +4654,10 @@ export const DecorationItem_2753: Item = {
     id: 2753,
     name: "寒霜活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2754: Item = {
@@ -3952,8 +4666,10 @@ export const DecorationItem_2754: Item = {
     id: 2754,
     name: "灵液活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2755: Item = {
@@ -3962,8 +4678,10 @@ export const DecorationItem_2755: Item = {
     id: 2755,
     name: "超亮活火块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_2868: Item = {
@@ -3972,8 +4690,10 @@ export const DecorationItem_2868: Item = {
     id: 2868,
     name: "烟雾块",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3253: Item = {
@@ -3982,8 +4702,10 @@ export const DecorationItem_3253: Item = {
     id: 3253,
     name: "熔岩灯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4553: Item = {
@@ -3992,8 +4714,10 @@ export const DecorationItem_4553: Item = {
     id: 4553,
     name: "等离子灯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3795: Item = {
@@ -4002,8 +4726,10 @@ export const DecorationItem_3795: Item = {
     id: 3795,
     name: "沙漠幽魂灯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4695: Item = {
@@ -4012,8 +4738,10 @@ export const DecorationItem_4695: Item = {
     id: 4695,
     name: "光明之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4696: Item = {
@@ -4022,8 +4750,10 @@ export const DecorationItem_4696: Item = {
     id: 4696,
     name: "暗影之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4697: Item = {
@@ -4032,8 +4762,10 @@ export const DecorationItem_4697: Item = {
     id: 4697,
     name: "飞翔之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4698: Item = {
@@ -4042,8 +4774,10 @@ export const DecorationItem_4698: Item = {
     id: 4698,
     name: "视域之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4699: Item = {
@@ -4052,8 +4786,10 @@ export const DecorationItem_4699: Item = {
     id: 4699,
     name: "力量之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4700: Item = {
@@ -4062,8 +4798,10 @@ export const DecorationItem_4700: Item = {
     id: 4700,
     name: "恐惧之魂瓶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4868: Item = {
@@ -4072,8 +4810,10 @@ export const DecorationItem_4868: Item = {
     id: 4868,
     name: "小火山",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4869: Item = {
@@ -4082,8 +4822,10 @@ export const DecorationItem_4869: Item = {
     id: 4869,
     name: "大火山",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4880: Item = {
@@ -4092,8 +4834,10 @@ export const DecorationItem_4880: Item = {
     id: 4880,
     name: "熔岩蛇缸",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3385: Item = {
@@ -4102,8 +4846,10 @@ export const DecorationItem_3385: Item = {
     id: 3385,
     name: "奇异植物（紫）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3386: Item = {
@@ -4112,8 +4858,10 @@ export const DecorationItem_3386: Item = {
     id: 3386,
     name: "奇异植物（橙）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3387: Item = {
@@ -4122,8 +4870,10 @@ export const DecorationItem_3387: Item = {
     id: 3387,
     name: "奇异植物（绿）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3388: Item = {
@@ -4132,8 +4882,10 @@ export const DecorationItem_3388: Item = {
     id: 3388,
     name: "奇异植物（红）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3743: Item = {
@@ -4142,8 +4894,10 @@ export const DecorationItem_3743: Item = {
     id: 3743,
     name: "呆萌丝带气球（粉）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3744: Item = {
@@ -4152,8 +4906,10 @@ export const DecorationItem_3744: Item = {
     id: 3744,
     name: "呆萌丝带气球（紫）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3745: Item = {
@@ -4162,8 +4918,10 @@ export const DecorationItem_3745: Item = {
     id: 3745,
     name: "呆萌丝带气球（绿）",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3748: Item = {
@@ -4172,8 +4930,10 @@ export const DecorationItem_3748: Item = {
     id: 3748,
     name: "呆萌丝带派对气球束",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_3749: Item = {
@@ -4182,8 +4942,10 @@ export const DecorationItem_3749: Item = {
     id: 3749,
     name: "派对礼物",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4074: Item = {
@@ -4192,8 +4954,10 @@ export const DecorationItem_4074: Item = {
     id: 4074,
     name: "风车",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4083: Item = {
@@ -4202,8 +4966,10 @@ export const DecorationItem_4083: Item = {
     id: 4083,
     name: "白三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4084: Item = {
@@ -4212,8 +4978,10 @@ export const DecorationItem_4084: Item = {
     id: 4084,
     name: "红三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4085: Item = {
@@ -4222,8 +4990,10 @@ export const DecorationItem_4085: Item = {
     id: 4085,
     name: "绿三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4086: Item = {
@@ -4232,8 +5002,10 @@ export const DecorationItem_4086: Item = {
     id: 4086,
     name: "蓝三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4087: Item = {
@@ -4242,8 +5014,10 @@ export const DecorationItem_4087: Item = {
     id: 4087,
     name: "黄三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4088: Item = {
@@ -4252,8 +5026,10 @@ export const DecorationItem_4088: Item = {
     id: 4088,
     name: "紫三角旗",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4319: Item = {
@@ -4262,8 +5038,10 @@ export const DecorationItem_4319: Item = {
     id: 4319,
     name: "箭头标牌",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4320: Item = {
@@ -4272,8 +5050,10 @@ export const DecorationItem_4320: Item = {
     id: 4320,
     name: "彩色箭头标牌",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4599: Item = {
@@ -4282,8 +5062,10 @@ export const DecorationItem_4599: Item = {
     id: 4599,
     name: "高尔夫铜奖杯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4600: Item = {
@@ -4292,8 +5074,10 @@ export const DecorationItem_4600: Item = {
     id: 4600,
     name: "高尔夫银奖杯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_4601: Item = {
@@ -4302,8 +5086,10 @@ export const DecorationItem_4601: Item = {
     id: 4601,
     name: "高尔夫金奖杯",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_5286: Item = {
@@ -4312,8 +5098,10 @@ export const DecorationItem_5286: Item = {
     id: 5286,
     name: "修复的生命水晶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_5287: Item = {
@@ -4322,8 +5110,10 @@ export const DecorationItem_5287: Item = {
     id: 5287,
     name: "修复的魔力水晶",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_5320: Item = {
@@ -4332,8 +5122,10 @@ export const DecorationItem_5320: Item = {
     id: 5320,
     name: "装饰治疗药水",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
+
 
 
 export const DecorationItem_5321: Item = {
@@ -4342,6 +5134,7 @@ export const DecorationItem_5321: Item = {
     id: 5321,
     name: "装饰魔力药水",
     Category: DecorationItem,
+    SubCategory: OtherDec,
     comments: "",
 }
 

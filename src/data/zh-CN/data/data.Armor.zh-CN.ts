@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Armor } from "../data.Category.zh-CN.ts"
 
+import { AdamantiteArmor, AncientCobaltArmor, AncientHallowedArmor, AncientShadowArmor, AnglerArmor, ApprenticeArmor, AshWoodArmor, BeeArmor, BeetleArmor, BorealWoodArmor, CactusArmor, ChlorophyteArmor, CobaltArmor, CopperArmor, CrimsonArmor, CrystalArmor, DarkArmor, EbonwoodArmor, ForbiddenArmor, FossilArmor, FrostArmor, GladiatorArmor, GoldArmor, HallowedArmor, HuntressArmor, IronArmor, JungleArmor, LeadArmor, MeteorArmor, MiningArmor, MoltenArmor, MonkArmor, MythrilArmor, NebulaArmor, NecroArmor, NinjaArmor, ObsidianArmor, OrichalcumArmor, OtherArmor, PalladiumArmor, PalmWoodArmor, PearlwoodArmor, PinkSnowArmor, PlatinumArmor, PumpkinArmor, RedArmor, RichMahoganyArmor, Robe, ShadewoodArmor, ShadowArmor, ShinobiArmor, ShroomiteArmor, SilverArmor, SnowArmor, SolarArmor, SpectreArmor, SpiderArmor, SpookyArmor, SquireArmor, StardustArmor, TikiArmor, TinArmor, TitaniumArmor, TungstenArmor, TurtleArmor, ValhallaArmor, VortexArmor, WoodArmor } from "../data.SubCategory.zh-CN.ts"
+
 import Armor_727Img from "../../../assets/icon/Item_727.png"
 import Armor_728Img from "../../../assets/icon/Item_728.png"
 import Armor_729Img from "../../../assets/icon/Item_729.png"
@@ -243,14 +245,18 @@ import Armor_3109Img from "../../../assets/icon/Item_3109.png"
 import Armor_4008Img from "../../../assets/icon/Item_4008.png"
 import Armor_5068Img from "../../../assets/icon/Item_5068.png"
 import Armor_5001Img from "../../../assets/icon/Item_5001.png"
+
+
 export const Armor_727: Item = {
     icon: Armor_727Img,
     isCollection: false,
     id: 727,
     name: "木头盔",
     Category: Armor,
+    SubCategory: WoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_728: Item = {
@@ -259,8 +265,10 @@ export const Armor_728: Item = {
     id: 728,
     name: "木胸甲",
     Category: Armor,
+    SubCategory: WoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_729: Item = {
@@ -269,8 +277,10 @@ export const Armor_729: Item = {
     id: 729,
     name: "木护胫",
     Category: Armor,
+    SubCategory: WoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_733: Item = {
@@ -279,8 +289,10 @@ export const Armor_733: Item = {
     id: 733,
     name: "红木头盔",
     Category: Armor,
+    SubCategory: RichMahoganyArmor,
     comments: "",
 }
+
 
 
 export const Armor_734: Item = {
@@ -289,8 +301,10 @@ export const Armor_734: Item = {
     id: 734,
     name: "红木胸甲",
     Category: Armor,
+    SubCategory: RichMahoganyArmor,
     comments: "",
 }
+
 
 
 export const Armor_735: Item = {
@@ -299,8 +313,10 @@ export const Armor_735: Item = {
     id: 735,
     name: "红木护胫",
     Category: Armor,
+    SubCategory: RichMahoganyArmor,
     comments: "",
 }
+
 
 
 export const Armor_2509: Item = {
@@ -309,8 +325,10 @@ export const Armor_2509: Item = {
     id: 2509,
     name: "针叶木头盔",
     Category: Armor,
+    SubCategory: BorealWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_2510: Item = {
@@ -319,8 +337,10 @@ export const Armor_2510: Item = {
     id: 2510,
     name: "针叶木胸甲",
     Category: Armor,
+    SubCategory: BorealWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_2511: Item = {
@@ -329,8 +349,10 @@ export const Armor_2511: Item = {
     id: 2511,
     name: "针叶木护胫",
     Category: Armor,
+    SubCategory: BorealWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_2512: Item = {
@@ -339,8 +361,10 @@ export const Armor_2512: Item = {
     id: 2512,
     name: "棕榈木头盔",
     Category: Armor,
+    SubCategory: PalmWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_2513: Item = {
@@ -349,8 +373,10 @@ export const Armor_2513: Item = {
     id: 2513,
     name: "棕榈木胸甲",
     Category: Armor,
+    SubCategory: PalmWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_2514: Item = {
@@ -359,8 +385,10 @@ export const Armor_2514: Item = {
     id: 2514,
     name: "棕榈木护胫",
     Category: Armor,
+    SubCategory: PalmWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_730: Item = {
@@ -369,8 +397,10 @@ export const Armor_730: Item = {
     id: 730,
     name: "乌木头盔",
     Category: Armor,
+    SubCategory: EbonwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_731: Item = {
@@ -379,8 +409,10 @@ export const Armor_731: Item = {
     id: 731,
     name: "乌木胸甲",
     Category: Armor,
+    SubCategory: EbonwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_732: Item = {
@@ -389,8 +421,10 @@ export const Armor_732: Item = {
     id: 732,
     name: "乌木护胫",
     Category: Armor,
+    SubCategory: EbonwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_924: Item = {
@@ -399,8 +433,10 @@ export const Armor_924: Item = {
     id: 924,
     name: "暗影木头盔",
     Category: Armor,
+    SubCategory: ShadewoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_925: Item = {
@@ -409,8 +445,10 @@ export const Armor_925: Item = {
     id: 925,
     name: "暗影木胸甲",
     Category: Armor,
+    SubCategory: ShadewoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_926: Item = {
@@ -419,8 +457,10 @@ export const Armor_926: Item = {
     id: 926,
     name: "暗影木护胫",
     Category: Armor,
+    SubCategory: ShadewoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_5279: Item = {
@@ -429,8 +469,10 @@ export const Armor_5279: Item = {
     id: 5279,
     name: "灰烬木头盔",
     Category: Armor,
+    SubCategory: AshWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_5280: Item = {
@@ -439,8 +481,10 @@ export const Armor_5280: Item = {
     id: 5280,
     name: "灰烬木胸甲",
     Category: Armor,
+    SubCategory: AshWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_5281: Item = {
@@ -449,8 +493,10 @@ export const Armor_5281: Item = {
     id: 5281,
     name: "灰烬木护胫",
     Category: Armor,
+    SubCategory: AshWoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_736: Item = {
@@ -459,8 +505,10 @@ export const Armor_736: Item = {
     id: 736,
     name: "珍珠木头盔",
     Category: Armor,
+    SubCategory: PearlwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_737: Item = {
@@ -469,8 +517,10 @@ export const Armor_737: Item = {
     id: 737,
     name: "珍珠木胸甲",
     Category: Armor,
+    SubCategory: PearlwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_738: Item = {
@@ -479,8 +529,10 @@ export const Armor_738: Item = {
     id: 738,
     name: "珍珠木护胫",
     Category: Armor,
+    SubCategory: PearlwoodArmor,
     comments: "",
 }
+
 
 
 export const Armor_1731: Item = {
@@ -489,8 +541,10 @@ export const Armor_1731: Item = {
     id: 1731,
     name: "南瓜头盔",
     Category: Armor,
+    SubCategory: PumpkinArmor,
     comments: "",
 }
+
 
 
 export const Armor_1732: Item = {
@@ -499,8 +553,10 @@ export const Armor_1732: Item = {
     id: 1732,
     name: "南瓜胸甲",
     Category: Armor,
+    SubCategory: PumpkinArmor,
     comments: "",
 }
+
 
 
 export const Armor_1733: Item = {
@@ -509,8 +565,10 @@ export const Armor_1733: Item = {
     id: 1733,
     name: "南瓜护腿",
     Category: Armor,
+    SubCategory: PumpkinArmor,
     comments: "",
 }
+
 
 
 export const Armor_894: Item = {
@@ -519,8 +577,10 @@ export const Armor_894: Item = {
     id: 894,
     name: "仙人掌头盔",
     Category: Armor,
+    SubCategory: CactusArmor,
     comments: "",
 }
+
 
 
 export const Armor_895: Item = {
@@ -529,8 +589,10 @@ export const Armor_895: Item = {
     id: 895,
     name: "仙人掌胸甲",
     Category: Armor,
+    SubCategory: CactusArmor,
     comments: "",
 }
+
 
 
 export const Armor_896: Item = {
@@ -539,8 +601,10 @@ export const Armor_896: Item = {
     id: 896,
     name: "仙人掌护腿",
     Category: Armor,
+    SubCategory: CactusArmor,
     comments: "",
 }
+
 
 
 export const Armor_803: Item = {
@@ -549,8 +613,10 @@ export const Armor_803: Item = {
     id: 803,
     name: "防雪兜帽",
     Category: Armor,
+    SubCategory: SnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_804: Item = {
@@ -559,8 +625,10 @@ export const Armor_804: Item = {
     id: 804,
     name: "防雪大衣",
     Category: Armor,
+    SubCategory: SnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_805: Item = {
@@ -569,8 +637,10 @@ export const Armor_805: Item = {
     id: 805,
     name: "防雪裤",
     Category: Armor,
+    SubCategory: SnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_978: Item = {
@@ -579,8 +649,10 @@ export const Armor_978: Item = {
     id: 978,
     name: "粉色防雪兜帽",
     Category: Armor,
+    SubCategory: PinkSnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_979: Item = {
@@ -589,8 +661,10 @@ export const Armor_979: Item = {
     id: 979,
     name: "粉色防雪大衣",
     Category: Armor,
+    SubCategory: PinkSnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_980: Item = {
@@ -599,8 +673,10 @@ export const Armor_980: Item = {
     id: 980,
     name: "粉色防雪裤",
     Category: Armor,
+    SubCategory: PinkSnowArmor,
     comments: "",
 }
+
 
 
 export const Armor_2367: Item = {
@@ -609,8 +685,10 @@ export const Armor_2367: Item = {
     id: 2367,
     name: "渔夫帽",
     Category: Armor,
+    SubCategory: AnglerArmor,
     comments: "",
 }
+
 
 
 export const Armor_2368: Item = {
@@ -619,8 +697,10 @@ export const Armor_2368: Item = {
     id: 2368,
     name: "渔夫背心",
     Category: Armor,
+    SubCategory: AnglerArmor,
     comments: "",
 }
+
 
 
 export const Armor_2369: Item = {
@@ -629,8 +709,10 @@ export const Armor_2369: Item = {
     id: 2369,
     name: "渔夫裤",
     Category: Armor,
+    SubCategory: AnglerArmor,
     comments: "",
 }
+
 
 
 export const Armor_88: Item = {
@@ -639,8 +721,10 @@ export const Armor_88: Item = {
     id: 88,
     name: "挖矿头盔",
     Category: Armor,
+    SubCategory: MiningArmor,
     comments: "",
 }
+
 
 
 export const Armor_410: Item = {
@@ -649,8 +733,10 @@ export const Armor_410: Item = {
     id: 410,
     name: "挖矿衣",
     Category: Armor,
+    SubCategory: MiningArmor,
     comments: "",
 }
+
 
 
 export const Armor_411: Item = {
@@ -659,8 +745,10 @@ export const Armor_411: Item = {
     id: 411,
     name: "挖矿裤",
     Category: Armor,
+    SubCategory: MiningArmor,
     comments: "",
 }
+
 
 
 export const Armor_89: Item = {
@@ -669,8 +757,10 @@ export const Armor_89: Item = {
     id: 89,
     name: "铜头盔",
     Category: Armor,
+    SubCategory: CopperArmor,
     comments: "",
 }
+
 
 
 export const Armor_80: Item = {
@@ -679,8 +769,10 @@ export const Armor_80: Item = {
     id: 80,
     name: "铜链甲",
     Category: Armor,
+    SubCategory: CopperArmor,
     comments: "",
 }
+
 
 
 export const Armor_76: Item = {
@@ -689,8 +781,10 @@ export const Armor_76: Item = {
     id: 76,
     name: "铜护胫",
     Category: Armor,
+    SubCategory: CopperArmor,
     comments: "",
 }
+
 
 
 export const Armor_687: Item = {
@@ -699,8 +793,10 @@ export const Armor_687: Item = {
     id: 687,
     name: "锡头盔",
     Category: Armor,
+    SubCategory: TinArmor,
     comments: "",
 }
+
 
 
 export const Armor_688: Item = {
@@ -709,8 +805,10 @@ export const Armor_688: Item = {
     id: 688,
     name: "锡链甲",
     Category: Armor,
+    SubCategory: TinArmor,
     comments: "",
 }
+
 
 
 export const Armor_689: Item = {
@@ -719,8 +817,10 @@ export const Armor_689: Item = {
     id: 689,
     name: "锡护胫",
     Category: Armor,
+    SubCategory: TinArmor,
     comments: "",
 }
+
 
 
 export const Armor_90: Item = {
@@ -729,8 +829,10 @@ export const Armor_90: Item = {
     id: 90,
     name: "铁头盔",
     Category: Armor,
+    SubCategory: IronArmor,
     comments: "",
 }
+
 
 
 export const Armor_81: Item = {
@@ -739,8 +841,10 @@ export const Armor_81: Item = {
     id: 81,
     name: "铁链甲",
     Category: Armor,
+    SubCategory: IronArmor,
     comments: "",
 }
+
 
 
 export const Armor_77: Item = {
@@ -749,8 +853,10 @@ export const Armor_77: Item = {
     id: 77,
     name: "铁护胫",
     Category: Armor,
+    SubCategory: IronArmor,
     comments: "",
 }
+
 
 
 export const Armor_690: Item = {
@@ -759,8 +865,10 @@ export const Armor_690: Item = {
     id: 690,
     name: "铅头盔",
     Category: Armor,
+    SubCategory: LeadArmor,
     comments: "",
 }
+
 
 
 export const Armor_691: Item = {
@@ -769,8 +877,10 @@ export const Armor_691: Item = {
     id: 691,
     name: "铅链甲",
     Category: Armor,
+    SubCategory: LeadArmor,
     comments: "",
 }
+
 
 
 export const Armor_692: Item = {
@@ -779,8 +889,10 @@ export const Armor_692: Item = {
     id: 692,
     name: "铅护胫",
     Category: Armor,
+    SubCategory: LeadArmor,
     comments: "",
 }
+
 
 
 export const Armor_91: Item = {
@@ -789,8 +901,10 @@ export const Armor_91: Item = {
     id: 91,
     name: "银头盔",
     Category: Armor,
+    SubCategory: SilverArmor,
     comments: "",
 }
+
 
 
 export const Armor_82: Item = {
@@ -799,8 +913,10 @@ export const Armor_82: Item = {
     id: 82,
     name: "银链甲",
     Category: Armor,
+    SubCategory: SilverArmor,
     comments: "",
 }
+
 
 
 export const Armor_78: Item = {
@@ -809,8 +925,10 @@ export const Armor_78: Item = {
     id: 78,
     name: "银护胫",
     Category: Armor,
+    SubCategory: SilverArmor,
     comments: "",
 }
+
 
 
 export const Armor_693: Item = {
@@ -819,8 +937,10 @@ export const Armor_693: Item = {
     id: 693,
     name: "钨头盔",
     Category: Armor,
+    SubCategory: TungstenArmor,
     comments: "",
 }
+
 
 
 export const Armor_694: Item = {
@@ -829,8 +949,10 @@ export const Armor_694: Item = {
     id: 694,
     name: "钨链甲",
     Category: Armor,
+    SubCategory: TungstenArmor,
     comments: "",
 }
+
 
 
 export const Armor_695: Item = {
@@ -839,8 +961,10 @@ export const Armor_695: Item = {
     id: 695,
     name: "钨护胫",
     Category: Armor,
+    SubCategory: TungstenArmor,
     comments: "",
 }
+
 
 
 export const Armor_92: Item = {
@@ -849,8 +973,10 @@ export const Armor_92: Item = {
     id: 92,
     name: "金头盔",
     Category: Armor,
+    SubCategory: GoldArmor,
     comments: "",
 }
+
 
 
 export const Armor_83: Item = {
@@ -859,8 +985,10 @@ export const Armor_83: Item = {
     id: 83,
     name: "金链甲",
     Category: Armor,
+    SubCategory: GoldArmor,
     comments: "",
 }
+
 
 
 export const Armor_79: Item = {
@@ -869,8 +997,10 @@ export const Armor_79: Item = {
     id: 79,
     name: "金护胫",
     Category: Armor,
+    SubCategory: GoldArmor,
     comments: "",
 }
+
 
 
 export const Armor_696: Item = {
@@ -879,8 +1009,10 @@ export const Armor_696: Item = {
     id: 696,
     name: "铂金头盔",
     Category: Armor,
+    SubCategory: PlatinumArmor,
     comments: "",
 }
+
 
 
 export const Armor_697: Item = {
@@ -889,8 +1021,10 @@ export const Armor_697: Item = {
     id: 697,
     name: "铂金链甲",
     Category: Armor,
+    SubCategory: PlatinumArmor,
     comments: "",
 }
+
 
 
 export const Armor_698: Item = {
@@ -899,8 +1033,10 @@ export const Armor_698: Item = {
     id: 698,
     name: "铂金护胫",
     Category: Armor,
+    SubCategory: PlatinumArmor,
     comments: "",
 }
+
 
 
 export const Armor_3187: Item = {
@@ -909,8 +1045,10 @@ export const Armor_3187: Item = {
     id: 3187,
     name: "角斗士头盔",
     Category: Armor,
+    SubCategory: GladiatorArmor,
     comments: "",
 }
+
 
 
 export const Armor_3188: Item = {
@@ -919,8 +1057,10 @@ export const Armor_3188: Item = {
     id: 3188,
     name: "角斗士胸甲",
     Category: Armor,
+    SubCategory: GladiatorArmor,
     comments: "",
 }
+
 
 
 export const Armor_3189: Item = {
@@ -929,8 +1069,10 @@ export const Armor_3189: Item = {
     id: 3189,
     name: "角斗士护腿",
     Category: Armor,
+    SubCategory: GladiatorArmor,
     comments: "",
 }
+
 
 
 export const Armor_3374: Item = {
@@ -939,8 +1081,10 @@ export const Armor_3374: Item = {
     id: 3374,
     name: "化石头盔",
     Category: Armor,
+    SubCategory: FossilArmor,
     comments: "",
 }
+
 
 
 export const Armor_3375: Item = {
@@ -949,8 +1093,10 @@ export const Armor_3375: Item = {
     id: 3375,
     name: "化石板甲",
     Category: Armor,
+    SubCategory: FossilArmor,
     comments: "",
 }
+
 
 
 export const Armor_3376: Item = {
@@ -959,8 +1105,10 @@ export const Armor_3376: Item = {
     id: 3376,
     name: "化石护胫",
     Category: Armor,
+    SubCategory: FossilArmor,
     comments: "",
 }
+
 
 
 export const Armor_256: Item = {
@@ -969,8 +1117,10 @@ export const Armor_256: Item = {
     id: 256,
     name: "忍者兜帽",
     Category: Armor,
+    SubCategory: NinjaArmor,
     comments: "",
 }
+
 
 
 export const Armor_257: Item = {
@@ -979,8 +1129,10 @@ export const Armor_257: Item = {
     id: 257,
     name: "忍者衣",
     Category: Armor,
+    SubCategory: NinjaArmor,
     comments: "",
 }
+
 
 
 export const Armor_258: Item = {
@@ -989,8 +1141,10 @@ export const Armor_258: Item = {
     id: 258,
     name: "忍者裤",
     Category: Armor,
+    SubCategory: NinjaArmor,
     comments: "",
 }
+
 
 
 export const Armor_238: Item = {
@@ -999,8 +1153,10 @@ export const Armor_238: Item = {
     id: 238,
     name: "巫师帽",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1282: Item = {
@@ -1009,8 +1165,10 @@ export const Armor_1282: Item = {
     id: 1282,
     name: "紫晶长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1283: Item = {
@@ -1019,8 +1177,10 @@ export const Armor_1283: Item = {
     id: 1283,
     name: "黄玉长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1284: Item = {
@@ -1029,8 +1189,10 @@ export const Armor_1284: Item = {
     id: 1284,
     name: "蓝玉长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1285: Item = {
@@ -1039,8 +1201,10 @@ export const Armor_1285: Item = {
     id: 1285,
     name: "翡翠长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1286: Item = {
@@ -1049,8 +1213,10 @@ export const Armor_1286: Item = {
     id: 1286,
     name: "红玉长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_4256: Item = {
@@ -1059,8 +1225,10 @@ export const Armor_4256: Item = {
     id: 4256,
     name: "琥珀长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_1287: Item = {
@@ -1069,8 +1237,10 @@ export const Armor_1287: Item = {
     id: 1287,
     name: "钻石长袍",
     Category: Armor,
+    SubCategory: Robe,
     comments: "",
 }
+
 
 
 export const Armor_228: Item = {
@@ -1079,8 +1249,10 @@ export const Armor_228: Item = {
     id: 228,
     name: "丛林帽",
     Category: Armor,
+    SubCategory: JungleArmor,
     comments: "",
 }
+
 
 
 export const Armor_229: Item = {
@@ -1089,8 +1261,10 @@ export const Armor_229: Item = {
     id: 229,
     name: "丛林衣",
     Category: Armor,
+    SubCategory: JungleArmor,
     comments: "",
 }
+
 
 
 export const Armor_230: Item = {
@@ -1099,8 +1273,10 @@ export const Armor_230: Item = {
     id: 230,
     name: "丛林裤",
     Category: Armor,
+    SubCategory: JungleArmor,
     comments: "",
 }
+
 
 
 export const Armor_2361: Item = {
@@ -1109,8 +1285,10 @@ export const Armor_2361: Item = {
     id: 2361,
     name: "蜜蜂头饰",
     Category: Armor,
+    SubCategory: BeeArmor,
     comments: "",
 }
+
 
 
 export const Armor_2362: Item = {
@@ -1119,8 +1297,10 @@ export const Armor_2362: Item = {
     id: 2362,
     name: "蜜蜂胸甲",
     Category: Armor,
+    SubCategory: BeeArmor,
     comments: "",
 }
+
 
 
 export const Armor_2363: Item = {
@@ -1129,8 +1309,10 @@ export const Armor_2363: Item = {
     id: 2363,
     name: "蜜蜂护胫",
     Category: Armor,
+    SubCategory: BeeArmor,
     comments: "",
 }
+
 
 
 export const Armor_102: Item = {
@@ -1139,8 +1321,10 @@ export const Armor_102: Item = {
     id: 102,
     name: "暗影头盔",
     Category: Armor,
+    SubCategory: ShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_101: Item = {
@@ -1149,8 +1333,10 @@ export const Armor_101: Item = {
     id: 101,
     name: "暗影鳞甲",
     Category: Armor,
+    SubCategory: ShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_100: Item = {
@@ -1159,8 +1345,10 @@ export const Armor_100: Item = {
     id: 100,
     name: "暗影护胫",
     Category: Armor,
+    SubCategory: ShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_956: Item = {
@@ -1169,8 +1357,10 @@ export const Armor_956: Item = {
     id: 956,
     name: "远古暗影头盔",
     Category: Armor,
+    SubCategory: AncientShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_957: Item = {
@@ -1179,8 +1369,10 @@ export const Armor_957: Item = {
     id: 957,
     name: "远古暗影鳞甲",
     Category: Armor,
+    SubCategory: AncientShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_958: Item = {
@@ -1189,8 +1381,10 @@ export const Armor_958: Item = {
     id: 958,
     name: "远古暗影护胫",
     Category: Armor,
+    SubCategory: AncientShadowArmor,
     comments: "",
 }
+
 
 
 export const Armor_792: Item = {
@@ -1199,8 +1393,10 @@ export const Armor_792: Item = {
     id: 792,
     name: "猩红头盔",
     Category: Armor,
+    SubCategory: CrimsonArmor,
     comments: "",
 }
+
 
 
 export const Armor_793: Item = {
@@ -1209,8 +1405,10 @@ export const Armor_793: Item = {
     id: 793,
     name: "猩红鳞甲",
     Category: Armor,
+    SubCategory: CrimsonArmor,
     comments: "",
 }
+
 
 
 export const Armor_794: Item = {
@@ -1219,8 +1417,10 @@ export const Armor_794: Item = {
     id: 794,
     name: "猩红护胫",
     Category: Armor,
+    SubCategory: CrimsonArmor,
     comments: "",
 }
+
 
 
 export const Armor_3266: Item = {
@@ -1229,8 +1429,10 @@ export const Armor_3266: Item = {
     id: 3266,
     name: "黑曜石逃犯帽",
     Category: Armor,
+    SubCategory: ObsidianArmor,
     comments: "",
 }
+
 
 
 export const Armor_3267: Item = {
@@ -1239,8 +1441,10 @@ export const Armor_3267: Item = {
     id: 3267,
     name: "黑曜石风衣",
     Category: Armor,
+    SubCategory: ObsidianArmor,
     comments: "",
 }
+
 
 
 export const Armor_3268: Item = {
@@ -1249,8 +1453,10 @@ export const Armor_3268: Item = {
     id: 3268,
     name: "黑曜石裤",
     Category: Armor,
+    SubCategory: ObsidianArmor,
     comments: "",
 }
+
 
 
 export const Armor_960: Item = {
@@ -1259,8 +1465,10 @@ export const Armor_960: Item = {
     id: 960,
     name: "远古钴头盔",
     Category: Armor,
+    SubCategory: AncientCobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_961: Item = {
@@ -1269,8 +1477,10 @@ export const Armor_961: Item = {
     id: 961,
     name: "远古钴胸甲",
     Category: Armor,
+    SubCategory: AncientCobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_962: Item = {
@@ -1279,8 +1489,10 @@ export const Armor_962: Item = {
     id: 962,
     name: "远古钴护腿",
     Category: Armor,
+    SubCategory: AncientCobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_123: Item = {
@@ -1289,8 +1501,10 @@ export const Armor_123: Item = {
     id: 123,
     name: "流星头盔",
     Category: Armor,
+    SubCategory: MeteorArmor,
     comments: "",
 }
+
 
 
 export const Armor_124: Item = {
@@ -1299,8 +1513,10 @@ export const Armor_124: Item = {
     id: 124,
     name: "流星护甲",
     Category: Armor,
+    SubCategory: MeteorArmor,
     comments: "",
 }
+
 
 
 export const Armor_125: Item = {
@@ -1309,8 +1525,10 @@ export const Armor_125: Item = {
     id: 125,
     name: "流星护腿",
     Category: Armor,
+    SubCategory: MeteorArmor,
     comments: "",
 }
+
 
 
 export const Armor_231: Item = {
@@ -1319,8 +1537,10 @@ export const Armor_231: Item = {
     id: 231,
     name: "熔岩头盔",
     Category: Armor,
+    SubCategory: MoltenArmor,
     comments: "",
 }
+
 
 
 export const Armor_232: Item = {
@@ -1329,8 +1549,10 @@ export const Armor_232: Item = {
     id: 232,
     name: "熔岩胸甲",
     Category: Armor,
+    SubCategory: MoltenArmor,
     comments: "",
 }
+
 
 
 export const Armor_233: Item = {
@@ -1339,8 +1561,10 @@ export const Armor_233: Item = {
     id: 233,
     name: "熔岩护胫",
     Category: Armor,
+    SubCategory: MoltenArmor,
     comments: "",
 }
+
 
 
 export const Armor_151: Item = {
@@ -1349,8 +1573,10 @@ export const Armor_151: Item = {
     id: 151,
     name: "死灵头盔",
     Category: Armor,
+    SubCategory: NecroArmor,
     comments: "",
 }
+
 
 
 export const Armor_152: Item = {
@@ -1359,8 +1585,10 @@ export const Armor_152: Item = {
     id: 152,
     name: "死灵胸甲",
     Category: Armor,
+    SubCategory: NecroArmor,
     comments: "",
 }
+
 
 
 export const Armor_153: Item = {
@@ -1369,8 +1597,10 @@ export const Armor_153: Item = {
     id: 153,
     name: "死灵护胫",
     Category: Armor,
+    SubCategory: NecroArmor,
     comments: "",
 }
+
 
 
 export const Armor_2370: Item = {
@@ -1379,8 +1609,10 @@ export const Armor_2370: Item = {
     id: 2370,
     name: "蜘蛛面具",
     Category: Armor,
+    SubCategory: SpiderArmor,
     comments: "",
 }
+
 
 
 export const Armor_2371: Item = {
@@ -1389,8 +1621,10 @@ export const Armor_2371: Item = {
     id: 2371,
     name: "蜘蛛胸甲",
     Category: Armor,
+    SubCategory: SpiderArmor,
     comments: "",
 }
+
 
 
 export const Armor_2372: Item = {
@@ -1399,8 +1633,10 @@ export const Armor_2372: Item = {
     id: 2372,
     name: "蜘蛛护胫",
     Category: Armor,
+    SubCategory: SpiderArmor,
     comments: "",
 }
+
 
 
 export const Armor_4982: Item = {
@@ -1409,8 +1645,10 @@ export const Armor_4982: Item = {
     id: 4982,
     name: "水晶刺客兜帽",
     Category: Armor,
+    SubCategory: CrystalArmor,
     comments: "",
 }
+
 
 
 export const Armor_4983: Item = {
@@ -1419,8 +1657,10 @@ export const Armor_4983: Item = {
     id: 4983,
     name: "水晶刺客上衣",
     Category: Armor,
+    SubCategory: CrystalArmor,
     comments: "",
 }
+
 
 
 export const Armor_4984: Item = {
@@ -1429,8 +1669,10 @@ export const Armor_4984: Item = {
     id: 4984,
     name: "水晶刺客裤",
     Category: Armor,
+    SubCategory: CrystalArmor,
     comments: "",
 }
+
 
 
 export const Armor_371: Item = {
@@ -1439,8 +1681,10 @@ export const Armor_371: Item = {
     id: 371,
     name: "钴帽",
     Category: Armor,
+    SubCategory: CobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_372: Item = {
@@ -1449,8 +1693,10 @@ export const Armor_372: Item = {
     id: 372,
     name: "钴头盔",
     Category: Armor,
+    SubCategory: CobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_373: Item = {
@@ -1459,8 +1705,10 @@ export const Armor_373: Item = {
     id: 373,
     name: "钴面具",
     Category: Armor,
+    SubCategory: CobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_374: Item = {
@@ -1469,8 +1717,10 @@ export const Armor_374: Item = {
     id: 374,
     name: "钴胸甲",
     Category: Armor,
+    SubCategory: CobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_375: Item = {
@@ -1479,8 +1729,10 @@ export const Armor_375: Item = {
     id: 375,
     name: "钴护腿",
     Category: Armor,
+    SubCategory: CobaltArmor,
     comments: "",
 }
+
 
 
 export const Armor_1205: Item = {
@@ -1489,8 +1741,10 @@ export const Armor_1205: Item = {
     id: 1205,
     name: "钯金面具",
     Category: Armor,
+    SubCategory: PalladiumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1206: Item = {
@@ -1499,8 +1753,10 @@ export const Armor_1206: Item = {
     id: 1206,
     name: "钯金头盔",
     Category: Armor,
+    SubCategory: PalladiumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1207: Item = {
@@ -1509,8 +1765,10 @@ export const Armor_1207: Item = {
     id: 1207,
     name: "钯金头饰",
     Category: Armor,
+    SubCategory: PalladiumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1208: Item = {
@@ -1519,8 +1777,10 @@ export const Armor_1208: Item = {
     id: 1208,
     name: "钯金胸甲",
     Category: Armor,
+    SubCategory: PalladiumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1209: Item = {
@@ -1529,8 +1789,10 @@ export const Armor_1209: Item = {
     id: 1209,
     name: "钯金护腿",
     Category: Armor,
+    SubCategory: PalladiumArmor,
     comments: "",
 }
+
 
 
 export const Armor_376: Item = {
@@ -1539,8 +1801,10 @@ export const Armor_376: Item = {
     id: 376,
     name: "秘银兜帽",
     Category: Armor,
+    SubCategory: MythrilArmor,
     comments: "",
 }
+
 
 
 export const Armor_377: Item = {
@@ -1549,8 +1813,10 @@ export const Armor_377: Item = {
     id: 377,
     name: "秘银头盔",
     Category: Armor,
+    SubCategory: MythrilArmor,
     comments: "",
 }
+
 
 
 export const Armor_378: Item = {
@@ -1559,8 +1825,10 @@ export const Armor_378: Item = {
     id: 378,
     name: "秘银帽",
     Category: Armor,
+    SubCategory: MythrilArmor,
     comments: "",
 }
+
 
 
 export const Armor_379: Item = {
@@ -1569,8 +1837,10 @@ export const Armor_379: Item = {
     id: 379,
     name: "秘银链甲",
     Category: Armor,
+    SubCategory: MythrilArmor,
     comments: "",
 }
+
 
 
 export const Armor_380: Item = {
@@ -1579,8 +1849,10 @@ export const Armor_380: Item = {
     id: 380,
     name: "秘银护胫",
     Category: Armor,
+    SubCategory: MythrilArmor,
     comments: "",
 }
+
 
 
 export const Armor_1210: Item = {
@@ -1589,8 +1861,10 @@ export const Armor_1210: Item = {
     id: 1210,
     name: "山铜面具",
     Category: Armor,
+    SubCategory: OrichalcumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1211: Item = {
@@ -1599,8 +1873,10 @@ export const Armor_1211: Item = {
     id: 1211,
     name: "山铜头盔",
     Category: Armor,
+    SubCategory: OrichalcumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1212: Item = {
@@ -1609,8 +1885,10 @@ export const Armor_1212: Item = {
     id: 1212,
     name: "山铜头饰",
     Category: Armor,
+    SubCategory: OrichalcumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1213: Item = {
@@ -1619,8 +1897,10 @@ export const Armor_1213: Item = {
     id: 1213,
     name: "山铜胸甲",
     Category: Armor,
+    SubCategory: OrichalcumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1214: Item = {
@@ -1629,8 +1909,10 @@ export const Armor_1214: Item = {
     id: 1214,
     name: "山铜护腿",
     Category: Armor,
+    SubCategory: OrichalcumArmor,
     comments: "",
 }
+
 
 
 export const Armor_400: Item = {
@@ -1639,8 +1921,10 @@ export const Armor_400: Item = {
     id: 400,
     name: "精金头饰",
     Category: Armor,
+    SubCategory: AdamantiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_401: Item = {
@@ -1649,8 +1933,10 @@ export const Armor_401: Item = {
     id: 401,
     name: "精金头盔",
     Category: Armor,
+    SubCategory: AdamantiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_402: Item = {
@@ -1659,8 +1945,10 @@ export const Armor_402: Item = {
     id: 402,
     name: "精金面具",
     Category: Armor,
+    SubCategory: AdamantiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_403: Item = {
@@ -1669,8 +1957,10 @@ export const Armor_403: Item = {
     id: 403,
     name: "精金胸甲",
     Category: Armor,
+    SubCategory: AdamantiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_404: Item = {
@@ -1679,8 +1969,10 @@ export const Armor_404: Item = {
     id: 404,
     name: "精金护腿",
     Category: Armor,
+    SubCategory: AdamantiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1215: Item = {
@@ -1689,8 +1981,10 @@ export const Armor_1215: Item = {
     id: 1215,
     name: "钛金面具",
     Category: Armor,
+    SubCategory: TitaniumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1216: Item = {
@@ -1699,8 +1993,10 @@ export const Armor_1216: Item = {
     id: 1216,
     name: "钛金头盔",
     Category: Armor,
+    SubCategory: TitaniumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1217: Item = {
@@ -1709,8 +2005,10 @@ export const Armor_1217: Item = {
     id: 1217,
     name: "钛金头饰",
     Category: Armor,
+    SubCategory: TitaniumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1218: Item = {
@@ -1719,8 +2017,10 @@ export const Armor_1218: Item = {
     id: 1218,
     name: "钛金胸甲",
     Category: Armor,
+    SubCategory: TitaniumArmor,
     comments: "",
 }
+
 
 
 export const Armor_1219: Item = {
@@ -1729,8 +2029,10 @@ export const Armor_1219: Item = {
     id: 1219,
     name: "钛金护腿",
     Category: Armor,
+    SubCategory: TitaniumArmor,
     comments: "",
 }
+
 
 
 export const Armor_684: Item = {
@@ -1739,8 +2041,10 @@ export const Armor_684: Item = {
     id: 684,
     name: "寒霜头盔",
     Category: Armor,
+    SubCategory: FrostArmor,
     comments: "",
 }
+
 
 
 export const Armor_685: Item = {
@@ -1749,8 +2053,10 @@ export const Armor_685: Item = {
     id: 685,
     name: "寒霜胸甲",
     Category: Armor,
+    SubCategory: FrostArmor,
     comments: "",
 }
+
 
 
 export const Armor_686: Item = {
@@ -1759,8 +2065,10 @@ export const Armor_686: Item = {
     id: 686,
     name: "寒霜护腿",
     Category: Armor,
+    SubCategory: FrostArmor,
     comments: "",
 }
+
 
 
 export const Armor_3776: Item = {
@@ -1769,8 +2077,10 @@ export const Armor_3776: Item = {
     id: 3776,
     name: "禁戒面具",
     Category: Armor,
+    SubCategory: ForbiddenArmor,
     comments: "",
 }
+
 
 
 export const Armor_3777: Item = {
@@ -1779,8 +2089,10 @@ export const Armor_3777: Item = {
     id: 3777,
     name: "禁戒长袍",
     Category: Armor,
+    SubCategory: ForbiddenArmor,
     comments: "",
 }
+
 
 
 export const Armor_3778: Item = {
@@ -1789,8 +2101,10 @@ export const Armor_3778: Item = {
     id: 3778,
     name: "禁戒裤",
     Category: Armor,
+    SubCategory: ForbiddenArmor,
     comments: "",
 }
+
 
 
 export const Armor_553: Item = {
@@ -1799,8 +2113,10 @@ export const Armor_553: Item = {
     id: 553,
     name: "神圣头盔",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_558: Item = {
@@ -1809,8 +2125,10 @@ export const Armor_558: Item = {
     id: 558,
     name: "神圣头饰",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_559: Item = {
@@ -1819,8 +2137,10 @@ export const Armor_559: Item = {
     id: 559,
     name: "神圣面具",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4873: Item = {
@@ -1829,8 +2149,10 @@ export const Armor_4873: Item = {
     id: 4873,
     name: "神圣兜帽",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_551: Item = {
@@ -1839,8 +2161,10 @@ export const Armor_551: Item = {
     id: 551,
     name: "神圣板甲",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_552: Item = {
@@ -1849,8 +2173,10 @@ export const Armor_552: Item = {
     id: 552,
     name: "神圣护胫",
     Category: Armor,
+    SubCategory: HallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4896: Item = {
@@ -1859,8 +2185,10 @@ export const Armor_4896: Item = {
     id: 4896,
     name: "远古神圣面具",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4897: Item = {
@@ -1869,8 +2197,10 @@ export const Armor_4897: Item = {
     id: 4897,
     name: "远古神圣头盔",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4898: Item = {
@@ -1879,8 +2209,10 @@ export const Armor_4898: Item = {
     id: 4898,
     name: "远古神圣头饰",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4899: Item = {
@@ -1889,8 +2221,10 @@ export const Armor_4899: Item = {
     id: 4899,
     name: "远古神圣兜帽",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4900: Item = {
@@ -1899,8 +2233,10 @@ export const Armor_4900: Item = {
     id: 4900,
     name: "远古神圣板甲",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_4901: Item = {
@@ -1909,8 +2245,10 @@ export const Armor_4901: Item = {
     id: 4901,
     name: "远古神圣护胫",
     Category: Armor,
+    SubCategory: AncientHallowedArmor,
     comments: "",
 }
+
 
 
 export const Armor_1001: Item = {
@@ -1919,8 +2257,10 @@ export const Armor_1001: Item = {
     id: 1001,
     name: "叶绿面具",
     Category: Armor,
+    SubCategory: ChlorophyteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1002: Item = {
@@ -1929,8 +2269,10 @@ export const Armor_1002: Item = {
     id: 1002,
     name: "叶绿头盔",
     Category: Armor,
+    SubCategory: ChlorophyteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1003: Item = {
@@ -1939,8 +2281,10 @@ export const Armor_1003: Item = {
     id: 1003,
     name: "叶绿头饰",
     Category: Armor,
+    SubCategory: ChlorophyteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1004: Item = {
@@ -1949,8 +2293,10 @@ export const Armor_1004: Item = {
     id: 1004,
     name: "叶绿板甲",
     Category: Armor,
+    SubCategory: ChlorophyteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1005: Item = {
@@ -1959,8 +2305,10 @@ export const Armor_1005: Item = {
     id: 1005,
     name: "叶绿护胫",
     Category: Armor,
+    SubCategory: ChlorophyteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1316: Item = {
@@ -1969,8 +2317,10 @@ export const Armor_1316: Item = {
     id: 1316,
     name: "海龟头盔",
     Category: Armor,
+    SubCategory: TurtleArmor,
     comments: "",
 }
+
 
 
 export const Armor_1317: Item = {
@@ -1979,8 +2329,10 @@ export const Armor_1317: Item = {
     id: 1317,
     name: "海龟铠甲",
     Category: Armor,
+    SubCategory: TurtleArmor,
     comments: "",
 }
+
 
 
 export const Armor_1318: Item = {
@@ -1989,8 +2341,10 @@ export const Armor_1318: Item = {
     id: 1318,
     name: "海龟护腿",
     Category: Armor,
+    SubCategory: TurtleArmor,
     comments: "",
 }
+
 
 
 export const Armor_1159: Item = {
@@ -1999,8 +2353,10 @@ export const Armor_1159: Item = {
     id: 1159,
     name: "提基面具",
     Category: Armor,
+    SubCategory: TikiArmor,
     comments: "",
 }
+
 
 
 export const Armor_1160: Item = {
@@ -2009,8 +2365,10 @@ export const Armor_1160: Item = {
     id: 1160,
     name: "提基衣",
     Category: Armor,
+    SubCategory: TikiArmor,
     comments: "",
 }
+
 
 
 export const Armor_1161: Item = {
@@ -2019,8 +2377,10 @@ export const Armor_1161: Item = {
     id: 1161,
     name: "提基裤",
     Category: Armor,
+    SubCategory: TikiArmor,
     comments: "",
 }
+
 
 
 export const Armor_1503: Item = {
@@ -2029,8 +2389,10 @@ export const Armor_1503: Item = {
     id: 1503,
     name: "幽灵兜帽",
     Category: Armor,
+    SubCategory: SpectreArmor,
     comments: "",
 }
+
 
 
 export const Armor_2189: Item = {
@@ -2039,8 +2401,10 @@ export const Armor_2189: Item = {
     id: 2189,
     name: "幽灵面具",
     Category: Armor,
+    SubCategory: SpectreArmor,
     comments: "",
 }
+
 
 
 export const Armor_1504: Item = {
@@ -2049,8 +2413,10 @@ export const Armor_1504: Item = {
     id: 1504,
     name: "幽灵长袍",
     Category: Armor,
+    SubCategory: SpectreArmor,
     comments: "",
 }
+
 
 
 export const Armor_1505: Item = {
@@ -2059,8 +2425,10 @@ export const Armor_1505: Item = {
     id: 1505,
     name: "幽灵裤",
     Category: Armor,
+    SubCategory: SpectreArmor,
     comments: "",
 }
+
 
 
 export const Armor_1546: Item = {
@@ -2069,8 +2437,10 @@ export const Armor_1546: Item = {
     id: 1546,
     name: "蘑菇矿头饰",
     Category: Armor,
+    SubCategory: ShroomiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1547: Item = {
@@ -2079,8 +2449,10 @@ export const Armor_1547: Item = {
     id: 1547,
     name: "蘑菇矿面具",
     Category: Armor,
+    SubCategory: ShroomiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1548: Item = {
@@ -2089,8 +2461,10 @@ export const Armor_1548: Item = {
     id: 1548,
     name: "蘑菇矿头盔",
     Category: Armor,
+    SubCategory: ShroomiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1549: Item = {
@@ -2099,8 +2473,10 @@ export const Armor_1549: Item = {
     id: 1549,
     name: "蘑菇矿胸甲",
     Category: Armor,
+    SubCategory: ShroomiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1550: Item = {
@@ -2109,8 +2485,10 @@ export const Armor_1550: Item = {
     id: 1550,
     name: "蘑菇矿护腿",
     Category: Armor,
+    SubCategory: ShroomiteArmor,
     comments: "",
 }
+
 
 
 export const Armor_1832: Item = {
@@ -2119,8 +2497,10 @@ export const Armor_1832: Item = {
     id: 1832,
     name: "阴森头盔",
     Category: Armor,
+    SubCategory: SpookyArmor,
     comments: "",
 }
+
 
 
 export const Armor_1833: Item = {
@@ -2129,8 +2509,10 @@ export const Armor_1833: Item = {
     id: 1833,
     name: "阴森胸甲",
     Category: Armor,
+    SubCategory: SpookyArmor,
     comments: "",
 }
+
 
 
 export const Armor_1834: Item = {
@@ -2139,8 +2521,10 @@ export const Armor_1834: Item = {
     id: 1834,
     name: "阴森护腿",
     Category: Armor,
+    SubCategory: SpookyArmor,
     comments: "",
 }
+
 
 
 export const Armor_2199: Item = {
@@ -2149,8 +2533,10 @@ export const Armor_2199: Item = {
     id: 2199,
     name: "甲虫头盔",
     Category: Armor,
+    SubCategory: BeetleArmor,
     comments: "",
 }
+
 
 
 export const Armor_2200: Item = {
@@ -2159,8 +2545,10 @@ export const Armor_2200: Item = {
     id: 2200,
     name: "甲虫铠甲",
     Category: Armor,
+    SubCategory: BeetleArmor,
     comments: "",
 }
+
 
 
 export const Armor_2201: Item = {
@@ -2169,8 +2557,10 @@ export const Armor_2201: Item = {
     id: 2201,
     name: "甲虫壳",
     Category: Armor,
+    SubCategory: BeetleArmor,
     comments: "",
 }
+
 
 
 export const Armor_2202: Item = {
@@ -2179,8 +2569,10 @@ export const Armor_2202: Item = {
     id: 2202,
     name: "甲虫护腿",
     Category: Armor,
+    SubCategory: BeetleArmor,
     comments: "",
 }
+
 
 
 export const Armor_2757: Item = {
@@ -2189,8 +2581,10 @@ export const Armor_2757: Item = {
     id: 2757,
     name: "星旋头盔",
     Category: Armor,
+    SubCategory: VortexArmor,
     comments: "",
 }
+
 
 
 export const Armor_2758: Item = {
@@ -2199,8 +2593,10 @@ export const Armor_2758: Item = {
     id: 2758,
     name: "星旋胸甲",
     Category: Armor,
+    SubCategory: VortexArmor,
     comments: "",
 }
+
 
 
 export const Armor_2759: Item = {
@@ -2209,8 +2605,10 @@ export const Armor_2759: Item = {
     id: 2759,
     name: "星旋护腿",
     Category: Armor,
+    SubCategory: VortexArmor,
     comments: "",
 }
+
 
 
 export const Armor_2760: Item = {
@@ -2219,8 +2617,10 @@ export const Armor_2760: Item = {
     id: 2760,
     name: "星云头盔",
     Category: Armor,
+    SubCategory: NebulaArmor,
     comments: "",
 }
+
 
 
 export const Armor_2761: Item = {
@@ -2229,8 +2629,10 @@ export const Armor_2761: Item = {
     id: 2761,
     name: "星云胸甲",
     Category: Armor,
+    SubCategory: NebulaArmor,
     comments: "",
 }
+
 
 
 export const Armor_2762: Item = {
@@ -2239,8 +2641,10 @@ export const Armor_2762: Item = {
     id: 2762,
     name: "星云护腿",
     Category: Armor,
+    SubCategory: NebulaArmor,
     comments: "",
 }
+
 
 
 export const Armor_2763: Item = {
@@ -2249,8 +2653,10 @@ export const Armor_2763: Item = {
     id: 2763,
     name: "耀斑头盔",
     Category: Armor,
+    SubCategory: SolarArmor,
     comments: "",
 }
+
 
 
 export const Armor_2764: Item = {
@@ -2259,8 +2665,10 @@ export const Armor_2764: Item = {
     id: 2764,
     name: "耀斑胸甲",
     Category: Armor,
+    SubCategory: SolarArmor,
     comments: "",
 }
+
 
 
 export const Armor_2765: Item = {
@@ -2269,8 +2677,10 @@ export const Armor_2765: Item = {
     id: 2765,
     name: "耀斑护腿",
     Category: Armor,
+    SubCategory: SolarArmor,
     comments: "",
 }
+
 
 
 export const Armor_3381: Item = {
@@ -2279,8 +2689,10 @@ export const Armor_3381: Item = {
     id: 3381,
     name: "星尘头盔",
     Category: Armor,
+    SubCategory: StardustArmor,
     comments: "",
 }
+
 
 
 export const Armor_3382: Item = {
@@ -2289,8 +2701,10 @@ export const Armor_3382: Item = {
     id: 3382,
     name: "星尘板甲",
     Category: Armor,
+    SubCategory: StardustArmor,
     comments: "",
 }
+
 
 
 export const Armor_3383: Item = {
@@ -2299,8 +2713,10 @@ export const Armor_3383: Item = {
     id: 3383,
     name: "星尘护腿",
     Category: Armor,
+    SubCategory: StardustArmor,
     comments: "",
 }
+
 
 
 export const Armor_3797: Item = {
@@ -2309,8 +2725,10 @@ export const Armor_3797: Item = {
     id: 3797,
     name: "学徒帽",
     Category: Armor,
+    SubCategory: ApprenticeArmor,
     comments: "",
 }
+
 
 
 export const Armor_3798: Item = {
@@ -2319,8 +2737,10 @@ export const Armor_3798: Item = {
     id: 3798,
     name: "学徒长袍",
     Category: Armor,
+    SubCategory: ApprenticeArmor,
     comments: "",
 }
+
 
 
 export const Armor_3799: Item = {
@@ -2329,8 +2749,10 @@ export const Armor_3799: Item = {
     id: 3799,
     name: "学徒裤",
     Category: Armor,
+    SubCategory: ApprenticeArmor,
     comments: "",
 }
+
 
 
 export const Armor_3800: Item = {
@@ -2339,8 +2761,10 @@ export const Armor_3800: Item = {
     id: 3800,
     name: "侍卫大头盔",
     Category: Armor,
+    SubCategory: SquireArmor,
     comments: "",
 }
+
 
 
 export const Armor_3801: Item = {
@@ -2349,8 +2773,10 @@ export const Armor_3801: Item = {
     id: 3801,
     name: "侍卫板甲",
     Category: Armor,
+    SubCategory: SquireArmor,
     comments: "",
 }
+
 
 
 export const Armor_3802: Item = {
@@ -2359,8 +2785,10 @@ export const Armor_3802: Item = {
     id: 3802,
     name: "侍卫护胫",
     Category: Armor,
+    SubCategory: SquireArmor,
     comments: "",
 }
+
 
 
 export const Armor_3803: Item = {
@@ -2369,8 +2797,10 @@ export const Armor_3803: Item = {
     id: 3803,
     name: "女猎人假发",
     Category: Armor,
+    SubCategory: HuntressArmor,
     comments: "",
 }
+
 
 
 export const Armor_3804: Item = {
@@ -2379,8 +2809,10 @@ export const Armor_3804: Item = {
     id: 3804,
     name: "女猎人上衣",
     Category: Armor,
+    SubCategory: HuntressArmor,
     comments: "",
 }
+
 
 
 export const Armor_3805: Item = {
@@ -2389,8 +2821,10 @@ export const Armor_3805: Item = {
     id: 3805,
     name: "女猎人裤",
     Category: Armor,
+    SubCategory: HuntressArmor,
     comments: "",
 }
+
 
 
 export const Armor_3806: Item = {
@@ -2399,8 +2833,10 @@ export const Armor_3806: Item = {
     id: 3806,
     name: "武僧浓眉秃头帽",
     Category: Armor,
+    SubCategory: MonkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3807: Item = {
@@ -2409,8 +2845,10 @@ export const Armor_3807: Item = {
     id: 3807,
     name: "武僧衣",
     Category: Armor,
+    SubCategory: MonkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3808: Item = {
@@ -2419,8 +2857,10 @@ export const Armor_3808: Item = {
     id: 3808,
     name: "武僧裤",
     Category: Armor,
+    SubCategory: MonkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3871: Item = {
@@ -2429,8 +2869,10 @@ export const Armor_3871: Item = {
     id: 3871,
     name: "英灵殿骑士头盔",
     Category: Armor,
+    SubCategory: ValhallaArmor,
     comments: "",
 }
+
 
 
 export const Armor_3872: Item = {
@@ -2439,8 +2881,10 @@ export const Armor_3872: Item = {
     id: 3872,
     name: "英灵殿骑士胸甲",
     Category: Armor,
+    SubCategory: ValhallaArmor,
     comments: "",
 }
+
 
 
 export const Armor_3873: Item = {
@@ -2449,8 +2893,10 @@ export const Armor_3873: Item = {
     id: 3873,
     name: "英灵殿骑士护胫",
     Category: Armor,
+    SubCategory: ValhallaArmor,
     comments: "",
 }
+
 
 
 export const Armor_3874: Item = {
@@ -2459,8 +2905,10 @@ export const Armor_3874: Item = {
     id: 3874,
     name: "暗黑艺术家帽子",
     Category: Armor,
+    SubCategory: DarkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3875: Item = {
@@ -2469,8 +2917,10 @@ export const Armor_3875: Item = {
     id: 3875,
     name: "暗黑艺术家长袍",
     Category: Armor,
+    SubCategory: DarkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3876: Item = {
@@ -2479,8 +2929,10 @@ export const Armor_3876: Item = {
     id: 3876,
     name: "暗黑艺术家护腿",
     Category: Armor,
+    SubCategory: DarkArmor,
     comments: "",
 }
+
 
 
 export const Armor_3877: Item = {
@@ -2489,8 +2941,10 @@ export const Armor_3877: Item = {
     id: 3877,
     name: "红色骑术兜帽",
     Category: Armor,
+    SubCategory: RedArmor,
     comments: "",
 }
+
 
 
 export const Armor_3878: Item = {
@@ -2499,8 +2953,10 @@ export const Armor_3878: Item = {
     id: 3878,
     name: "红色骑术服",
     Category: Armor,
+    SubCategory: RedArmor,
     comments: "",
 }
+
 
 
 export const Armor_3879: Item = {
@@ -2509,8 +2965,10 @@ export const Armor_3879: Item = {
     id: 3879,
     name: "红色骑术护腿",
     Category: Armor,
+    SubCategory: RedArmor,
     comments: "",
 }
+
 
 
 export const Armor_3880: Item = {
@@ -2519,8 +2977,10 @@ export const Armor_3880: Item = {
     id: 3880,
     name: "渗透忍者头盔",
     Category: Armor,
+    SubCategory: ShinobiArmor,
     comments: "",
 }
+
 
 
 export const Armor_3881: Item = {
@@ -2529,8 +2989,10 @@ export const Armor_3881: Item = {
     id: 3881,
     name: "渗透忍者上衣",
     Category: Armor,
+    SubCategory: ShinobiArmor,
     comments: "",
 }
+
 
 
 export const Armor_3882: Item = {
@@ -2539,8 +3001,10 @@ export const Armor_3882: Item = {
     id: 3882,
     name: "渗透忍者裤装",
     Category: Armor,
+    SubCategory: ShinobiArmor,
     comments: "",
 }
+
 
 
 export const Armor_2275: Item = {
@@ -2549,8 +3013,10 @@ export const Armor_2275: Item = {
     id: 2275,
     name: "魔法帽",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_2277: Item = {
@@ -2559,8 +3025,10 @@ export const Armor_2277: Item = {
     id: 2277,
     name: "稽古衣",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_2279: Item = {
@@ -2569,8 +3037,10 @@ export const Armor_2279: Item = {
     id: 2279,
     name: "神秘长袍",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_268: Item = {
@@ -2579,8 +3049,10 @@ export const Armor_268: Item = {
     id: 268,
     name: "潜水头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_879: Item = {
@@ -2589,8 +3061,10 @@ export const Armor_879: Item = {
     id: 879,
     name: "维京海盗头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_954: Item = {
@@ -2599,8 +3073,10 @@ export const Armor_954: Item = {
     id: 954,
     name: "远古铁头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_955: Item = {
@@ -2609,8 +3085,10 @@ export const Armor_955: Item = {
     id: 955,
     name: "远古金头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_959: Item = {
@@ -2619,8 +3097,10 @@ export const Armor_959: Item = {
     id: 959,
     name: "远古死灵头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_3109: Item = {
@@ -2629,8 +3109,10 @@ export const Armor_3109: Item = {
     id: 3109,
     name: "夜视头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_4008: Item = {
@@ -2639,8 +3121,10 @@ export const Armor_4008: Item = {
     id: 4008,
     name: "超亮头盔",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_5068: Item = {
@@ -2649,8 +3133,10 @@ export const Armor_5068: Item = {
     id: 5068,
     name: "小雪怪皮毛外套",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
+
 
 
 export const Armor_5001: Item = {
@@ -2659,6 +3145,7 @@ export const Armor_5001: Item = {
     id: 5001,
     name: "月亮领主腿",
     Category: Armor,
+    SubCategory: OtherArmor,
     comments: "",
 }
 

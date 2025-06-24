@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Dyes } from "../data.Category.zh-CN.ts"
 
+import { CommonDye, HairDye, MaterialD, StrangePlantDye } from "../data.SubCategory.zh-CN.ts"
+
 import Dyes_1007Img from "../../../assets/icon/Item_1007.png"
 import Dyes_1008Img from "../../../assets/icon/Item_1008.png"
 import Dyes_1009Img from "../../../assets/icon/Item_1009.png"
@@ -144,14 +146,18 @@ import Dyes_1986Img from "../../../assets/icon/Item_1986.png"
 import Dyes_1990Img from "../../../assets/icon/Item_1990.png"
 import Dyes_2863Img from "../../../assets/icon/Item_2863.png"
 import Dyes_3259Img from "../../../assets/icon/Item_3259.png"
+
+
 export const Dyes_1007: Item = {
     icon: Dyes_1007Img,
     isCollection: false,
     id: 1007,
     name: "红染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1008: Item = {
@@ -160,8 +166,10 @@ export const Dyes_1008: Item = {
     id: 1008,
     name: "橙染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1009: Item = {
@@ -170,8 +178,10 @@ export const Dyes_1009: Item = {
     id: 1009,
     name: "黄染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1010: Item = {
@@ -180,8 +190,10 @@ export const Dyes_1010: Item = {
     id: 1010,
     name: "橙绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1011: Item = {
@@ -190,8 +202,10 @@ export const Dyes_1011: Item = {
     id: 1011,
     name: "绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1012: Item = {
@@ -200,8 +214,10 @@ export const Dyes_1012: Item = {
     id: 1012,
     name: "青绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1013: Item = {
@@ -210,8 +226,10 @@ export const Dyes_1013: Item = {
     id: 1013,
     name: "青染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1014: Item = {
@@ -220,8 +238,10 @@ export const Dyes_1014: Item = {
     id: 1014,
     name: "天蓝染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1015: Item = {
@@ -230,8 +250,10 @@ export const Dyes_1015: Item = {
     id: 1015,
     name: "蓝染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1016: Item = {
@@ -240,8 +262,10 @@ export const Dyes_1016: Item = {
     id: 1016,
     name: "紫染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1017: Item = {
@@ -250,8 +274,10 @@ export const Dyes_1017: Item = {
     id: 1017,
     name: "蓝紫染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1018: Item = {
@@ -260,8 +286,10 @@ export const Dyes_1018: Item = {
     id: 1018,
     name: "粉染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1019: Item = {
@@ -270,8 +298,10 @@ export const Dyes_1019: Item = {
     id: 1019,
     name: "红黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1020: Item = {
@@ -280,8 +310,10 @@ export const Dyes_1020: Item = {
     id: 1020,
     name: "橙黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1021: Item = {
@@ -290,8 +322,10 @@ export const Dyes_1021: Item = {
     id: 1021,
     name: "黄黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1022: Item = {
@@ -300,8 +334,10 @@ export const Dyes_1022: Item = {
     id: 1022,
     name: "橙绿黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1023: Item = {
@@ -310,8 +346,10 @@ export const Dyes_1023: Item = {
     id: 1023,
     name: "绿黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1024: Item = {
@@ -320,8 +358,10 @@ export const Dyes_1024: Item = {
     id: 1024,
     name: "青绿黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1025: Item = {
@@ -330,8 +370,10 @@ export const Dyes_1025: Item = {
     id: 1025,
     name: "青黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1026: Item = {
@@ -340,8 +382,10 @@ export const Dyes_1026: Item = {
     id: 1026,
     name: "天蓝黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1027: Item = {
@@ -350,8 +394,10 @@ export const Dyes_1027: Item = {
     id: 1027,
     name: "蓝黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1028: Item = {
@@ -360,8 +406,10 @@ export const Dyes_1028: Item = {
     id: 1028,
     name: "紫黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1029: Item = {
@@ -370,8 +418,10 @@ export const Dyes_1029: Item = {
     id: 1029,
     name: "蓝紫黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1030: Item = {
@@ -380,8 +430,10 @@ export const Dyes_1030: Item = {
     id: 1030,
     name: "粉黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1031: Item = {
@@ -390,8 +442,10 @@ export const Dyes_1031: Item = {
     id: 1031,
     name: "红焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1032: Item = {
@@ -400,8 +454,10 @@ export const Dyes_1032: Item = {
     id: 1032,
     name: "红焰黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1033: Item = {
@@ -410,8 +466,10 @@ export const Dyes_1033: Item = {
     id: 1033,
     name: "绿焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1034: Item = {
@@ -420,8 +478,10 @@ export const Dyes_1034: Item = {
     id: 1034,
     name: "绿焰黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1035: Item = {
@@ -430,8 +490,10 @@ export const Dyes_1035: Item = {
     id: 1035,
     name: "蓝焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1036: Item = {
@@ -440,8 +502,10 @@ export const Dyes_1036: Item = {
     id: 1036,
     name: "蓝焰黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1037: Item = {
@@ -450,8 +514,10 @@ export const Dyes_1037: Item = {
     id: 1037,
     name: "银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1038: Item = {
@@ -460,8 +526,10 @@ export const Dyes_1038: Item = {
     id: 1038,
     name: "淡红染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1039: Item = {
@@ -470,8 +538,10 @@ export const Dyes_1039: Item = {
     id: 1039,
     name: "淡橙染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1040: Item = {
@@ -480,8 +550,10 @@ export const Dyes_1040: Item = {
     id: 1040,
     name: "淡黄染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1041: Item = {
@@ -490,8 +562,10 @@ export const Dyes_1041: Item = {
     id: 1041,
     name: "淡橙绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1042: Item = {
@@ -500,8 +574,10 @@ export const Dyes_1042: Item = {
     id: 1042,
     name: "淡绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1043: Item = {
@@ -510,8 +586,10 @@ export const Dyes_1043: Item = {
     id: 1043,
     name: "淡青绿染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1044: Item = {
@@ -520,8 +598,10 @@ export const Dyes_1044: Item = {
     id: 1044,
     name: "淡青染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1045: Item = {
@@ -530,8 +610,10 @@ export const Dyes_1045: Item = {
     id: 1045,
     name: "淡天蓝染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1046: Item = {
@@ -540,8 +622,10 @@ export const Dyes_1046: Item = {
     id: 1046,
     name: "淡蓝染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1047: Item = {
@@ -550,8 +634,10 @@ export const Dyes_1047: Item = {
     id: 1047,
     name: "淡紫染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1048: Item = {
@@ -560,8 +646,10 @@ export const Dyes_1048: Item = {
     id: 1048,
     name: "淡蓝紫染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1049: Item = {
@@ -570,8 +658,10 @@ export const Dyes_1049: Item = {
     id: 1049,
     name: "淡粉染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_2874: Item = {
@@ -580,8 +670,10 @@ export const Dyes_2874: Item = {
     id: 2874,
     name: "棕染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_2875: Item = {
@@ -590,8 +682,10 @@ export const Dyes_2875: Item = {
     id: 2875,
     name: "棕黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_2876: Item = {
@@ -600,8 +694,10 @@ export const Dyes_2876: Item = {
     id: 2876,
     name: "淡棕染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_2877: Item = {
@@ -610,8 +706,10 @@ export const Dyes_2877: Item = {
     id: 2877,
     name: "棕银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1050: Item = {
@@ -620,8 +718,10 @@ export const Dyes_1050: Item = {
     id: 1050,
     name: "黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1051: Item = {
@@ -630,8 +730,10 @@ export const Dyes_1051: Item = {
     id: 1051,
     name: "红银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1052: Item = {
@@ -640,8 +742,10 @@ export const Dyes_1052: Item = {
     id: 1052,
     name: "橙银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1053: Item = {
@@ -650,8 +754,10 @@ export const Dyes_1053: Item = {
     id: 1053,
     name: "黄银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1054: Item = {
@@ -660,8 +766,10 @@ export const Dyes_1054: Item = {
     id: 1054,
     name: "橙绿银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1055: Item = {
@@ -670,8 +778,10 @@ export const Dyes_1055: Item = {
     id: 1055,
     name: "绿银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1056: Item = {
@@ -680,8 +790,10 @@ export const Dyes_1056: Item = {
     id: 1056,
     name: "青绿银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1057: Item = {
@@ -690,8 +802,10 @@ export const Dyes_1057: Item = {
     id: 1057,
     name: "青银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1058: Item = {
@@ -700,8 +814,10 @@ export const Dyes_1058: Item = {
     id: 1058,
     name: "天蓝银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1059: Item = {
@@ -710,8 +826,10 @@ export const Dyes_1059: Item = {
     id: 1059,
     name: "蓝银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1060: Item = {
@@ -720,8 +838,10 @@ export const Dyes_1060: Item = {
     id: 1060,
     name: "紫银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1061: Item = {
@@ -730,8 +850,10 @@ export const Dyes_1061: Item = {
     id: 1061,
     name: "蓝紫银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1062: Item = {
@@ -740,8 +862,10 @@ export const Dyes_1062: Item = {
     id: 1062,
     name: "粉银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1063: Item = {
@@ -750,8 +874,10 @@ export const Dyes_1063: Item = {
     id: 1063,
     name: "亮红焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1064: Item = {
@@ -760,8 +886,10 @@ export const Dyes_1064: Item = {
     id: 1064,
     name: "亮绿焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1065: Item = {
@@ -770,8 +898,10 @@ export const Dyes_1065: Item = {
     id: 1065,
     name: "亮蓝焰染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3550: Item = {
@@ -780,8 +910,10 @@ export const Dyes_3550: Item = {
     id: 3550,
     name: "红焰银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3551: Item = {
@@ -790,8 +922,10 @@ export const Dyes_3551: Item = {
     id: 3551,
     name: "绿焰银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3552: Item = {
@@ -800,8 +934,10 @@ export const Dyes_3552: Item = {
     id: 3552,
     name: "蓝焰银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1066: Item = {
@@ -810,8 +946,10 @@ export const Dyes_1066: Item = {
     id: 1066,
     name: "彩虹染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1067: Item = {
@@ -820,8 +958,10 @@ export const Dyes_1067: Item = {
     id: 1067,
     name: "亮彩虹染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1068: Item = {
@@ -830,8 +970,10 @@ export const Dyes_1068: Item = {
     id: 1068,
     name: "渐变黄染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1069: Item = {
@@ -840,8 +982,10 @@ export const Dyes_1069: Item = {
     id: 1069,
     name: "渐变青染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1070: Item = {
@@ -850,8 +994,10 @@ export const Dyes_1070: Item = {
     id: 1070,
     name: "渐变蓝紫染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3557: Item = {
@@ -860,8 +1006,10 @@ export const Dyes_3557: Item = {
     id: 3557,
     name: "黑白染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3558: Item = {
@@ -870,8 +1018,10 @@ export const Dyes_3558: Item = {
     id: 3558,
     name: "淡银染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_3559: Item = {
@@ -880,8 +1030,10 @@ export const Dyes_3559: Item = {
     id: 3559,
     name: "银黑染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1969: Item = {
@@ -890,8 +1042,10 @@ export const Dyes_1969: Item = {
     id: 1969,
     name: "团队染料",
     Category: Dyes,
+    SubCategory: CommonDye,
     comments: "",
 }
+
 
 
 export const Dyes_1107: Item = {
@@ -900,8 +1054,10 @@ export const Dyes_1107: Item = {
     id: 1107,
     name: "青绿蘑菇",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1108: Item = {
@@ -910,8 +1066,10 @@ export const Dyes_1108: Item = {
     id: 1108,
     name: "绿蘑菇",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1109: Item = {
@@ -920,8 +1078,10 @@ export const Dyes_1109: Item = {
     id: 1109,
     name: "天蓝花朵",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1110: Item = {
@@ -930,8 +1090,10 @@ export const Dyes_1110: Item = {
     id: 1110,
     name: "黄万寿菊",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1111: Item = {
@@ -940,8 +1102,10 @@ export const Dyes_1111: Item = {
     id: 1111,
     name: "蓝浆果",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1112: Item = {
@@ -950,8 +1114,10 @@ export const Dyes_1112: Item = {
     id: 1112,
     name: "橙绿海藻",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1113: Item = {
@@ -960,8 +1126,10 @@ export const Dyes_1113: Item = {
     id: 1113,
     name: "粉仙人掌果",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1114: Item = {
@@ -970,8 +1138,10 @@ export const Dyes_1114: Item = {
     id: 1114,
     name: "橙血根草",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1115: Item = {
@@ -980,8 +1150,10 @@ export const Dyes_1115: Item = {
     id: 1115,
     name: "红外壳",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1116: Item = {
@@ -990,8 +1162,10 @@ export const Dyes_1116: Item = {
     id: 1116,
     name: "青外壳",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1117: Item = {
@@ -1000,8 +1174,10 @@ export const Dyes_1117: Item = {
     id: 1117,
     name: "蓝紫外壳",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1118: Item = {
@@ -1010,8 +1186,10 @@ export const Dyes_1118: Item = {
     id: 1118,
     name: "紫黏液",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_1119: Item = {
@@ -1020,8 +1198,10 @@ export const Dyes_1119: Item = {
     id: 1119,
     name: "黑墨水",
     Category: Dyes,
+    SubCategory: MaterialD,
     comments: "",
 }
+
 
 
 export const Dyes_3526: Item = {
@@ -1030,8 +1210,10 @@ export const Dyes_3526: Item = {
     id: 3526,
     name: "日耀染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "日耀碎片+水瓶",
 }
+
 
 
 export const Dyes_3527: Item = {
@@ -1040,8 +1222,10 @@ export const Dyes_3527: Item = {
     id: 3527,
     name: "星云染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "星云碎片+水瓶",
 }
+
 
 
 export const Dyes_3528: Item = {
@@ -1050,8 +1234,10 @@ export const Dyes_3528: Item = {
     id: 3528,
     name: "星旋染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "星璇碎片+水瓶",
 }
+
 
 
 export const Dyes_3529: Item = {
@@ -1060,8 +1246,10 @@ export const Dyes_3529: Item = {
     id: 3529,
     name: "星尘染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "星尘碎片+水瓶",
 }
+
 
 
 export const Dyes_3530: Item = {
@@ -1070,8 +1258,10 @@ export const Dyes_3530: Item = {
     id: 3530,
     name: "虚空染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "夜明锭+水瓶",
 }
+
 
 
 export const Dyes_4662: Item = {
@@ -1080,8 +1270,10 @@ export const Dyes_4662: Item = {
     id: 4662,
     name: "灰雾染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "墓地 染料商",
 }
+
 
 
 export const Dyes_4663: Item = {
@@ -1090,8 +1282,10 @@ export const Dyes_4663: Item = {
     id: 4663,
     name: "大屠杀染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "血月 染料商",
 }
+
 
 
 export const Dyes_4778: Item = {
@@ -1100,8 +1294,10 @@ export const Dyes_4778: Item = {
     id: 4778,
     name: "七彩染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "光女掉落",
 }
+
 
 
 export const Dyes_2871: Item = {
@@ -1110,8 +1306,10 @@ export const Dyes_2871: Item = {
     id: 2871,
     name: "暗影染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_2872: Item = {
@@ -1120,8 +1318,10 @@ export const Dyes_2872: Item = {
     id: 2872,
     name: "阴暗染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3025: Item = {
@@ -1130,8 +1330,10 @@ export const Dyes_3025: Item = {
     id: 3025,
     name: "紫泥染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3026: Item = {
@@ -1140,8 +1342,10 @@ export const Dyes_3026: Item = {
     id: 3026,
     name: "反光银染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3027: Item = {
@@ -1150,8 +1354,10 @@ export const Dyes_3027: Item = {
     id: 3027,
     name: "反光金染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3028: Item = {
@@ -1160,8 +1366,10 @@ export const Dyes_3028: Item = {
     id: 3028,
     name: "蓝酸性染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3038: Item = {
@@ -1170,8 +1378,10 @@ export const Dyes_3038: Item = {
     id: 3038,
     name: "冥王染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3039: Item = {
@@ -1180,8 +1390,10 @@ export const Dyes_3039: Item = {
     id: 3039,
     name: "暮光染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3040: Item = {
@@ -1190,8 +1402,10 @@ export const Dyes_3040: Item = {
     id: 3040,
     name: "酸性染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3041: Item = {
@@ -1200,8 +1414,10 @@ export const Dyes_3041: Item = {
     id: 3041,
     name: "发光蘑菇染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3042: Item = {
@@ -1210,8 +1426,10 @@ export const Dyes_3042: Item = {
     id: 3042,
     name: "相位染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3190: Item = {
@@ -1220,8 +1438,10 @@ export const Dyes_3190: Item = {
     id: 3190,
     name: "反光染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3533: Item = {
@@ -1230,8 +1450,10 @@ export const Dyes_3533: Item = {
     id: 3533,
     name: "流沙染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3534: Item = {
@@ -1240,8 +1462,10 @@ export const Dyes_3534: Item = {
     id: 3534,
     name: "幻象染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3553: Item = {
@@ -1250,8 +1474,10 @@ export const Dyes_3553: Item = {
     id: 3553,
     name: "反光铜染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3554: Item = {
@@ -1260,8 +1486,10 @@ export const Dyes_3554: Item = {
     id: 3554,
     name: "反光黑曜石染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3555: Item = {
@@ -1270,8 +1498,10 @@ export const Dyes_3555: Item = {
     id: 3555,
     name: "反光金属染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3560: Item = {
@@ -1280,8 +1510,10 @@ export const Dyes_3560: Item = {
     id: 3560,
     name: "红酸性染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3561: Item = {
@@ -1290,8 +1522,10 @@ export const Dyes_3561: Item = {
     id: 3561,
     name: "凝胶染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3597: Item = {
@@ -1300,8 +1534,10 @@ export const Dyes_3597: Item = {
     id: 3597,
     name: "烈焰冥王染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3598: Item = {
@@ -1310,8 +1546,10 @@ export const Dyes_3598: Item = {
     id: 3598,
     name: "恐怖染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_3600: Item = {
@@ -1320,8 +1558,10 @@ export const Dyes_3600: Item = {
     id: 3600,
     name: "暗影焰冥王染料",
     Category: Dyes,
+    SubCategory: StrangePlantDye,
     comments: "",
 }
+
 
 
 export const Dyes_2869: Item = {
@@ -1330,8 +1570,10 @@ export const Dyes_2869: Item = {
     id: 2869,
     name: "鲜艳红焰染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "一王后 奇异",
 }
+
 
 
 export const Dyes_2870: Item = {
@@ -1340,8 +1582,10 @@ export const Dyes_2870: Item = {
     id: 2870,
     name: "鲜艳彩虹染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "一王后 奇异",
 }
+
 
 
 export const Dyes_2873: Item = {
@@ -1350,8 +1594,10 @@ export const Dyes_2873: Item = {
     id: 2873,
     name: "鲜艳海蓝染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "一王后 奇异",
 }
+
 
 
 export const Dyes_2883: Item = {
@@ -1360,8 +1606,10 @@ export const Dyes_2883: Item = {
     id: 2883,
     name: "叶绿染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "一王后 奇异",
 }
+
 
 
 export const Dyes_2878: Item = {
@@ -1370,8 +1618,10 @@ export const Dyes_2878: Item = {
     id: 2878,
     name: "妖灵染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "花后 奇异",
 }
+
 
 
 export const Dyes_2879: Item = {
@@ -1380,8 +1630,10 @@ export const Dyes_2879: Item = {
     id: 2879,
     name: "妖精染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "花后 奇异",
 }
+
 
 
 export const Dyes_2884: Item = {
@@ -1390,8 +1642,10 @@ export const Dyes_2884: Item = {
     id: 2884,
     name: "独角妖灵染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "花后 奇异",
 }
+
 
 
 export const Dyes_2885: Item = {
@@ -1400,8 +1654,10 @@ export const Dyes_2885: Item = {
     id: 2885,
     name: "地狱妖灵染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "花后 奇异",
 }
+
 
 
 export const Dyes_3556: Item = {
@@ -1410,8 +1666,10 @@ export const Dyes_3556: Item = {
     id: 3556,
     name: "午夜彩虹染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "火星暴乱后 奇异",
 }
+
 
 
 export const Dyes_2864: Item = {
@@ -1420,8 +1678,10 @@ export const Dyes_2864: Item = {
     id: 2864,
     name: "火星染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: StrangePlantDye,
+    comments: "火星暴乱后 奇异",
 }
+
 
 
 export const Dyes_3535: Item = {
@@ -1430,8 +1690,10 @@ export const Dyes_3535: Item = {
     id: 3535,
     name: "珍珠流沙染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "流沙染料+碎魔晶",
 }
+
 
 
 export const Dyes_3562: Item = {
@@ -1440,8 +1702,10 @@ export const Dyes_3562: Item = {
     id: 3562,
     name: "粉凝胶染料",
     Category: Dyes,
-    comments: "",
+    SubCategory: CommonDye,
+    comments: "凝胶染料+粉凝胶",
 }
+
 
 
 export const Dyes_1977: Item = {
@@ -1450,8 +1714,10 @@ export const Dyes_1977: Item = {
     id: 1977,
     name: "生命染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1978: Item = {
@@ -1460,8 +1726,10 @@ export const Dyes_1978: Item = {
     id: 1978,
     name: "魔力染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1979: Item = {
@@ -1470,8 +1738,10 @@ export const Dyes_1979: Item = {
     id: 1979,
     name: "深度染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1980: Item = {
@@ -1480,8 +1750,10 @@ export const Dyes_1980: Item = {
     id: 1980,
     name: "钱币染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1981: Item = {
@@ -1490,8 +1762,10 @@ export const Dyes_1981: Item = {
     id: 1981,
     name: "时间染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1982: Item = {
@@ -1500,8 +1774,10 @@ export const Dyes_1982: Item = {
     id: 1982,
     name: "团队染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1983: Item = {
@@ -1510,8 +1786,10 @@ export const Dyes_1983: Item = {
     id: 1983,
     name: "生物群系染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1984: Item = {
@@ -1520,8 +1798,10 @@ export const Dyes_1984: Item = {
     id: 1984,
     name: "派对染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1985: Item = {
@@ -1530,8 +1810,10 @@ export const Dyes_1985: Item = {
     id: 1985,
     name: "彩虹染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1986: Item = {
@@ -1540,8 +1822,10 @@ export const Dyes_1986: Item = {
     id: 1986,
     name: "速度染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_1990: Item = {
@@ -1550,8 +1834,10 @@ export const Dyes_1990: Item = {
     id: 1990,
     name: "染发剂清除剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_2863: Item = {
@@ -1560,8 +1846,10 @@ export const Dyes_2863: Item = {
     id: 2863,
     name: "火星染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
+
 
 
 export const Dyes_3259: Item = {
@@ -1570,6 +1858,7 @@ export const Dyes_3259: Item = {
     id: 3259,
     name: "暮光染发剂",
     Category: Dyes,
+    SubCategory: HairDye,
     comments: "",
 }
 

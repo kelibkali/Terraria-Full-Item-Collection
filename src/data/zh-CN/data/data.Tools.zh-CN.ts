@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Tools } from "../data.Category.zh-CN.ts"
 
+import { AxeTool, EnvironmentTool, GolfTool, HammerTool, KeyTool, OtherTool, PickaxeTool, TransformTool, WandTool, WaterTool } from "../data.SubCategory.zh-CN.ts"
+
 import Tools_882Img from "../../../assets/icon/Item_882.png"
 import Tools_3509Img from "../../../assets/icon/Item_3509.png"
 import Tools_3503Img from "../../../assets/icon/Item_3503.png"
@@ -212,14 +214,18 @@ import Tools_5323Img from "../../../assets/icon/Item_5323.png"
 import Tools_5453Img from "../../../assets/icon/Item_5453.png"
 import Tools_5454Img from "../../../assets/icon/Item_5454.png"
 import Tools_5455Img from "../../../assets/icon/Item_5455.png"
+
+
 export const Tools_882: Item = {
     icon: Tools_882Img,
     isCollection: false,
     id: 882,
     name: "仙人掌镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3509: Item = {
@@ -228,8 +234,10 @@ export const Tools_3509: Item = {
     id: 3509,
     name: "铜镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3503: Item = {
@@ -238,8 +246,10 @@ export const Tools_3503: Item = {
     id: 3503,
     name: "锡镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1: Item = {
@@ -248,8 +258,10 @@ export const Tools_1: Item = {
     id: 1,
     name: "铁镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3497: Item = {
@@ -258,8 +270,10 @@ export const Tools_3497: Item = {
     id: 3497,
     name: "铅镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3515: Item = {
@@ -268,8 +282,10 @@ export const Tools_3515: Item = {
     id: 3515,
     name: "银镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3491: Item = {
@@ -278,8 +294,10 @@ export const Tools_3491: Item = {
     id: 3491,
     name: "钨镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3521: Item = {
@@ -288,8 +306,10 @@ export const Tools_3521: Item = {
     id: 3521,
     name: "金镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3485: Item = {
@@ -298,8 +318,10 @@ export const Tools_3485: Item = {
     id: 3485,
     name: "铂金镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1917: Item = {
@@ -308,8 +330,10 @@ export const Tools_1917: Item = {
     id: 1917,
     name: "糖棒镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_4059: Item = {
@@ -318,8 +342,10 @@ export const Tools_4059: Item = {
     id: 4059,
     name: "化石镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2341: Item = {
@@ -328,8 +354,10 @@ export const Tools_2341: Item = {
     id: 2341,
     name: "掠夺鲨",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1320: Item = {
@@ -338,8 +366,10 @@ export const Tools_1320: Item = {
     id: 1320,
     name: "骨镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_103: Item = {
@@ -348,8 +378,10 @@ export const Tools_103: Item = {
     id: 103,
     name: "梦魇镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_798: Item = {
@@ -358,8 +390,10 @@ export const Tools_798: Item = {
     id: 798,
     name: "死亡使者镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_122: Item = {
@@ -368,8 +402,10 @@ export const Tools_122: Item = {
     id: 122,
     name: "熔岩镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_776: Item = {
@@ -378,8 +414,10 @@ export const Tools_776: Item = {
     id: 776,
     name: "钴镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_385: Item = {
@@ -388,8 +426,10 @@ export const Tools_385: Item = {
     id: 385,
     name: "钴钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1188: Item = {
@@ -398,8 +438,10 @@ export const Tools_1188: Item = {
     id: 1188,
     name: "钯金镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1189: Item = {
@@ -408,8 +450,10 @@ export const Tools_1189: Item = {
     id: 1189,
     name: "钯金钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_777: Item = {
@@ -418,8 +462,10 @@ export const Tools_777: Item = {
     id: 777,
     name: "秘银镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_386: Item = {
@@ -428,8 +474,10 @@ export const Tools_386: Item = {
     id: 386,
     name: "秘银钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1195: Item = {
@@ -438,8 +486,10 @@ export const Tools_1195: Item = {
     id: 1195,
     name: "山铜镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1196: Item = {
@@ -448,8 +498,10 @@ export const Tools_1196: Item = {
     id: 1196,
     name: "山铜钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_778: Item = {
@@ -458,8 +510,10 @@ export const Tools_778: Item = {
     id: 778,
     name: "精金镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_388: Item = {
@@ -468,8 +522,10 @@ export const Tools_388: Item = {
     id: 388,
     name: "精金钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1202: Item = {
@@ -478,8 +534,10 @@ export const Tools_1202: Item = {
     id: 1202,
     name: "钛金镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1203: Item = {
@@ -488,8 +546,10 @@ export const Tools_1203: Item = {
     id: 1203,
     name: "钛金钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_990: Item = {
@@ -498,8 +558,10 @@ export const Tools_990: Item = {
     id: 990,
     name: "镐斧",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_579: Item = {
@@ -508,8 +570,10 @@ export const Tools_579: Item = {
     id: 579,
     name: "斧钻",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1230: Item = {
@@ -518,8 +582,10 @@ export const Tools_1230: Item = {
     id: 1230,
     name: "叶绿镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1231: Item = {
@@ -528,8 +594,10 @@ export const Tools_1231: Item = {
     id: 1231,
     name: "叶绿钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1506: Item = {
@@ -538,8 +606,10 @@ export const Tools_1506: Item = {
     id: 1506,
     name: "幽灵镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2176: Item = {
@@ -548,8 +618,10 @@ export const Tools_2176: Item = {
     id: 2176,
     name: "蘑菇矿挖爪",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1294: Item = {
@@ -558,8 +630,10 @@ export const Tools_1294: Item = {
     id: 1294,
     name: "锯刃镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2798: Item = {
@@ -568,8 +642,10 @@ export const Tools_2798: Item = {
     id: 2798,
     name: "激光钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2786: Item = {
@@ -578,8 +654,10 @@ export const Tools_2786: Item = {
     id: 2786,
     name: "耀斑镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2784: Item = {
@@ -588,8 +666,10 @@ export const Tools_2784: Item = {
     id: 2784,
     name: "耀斑钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2776: Item = {
@@ -598,8 +678,10 @@ export const Tools_2776: Item = {
     id: 2776,
     name: "星旋镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2774: Item = {
@@ -608,8 +690,10 @@ export const Tools_2774: Item = {
     id: 2774,
     name: "星旋钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2781: Item = {
@@ -618,8 +702,10 @@ export const Tools_2781: Item = {
     id: 2781,
     name: "星云镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2779: Item = {
@@ -628,8 +714,10 @@ export const Tools_2779: Item = {
     id: 2779,
     name: "星云钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3466: Item = {
@@ -638,8 +726,10 @@ export const Tools_3466: Item = {
     id: 3466,
     name: "星尘镐",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3464: Item = {
@@ -648,8 +738,10 @@ export const Tools_3464: Item = {
     id: 3464,
     name: "星尘钻头",
     Category: Tools,
+    SubCategory: PickaxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3506: Item = {
@@ -658,8 +750,10 @@ export const Tools_3506: Item = {
     id: 3506,
     name: "铜斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3500: Item = {
@@ -668,8 +762,10 @@ export const Tools_3500: Item = {
     id: 3500,
     name: "锡斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_10: Item = {
@@ -678,8 +774,10 @@ export const Tools_10: Item = {
     id: 10,
     name: "铁斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3494: Item = {
@@ -688,8 +786,10 @@ export const Tools_3494: Item = {
     id: 3494,
     name: "铅斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3512: Item = {
@@ -698,8 +798,10 @@ export const Tools_3512: Item = {
     id: 3512,
     name: "银斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3488: Item = {
@@ -708,8 +810,10 @@ export const Tools_3488: Item = {
     id: 3488,
     name: "钨斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3518: Item = {
@@ -718,8 +822,10 @@ export const Tools_3518: Item = {
     id: 3518,
     name: "金斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3482: Item = {
@@ -728,8 +834,10 @@ export const Tools_3482: Item = {
     id: 3482,
     name: "铂金斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_2342: Item = {
@@ -738,8 +846,10 @@ export const Tools_2342: Item = {
     id: 2342,
     name: "锯齿鲨",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_5295: Item = {
@@ -748,8 +858,10 @@ export const Tools_5295: Item = {
     id: 5295,
     name: "再生之斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_45: Item = {
@@ -758,8 +870,10 @@ export const Tools_45: Item = {
     id: 45,
     name: "暗夜战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_799: Item = {
@@ -768,8 +882,10 @@ export const Tools_799: Item = {
     id: 799,
     name: "嗜血狂斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_5095: Item = {
@@ -778,8 +894,10 @@ export const Tools_5095: Item = {
     id: 5095,
     name: "露西斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_991: Item = {
@@ -788,8 +906,10 @@ export const Tools_991: Item = {
     id: 991,
     name: "钴战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_383: Item = {
@@ -798,8 +918,10 @@ export const Tools_383: Item = {
     id: 383,
     name: "钴链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1222: Item = {
@@ -808,8 +930,10 @@ export const Tools_1222: Item = {
     id: 1222,
     name: "钯金战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1190: Item = {
@@ -818,8 +942,10 @@ export const Tools_1190: Item = {
     id: 1190,
     name: "钯金链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_992: Item = {
@@ -828,8 +954,10 @@ export const Tools_992: Item = {
     id: 992,
     name: "秘银战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_384: Item = {
@@ -838,8 +966,10 @@ export const Tools_384: Item = {
     id: 384,
     name: "秘银链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1223: Item = {
@@ -848,8 +978,10 @@ export const Tools_1223: Item = {
     id: 1223,
     name: "山铜战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1197: Item = {
@@ -858,8 +990,10 @@ export const Tools_1197: Item = {
     id: 1197,
     name: "山铜链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_993: Item = {
@@ -868,8 +1002,10 @@ export const Tools_993: Item = {
     id: 993,
     name: "精金战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_387: Item = {
@@ -878,8 +1014,10 @@ export const Tools_387: Item = {
     id: 387,
     name: "精金链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1224: Item = {
@@ -888,8 +1026,10 @@ export const Tools_1224: Item = {
     id: 1224,
     name: "钛金战斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1204: Item = {
@@ -898,8 +1038,10 @@ export const Tools_1204: Item = {
     id: 1204,
     name: "钛金链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1233: Item = {
@@ -908,8 +1050,10 @@ export const Tools_1233: Item = {
     id: 1233,
     name: "叶绿巨斧",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_1232: Item = {
@@ -918,8 +1062,10 @@ export const Tools_1232: Item = {
     id: 1232,
     name: "叶绿链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_3098: Item = {
@@ -928,8 +1074,10 @@ export const Tools_3098: Item = {
     id: 3098,
     name: "屠夫链锯",
     Category: Tools,
+    SubCategory: AxeTool,
     comments: "",
 }
+
 
 
 export const Tools_196: Item = {
@@ -938,8 +1086,10 @@ export const Tools_196: Item = {
     id: 196,
     name: "木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_657: Item = {
@@ -948,8 +1098,10 @@ export const Tools_657: Item = {
     id: 657,
     name: "红木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_2516: Item = {
@@ -958,8 +1110,10 @@ export const Tools_2516: Item = {
     id: 2516,
     name: "棕榈木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_2746: Item = {
@@ -968,8 +1122,10 @@ export const Tools_2746: Item = {
     id: 2746,
     name: "针叶木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_654: Item = {
@@ -978,8 +1134,10 @@ export const Tools_654: Item = {
     id: 654,
     name: "乌木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_922: Item = {
@@ -988,8 +1146,10 @@ export const Tools_922: Item = {
     id: 922,
     name: "暗影木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_5283: Item = {
@@ -998,8 +1158,10 @@ export const Tools_5283: Item = {
     id: 5283,
     name: "灰烬木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_660: Item = {
@@ -1008,8 +1170,10 @@ export const Tools_660: Item = {
     id: 660,
     name: "珍珠木锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3505: Item = {
@@ -1018,8 +1182,10 @@ export const Tools_3505: Item = {
     id: 3505,
     name: "铜锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3499: Item = {
@@ -1028,8 +1194,10 @@ export const Tools_3499: Item = {
     id: 3499,
     name: "锡锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_7: Item = {
@@ -1038,8 +1206,10 @@ export const Tools_7: Item = {
     id: 7,
     name: "铁锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3493: Item = {
@@ -1048,8 +1218,10 @@ export const Tools_3493: Item = {
     id: 3493,
     name: "铅锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3511: Item = {
@@ -1058,8 +1230,10 @@ export const Tools_3511: Item = {
     id: 3511,
     name: "银锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3487: Item = {
@@ -1068,8 +1242,10 @@ export const Tools_3487: Item = {
     id: 3487,
     name: "钨锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3517: Item = {
@@ -1078,8 +1254,10 @@ export const Tools_3517: Item = {
     id: 3517,
     name: "金锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3481: Item = {
@@ -1088,8 +1266,10 @@ export const Tools_3481: Item = {
     id: 3481,
     name: "铂金锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_104: Item = {
@@ -1098,8 +1278,10 @@ export const Tools_104: Item = {
     id: 104,
     name: "魔锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_797: Item = {
@@ -1108,8 +1290,10 @@ export const Tools_797: Item = {
     id: 797,
     name: "血肉锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_204: Item = {
@@ -1118,8 +1302,10 @@ export const Tools_204: Item = {
     id: 204,
     name: "流星锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_2320: Item = {
@@ -1128,8 +1314,10 @@ export const Tools_2320: Item = {
     id: 2320,
     name: "岩鱼锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_217: Item = {
@@ -1138,8 +1326,10 @@ export const Tools_217: Item = {
     id: 217,
     name: "熔岩锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_367: Item = {
@@ -1148,8 +1338,10 @@ export const Tools_367: Item = {
     id: 367,
     name: "神锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_4317: Item = {
@@ -1158,8 +1350,10 @@ export const Tools_4317: Item = {
     id: 4317,
     name: "血锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_787: Item = {
@@ -1168,8 +1362,10 @@ export const Tools_787: Item = {
     id: 787,
     name: "蘑菇锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_1234: Item = {
@@ -1178,8 +1374,10 @@ export const Tools_1234: Item = {
     id: 1234,
     name: "叶绿战锤",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_1262: Item = {
@@ -1188,8 +1386,10 @@ export const Tools_1262: Item = {
     id: 1262,
     name: "叶绿手提钻",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_1305: Item = {
@@ -1198,8 +1398,10 @@ export const Tools_1305: Item = {
     id: 1305,
     name: "吉他斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_1507: Item = {
@@ -1208,8 +1410,10 @@ export const Tools_1507: Item = {
     id: 1507,
     name: "幽灵锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3522: Item = {
@@ -1218,8 +1422,10 @@ export const Tools_3522: Item = {
     id: 3522,
     name: "耀斑锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3523: Item = {
@@ -1228,8 +1434,10 @@ export const Tools_3523: Item = {
     id: 3523,
     name: "星旋锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3524: Item = {
@@ -1238,8 +1446,10 @@ export const Tools_3524: Item = {
     id: 3524,
     name: "星云锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_3525: Item = {
@@ -1248,8 +1458,10 @@ export const Tools_3525: Item = {
     id: 3525,
     name: "星尘锤斧",
     Category: Tools,
+    SubCategory: HammerTool,
     comments: "",
 }
+
 
 
 export const Tools_50: Item = {
@@ -1258,8 +1470,10 @@ export const Tools_50: Item = {
     id: 50,
     name: "魔镜",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_3199: Item = {
@@ -1268,8 +1482,10 @@ export const Tools_3199: Item = {
     id: 3199,
     name: "冰雪镜",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_3124: Item = {
@@ -1278,8 +1494,10 @@ export const Tools_3124: Item = {
     id: 3124,
     name: "手机",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_4263: Item = {
@@ -1288,8 +1506,10 @@ export const Tools_4263: Item = {
     id: 4263,
     name: "魔法海螺",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_4819: Item = {
@@ -1298,8 +1518,10 @@ export const Tools_4819: Item = {
     id: 4819,
     name: "恶魔海螺",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_5358: Item = {
@@ -1308,8 +1530,10 @@ export const Tools_5358: Item = {
     id: 5358,
     name: "贝壳电话（家）",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_5359: Item = {
@@ -1318,8 +1542,10 @@ export const Tools_5359: Item = {
     id: 5359,
     name: "贝壳电话（出生点）",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_5360: Item = {
@@ -1328,8 +1554,10 @@ export const Tools_5360: Item = {
     id: 5360,
     name: "贝壳电话（海洋）",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_5361: Item = {
@@ -1338,8 +1566,10 @@ export const Tools_5361: Item = {
     id: 5361,
     name: "贝壳电话（地狱）",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_3384: Item = {
@@ -1348,8 +1578,10 @@ export const Tools_3384: Item = {
     id: 3384,
     name: "传送枪",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_1326: Item = {
@@ -1358,8 +1590,10 @@ export const Tools_1326: Item = {
     id: 1326,
     name: "混沌传送杖",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_5335: Item = {
@@ -1368,8 +1602,10 @@ export const Tools_5335: Item = {
     id: 5335,
     name: "和谐传送杖",
     Category: Tools,
+    SubCategory: TransformTool,
     comments: "",
 }
+
 
 
 export const Tools_114: Item = {
@@ -1378,8 +1614,10 @@ export const Tools_114: Item = {
     id: 114,
     name: "土魔杖",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_832: Item = {
@@ -1388,8 +1626,10 @@ export const Tools_832: Item = {
     id: 832,
     name: "生命木魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_932: Item = {
@@ -1398,8 +1638,10 @@ export const Tools_932: Item = {
     id: 932,
     name: "白骨魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_933: Item = {
@@ -1408,8 +1650,10 @@ export const Tools_933: Item = {
     id: 933,
     name: "树叶魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_1129: Item = {
@@ -1418,8 +1662,10 @@ export const Tools_1129: Item = {
     id: 1129,
     name: "蜂巢魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_3360: Item = {
@@ -1428,8 +1674,10 @@ export const Tools_3360: Item = {
     id: 3360,
     name: "生命红木魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_3361: Item = {
@@ -1438,8 +1686,10 @@ export const Tools_3361: Item = {
     id: 3361,
     name: "红木树叶魔棒",
     Category: Tools,
+    SubCategory: WandTool,
     comments: "",
 }
+
 
 
 export const Tools_205: Item = {
@@ -1448,8 +1698,10 @@ export const Tools_205: Item = {
     id: 205,
     name: "空桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_206: Item = {
@@ -1458,8 +1710,10 @@ export const Tools_206: Item = {
     id: 206,
     name: "水桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_207: Item = {
@@ -1468,8 +1722,10 @@ export const Tools_207: Item = {
     id: 207,
     name: "熔岩桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_1128: Item = {
@@ -1478,8 +1734,10 @@ export const Tools_1128: Item = {
     id: 1128,
     name: "蜂蜜桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_3031: Item = {
@@ -1488,8 +1746,10 @@ export const Tools_3031: Item = {
     id: 3031,
     name: "无底水桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4820: Item = {
@@ -1498,8 +1758,10 @@ export const Tools_4820: Item = {
     id: 4820,
     name: "无底熔岩桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_5302: Item = {
@@ -1508,8 +1770,10 @@ export const Tools_5302: Item = {
     id: 5302,
     name: "无底蜂蜜桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_3032: Item = {
@@ -1518,8 +1782,10 @@ export const Tools_3032: Item = {
     id: 3032,
     name: "超级吸收绵",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4872: Item = {
@@ -1528,8 +1794,10 @@ export const Tools_4872: Item = {
     id: 4872,
     name: "熔岩吸收绵",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_5303: Item = {
@@ -1538,8 +1806,10 @@ export const Tools_5303: Item = {
     id: 5303,
     name: "蜂蜜吸收绵",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_5304: Item = {
@@ -1548,8 +1818,10 @@ export const Tools_5304: Item = {
     id: 5304,
     name: "超强吸收绵",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4824: Item = {
@@ -1558,8 +1830,10 @@ export const Tools_4824: Item = {
     id: 4824,
     name: "湿炸弹",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4825: Item = {
@@ -1568,8 +1842,10 @@ export const Tools_4825: Item = {
     id: 4825,
     name: "熔岩炸弹",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4826: Item = {
@@ -1578,8 +1854,10 @@ export const Tools_4826: Item = {
     id: 4826,
     name: "蜂蜜炸弹",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_4827: Item = {
@@ -1588,8 +1866,10 @@ export const Tools_4827: Item = {
     id: 4827,
     name: "干炸弹",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_5364: Item = {
@@ -1598,8 +1878,10 @@ export const Tools_5364: Item = {
     id: 5364,
     name: "无底微光桶",
     Category: Tools,
+    SubCategory: WaterTool,
     comments: "",
 }
+
 
 
 export const Tools_422: Item = {
@@ -1608,8 +1890,10 @@ export const Tools_422: Item = {
     id: 422,
     name: "圣水",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_423: Item = {
@@ -1618,8 +1902,10 @@ export const Tools_423: Item = {
     id: 423,
     name: "邪水",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_3477: Item = {
@@ -1628,8 +1914,10 @@ export const Tools_3477: Item = {
     id: 3477,
     name: "血水",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_779: Item = {
@@ -1638,8 +1926,10 @@ export const Tools_779: Item = {
     id: 779,
     name: "环境改造枪",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_780: Item = {
@@ -1648,8 +1938,10 @@ export const Tools_780: Item = {
     id: 780,
     name: "绿溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_781: Item = {
@@ -1658,8 +1950,10 @@ export const Tools_781: Item = {
     id: 781,
     name: "蓝溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_782: Item = {
@@ -1668,8 +1962,10 @@ export const Tools_782: Item = {
     id: 782,
     name: "紫溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_783: Item = {
@@ -1678,8 +1974,10 @@ export const Tools_783: Item = {
     id: 783,
     name: "深蓝溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_784: Item = {
@@ -1688,8 +1986,10 @@ export const Tools_784: Item = {
     id: 784,
     name: "红溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_5134: Item = {
@@ -1698,8 +1998,10 @@ export const Tools_5134: Item = {
     id: 5134,
     name: "泰拉改造枪",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_5392: Item = {
@@ -1708,8 +2010,10 @@ export const Tools_5392: Item = {
     id: 5392,
     name: "黄溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_5393: Item = {
@@ -1718,8 +2022,10 @@ export const Tools_5393: Item = {
     id: 5393,
     name: "白溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_5394: Item = {
@@ -1728,8 +2034,10 @@ export const Tools_5394: Item = {
     id: 5394,
     name: "棕溶液",
     Category: Tools,
+    SubCategory: EnvironmentTool,
     comments: "",
 }
+
 
 
 export const Tools_327: Item = {
@@ -1738,8 +2046,10 @@ export const Tools_327: Item = {
     id: 327,
     name: "金钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_329: Item = {
@@ -1748,8 +2058,10 @@ export const Tools_329: Item = {
     id: 329,
     name: "暗影钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1141: Item = {
@@ -1758,8 +2070,10 @@ export const Tools_1141: Item = {
     id: 1141,
     name: "神庙钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1533: Item = {
@@ -1768,8 +2082,10 @@ export const Tools_1533: Item = {
     id: 1533,
     name: "丛林钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1534: Item = {
@@ -1778,8 +2094,10 @@ export const Tools_1534: Item = {
     id: 1534,
     name: "腐化钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1535: Item = {
@@ -1788,8 +2106,10 @@ export const Tools_1535: Item = {
     id: 1535,
     name: "猩红钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1536: Item = {
@@ -1798,8 +2118,10 @@ export const Tools_1536: Item = {
     id: 1536,
     name: "神圣钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_1537: Item = {
@@ -1808,8 +2130,10 @@ export const Tools_1537: Item = {
     id: 1537,
     name: "冰冻钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_3091: Item = {
@@ -1818,8 +2142,10 @@ export const Tools_3091: Item = {
     id: 3091,
     name: "夜光钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_3092: Item = {
@@ -1828,8 +2154,10 @@ export const Tools_3092: Item = {
     id: 3092,
     name: "光明钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_4714: Item = {
@@ -1838,8 +2166,10 @@ export const Tools_4714: Item = {
     id: 4714,
     name: "沙漠钥匙",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_3085: Item = {
@@ -1848,8 +2178,10 @@ export const Tools_3085: Item = {
     id: 3085,
     name: "金锁盒",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_4879: Item = {
@@ -1858,8 +2190,10 @@ export const Tools_4879: Item = {
     id: 4879,
     name: "黑曜石锁盒",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_5328: Item = {
@@ -1868,8 +2202,10 @@ export const Tools_5328: Item = {
     id: 5328,
     name: "宝箱锁",
     Category: Tools,
+    SubCategory: KeyTool,
     comments: "",
 }
+
 
 
 export const Tools_4039: Item = {
@@ -1878,8 +2214,10 @@ export const Tools_4039: Item = {
     id: 4039,
     name: "高尔夫球杆（铁杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4092: Item = {
@@ -1888,8 +2226,10 @@ export const Tools_4092: Item = {
     id: 4092,
     name: "高尔夫球杆（推杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4093: Item = {
@@ -1898,8 +2238,10 @@ export const Tools_4093: Item = {
     id: 4093,
     name: "高尔夫球杆（挖起杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4094: Item = {
@@ -1908,8 +2250,10 @@ export const Tools_4094: Item = {
     id: 4094,
     name: "高尔夫球杆（木杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4587: Item = {
@@ -1918,8 +2262,10 @@ export const Tools_4587: Item = {
     id: 4587,
     name: "破旧高尔夫球杆（铁杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4588: Item = {
@@ -1928,8 +2274,10 @@ export const Tools_4588: Item = {
     id: 4588,
     name: "破旧高尔夫球杆（推杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4589: Item = {
@@ -1938,8 +2286,10 @@ export const Tools_4589: Item = {
     id: 4589,
     name: "破旧高尔夫球杆（挖起杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4590: Item = {
@@ -1948,8 +2298,10 @@ export const Tools_4590: Item = {
     id: 4590,
     name: "破旧高尔夫球杆（木杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4591: Item = {
@@ -1958,8 +2310,10 @@ export const Tools_4591: Item = {
     id: 4591,
     name: "精致高尔夫球杆（铁杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4592: Item = {
@@ -1968,8 +2322,10 @@ export const Tools_4592: Item = {
     id: 4592,
     name: "精致高尔夫球杆（推杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4593: Item = {
@@ -1978,8 +2334,10 @@ export const Tools_4593: Item = {
     id: 4593,
     name: "精致高尔夫球杆（挖起杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4594: Item = {
@@ -1988,8 +2346,10 @@ export const Tools_4594: Item = {
     id: 4594,
     name: "精致高尔夫球杆（木杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4595: Item = {
@@ -1998,8 +2358,10 @@ export const Tools_4595: Item = {
     id: 4595,
     name: "高级高尔夫球杆（铁杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4596: Item = {
@@ -2008,8 +2370,10 @@ export const Tools_4596: Item = {
     id: 4596,
     name: "高级高尔夫球杆（推杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4597: Item = {
@@ -2018,8 +2382,10 @@ export const Tools_4597: Item = {
     id: 4597,
     name: "高级高尔夫球杆（挖起杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4598: Item = {
@@ -2028,8 +2394,10 @@ export const Tools_4598: Item = {
     id: 4598,
     name: "高级高尔夫球杆（木杆）",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4040: Item = {
@@ -2038,8 +2406,10 @@ export const Tools_4040: Item = {
     id: 4040,
     name: "高尔夫球洞",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4089: Item = {
@@ -2048,8 +2418,10 @@ export const Tools_4089: Item = {
     id: 4089,
     name: "高尔夫球座",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_4095: Item = {
@@ -2058,8 +2430,10 @@ export const Tools_4095: Item = {
     id: 4095,
     name: "高尔夫口哨",
     Category: Tools,
+    SubCategory: GolfTool,
     comments: "",
 }
+
 
 
 export const Tools_1786: Item = {
@@ -2068,8 +2442,10 @@ export const Tools_1786: Item = {
     id: 1786,
     name: "镰刀",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_213: Item = {
@@ -2078,8 +2454,10 @@ export const Tools_213: Item = {
     id: 213,
     name: "再生法杖",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_1991: Item = {
@@ -2088,8 +2466,10 @@ export const Tools_1991: Item = {
     id: 1991,
     name: "虫网",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4821: Item = {
@@ -2098,8 +2478,10 @@ export const Tools_4821: Item = {
     id: 4821,
     name: "防熔岩虫网",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3183: Item = {
@@ -2108,8 +2490,10 @@ export const Tools_3183: Item = {
     id: 3183,
     name: "金虫网",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_1299: Item = {
@@ -2118,8 +2502,10 @@ export const Tools_1299: Item = {
     id: 1299,
     name: "双筒望远镜",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4262: Item = {
@@ -2128,8 +2514,10 @@ export const Tools_4262: Item = {
     id: 4262,
     name: "耍蛇者长笛",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4711: Item = {
@@ -2138,8 +2526,10 @@ export const Tools_4711: Item = {
     id: 4711,
     name: "掘墓者铲子",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3186: Item = {
@@ -2148,8 +2538,10 @@ export const Tools_3186: Item = {
     id: 3186,
     name: "空滴管",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3182: Item = {
@@ -2158,8 +2550,10 @@ export const Tools_3182: Item = {
     id: 3182,
     name: "魔法水滴管",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3184: Item = {
@@ -2168,8 +2562,10 @@ export const Tools_3184: Item = {
     id: 3184,
     name: "魔法熔岩滴管",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3185: Item = {
@@ -2178,8 +2574,10 @@ export const Tools_3185: Item = {
     id: 3185,
     name: "魔法蜂蜜滴管",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_3782: Item = {
@@ -2188,8 +2586,10 @@ export const Tools_3782: Item = {
     id: 3782,
     name: "魔法沙粒滴管",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4049: Item = {
@@ -2198,8 +2598,10 @@ export const Tools_4049: Item = {
     id: 4049,
     name: "割草机",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4460: Item = {
@@ -2208,8 +2610,10 @@ export const Tools_4460: Item = {
     id: 4460,
     name: "沙堡桶",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5324: Item = {
@@ -2218,8 +2622,10 @@ export const Tools_5324: Item = {
     id: 5324,
     name: "堆石器（小）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5329: Item = {
@@ -2228,8 +2634,10 @@ export const Tools_5329: Item = {
     id: 5329,
     name: "堆石器（中）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5330: Item = {
@@ -2238,8 +2646,10 @@ export const Tools_5330: Item = {
     id: 5330,
     name: "堆石器（大）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4346: Item = {
@@ -2248,8 +2658,10 @@ export const Tools_4346: Item = {
     id: 4346,
     name: "负重石",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5391: Item = {
@@ -2258,8 +2670,10 @@ export const Tools_5391: Item = {
     id: 5391,
     name: "非负重石",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_4767: Item = {
@@ -2268,8 +2682,10 @@ export const Tools_4767: Item = {
     id: 4767,
     name: "小动物友谊指南",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5309: Item = {
@@ -2278,8 +2694,10 @@ export const Tools_5309: Item = {
     id: 5309,
     name: "环境保护指南",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5323: Item = {
@@ -2288,8 +2706,10 @@ export const Tools_5323: Item = {
     id: 5323,
     name: "和平共处指南",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5453: Item = {
@@ -2298,8 +2718,10 @@ export const Tools_5453: Item = {
     id: 5453,
     name: "小动物友谊指南（停用）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5454: Item = {
@@ -2308,8 +2730,10 @@ export const Tools_5454: Item = {
     id: 5454,
     name: "环境保护指南（停用）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
+
 
 
 export const Tools_5455: Item = {
@@ -2318,6 +2742,7 @@ export const Tools_5455: Item = {
     id: 5455,
     name: "和平共处指南（停用）",
     Category: Tools,
+    SubCategory: OtherTool,
     comments: "",
 }
 

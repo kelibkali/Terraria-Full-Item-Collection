@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Accessories } from "../data.Category.zh-CN.ts"
 
+import { Building, CelestialShell, Cloak, Decoration, Diving, Doll, Emblem, Expert, Fireproof, Fishing, FrogAndNinja, Glove, HPAndMP, Information, Necklace, OtherAccessories, Pirate, Quiver, Scope, Shield, Shoes, Summoning, TwiceJump, Wings, YoyosAccessories } from "../data.SubCategory.zh-CN.ts"
+
 import Accessories_15Img from "../../../assets/icon/Item_15.png"
 import Accessories_707Img from "../../../assets/icon/Item_707.png"
 import Accessories_16Img from "../../../assets/icon/Item_16.png"
@@ -308,14 +310,18 @@ import Accessories_4744Img from "../../../assets/icon/Item_4744.png"
 import Accessories_4563Img from "../../../assets/icon/Item_4563.png"
 import Accessories_3068Img from "../../../assets/icon/Item_3068.png"
 import Accessories_1921Img from "../../../assets/icon/Item_1921.png"
+
+
 export const Accessories_15: Item = {
     icon: Accessories_15Img,
     isCollection: false,
     id: 15,
     name: "铜表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_707: Item = {
@@ -324,8 +330,10 @@ export const Accessories_707: Item = {
     id: 707,
     name: "锡表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_16: Item = {
@@ -334,8 +342,10 @@ export const Accessories_16: Item = {
     id: 16,
     name: "银表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_708: Item = {
@@ -344,8 +354,10 @@ export const Accessories_708: Item = {
     id: 708,
     name: "钨表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_17: Item = {
@@ -354,8 +366,10 @@ export const Accessories_17: Item = {
     id: 17,
     name: "金表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_709: Item = {
@@ -364,8 +378,10 @@ export const Accessories_709: Item = {
     id: 709,
     name: "铂金表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_18: Item = {
@@ -374,8 +390,10 @@ export const Accessories_18: Item = {
     id: 18,
     name: "深度计",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_393: Item = {
@@ -384,8 +402,10 @@ export const Accessories_393: Item = {
     id: 393,
     name: "罗盘",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_395: Item = {
@@ -394,8 +414,10 @@ export const Accessories_395: Item = {
     id: 395,
     name: "全球定位系统",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3102: Item = {
@@ -404,8 +426,10 @@ export const Accessories_3102: Item = {
     id: 3102,
     name: "金属探测器",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3099: Item = {
@@ -414,8 +438,10 @@ export const Accessories_3099: Item = {
     id: 3099,
     name: "秒表",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3119: Item = {
@@ -424,8 +450,10 @@ export const Accessories_3119: Item = {
     id: 3119,
     name: "每秒伤害计数器",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3121: Item = {
@@ -434,8 +462,10 @@ export const Accessories_3121: Item = {
     id: 3121,
     name: "哥布林数据仪",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3118: Item = {
@@ -444,8 +474,10 @@ export const Accessories_3118: Item = {
     id: 3118,
     name: "生命体分析机",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3084: Item = {
@@ -454,8 +486,10 @@ export const Accessories_3084: Item = {
     id: 3084,
     name: "雷达",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3095: Item = {
@@ -464,8 +498,10 @@ export const Accessories_3095: Item = {
     id: 3095,
     name: "杀怪计数器",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3122: Item = {
@@ -474,8 +510,10 @@ export const Accessories_3122: Item = {
     id: 3122,
     name: "R.E.K.3000",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3037: Item = {
@@ -484,8 +522,10 @@ export const Accessories_3037: Item = {
     id: 3037,
     name: "天气收音机",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3096: Item = {
@@ -494,8 +534,10 @@ export const Accessories_3096: Item = {
     id: 3096,
     name: "六分仪",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3120: Item = {
@@ -504,8 +546,10 @@ export const Accessories_3120: Item = {
     id: 3120,
     name: "渔民袖珍宝典",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3036: Item = {
@@ -514,8 +558,10 @@ export const Accessories_3036: Item = {
     id: 3036,
     name: "探鱼器",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_3123: Item = {
@@ -524,8 +570,10 @@ export const Accessories_3123: Item = {
     id: 3123,
     name: "个人数字助手",
     Category: Accessories,
+    SubCategory: Information,
     comments: "",
 }
+
 
 
 export const Accessories_53: Item = {
@@ -534,8 +582,10 @@ export const Accessories_53: Item = {
     id: 53,
     name: "云朵瓶",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3201: Item = {
@@ -544,8 +594,10 @@ export const Accessories_3201: Item = {
     id: 3201,
     name: "海啸瓶",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_987: Item = {
@@ -554,8 +606,10 @@ export const Accessories_987: Item = {
     id: 987,
     name: "暴雪瓶",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_857: Item = {
@@ -564,8 +618,10 @@ export const Accessories_857: Item = {
     id: 857,
     name: "沙暴瓶",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1724: Item = {
@@ -574,8 +630,10 @@ export const Accessories_1724: Item = {
     id: 1724,
     name: "罐中臭屁",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_159: Item = {
@@ -584,8 +642,10 @@ export const Accessories_159: Item = {
     id: 159,
     name: "闪亮红气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3225: Item = {
@@ -594,8 +654,10 @@ export const Accessories_3225: Item = {
     id: 3225,
     name: "气球河豚鱼",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_399: Item = {
@@ -604,8 +666,10 @@ export const Accessories_399: Item = {
     id: 399,
     name: "云朵气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3241: Item = {
@@ -614,8 +678,10 @@ export const Accessories_3241: Item = {
     id: 3241,
     name: "鲨鱼龙气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1163: Item = {
@@ -624,8 +690,10 @@ export const Accessories_1163: Item = {
     id: 1163,
     name: "暴雪气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_983: Item = {
@@ -634,8 +702,10 @@ export const Accessories_983: Item = {
     id: 983,
     name: "沙暴气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1863: Item = {
@@ -644,8 +714,10 @@ export const Accessories_1863: Item = {
     id: 1863,
     name: "臭屁气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1249: Item = {
@@ -654,8 +726,10 @@ export const Accessories_1249: Item = {
     id: 1249,
     name: "蜂蜜气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1164: Item = {
@@ -664,8 +738,10 @@ export const Accessories_1164: Item = {
     id: 1164,
     name: "气球束",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_158: Item = {
@@ -674,8 +750,10 @@ export const Accessories_158: Item = {
     id: 158,
     name: "幸运马掌",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1250: Item = {
@@ -684,8 +762,10 @@ export const Accessories_1250: Item = {
     id: 1250,
     name: "蓝马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3252: Item = {
@@ -694,8 +774,10 @@ export const Accessories_3252: Item = {
     id: 3252,
     name: "粉马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1251: Item = {
@@ -704,8 +786,10 @@ export const Accessories_1251: Item = {
     id: 1251,
     name: "白马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_1252: Item = {
@@ -714,8 +798,10 @@ export const Accessories_1252: Item = {
     id: 1252,
     name: "黄马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3250: Item = {
@@ -724,8 +810,10 @@ export const Accessories_3250: Item = {
     id: 3250,
     name: "绿马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_3251: Item = {
@@ -734,8 +822,10 @@ export const Accessories_3251: Item = {
     id: 3251,
     name: "琥珀马掌气球",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_5331: Item = {
@@ -744,8 +834,10 @@ export const Accessories_5331: Item = {
     id: 5331,
     name: "马掌气球束",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_934: Item = {
@@ -754,8 +846,10 @@ export const Accessories_934: Item = {
     id: 934,
     name: "飞毯",
     Category: Accessories,
+    SubCategory: TwiceJump,
     comments: "",
 }
+
 
 
 export const Accessories_4978: Item = {
@@ -764,8 +858,10 @@ export const Accessories_4978: Item = {
     id: 4978,
     name: "雏翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_492: Item = {
@@ -774,8 +870,10 @@ export const Accessories_492: Item = {
     id: 492,
     name: "恶魔之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_493: Item = {
@@ -784,8 +882,10 @@ export const Accessories_493: Item = {
     id: 493,
     name: "天使之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1162: Item = {
@@ -794,8 +894,10 @@ export const Accessories_1162: Item = {
     id: 1162,
     name: "叶之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_822: Item = {
@@ -804,8 +906,10 @@ export const Accessories_822: Item = {
     id: 822,
     name: "冰冻之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_761: Item = {
@@ -814,8 +918,10 @@ export const Accessories_761: Item = {
     id: 761,
     name: "仙灵之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_785: Item = {
@@ -824,8 +930,10 @@ export const Accessories_785: Item = {
     id: 785,
     name: "鸟妖之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_2494: Item = {
@@ -834,8 +942,10 @@ export const Accessories_2494: Item = {
     id: 2494,
     name: "鳍翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_748: Item = {
@@ -844,8 +954,10 @@ export const Accessories_748: Item = {
     id: 748,
     name: "喷气背包",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_749: Item = {
@@ -854,8 +966,10 @@ export const Accessories_749: Item = {
     id: 749,
     name: "蝴蝶之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1515: Item = {
@@ -864,8 +978,10 @@ export const Accessories_1515: Item = {
     id: 1515,
     name: "蜜蜂之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1165: Item = {
@@ -874,8 +990,10 @@ export const Accessories_1165: Item = {
     id: 1165,
     name: "蝙蝠之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_821: Item = {
@@ -884,8 +1002,10 @@ export const Accessories_821: Item = {
     id: 821,
     name: "烈焰之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_786: Item = {
@@ -894,8 +1014,10 @@ export const Accessories_786: Item = {
     id: 786,
     name: "骨之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_823: Item = {
@@ -904,8 +1026,10 @@ export const Accessories_823: Item = {
     id: 823,
     name: "幽灵之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1866: Item = {
@@ -914,8 +1038,10 @@ export const Accessories_1866: Item = {
     id: 1866,
     name: "悬浮板",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_2770: Item = {
@@ -924,8 +1050,10 @@ export const Accessories_2770: Item = {
     id: 2770,
     name: "蛾怪之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_2280: Item = {
@@ -934,8 +1062,10 @@ export const Accessories_2280: Item = {
     id: 2280,
     name: "甲虫之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1830: Item = {
@@ -944,8 +1074,10 @@ export const Accessories_1830: Item = {
     id: 1830,
     name: "阴森之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1871: Item = {
@@ -954,8 +1086,10 @@ export const Accessories_1871: Item = {
     id: 1871,
     name: "喜庆之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_1797: Item = {
@@ -964,8 +1098,10 @@ export const Accessories_1797: Item = {
     id: 1797,
     name: "褴褛仙灵之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_948: Item = {
@@ -974,8 +1110,10 @@ export const Accessories_948: Item = {
     id: 948,
     name: "蒸汽朋克之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_3883: Item = {
@@ -984,8 +1122,10 @@ export const Accessories_3883: Item = {
     id: 3883,
     name: "双足翼龙之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_2609: Item = {
@@ -994,8 +1134,10 @@ export const Accessories_2609: Item = {
     id: 2609,
     name: "猪龙鱼之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_4823: Item = {
@@ -1004,8 +1146,10 @@ export const Accessories_4823: Item = {
     id: 4823,
     name: "女皇之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_3468: Item = {
@@ -1014,8 +1158,10 @@ export const Accessories_3468: Item = {
     id: 3468,
     name: "日耀之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_3469: Item = {
@@ -1024,8 +1170,10 @@ export const Accessories_3469: Item = {
     id: 3469,
     name: "星旋强化翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_3470: Item = {
@@ -1034,8 +1182,10 @@ export const Accessories_3470: Item = {
     id: 3470,
     name: "星云斗篷",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_3471: Item = {
@@ -1044,8 +1194,10 @@ export const Accessories_3471: Item = {
     id: 3471,
     name: "星尘之翼",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_4954: Item = {
@@ -1054,8 +1206,10 @@ export const Accessories_4954: Item = {
     id: 4954,
     name: "天界星盘",
     Category: Accessories,
+    SubCategory: Wings,
     comments: "",
 }
+
 
 
 export const Accessories_953: Item = {
@@ -1064,8 +1218,10 @@ export const Accessories_953: Item = {
     id: 953,
     name: "攀爬爪",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_975: Item = {
@@ -1074,8 +1230,10 @@ export const Accessories_975: Item = {
     id: 975,
     name: "鞋钉",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_976: Item = {
@@ -1084,8 +1242,10 @@ export const Accessories_976: Item = {
     id: 976,
     name: "猛虎攀爬装备",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_963: Item = {
@@ -1094,8 +1254,10 @@ export const Accessories_963: Item = {
     id: 963,
     name: "黑腰带",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_977: Item = {
@@ -1104,8 +1266,10 @@ export const Accessories_977: Item = {
     id: 977,
     name: "分趾厚底袜",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_984: Item = {
@@ -1114,8 +1278,10 @@ export const Accessories_984: Item = {
     id: 984,
     name: "忍者大师装备",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_2423: Item = {
@@ -1124,8 +1290,10 @@ export const Accessories_2423: Item = {
     id: 2423,
     name: "蛙腿",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_3994: Item = {
@@ -1134,8 +1302,10 @@ export const Accessories_3994: Item = {
     id: 3994,
     name: "青蛙脚蹼",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_3996: Item = {
@@ -1144,8 +1314,10 @@ export const Accessories_3996: Item = {
     id: 3996,
     name: "青蛙蹼",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_3995: Item = {
@@ -1154,8 +1326,10 @@ export const Accessories_3995: Item = {
     id: 3995,
     name: "青蛙装备",
     Category: Accessories,
+    SubCategory: FrogAndNinja,
     comments: "",
 }
+
 
 
 export const Accessories_54: Item = {
@@ -1164,8 +1338,10 @@ export const Accessories_54: Item = {
     id: 54,
     name: "赫尔墨斯靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_1579: Item = {
@@ -1174,8 +1350,10 @@ export const Accessories_1579: Item = {
     id: 1579,
     name: "疾风雪靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_4055: Item = {
@@ -1184,8 +1362,10 @@ export const Accessories_4055: Item = {
     id: 4055,
     name: "沙丘行者靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_128: Item = {
@@ -1194,8 +1374,10 @@ export const Accessories_128: Item = {
     id: 128,
     name: "火箭靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_405: Item = {
@@ -1204,8 +1386,10 @@ export const Accessories_405: Item = {
     id: 405,
     name: "幽灵靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_212: Item = {
@@ -1214,8 +1398,10 @@ export const Accessories_212: Item = {
     id: 212,
     name: "疾风脚镯",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_285: Item = {
@@ -1224,8 +1410,10 @@ export const Accessories_285: Item = {
     id: 285,
     name: "鞋带束头",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_898: Item = {
@@ -1234,8 +1422,10 @@ export const Accessories_898: Item = {
     id: 898,
     name: "闪电靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_950: Item = {
@@ -1244,8 +1434,10 @@ export const Accessories_950: Item = {
     id: 950,
     name: "溜冰鞋",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_1862: Item = {
@@ -1254,8 +1446,10 @@ export const Accessories_1862: Item = {
     id: 1862,
     name: "霜花靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_863: Item = {
@@ -1264,8 +1458,10 @@ export const Accessories_863: Item = {
     id: 863,
     name: "水上漂靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_907: Item = {
@@ -1274,8 +1470,10 @@ export const Accessories_907: Item = {
     id: 907,
     name: "黑曜石水上漂靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_908: Item = {
@@ -1284,8 +1482,10 @@ export const Accessories_908: Item = {
     id: 908,
     name: "熔岩靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_5000: Item = {
@@ -1294,8 +1494,10 @@ export const Accessories_5000: Item = {
     id: 5000,
     name: "泰拉闪耀靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_3200: Item = {
@@ -1304,8 +1506,10 @@ export const Accessories_3200: Item = {
     id: 3200,
     name: "旗鱼靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_3990: Item = {
@@ -1314,8 +1518,10 @@ export const Accessories_3990: Item = {
     id: 3990,
     name: "水陆两用靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_4822: Item = {
@@ -1324,8 +1530,10 @@ export const Accessories_4822: Item = {
     id: 4822,
     name: "烈焰靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_4874: Item = {
@@ -1334,8 +1542,10 @@ export const Accessories_4874: Item = {
     id: 4874,
     name: "狱炎战靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_3017: Item = {
@@ -1344,8 +1554,10 @@ export const Accessories_3017: Item = {
     id: 3017,
     name: "花靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_3993: Item = {
@@ -1354,8 +1566,10 @@ export const Accessories_3993: Item = {
     id: 3993,
     name: "仙灵靴",
     Category: Accessories,
+    SubCategory: Shoes,
     comments: "",
 }
+
 
 
 export const Accessories_193: Item = {
@@ -1364,8 +1578,10 @@ export const Accessories_193: Item = {
     id: 193,
     name: "黑曜石骷髅头",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_396: Item = {
@@ -1374,8 +1590,10 @@ export const Accessories_396: Item = {
     id: 396,
     name: "黑曜石马掌",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_1323: Item = {
@@ -1384,8 +1602,10 @@ export const Accessories_1323: Item = {
     id: 1323,
     name: "黑曜石玫瑰",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_4003: Item = {
@@ -1394,8 +1614,10 @@ export const Accessories_4003: Item = {
     id: 4003,
     name: "熔火骷髅头玫瑰",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_4004: Item = {
@@ -1404,8 +1626,10 @@ export const Accessories_4004: Item = {
     id: 4004,
     name: "黑曜石骷髅头玫瑰",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_906: Item = {
@@ -1414,8 +1638,10 @@ export const Accessories_906: Item = {
     id: 906,
     name: "熔岩护身符",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_3999: Item = {
@@ -1424,8 +1650,10 @@ export const Accessories_3999: Item = {
     id: 3999,
     name: "岩浆骷髅头",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_4038: Item = {
@@ -1434,8 +1662,10 @@ export const Accessories_4038: Item = {
     id: 4038,
     name: "熔火护身符",
     Category: Accessories,
+    SubCategory: Fireproof,
     comments: "",
 }
+
 
 
 export const Accessories_49: Item = {
@@ -1444,8 +1674,10 @@ export const Accessories_49: Item = {
     id: 49,
     name: "再生手环",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_111: Item = {
@@ -1454,8 +1686,10 @@ export const Accessories_111: Item = {
     id: 111,
     name: "星力手环",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_982: Item = {
@@ -1464,8 +1698,10 @@ export const Accessories_982: Item = {
     id: 982,
     name: "魔力再生手环",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_1595: Item = {
@@ -1474,8 +1710,10 @@ export const Accessories_1595: Item = {
     id: 1595,
     name: "魔法手铐",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_2219: Item = {
@@ -1484,8 +1722,10 @@ export const Accessories_2219: Item = {
     id: 2219,
     name: "天界磁石",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_2221: Item = {
@@ -1494,8 +1734,10 @@ export const Accessories_2221: Item = {
     id: 2221,
     name: "天界手铐",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_216: Item = {
@@ -1504,8 +1746,10 @@ export const Accessories_216: Item = {
     id: 216,
     name: "镣铐",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_535: Item = {
@@ -1514,8 +1758,10 @@ export const Accessories_535: Item = {
     id: 535,
     name: "点金石",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_860: Item = {
@@ -1524,8 +1770,10 @@ export const Accessories_860: Item = {
     id: 860,
     name: "神话护身符",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_223: Item = {
@@ -1534,8 +1782,10 @@ export const Accessories_223: Item = {
     id: 223,
     name: "大自然的恩赐",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_555: Item = {
@@ -1544,8 +1794,10 @@ export const Accessories_555: Item = {
     id: 555,
     name: "魔力花",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_4001: Item = {
@@ -1554,8 +1806,10 @@ export const Accessories_4001: Item = {
     id: 4001,
     name: "魔力斗篷",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_3991: Item = {
@@ -1564,8 +1818,10 @@ export const Accessories_3991: Item = {
     id: 3991,
     name: "奥术花",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_4000: Item = {
@@ -1574,8 +1830,10 @@ export const Accessories_4000: Item = {
     id: 4000,
     name: "磁花",
     Category: Accessories,
+    SubCategory: HPAndMP,
     comments: "",
 }
+
 
 
 export const Accessories_887: Item = {
@@ -1584,8 +1842,10 @@ export const Accessories_887: Item = {
     id: 887,
     name: "牛黄",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_885: Item = {
@@ -1594,8 +1854,10 @@ export const Accessories_885: Item = {
     id: 885,
     name: "粘性绷带",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_902: Item = {
@@ -1604,8 +1866,10 @@ export const Accessories_902: Item = {
     id: 902,
     name: "药用绷带",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_886: Item = {
@@ -1614,8 +1878,10 @@ export const Accessories_886: Item = {
     id: 886,
     name: "盔甲抛光剂",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_892: Item = {
@@ -1624,8 +1890,10 @@ export const Accessories_892: Item = {
     id: 892,
     name: "维生素",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_901: Item = {
@@ -1634,8 +1902,10 @@ export const Accessories_901: Item = {
     id: 901,
     name: "盔甲背带",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_889: Item = {
@@ -1644,8 +1914,10 @@ export const Accessories_889: Item = {
     id: 889,
     name: "快走时钟",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_893: Item = {
@@ -1654,8 +1926,10 @@ export const Accessories_893: Item = {
     id: 893,
     name: "三折地图",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_903: Item = {
@@ -1664,8 +1938,10 @@ export const Accessories_903: Item = {
     id: 903,
     name: "计划书",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_890: Item = {
@@ -1674,8 +1950,10 @@ export const Accessories_890: Item = {
     id: 890,
     name: "扩音器",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_891: Item = {
@@ -1684,8 +1962,10 @@ export const Accessories_891: Item = {
     id: 891,
     name: "邪眼",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_904: Item = {
@@ -1694,8 +1974,10 @@ export const Accessories_904: Item = {
     id: 904,
     name: "反诅咒咒语",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_888: Item = {
@@ -1704,8 +1986,10 @@ export const Accessories_888: Item = {
     id: 888,
     name: "蒙眼布",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_3781: Item = {
@@ -1714,8 +1998,10 @@ export const Accessories_3781: Item = {
     id: 3781,
     name: "袖珍镜",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_5354: Item = {
@@ -1724,8 +2010,10 @@ export const Accessories_5354: Item = {
     id: 5354,
     name: "反光墨镜",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_1612: Item = {
@@ -1734,8 +2022,10 @@ export const Accessories_1612: Item = {
     id: 1612,
     name: "十字章护身符",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_156: Item = {
@@ -1744,8 +2034,10 @@ export const Accessories_156: Item = {
     id: 156,
     name: "钴护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_397: Item = {
@@ -1754,8 +2046,10 @@ export const Accessories_397: Item = {
     id: 397,
     name: "黑曜石护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_1613: Item = {
@@ -1764,8 +2058,10 @@ export const Accessories_1613: Item = {
     id: 1613,
     name: "十字章护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_938: Item = {
@@ -1774,8 +2070,10 @@ export const Accessories_938: Item = {
     id: 938,
     name: "圣骑士护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_1253: Item = {
@@ -1784,8 +2082,10 @@ export const Accessories_1253: Item = {
     id: 1253,
     name: "冰冻海龟壳",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_3016: Item = {
@@ -1794,8 +2094,10 @@ export const Accessories_3016: Item = {
     id: 3016,
     name: "血肉指虎",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_3997: Item = {
@@ -1804,8 +2106,10 @@ export const Accessories_3997: Item = {
     id: 3997,
     name: "冰冻护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_3998: Item = {
@@ -1814,8 +2118,10 @@ export const Accessories_3998: Item = {
     id: 3998,
     name: "英雄护盾",
     Category: Accessories,
+    SubCategory: Shield,
     comments: "",
 }
+
 
 
 export const Accessories_211: Item = {
@@ -1824,8 +2130,10 @@ export const Accessories_211: Item = {
     id: 211,
     name: "猛爪手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_536: Item = {
@@ -1834,8 +2142,10 @@ export const Accessories_536: Item = {
     id: 536,
     name: "泰坦手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_897: Item = {
@@ -1844,8 +2154,10 @@ export const Accessories_897: Item = {
     id: 897,
     name: "强力手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_936: Item = {
@@ -1854,8 +2166,10 @@ export const Accessories_936: Item = {
     id: 936,
     name: "机械手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_1343: Item = {
@@ -1864,8 +2178,10 @@ export const Accessories_1343: Item = {
     id: 1343,
     name: "烈火手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_3992: Item = {
@@ -1874,8 +2190,10 @@ export const Accessories_3992: Item = {
     id: 3992,
     name: "狂战士手套",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_1322: Item = {
@@ -1884,8 +2202,10 @@ export const Accessories_1322: Item = {
     id: 1322,
     name: "岩浆石",
     Category: Accessories,
+    SubCategory: Glove,
     comments: "",
 }
+
 
 
 export const Accessories_490: Item = {
@@ -1894,8 +2214,10 @@ export const Accessories_490: Item = {
     id: 490,
     name: "战士徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_491: Item = {
@@ -1904,8 +2226,10 @@ export const Accessories_491: Item = {
     id: 491,
     name: "游侠徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_489: Item = {
@@ -1914,8 +2238,10 @@ export const Accessories_489: Item = {
     id: 489,
     name: "巫士徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_2998: Item = {
@@ -1924,8 +2250,10 @@ export const Accessories_2998: Item = {
     id: 2998,
     name: "召唤师徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_935: Item = {
@@ -1934,8 +2262,10 @@ export const Accessories_935: Item = {
     id: 935,
     name: "复仇者徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_2220: Item = {
@@ -1944,8 +2274,10 @@ export const Accessories_2220: Item = {
     id: 2220,
     name: "天界徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_1248: Item = {
@@ -1954,8 +2286,10 @@ export const Accessories_1248: Item = {
     id: 1248,
     name: "石巨人之眼",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_1301: Item = {
@@ -1964,8 +2298,10 @@ export const Accessories_1301: Item = {
     id: 1301,
     name: "毁灭者徽章",
     Category: Accessories,
+    SubCategory: Emblem,
     comments: "",
 }
+
 
 
 export const Accessories_485: Item = {
@@ -1974,8 +2310,10 @@ export const Accessories_485: Item = {
     id: 485,
     name: "月光护身符",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_497: Item = {
@@ -1984,8 +2322,10 @@ export const Accessories_497: Item = {
     id: 497,
     name: "海神贝壳",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_899: Item = {
@@ -1994,8 +2334,10 @@ export const Accessories_899: Item = {
     id: 899,
     name: "太阳石",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_900: Item = {
@@ -2004,8 +2346,10 @@ export const Accessories_900: Item = {
     id: 900,
     name: "月亮石",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_1865: Item = {
@@ -2014,8 +2358,10 @@ export const Accessories_1865: Item = {
     id: 1865,
     name: "天界石",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_861: Item = {
@@ -2024,8 +2370,10 @@ export const Accessories_861: Item = {
     id: 861,
     name: "月亮贝壳",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_3110: Item = {
@@ -2034,8 +2382,10 @@ export const Accessories_3110: Item = {
     id: 3110,
     name: "天界贝壳",
     Category: Accessories,
+    SubCategory: CelestialShell,
     comments: "",
 }
+
 
 
 export const Accessories_532: Item = {
@@ -2044,8 +2394,10 @@ export const Accessories_532: Item = {
     id: 532,
     name: "星星斗篷",
     Category: Accessories,
+    SubCategory: Cloak,
     comments: "",
 }
+
 
 
 export const Accessories_1132: Item = {
@@ -2054,8 +2406,10 @@ export const Accessories_1132: Item = {
     id: 1132,
     name: "蜂窝",
     Category: Accessories,
+    SubCategory: Cloak,
     comments: "",
 }
+
 
 
 export const Accessories_1247: Item = {
@@ -2064,8 +2418,10 @@ export const Accessories_1247: Item = {
     id: 1247,
     name: "蜜蜂斗篷",
     Category: Accessories,
+    SubCategory: Cloak,
     comments: "",
 }
+
 
 
 export const Accessories_1167: Item = {
@@ -2074,8 +2430,10 @@ export const Accessories_1167: Item = {
     id: 1167,
     name: "大力士甲虫",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_1845: Item = {
@@ -2084,8 +2442,10 @@ export const Accessories_1845: Item = {
     id: 1845,
     name: "死灵卷轴",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_1864: Item = {
@@ -2094,8 +2454,10 @@ export const Accessories_1864: Item = {
     id: 1864,
     name: "甲虫莎草纸",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_3809: Item = {
@@ -2104,8 +2466,10 @@ export const Accessories_3809: Item = {
     id: 3809,
     name: "学徒围巾",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_3810: Item = {
@@ -2114,8 +2478,10 @@ export const Accessories_3810: Item = {
     id: 3810,
     name: "侍卫护盾",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_3811: Item = {
@@ -2124,8 +2490,10 @@ export const Accessories_3811: Item = {
     id: 3811,
     name: "女猎人圆盾",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_3812: Item = {
@@ -2134,8 +2502,10 @@ export const Accessories_3812: Item = {
     id: 3812,
     name: "武僧腰带",
     Category: Accessories,
+    SubCategory: Summoning,
     comments: "",
 }
+
 
 
 export const Accessories_1321: Item = {
@@ -2144,8 +2514,10 @@ export const Accessories_1321: Item = {
     id: 1321,
     name: "魔法箭袋",
     Category: Accessories,
+    SubCategory: Quiver,
     comments: "",
 }
+
 
 
 export const Accessories_4002: Item = {
@@ -2154,8 +2526,10 @@ export const Accessories_4002: Item = {
     id: 4002,
     name: "熔火箭袋",
     Category: Accessories,
+    SubCategory: Quiver,
     comments: "",
 }
+
 
 
 export const Accessories_4006: Item = {
@@ -2164,8 +2538,10 @@ export const Accessories_4006: Item = {
     id: 4006,
     name: "潜行者箭袋",
     Category: Accessories,
+    SubCategory: Quiver,
     comments: "",
 }
+
 
 
 export const Accessories_1300: Item = {
@@ -2174,8 +2550,10 @@ export const Accessories_1300: Item = {
     id: 1300,
     name: "步枪瞄准镜",
     Category: Accessories,
+    SubCategory: Scope,
     comments: "",
 }
+
 
 
 export const Accessories_1858: Item = {
@@ -2184,8 +2562,10 @@ export const Accessories_1858: Item = {
     id: 1858,
     name: "狙击镜",
     Category: Accessories,
+    SubCategory: Scope,
     comments: "",
 }
+
 
 
 export const Accessories_3015: Item = {
@@ -2194,8 +2574,10 @@ export const Accessories_3015: Item = {
     id: 3015,
     name: "腐香囊",
     Category: Accessories,
+    SubCategory: Scope,
     comments: "",
 }
+
 
 
 export const Accessories_4005: Item = {
@@ -2204,8 +2586,10 @@ export const Accessories_4005: Item = {
     id: 4005,
     name: "侦察镜",
     Category: Accessories,
+    SubCategory: Scope,
     comments: "",
 }
+
 
 
 export const Accessories_5107: Item = {
@@ -2214,8 +2598,10 @@ export const Accessories_5107: Item = {
     id: 5107,
     name: "魔光护符",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_3212: Item = {
@@ -2224,8 +2610,10 @@ export const Accessories_3212: Item = {
     id: 3212,
     name: "鲨牙项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_4007: Item = {
@@ -2234,8 +2622,10 @@ export const Accessories_4007: Item = {
     id: 4007,
     name: "毒刺项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_1290: Item = {
@@ -2244,8 +2634,10 @@ export const Accessories_1290: Item = {
     id: 1290,
     name: "恐慌项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_1578: Item = {
@@ -2254,8 +2646,10 @@ export const Accessories_1578: Item = {
     id: 1578,
     name: "甜心项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_1303: Item = {
@@ -2264,8 +2658,10 @@ export const Accessories_1303: Item = {
     id: 1303,
     name: "水母项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_554: Item = {
@@ -2274,8 +2670,10 @@ export const Accessories_554: Item = {
     id: 554,
     name: "十字项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_862: Item = {
@@ -2284,8 +2682,10 @@ export const Accessories_862: Item = {
     id: 862,
     name: "星星面纱",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_1158: Item = {
@@ -2294,8 +2694,10 @@ export const Accessories_1158: Item = {
     id: 1158,
     name: "矮人项链",
     Category: Accessories,
+    SubCategory: Necklace,
     comments: "",
 }
+
 
 
 export const Accessories_267: Item = {
@@ -2304,8 +2706,10 @@ export const Accessories_267: Item = {
     id: 267,
     name: "向导巫毒娃娃",
     Category: Accessories,
+    SubCategory: Doll,
     comments: "",
 }
+
 
 
 export const Accessories_1307: Item = {
@@ -2314,8 +2718,10 @@ export const Accessories_1307: Item = {
     id: 1307,
     name: "服装商巫毒娃娃",
     Category: Accessories,
+    SubCategory: Doll,
     comments: "",
 }
+
 
 
 export const Accessories_3090: Item = {
@@ -2324,8 +2730,10 @@ export const Accessories_3090: Item = {
     id: 3090,
     name: "皇家凝胶",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3097: Item = {
@@ -2334,8 +2742,10 @@ export const Accessories_3097: Item = {
     id: 3097,
     name: "克苏鲁护盾",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3223: Item = {
@@ -2344,8 +2754,10 @@ export const Accessories_3223: Item = {
     id: 3223,
     name: "混乱之脑",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3224: Item = {
@@ -2354,8 +2766,10 @@ export const Accessories_3224: Item = {
     id: 3224,
     name: "蠕虫围巾",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3333: Item = {
@@ -2364,8 +2778,10 @@ export const Accessories_3333: Item = {
     id: 3333,
     name: "蜂巢背包",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3245: Item = {
@@ -2374,8 +2790,10 @@ export const Accessories_3245: Item = {
     id: 3245,
     name: "骨头手套",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_5100: Item = {
@@ -2384,8 +2802,10 @@ export const Accessories_5100: Item = {
     id: 5100,
     name: "骸骨头盔",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_4987: Item = {
@@ -2394,8 +2814,10 @@ export const Accessories_4987: Item = {
     id: 4987,
     name: "挥发明胶",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3336: Item = {
@@ -2404,8 +2826,10 @@ export const Accessories_3336: Item = {
     id: 3336,
     name: "孢子囊",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3337: Item = {
@@ -2414,8 +2838,10 @@ export const Accessories_3337: Item = {
     id: 3337,
     name: "闪亮石",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_4989: Item = {
@@ -2424,8 +2850,10 @@ export const Accessories_4989: Item = {
     id: 4989,
     name: "翱翔徽章",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_1131: Item = {
@@ -2434,8 +2862,10 @@ export const Accessories_1131: Item = {
     id: 1131,
     name: "重力球",
     Category: Accessories,
+    SubCategory: Expert,
     comments: "",
 }
+
 
 
 export const Accessories_3293: Item = {
@@ -2444,8 +2874,10 @@ export const Accessories_3293: Item = {
     id: 3293,
     name: "红绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3294: Item = {
@@ -2454,8 +2886,10 @@ export const Accessories_3294: Item = {
     id: 3294,
     name: "橙绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3295: Item = {
@@ -2464,8 +2898,10 @@ export const Accessories_3295: Item = {
     id: 3295,
     name: "黄绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3296: Item = {
@@ -2474,8 +2910,10 @@ export const Accessories_3296: Item = {
     id: 3296,
     name: "橙绿绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3297: Item = {
@@ -2484,8 +2922,10 @@ export const Accessories_3297: Item = {
     id: 3297,
     name: "绿绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3298: Item = {
@@ -2494,8 +2934,10 @@ export const Accessories_3298: Item = {
     id: 3298,
     name: "青绿绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3299: Item = {
@@ -2504,8 +2946,10 @@ export const Accessories_3299: Item = {
     id: 3299,
     name: "青绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3300: Item = {
@@ -2514,8 +2958,10 @@ export const Accessories_3300: Item = {
     id: 3300,
     name: "天蓝绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3301: Item = {
@@ -2524,8 +2970,10 @@ export const Accessories_3301: Item = {
     id: 3301,
     name: "蓝绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3302: Item = {
@@ -2534,8 +2982,10 @@ export const Accessories_3302: Item = {
     id: 3302,
     name: "紫绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3303: Item = {
@@ -2544,8 +2994,10 @@ export const Accessories_3303: Item = {
     id: 3303,
     name: "蓝紫绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3304: Item = {
@@ -2554,8 +3006,10 @@ export const Accessories_3304: Item = {
     id: 3304,
     name: "粉绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3305: Item = {
@@ -2564,8 +3018,10 @@ export const Accessories_3305: Item = {
     id: 3305,
     name: "棕绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3306: Item = {
@@ -2574,8 +3030,10 @@ export const Accessories_3306: Item = {
     id: 3306,
     name: "白绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3307: Item = {
@@ -2584,8 +3042,10 @@ export const Accessories_3307: Item = {
     id: 3307,
     name: "彩虹绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3308: Item = {
@@ -2594,8 +3054,10 @@ export const Accessories_3308: Item = {
     id: 3308,
     name: "黑绳",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3310: Item = {
@@ -2604,8 +3066,10 @@ export const Accessories_3310: Item = {
     id: 3310,
     name: "蓝平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3311: Item = {
@@ -2614,8 +3078,10 @@ export const Accessories_3311: Item = {
     id: 3311,
     name: "绿平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3312: Item = {
@@ -2624,8 +3090,10 @@ export const Accessories_3312: Item = {
     id: 3312,
     name: "紫平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3313: Item = {
@@ -2634,8 +3102,10 @@ export const Accessories_3313: Item = {
     id: 3313,
     name: "红平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3309: Item = {
@@ -2644,8 +3114,10 @@ export const Accessories_3309: Item = {
     id: 3309,
     name: "黑平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3314: Item = {
@@ -2654,8 +3126,10 @@ export const Accessories_3314: Item = {
     id: 3314,
     name: "黄平衡锤",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3334: Item = {
@@ -2664,8 +3138,10 @@ export const Accessories_3334: Item = {
     id: 3334,
     name: "悠悠球手套",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_3366: Item = {
@@ -2674,8 +3150,10 @@ export const Accessories_3366: Item = {
     id: 3366,
     name: "悠悠球袋",
     Category: Accessories,
+    SubCategory: YoyosAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_4404: Item = {
@@ -2684,8 +3162,10 @@ export const Accessories_4404: Item = {
     id: 4404,
     name: "浮游圈",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_2373: Item = {
@@ -2694,8 +3174,10 @@ export const Accessories_2373: Item = {
     id: 2373,
     name: "优质钓鱼线",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_2374: Item = {
@@ -2704,8 +3186,10 @@ export const Accessories_2374: Item = {
     id: 2374,
     name: "渔夫耳环",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_2375: Item = {
@@ -2714,8 +3198,10 @@ export const Accessories_2375: Item = {
     id: 2375,
     name: "钓具箱",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_3721: Item = {
@@ -2724,8 +3210,10 @@ export const Accessories_3721: Item = {
     id: 3721,
     name: "渔夫渔具袋",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_4881: Item = {
@@ -2734,8 +3222,10 @@ export const Accessories_4881: Item = {
     id: 4881,
     name: "防熔岩钓钩",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5064: Item = {
@@ -2744,8 +3234,10 @@ export const Accessories_5064: Item = {
     id: 5064,
     name: "防熔岩渔具袋",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5139: Item = {
@@ -2754,8 +3246,10 @@ export const Accessories_5139: Item = {
     id: 5139,
     name: "钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5140: Item = {
@@ -2764,8 +3258,10 @@ export const Accessories_5140: Item = {
     id: 5140,
     name: "发光钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5141: Item = {
@@ -2774,8 +3270,10 @@ export const Accessories_5141: Item = {
     id: 5141,
     name: "熔岩苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5142: Item = {
@@ -2784,8 +3282,10 @@ export const Accessories_5142: Item = {
     id: 5142,
     name: "氪苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5143: Item = {
@@ -2794,8 +3294,10 @@ export const Accessories_5143: Item = {
     id: 5143,
     name: "氙苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5144: Item = {
@@ -2804,8 +3306,10 @@ export const Accessories_5144: Item = {
     id: 5144,
     name: "氩苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5145: Item = {
@@ -2814,8 +3318,10 @@ export const Accessories_5145: Item = {
     id: 5145,
     name: "氖苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_5146: Item = {
@@ -2824,8 +3330,10 @@ export const Accessories_5146: Item = {
     id: 5146,
     name: "氦苔藓钓鱼浮标",
     Category: Accessories,
+    SubCategory: Fishing,
     comments: "",
 }
+
 
 
 export const Accessories_854: Item = {
@@ -2834,8 +3342,10 @@ export const Accessories_854: Item = {
     id: 854,
     name: "优惠卡",
     Category: Accessories,
+    SubCategory: Pirate,
     comments: "",
 }
+
 
 
 export const Accessories_855: Item = {
@@ -2844,8 +3354,10 @@ export const Accessories_855: Item = {
     id: 855,
     name: "幸运币",
     Category: Accessories,
+    SubCategory: Pirate,
     comments: "",
 }
+
 
 
 export const Accessories_3033: Item = {
@@ -2854,8 +3366,10 @@ export const Accessories_3033: Item = {
     id: 3033,
     name: "金戒指",
     Category: Accessories,
+    SubCategory: Pirate,
     comments: "",
 }
+
 
 
 export const Accessories_3034: Item = {
@@ -2864,8 +3378,10 @@ export const Accessories_3034: Item = {
     id: 3034,
     name: "钱币戒指",
     Category: Accessories,
+    SubCategory: Pirate,
     comments: "",
 }
+
 
 
 export const Accessories_3035: Item = {
@@ -2874,8 +3390,10 @@ export const Accessories_3035: Item = {
     id: 3035,
     name: "贪婪戒指",
     Category: Accessories,
+    SubCategory: Pirate,
     comments: "",
 }
+
 
 
 export const Accessories_1923: Item = {
@@ -2884,8 +3402,10 @@ export const Accessories_1923: Item = {
     id: 1923,
     name: "工具箱",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_407: Item = {
@@ -2894,8 +3414,10 @@ export const Accessories_407: Item = {
     id: 407,
     name: "工具腰带",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_2214: Item = {
@@ -2904,8 +3426,10 @@ export const Accessories_2214: Item = {
     id: 2214,
     name: "砌砖刀",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_2215: Item = {
@@ -2914,8 +3438,10 @@ export const Accessories_2215: Item = {
     id: 2215,
     name: "加长握爪",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_2216: Item = {
@@ -2924,8 +3450,10 @@ export const Accessories_2216: Item = {
     id: 2216,
     name: "喷漆器",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_2217: Item = {
@@ -2934,8 +3462,10 @@ export const Accessories_2217: Item = {
     id: 2217,
     name: "便携式水泥搅拌机",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_3061: Item = {
@@ -2944,8 +3474,10 @@ export const Accessories_3061: Item = {
     id: 3061,
     name: "建筑师发明背包",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_4056: Item = {
@@ -2954,8 +3486,10 @@ export const Accessories_4056: Item = {
     id: 4056,
     name: "远古凿子",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_4341: Item = {
@@ -2964,8 +3498,10 @@ export const Accessories_4341: Item = {
     id: 4341,
     name: "梯凳",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_5010: Item = {
@@ -2974,8 +3510,10 @@ export const Accessories_5010: Item = {
     id: 5010,
     name: "宝藏磁石",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_5126: Item = {
@@ -2984,8 +3522,10 @@ export const Accessories_5126: Item = {
     id: 5126,
     name: "创造之手",
     Category: Accessories,
+    SubCategory: Building,
     comments: "",
 }
+
 
 
 export const Accessories_187: Item = {
@@ -2994,8 +3534,10 @@ export const Accessories_187: Item = {
     id: 187,
     name: "脚蹼",
     Category: Accessories,
+    SubCategory: Diving,
     comments: "",
 }
+
 
 
 export const Accessories_394: Item = {
@@ -3004,8 +3546,10 @@ export const Accessories_394: Item = {
     id: 394,
     name: "潜水装备",
     Category: Accessories,
+    SubCategory: Diving,
     comments: "",
 }
+
 
 
 export const Accessories_1860: Item = {
@@ -3014,8 +3558,10 @@ export const Accessories_1860: Item = {
     id: 1860,
     name: "水母潜水装备",
     Category: Accessories,
+    SubCategory: Diving,
     comments: "",
 }
+
 
 
 export const Accessories_1861: Item = {
@@ -3024,8 +3570,10 @@ export const Accessories_1861: Item = {
     id: 1861,
     name: "北极潜水装备",
     Category: Accessories,
+    SubCategory: Diving,
     comments: "",
 }
+
 
 
 export const Accessories_3989: Item = {
@@ -3034,8 +3582,10 @@ export const Accessories_3989: Item = {
     id: 3989,
     name: "高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4242: Item = {
@@ -3044,8 +3594,10 @@ export const Accessories_4242: Item = {
     id: 4242,
     name: "黑高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4243: Item = {
@@ -3054,8 +3606,10 @@ export const Accessories_4243: Item = {
     id: 4243,
     name: "蓝高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4244: Item = {
@@ -3064,8 +3618,10 @@ export const Accessories_4244: Item = {
     id: 4244,
     name: "棕高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4245: Item = {
@@ -3074,8 +3630,10 @@ export const Accessories_4245: Item = {
     id: 4245,
     name: "青高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4246: Item = {
@@ -3084,8 +3642,10 @@ export const Accessories_4246: Item = {
     id: 4246,
     name: "绿高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4247: Item = {
@@ -3094,8 +3654,10 @@ export const Accessories_4247: Item = {
     id: 4247,
     name: "橙绿高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4248: Item = {
@@ -3104,8 +3666,10 @@ export const Accessories_4248: Item = {
     id: 4248,
     name: "橙高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4249: Item = {
@@ -3114,8 +3678,10 @@ export const Accessories_4249: Item = {
     id: 4249,
     name: "粉高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4250: Item = {
@@ -3124,8 +3690,10 @@ export const Accessories_4250: Item = {
     id: 4250,
     name: "紫高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4251: Item = {
@@ -3134,8 +3702,10 @@ export const Accessories_4251: Item = {
     id: 4251,
     name: "红高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4252: Item = {
@@ -3144,8 +3714,10 @@ export const Accessories_4252: Item = {
     id: 4252,
     name: "天蓝高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4253: Item = {
@@ -3154,8 +3726,10 @@ export const Accessories_4253: Item = {
     id: 4253,
     name: "青绿高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4254: Item = {
@@ -3164,8 +3738,10 @@ export const Accessories_4254: Item = {
     id: 4254,
     name: "蓝紫高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4255: Item = {
@@ -3174,8 +3750,10 @@ export const Accessories_4255: Item = {
     id: 4255,
     name: "黄高尔夫球",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4409: Item = {
@@ -3184,8 +3762,10 @@ export const Accessories_4409: Item = {
     id: 4409,
     name: "幽灵护目镜",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_4762: Item = {
@@ -3194,8 +3774,10 @@ export const Accessories_4762: Item = {
     id: 4762,
     name: "小动物香波",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_3730: Item = {
@@ -3204,8 +3786,10 @@ export const Accessories_3730: Item = {
     id: 3730,
     name: "派对气球束",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_3731: Item = {
@@ -3214,8 +3798,10 @@ export const Accessories_3731: Item = {
     id: 3731,
     name: "气球兔兔",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_5113: Item = {
@@ -3224,8 +3810,10 @@ export const Accessories_5113: Item = {
     id: 5113,
     name: "收音机",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_208: Item = {
@@ -3234,8 +3822,10 @@ export const Accessories_208: Item = {
     id: 208,
     name: "丛林玫瑰",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "派对 服装商",
 }
+
 
 
 export const Accessories_5355: Item = {
@@ -3244,8 +3834,10 @@ export const Accessories_5355: Item = {
     id: 5355,
     name: "炫彩斗篷",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "派对 服装商",
 }
+
 
 
 export const Accessories_5452: Item = {
@@ -3254,8 +3846,10 @@ export const Accessories_5452: Item = {
     id: 5452,
     name: "FPV飞行眼镜",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_5075: Item = {
@@ -3264,8 +3858,10 @@ export const Accessories_5075: Item = {
     id: 5075,
     name: "彩虹光标",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_5076: Item = {
@@ -3274,8 +3870,10 @@ export const Accessories_5076: Item = {
     id: 5076,
     name: "皇家权杖",
     Category: Accessories,
+    SubCategory: Decoration,
     comments: "",
 }
+
 
 
 export const Accessories_1987: Item = {
@@ -3284,8 +3882,10 @@ export const Accessories_1987: Item = {
     id: 1987,
     name: "天使光环",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_2276: Item = {
@@ -3294,8 +3894,10 @@ export const Accessories_2276: Item = {
     id: 2276,
     name: "钻石戒指",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_2284: Item = {
@@ -3304,8 +3906,10 @@ export const Accessories_2284: Item = {
     id: 2284,
     name: "猩红斗篷",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_2285: Item = {
@@ -3314,8 +3918,10 @@ export const Accessories_2285: Item = {
     id: 2285,
     name: "神秘披风",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_2286: Item = {
@@ -3324,8 +3930,10 @@ export const Accessories_2286: Item = {
     id: 2286,
     name: "红披风",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_2287: Item = {
@@ -3334,8 +3942,10 @@ export const Accessories_2287: Item = {
     id: 2287,
     name: "冬季披风",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_4744: Item = {
@@ -3344,8 +3954,10 @@ export const Accessories_4744: Item = {
     id: 4744,
     name: "猎人斗篷",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_4563: Item = {
@@ -3354,8 +3966,10 @@ export const Accessories_4563: Item = {
     id: 4563,
     name: "假独角兽角",
     Category: Accessories,
-    comments: "",
+    SubCategory: Decoration,
+    comments: "旅商",
 }
+
 
 
 export const Accessories_3068: Item = {
@@ -3364,8 +3978,10 @@ export const Accessories_3068: Item = {
     id: 3068,
     name: "植物纤维绳索宝典",
     Category: Accessories,
+    SubCategory: OtherAccessories,
     comments: "",
 }
+
 
 
 export const Accessories_1921: Item = {
@@ -3374,6 +3990,7 @@ export const Accessories_1921: Item = {
     id: 1921,
     name: "暖手宝",
     Category: Accessories,
+    SubCategory: OtherAccessories,
     comments: "",
 }
 

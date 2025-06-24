@@ -1,5 +1,6 @@
 import type { Item } from "../../Interface.ts"
-import { Block } from "../data.Category.zh-CN.ts"
+
+import { NatureBlock, Ore, OtherBlock, TransferBrick, Block } from "../data.SubCategory.zh-CN.ts"
 
 import Block_12Img from "../../../assets/icon/Item_12.png"
 import Block_699Img from "../../../assets/icon/Item_699.png"
@@ -175,14 +176,18 @@ import Block_3640Img from "../../../assets/icon/Item_3640.png"
 import Block_3641Img from "../../../assets/icon/Item_3641.png"
 import Block_3642Img from "../../../assets/icon/Item_3642.png"
 import Block_4091Img from "../../../assets/icon/Item_4091.png"
+
+
 export const Block_12: Item = {
     icon: Block_12Img,
     isCollection: false,
     id: 12,
     name: "铜矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_699: Item = {
@@ -191,8 +196,10 @@ export const Block_699: Item = {
     id: 699,
     name: "锡矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_11: Item = {
@@ -201,8 +208,10 @@ export const Block_11: Item = {
     id: 11,
     name: "铁矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_700: Item = {
@@ -211,8 +220,10 @@ export const Block_700: Item = {
     id: 700,
     name: "铅矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_14: Item = {
@@ -221,8 +232,10 @@ export const Block_14: Item = {
     id: 14,
     name: "银矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_701: Item = {
@@ -231,8 +244,10 @@ export const Block_701: Item = {
     id: 701,
     name: "钨矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_13: Item = {
@@ -241,8 +256,10 @@ export const Block_13: Item = {
     id: 13,
     name: "金矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_702: Item = {
@@ -251,8 +268,10 @@ export const Block_702: Item = {
     id: 702,
     name: "铂金矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4640: Item = {
@@ -261,8 +280,10 @@ export const Block_4640: Item = {
     id: 4640,
     name: "紫晶石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4641: Item = {
@@ -271,8 +292,10 @@ export const Block_4641: Item = {
     id: 4641,
     name: "黄玉石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4642: Item = {
@@ -281,8 +304,10 @@ export const Block_4642: Item = {
     id: 4642,
     name: "蓝玉石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4643: Item = {
@@ -291,8 +316,10 @@ export const Block_4643: Item = {
     id: 4643,
     name: "翡翠石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4644: Item = {
@@ -301,8 +328,10 @@ export const Block_4644: Item = {
     id: 4644,
     name: "红玉石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4646: Item = {
@@ -311,8 +340,10 @@ export const Block_4646: Item = {
     id: 4646,
     name: "琥珀石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_4645: Item = {
@@ -321,8 +352,10 @@ export const Block_4645: Item = {
     id: 4645,
     name: "钻石石块",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_56: Item = {
@@ -331,8 +364,10 @@ export const Block_56: Item = {
     id: 56,
     name: "魔矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_880: Item = {
@@ -341,8 +376,10 @@ export const Block_880: Item = {
     id: 880,
     name: "猩红矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_116: Item = {
@@ -351,8 +388,10 @@ export const Block_116: Item = {
     id: 116,
     name: "陨石",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_174: Item = {
@@ -361,8 +400,10 @@ export const Block_174: Item = {
     id: 174,
     name: "狱石",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_364: Item = {
@@ -371,8 +412,10 @@ export const Block_364: Item = {
     id: 364,
     name: "钴矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_1104: Item = {
@@ -381,8 +424,10 @@ export const Block_1104: Item = {
     id: 1104,
     name: "钯金矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_365: Item = {
@@ -391,8 +436,10 @@ export const Block_365: Item = {
     id: 365,
     name: "秘银矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_1105: Item = {
@@ -401,8 +448,10 @@ export const Block_1105: Item = {
     id: 1105,
     name: "山铜矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_366: Item = {
@@ -411,8 +460,10 @@ export const Block_366: Item = {
     id: 366,
     name: "精金矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_1106: Item = {
@@ -421,8 +472,10 @@ export const Block_1106: Item = {
     id: 1106,
     name: "钛金矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_947: Item = {
@@ -431,8 +484,10 @@ export const Block_947: Item = {
     id: 947,
     name: "叶绿矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_3460: Item = {
@@ -441,8 +496,10 @@ export const Block_3460: Item = {
     id: 3460,
     name: "夜明矿",
     Category: Block,
+    SubCategory: Ore,
     comments: "",
 }
+
 
 
 export const Block_2: Item = {
@@ -451,8 +508,10 @@ export const Block_2: Item = {
     id: 2,
     name: "土块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_133: Item = {
@@ -461,8 +520,10 @@ export const Block_133: Item = {
     id: 133,
     name: "粘土块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_424: Item = {
@@ -471,8 +532,10 @@ export const Block_424: Item = {
     id: 424,
     name: "泥沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3: Item = {
@@ -481,8 +544,10 @@ export const Block_3: Item = {
     id: 3,
     name: "石块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_61: Item = {
@@ -491,8 +556,10 @@ export const Block_61: Item = {
     id: 61,
     name: "黑檀石块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_836: Item = {
@@ -501,8 +568,10 @@ export const Block_836: Item = {
     id: 836,
     name: "猩红石块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_409: Item = {
@@ -511,8 +580,10 @@ export const Block_409: Item = {
     id: 409,
     name: "珍珠石块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_173: Item = {
@@ -521,8 +592,10 @@ export const Block_173: Item = {
     id: 173,
     name: "黑曜石",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_169: Item = {
@@ -531,8 +604,10 @@ export const Block_169: Item = {
     id: 169,
     name: "沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_370: Item = {
@@ -541,8 +616,10 @@ export const Block_370: Item = {
     id: 370,
     name: "黑檀沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_1246: Item = {
@@ -551,8 +628,10 @@ export const Block_1246: Item = {
     id: 1246,
     name: "猩红沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_408: Item = {
@@ -561,8 +640,10 @@ export const Block_408: Item = {
     id: 408,
     name: "珍珠沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3272: Item = {
@@ -571,8 +652,10 @@ export const Block_3272: Item = {
     id: 3272,
     name: "硬化沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3274: Item = {
@@ -581,8 +664,10 @@ export const Block_3274: Item = {
     id: 3274,
     name: "硬化黑檀沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3275: Item = {
@@ -591,8 +676,10 @@ export const Block_3275: Item = {
     id: 3275,
     name: "硬化猩红沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3338: Item = {
@@ -601,8 +688,10 @@ export const Block_3338: Item = {
     id: 3338,
     name: "硬化珍珠沙块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3271: Item = {
@@ -611,8 +700,10 @@ export const Block_3271: Item = {
     id: 3271,
     name: "沙岩块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3276: Item = {
@@ -621,8 +712,10 @@ export const Block_3276: Item = {
     id: 3276,
     name: "黑檀沙岩块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3277: Item = {
@@ -631,8 +724,10 @@ export const Block_3277: Item = {
     id: 3277,
     name: "猩红沙岩块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3339: Item = {
@@ -641,8 +736,10 @@ export const Block_3339: Item = {
     id: 3339,
     name: "珍珠沙岩块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_3347: Item = {
@@ -651,8 +748,10 @@ export const Block_3347: Item = {
     id: 3347,
     name: "沙漠化石",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_593: Item = {
@@ -661,8 +760,10 @@ export const Block_593: Item = {
     id: 593,
     name: "雪块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_664: Item = {
@@ -671,8 +772,10 @@ export const Block_664: Item = {
     id: 664,
     name: "冰雪块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_833: Item = {
@@ -681,8 +784,10 @@ export const Block_833: Item = {
     id: 833,
     name: "紫冰雪块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_835: Item = {
@@ -691,8 +796,10 @@ export const Block_835: Item = {
     id: 835,
     name: "红冰雪块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_834: Item = {
@@ -701,8 +808,10 @@ export const Block_834: Item = {
     id: 834,
     name: "粉冰雪块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_1103: Item = {
@@ -711,8 +820,10 @@ export const Block_1103: Item = {
     id: 1103,
     name: "雪泥块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4391: Item = {
@@ -721,8 +832,10 @@ export const Block_4391: Item = {
     id: 4391,
     name: "薄冰",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_172: Item = {
@@ -731,8 +844,10 @@ export const Block_172: Item = {
     id: 172,
     name: "灰烬块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_176: Item = {
@@ -741,8 +856,10 @@ export const Block_176: Item = {
     id: 176,
     name: "泥块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_751: Item = {
@@ -751,8 +868,10 @@ export const Block_751: Item = {
     id: 751,
     name: "云",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_765: Item = {
@@ -761,8 +880,10 @@ export const Block_765: Item = {
     id: 765,
     name: "雨云",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_1127: Item = {
@@ -771,8 +892,10 @@ export const Block_1127: Item = {
     id: 1127,
     name: "松脆蜂蜜块",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_147: Item = {
@@ -781,8 +904,10 @@ export const Block_147: Item = {
     id: 147,
     name: "尖刺",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_1150: Item = {
@@ -791,8 +916,10 @@ export const Block_1150: Item = {
     id: 1150,
     name: "木尖刺",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4090: Item = {
@@ -801,8 +928,10 @@ export const Block_4090: Item = {
     id: 4090,
     name: "贝壳堆",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4349: Item = {
@@ -811,8 +940,10 @@ export const Block_4349: Item = {
     id: 4349,
     name: "绿苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4350: Item = {
@@ -821,8 +952,10 @@ export const Block_4350: Item = {
     id: 4350,
     name: "棕苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4351: Item = {
@@ -831,8 +964,10 @@ export const Block_4351: Item = {
     id: 4351,
     name: "红苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4352: Item = {
@@ -841,8 +976,10 @@ export const Block_4352: Item = {
     id: 4352,
     name: "蓝苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4353: Item = {
@@ -851,8 +988,10 @@ export const Block_4353: Item = {
     id: 4353,
     name: "紫苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4354: Item = {
@@ -861,8 +1000,10 @@ export const Block_4354: Item = {
     id: 4354,
     name: "熔岩苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4377: Item = {
@@ -871,8 +1012,10 @@ export const Block_4377: Item = {
     id: 4377,
     name: "氪苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4378: Item = {
@@ -881,8 +1024,10 @@ export const Block_4378: Item = {
     id: 4378,
     name: "氙苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_4389: Item = {
@@ -891,8 +1036,10 @@ export const Block_4389: Item = {
     id: 4389,
     name: "氩苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_5127: Item = {
@@ -901,8 +1048,10 @@ export const Block_5127: Item = {
     id: 5127,
     name: "氖苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_5128: Item = {
@@ -911,8 +1060,10 @@ export const Block_5128: Item = {
     id: 5128,
     name: "氦苔藓",
     Category: Block,
+    SubCategory: NatureBlock,
     comments: "",
 }
+
 
 
 export const Block_129: Item = {
@@ -921,8 +1072,10 @@ export const Block_129: Item = {
     id: 129,
     name: "灰砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_2119: Item = {
@@ -931,8 +1084,10 @@ export const Block_2119: Item = {
     id: 2119,
     name: "石板",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_4962: Item = {
@@ -941,8 +1096,10 @@ export const Block_4962: Item = {
     id: 4962,
     name: "石材板",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_131: Item = {
@@ -951,8 +1108,10 @@ export const Block_131: Item = {
     id: 131,
     name: "红砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_413: Item = {
@@ -961,8 +1120,10 @@ export const Block_413: Item = {
     id: 413,
     name: "荧光砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_414: Item = {
@@ -971,8 +1132,10 @@ export const Block_414: Item = {
     id: 414,
     name: "泥石砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_145: Item = {
@@ -981,8 +1144,10 @@ export const Block_145: Item = {
     id: 145,
     name: "铜砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_717: Item = {
@@ -991,8 +1156,10 @@ export const Block_717: Item = {
     id: 717,
     name: "锡砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_3951: Item = {
@@ -1001,8 +1168,10 @@ export const Block_3951: Item = {
     id: 3951,
     name: "铁砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_3953: Item = {
@@ -1011,8 +1180,10 @@ export const Block_3953: Item = {
     id: 3953,
     name: "铅砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_143: Item = {
@@ -1021,8 +1192,10 @@ export const Block_143: Item = {
     id: 143,
     name: "银砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_718: Item = {
@@ -1031,8 +1204,10 @@ export const Block_718: Item = {
     id: 718,
     name: "钨砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_141: Item = {
@@ -1041,8 +1216,10 @@ export const Block_141: Item = {
     id: 141,
     name: "金砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_719: Item = {
@@ -1051,8 +1228,10 @@ export const Block_719: Item = {
     id: 719,
     name: "铂金砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_577: Item = {
@@ -1061,8 +1240,10 @@ export const Block_577: Item = {
     id: 577,
     name: "魔矿砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_2793: Item = {
@@ -1071,8 +1252,10 @@ export const Block_2793: Item = {
     id: 2793,
     name: "猩红矿砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_214: Item = {
@@ -1081,8 +1264,10 @@ export const Block_214: Item = {
     id: 214,
     name: "狱石砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_415: Item = {
@@ -1091,8 +1276,10 @@ export const Block_415: Item = {
     id: 415,
     name: "钴砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1589: Item = {
@@ -1101,8 +1288,10 @@ export const Block_1589: Item = {
     id: 1589,
     name: "钯金柱",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_416: Item = {
@@ -1111,8 +1300,10 @@ export const Block_416: Item = {
     id: 416,
     name: "秘银砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1591: Item = {
@@ -1121,8 +1312,10 @@ export const Block_1591: Item = {
     id: 1591,
     name: "泡泡糖块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_604: Item = {
@@ -1131,8 +1324,10 @@ export const Block_604: Item = {
     id: 604,
     name: "精金梁",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1593: Item = {
@@ -1141,8 +1336,10 @@ export const Block_1593: Item = {
     id: 1593,
     name: "钛石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_2792: Item = {
@@ -1151,8 +1348,10 @@ export const Block_2792: Item = {
     id: 2792,
     name: "叶绿砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_3461: Item = {
@@ -1161,8 +1360,10 @@ export const Block_3461: Item = {
     id: 3461,
     name: "夜明砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5439: Item = {
@@ -1171,8 +1372,10 @@ export const Block_5439: Item = {
     id: 5439,
     name: "熔岩苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5440: Item = {
@@ -1181,8 +1384,10 @@ export const Block_5440: Item = {
     id: 5440,
     name: "氩苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5441: Item = {
@@ -1191,8 +1396,10 @@ export const Block_5441: Item = {
     id: 5441,
     name: "氪苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5442: Item = {
@@ -1201,8 +1408,10 @@ export const Block_5442: Item = {
     id: 5442,
     name: "氙苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5443: Item = {
@@ -1211,8 +1420,10 @@ export const Block_5443: Item = {
     id: 5443,
     name: "氖苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5444: Item = {
@@ -1221,8 +1432,10 @@ export const Block_5444: Item = {
     id: 5444,
     name: "氦苔藓砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_594: Item = {
@@ -1231,8 +1444,10 @@ export const Block_594: Item = {
     id: 594,
     name: "雪砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_607: Item = {
@@ -1241,8 +1456,10 @@ export const Block_607: Item = {
     id: 607,
     name: "沙岩砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_2120: Item = {
@@ -1251,8 +1468,10 @@ export const Block_2120: Item = {
     id: 2120,
     name: "沙岩板",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_609: Item = {
@@ -1261,8 +1480,10 @@ export const Block_609: Item = {
     id: 609,
     name: "黑檀石砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_4050: Item = {
@@ -1271,8 +1492,10 @@ export const Block_4050: Item = {
     id: 4050,
     name: "猩红石砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_412: Item = {
@@ -1281,8 +1504,10 @@ export const Block_412: Item = {
     id: 412,
     name: "珍珠石砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_611: Item = {
@@ -1291,8 +1516,10 @@ export const Block_611: Item = {
     id: 611,
     name: "红泥灰",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_612: Item = {
@@ -1301,8 +1528,10 @@ export const Block_612: Item = {
     id: 612,
     name: "黄泥灰",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_613: Item = {
@@ -1311,8 +1540,10 @@ export const Block_613: Item = {
     id: 613,
     name: "绿泥灰",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_614: Item = {
@@ -1321,8 +1552,10 @@ export const Block_614: Item = {
     id: 614,
     name: "灰泥灰",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_662: Item = {
@@ -1331,8 +1564,10 @@ export const Block_662: Item = {
     id: 662,
     name: "彩虹砖",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1970: Item = {
@@ -1341,8 +1576,10 @@ export const Block_1970: Item = {
     id: 1970,
     name: "紫晶晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1971: Item = {
@@ -1351,8 +1588,10 @@ export const Block_1971: Item = {
     id: 1971,
     name: "黄玉晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1972: Item = {
@@ -1361,8 +1600,10 @@ export const Block_1972: Item = {
     id: 1972,
     name: "蓝玉晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1973: Item = {
@@ -1371,8 +1612,10 @@ export const Block_1973: Item = {
     id: 1973,
     name: "翡翠晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1974: Item = {
@@ -1381,8 +1624,10 @@ export const Block_1974: Item = {
     id: 1974,
     name: "红玉晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1975: Item = {
@@ -1391,8 +1636,10 @@ export const Block_1975: Item = {
     id: 1975,
     name: "钻石晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_1976: Item = {
@@ -1401,8 +1648,10 @@ export const Block_1976: Item = {
     id: 1976,
     name: "琥珀晶莹宝石块",
     Category: Block,
+    SubCategory: Block,
     comments: "",
 }
+
 
 
 export const Block_5401: Item = {
@@ -1411,8 +1660,10 @@ export const Block_5401: Item = {
     id: 5401,
     name: "月锈砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 亏凸月",
 }
+
 
 
 export const Block_5402: Item = {
@@ -1421,8 +1672,10 @@ export const Block_5402: Item = {
     id: 5402,
     name: "暗黑天界砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 残月",
 }
+
 
 
 export const Block_5403: Item = {
@@ -1431,8 +1684,10 @@ export const Block_5403: Item = {
     id: 5403,
     name: "星芒砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 下弦月",
 }
+
 
 
 export const Block_5404: Item = {
@@ -1441,8 +1696,10 @@ export const Block_5404: Item = {
     id: 5404,
     name: "宇宙余烬砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 盈凸月",
 }
+
 
 
 export const Block_5405: Item = {
@@ -1451,8 +1708,10 @@ export const Block_5405: Item = {
     id: 5405,
     name: "冷核砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 上弦月",
 }
+
 
 
 export const Block_5406: Item = {
@@ -1461,8 +1720,10 @@ export const Block_5406: Item = {
     id: 5406,
     name: "水星砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 新月",
 }
+
 
 
 export const Block_5407: Item = {
@@ -1471,8 +1732,10 @@ export const Block_5407: Item = {
     id: 5407,
     name: "星星皇家砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 峨眉月",
 }
+
 
 
 export const Block_5408: Item = {
@@ -1481,8 +1744,10 @@ export const Block_5408: Item = {
     id: 5408,
     name: "天熔砖",
     Category: Block,
-    comments: "",
+    SubCategory: TransferBrick,
+    comments: "夜明砖 满月",
 }
+
 
 
 export const Block_5417: Item = {
@@ -1491,8 +1756,10 @@ export const Block_5417: Item = {
     id: 5417,
     name: "远古蓝砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5419: Item = {
@@ -1501,8 +1768,10 @@ export const Block_5419: Item = {
     id: 5419,
     name: "远古绿砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5421: Item = {
@@ -1511,8 +1780,10 @@ export const Block_5421: Item = {
     id: 5421,
     name: "远古粉砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5423: Item = {
@@ -1521,8 +1792,10 @@ export const Block_5423: Item = {
     id: 5423,
     name: "远古金砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5425: Item = {
@@ -1531,8 +1804,10 @@ export const Block_5425: Item = {
     id: 5425,
     name: "远古银砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5427: Item = {
@@ -1541,8 +1816,10 @@ export const Block_5427: Item = {
     id: 5427,
     name: "远古铜砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5429: Item = {
@@ -1551,8 +1828,10 @@ export const Block_5429: Item = {
     id: 5429,
     name: "远古钴砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5431: Item = {
@@ -1561,8 +1840,10 @@ export const Block_5431: Item = {
     id: 5431,
     name: "远古秘银砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5433: Item = {
@@ -1571,8 +1852,10 @@ export const Block_5433: Item = {
     id: 5433,
     name: "远古黑曜石砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_5435: Item = {
@@ -1581,8 +1864,10 @@ export const Block_5435: Item = {
     id: 5435,
     name: "远古狱石砖",
     Category: Block,
+    SubCategory: TransferBrick,
     comments: "",
 }
+
 
 
 export const Block_1727: Item = {
@@ -1591,8 +1876,10 @@ export const Block_1727: Item = {
     id: 1727,
     name: "干草",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_775: Item = {
@@ -1601,8 +1888,10 @@ export const Block_775: Item = {
     id: 775,
     name: "沥青块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_767: Item = {
@@ -1611,8 +1900,10 @@ export const Block_767: Item = {
     id: 767,
     name: "冰冻史莱姆块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_3113: Item = {
@@ -1621,8 +1912,10 @@ export const Block_3113: Item = {
     id: 3113,
     name: "粉史莱姆块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2173: Item = {
@@ -1631,8 +1924,10 @@ export const Block_2173: Item = {
     id: 2173,
     name: "铜护板",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2692: Item = {
@@ -1641,8 +1936,10 @@ export const Block_2692: Item = {
     id: 2692,
     name: "锡护板",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2794: Item = {
@@ -1651,8 +1948,10 @@ export const Block_2794: Item = {
     id: 2794,
     name: "蘑菇矿护板",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2435: Item = {
@@ -1661,8 +1960,10 @@ export const Block_2435: Item = {
     id: 2435,
     name: "珊瑚石块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2693: Item = {
@@ -1671,8 +1972,10 @@ export const Block_2693: Item = {
     id: 2693,
     name: "瀑布块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2694: Item = {
@@ -1681,8 +1984,10 @@ export const Block_2694: Item = {
     id: 2694,
     name: "熔岩瀑布块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2787: Item = {
@@ -1691,8 +1996,10 @@ export const Block_2787: Item = {
     id: 2787,
     name: "蜂蜜瀑布块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2695: Item = {
@@ -1701,8 +2008,10 @@ export const Block_2695: Item = {
     id: 2695,
     name: "彩纸块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_2697: Item = {
@@ -1711,8 +2020,10 @@ export const Block_2697: Item = {
     id: 2697,
     name: "午夜彩纸块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_3754: Item = {
@@ -1721,8 +2032,10 @@ export const Block_3754: Item = {
     id: 3754,
     name: "落沙块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_3755: Item = {
@@ -1731,8 +2044,10 @@ export const Block_3755: Item = {
     id: 3755,
     name: "降雪块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_3756: Item = {
@@ -1741,8 +2056,10 @@ export const Block_3756: Item = {
     id: 3756,
     name: "雪云",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_4277: Item = {
@@ -1751,8 +2068,10 @@ export const Block_4277: Item = {
     id: 4277,
     name: "金星块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_4278: Item = {
@@ -1761,8 +2080,10 @@ export const Block_4278: Item = {
     id: 4278,
     name: "蓝星块",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_4422: Item = {
@@ -1771,8 +2092,10 @@ export const Block_4422: Item = {
     id: 4422,
     name: "格栅",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_5395: Item = {
@@ -1781,8 +2104,10 @@ export const Block_5395: Item = {
     id: 5395,
     name: "臭臭",
     Category: Block,
+    SubCategory: OtherBlock,
     comments: "",
 }
+
 
 
 export const Block_3621: Item = {
@@ -1791,8 +2116,10 @@ export const Block_3621: Item = {
     id: 3621,
     name: "红团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3633: Item = {
@@ -1801,8 +2128,10 @@ export const Block_3633: Item = {
     id: 3633,
     name: "绿团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3634: Item = {
@@ -1811,8 +2140,10 @@ export const Block_3634: Item = {
     id: 3634,
     name: "蓝团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3635: Item = {
@@ -1821,8 +2152,10 @@ export const Block_3635: Item = {
     id: 3635,
     name: "黄团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3636: Item = {
@@ -1831,8 +2164,10 @@ export const Block_3636: Item = {
     id: 3636,
     name: "粉团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3637: Item = {
@@ -1841,8 +2176,10 @@ export const Block_3637: Item = {
     id: 3637,
     name: "白团队块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3622: Item = {
@@ -1851,8 +2188,10 @@ export const Block_3622: Item = {
     id: 3622,
     name: "红团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3638: Item = {
@@ -1861,8 +2200,10 @@ export const Block_3638: Item = {
     id: 3638,
     name: "绿团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3639: Item = {
@@ -1871,8 +2212,10 @@ export const Block_3639: Item = {
     id: 3639,
     name: "蓝团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3640: Item = {
@@ -1881,8 +2224,10 @@ export const Block_3640: Item = {
     id: 3640,
     name: "黄团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3641: Item = {
@@ -1891,8 +2236,10 @@ export const Block_3641: Item = {
     id: 3641,
     name: "粉团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_3642: Item = {
@@ -1901,8 +2248,10 @@ export const Block_3642: Item = {
     id: 3642,
     name: "白团队平台",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
+
 
 
 export const Block_4091: Item = {
@@ -1911,7 +2260,8 @@ export const Block_4091: Item = {
     id: 4091,
     name: "反传送门块",
     Category: Block,
-    comments: "",
+    SubCategory: OtherBlock,
+    comments: "旅商",
 }
 
 

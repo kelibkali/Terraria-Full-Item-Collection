@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { SummoningWeapon } from "../data.Category.zh-CN.ts"
 
+import { MinionSummoningWeapon, SentrySummoningWeapon, Whip } from "../data.SubCategory.zh-CN.ts"
+
 import SummoningWeapon_5114Img from "../../../assets/icon/Item_5114.png"
 import SummoningWeapon_4281Img from "../../../assets/icon/Item_4281.png"
 import SummoningWeapon_5069Img from "../../../assets/icon/Item_5069.png"
@@ -48,14 +50,18 @@ import SummoningWeapon_4678Img from "../../../assets/icon/Item_4678.png"
 import SummoningWeapon_4679Img from "../../../assets/icon/Item_4679.png"
 import SummoningWeapon_4680Img from "../../../assets/icon/Item_4680.png"
 import SummoningWeapon_4914Img from "../../../assets/icon/Item_4914.png"
+
+
 export const SummoningWeapon_5114: Item = {
     icon: SummoningWeapon_5114Img,
     isCollection: false,
     id: 5114,
     name: "阿比盖尔的花",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4281: Item = {
@@ -64,8 +70,10 @@ export const SummoningWeapon_4281: Item = {
     id: 4281,
     name: "雀杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_5069: Item = {
@@ -74,8 +82,10 @@ export const SummoningWeapon_5069: Item = {
     id: 5069,
     name: "小雪怪法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_1309: Item = {
@@ -84,8 +94,10 @@ export const SummoningWeapon_1309: Item = {
     id: 1309,
     name: "史莱姆法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4273: Item = {
@@ -94,8 +106,10 @@ export const SummoningWeapon_4273: Item = {
     id: 4273,
     name: "吸血鬼青蛙法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2364: Item = {
@@ -104,8 +118,10 @@ export const SummoningWeapon_2364: Item = {
     id: 2364,
     name: "黄蜂法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2365: Item = {
@@ -114,8 +130,10 @@ export const SummoningWeapon_2365: Item = {
     id: 2365,
     name: "小鬼法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2551: Item = {
@@ -124,8 +142,10 @@ export const SummoningWeapon_2551: Item = {
     id: 2551,
     name: "蜘蛛法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2584: Item = {
@@ -134,8 +154,10 @@ export const SummoningWeapon_2584: Item = {
     id: 2584,
     name: "海盗法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4269: Item = {
@@ -144,8 +166,10 @@ export const SummoningWeapon_4269: Item = {
     id: 4269,
     name: "血红法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4758: Item = {
@@ -154,8 +178,10 @@ export const SummoningWeapon_4758: Item = {
     id: 4758,
     name: "刃杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2535: Item = {
@@ -164,8 +190,10 @@ export const SummoningWeapon_2535: Item = {
     id: 2535,
     name: "魔眼法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_1157: Item = {
@@ -174,8 +202,10 @@ export const SummoningWeapon_1157: Item = {
     id: 1157,
     name: "矮人法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3249: Item = {
@@ -184,8 +214,10 @@ export const SummoningWeapon_3249: Item = {
     id: 3249,
     name: "致命球法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4607: Item = {
@@ -194,8 +226,10 @@ export const SummoningWeapon_4607: Item = {
     id: 4607,
     name: "沙漠虎杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_1802: Item = {
@@ -204,8 +238,10 @@ export const SummoningWeapon_1802: Item = {
     id: 1802,
     name: "乌鸦法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2749: Item = {
@@ -214,8 +250,10 @@ export const SummoningWeapon_2749: Item = {
     id: 2749,
     name: "外星法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2621: Item = {
@@ -224,8 +262,10 @@ export const SummoningWeapon_2621: Item = {
     id: 2621,
     name: "暴风雨法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_5005: Item = {
@@ -234,8 +274,10 @@ export const SummoningWeapon_5005: Item = {
     id: 5005,
     name: "泰拉棱镜",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3474: Item = {
@@ -244,8 +286,10 @@ export const SummoningWeapon_3474: Item = {
     id: 3474,
     name: "星尘细胞法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3531: Item = {
@@ -254,8 +298,10 @@ export const SummoningWeapon_3531: Item = {
     id: 3531,
     name: "星尘之龙法杖",
     Category: SummoningWeapon,
+    SubCategory: MinionSummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_5119: Item = {
@@ -264,8 +310,10 @@ export const SummoningWeapon_5119: Item = {
     id: 5119,
     name: "眼球激光塔",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_2366: Item = {
@@ -274,8 +322,10 @@ export const SummoningWeapon_2366: Item = {
     id: 2366,
     name: "蜘蛛女王法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_1572: Item = {
@@ -284,8 +334,10 @@ export const SummoningWeapon_1572: Item = {
     id: 1572,
     name: "寒霜九头蛇法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3569: Item = {
@@ -294,8 +346,10 @@ export const SummoningWeapon_3569: Item = {
     id: 3569,
     name: "月亮传送门法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3571: Item = {
@@ -304,8 +358,10 @@ export const SummoningWeapon_3571: Item = {
     id: 3571,
     name: "七彩水晶法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3818: Item = {
@@ -314,8 +370,10 @@ export const SummoningWeapon_3818: Item = {
     id: 3818,
     name: "爆炸烈焰魔杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3819: Item = {
@@ -324,8 +382,10 @@ export const SummoningWeapon_3819: Item = {
     id: 3819,
     name: "爆炸烈焰手杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3820: Item = {
@@ -334,8 +394,10 @@ export const SummoningWeapon_3820: Item = {
     id: 3820,
     name: "爆炸烈焰法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3824: Item = {
@@ -344,8 +406,10 @@ export const SummoningWeapon_3824: Item = {
     id: 3824,
     name: "弩车魔杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3825: Item = {
@@ -354,8 +418,10 @@ export const SummoningWeapon_3825: Item = {
     id: 3825,
     name: "弩车手杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3826: Item = {
@@ -364,8 +430,10 @@ export const SummoningWeapon_3826: Item = {
     id: 3826,
     name: "弩车法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3829: Item = {
@@ -374,8 +442,10 @@ export const SummoningWeapon_3829: Item = {
     id: 3829,
     name: "闪电光环魔杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3830: Item = {
@@ -384,8 +454,10 @@ export const SummoningWeapon_3830: Item = {
     id: 3830,
     name: "闪电光环手杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3831: Item = {
@@ -394,8 +466,10 @@ export const SummoningWeapon_3831: Item = {
     id: 3831,
     name: "闪电光环法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3832: Item = {
@@ -404,8 +478,10 @@ export const SummoningWeapon_3832: Item = {
     id: 3832,
     name: "爆炸机关魔杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3833: Item = {
@@ -414,8 +490,10 @@ export const SummoningWeapon_3833: Item = {
     id: 3833,
     name: "爆炸机关手杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_3834: Item = {
@@ -424,8 +502,10 @@ export const SummoningWeapon_3834: Item = {
     id: 3834,
     name: "爆炸机关法杖",
     Category: SummoningWeapon,
+    SubCategory: SentrySummoningWeapon,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4672: Item = {
@@ -434,8 +514,10 @@ export const SummoningWeapon_4672: Item = {
     id: 4672,
     name: "皮鞭",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4913: Item = {
@@ -444,8 +526,10 @@ export const SummoningWeapon_4913: Item = {
     id: 4913,
     name: "荆鞭",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_5074: Item = {
@@ -454,8 +538,10 @@ export const SummoningWeapon_5074: Item = {
     id: 5074,
     name: "脊柱骨鞭",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4912: Item = {
@@ -464,8 +550,10 @@ export const SummoningWeapon_4912: Item = {
     id: 4912,
     name: "鞭炮",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4911: Item = {
@@ -474,8 +562,10 @@ export const SummoningWeapon_4911: Item = {
     id: 4911,
     name: "冷鞭",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4678: Item = {
@@ -484,8 +574,10 @@ export const SummoningWeapon_4678: Item = {
     id: 4678,
     name: "迪朗达尔",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4679: Item = {
@@ -494,8 +586,10 @@ export const SummoningWeapon_4679: Item = {
     id: 4679,
     name: "晨星",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4680: Item = {
@@ -504,8 +598,10 @@ export const SummoningWeapon_4680: Item = {
     id: 4680,
     name: "暗黑收割",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
+
 
 
 export const SummoningWeapon_4914: Item = {
@@ -514,6 +610,7 @@ export const SummoningWeapon_4914: Item = {
     id: 4914,
     name: "万花筒",
     Category: SummoningWeapon,
+    SubCategory: Whip,
     comments: "",
 }
 

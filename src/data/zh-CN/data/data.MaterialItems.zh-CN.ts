@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { MaterialItems } from "../data.Category.zh-CN.ts"
 
+import { Bar, OtherMate } from "../data.SubCategory.zh-CN.ts"
+
 import MaterialItems_20Img from "../../../assets/icon/Item_20.png"
 import MaterialItems_703Img from "../../../assets/icon/Item_703.png"
 import MaterialItems_21Img from "../../../assets/icon/Item_21.png"
@@ -122,14 +124,18 @@ import MaterialItems_3456Img from "../../../assets/icon/Item_3456.png"
 import MaterialItems_3457Img from "../../../assets/icon/Item_3457.png"
 import MaterialItems_3458Img from "../../../assets/icon/Item_3458.png"
 import MaterialItems_3459Img from "../../../assets/icon/Item_3459.png"
+
+
 export const MaterialItems_20: Item = {
     icon: MaterialItems_20Img,
     isCollection: false,
     id: 20,
     name: "铜锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_703: Item = {
@@ -138,8 +144,10 @@ export const MaterialItems_703: Item = {
     id: 703,
     name: "锡锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_21: Item = {
@@ -148,8 +156,10 @@ export const MaterialItems_21: Item = {
     id: 21,
     name: "银锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_705: Item = {
@@ -158,8 +168,10 @@ export const MaterialItems_705: Item = {
     id: 705,
     name: "钨锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_22: Item = {
@@ -168,8 +180,10 @@ export const MaterialItems_22: Item = {
     id: 22,
     name: "铁锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_704: Item = {
@@ -178,8 +192,10 @@ export const MaterialItems_704: Item = {
     id: 704,
     name: "铅锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_19: Item = {
@@ -188,8 +204,10 @@ export const MaterialItems_19: Item = {
     id: 19,
     name: "金锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_706: Item = {
@@ -198,8 +216,10 @@ export const MaterialItems_706: Item = {
     id: 706,
     name: "铂金锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_57: Item = {
@@ -208,8 +228,10 @@ export const MaterialItems_57: Item = {
     id: 57,
     name: "魔矿锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1257: Item = {
@@ -218,8 +240,10 @@ export const MaterialItems_1257: Item = {
     id: 1257,
     name: "猩红矿锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_117: Item = {
@@ -228,8 +252,10 @@ export const MaterialItems_117: Item = {
     id: 117,
     name: "陨石锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_175: Item = {
@@ -238,8 +264,10 @@ export const MaterialItems_175: Item = {
     id: 175,
     name: "狱石锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_381: Item = {
@@ -248,8 +276,10 @@ export const MaterialItems_381: Item = {
     id: 381,
     name: "钴锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1184: Item = {
@@ -258,8 +288,10 @@ export const MaterialItems_1184: Item = {
     id: 1184,
     name: "钯金锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_382: Item = {
@@ -268,8 +300,10 @@ export const MaterialItems_382: Item = {
     id: 382,
     name: "秘银锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1191: Item = {
@@ -278,8 +312,10 @@ export const MaterialItems_1191: Item = {
     id: 1191,
     name: "山铜锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_391: Item = {
@@ -288,8 +324,10 @@ export const MaterialItems_391: Item = {
     id: 391,
     name: "精金锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1198: Item = {
@@ -298,8 +336,10 @@ export const MaterialItems_1198: Item = {
     id: 1198,
     name: "钛金锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1225: Item = {
@@ -308,8 +348,10 @@ export const MaterialItems_1225: Item = {
     id: 1225,
     name: "神圣锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1006: Item = {
@@ -318,8 +360,10 @@ export const MaterialItems_1006: Item = {
     id: 1006,
     name: "叶绿锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_1552: Item = {
@@ -328,8 +372,10 @@ export const MaterialItems_1552: Item = {
     id: 1552,
     name: "蘑菇矿锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_3261: Item = {
@@ -338,8 +384,10 @@ export const MaterialItems_3261: Item = {
     id: 3261,
     name: "幽灵锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_3467: Item = {
@@ -348,8 +396,10 @@ export const MaterialItems_3467: Item = {
     id: 3467,
     name: "夜明锭",
     Category: MaterialItems,
+    SubCategory: Bar,
     comments: "",
 }
+
 
 
 export const MaterialItems_5: Item = {
@@ -358,8 +408,10 @@ export const MaterialItems_5: Item = {
     id: 5,
     name: "蘑菇",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_23: Item = {
@@ -368,8 +420,10 @@ export const MaterialItems_23: Item = {
     id: 23,
     name: "凝胶",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3111: Item = {
@@ -378,8 +432,10 @@ export const MaterialItems_3111: Item = {
     id: 3111,
     name: "粉凝胶",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_150: Item = {
@@ -388,8 +444,10 @@ export const MaterialItems_150: Item = {
     id: 150,
     name: "蛛网",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_75: Item = {
@@ -398,8 +456,10 @@ export const MaterialItems_75: Item = {
     id: 75,
     name: "坠落之星",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_118: Item = {
@@ -408,8 +468,10 @@ export const MaterialItems_118: Item = {
     id: 118,
     name: "爪钩",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_38: Item = {
@@ -418,8 +480,10 @@ export const MaterialItems_38: Item = {
     id: 38,
     name: "晶状体",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_236: Item = {
@@ -428,8 +492,10 @@ export const MaterialItems_236: Item = {
     id: 236,
     name: "黑晶状体",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_5070: Item = {
@@ -438,8 +504,10 @@ export const MaterialItems_5070: Item = {
     id: 5070,
     name: "小雪怪皮毛",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_66: Item = {
@@ -448,8 +516,10 @@ export const MaterialItems_66: Item = {
     id: 66,
     name: "净化粉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_60: Item = {
@@ -458,8 +528,10 @@ export const MaterialItems_60: Item = {
     id: 60,
     name: "魔菇",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_67: Item = {
@@ -468,8 +540,10 @@ export const MaterialItems_67: Item = {
     id: 67,
     name: "魔粉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_68: Item = {
@@ -478,8 +552,10 @@ export const MaterialItems_68: Item = {
     id: 68,
     name: "腐肉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_69: Item = {
@@ -488,8 +564,10 @@ export const MaterialItems_69: Item = {
     id: 69,
     name: "蠕虫毒牙",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_86: Item = {
@@ -498,8 +576,10 @@ export const MaterialItems_86: Item = {
     id: 86,
     name: "暗影鳞片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2887: Item = {
@@ -508,8 +588,10 @@ export const MaterialItems_2887: Item = {
     id: 2887,
     name: "毒蘑菇",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2886: Item = {
@@ -518,8 +600,10 @@ export const MaterialItems_2886: Item = {
     id: 2886,
     name: "毒粉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1330: Item = {
@@ -528,8 +612,10 @@ export const MaterialItems_1330: Item = {
     id: 1330,
     name: "椎骨",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1329: Item = {
@@ -538,8 +624,10 @@ export const MaterialItems_1329: Item = {
     id: 1329,
     name: "组织样本",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_154: Item = {
@@ -548,8 +636,10 @@ export const MaterialItems_154: Item = {
     id: 154,
     name: "骨头",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_181: Item = {
@@ -558,8 +648,10 @@ export const MaterialItems_181: Item = {
     id: 181,
     name: "紫晶",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_180: Item = {
@@ -568,8 +660,10 @@ export const MaterialItems_180: Item = {
     id: 180,
     name: "黄玉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_177: Item = {
@@ -578,8 +672,10 @@ export const MaterialItems_177: Item = {
     id: 177,
     name: "蓝玉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_179: Item = {
@@ -588,8 +684,10 @@ export const MaterialItems_179: Item = {
     id: 179,
     name: "翡翠",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_178: Item = {
@@ -598,8 +696,10 @@ export const MaterialItems_178: Item = {
     id: 178,
     name: "红玉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_999: Item = {
@@ -608,8 +708,10 @@ export const MaterialItems_999: Item = {
     id: 999,
     name: "琥珀",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_182: Item = {
@@ -618,8 +720,10 @@ export const MaterialItems_182: Item = {
     id: 182,
     name: "钻石",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3380: Item = {
@@ -628,8 +732,10 @@ export const MaterialItems_3380: Item = {
     id: 3380,
     name: "坚固化石",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_209: Item = {
@@ -638,8 +744,10 @@ export const MaterialItems_209: Item = {
     id: 209,
     name: "毒刺",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_210: Item = {
@@ -648,8 +756,10 @@ export const MaterialItems_210: Item = {
     id: 210,
     name: "藤蔓",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_331: Item = {
@@ -658,8 +768,10 @@ export const MaterialItems_331: Item = {
     id: 331,
     name: "丛林孢子",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_254: Item = {
@@ -668,8 +780,10 @@ export const MaterialItems_254: Item = {
     id: 254,
     name: "黑线",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_255: Item = {
@@ -678,8 +792,10 @@ export const MaterialItems_255: Item = {
     id: 255,
     name: "绿线",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_981: Item = {
@@ -688,8 +804,10 @@ export const MaterialItems_981: Item = {
     id: 981,
     name: "粉线",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_225: Item = {
@@ -698,8 +816,10 @@ export const MaterialItems_225: Item = {
     id: 225,
     name: "丝绸",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_259: Item = {
@@ -708,8 +828,10 @@ export const MaterialItems_259: Item = {
     id: 259,
     name: "皮革",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_275: Item = {
@@ -718,8 +840,10 @@ export const MaterialItems_275: Item = {
     id: 275,
     name: "珊瑚",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_313: Item = {
@@ -728,8 +852,10 @@ export const MaterialItems_313: Item = {
     id: 313,
     name: "太阳花",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_314: Item = {
@@ -738,8 +864,10 @@ export const MaterialItems_314: Item = {
     id: 314,
     name: "月光草",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_315: Item = {
@@ -748,8 +876,10 @@ export const MaterialItems_315: Item = {
     id: 315,
     name: "闪耀根",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_316: Item = {
@@ -758,8 +888,10 @@ export const MaterialItems_316: Item = {
     id: 316,
     name: "死亡草",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_317: Item = {
@@ -768,8 +900,10 @@ export const MaterialItems_317: Item = {
     id: 317,
     name: "水叶草",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_318: Item = {
@@ -778,8 +912,10 @@ export const MaterialItems_318: Item = {
     id: 318,
     name: "火焰花",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2358: Item = {
@@ -788,8 +924,10 @@ export const MaterialItems_2358: Item = {
     id: 2358,
     name: "寒颤棘",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_319: Item = {
@@ -798,8 +936,10 @@ export const MaterialItems_319: Item = {
     id: 319,
     name: "鲨鱼鳍",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_320: Item = {
@@ -808,8 +948,10 @@ export const MaterialItems_320: Item = {
     id: 320,
     name: "羽毛",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_323: Item = {
@@ -818,8 +960,10 @@ export const MaterialItems_323: Item = {
     id: 323,
     name: "蚁狮上颚",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2431: Item = {
@@ -828,8 +972,10 @@ export const MaterialItems_2431: Item = {
     id: 2431,
     name: "蜂蜡",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_362: Item = {
@@ -838,8 +984,10 @@ export const MaterialItems_362: Item = {
     id: 362,
     name: "破布",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_4412: Item = {
@@ -848,8 +996,10 @@ export const MaterialItems_4412: Item = {
     id: 4412,
     name: "白珍珠",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_4413: Item = {
@@ -858,8 +1008,10 @@ export const MaterialItems_4413: Item = {
     id: 4413,
     name: "黑珍珠",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_4414: Item = {
@@ -868,8 +1020,10 @@ export const MaterialItems_4414: Item = {
     id: 4414,
     name: "粉珍珠",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_324: Item = {
@@ -878,8 +1032,10 @@ export const MaterialItems_324: Item = {
     id: 324,
     name: "非法枪械部件",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_501: Item = {
@@ -888,8 +1044,10 @@ export const MaterialItems_501: Item = {
     id: 501,
     name: "妖精尘",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_502: Item = {
@@ -898,8 +1056,10 @@ export const MaterialItems_502: Item = {
     id: 502,
     name: "水晶碎块",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_520: Item = {
@@ -908,8 +1068,10 @@ export const MaterialItems_520: Item = {
     id: 520,
     name: "光明之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_521: Item = {
@@ -918,8 +1080,10 @@ export const MaterialItems_521: Item = {
     id: 521,
     name: "暗影之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_522: Item = {
@@ -928,8 +1092,10 @@ export const MaterialItems_522: Item = {
     id: 522,
     name: "诅咒焰",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1332: Item = {
@@ -938,8 +1104,10 @@ export const MaterialItems_1332: Item = {
     id: 1332,
     name: "灵液",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_526: Item = {
@@ -948,8 +1116,10 @@ export const MaterialItems_526: Item = {
     id: 526,
     name: "独角兽角",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2607: Item = {
@@ -958,8 +1128,10 @@ export const MaterialItems_2607: Item = {
     id: 2607,
     name: "蜘蛛牙",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2161: Item = {
@@ -968,8 +1140,10 @@ export const MaterialItems_2161: Item = {
     id: 2161,
     name: "寒霜核",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_527: Item = {
@@ -978,8 +1152,10 @@ export const MaterialItems_527: Item = {
     id: 527,
     name: "暗黑碎块",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_528: Item = {
@@ -988,8 +1164,10 @@ export const MaterialItems_528: Item = {
     id: 528,
     name: "光明碎块",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3783: Item = {
@@ -998,8 +1176,10 @@ export const MaterialItems_3783: Item = {
     id: 3783,
     name: "禁戒碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3794: Item = {
@@ -1008,8 +1188,10 @@ export const MaterialItems_3794: Item = {
     id: 3794,
     name: "远古布匹",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_531: Item = {
@@ -1018,8 +1200,10 @@ export const MaterialItems_531: Item = {
     id: 531,
     name: "魔法书",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_575: Item = {
@@ -1028,8 +1212,10 @@ export const MaterialItems_575: Item = {
     id: 575,
     name: "飞翔之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_547: Item = {
@@ -1038,8 +1224,10 @@ export const MaterialItems_547: Item = {
     id: 547,
     name: "恐惧之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_548: Item = {
@@ -1048,8 +1236,10 @@ export const MaterialItems_548: Item = {
     id: 548,
     name: "力量之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_549: Item = {
@@ -1058,8 +1248,10 @@ export const MaterialItems_549: Item = {
     id: 549,
     name: "视域之魂",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3354: Item = {
@@ -1068,8 +1260,10 @@ export const MaterialItems_3354: Item = {
     id: 3354,
     name: "机械车轮片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3355: Item = {
@@ -1078,8 +1272,10 @@ export const MaterialItems_3355: Item = {
     id: 3355,
     name: "机械车体片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3356: Item = {
@@ -1088,8 +1284,10 @@ export const MaterialItems_3356: Item = {
     id: 3356,
     name: "机械电池片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1328: Item = {
@@ -1098,8 +1296,10 @@ export const MaterialItems_1328: Item = {
     id: 1328,
     name: "海龟壳",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1339: Item = {
@@ -1108,8 +1308,10 @@ export const MaterialItems_1339: Item = {
     id: 1339,
     name: "小瓶毒液",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1345: Item = {
@@ -1118,8 +1320,10 @@ export const MaterialItems_1345: Item = {
     id: 1345,
     name: "彩纸",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1346: Item = {
@@ -1128,8 +1332,10 @@ export const MaterialItems_1346: Item = {
     id: 1346,
     name: "纳米机器人",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1347: Item = {
@@ -1138,8 +1344,10 @@ export const MaterialItems_1347: Item = {
     id: 1347,
     name: "爆炸粉",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1348: Item = {
@@ -1148,8 +1356,10 @@ export const MaterialItems_1348: Item = {
     id: 1348,
     name: "金尘",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1432: Item = {
@@ -1158,8 +1368,10 @@ export const MaterialItems_1432: Item = {
     id: 1432,
     name: "空心子弹",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1508: Item = {
@@ -1168,8 +1380,10 @@ export const MaterialItems_1508: Item = {
     id: 1508,
     name: "灵气",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1570: Item = {
@@ -1178,8 +1392,10 @@ export const MaterialItems_1570: Item = {
     id: 1570,
     name: "断裂英雄剑",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1516: Item = {
@@ -1188,8 +1404,10 @@ export const MaterialItems_1516: Item = {
     id: 1516,
     name: "巨型鸟妖之羽",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1517: Item = {
@@ -1198,8 +1416,10 @@ export const MaterialItems_1517: Item = {
     id: 1517,
     name: "骨之羽",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1518: Item = {
@@ -1208,8 +1428,10 @@ export const MaterialItems_1518: Item = {
     id: 1518,
     name: "火羽",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1519: Item = {
@@ -1218,8 +1440,10 @@ export const MaterialItems_1519: Item = {
     id: 1519,
     name: "冰雪羽",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1520: Item = {
@@ -1228,8 +1452,10 @@ export const MaterialItems_1520: Item = {
     id: 1520,
     name: "破蝙蝠之翼",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1521: Item = {
@@ -1238,8 +1464,10 @@ export const MaterialItems_1521: Item = {
     id: 1521,
     name: "褴褛蜜蜂之翼",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1611: Item = {
@@ -1248,8 +1476,10 @@ export const MaterialItems_1611: Item = {
     id: 1611,
     name: "蝴蝶尘",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1811: Item = {
@@ -1258,8 +1488,10 @@ export const MaterialItems_1811: Item = {
     id: 1811,
     name: "黑色仙尘",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_1831: Item = {
@@ -1268,8 +1500,10 @@ export const MaterialItems_1831: Item = {
     id: 1831,
     name: "阴森嫩枝",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2766: Item = {
@@ -1278,8 +1512,10 @@ export const MaterialItems_2766: Item = {
     id: 2766,
     name: "日耀碑牌碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_2218: Item = {
@@ -1288,8 +1524,10 @@ export const MaterialItems_2218: Item = {
     id: 2218,
     name: "甲虫外壳",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3456: Item = {
@@ -1298,8 +1536,10 @@ export const MaterialItems_3456: Item = {
     id: 3456,
     name: "星旋碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3457: Item = {
@@ -1308,8 +1548,10 @@ export const MaterialItems_3457: Item = {
     id: 3457,
     name: "星云碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3458: Item = {
@@ -1318,8 +1560,10 @@ export const MaterialItems_3458: Item = {
     id: 3458,
     name: "日耀碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
+
 
 
 export const MaterialItems_3459: Item = {
@@ -1328,6 +1572,7 @@ export const MaterialItems_3459: Item = {
     id: 3459,
     name: "星尘碎片",
     Category: MaterialItems,
+    SubCategory: OtherMate,
     comments: "",
 }
 

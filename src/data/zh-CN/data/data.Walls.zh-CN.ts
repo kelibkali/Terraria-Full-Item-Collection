@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Walls } from "../data.Category.zh-CN.ts"
 
+import { BrickWall, CursedWall, NaturalWall, OtherWall, TransferWall } from "../data.SubCategory.zh-CN.ts"
+
 import Walls_30Img from "../../../assets/icon/Item_30.png"
 import Walls_4501Img from "../../../assets/icon/Item_4501.png"
 import Walls_4521Img from "../../../assets/icon/Item_4521.png"
@@ -204,14 +206,18 @@ import Walls_2333Img from "../../../assets/icon/Item_2333.png"
 import Walls_4424Img from "../../../assets/icon/Item_4424.png"
 import Walls_5396Img from "../../../assets/icon/Item_5396.png"
 import Walls_4503Img from "../../../assets/icon/Item_4503.png"
+
+
 export const Walls_30: Item = {
     icon: Walls_30Img,
     isCollection: false,
     id: 30,
     name: "土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4501: Item = {
@@ -220,8 +226,10 @@ export const Walls_4501: Item = {
     id: 4501,
     name: "岩石土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4521: Item = {
@@ -230,8 +238,10 @@ export const Walls_4521: Item = {
     id: 4521,
     name: "分层土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4522: Item = {
@@ -240,8 +250,10 @@ export const Walls_4522: Item = {
     id: 4522,
     name: "剥落土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4523: Item = {
@@ -250,8 +262,10 @@ export const Walls_4523: Item = {
     id: 4523,
     name: "破裂土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4524: Item = {
@@ -260,8 +274,10 @@ export const Walls_4524: Item = {
     id: 4524,
     name: "皱曲土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4510: Item = {
@@ -270,8 +286,10 @@ export const Walls_4510: Item = {
     id: 4510,
     name: "洞穴土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4511: Item = {
@@ -280,8 +298,10 @@ export const Walls_4511: Item = {
     id: 4511,
     name: "粗糙土墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4529: Item = {
@@ -290,8 +310,10 @@ export const Walls_4529: Item = {
     id: 4529,
     name: "地衣石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4531: Item = {
@@ -300,8 +322,10 @@ export const Walls_4531: Item = {
     id: 4531,
     name: "常春藤石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_26: Item = {
@@ -310,8 +334,10 @@ export const Walls_26: Item = {
     id: 26,
     name: "石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4502: Item = {
@@ -320,8 +346,10 @@ export const Walls_4502: Item = {
     id: 4502,
     name: "古老石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4512: Item = {
@@ -330,8 +358,10 @@ export const Walls_4512: Item = {
     id: 4512,
     name: "崎岖石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4537: Item = {
@@ -340,8 +370,10 @@ export const Walls_4537: Item = {
     id: 4537,
     name: "破旧石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4538: Item = {
@@ -350,8 +382,10 @@ export const Walls_4538: Item = {
     id: 4538,
     name: "钟乳石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4539: Item = {
@@ -360,8 +394,10 @@ export const Walls_4539: Item = {
     id: 4539,
     name: "斑驳石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4540: Item = {
@@ -370,8 +406,10 @@ export const Walls_4540: Item = {
     id: 4540,
     name: "断裂石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4486: Item = {
@@ -380,8 +418,10 @@ export const Walls_4486: Item = {
     id: 4486,
     name: "黑檀石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4513: Item = {
@@ -390,8 +430,10 @@ export const Walls_4513: Item = {
     id: 4513,
     name: "腐化赘生墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4514: Item = {
@@ -400,8 +442,10 @@ export const Walls_4514: Item = {
     id: 4514,
     name: "腐化团块墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4515: Item = {
@@ -410,8 +454,10 @@ export const Walls_4515: Item = {
     id: 4515,
     name: "腐化脓疱墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4516: Item = {
@@ -420,8 +466,10 @@ export const Walls_4516: Item = {
     id: 4516,
     name: "腐化卷须墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4509: Item = {
@@ -430,8 +478,10 @@ export const Walls_4509: Item = {
     id: 4509,
     name: "猩红石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4517: Item = {
@@ -440,8 +490,10 @@ export const Walls_4517: Item = {
     id: 4517,
     name: "猩红硬皮墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4518: Item = {
@@ -450,8 +502,10 @@ export const Walls_4518: Item = {
     id: 4518,
     name: "猩红疮痂墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4519: Item = {
@@ -460,8 +514,10 @@ export const Walls_4519: Item = {
     id: 4519,
     name: "猩红尖牙墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4520: Item = {
@@ -470,8 +526,10 @@ export const Walls_4520: Item = {
     id: 4520,
     name: "猩红水疱墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4488: Item = {
@@ -480,8 +538,10 @@ export const Walls_4488: Item = {
     id: 4488,
     name: "珍珠石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4525: Item = {
@@ -490,8 +550,10 @@ export const Walls_4525: Item = {
     id: 4525,
     name: "神圣棱柱墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4526: Item = {
@@ -500,8 +562,10 @@ export const Walls_4526: Item = {
     id: 4526,
     name: "神圣洞穴墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4527: Item = {
@@ -510,8 +574,10 @@ export const Walls_4527: Item = {
     id: 4527,
     name: "神圣碎块墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4528: Item = {
@@ -520,8 +586,10 @@ export const Walls_4528: Item = {
     id: 4528,
     name: "神圣结晶墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4533: Item = {
@@ -530,8 +598,10 @@ export const Walls_4533: Item = {
     id: 4533,
     name: "余烬墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4534: Item = {
@@ -540,8 +610,10 @@ export const Walls_4534: Item = {
     id: 4534,
     name: "灰渣墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4535: Item = {
@@ -550,8 +622,10 @@ export const Walls_4535: Item = {
     id: 4535,
     name: "岩浆墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4536: Item = {
@@ -560,8 +634,10 @@ export const Walls_4536: Item = {
     id: 4536,
     name: "阴燃石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4507: Item = {
@@ -570,8 +646,10 @@ export const Walls_4507: Item = {
     id: 4507,
     name: "黑曜石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4530: Item = {
@@ -580,8 +658,10 @@ export const Walls_4530: Item = {
     id: 4530,
     name: "多叶丛林墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4532: Item = {
@@ -590,8 +670,10 @@ export const Walls_4532: Item = {
     id: 4532,
     name: "丛林藤蔓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3340: Item = {
@@ -600,8 +682,10 @@ export const Walls_3340: Item = {
     id: 3340,
     name: "硬化沙墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3341: Item = {
@@ -610,8 +694,10 @@ export const Walls_3341: Item = {
     id: 3341,
     name: "硬化黑檀沙墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3342: Item = {
@@ -620,8 +706,10 @@ export const Walls_3342: Item = {
     id: 3342,
     name: "硬化猩红沙墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3343: Item = {
@@ -630,8 +718,10 @@ export const Walls_3343: Item = {
     id: 3343,
     name: "硬化珍珠沙墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3273: Item = {
@@ -640,8 +730,10 @@ export const Walls_3273: Item = {
     id: 3273,
     name: "沙岩墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3344: Item = {
@@ -650,8 +742,10 @@ export const Walls_3344: Item = {
     id: 3344,
     name: "黑檀沙岩墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3345: Item = {
@@ -660,8 +754,10 @@ export const Walls_3345: Item = {
     id: 3345,
     name: "猩红沙岩墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3346: Item = {
@@ -670,8 +766,10 @@ export const Walls_3346: Item = {
     id: 3346,
     name: "珍珠沙岩墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_3348: Item = {
@@ -680,8 +778,10 @@ export const Walls_3348: Item = {
     id: 3348,
     name: "沙漠化石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4489: Item = {
@@ -690,8 +790,10 @@ export const Walls_4489: Item = {
     id: 4489,
     name: "雪墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4506: Item = {
@@ -700,8 +802,10 @@ export const Walls_4506: Item = {
     id: 4506,
     name: "冰雪墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4487: Item = {
@@ -710,8 +814,10 @@ export const Walls_4487: Item = {
     id: 4487,
     name: "泥墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_752: Item = {
@@ -720,8 +826,10 @@ export const Walls_752: Item = {
     id: 752,
     name: "云墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4496: Item = {
@@ -730,8 +838,10 @@ export const Walls_4496: Item = {
     id: 4496,
     name: "绿苔藓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4497: Item = {
@@ -740,8 +850,10 @@ export const Walls_4497: Item = {
     id: 4497,
     name: "棕苔藓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4498: Item = {
@@ -750,8 +862,10 @@ export const Walls_4498: Item = {
     id: 4498,
     name: "红苔藓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4499: Item = {
@@ -760,8 +874,10 @@ export const Walls_4499: Item = {
     id: 4499,
     name: "蓝苔藓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4500: Item = {
@@ -770,8 +886,10 @@ export const Walls_4500: Item = {
     id: 4500,
     name: "紫苔藓墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4490: Item = {
@@ -780,8 +898,10 @@ export const Walls_4490: Item = {
     id: 4490,
     name: "紫晶石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4491: Item = {
@@ -790,8 +910,10 @@ export const Walls_4491: Item = {
     id: 4491,
     name: "黄玉石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4492: Item = {
@@ -800,8 +922,10 @@ export const Walls_4492: Item = {
     id: 4492,
     name: "蓝玉石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4493: Item = {
@@ -810,8 +934,10 @@ export const Walls_4493: Item = {
     id: 4493,
     name: "翡翠石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4494: Item = {
@@ -820,8 +946,10 @@ export const Walls_4494: Item = {
     id: 4494,
     name: "红玉石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4647: Item = {
@@ -830,8 +958,10 @@ export const Walls_4647: Item = {
     id: 4647,
     name: "琥珀石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_4495: Item = {
@@ -840,8 +970,10 @@ export const Walls_4495: Item = {
     id: 4495,
     name: "钻石石墙",
     Category: Walls,
+    SubCategory: NaturalWall,
     comments: "",
 }
+
 
 
 export const Walls_479: Item = {
@@ -850,8 +982,10 @@ export const Walls_479: Item = {
     id: 479,
     name: "板条墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_130: Item = {
@@ -860,8 +994,10 @@ export const Walls_130: Item = {
     id: 130,
     name: "灰砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2433: Item = {
@@ -870,8 +1006,10 @@ export const Walls_2433: Item = {
     id: 2433,
     name: "石板墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_132: Item = {
@@ -880,8 +1018,10 @@ export const Walls_132: Item = {
     id: 132,
     name: "红砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_418: Item = {
@@ -890,8 +1030,10 @@ export const Walls_418: Item = {
     id: 418,
     name: "荧光砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_419: Item = {
@@ -900,8 +1042,10 @@ export const Walls_419: Item = {
     id: 419,
     name: "泥石砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_146: Item = {
@@ -910,8 +1054,10 @@ export const Walls_146: Item = {
     id: 146,
     name: "铜砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_720: Item = {
@@ -920,8 +1066,10 @@ export const Walls_720: Item = {
     id: 720,
     name: "锡砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_3952: Item = {
@@ -930,8 +1078,10 @@ export const Walls_3952: Item = {
     id: 3952,
     name: "铁砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_3954: Item = {
@@ -940,8 +1090,10 @@ export const Walls_3954: Item = {
     id: 3954,
     name: "铅砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_144: Item = {
@@ -950,8 +1102,10 @@ export const Walls_144: Item = {
     id: 144,
     name: "银砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_721: Item = {
@@ -960,8 +1114,10 @@ export const Walls_721: Item = {
     id: 721,
     name: "钨砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_142: Item = {
@@ -970,8 +1126,10 @@ export const Walls_142: Item = {
     id: 142,
     name: "金砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_722: Item = {
@@ -980,8 +1138,10 @@ export const Walls_722: Item = {
     id: 722,
     name: "铂金砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_606: Item = {
@@ -990,8 +1150,10 @@ export const Walls_606: Item = {
     id: 606,
     name: "魔矿砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2790: Item = {
@@ -1000,8 +1162,10 @@ export const Walls_2790: Item = {
     id: 2790,
     name: "猩红矿砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_3067: Item = {
@@ -1010,8 +1174,10 @@ export const Walls_3067: Item = {
     id: 3067,
     name: "狱石砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_420: Item = {
@@ -1020,8 +1186,10 @@ export const Walls_420: Item = {
     id: 420,
     name: "钴砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1590: Item = {
@@ -1030,8 +1198,10 @@ export const Walls_1590: Item = {
     id: 1590,
     name: "钯金柱墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_421: Item = {
@@ -1040,8 +1210,10 @@ export const Walls_421: Item = {
     id: 421,
     name: "秘银砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1592: Item = {
@@ -1050,8 +1222,10 @@ export const Walls_1592: Item = {
     id: 1592,
     name: "泡泡糖块墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_605: Item = {
@@ -1060,8 +1234,10 @@ export const Walls_605: Item = {
     id: 605,
     name: "精金梁墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1594: Item = {
@@ -1070,8 +1246,10 @@ export const Walls_1594: Item = {
     id: 1594,
     name: "钛石块墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2789: Item = {
@@ -1080,8 +1258,10 @@ export const Walls_2789: Item = {
     id: 2789,
     name: "叶绿砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_3472: Item = {
@@ -1090,8 +1270,10 @@ export const Walls_3472: Item = {
     id: 3472,
     name: "夜明砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5445: Item = {
@@ -1100,8 +1282,10 @@ export const Walls_5445: Item = {
     id: 5445,
     name: "熔岩苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5446: Item = {
@@ -1110,8 +1294,10 @@ export const Walls_5446: Item = {
     id: 5446,
     name: "氩苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5447: Item = {
@@ -1120,8 +1306,10 @@ export const Walls_5447: Item = {
     id: 5447,
     name: "氪苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5448: Item = {
@@ -1130,8 +1318,10 @@ export const Walls_5448: Item = {
     id: 5448,
     name: "氙苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5449: Item = {
@@ -1140,8 +1330,10 @@ export const Walls_5449: Item = {
     id: 5449,
     name: "氖苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5450: Item = {
@@ -1150,8 +1342,10 @@ export const Walls_5450: Item = {
     id: 5450,
     name: "氦苔藓砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_595: Item = {
@@ -1160,8 +1354,10 @@ export const Walls_595: Item = {
     id: 595,
     name: "雪砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_608: Item = {
@@ -1170,8 +1366,10 @@ export const Walls_608: Item = {
     id: 608,
     name: "沙岩砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_610: Item = {
@@ -1180,8 +1378,10 @@ export const Walls_610: Item = {
     id: 610,
     name: "黑檀石砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_4052: Item = {
@@ -1190,8 +1390,10 @@ export const Walls_4052: Item = {
     id: 4052,
     name: "猩红石砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_417: Item = {
@@ -1200,8 +1402,10 @@ export const Walls_417: Item = {
     id: 417,
     name: "珍珠石砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_615: Item = {
@@ -1210,8 +1414,10 @@ export const Walls_615: Item = {
     id: 615,
     name: "红泥灰墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_616: Item = {
@@ -1220,8 +1426,10 @@ export const Walls_616: Item = {
     id: 616,
     name: "黄泥灰墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_617: Item = {
@@ -1230,8 +1438,10 @@ export const Walls_617: Item = {
     id: 617,
     name: "绿泥灰墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_618: Item = {
@@ -1240,8 +1450,10 @@ export const Walls_618: Item = {
     id: 618,
     name: "灰泥灰墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_663: Item = {
@@ -1250,8 +1462,10 @@ export const Walls_663: Item = {
     id: 663,
     name: "彩虹砖墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1267: Item = {
@@ -1260,8 +1474,10 @@ export const Walls_1267: Item = {
     id: 1267,
     name: "紫花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1268: Item = {
@@ -1270,8 +1486,10 @@ export const Walls_1268: Item = {
     id: 1268,
     name: "黄花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1269: Item = {
@@ -1280,8 +1498,10 @@ export const Walls_1269: Item = {
     id: 1269,
     name: "蓝花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1270: Item = {
@@ -1290,8 +1510,10 @@ export const Walls_1270: Item = {
     id: 1270,
     name: "绿花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1271: Item = {
@@ -1300,8 +1522,10 @@ export const Walls_1271: Item = {
     id: 1271,
     name: "红花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_4260: Item = {
@@ -1310,8 +1534,10 @@ export const Walls_4260: Item = {
     id: 4260,
     name: "橙花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_1272: Item = {
@@ -1320,8 +1546,10 @@ export const Walls_1272: Item = {
     id: 1272,
     name: "五彩花窗玻璃",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2679: Item = {
@@ -1330,8 +1558,10 @@ export const Walls_2679: Item = {
     id: 2679,
     name: "紫晶晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2680: Item = {
@@ -1340,8 +1570,10 @@ export const Walls_2680: Item = {
     id: 2680,
     name: "黯淡紫晶晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2689: Item = {
@@ -1350,8 +1582,10 @@ export const Walls_2689: Item = {
     id: 2689,
     name: "黄玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2690: Item = {
@@ -1360,8 +1594,10 @@ export const Walls_2690: Item = {
     id: 2690,
     name: "黯淡黄玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2687: Item = {
@@ -1370,8 +1606,10 @@ export const Walls_2687: Item = {
     id: 2687,
     name: "蓝玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2688: Item = {
@@ -1380,8 +1618,10 @@ export const Walls_2688: Item = {
     id: 2688,
     name: "黯淡蓝玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2683: Item = {
@@ -1390,8 +1630,10 @@ export const Walls_2683: Item = {
     id: 2683,
     name: "翡翠晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2684: Item = {
@@ -1400,8 +1642,10 @@ export const Walls_2684: Item = {
     id: 2684,
     name: "黯淡翡翠晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2685: Item = {
@@ -1410,8 +1654,10 @@ export const Walls_2685: Item = {
     id: 2685,
     name: "红玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2686: Item = {
@@ -1420,8 +1666,10 @@ export const Walls_2686: Item = {
     id: 2686,
     name: "黯淡红玉晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2677: Item = {
@@ -1430,8 +1678,10 @@ export const Walls_2677: Item = {
     id: 2677,
     name: "琥珀晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2678: Item = {
@@ -1440,8 +1690,10 @@ export const Walls_2678: Item = {
     id: 2678,
     name: "黯淡琥珀晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2681: Item = {
@@ -1450,8 +1702,10 @@ export const Walls_2681: Item = {
     id: 2681,
     name: "钻石晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_2682: Item = {
@@ -1460,8 +1714,10 @@ export const Walls_2682: Item = {
     id: 2682,
     name: "黯淡钻石晶莹宝石墙",
     Category: Walls,
+    SubCategory: BrickWall,
     comments: "",
 }
+
 
 
 export const Walls_5409: Item = {
@@ -1470,8 +1726,10 @@ export const Walls_5409: Item = {
     id: 5409,
     name: "月锈砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5410: Item = {
@@ -1480,8 +1738,10 @@ export const Walls_5410: Item = {
     id: 5410,
     name: "暗黑天界砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5411: Item = {
@@ -1490,8 +1750,10 @@ export const Walls_5411: Item = {
     id: 5411,
     name: "星芒砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5412: Item = {
@@ -1500,8 +1762,10 @@ export const Walls_5412: Item = {
     id: 5412,
     name: "宇宙余烬砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5413: Item = {
@@ -1510,8 +1774,10 @@ export const Walls_5413: Item = {
     id: 5413,
     name: "冷核砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5414: Item = {
@@ -1520,8 +1786,10 @@ export const Walls_5414: Item = {
     id: 5414,
     name: "水星砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5415: Item = {
@@ -1530,8 +1798,10 @@ export const Walls_5415: Item = {
     id: 5415,
     name: "星星皇家砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5416: Item = {
@@ -1540,8 +1810,10 @@ export const Walls_5416: Item = {
     id: 5416,
     name: "天熔砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5418: Item = {
@@ -1550,8 +1822,10 @@ export const Walls_5418: Item = {
     id: 5418,
     name: "远古蓝砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5420: Item = {
@@ -1560,8 +1834,10 @@ export const Walls_5420: Item = {
     id: 5420,
     name: "远古绿砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5422: Item = {
@@ -1570,8 +1846,10 @@ export const Walls_5422: Item = {
     id: 5422,
     name: "远古粉砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5424: Item = {
@@ -1580,8 +1858,10 @@ export const Walls_5424: Item = {
     id: 5424,
     name: "远古金砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5426: Item = {
@@ -1590,8 +1870,10 @@ export const Walls_5426: Item = {
     id: 5426,
     name: "远古银砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5428: Item = {
@@ -1600,8 +1882,10 @@ export const Walls_5428: Item = {
     id: 5428,
     name: "远古铜砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5430: Item = {
@@ -1610,8 +1894,10 @@ export const Walls_5430: Item = {
     id: 5430,
     name: "远古钴砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5432: Item = {
@@ -1620,8 +1906,10 @@ export const Walls_5432: Item = {
     id: 5432,
     name: "远古秘银砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5434: Item = {
@@ -1630,8 +1918,10 @@ export const Walls_5434: Item = {
     id: 5434,
     name: "远古黑曜石砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5436: Item = {
@@ -1640,8 +1930,10 @@ export const Walls_5436: Item = {
     id: 5436,
     name: "远古狱石砖墙",
     Category: Walls,
+    SubCategory: TransferWall,
     comments: "",
 }
+
 
 
 export const Walls_5363: Item = {
@@ -1650,8 +1942,10 @@ export const Walls_5363: Item = {
     id: 5363,
     name: "蜘蛛栖息墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5365: Item = {
@@ -1660,8 +1954,10 @@ export const Walls_5365: Item = {
     id: 5365,
     name: "诅咒蓝砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5366: Item = {
@@ -1670,8 +1966,10 @@ export const Walls_5366: Item = {
     id: 5366,
     name: "诅咒蓝板墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5367: Item = {
@@ -1680,8 +1978,10 @@ export const Walls_5367: Item = {
     id: 5367,
     name: "诅咒蓝瓷砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5368: Item = {
@@ -1690,8 +1990,10 @@ export const Walls_5368: Item = {
     id: 5368,
     name: "诅咒粉砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5369: Item = {
@@ -1700,8 +2002,10 @@ export const Walls_5369: Item = {
     id: 5369,
     name: "诅咒粉板墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5370: Item = {
@@ -1710,8 +2014,10 @@ export const Walls_5370: Item = {
     id: 5370,
     name: "诅咒粉瓷砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5371: Item = {
@@ -1720,8 +2026,10 @@ export const Walls_5371: Item = {
     id: 5371,
     name: "诅咒绿砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5372: Item = {
@@ -1730,8 +2038,10 @@ export const Walls_5372: Item = {
     id: 5372,
     name: "诅咒绿板墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5373: Item = {
@@ -1740,8 +2050,10 @@ export const Walls_5373: Item = {
     id: 5373,
     name: "诅咒绿瓷砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5374: Item = {
@@ -1750,8 +2062,10 @@ export const Walls_5374: Item = {
     id: 5374,
     name: "危险沙岩墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5375: Item = {
@@ -1760,8 +2074,10 @@ export const Walls_5375: Item = {
     id: 5375,
     name: "危险硬化沙墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_5376: Item = {
@@ -1770,8 +2086,10 @@ export const Walls_5376: Item = {
     id: 5376,
     name: "禁戒丛林蜥蜴砖墙",
     Category: Walls,
+    SubCategory: CursedWall,
     comments: "",
 }
+
 
 
 export const Walls_745: Item = {
@@ -1780,8 +2098,10 @@ export const Walls_745: Item = {
     id: 745,
     name: "草墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_746: Item = {
@@ -1790,8 +2110,10 @@ export const Walls_746: Item = {
     id: 746,
     name: "丛林墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_747: Item = {
@@ -1800,8 +2122,10 @@ export const Walls_747: Item = {
     id: 747,
     name: "花墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_4504: Item = {
@@ -1810,8 +2134,10 @@ export const Walls_4504: Item = {
     id: 4504,
     name: "腐化草墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_4505: Item = {
@@ -1820,8 +2146,10 @@ export const Walls_4505: Item = {
     id: 4505,
     name: "神圣草墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_4508: Item = {
@@ -1830,8 +2158,10 @@ export const Walls_4508: Item = {
     id: 4508,
     name: "猩红草墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "树妖",
 }
+
 
 
 export const Walls_2008: Item = {
@@ -1840,8 +2170,10 @@ export const Walls_2008: Item = {
     id: 2008,
     name: "别致灰壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2009: Item = {
@@ -1850,8 +2182,10 @@ export const Walls_2009: Item = {
     id: 2009,
     name: "浮冰壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2010: Item = {
@@ -1860,8 +2194,10 @@ export const Walls_2010: Item = {
     id: 2010,
     name: "音符壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2011: Item = {
@@ -1870,8 +2206,10 @@ export const Walls_2011: Item = {
     id: 2011,
     name: "紫雨壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2012: Item = {
@@ -1880,8 +2218,10 @@ export const Walls_2012: Item = {
     id: 2012,
     name: "彩虹壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2013: Item = {
@@ -1890,8 +2230,10 @@ export const Walls_2013: Item = {
     id: 2013,
     name: "烁石壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2014: Item = {
@@ -1900,8 +2242,10 @@ export const Walls_2014: Item = {
     id: 2014,
     name: "星光天堂壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2158: Item = {
@@ -1910,8 +2254,10 @@ export const Walls_2158: Item = {
     id: 2158,
     name: "泡泡壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2159: Item = {
@@ -1920,8 +2266,10 @@ export const Walls_2159: Item = {
     id: 2159,
     name: "铜管壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_2160: Item = {
@@ -1930,8 +2278,10 @@ export const Walls_2160: Item = {
     id: 2160,
     name: "黄鸭壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "油漆工",
 }
+
 
 
 export const Walls_1948: Item = {
@@ -1940,8 +2290,10 @@ export const Walls_1948: Item = {
     id: 1948,
     name: "圣诞树壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1949: Item = {
@@ -1950,8 +2302,10 @@ export const Walls_1949: Item = {
     id: 1949,
     name: "装饰壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1950: Item = {
@@ -1960,8 +2314,10 @@ export const Walls_1950: Item = {
     id: 1950,
     name: "糖棒壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1951: Item = {
@@ -1970,8 +2326,10 @@ export const Walls_1951: Item = {
     id: 1951,
     name: "节日壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1952: Item = {
@@ -1980,8 +2338,10 @@ export const Walls_1952: Item = {
     id: 1952,
     name: "星星壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1953: Item = {
@@ -1990,8 +2350,10 @@ export const Walls_1953: Item = {
     id: 1953,
     name: "波浪条纹壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1954: Item = {
@@ -2000,8 +2362,10 @@ export const Walls_1954: Item = {
     id: 1954,
     name: "雪花壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1955: Item = {
@@ -2010,8 +2374,10 @@ export const Walls_1955: Item = {
     id: 1955,
     name: "坎卜斯犄角壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1956: Item = {
@@ -2020,8 +2386,10 @@ export const Walls_1956: Item = {
     id: 1956,
     name: "蓝绿壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_1957: Item = {
@@ -2030,8 +2398,10 @@ export const Walls_1957: Item = {
     id: 1957,
     name: "格林奇手指壁纸",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "圣诞节×油漆工",
 }
+
 
 
 export const Walls_2434: Item = {
@@ -2040,8 +2410,10 @@ export const Walls_2434: Item = {
     id: 2434,
     name: "船帆",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "海盗",
 }
+
 
 
 export const Walls_2271: Item = {
@@ -2050,8 +2422,10 @@ export const Walls_2271: Item = {
     id: 2271,
     name: "奥术神符墙",
     Category: Walls,
-    comments: "",
+    SubCategory: OtherWall,
+    comments: "旅商",
 }
+
 
 
 export const Walls_1728: Item = {
@@ -2060,8 +2434,10 @@ export const Walls_1728: Item = {
     id: 1728,
     name: "干草墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2432: Item = {
@@ -2070,8 +2446,10 @@ export const Walls_2432: Item = {
     id: 2432,
     name: "铜护板墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2691: Item = {
@@ -2080,8 +2458,10 @@ export const Walls_2691: Item = {
     id: 2691,
     name: "锡护板墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2791: Item = {
@@ -2090,8 +2470,10 @@ export const Walls_2791: Item = {
     id: 2791,
     name: "蘑菇矿护板墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2169: Item = {
@@ -2100,8 +2482,10 @@ export const Walls_2169: Item = {
     id: 2169,
     name: "瀑布墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2170: Item = {
@@ -2110,8 +2494,10 @@ export const Walls_2170: Item = {
     id: 2170,
     name: "熔岩瀑布墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2788: Item = {
@@ -2120,8 +2506,10 @@ export const Walls_2788: Item = {
     id: 2788,
     name: "蜂蜜瀑布墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2696: Item = {
@@ -2130,8 +2518,10 @@ export const Walls_2696: Item = {
     id: 2696,
     name: "彩纸墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2698: Item = {
@@ -2140,8 +2530,10 @@ export const Walls_2698: Item = {
     id: 2698,
     name: "午夜彩纸墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_3752: Item = {
@@ -2150,8 +2542,10 @@ export const Walls_3752: Item = {
     id: 3752,
     name: "落沙墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_3753: Item = {
@@ -2160,8 +2554,10 @@ export const Walls_3753: Item = {
     id: 3753,
     name: "降雪墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_4279: Item = {
@@ -2170,8 +2566,10 @@ export const Walls_4279: Item = {
     id: 4279,
     name: "金星墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_4280: Item = {
@@ -2180,8 +2578,10 @@ export const Walls_4280: Item = {
     id: 4280,
     name: "蓝星墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_1448: Item = {
@@ -2190,8 +2590,10 @@ export const Walls_1448: Item = {
     id: 1448,
     name: "铅栅栏",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_2333: Item = {
@@ -2200,8 +2602,10 @@ export const Walls_2333: Item = {
     id: 2333,
     name: "铁栅栏",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_4424: Item = {
@@ -2210,8 +2614,10 @@ export const Walls_4424: Item = {
     id: 4424,
     name: "铁艺栅栏",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_5396: Item = {
@@ -2220,8 +2626,10 @@ export const Walls_5396: Item = {
     id: 5396,
     name: "臭臭墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
+
 
 
 export const Walls_4503: Item = {
@@ -2230,6 +2638,7 @@ export const Walls_4503: Item = {
     id: 4503,
     name: "蜘蛛墙",
     Category: Walls,
+    SubCategory: OtherWall,
     comments: "",
 }
 

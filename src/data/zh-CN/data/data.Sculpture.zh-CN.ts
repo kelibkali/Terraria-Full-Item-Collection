@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { Sculpture } from "../data.Category.zh-CN.ts"
 
+import { AnimalS, DecS, MonsterS, NumberS, SpecialS } from "../data.SubCategory.zh-CN.ts"
+
 import Sculpture_440Img from "../../../assets/icon/Item_440.png"
 import Sculpture_441Img from "../../../assets/icon/Item_441.png"
 import Sculpture_443Img from "../../../assets/icon/Item_443.png"
@@ -117,14 +119,18 @@ import Sculpture_2734Img from "../../../assets/icon/Item_2734.png"
 import Sculpture_2735Img from "../../../assets/icon/Item_2735.png"
 import Sculpture_2736Img from "../../../assets/icon/Item_2736.png"
 import Sculpture_2737Img from "../../../assets/icon/Item_2737.png"
+
+
 export const Sculpture_440: Item = {
     icon: Sculpture_440Img,
     isCollection: false,
     id: 440,
     name: "史莱姆雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_441: Item = {
@@ -133,8 +139,10 @@ export const Sculpture_441: Item = {
     id: 441,
     name: "哥布林雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_443: Item = {
@@ -143,8 +151,10 @@ export const Sculpture_443: Item = {
     id: 443,
     name: "蝙蝠雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_446: Item = {
@@ -153,8 +163,10 @@ export const Sculpture_446: Item = {
     id: 446,
     name: "骷髅雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_449: Item = {
@@ -163,8 +175,10 @@ export const Sculpture_449: Item = {
     id: 449,
     name: "小鬼雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_452: Item = {
@@ -173,8 +187,10 @@ export const Sculpture_452: Item = {
     id: 452,
     name: "黄蜂雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_454: Item = {
@@ -183,8 +199,10 @@ export const Sculpture_454: Item = {
     id: 454,
     name: "螃蟹雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_459: Item = {
@@ -193,8 +211,10 @@ export const Sculpture_459: Item = {
     id: 459,
     name: "水母雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_463: Item = {
@@ -203,8 +223,10 @@ export const Sculpture_463: Item = {
     id: 463,
     name: "宝箱雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_466: Item = {
@@ -213,8 +235,10 @@ export const Sculpture_466: Item = {
     id: 466,
     name: "腐化雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_471: Item = {
@@ -223,8 +247,10 @@ export const Sculpture_471: Item = {
     id: 471,
     name: "魔眼雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_478: Item = {
@@ -233,8 +259,10 @@ export const Sculpture_478: Item = {
     id: 478,
     name: "食人鱼雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_2672: Item = {
@@ -243,8 +271,10 @@ export const Sculpture_2672: Item = {
     id: 2672,
     name: "鲨鱼雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3708: Item = {
@@ -253,8 +283,10 @@ export const Sculpture_3708: Item = {
     id: 3708,
     name: "爬墙蜘蛛雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3709: Item = {
@@ -263,8 +295,10 @@ export const Sculpture_3709: Item = {
     id: 3709,
     name: "独角兽雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3710: Item = {
@@ -273,8 +307,10 @@ export const Sculpture_3710: Item = {
     id: 3710,
     name: "滴滴怪雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3711: Item = {
@@ -283,8 +319,10 @@ export const Sculpture_3711: Item = {
     id: 3711,
     name: "幻灵雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3712: Item = {
@@ -293,8 +331,10 @@ export const Sculpture_3712: Item = {
     id: 3712,
     name: "骨头骷髅雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3713: Item = {
@@ -303,8 +343,10 @@ export const Sculpture_3713: Item = {
     id: 3713,
     name: "亡灵维京海盗雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3714: Item = {
@@ -313,8 +355,10 @@ export const Sculpture_3714: Item = {
     id: 3714,
     name: "蛇发女妖雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3715: Item = {
@@ -323,8 +367,10 @@ export const Sculpture_3715: Item = {
     id: 3715,
     name: "鸟妖雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3716: Item = {
@@ -333,8 +379,10 @@ export const Sculpture_3716: Item = {
     id: 3716,
     name: "猪龙雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3717: Item = {
@@ -343,8 +391,10 @@ export const Sculpture_3717: Item = {
     id: 3717,
     name: "装甲步兵雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3718: Item = {
@@ -353,8 +403,10 @@ export const Sculpture_3718: Item = {
     id: 3718,
     name: "花岗岩巨人雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3719: Item = {
@@ -363,8 +415,10 @@ export const Sculpture_3719: Item = {
     id: 3719,
     name: "武装僵尸雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_3720: Item = {
@@ -373,8 +427,10 @@ export const Sculpture_3720: Item = {
     id: 3720,
     name: "血腥僵尸雕像",
     Category: Sculpture,
+    SubCategory: MonsterS,
     comments: "",
 }
+
 
 
 export const Sculpture_444: Item = {
@@ -383,8 +439,10 @@ export const Sculpture_444: Item = {
     id: 444,
     name: "金鱼雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_445: Item = {
@@ -393,8 +451,10 @@ export const Sculpture_445: Item = {
     id: 445,
     name: "兔兔雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_464: Item = {
@@ -403,8 +463,10 @@ export const Sculpture_464: Item = {
     id: 464,
     name: "鸟雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3651: Item = {
@@ -413,8 +475,10 @@ export const Sculpture_3651: Item = {
     id: 3651,
     name: "松鼠雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3652: Item = {
@@ -423,8 +487,10 @@ export const Sculpture_3652: Item = {
     id: 3652,
     name: "蝴蝶雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3653: Item = {
@@ -433,8 +499,10 @@ export const Sculpture_3653: Item = {
     id: 3653,
     name: "蠕虫雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3654: Item = {
@@ -443,8 +511,10 @@ export const Sculpture_3654: Item = {
     id: 3654,
     name: "萤火虫雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3655: Item = {
@@ -453,8 +523,10 @@ export const Sculpture_3655: Item = {
     id: 3655,
     name: "蝎子雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3656: Item = {
@@ -463,8 +535,10 @@ export const Sculpture_3656: Item = {
     id: 3656,
     name: "蜗牛雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3657: Item = {
@@ -473,8 +547,10 @@ export const Sculpture_3657: Item = {
     id: 3657,
     name: "蚱蜢雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3658: Item = {
@@ -483,8 +559,10 @@ export const Sculpture_3658: Item = {
     id: 3658,
     name: "老鼠雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3659: Item = {
@@ -493,8 +571,10 @@ export const Sculpture_3659: Item = {
     id: 3659,
     name: "鸭雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3660: Item = {
@@ -503,8 +583,10 @@ export const Sculpture_3660: Item = {
     id: 3660,
     name: "企鹅雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3661: Item = {
@@ -513,8 +595,10 @@ export const Sculpture_3661: Item = {
     id: 3661,
     name: "青蛙雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_3662: Item = {
@@ -523,8 +607,10 @@ export const Sculpture_3662: Item = {
     id: 3662,
     name: "蚜虫雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_4342: Item = {
@@ -533,8 +619,10 @@ export const Sculpture_4342: Item = {
     id: 4342,
     name: "蜻蜓雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_4360: Item = {
@@ -543,8 +631,10 @@ export const Sculpture_4360: Item = {
     id: 4360,
     name: "海鸥雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_4397: Item = {
@@ -553,8 +643,10 @@ export const Sculpture_4397: Item = {
     id: 4397,
     name: "猫头鹰雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_4466: Item = {
@@ -563,8 +655,10 @@ export const Sculpture_4466: Item = {
     id: 4466,
     name: "龟雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_5317: Item = {
@@ -573,8 +667,10 @@ export const Sculpture_5317: Item = {
     id: 5317,
     name: "金刚鹦鹉雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_5318: Item = {
@@ -583,8 +679,10 @@ export const Sculpture_5318: Item = {
     id: 5318,
     name: "巨嘴鸟雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_5319: Item = {
@@ -593,8 +691,10 @@ export const Sculpture_5319: Item = {
     id: 5319,
     name: "玄凤鹦鹉雕像",
     Category: Sculpture,
+    SubCategory: AnimalS,
     comments: "",
 }
+
 
 
 export const Sculpture_438: Item = {
@@ -603,8 +703,10 @@ export const Sculpture_438: Item = {
     id: 438,
     name: "星星雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_473: Item = {
@@ -613,8 +715,10 @@ export const Sculpture_473: Item = {
     id: 473,
     name: "心形雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_453: Item = {
@@ -623,8 +727,10 @@ export const Sculpture_453: Item = {
     id: 453,
     name: "炸弹雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_476: Item = {
@@ -633,8 +739,10 @@ export const Sculpture_476: Item = {
     id: 476,
     name: "国王雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_477: Item = {
@@ -643,8 +751,10 @@ export const Sculpture_477: Item = {
     id: 477,
     name: "女王雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_470: Item = {
@@ -653,8 +763,10 @@ export const Sculpture_470: Item = {
     id: 470,
     name: "蘑菇雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_4355: Item = {
@@ -663,8 +775,10 @@ export const Sculpture_4355: Item = {
     id: 4355,
     name: "巨石雕像",
     Category: Sculpture,
+    SubCategory: SpecialS,
     comments: "",
 }
+
 
 
 export const Sculpture_52: Item = {
@@ -673,8 +787,10 @@ export const Sculpture_52: Item = {
     id: 52,
     name: "天使雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_360: Item = {
@@ -683,8 +799,10 @@ export const Sculpture_360: Item = {
     id: 360,
     name: "盔甲雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_439: Item = {
@@ -693,8 +811,10 @@ export const Sculpture_439: Item = {
     id: 439,
     name: "宝剑雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_442: Item = {
@@ -703,8 +823,10 @@ export const Sculpture_442: Item = {
     id: 442,
     name: "护盾雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_447: Item = {
@@ -713,8 +835,10 @@ export const Sculpture_447: Item = {
     id: 447,
     name: "死神雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_448: Item = {
@@ -723,8 +847,10 @@ export const Sculpture_448: Item = {
     id: 448,
     name: "女人雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_450: Item = {
@@ -733,8 +859,10 @@ export const Sculpture_450: Item = {
     id: 450,
     name: "石像鬼雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_451: Item = {
@@ -743,8 +871,10 @@ export const Sculpture_451: Item = {
     id: 451,
     name: "幽冥雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_455: Item = {
@@ -753,8 +883,10 @@ export const Sculpture_455: Item = {
     id: 455,
     name: "战锤雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_456: Item = {
@@ -763,8 +895,10 @@ export const Sculpture_456: Item = {
     id: 456,
     name: "药水雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_457: Item = {
@@ -773,8 +907,10 @@ export const Sculpture_457: Item = {
     id: 457,
     name: "长矛雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_458: Item = {
@@ -783,8 +919,10 @@ export const Sculpture_458: Item = {
     id: 458,
     name: "十字架雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_460: Item = {
@@ -793,8 +931,10 @@ export const Sculpture_460: Item = {
     id: 460,
     name: "弓雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_461: Item = {
@@ -803,8 +943,10 @@ export const Sculpture_461: Item = {
     id: 461,
     name: "回旋镖雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_462: Item = {
@@ -813,8 +955,10 @@ export const Sculpture_462: Item = {
     id: 462,
     name: "靴子雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_465: Item = {
@@ -823,8 +967,10 @@ export const Sculpture_465: Item = {
     id: 465,
     name: "战斧雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_467: Item = {
@@ -833,8 +979,10 @@ export const Sculpture_467: Item = {
     id: 467,
     name: "树木雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_468: Item = {
@@ -843,8 +991,10 @@ export const Sculpture_468: Item = {
     id: 468,
     name: "砧雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_469: Item = {
@@ -853,8 +1003,10 @@ export const Sculpture_469: Item = {
     id: 469,
     name: "镐雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_472: Item = {
@@ -863,8 +1015,10 @@ export const Sculpture_472: Item = {
     id: 472,
     name: "石柱雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_474: Item = {
@@ -873,8 +1027,10 @@ export const Sculpture_474: Item = {
     id: 474,
     name: "陶罐雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_475: Item = {
@@ -883,8 +1039,10 @@ export const Sculpture_475: Item = {
     id: 475,
     name: "向日葵雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_1152: Item = {
@@ -893,8 +1051,10 @@ export const Sculpture_1152: Item = {
     id: 1152,
     name: "丛林蜥蜴雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_1153: Item = {
@@ -903,8 +1063,10 @@ export const Sculpture_1153: Item = {
     id: 1153,
     name: "丛林蜥蜴看守人雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_1154: Item = {
@@ -913,8 +1075,10 @@ export const Sculpture_1154: Item = {
     id: 1154,
     name: "丛林蜥蜴守卫雕像",
     Category: Sculpture,
+    SubCategory: DecS,
     comments: "",
 }
+
 
 
 export const Sculpture_2702: Item = {
@@ -923,8 +1087,10 @@ export const Sculpture_2702: Item = {
     id: 2702,
     name: "0字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2703: Item = {
@@ -933,8 +1099,10 @@ export const Sculpture_2703: Item = {
     id: 2703,
     name: "1字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2704: Item = {
@@ -943,8 +1111,10 @@ export const Sculpture_2704: Item = {
     id: 2704,
     name: "2字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2705: Item = {
@@ -953,8 +1123,10 @@ export const Sculpture_2705: Item = {
     id: 2705,
     name: "3字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2706: Item = {
@@ -963,8 +1135,10 @@ export const Sculpture_2706: Item = {
     id: 2706,
     name: "4字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2707: Item = {
@@ -973,8 +1147,10 @@ export const Sculpture_2707: Item = {
     id: 2707,
     name: "5字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2708: Item = {
@@ -983,8 +1159,10 @@ export const Sculpture_2708: Item = {
     id: 2708,
     name: "6字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2709: Item = {
@@ -993,8 +1171,10 @@ export const Sculpture_2709: Item = {
     id: 2709,
     name: "7字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2710: Item = {
@@ -1003,8 +1183,10 @@ export const Sculpture_2710: Item = {
     id: 2710,
     name: "8字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2711: Item = {
@@ -1013,8 +1195,10 @@ export const Sculpture_2711: Item = {
     id: 2711,
     name: "9字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2712: Item = {
@@ -1023,8 +1207,10 @@ export const Sculpture_2712: Item = {
     id: 2712,
     name: "A字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2713: Item = {
@@ -1033,8 +1219,10 @@ export const Sculpture_2713: Item = {
     id: 2713,
     name: "B字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2714: Item = {
@@ -1043,8 +1231,10 @@ export const Sculpture_2714: Item = {
     id: 2714,
     name: "C字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2715: Item = {
@@ -1053,8 +1243,10 @@ export const Sculpture_2715: Item = {
     id: 2715,
     name: "D字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2716: Item = {
@@ -1063,8 +1255,10 @@ export const Sculpture_2716: Item = {
     id: 2716,
     name: "E字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2717: Item = {
@@ -1073,8 +1267,10 @@ export const Sculpture_2717: Item = {
     id: 2717,
     name: "F字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2718: Item = {
@@ -1083,8 +1279,10 @@ export const Sculpture_2718: Item = {
     id: 2718,
     name: "G字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2719: Item = {
@@ -1093,8 +1291,10 @@ export const Sculpture_2719: Item = {
     id: 2719,
     name: "H字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2720: Item = {
@@ -1103,8 +1303,10 @@ export const Sculpture_2720: Item = {
     id: 2720,
     name: "I字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2721: Item = {
@@ -1113,8 +1315,10 @@ export const Sculpture_2721: Item = {
     id: 2721,
     name: "J字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2722: Item = {
@@ -1123,8 +1327,10 @@ export const Sculpture_2722: Item = {
     id: 2722,
     name: "K字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2723: Item = {
@@ -1133,8 +1339,10 @@ export const Sculpture_2723: Item = {
     id: 2723,
     name: "L字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2724: Item = {
@@ -1143,8 +1351,10 @@ export const Sculpture_2724: Item = {
     id: 2724,
     name: "M字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2725: Item = {
@@ -1153,8 +1363,10 @@ export const Sculpture_2725: Item = {
     id: 2725,
     name: "N字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2726: Item = {
@@ -1163,8 +1375,10 @@ export const Sculpture_2726: Item = {
     id: 2726,
     name: "O字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2727: Item = {
@@ -1173,8 +1387,10 @@ export const Sculpture_2727: Item = {
     id: 2727,
     name: "P字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2728: Item = {
@@ -1183,8 +1399,10 @@ export const Sculpture_2728: Item = {
     id: 2728,
     name: "Q字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2729: Item = {
@@ -1193,8 +1411,10 @@ export const Sculpture_2729: Item = {
     id: 2729,
     name: "R字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2730: Item = {
@@ -1203,8 +1423,10 @@ export const Sculpture_2730: Item = {
     id: 2730,
     name: "S字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2731: Item = {
@@ -1213,8 +1435,10 @@ export const Sculpture_2731: Item = {
     id: 2731,
     name: "T字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2732: Item = {
@@ -1223,8 +1447,10 @@ export const Sculpture_2732: Item = {
     id: 2732,
     name: "U字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2733: Item = {
@@ -1233,8 +1459,10 @@ export const Sculpture_2733: Item = {
     id: 2733,
     name: "V字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2734: Item = {
@@ -1243,8 +1471,10 @@ export const Sculpture_2734: Item = {
     id: 2734,
     name: "W字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2735: Item = {
@@ -1253,8 +1483,10 @@ export const Sculpture_2735: Item = {
     id: 2735,
     name: "X字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2736: Item = {
@@ -1263,8 +1495,10 @@ export const Sculpture_2736: Item = {
     id: 2736,
     name: "Y字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
+
 
 
 export const Sculpture_2737: Item = {
@@ -1273,6 +1507,7 @@ export const Sculpture_2737: Item = {
     id: 2737,
     name: "Z字雕像",
     Category: Sculpture,
+    SubCategory: NumberS,
     comments: "",
 }
 

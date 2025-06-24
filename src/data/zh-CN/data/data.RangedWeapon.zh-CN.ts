@@ -1,6 +1,8 @@
 import type { Item } from "../../Interface.ts"
 import { RangedWeapon } from "../data.Category.zh-CN.ts"
 
+import { Arrow, Bow, Bullet, Consumable, Gun, Launcher, OtherBullet, OtherRangedWeapon, Repeater } from "../data.SubCategory.zh-CN.ts"
+
 import RangedWeapon_39Img from "../../../assets/icon/Item_39.png"
 import RangedWeapon_2747Img from "../../../assets/icon/Item_2747.png"
 import RangedWeapon_2515Img from "../../../assets/icon/Item_2515.png"
@@ -176,14 +178,18 @@ import RangedWeapon_3548Img from "../../../assets/icon/Item_3548.png"
 import RangedWeapon_168Img from "../../../assets/icon/Item_168.png"
 import RangedWeapon_3116Img from "../../../assets/icon/Item_3116.png"
 import RangedWeapon_2586Img from "../../../assets/icon/Item_2586.png"
+
+
 export const RangedWeapon_39: Item = {
     icon: RangedWeapon_39Img,
     isCollection: false,
     id: 39,
     name: "木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2747: Item = {
@@ -192,8 +198,10 @@ export const RangedWeapon_2747: Item = {
     id: 2747,
     name: "针叶木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2515: Item = {
@@ -202,8 +210,10 @@ export const RangedWeapon_2515: Item = {
     id: 2515,
     name: "棕榈木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_658: Item = {
@@ -212,8 +222,10 @@ export const RangedWeapon_658: Item = {
     id: 658,
     name: "红木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_655: Item = {
@@ -222,8 +234,10 @@ export const RangedWeapon_655: Item = {
     id: 655,
     name: "乌木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_923: Item = {
@@ -232,8 +246,10 @@ export const RangedWeapon_923: Item = {
     id: 923,
     name: "暗影木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5282: Item = {
@@ -242,8 +258,10 @@ export const RangedWeapon_5282: Item = {
     id: 5282,
     name: "灰烬木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_661: Item = {
@@ -252,8 +270,10 @@ export const RangedWeapon_661: Item = {
     id: 661,
     name: "珍珠木弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3504: Item = {
@@ -262,8 +282,10 @@ export const RangedWeapon_3504: Item = {
     id: 3504,
     name: "铜弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3498: Item = {
@@ -272,8 +294,10 @@ export const RangedWeapon_3498: Item = {
     id: 3498,
     name: "锡弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_99: Item = {
@@ -282,8 +306,10 @@ export const RangedWeapon_99: Item = {
     id: 99,
     name: "铁弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3492: Item = {
@@ -292,8 +318,10 @@ export const RangedWeapon_3492: Item = {
     id: 3492,
     name: "铅弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3510: Item = {
@@ -302,8 +330,10 @@ export const RangedWeapon_3510: Item = {
     id: 3510,
     name: "银弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3486: Item = {
@@ -312,8 +342,10 @@ export const RangedWeapon_3486: Item = {
     id: 3486,
     name: "钨弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3516: Item = {
@@ -322,8 +354,10 @@ export const RangedWeapon_3516: Item = {
     id: 3516,
     name: "金弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3480: Item = {
@@ -332,8 +366,10 @@ export const RangedWeapon_3480: Item = {
     id: 3480,
     name: "铂金弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_44: Item = {
@@ -342,8 +378,10 @@ export const RangedWeapon_44: Item = {
     id: 44,
     name: "恶魔弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_796: Item = {
@@ -352,8 +390,10 @@ export const RangedWeapon_796: Item = {
     id: 796,
     name: "肌腱弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4381: Item = {
@@ -362,8 +402,10 @@ export const RangedWeapon_4381: Item = {
     id: 4381,
     name: "血雨弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_120: Item = {
@@ -372,8 +414,10 @@ export const RangedWeapon_120: Item = {
     id: 120,
     name: "熔火之怒",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2888: Item = {
@@ -382,8 +426,10 @@ export const RangedWeapon_2888: Item = {
     id: 2888,
     name: "蜂膝弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3019: Item = {
@@ -392,8 +438,10 @@ export const RangedWeapon_3019: Item = {
     id: 3019,
     name: "地狱之翼弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3029: Item = {
@@ -402,8 +450,10 @@ export const RangedWeapon_3029: Item = {
     id: 3029,
     name: "代达罗斯风暴弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_725: Item = {
@@ -412,8 +462,10 @@ export const RangedWeapon_725: Item = {
     id: 725,
     name: "冰雪弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3052: Item = {
@@ -422,8 +474,10 @@ export const RangedWeapon_3052: Item = {
     id: 3052,
     name: "暗影焰弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_682: Item = {
@@ -432,8 +486,10 @@ export const RangedWeapon_682: Item = {
     id: 682,
     name: "骸骨弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2223: Item = {
@@ -442,8 +498,10 @@ export const RangedWeapon_2223: Item = {
     id: 2223,
     name: "脉冲弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3854: Item = {
@@ -452,8 +510,10 @@ export const RangedWeapon_3854: Item = {
     id: 3854,
     name: "幽灵凤凰",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2624: Item = {
@@ -462,8 +522,10 @@ export const RangedWeapon_2624: Item = {
     id: 2624,
     name: "海啸",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3859: Item = {
@@ -472,8 +534,10 @@ export const RangedWeapon_3859: Item = {
     id: 3859,
     name: "空中祸害",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4953: Item = {
@@ -482,8 +546,10 @@ export const RangedWeapon_4953: Item = {
     id: 4953,
     name: "日暮",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3540: Item = {
@@ -492,8 +558,10 @@ export const RangedWeapon_3540: Item = {
     id: 3540,
     name: "幻影弓",
     Category: RangedWeapon,
+    SubCategory: Bow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_435: Item = {
@@ -502,8 +570,10 @@ export const RangedWeapon_435: Item = {
     id: 435,
     name: "钴连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1187: Item = {
@@ -512,8 +582,10 @@ export const RangedWeapon_1187: Item = {
     id: 1187,
     name: "钯金连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_436: Item = {
@@ -522,8 +594,10 @@ export const RangedWeapon_436: Item = {
     id: 436,
     name: "秘银连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1194: Item = {
@@ -532,8 +606,10 @@ export const RangedWeapon_1194: Item = {
     id: 1194,
     name: "山铜连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_481: Item = {
@@ -542,8 +618,10 @@ export const RangedWeapon_481: Item = {
     id: 481,
     name: "精金连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1201: Item = {
@@ -552,8 +630,10 @@ export const RangedWeapon_1201: Item = {
     id: 1201,
     name: "钛金连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_578: Item = {
@@ -562,8 +642,10 @@ export const RangedWeapon_578: Item = {
     id: 578,
     name: "神圣连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1229: Item = {
@@ -572,8 +654,10 @@ export const RangedWeapon_1229: Item = {
     id: 1229,
     name: "叶绿连弩",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1835: Item = {
@@ -582,8 +666,10 @@ export const RangedWeapon_1835: Item = {
     id: 1835,
     name: "尖桩发射器",
     Category: RangedWeapon,
+    SubCategory: Repeater,
     comments: "",
 }
+
 
 
 export const RangedWeapon_40: Item = {
@@ -592,8 +678,10 @@ export const RangedWeapon_40: Item = {
     id: 40,
     name: "木箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_41: Item = {
@@ -602,8 +690,10 @@ export const RangedWeapon_41: Item = {
     id: 41,
     name: "烈焰箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_988: Item = {
@@ -612,8 +702,10 @@ export const RangedWeapon_988: Item = {
     id: 988,
     name: "霜冻箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_47: Item = {
@@ -622,8 +714,10 @@ export const RangedWeapon_47: Item = {
     id: 47,
     name: "邪箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_51: Item = {
@@ -632,8 +726,10 @@ export const RangedWeapon_51: Item = {
     id: 51,
     name: "小丑之箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5348: Item = {
@@ -642,8 +738,10 @@ export const RangedWeapon_5348: Item = {
     id: 5348,
     name: "微光箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3003: Item = {
@@ -652,8 +750,10 @@ export const RangedWeapon_3003: Item = {
     id: 3003,
     name: "骨箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_265: Item = {
@@ -662,8 +762,10 @@ export const RangedWeapon_265: Item = {
     id: 265,
     name: "狱炎箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3103: Item = {
@@ -672,8 +774,10 @@ export const RangedWeapon_3103: Item = {
     id: 3103,
     name: "无尽箭袋",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_516: Item = {
@@ -682,8 +786,10 @@ export const RangedWeapon_516: Item = {
     id: 516,
     name: "圣箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_545: Item = {
@@ -692,8 +798,10 @@ export const RangedWeapon_545: Item = {
     id: 545,
     name: "诅咒箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1334: Item = {
@@ -702,8 +810,10 @@ export const RangedWeapon_1334: Item = {
     id: 1334,
     name: "灵液箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1235: Item = {
@@ -712,8 +822,10 @@ export const RangedWeapon_1235: Item = {
     id: 1235,
     name: "叶绿箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1341: Item = {
@@ -722,8 +834,10 @@ export const RangedWeapon_1341: Item = {
     id: 1341,
     name: "毒液箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1836: Item = {
@@ -732,8 +846,10 @@ export const RangedWeapon_1836: Item = {
     id: 1836,
     name: "尖桩",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3568: Item = {
@@ -742,8 +858,10 @@ export const RangedWeapon_3568: Item = {
     id: 3568,
     name: "夜明箭",
     Category: RangedWeapon,
+    SubCategory: Arrow,
     comments: "",
 }
+
 
 
 export const RangedWeapon_98: Item = {
@@ -752,8 +870,10 @@ export const RangedWeapon_98: Item = {
     id: 98,
     name: "迷你鲨",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_95: Item = {
@@ -762,8 +882,10 @@ export const RangedWeapon_95: Item = {
     id: 95,
     name: "燧发枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_964: Item = {
@@ -772,8 +894,10 @@ export const RangedWeapon_964: Item = {
     id: 964,
     name: "三发猎枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2269: Item = {
@@ -782,8 +906,10 @@ export const RangedWeapon_2269: Item = {
     id: 2269,
     name: "左轮手枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1870: Item = {
@@ -792,8 +918,10 @@ export const RangedWeapon_1870: Item = {
     id: 1870,
     name: "红莱德枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_96: Item = {
@@ -802,8 +930,10 @@ export const RangedWeapon_96: Item = {
     id: 96,
     name: "火枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_800: Item = {
@@ -812,8 +942,10 @@ export const RangedWeapon_800: Item = {
     id: 800,
     name: "夺命枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4703: Item = {
@@ -822,8 +954,10 @@ export const RangedWeapon_4703: Item = {
     id: 4703,
     name: "四管霰弹枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_164: Item = {
@@ -832,8 +966,10 @@ export const RangedWeapon_164: Item = {
     id: 164,
     name: "手枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5117: Item = {
@@ -842,8 +978,10 @@ export const RangedWeapon_5117: Item = {
     id: 5117,
     name: "气喇叭",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_219: Item = {
@@ -852,8 +990,10 @@ export const RangedWeapon_219: Item = {
     id: 219,
     name: "凤凰爆破枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_434: Item = {
@@ -862,8 +1002,10 @@ export const RangedWeapon_434: Item = {
     id: 434,
     name: "发条式突击步枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2270: Item = {
@@ -872,8 +1014,10 @@ export const RangedWeapon_2270: Item = {
     id: 2270,
     name: "鳄鱼机关枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_534: Item = {
@@ -882,8 +1026,10 @@ export const RangedWeapon_534: Item = {
     id: 534,
     name: "霰弹枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3788: Item = {
@@ -892,8 +1038,10 @@ export const RangedWeapon_3788: Item = {
     id: 3788,
     name: "玛瑙爆破枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1265: Item = {
@@ -902,8 +1050,10 @@ export const RangedWeapon_1265: Item = {
     id: 1265,
     name: "乌兹冲锋枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_533: Item = {
@@ -912,8 +1062,10 @@ export const RangedWeapon_533: Item = {
     id: 533,
     name: "巨兽鲨",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1255: Item = {
@@ -922,8 +1074,10 @@ export const RangedWeapon_1255: Item = {
     id: 1255,
     name: "维纳斯万能枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_679: Item = {
@@ -932,8 +1086,10 @@ export const RangedWeapon_679: Item = {
     id: 679,
     name: "战术霰弹枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1254: Item = {
@@ -942,8 +1098,10 @@ export const RangedWeapon_1254: Item = {
     id: 1254,
     name: "狙击步枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1782: Item = {
@@ -952,8 +1110,10 @@ export const RangedWeapon_1782: Item = {
     id: 1782,
     name: "玉米糖步枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1929: Item = {
@@ -962,8 +1122,10 @@ export const RangedWeapon_1929: Item = {
     id: 1929,
     name: "链式机枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2797: Item = {
@@ -972,8 +1134,10 @@ export const RangedWeapon_2797: Item = {
     id: 2797,
     name: "外星霰弹枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3475: Item = {
@@ -982,8 +1146,10 @@ export const RangedWeapon_3475: Item = {
     id: 3475,
     name: "星旋机枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1553: Item = {
@@ -992,8 +1158,10 @@ export const RangedWeapon_1553: Item = {
     id: 1553,
     name: "太空海豚机枪",
     Category: RangedWeapon,
+    SubCategory: Gun,
     comments: "",
 }
+
 
 
 export const RangedWeapon_97: Item = {
@@ -1002,8 +1170,10 @@ export const RangedWeapon_97: Item = {
     id: 97,
     name: "火枪子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_278: Item = {
@@ -1012,8 +1182,10 @@ export const RangedWeapon_278: Item = {
     id: 278,
     name: "银子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4915: Item = {
@@ -1022,8 +1194,10 @@ export const RangedWeapon_4915: Item = {
     id: 4915,
     name: "钨子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_234: Item = {
@@ -1032,8 +1206,10 @@ export const RangedWeapon_234: Item = {
     id: 234,
     name: "流星弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1349: Item = {
@@ -1042,8 +1218,10 @@ export const RangedWeapon_1349: Item = {
     id: 1349,
     name: "派对弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3104: Item = {
@@ -1052,8 +1230,10 @@ export const RangedWeapon_3104: Item = {
     id: 3104,
     name: "无尽火枪袋",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1351: Item = {
@@ -1062,8 +1242,10 @@ export const RangedWeapon_1351: Item = {
     id: 1351,
     name: "爆破弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1352: Item = {
@@ -1072,8 +1254,10 @@ export const RangedWeapon_1352: Item = {
     id: 1352,
     name: "金子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_515: Item = {
@@ -1082,8 +1266,10 @@ export const RangedWeapon_515: Item = {
     id: 515,
     name: "水晶子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_546: Item = {
@@ -1092,8 +1278,10 @@ export const RangedWeapon_546: Item = {
     id: 546,
     name: "诅咒弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1335: Item = {
@@ -1102,8 +1290,10 @@ export const RangedWeapon_1335: Item = {
     id: 1335,
     name: "灵液弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1302: Item = {
@@ -1112,8 +1302,10 @@ export const RangedWeapon_1302: Item = {
     id: 1302,
     name: "高速子弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1179: Item = {
@@ -1122,8 +1314,10 @@ export const RangedWeapon_1179: Item = {
     id: 1179,
     name: "叶绿弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1342: Item = {
@@ -1132,8 +1326,10 @@ export const RangedWeapon_1342: Item = {
     id: 1342,
     name: "毒液弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1350: Item = {
@@ -1142,8 +1338,10 @@ export const RangedWeapon_1350: Item = {
     id: 1350,
     name: "纳米弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1783: Item = {
@@ -1152,8 +1350,10 @@ export const RangedWeapon_1783: Item = {
     id: 1783,
     name: "玉米糖",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3567: Item = {
@@ -1162,8 +1362,10 @@ export const RangedWeapon_3567: Item = {
     id: 3567,
     name: "夜明弹",
     Category: RangedWeapon,
+    SubCategory: Bullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_758: Item = {
@@ -1172,8 +1374,10 @@ export const RangedWeapon_758: Item = {
     id: 758,
     name: "榴弹发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_759: Item = {
@@ -1182,8 +1386,10 @@ export const RangedWeapon_759: Item = {
     id: 759,
     name: "火箭发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_760: Item = {
@@ -1192,8 +1398,10 @@ export const RangedWeapon_760: Item = {
     id: 760,
     name: "感应雷发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3107: Item = {
@@ -1202,8 +1410,10 @@ export const RangedWeapon_3107: Item = {
     id: 3107,
     name: "钉枪",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1784: Item = {
@@ -1212,8 +1422,10 @@ export const RangedWeapon_1784: Item = {
     id: 1784,
     name: "杰克南瓜灯发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1946: Item = {
@@ -1222,8 +1434,10 @@ export const RangedWeapon_1946: Item = {
     id: 1946,
     name: "雪人炮",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1258: Item = {
@@ -1232,8 +1446,10 @@ export const RangedWeapon_1258: Item = {
     id: 1258,
     name: "毒刺发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2796: Item = {
@@ -1242,8 +1458,10 @@ export const RangedWeapon_2796: Item = {
     id: 2796,
     name: "电圈发射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3546: Item = {
@@ -1252,8 +1470,10 @@ export const RangedWeapon_3546: Item = {
     id: 3546,
     name: "喜庆弹射器",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3930: Item = {
@@ -1262,8 +1482,10 @@ export const RangedWeapon_3930: Item = {
     id: 3930,
     name: "喜庆弹射器Mk2",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_771: Item = {
@@ -1272,8 +1494,10 @@ export const RangedWeapon_771: Item = {
     id: 771,
     name: "火箭一型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_772: Item = {
@@ -1282,8 +1506,10 @@ export const RangedWeapon_772: Item = {
     id: 772,
     name: "火箭二型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_773: Item = {
@@ -1292,8 +1518,10 @@ export const RangedWeapon_773: Item = {
     id: 773,
     name: "火箭三型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_774: Item = {
@@ -1302,8 +1530,10 @@ export const RangedWeapon_774: Item = {
     id: 774,
     name: "火箭四型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4445: Item = {
@@ -1312,8 +1542,10 @@ export const RangedWeapon_4445: Item = {
     id: 4445,
     name: "集束火箭一型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4446: Item = {
@@ -1322,8 +1554,10 @@ export const RangedWeapon_4446: Item = {
     id: 4446,
     name: "集束火箭二型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4447: Item = {
@@ -1332,8 +1566,10 @@ export const RangedWeapon_4447: Item = {
     id: 4447,
     name: "湿火箭",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4448: Item = {
@@ -1342,8 +1578,10 @@ export const RangedWeapon_4448: Item = {
     id: 4448,
     name: "熔岩火箭",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4449: Item = {
@@ -1352,8 +1590,10 @@ export const RangedWeapon_4449: Item = {
     id: 4449,
     name: "蜂蜜火箭",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4457: Item = {
@@ -1362,8 +1602,10 @@ export const RangedWeapon_4457: Item = {
     id: 4457,
     name: "迷你核弹一型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4458: Item = {
@@ -1372,8 +1614,10 @@ export const RangedWeapon_4458: Item = {
     id: 4458,
     name: "迷你核弹二型",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4459: Item = {
@@ -1382,8 +1626,10 @@ export const RangedWeapon_4459: Item = {
     id: 4459,
     name: "干火箭",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1261: Item = {
@@ -1392,8 +1638,10 @@ export const RangedWeapon_1261: Item = {
     id: 1261,
     name: "毒刺矢",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1785: Item = {
@@ -1402,8 +1650,10 @@ export const RangedWeapon_1785: Item = {
     id: 1785,
     name: "爆炸杰克南瓜灯",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3108: Item = {
@@ -1412,8 +1662,10 @@ export const RangedWeapon_3108: Item = {
     id: 3108,
     name: "钉子",
     Category: RangedWeapon,
+    SubCategory: Launcher,
     comments: "",
 }
+
 
 
 export const RangedWeapon_281: Item = {
@@ -1422,8 +1674,10 @@ export const RangedWeapon_281: Item = {
     id: 281,
     name: "吹管",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_930: Item = {
@@ -1432,8 +1686,10 @@ export const RangedWeapon_930: Item = {
     id: 930,
     name: "信号枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1319: Item = {
@@ -1442,8 +1698,10 @@ export const RangedWeapon_1319: Item = {
     id: 1319,
     name: "雪球炮",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_266: Item = {
@@ -1452,8 +1710,10 @@ export const RangedWeapon_266: Item = {
     id: 266,
     name: "沙枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_986: Item = {
@@ -1462,8 +1722,10 @@ export const RangedWeapon_986: Item = {
     id: 986,
     name: "吹箭筒",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3821: Item = {
@@ -1472,8 +1734,10 @@ export const RangedWeapon_3821: Item = {
     id: 3821,
     name: "麦芽酒投掷器",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3350: Item = {
@@ -1482,8 +1746,10 @@ export const RangedWeapon_3350: Item = {
     id: 3350,
     name: "彩弹枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_160: Item = {
@@ -1492,8 +1758,10 @@ export const RangedWeapon_160: Item = {
     id: 160,
     name: "鱼叉枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_197: Item = {
@@ -1502,8 +1770,10 @@ export const RangedWeapon_197: Item = {
     id: 197,
     name: "星星炮",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3210: Item = {
@@ -1512,8 +1782,10 @@ export const RangedWeapon_3210: Item = {
     id: 3210,
     name: "毒弹枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3007: Item = {
@@ -1522,8 +1794,10 @@ export const RangedWeapon_3007: Item = {
     id: 3007,
     name: "飞镖手枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3008: Item = {
@@ -1532,8 +1806,10 @@ export const RangedWeapon_3008: Item = {
     id: 3008,
     name: "飞镖步枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_905: Item = {
@@ -1542,8 +1818,10 @@ export const RangedWeapon_905: Item = {
     id: 905,
     name: "钱币枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4060: Item = {
@@ -1552,8 +1830,10 @@ export const RangedWeapon_4060: Item = {
     id: 4060,
     name: "超级星星炮",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_506: Item = {
@@ -1562,8 +1842,10 @@ export const RangedWeapon_506: Item = {
     id: 506,
     name: "火焰喷射器",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1156: Item = {
@@ -1572,8 +1854,10 @@ export const RangedWeapon_1156: Item = {
     id: 1156,
     name: "食人鱼枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1910: Item = {
@@ -1582,8 +1866,10 @@ export const RangedWeapon_1910: Item = {
     id: 1910,
     name: "精灵熔枪",
     Category: RangedWeapon,
+    SubCategory: OtherRangedWeapon,
     comments: "",
 }
+
 
 
 export const RangedWeapon_931: Item = {
@@ -1592,8 +1878,10 @@ export const RangedWeapon_931: Item = {
     id: 931,
     name: "照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1614: Item = {
@@ -1602,8 +1890,10 @@ export const RangedWeapon_1614: Item = {
     id: 1614,
     name: "蓝照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5377: Item = {
@@ -1612,8 +1902,10 @@ export const RangedWeapon_5377: Item = {
     id: 5377,
     name: "洞穴探险照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5378: Item = {
@@ -1622,8 +1914,10 @@ export const RangedWeapon_5378: Item = {
     id: 5378,
     name: "诅咒照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5379: Item = {
@@ -1632,8 +1926,10 @@ export const RangedWeapon_5379: Item = {
     id: 5379,
     name: "彩虹照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_5380: Item = {
@@ -1642,8 +1938,10 @@ export const RangedWeapon_5380: Item = {
     id: 5380,
     name: "微光照明弹",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_283: Item = {
@@ -1652,8 +1950,10 @@ export const RangedWeapon_283: Item = {
     id: 283,
     name: "种子",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1310: Item = {
@@ -1662,8 +1962,10 @@ export const RangedWeapon_1310: Item = {
     id: 1310,
     name: "毒镖",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3009: Item = {
@@ -1672,8 +1974,10 @@ export const RangedWeapon_3009: Item = {
     id: 3009,
     name: "水晶镖",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3010: Item = {
@@ -1682,8 +1986,10 @@ export const RangedWeapon_3010: Item = {
     id: 3010,
     name: "诅咒镖",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3011: Item = {
@@ -1692,8 +1998,10 @@ export const RangedWeapon_3011: Item = {
     id: 3011,
     name: "灵液镖",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_970: Item = {
@@ -1702,8 +2010,10 @@ export const RangedWeapon_970: Item = {
     id: 970,
     name: "红火箭",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_971: Item = {
@@ -1712,8 +2022,10 @@ export const RangedWeapon_971: Item = {
     id: 971,
     name: "绿火箭",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_972: Item = {
@@ -1722,8 +2034,10 @@ export const RangedWeapon_972: Item = {
     id: 972,
     name: "蓝火箭",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_973: Item = {
@@ -1732,8 +2046,10 @@ export const RangedWeapon_973: Item = {
     id: 973,
     name: "黄火箭",
     Category: RangedWeapon,
+    SubCategory: OtherBullet,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4343: Item = {
@@ -1742,8 +2058,10 @@ export const RangedWeapon_4343: Item = {
     id: 4343,
     name: "纸飞机",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_4344: Item = {
@@ -1752,8 +2070,10 @@ export const RangedWeapon_4344: Item = {
     id: 4344,
     name: "白纸飞机",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_949: Item = {
@@ -1762,8 +2082,10 @@ export const RangedWeapon_949: Item = {
     id: 949,
     name: "雪球",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_42: Item = {
@@ -1772,8 +2094,10 @@ export const RangedWeapon_42: Item = {
     id: 42,
     name: "手里剑",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1809: Item = {
@@ -1782,8 +2106,10 @@ export const RangedWeapon_1809: Item = {
     id: 1809,
     name: "臭蛋",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_279: Item = {
@@ -1792,8 +2118,10 @@ export const RangedWeapon_279: Item = {
     id: 279,
     name: "投刀",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_287: Item = {
@@ -1802,8 +2130,10 @@ export const RangedWeapon_287: Item = {
     id: 287,
     name: "毒刀",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1130: Item = {
@@ -1812,8 +2142,10 @@ export const RangedWeapon_1130: Item = {
     id: 1130,
     name: "蜜蜂手榴弹",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3379: Item = {
@@ -1822,8 +2154,10 @@ export const RangedWeapon_3379: Item = {
     id: 3379,
     name: "骨投刀",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_1913: Item = {
@@ -1832,8 +2166,10 @@ export const RangedWeapon_1913: Item = {
     id: 1913,
     name: "星形茴香",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_161: Item = {
@@ -1842,8 +2178,10 @@ export const RangedWeapon_161: Item = {
     id: 161,
     name: "尖球",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3094: Item = {
@@ -1852,8 +2190,10 @@ export const RangedWeapon_3094: Item = {
     id: 3094,
     name: "标枪",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3197: Item = {
@@ -1862,8 +2202,10 @@ export const RangedWeapon_3197: Item = {
     id: 3197,
     name: "寒霜飞鱼",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2590: Item = {
@@ -1872,8 +2214,10 @@ export const RangedWeapon_2590: Item = {
     id: 2590,
     name: "莫洛托夫鸡尾酒",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3378: Item = {
@@ -1882,8 +2226,10 @@ export const RangedWeapon_3378: Item = {
     id: 3378,
     name: "骨头标枪",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3548: Item = {
@@ -1892,8 +2238,10 @@ export const RangedWeapon_3548: Item = {
     id: 3548,
     name: "快乐手榴弹",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_168: Item = {
@@ -1902,8 +2250,10 @@ export const RangedWeapon_168: Item = {
     id: 168,
     name: "手榴弹",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_3116: Item = {
@@ -1912,8 +2262,10 @@ export const RangedWeapon_3116: Item = {
     id: 3116,
     name: "弹力手榴弹",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
+
 
 
 export const RangedWeapon_2586: Item = {
@@ -1922,6 +2274,7 @@ export const RangedWeapon_2586: Item = {
     id: 2586,
     name: "粘性手榴弹",
     Category: RangedWeapon,
+    SubCategory: Consumable,
     comments: "",
 }
 
