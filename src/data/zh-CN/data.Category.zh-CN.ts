@@ -1,10 +1,7 @@
-import type { Category } from "../Interface"
-
-export const AllItems: Category = {
-    value: "全部物品",
-    label: "全部物品",
+interface Category {
+    value: string;
+    label: string;
 }
-
 
 export const MeleeWeapon: Category = {
     value: "近战武器",
@@ -156,8 +153,12 @@ export const Miscellaneous: Category = {
     label: "杂项",
 }
 
+export const Kite: Category = {
+    value: "风筝",
+    label: "风筝",
+}
+
 export const Categories: Category[] = [
-    AllItems,
     MeleeWeapon,
     RangedWeapon,
     MagicWeapon,
@@ -187,5 +188,6 @@ export const Categories: Category[] = [
     Animal,
     MaterialItems,
     BossItem,
-    Miscellaneous
+    Miscellaneous,
+    Kite
 ];

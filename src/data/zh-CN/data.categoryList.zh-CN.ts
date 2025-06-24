@@ -1,4 +1,3 @@
-import {MedicineList} from "./data/data.Medicine.zh-CN.ts";
 import {MeleeWeaponList} from "./data/data.MeleeWeapon.zh-CN.ts";
 import {RangedWeaponList} from "./data/data.RangedWeapon.zh-CN.ts";
 import {MagicWeaponList} from "./data/data.MagicWeapon.zh-CN.ts";
@@ -15,6 +14,7 @@ import {ToolsList} from "./data/data.Tools.zh-CN.ts";
 import {CircuitList} from "./data/data.Circuit.zh-CN.ts";
 import {FishingItemList} from "./data/data.FishingItem.zh-CN.ts";
 import {FoodsList} from "./data/data.Foods.zh-CN.ts";
+import {MedicineList} from "./data/data.Medicine.zh-CN.ts";
 import {BlockList} from "./data/data.Block.zh-CN.ts";
 import {WallsList} from "./data/data.Walls.zh-CN.ts";
 import {FurnitureList} from "./data/data.Furniture.zh-CN.ts";
@@ -28,6 +28,7 @@ import {AnimalList} from "./data/data.Animal.zh-CN.ts";
 import {MaterialItemsList} from "./data/data.MaterialItems.zh-CN.ts";
 import {BossItemList} from "./data/data.BossItem.zh-CN.ts";
 import {MiscellaneousList} from "./data/data.Miscellaneous.zh-CN.ts";
+import {KiteList} from "./data/data.Kite.zh-CN.ts";
 
 export const categoryList = [
     ...MeleeWeaponList,
@@ -59,5 +60,6 @@ export const categoryList = [
     ...AnimalList,
     ...MaterialItemsList,
     ...BossItemList,
-    ...MiscellaneousList
+    ...MiscellaneousList,
+    ...KiteList
 ];

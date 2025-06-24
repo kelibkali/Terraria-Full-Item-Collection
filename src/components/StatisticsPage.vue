@@ -9,7 +9,7 @@ import {
 import { ElMessage } from 'element-plus';
 
 // 定义属性
-const totalCount = 5373; // 已知的总项目数量
+const totalCount = 5397; // 已知的总项目数量
 const emit = defineEmits(['loading-change']);
 
 // 图表引用
