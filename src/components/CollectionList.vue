@@ -14,7 +14,7 @@ const emit = defineEmits(['loading-change'])
 
 // ====== 数据初始化 ======
 const itemList = ref<Item[]>([])
-const selectedMainCategory = ref<string>('近战武器')
+const selectedMainCategory = ref<string>('全部物品')
 const searchQuery = ref<string>('')
 const currentPage = ref<number>(1)
 const pageSize = ref('20')

@@ -125,7 +125,8 @@ const renderBarChart = () => {
 
   // 准备xAxis数据 (格式化的日期字符串)
   const xAxisData = sortedDates.map(date =>
-      date.toLocaleDateString() // 或者使用其他格式如: `${date.getMonth()+1}/${date.getDate()}`
+      // date.toLocaleDateString()
+     `${date.getMonth()+1}/${date.getDate()}`
   );
 
   // 准备series数据 (收集数量)
@@ -164,7 +165,7 @@ const renderBarChart = () => {
         name: '收集数量',
         type: 'bar',
         data: seriesData,
-        barWidth: '10%', // 更宽的柱子
+        barWidth: '45%', // 更宽的柱子
         label: {
           show: true,
           position: 'top',
@@ -173,7 +174,6 @@ const renderBarChart = () => {
       }
     ]
   };
-
   chartInstance.value.setOption(option);
 };
 
@@ -240,8 +240,8 @@ onUnmounted(() => {
               <h3>收集情况图表</h3>
 
               <el-radio-group v-model="chartType" size="small">
-                <el-radio-button label="pie">饼图</el-radio-button>
-                <el-radio-button label="bar">柱状图</el-radio-button>
+                <el-radio-button label="pie" value="pie">饼图</el-radio-button>
+                <el-radio-button label="bar" value="bar">柱状图</el-radio-button>
               </el-radio-group>
 
             </div>
