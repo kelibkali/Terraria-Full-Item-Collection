@@ -1,69 +1,81 @@
 <script setup lang="ts">
-import {onMounted, ref} from "vue";
-import { useRouter } from "vue-router";
-import {
-  List,
-  DataAnalysis,
-} from '@element-plus/icons-vue';
+import { ref, watch } from "vue";
+import { useRouter, useRoute } from "vue-router";
+import { List, DataAnalysis,Document } from '@element-plus/icons-vue';
 
 const router = useRouter();
-const activeIndex = ref('/collection');
+const route = useRoute();
+const activeIndex = ref(route.path);
 
-const isLoading = ref(false)
+const isLoading = ref(false);
 
 const handleLoadingChange = (loading: boolean) => {
-  isLoading.value = loading
-}
+  isLoading.value = loading;
+};
 
-// 处理菜单选择
 const handleMenuSelect = (index: string) => {
   activeIndex.value = index;
   router.push(index);
 };
 
-// 初始化路由
-onMounted(() => {
-  router.push(activeIndex.value);
-})
+// 监听路由变化
+watch(() => route.path, (newPath) => {
+  activeIndex.value = newPath;
+});
+
+const isFullscreen = ref(route.meta.fullscreen);
+watch(() => route.meta.fullscreen, (newVal) => {
+  isFullscreen.value = newVal;
+});
 </script>
 
 <template>
-  <el-container style="height: 100vh;width: 100%;position: fixed">
-    <el-header style="background-color: #ffffff; box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); display: flex; align-items: center; justify-content: space-between; font-weight: bold; color: #333; border-bottom: 1px solid #dcdfe6;">
-      <span>全收集网站</span>
-    </el-header>
+    <!-- 判断是否为进度条 -->
+    <template v-if="!isFullscreen">
+      <el-container style="height: 100vh">
+        <el-header style="height: 5vh;align-items: center;justify-content: center;display: flex;user-select: none;border-bottom: 1px solid #dcdfe6" >
+          <h3>Terraria全收集网站</h3>
+        </el-header>
 
-    <el-container>
-      <el-aside width="200px" style="background-color: #f5f7fa; border-right: 1px solid #dcdfe6;">
-        <el-menu
-            :default-active="activeIndex"
-            router
-            @select="handleMenuSelect"
-        >
-          <el-menu-item index="/collection" >
-            <el-icon><List/></el-icon>
-            <span>收集列表</span>
-          </el-menu-item>
+        <el-container style="height: 95vh;">
+          <el-aside style="width:10vw;background-color: #f5f7fa; border-right: 1px solid #dcdfe6;display: flex;flex-direction: column;justify-content: space-between;">
+            <el-menu
+                :default-active="activeIndex"
+                router
+                @select="handleMenuSelect"
+                style="user-select: none"
+            >
+              <el-menu-item index="/collection" >
+                <el-icon><List/></el-icon>
+                <span>收集列表</span>
+              </el-menu-item>
+              <el-menu-item index="/statistics" >
+                <el-icon><DataAnalysis/></el-icon>
+                <span>统计图表</span>
+              </el-menu-item>
+              <el-menu-item index="/progress" >
+                <el-icon><Document/></el-icon>
+                <span>实时进度</span>
+              </el-menu-item>
+            </el-menu>
 
-          <el-menu-item index="/statistics" >
-            <el-icon><DataAnalysis/></el-icon>
-            <span>统计图表</span>
-          </el-menu-item>
+            <el-link href="https://beian.miit.gov.cn/" target="_blank" style="margin-bottom: 2rem" underline="none" >
+              粤ICP备2025437944号-1
+            </el-link>
+          </el-aside>
+          <el-main style="width: 90vw"  v-loading="isLoading" element-loading-text="正在加载中" element-loading-background="#fff" >
+            <router-view @loadingChange="handleLoadingChange"></router-view>
+          </el-main>
+        </el-container>
+      </el-container>
+    </template>
 
-        </el-menu>
-      </el-aside>
-      <el-main  v-loading="isLoading" element-loading-text="正在加载中" element-loading-background="#fff" style="overflow-y: auto;">
-        <router-view @loadingChange="handleLoadingChange"></router-view>
-      </el-main>
-    </el-container>
-  </el-container>
+    <template v-else>
+      <router-view></router-view>
+    </template>
 </template>
 
 <style scoped>
-.el-header {
-  padding: 0 20px;
-}
-
 .el-main {
   padding: 0;
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref, computed, onMounted, watch, onUnmounted} from 'vue';
+import {ref, computed, onMounted, onUnmounted} from 'vue';
 import * as echarts from 'echarts';
 import {
   Collection,
@@ -18,7 +18,6 @@ const chartInstance = ref<echarts.ECharts | null>(null);
 
 // 响应式数据
 const collectedItems = ref<{id: number, date: string}[]>([]);
-const chartType = ref('pie');
 
 // 计算属性
 const collectedCount = computed(() => collectedItems.value.length);
@@ -53,15 +52,7 @@ const initChart = () => {
   // 创建新图表实例
   chartInstance.value = echarts.init(chartRef.value);
 
-  // 根据选择的图表类型渲染
-  switch (chartType.value) {
-    case 'pie':
-      renderPieChart();
-      break;
-    case 'bar':
-      renderBarChart();
-      break;
-  }
+  renderPieChart();
 };
 
 // 渲染饼图
@@ -106,82 +97,6 @@ const renderPieChart = () => {
   chartInstance.value.setOption(option);
 };
 
-// 渲染柱状图
-const renderBarChart = () => {
-  if (!chartInstance.value) return;
-
-  const collectedData = collectedItems.value.reduce((acc, cur) => {
-    const dateStr = cur.date ? cur.date.trim() : '';
-    if (dateStr) {
-      acc[dateStr] = (acc[dateStr] || 0) + 1;
-    }
-    return acc;
-  }, {} as Record<string, number>);
-
-  // 获取排序后的日期数组
-  const sortedDates = Object.keys(collectedData)
-      .map(dateStr => new Date(dateStr))
-      .sort((a, b) => a.getTime() - b.getTime());
-
-  // 准备xAxis数据 (格式化的日期字符串)
-  const xAxisData = sortedDates.map(date =>
-      // date.toLocaleDateString()
-     `${date.getMonth()+1}/${date.getDate()}`
-  );
-
-  // 准备series数据 (收集数量)
-  const seriesData = sortedDates.map(date =>
-      collectedData[date.toISOString().split('T')[0]] // 根据原始格式获取数量
-  );
-
-  const option = {
-    tooltip: {
-      trigger: 'axis',
-      axisPointer: { type: 'shadow' },
-    },
-    grid: {
-      left: '3%',
-      right: '4%',
-      bottom: '20%', // 为日期标签留出空间
-      top: '15%',
-      containLabel: true
-    },
-    xAxis: {
-      type: 'category', // 关键修改：使用类目轴而非时间轴
-      name: '日期',
-      data: xAxisData,   // 直接使用日期字符串数组
-      axisLabel: {
-        interval: 0,    // 强制显示所有标签
-        rotate: 0,     // 旋转标签防止重叠
-      }
-    },
-    yAxis: {
-      type: 'value',
-      name: '收集数量',
-      minInterval: 1 // 确保Y轴显示整数
-    },
-    series: [
-      {
-        name: '收集数量',
-        type: 'bar',
-        data: seriesData,
-        barWidth: '45%', // 更宽的柱子
-        label: {
-          show: true,
-          position: 'top',
-          formatter: '{c}' // 只显示收集数量
-        }
-      }
-    ]
-  };
-  chartInstance.value.setOption(option);
-};
-
-// 监听图表类型变化
-watch(chartType, () => {
-  initChart();
-});
-
 // 组件挂载时初始化
 onMounted(() => {
   emit('loading-change', false);
@@ -199,12 +114,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <el-container style=" align-items: center;">
+  <el-container style="align-items: center;user-select: none">
     <el-header>
       <h2>收集统计</h2>
     </el-header>
     <el-main style="width: 80%">
-      <el-scrollbar height="1000px">
         <div class="stats-overview">
           <el-card class="stat-card">
             <div class="stat-content">
@@ -238,18 +152,11 @@ onUnmounted(() => {
           <el-card class="chart-card">
             <div class="chart-header">
               <h3>收集情况图表</h3>
-
-              <el-radio-group v-model="chartType" size="small">
-                <el-radio-button label="pie" value="pie">饼图</el-radio-button>
-                <el-radio-button label="bar" value="bar">柱状图</el-radio-button>
-              </el-radio-group>
-
             </div>
 
             <div ref="chartRef" class="chart" style="height: 400px;"></div>
           </el-card>
         </div>
-      </el-scrollbar>
     </el-main>
   </el-container>
 </template>

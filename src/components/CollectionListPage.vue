@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import {ref, computed, onMounted, watch} from 'vue'
 
-import type {Item} from '../data/Interface'
+import type {Item} from '../data/Interface.ts'
 import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
 // import { categoryList } from '../data/zh-CN/data.categoryList.zh-CN.ts';
 
 import * as XLSX from 'xlsx'
 import {ElMessage} from "element-plus";
 import VersionDialog from "./VersionDialog.vue";
+import axios from "axios";
 
 // ====== 定义事件 ======
 const emit = defineEmits(['loading-change'])
@@ -43,7 +44,7 @@ const filteredItemList = computed(() => {
     result = result.filter(item => item.name.toLowerCase().includes(query))
   }
 
-  // 🔽 新增逻辑：如果未选择主分类，则按 id 升序排序
+  //如果未选择主分类，则按 id 升序排序
   if (!selectedMainCategory.value || selectedMainCategory.value === "all") {
     result = [...result].sort((a, b) => a.id - b.id)
   }
@@ -83,6 +84,8 @@ const handleCollect = (item: Item) => {
   if(item.isCollection)
   item.date = formatDate(new Date())
   else item.date = ""
+
+
 }
 
 function formatDate(date: Date):string {
@@ -97,10 +100,7 @@ function formatDate(date: Date):string {
 const loadData = async () => {
   emit('loading-change', true) // 通知父组件开始加载
   try {
-    // 模拟异步加载（实际项目中替换为API请求）
-    await new Promise(resolve => setTimeout(resolve, 1000))
-
-    // 动态导入硬编码数据
+    // 导入硬编码数据
     const categoryListModule = await import('../data/zh-CN/data.categoryList.zh-CN.ts')
 
     // 初始化数据
@@ -157,7 +157,7 @@ onMounted(async () => {
 });
 
 // 保存收集状态（动态策略）
-const saveCollections = () => {
+const saveCollections = async () => {
   // 创建包含收集日期信息的数组
   const collectionData = itemList.value
       .filter(item => item.isCollection)
@@ -171,6 +171,23 @@ const saveCollections = () => {
     data: collectionData,
     lastSaved: new Date().toISOString()
   }));
+
+
+  let localUserId = localStorage.getItem('userId')
+  if(localUserId){
+    try{
+      const r = await axios.post(
+          "http://localhost:8080/update",
+          {
+            "userId": localUserId,
+            "number": itemList.value.filter(item => item.isCollection).length,
+          }
+      )
+      console.log(r)
+    }catch(error){
+    }
+  }
+
 }
 
 // 监听收集状态变化（使用防抖）
@@ -290,7 +307,11 @@ const handleUpload = (uploadFile: any) => {
 
         // 验证 JSON 格式
         if (!jsonData.data || !Array.isArray(jsonData.data)) {
-          throw new Error("JSON 格式不正确，缺少 'data' 数组");
+          ElMessage.error({
+            message: "JSON 格式不正确",
+            duration: 2000,
+          })
+          return
         }
 
         // 创建 ID 到日期数据的映射
@@ -306,10 +327,6 @@ const handleUpload = (uploadFile: any) => {
           if (dateMap.has(item.id)) {
             item.isCollection = true;
             item.date = dateMap.get(item.id)!;
-          } else {
-            // 可选：如果不在导入数据中，则取消收集
-            // item.isCollection = false;
-            // item.collectionDate = '';
           }
         });
 
@@ -350,13 +367,13 @@ const handleUpload = (uploadFile: any) => {
 
   <VersionDialog/>
 
-  <el-container style="height: calc(100vh - 60px); overflow-y: auto; align-items: center;">
+  <el-container style="height: 100%; align-items: center;">
     <el-header
-        style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 20px; width: 100%">
-      <div style="display: flex; align-items: center; width:500px">
-        <el-progress :percentage="Number(completionPercentage)" :stroke-width="12" style="width: 300px;margin-top:1px"
+        style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 2rem; width: 100%">
+      <div style="display: flex; align-items: center; width:40rem">
+        <el-progress :percentage="Number(completionPercentage)" :stroke-width="12" style="width: 20rem;"
                      striped striped-flow :duration="20"></el-progress>
-        <el-text tag="div" style="margin-left: 15px;">
+        <el-text style="margin-left: 1rem;">
           已收集: {{ collectedCount }}/{{ filteredItemList.length }}
         </el-text>
       </div>
@@ -374,7 +391,7 @@ const handleUpload = (uploadFile: any) => {
           <template #content>
             支持导入文件如下
             <br/>
-            <a class="a-class" href="https://space.bilibili.com/2075535" target="_blank">@404岛主</a> 发布的【泰拉瑞亚1449全收集列表】
+            <a class="link" href="https://space.bilibili.com/2075535" target="_blank">@404岛主</a> 发布的【泰拉瑞亚1449全收集列表】
             <br/>
             从本站导出的json格式文件
             <br/>
@@ -397,11 +414,11 @@ const handleUpload = (uploadFile: any) => {
         <el-input
             v-model="searchQuery"
             placeholder="搜索物品名称"
-            style="width: 200px;"
+            style="width: 13rem;"
             clearable
         />
 
-        <el-select v-model="filterStatus" placeholder="筛选状态" style="width: 200px;">
+        <el-select v-model="filterStatus" placeholder="筛选状态" style="width: 13rem;">
           <el-option label="显示全部" value="全部"/>
           <el-option label="只显示已收集" value="已收集"/>
           <el-option label="只显示未收集" value="未收集"/>
@@ -413,18 +430,17 @@ const handleUpload = (uploadFile: any) => {
             check-strictly
             :render-after-expand="false"
             placeholder="筛选分类"
-            style="width: 200px;"
+            style="width: 13rem;"
         />
       </div>
     </el-header>
 
-    <el-main style="padding: 20px;">
+    <el-main>
       <!-- 表格 -->
       <el-table
           :data="paginatedItemList"
           border
           height="100%"
-          style="width: 1300px;"
           row-key="id"
       >
         <el-table-column label="已收集" width="80" align="center">
@@ -462,7 +478,7 @@ const handleUpload = (uploadFile: any) => {
         <el-table-column label="收集日期" width="150" align="center">
           <template #default="scope">{{ scope.row.date }}</template>
         </el-table-column>
-        <el-table-column prop="comments" label="备注" align="center"/>
+        <el-table-column prop="comments" label="备注" width="150" align="center"/>
       </el-table>
     </el-main>
     <el-footer style="width:77%;display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem">
@@ -496,7 +512,7 @@ const handleUpload = (uploadFile: any) => {
   object-fit: contain;
 }
 
-.a-class {
+.link {
   text-decoration: none;
   color: SkyBlue;
 }

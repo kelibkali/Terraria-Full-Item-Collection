@@ -29,23 +29,12 @@ onMounted(()=>{
 <template>
   <el-dialog v-model="isVisible" width="500px" title="请仔细阅读以下文字" center>
     <span>
-       温馨提示：为了获得最佳体验，请前往网盘检查是否发布了最新版本。
-      <br/>
-      <br/>
-      此版本为<span style="color:Red">1.0.3</span>版本
+      此版本为<span style="color:Red">1.1.0</span>版本
       <br/>
       <br/>
       支持了以下功能：
       <br/>
-      上传表格同步数据
-      <br/>
-      根据是否收集分类
-      <br/>
-      <br/>
-      <a class="a-class" href="https://wwut.lanzoul.com/b00csc983e" target="_blank">点击这里访问网盘</a>
-      <br/>
-      密码:ezbe
-      <br/>
+      同步进度,支持直播添加源,实时跟踪进度
       <br/>
       <br/>
       特别鸣谢：<a class="a-class" href="https://space.bilibili.com/2075535" target="_blank">@404岛主</a> 提供原始数据
