@@ -176,7 +176,7 @@ const saveCollections = async () => {
   if(localUserId){
     try{
       const r = await axios.post(
-          "http://localhost:8080/update",
+          "http://terrariafc.com:8080/update",
           {
             "userId": localUserId,
             "number": itemList.value.filter(item => item.isCollection).length,

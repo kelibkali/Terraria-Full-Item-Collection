@@ -4,6 +4,7 @@ import {onMounted, ref} from "vue";
 import {ElMessage} from "element-plus";
 import axios from "axios";
 import { DocumentCopy } from "@element-plus/icons-vue"
+import {copyStr} from "../utils/copyStr.ts";
 
 const localUserId = ref("")
 
@@ -17,8 +18,7 @@ const buttonText = ref("生成用户凭证")
 
 const emit = defineEmits(['loading-change']);
 
-//TODO:部署时修改为 terrariafc.com
-const link = ref("http://localhost:5173/progressbar?id=")
+const link = ref("http://terrariafc.com/progressbar?id=")
 
 const loadUserData = () => {
   const userId = localStorage.getItem('userId')
@@ -47,7 +47,7 @@ const loadCollectionData = () =>{
 const handleGenerateUserId = async () => {
   try{
     const response = await axios.get(
-        "http://localhost:8080/userId"
+        "http://terrariafc.com:8080/userId"
     )
     localUserId.value = response.data
     saveUserData(response.data)
@@ -56,8 +56,7 @@ const handleGenerateUserId = async () => {
     console.log(collectedCount.value)
     try{
       const r = await axios.post(
-          //TODO:更换域名
-          "http://localhost:8080/update",
+          "http://terrariafc.com:8080/update",
           {
             "userId": localUserId.value,
             "number": collectedCount.value,
@@ -124,7 +123,7 @@ onMounted(()=>{
               {{link}}{{localUserId}}
             </el-text>
 
-            <el-button type="success" style="margin-left: 1rem">
+            <el-button @click="copyStr(link+localUserId)" type="success" style="margin-left: 1rem">
               <el-icon style="margin-right: 0.5rem">
                 <DocumentCopy/>
               </el-icon>
