@@ -172,7 +172,6 @@ const saveCollections = async () => {
     lastSaved: new Date().toISOString()
   }));
 
-
   let localUserId = localStorage.getItem('userId')
   if(localUserId){
     try{
@@ -187,7 +186,6 @@ const saveCollections = async () => {
     }catch(error){
     }
   }
-
 }
 
 // 监听收集状态变化（使用防抖）
