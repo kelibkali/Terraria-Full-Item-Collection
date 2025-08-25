@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import { List, DataAnalysis,Document } from '@element-plus/icons-vue';
+import { List, DataAnalysis,Document,Bell } from '@element-plus/icons-vue';
+import VersionDialog from "./components/VersionDialog.vue";
 
 const router = useRouter();
 const route = useRoute();
 const activeIndex = ref(route.path);
 
 const isLoading = ref(false);
+
+const showAnnouncement = ref(false);
 
 const handleLoadingChange = (loading: boolean) => {
   isLoading.value = loading;
@@ -35,6 +38,13 @@ watch(() => route.meta.fullscreen, (newVal) => {
       <el-container style="height: 100vh">
         <el-header style="height: 5vh;align-items: center;justify-content: center;display: flex;user-select: none;border-bottom: 1px solid #dcdfe6" >
           <h3>Terraria全收集网站</h3>
+
+          <el-button style="position: absolute;right: 4rem" type="primary"  @click="showAnnouncement = true">
+            <el-icon style="margin-right: 0.5rem">
+              <Bell/>
+            </el-icon>
+            查看公告
+          </el-button>
         </el-header>
 
         <el-container style="height: 95vh;">
@@ -64,6 +74,9 @@ watch(() => route.meta.fullscreen, (newVal) => {
             </el-link>
           </el-aside>
           <el-main style="width: 90vw"  v-loading="isLoading" element-loading-text="正在加载中" element-loading-background="#fff" >
+
+            <VersionDialog v-model="showAnnouncement"/>
+
             <router-view @loadingChange="handleLoadingChange"></router-view>
           </el-main>
         </el-container>

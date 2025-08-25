@@ -363,8 +363,6 @@ const handleUpload = (uploadFile: any) => {
 
 <template>
 
-  <VersionDialog/>
-
   <el-container style="height: 100%; align-items: center;">
     <el-header
         style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 0 2rem; width: 100%">

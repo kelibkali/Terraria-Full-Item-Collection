@@ -1,8 +1,17 @@
 <script setup lang="ts">
 
-import {onMounted, ref} from "vue";
+import {onMounted, ref, watch} from "vue";
 
-const isVisible = ref(false)
+const props = defineProps({
+  modelValue: {
+    type: Boolean,
+    default: false
+  }
+});
+
+const emit = defineEmits(['update:modelValue']);
+
+const isVisible = ref(props.modelValue)
 const lastVisit = localStorage.getItem('lastVisit')
 const daysThreshold = 3
 
@@ -10,19 +19,29 @@ const daysThreshold = 3
 const handleClose = () => {
   isVisible.value = false
   localStorage.setItem('lastVisit', Date.now().toString())
+  emit('update:modelValue', false);
 }
 
-onMounted(()=>{
-  if(lastVisit){
-    const diffTime = Math.abs(Date.now() - Number(lastVisit))
-    const diffDays = Math.ceil(diffTime / (1000 * 60 *60 *24))
-    if(diffDays >= daysThreshold){
-      isVisible.value = true
+watch(() => props.modelValue, (newVal) => {
+  isVisible.value = newVal;
+});
+
+onMounted(() => {
+  // 组件挂载时根据 localStorage 逻辑决定是否显示
+  if (!props.modelValue) { // 只有当父组件没有强制设为 true 时才检查
+    if (lastVisit) {
+      const diffTime = Math.abs(Date.now() - Number(lastVisit));
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      if (diffDays >= daysThreshold) {
+        isVisible.value = true;
+        emit('update:modelValue', true); // 通知父组件状态变更
+      }
+    } else {
+      isVisible.value = true;
+      emit('update:modelValue', true); // 通知父组件状态变更
     }
-  }else {
-    isVisible.value = true
+    console.log("AnnouncementDialog mounted, isVisible:", isVisible.value);
   }
-  console.log(isVisible)
 })
 </script>
 
