@@ -7,7 +7,6 @@ import {Categories} from "../data/zh-CN/data.Category.zh-CN.ts";
 
 import * as XLSX from 'xlsx'
 import {ElMessage} from "element-plus";
-import VersionDialog from "./VersionDialog.vue";
 import axios from "axios";
 
 // ====== 定义事件 ======
